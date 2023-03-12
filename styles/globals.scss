@@ -1,11 +1,13 @@
-// font family
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
 // different screen/devices
 $Phone-width:  500px;
 $tablet-width:  768px;
 $desktop-width:  1024px;
+
+
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 
 //global css
 * {
@@ -59,9 +61,9 @@ Variables
 }
 
   // small screen
-  @media screen and (max-width:#{$phone-width}) {
+  // @media screen and (max-width:#{$phone-width}) {
     
-  }
-  @media screen and (max-width:#{$tablet-width}) {
+  // }
+  // @media screen and (max-width:#{$tablet-width}) {
     
-  }
+  // }
