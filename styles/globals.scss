@@ -5,7 +5,7 @@ $desktop-width:  1024px;
 
 
 // font family
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 //global css
@@ -23,18 +23,22 @@ $desktop-width:  1024px;
   body {
   padding: 0;
   margin: 0;
-  font-family: "Livvic",  sans-serif;
+  font-family: Livvic, sans-serif;
   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  color: var(--natural-clr-3);
+  font-size: 16px;
+   line-height: 1.6;
 }
 code{
-    font-family: "Rajdhani", sans-serif;
+    font-family: Rajdhani, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
   font-weight: bold;
+  background-color: transparent;
 }
 ul{
   text-decoration: none;
@@ -55,13 +59,18 @@ Css Variables
   --natural-clr-4: #043676;
   --natural-clr-5: #1E1717;
   --natural-clr-6: #FBF4F4;
-  --natural-clr-7: #FFFFFF;
+  --clr-white: #FFFFFF;
+  --clr-black: #000000;
   --natural-clr-8: #dddddd;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
   --bg-hover-clr-1: rgba(0, 119, 182, 0.95);
   --bg-hover-clr-2: rgba(3, 43, 69, 0.92);
   --transition-bg:300ms ease-in-out;
   --line-height:1.08;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1,
@@ -139,7 +148,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // padding:  1rem !important;
+  padding:  1rem !important;
+}
+.nav-link{
+  padding: 0px;
+color: var(--clr-primary-2);
+font-size: 20px;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -153,23 +167,15 @@ nav {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
-.logo {
-  height: 40px;
-  color: var(--button-color);
-  background-color: var(--clr-orange-600);
-}
+
 .brand-logo{
   height: auto;
-  width: 100px;
+  width: 70px;
 }
-.logo{
-width: 150px;
-height:auto;
-margin-left: 7rem;
-}
+
 .links a {
-  color: var(--clr-primary-3) !important;
-  font-size: 1rem;
+  color: var(--clr-primary-2) !important;
+  font-size: 20px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -183,9 +189,30 @@ margin-left: 7rem;
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  font-family: Rajdhani, sans-serif;
 }
 .show-container {
   height: 10rem;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.quote-primary.small{
+  padding: 7px 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.quote-primary {
+  margin: 0 0.5rem;
+  color: var(--clr-white);
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+  transition: background-color 300ms ease-in-out;
+  font-family: Rajdhani, sans-serif !important;
+  font-weight: 600;
+ text-decoration: none;
 }
 @media screen and (min-width:#{$tablet-width}) {
   .nav-center {
@@ -232,6 +259,7 @@ margin-left: 7rem;
     display: flex;
     font-size: 1.5rem;
   }
+  
   .social-icons a {
     margin: 0 0.5rem;
     color: var(--clr-primary-5);
@@ -239,9 +267,9 @@ margin-left: 7rem;
   }
   .social-icons li:hover {
     color: var(--clr-white) !important;
-    transition: 0.9s;
-    border-radius: 6px;
-    background-color: var(--clr-primary-4);
+      transition: 0.9s;
+      border-radius: 6px;
+      background-color: var(--clr-primary-4);
   }
 }
 

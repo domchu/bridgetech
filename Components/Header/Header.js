@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 // import { links, social } from "../Navbar/Navdata";
-// import outline from "../../public/images/outline.png";
+import action from "../../public/images/action.png";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
         <Box className="nav-center">
           {/* the logo section */}
           <Box className="nav-header">
-            {/* <Image src={outline} className="brand-logo" alt="brand Logo" /> */}
+            <Image src={action} className="brand-logo" alt="brand Logo" />
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}
@@ -34,49 +34,47 @@ const Navbar = () => {
             </button>
           </Box>
           {/* the navbar section */}
-          <Box className="links-container" ref={linksContainerRef}>
+          <div className="links-container" ref={linksContainerRef}>
             <ul className="links" ref={linksRef}>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Pages
                 </Link>
               </li>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/" passhref="true">
+                <Link href="/" className="nav-link" passhref="true">
                   Contact
                 </Link>
               </li>
             </ul>
-          </Box>
-          {/* the social media section */}
-          <Box>
-            <ul className="social-icons">
-              <li>
-                <Link href="" passhref="true">
-                  Get a quote
-                </Link>
-              </li>
-            </ul>
+          </div>
+          {/* the Quotes section */}
+          <Box className="social-icons">
+            <li className="quote-primary small">
+              <Link href="/" passhref="true">
+                Get a quote
+              </Link>
+            </li>
           </Box>
         </Box>
       </nav>
