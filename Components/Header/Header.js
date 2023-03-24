@@ -3,8 +3,8 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
-import { links, social } from "../Navbar/Navdata";
-import outline from "../../public/images/outline.png";
+// import { links, social } from "../Navbar/Navdata";
+// import outline from "../../public/images/outline.png";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
         <Box className="nav-center">
           {/* the logo section */}
           <Box className="nav-header">
-            <Image src={outline} className="brand-logo" alt="brand Logo" />
+            {/* <Image src={outline} className="brand-logo" alt="brand Logo" /> */}
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}
@@ -36,20 +36,20 @@ const Navbar = () => {
           {/* the navbar section */}
           <div className="links-container" ref={linksContainerRef}>
             <ul className="links" ref={linksRef}>
-              {links.map((link) => {
-                const { id, url, text } = link;
-                return (
-                  <li key={id}>
-                    <Link href={url} passhref="true">
-                      {text}
-                    </Link>
-                  </li>
-                );
-              })}
+              {/* {links.map((link) => { */}
+              {/* const { id, url, text } = link; */}
+              {/* return ( */}
+              <li>
+                <Link href="/" passhref="true">
+                  Home
+                </Link>
+              </li>
+              {/* ); */}
+              {/* })} */}
             </ul>
           </div>
           {/* the social media section */}
-          <Box>
+          {/* <Box>
             <ul className="social-icons">
               {social.map((socialIcon) => {
                 const { id, url, icon } = socialIcon;
@@ -62,7 +62,7 @@ const Navbar = () => {
                 );
               })}
             </ul>
-          </Box>
+          </Box> */}
         </Box>
       </nav>
     </>
