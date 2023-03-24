@@ -34,35 +34,50 @@ const Navbar = () => {
             </button>
           </Box>
           {/* the navbar section */}
-          <div className="links-container" ref={linksContainerRef}>
+          <Box className="links-container" ref={linksContainerRef}>
             <ul className="links" ref={linksRef}>
-              {/* {links.map((link) => { */}
-              {/* const { id, url, text } = link; */}
-              {/* return ( */}
               <li>
                 <Link href="/" passhref="true">
                   Home
                 </Link>
               </li>
-              {/* ); */}
-              {/* })} */}
+              <li>
+                <Link href="/" passhref="true">
+                  Pages
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passhref="true">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passhref="true">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passhref="true">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passhref="true">
+                  Contact
+                </Link>
+              </li>
             </ul>
-          </div>
+          </Box>
           {/* the social media section */}
-          {/* <Box>
+          <Box>
             <ul className="social-icons">
-              {social.map((socialIcon) => {
-                const { id, url, icon } = socialIcon;
-                return (
-                  <li key={id}>
-                    <Link href={url} passhref="true">
-                      {icon}
-                    </Link>
-                  </li>
-                );
-              })}
+              <li>
+                <Link href="" passhref="true">
+                  Get a quote
+                </Link>
+              </li>
             </ul>
-          </Box> */}
+          </Box>
         </Box>
       </nav>
     </>
