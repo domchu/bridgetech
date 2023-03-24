@@ -23,15 +23,12 @@ $desktop-width:  1024px;
   body {
   padding: 0;
   margin: 0;
-  font-family: Livvic, sans-serif;
+  font-family: Rajdhani, sans-serif;
   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   color: var(--natural-clr-3);
   font-size: 16px;
    line-height: 1.6;
-}
-code{
-    font-family: Rajdhani, sans-serif;
 }
 
 a {
@@ -94,10 +91,10 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
-}
+// p {
+//   margin-bottom: 1.25rem;
+//   color: var(--clr-grey-5);
+// }
 @media screen and (min-width:#{$phone-width}) {
   h1 {
     font-size: 4rem;
@@ -174,17 +171,17 @@ font-size: 20px;
 }
 
 .links a {
-  color: var(--clr-primary-2) !important;
+  color: var(--clr-primary-2);
   font-size: 20px;
-  text-transform: capitalize;
+  font-family: Rajdhani, sans-serif !important;
   letter-spacing: var(--spacing);
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);  
 }
-.social-icons {
-  display: none;
-}
+// .social-icons {
+//   display: none;
+// }
 .links-container {
   height: 0;
   overflow: hidden;
@@ -210,7 +207,6 @@ font-size: 20px;
   color: var(--clr-white);
   background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
-  font-family: Rajdhani, sans-serif !important;
   font-weight: 600;
  text-decoration: none;
 }

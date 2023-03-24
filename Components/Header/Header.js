@@ -47,22 +47,22 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link href="/services" className="nav-link" passhref="true">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link href="/projects" className="nav-link" passhref="true">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link href="/blog" className="nav-link" passhref="true">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link href="/contact" className="nav-link" passhref="true">
                   Contact
                 </Link>
               </li>
