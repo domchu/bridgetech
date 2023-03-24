@@ -149,8 +149,8 @@ nav {
 }
 .nav-link{
   padding: 0px;
-color: var(--clr-primary-2);
-font-size: 20px;
+  color: var(--clr-primary-2);
+   font-size: 20px;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -164,24 +164,34 @@ font-size: 20px;
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
-
 .brand-logo{
   height: auto;
   width: 70px;
 }
-
-.links a {
+.links li a {
   color: var(--clr-primary-2);
   font-size: 20px;
   font-family: Rajdhani, sans-serif !important;
-  letter-spacing: var(--spacing);
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   transition: var(--transition);  
 }
-// .social-icons {
-//   display: none;
-// }
+.links li a::after {
+  content: "";
+  height: 3px;
+  margin: auto;
+  width: 0;
+  display: block;
+  // color: var(--clr-primary-3);
+  background-color: red;
+  // background-color: var(--clr-primary-3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.links li a:hover::after {
+  width: 100%;
+}
+
 .links-container {
   height: 0;
   overflow: hidden;
@@ -200,9 +210,10 @@ font-size: 20px;
   border-radius: 20px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: -0.2px;
+  
 }
 .quote-primary {
+  font-family: Rajdhani, sans-serif;
   margin: 0 0.5rem;
   color: var(--clr-white);
   background-image: linear-gradient(270deg, #030b63, #0179af);
