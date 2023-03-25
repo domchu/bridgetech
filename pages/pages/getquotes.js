@@ -1,10 +1,12 @@
 import React from 'react'
 import Head from "next/head"
+import Header from "../../Components/Header/Header";
+import Topnav from "../../Components/Topnav/Topnav";
 
 const getquotes = () => {
   return (
     <>
-       <Head>
+      <Head>
         <title>BridgeTech | Get Quotes</title>
         <meta
           name="courses"
@@ -12,8 +14,10 @@ const getquotes = () => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Topnav />
+      <Header />
     </>
-  )
-}
+  );
+};
 
 export default getquotes

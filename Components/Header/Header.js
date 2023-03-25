@@ -24,7 +24,9 @@ const Navbar = () => {
         <Box className="nav-center">
           {/* the logo section */}
           <Box className="nav-header">
-            <Image src={action} className="brand-logo" alt="brand Logo" />
+            <Link href="/">
+              <Image src={action} className="brand-logo" alt="brand Logo" />
+            </Link>
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}

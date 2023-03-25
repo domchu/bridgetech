@@ -208,6 +208,7 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+
 @media screen and (min-width:#{$tablet-width}) {
   .nav-center {
     max-width: 1170px;
@@ -274,8 +275,34 @@ nav {
     background-color: var(--primary-clr-3);
   }
 }
-@media screen and (min-width:#{$phone-width}) {
- 
+
+//topnav css
+.topnav-container{
+  border-bottom: 1px solid var(--primary-clr-3);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.topnav-links a{
+color: var(--primary-clr-3);
+font-weight: 500;
+}
+.topnav-links a:hover{
+  color: var(--primary-clr-1);
+  transition: var(--transition);
+}
+.divider{
+  height: 12px;
+  border: 1px solid var(--primary-clr-3);
+  margin: 0px .5rem;
+}
+
+@media screen and (max-width:#{$phone-width}) {
+ .divider{
+  display: none;
+ }
+ .register{
+  margin-left: 1rem;
+ }
 }
 
  
