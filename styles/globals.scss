@@ -80,7 +80,7 @@ h4 {
   margin-bottom: 0.75rem;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 h2 {
   font-size: 2rem;
@@ -145,7 +145,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:  1rem !important;
+  // padding:  1rem ;
 }
 .nav-link{
   padding: 0px;
@@ -154,7 +154,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);

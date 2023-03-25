@@ -72,7 +72,7 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -137,7 +137,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem !important;
 }
 
 .nav-link {
@@ -148,7 +147,7 @@ nav {
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);

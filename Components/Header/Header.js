@@ -3,7 +3,6 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
-// import { links, social } from "../Navbar/Navdata";
 import action from "../../public/images/action.png";
 
 const Navbar = () => {
@@ -42,7 +41,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link href="/pages/" className="nav-link" passhref="true">
                   Pages
                 </Link>
               </li>
@@ -62,7 +61,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="nav-link" passhref="true">
+                <Link href="/contactus" className="nav-link" passhref="true">
                   Contact
                 </Link>
               </li>
