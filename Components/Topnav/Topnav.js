@@ -7,7 +7,7 @@ const Topnav = () => {
     <>
       <Flex
         className="topnav-container"
-        justifyContent="space-around"
+        justifyContent="space-between"
         margin="auto"
         width="80%"
         align="center"
@@ -15,16 +15,23 @@ const Topnav = () => {
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
       >
         <Box>
-          <Flex>
+          <Flex
+            justifyContent="center"
+            align="center"
+            textAlign="center"
+            height="auto"
+            margin="auto"
+          >
             <Box>
-              <li>
+              <li className="topnav-links">
                 <Link href="/" passhref="true">
                   info@example.com
                 </Link>
               </li>
             </Box>
+            <div className="divider" />
             <Box>
-              <li>
+              <li className="topnav-links">
                 <Link href="Tel:+234 07034278995" passhref="true">
                   +234 (0) 70 3427 8995
                 </Link>
@@ -33,16 +40,23 @@ const Topnav = () => {
           </Flex>
         </Box>
         <Box>
-          <Flex>
+          <Flex
+            justifyContent="center"
+            align="center"
+            textAlign="center"
+            height="auto"
+            margin="auto"
+          >
             <Box>
-              <li>
+              <li className="topnav-links">
                 <Link href="/access/login" passhref="true">
                   Login
                 </Link>
               </li>
             </Box>
+            <div className="divider" />
             <Box>
-              <li>
+              <li className="topnav-links">
                 <Link href="/access/signin" passhref="true">
                   Register
                 </Link>

@@ -286,4 +286,19 @@ nav {
   border-bottom: 1px solid var(--primary-clr-3);
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.topnav-links a {
+  color: var(--primary-clr-3);
+  font-weight: 500;
+}
+
+.topnav-links a:hover {
+  color: var(--primary-clr-1);
+}
+
+.divider {
+  height: 15px;
+  border: 1px solid var(--primary-clr-3);
+  margin: 0px 0.5rem;
 }/*# sourceMappingURL=globals.css.map */
