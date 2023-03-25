@@ -208,6 +208,7 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+
 @media screen and (min-width:#{$tablet-width}) {
   .nav-center {
     max-width: 1170px;
