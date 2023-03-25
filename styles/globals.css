@@ -52,8 +52,8 @@ Css Variables
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
-  --bg-hover-clr-1: rgba(0, 119, 182, 0.95);
-  --bg-hover-clr-2: rgba(3, 43, 69, 0.92);
+  --hover-clr-1: rgba(0, 119, 182, 0.95);
+  --hover-clr-2: rgba(3, 43, 69, 0.92);
   --transition:300ms ease-in-out;
   --line-height:1.08;
   --spacing: 0.1rem;

@@ -25,10 +25,10 @@ $desktop-width:  1024px;
   margin: 0;
   font-family: Rajdhani, sans-serif;
   -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
   color: var(--natural-clr-3);
   font-size: 16px;
-   line-height: 1.6;
+  line-height: 1.6;
 }
 
 a {
@@ -60,8 +60,8 @@ Css Variables
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
-  --bg-hover-clr-1: rgba(0, 119, 182, 0.95);
-  --bg-hover-clr-2: rgba(3, 43, 69, 0.92);
+  --hover-clr-1: rgba(0, 119, 182, 0.95);
+  --hover-clr-2: rgba(3, 43, 69, 0.92);
   --transition:300ms ease-in-out;
   --line-height:1.08;
   --spacing: 0.1rem;
@@ -91,10 +91,7 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-// p {
-//   margin-bottom: 1.25rem;
-//   color: var(--clr-grey-5);
-// }
+
 @media screen and (min-width:#{$phone-width}) {
   h1 {
     font-size: 4rem;
@@ -184,7 +181,6 @@ nav {
 .links a:hover{
   color: var(--primary-clr-3);
   }
-
 .links-container {
   height: 0;
   overflow: hidden;
@@ -202,16 +198,15 @@ nav {
   border-radius: 20px;
   font-size: 18px;
   line-height: 24px;
-  
 }
 .quote-primary {
   font-family: Rajdhani, sans-serif;
   margin: 0 0.5rem;
   color: var(--clr-white);
   background-image: linear-gradient(270deg, #030b63, #0179af);
-   transition: var(--transition);
- text-decoration: none;
- cursor: pointer;
+  transition: var(--transition);
+  text-decoration: none;
+  cursor: pointer;
 }
 @media screen and (min-width:#{$tablet-width}) {
   .nav-center {
@@ -238,7 +233,7 @@ nav {
     align-items: center;
   }
   .links a:hover{
-  color: var(--primary-clr-3);
+    color: var(--primary-clr-3);
   }
   .links a {
     padding: 0;
@@ -274,9 +269,9 @@ nav {
   }
   .social-icons li:hover {
     color: var(--clr-white) ;
-      transition: 0.9s;
-      border-radius: 6px;
-      background-color: var(--primary-clr-3);
+    transition: 0.9s;
+    border-radius: 6px;
+    background-color: var(--primary-clr-3);
   }
 }
 @media screen and (min-width:#{$phone-width}) {
