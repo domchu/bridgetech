@@ -287,14 +287,21 @@ font-weight: 500;
 }
 .topnav-links a:hover{
   color: var(--primary-clr-1);
+  transition: var(--transition);
 }
 .divider{
-  height: 15px;
+  height: 12px;
   border: 1px solid var(--primary-clr-3);
   margin: 0px .5rem;
 }
-@media screen and (min-width:#{$phone-width}) {
- 
+
+@media screen and (max-width:#{$phone-width}) {
+ .divider{
+  display: none;
+ }
+ .register{
+  margin-left: 1rem;
+ }
 }
 
  
