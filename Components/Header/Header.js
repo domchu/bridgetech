@@ -70,7 +70,7 @@ const Navbar = () => {
           {/* the Quotes section */}
           <Box className="social-icons">
             <li className="quote-primary small">
-              <Link href="/" passhref="true">
+              <Link href="/pages/quotes" passhref="true">
                 Get a quote
               </Link>
             </li>

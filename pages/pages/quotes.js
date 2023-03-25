@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from "next/head"
+import Header from "../../Components/Header/Header";
 
 const quotes = () => {
   return (
@@ -12,9 +13,10 @@ const quotes = () => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Header />
       <h1>Quotes</h1>
     </>
   );
-}
+};
 
 export default quotes
