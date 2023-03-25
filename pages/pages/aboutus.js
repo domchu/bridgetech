@@ -1,10 +1,11 @@
 import React from 'react'
 import Head from "next/head"
+import Header from "../../Components/Header/Header";
 
 const aboutus = () => {
   return (
     <>
-       <Head>
+      <Head>
         <title>BridgeTech | About Us</title>
         <meta
           name="courses"
@@ -12,8 +13,9 @@ const aboutus = () => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Header />
     </>
-  )
-}
+  );
+};
 
 export default aboutus

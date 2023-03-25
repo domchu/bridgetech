@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from "next/head"
+import Header from "../Components/Header/Header";
 const projects = () => {
   return (
     <>
-       <Head>
+      <Head>
         <title>BridgeTech | Projects</title>
         <meta
           name="courses"
@@ -11,8 +12,10 @@ const projects = () => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Header />
+      <h1>projects</h1>
     </>
-  )
-}
+  );
+};
 
 export default projects
