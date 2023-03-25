@@ -274,6 +274,13 @@ nav {
     background-color: var(--primary-clr-3);
   }
 }
+
+//topnav css
+.topnav-container{
+  border-bottom: 1px solid var(--primary-clr-3);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
 @media screen and (min-width:#{$phone-width}) {
  
 }

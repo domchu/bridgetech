@@ -9,7 +9,7 @@ const Topnav = () => {
         className="topnav-container"
         justifyContent="space-around"
         margin="auto"
-        width="90%"
+        width="80%"
         align="center"
         textAlign="center"
         flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}

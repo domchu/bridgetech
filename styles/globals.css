@@ -281,4 +281,9 @@ nav {
     border-radius: 6px;
     background-color: var(--primary-clr-3);
   }
+}
+.topnav-container {
+  border-bottom: 1px solid var(--primary-clr-3);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }/*# sourceMappingURL=globals.css.map */
