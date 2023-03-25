@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from "next/head"
 import Header from "../Components/Header/Header";
+import Topnav from "../Components/Topnav/Topnav";
 const blog = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const blog = () => {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Topnav />
       <Header />
       <h1>Blog</h1>
     </div>
