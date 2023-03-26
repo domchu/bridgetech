@@ -154,11 +154,11 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              © 2022 design and developed by
+              © 2022 designed and developed by
               <a href="" target="-_blank">
                 Mr Ochu Dominic.
               </a>
-              Power by
+              Powered by
               <a href="" target="_blank">
                 Bridge<span>Tech</span>
               </a>

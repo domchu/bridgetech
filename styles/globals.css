@@ -371,4 +371,15 @@ h1 {
   transition: var(--transition);
   border-bottom: 1px solid var(--primary-clr-1);
   padding-bottom: 5px;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #043676;
+}
+
+.copy-right {
+  color: var(--clr-white);
+  text-align: center;
 }/*# sourceMappingURL=globals.css.map */
