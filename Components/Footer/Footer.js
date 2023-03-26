@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import action from "../../public/images/action.png";
 import { Flex, Box } from "@chakra-ui/react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -27,12 +28,27 @@ const Footer = () => {
                   src={action}
                   className="footer__brand"
                   alt="brand Logo"
+                  loading="lazy"
                 />
               </Link>
               <p>
                 Neque porro quisquam est qui most dolorem quia enough impedit
                 same quo minus quod and maxime
               </p>
+              <Flex>
+                <Link href="/">
+                  <FaFacebook className="icons" />
+                </Link>
+                <Link href="/">
+                  <FaInstagram className="icons" />
+                </Link>
+                <Link href="/">
+                  <FaTwitter className="icons" />
+                </Link>
+                <Link href="/">
+                  <FaLinkedin className="icons" />
+                </Link>
+              </Flex>
             </Box>
             <Box className="footer-link">
               <h2>Links</h2>
