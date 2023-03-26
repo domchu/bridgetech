@@ -310,7 +310,7 @@ h1{
 
 //footer css
 .footer-top{
-  background-color: #023e8a;
+  background-color: var(--primary-clr-2);
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/6339771b7b04fd766bd3ed8d_footer-shape.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -322,20 +322,23 @@ h1{
   width:80%;
   margin: auto;
   padding-top: 100px;
-padding-bottom: 100px;
-color:white;
+  padding-bottom: 100px;
+  color:var(--clr-white);
 }
 .footer-link p{
 width:40%;
+margin-bottom: 25px;
+color: var(--clr-white);
+font-weight: 300;
 }
 .footer-link h2{
   margin-bottom: 10px;
   font-weight: 700;
   margin-top: 10px;
-font-family: Rajdhani, sans-serif;
-color: var(--clr-white);
-font-size: 24px;
-font-weight: 700;
+  font-family: Rajdhani, sans-serif;
+  color: var(--clr-white);
+  font-size: 24px;
+  font-weight: 700;
 }
 .footer__brand{
   height: auto;

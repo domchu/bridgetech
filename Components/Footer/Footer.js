@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
           </Box>
           <Box className="footer-link">
-            <h2>Supports</h2>
+            <h2>Support</h2>
             <li>
               <Link href="/login" className="footer-nav-link" passhref="true">
                 Login
