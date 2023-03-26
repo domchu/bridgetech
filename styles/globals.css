@@ -316,4 +316,41 @@ h1 {
   .register {
     margin-left: 1rem;
   }
+}
+.footer-top {
+  background-color: #023e8a;
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/6339771b7b04fd766bd3ed8d_footer-shape.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+.footer-container {
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.footer-link p {
+  width: 40%;
+}
+
+.footer-link h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  font-family: Rajdhani, sans-serif;
+  color: var(--clr-white);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer__brand {
+  height: auto;
+  width: 50px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=globals.css.map */
