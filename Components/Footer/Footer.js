@@ -146,6 +146,15 @@ const Footer = () => {
                   License
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/register"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
+                  Register
+                </Link>
+              </li>
             </Box>
             <Box className="footer-link">
               <h2>Contact</h2>
