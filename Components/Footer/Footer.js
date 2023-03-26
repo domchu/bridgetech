@@ -36,16 +36,16 @@ const Footer = () => {
                 same quo minus quod and maxime
               </p>
               <Flex>
-                <Link href="/">
+                <Link href="/" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
-                <Link href="/">
+                <Link href="/" target="_blank">
                   <FaInstagram className="icons" />
                 </Link>
-                <Link href="/">
+                <Link href="/" target="_blank">
                   <FaTwitter className="icons" />
                 </Link>
-                <Link href="/">
+                <Link href="/" target="_blank">
                   <FaLinkedin className="icons" />
                 </Link>
               </Flex>
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/"
                   className="footer-nav-link"
                   passhref="true"
                 >
@@ -71,7 +71,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="footer-nav-link" passhref="true">
+                <Link
+                  href="/aboutus"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   Company
                 </Link>
               </li>
@@ -85,13 +89,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="footer-nav-link" passhref="true">
+                <Link
+                  href="https://www.google.com"
+                  target="_blank"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   Blog Post
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/contactus"
                   className="footer-nav-link"
                   passhref="true"
                 >
@@ -102,23 +111,35 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Support</h2>
               <li>
-                <Link href="/login" className="footer-nav-link" passhref="true">
+                <Link
+                  href="/access/login"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   Login
                 </Link>
               </li>
               <li>
-                <Link href="/team" className="footer-nav-link" passhref="true">
+                <Link
+                  href="/pages/team"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   Team
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="footer-nav-link" passhref="true">
+                <Link
+                  href="/pages/faq"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   Faq
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/contactus"
                   className="footer-nav-link"
                   passhref="true"
                 >
@@ -148,7 +169,7 @@ const Footer = () => {
                     className="footer-nav-link"
                     passhref="true"
                   >
-                    +234 (0) 70 3427 8995
+                    +234 (0) 81 1099 8914
                   </Link>
                 </li>
               </Box>
