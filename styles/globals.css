@@ -304,6 +304,11 @@ nav {
   margin: 0px 0.5rem;
 }
 
+h1 {
+  text-align: center;
+  margin: 5rem 0rem !important;
+}
+
 @media screen and (max-width: 500px) {
   .divider {
     display: none;
