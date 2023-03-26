@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
+import Footer from "../../Components/Footer/Footer";
 
 const quotes = () => {
   return (
@@ -17,6 +18,7 @@ const quotes = () => {
       <Topnav />
       <Header />
       <h1>Quotes</h1>
+      <Footer />
     </>
   );
 };

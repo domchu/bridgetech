@@ -19,7 +19,7 @@ const Footer = () => {
               lg: "row",
             }}
           >
-            <Box className="footer-link">
+            <Box className="footer-link first-footer">
               <h2>
                 Bridge<span className="section-span">Tech</span>
               </h2>
@@ -31,7 +31,7 @@ const Footer = () => {
                   loading="lazy"
                 />
               </Link>
-              <p>
+              <p className="footer-link-p">
                 Neque porro quisquam est qui most dolorem quia enough impedit
                 same quo minus quod and maxime
               </p>
@@ -132,7 +132,7 @@ const Footer = () => {
                 <p>298A, First Floor, Colex Building</p>
                 <p>North City, Main Town, USA</p>
               </Box>
-              <Box style={{ marginTop: "8px" }}>
+              <Box style={{ margin: "10px 0px" }}>
                 <li>
                   <Link
                     href="Tel:+234 07034278995"
@@ -152,7 +152,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </Box>
-              <Box style={{ marginTop: "8px" }}>
+              <Box>
                 <li>
                   <Link href="/" className="footer-nav-link" passhref="true">
                     info@example.com

@@ -327,6 +327,7 @@ h1 {
 }
 
 .footer-container {
+  display: flex !important;
   justify-content: center;
   width: 80%;
   margin: auto;
@@ -335,10 +336,14 @@ h1 {
   color: var(--clr-white);
 }
 
-.footer-link p {
+.footer-link-p {
   width: 40%;
   margin-bottom: 25px;
   color: var(--clr-white);
+  font-weight: 300;
+}
+
+.footer-link p {
   font-weight: 300;
 }
 
@@ -349,7 +354,6 @@ h1 {
   font-family: Rajdhani, sans-serif;
   color: var(--clr-white);
   font-size: 24px;
-  font-weight: 700;
 }
 
 .footer__brand {
@@ -360,7 +364,6 @@ h1 {
 }
 
 .footer-nav-link {
-  padding: 0px;
   color: var(--clr-white);
   font-size: 20px;
   font-weight: 300;

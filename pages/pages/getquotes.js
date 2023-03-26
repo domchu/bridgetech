@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
+import Footer from "../../Components/Footer/Footer";
 
 const getquotes = () => {
   return (
@@ -16,6 +17,8 @@ const getquotes = () => {
       </Head>
       <Topnav />
       <Header />
+      <h1>get a quotes</h1>
+      <Footer />
     </>
   );
 };

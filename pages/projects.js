@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
+import Footer from "../Components/Footer/Footer";
 const projects = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const projects = () => {
       <Topnav />
       <Header />
       <h1>projects</h1>
+      <Footer />
     </>
   );
 };

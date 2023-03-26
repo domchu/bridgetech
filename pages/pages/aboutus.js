@@ -17,6 +17,7 @@ const aboutus = () => {
       <Topnav />
       <Header />
       <h1>About us page</h1>
+      <Footer />
     </>
   );
 };
