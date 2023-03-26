@@ -54,15 +54,21 @@ const Footer = () => {
           <h2>Supports</h2>
 
           <li>
-            <Link href="/contact" className="nav-link" passhref="true">
-              info@example.com
+            <Link href="/login" className="nav-link" passhref="true">
+              Login
             </Link>
           </li>
           <li>
-            <Link href="Tel:+234 07034278995" passhref="true">
-              +234 (0) 70 3427 8995
+            <Link href="/team" className="nav-link" passhref="true">
+              Team
             </Link>
           </li>
+          <li>
+            <Link href="/faq" className="nav-link" passhref="true">
+              Faq
+            </Link>
+          </li>
+
           <li>
             <Link href="/contact" className="nav-link" passhref="true">
               License
@@ -70,10 +76,35 @@ const Footer = () => {
           </li>
         </Box>
         <Box>
-          {/* <h2>Contact</h2>
-                  <Box>
-                      <p>298A, First Floor, Colex Building</p>
-                  </Box> */}
+          <h2>Contact</h2>
+          <Box>
+            <p>298A, First Floor, Colex Building</p>
+            <p>North City, Main Town, USA</p>
+          </Box>
+          <Box>
+            <li>
+              <Link href="Tel:+234 07034278995" passhref="true">
+                +234 (0) 70 3427 8995
+              </Link>
+            </li>
+            <li>
+              <Link href="Tel:+234 07034278995" passhref="true">
+                +234 (0) 70 3427 8995
+              </Link>
+            </li>
+          </Box>
+          <Box>
+            <li className="topnav-linksrrrrr">
+              <Link href="/" passhref="true">
+                info@example.com
+              </Link>
+            </li>
+            <li className="topnav-linksrrrr">
+              <Link href="/" passhref="true">
+                info@example.com
+              </Link>
+            </li>
+          </Box>
         </Box>
       </Flex>
     </>
