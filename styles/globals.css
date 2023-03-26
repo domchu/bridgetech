@@ -352,5 +352,20 @@ h1 {
 .footer__brand {
   height: auto;
   width: 50px;
+  color: var(--clr-white);
   margin-bottom: 10px;
+}
+
+.footer-nav-link {
+  padding: 0px;
+  color: var(--clr-white);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-nav-link:hover {
+  color: var(--primary-clr-3);
+  transition: var(--transition);
+  border-bottom: 1px solid var(--primary-clr-1);
+  padding-bottom: 5px;
 }/*# sourceMappingURL=globals.css.map */

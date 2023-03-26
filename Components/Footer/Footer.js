@@ -24,32 +24,40 @@ const Footer = () => {
           <Box className="footer-link">
             <h2>Links</h2>
             <li>
-              <Link href="/aboutus" className="nav-link" passhref="true">
+              <Link href="/aboutus" className="footer-nav-link" passhref="true">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/services" className="nav-link" passhref="true">
+              <Link
+                href="/services"
+                className="footer-nav-link"
+                passhref="true"
+              >
                 Our Service
               </Link>
             </li>
             <li>
-              <Link href="/" className="nav-link" passhref="true">
+              <Link href="/" className="footer-nav-link" passhref="true">
                 Company
               </Link>
             </li>
             <li>
-              <Link href="/projects" className="nav-link" passhref="true">
+              <Link
+                href="/projects"
+                className="footer-nav-link"
+                passhref="true"
+              >
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="nav-link" passhref="true">
+              <Link href="/blog" className="footer-nav-link" passhref="true">
                 Blog Post
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="nav-link" passhref="true">
+              <Link href="/contact" className="footer-nav-link" passhref="true">
                 Contact
               </Link>
             </li>
@@ -57,22 +65,22 @@ const Footer = () => {
           <Box className="footer-link">
             <h2>Supports</h2>
             <li>
-              <Link href="/login" className="nav-link" passhref="true">
+              <Link href="/login" className="footer-nav-link" passhref="true">
                 Login
               </Link>
             </li>
             <li>
-              <Link href="/team" className="nav-link" passhref="true">
+              <Link href="/team" className="footer-nav-link" passhref="true">
                 Team
               </Link>
             </li>
             <li>
-              <Link href="/faq" className="nav-link" passhref="true">
+              <Link href="/faq" className="footer-nav-link" passhref="true">
                 Faq
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="nav-link" passhref="true">
+              <Link href="/contact" className="footer-nav-link" passhref="true">
                 License
               </Link>
             </li>
@@ -85,24 +93,32 @@ const Footer = () => {
             </Box>
             <Box style={{ marginTop: "10px" }}>
               <li>
-                <Link href="Tel:+234 07034278995" passhref="true">
+                <Link
+                  href="Tel:+234 07034278995"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   +234 (0) 70 3427 8995
                 </Link>
               </li>
               <li>
-                <Link href="Tel:+234 07034278995" passhref="true">
+                <Link
+                  href="Tel:+234 07034278995"
+                  className="footer-nav-link"
+                  passhref="true"
+                >
                   +234 (0) 70 3427 8995
                 </Link>
               </li>
             </Box>
             <Box style={{ marginTop: "10px" }}>
-              <li className="topnav-linksrrrrr">
-                <Link href="/" passhref="true">
+              <li>
+                <Link href="/" className="footer-nav-link" passhref="true">
                   info@example.com
                 </Link>
               </li>
-              <li className="topnav-linksrrrr">
-                <Link href="/" passhref="true">
+              <li>
+                <Link href="/" className="footer-nav-link" passhref="true">
                   info@example.com
                 </Link>
               </li>
