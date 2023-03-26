@@ -19,7 +19,7 @@ const Footer = () => {
               lg: "row",
             }}
           >
-            <Box className="footer-link first-footer">
+            <Box className="footer-link">
               <h2>
                 Bridge<span className="section-span">Tech</span>
               </h2>
@@ -54,7 +54,7 @@ const Footer = () => {
               <h2>Links</h2>
               <li>
                 <Link
-                  href="/aboutus"
+                  href="/pages/aboutus"
                   className="footer-nav-link"
                   passhref="true"
                 >
@@ -170,7 +170,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              © 2022 designed and developed by
+              © 2023 designed and developed by
               <a href="/" target="_blank">
                 Mr Ochu Dominic.
               </a>

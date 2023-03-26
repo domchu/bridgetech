@@ -319,7 +319,7 @@ h1{
 }
 .footer-container{
   display: flex !important;
-  justify-content:center;
+  justify-content:space-evenly;
   width:80%;
   margin: auto;
   padding-top: 100px;
@@ -336,9 +336,7 @@ font-weight: 300;
   font-weight: 300;
 
 }
-// .first-footer{
-//   width: 30%;
-// }
+
 .footer-link h2{
   margin-bottom: 10px;
   font-weight: 700;

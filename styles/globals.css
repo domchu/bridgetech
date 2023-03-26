@@ -328,7 +328,7 @@ h1 {
 
 .footer-container {
   display: flex !important;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 80%;
   margin: auto;
   padding-top: 100px;
