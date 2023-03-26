@@ -20,7 +20,7 @@ const Footer = () => {
           >
             <Box className="footer-link">
               <h2>
-                Bridge<span>Tech</span>
+                Bridge<span className="section-span">Tech</span>
               </h2>
               <Link href="/">
                 <Image
@@ -116,7 +116,7 @@ const Footer = () => {
                 <p>298A, First Floor, Colex Building</p>
                 <p>North City, Main Town, USA</p>
               </Box>
-              <Box style={{ marginTop: "10px" }}>
+              <Box style={{ marginTop: "8px" }}>
                 <li>
                   <Link
                     href="Tel:+234 07034278995"
@@ -136,7 +136,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </Box>
-              <Box style={{ marginTop: "10px" }}>
+              <Box style={{ marginTop: "8px" }}>
                 <li>
                   <Link href="/" className="footer-nav-link" passhref="true">
                     info@example.com
@@ -155,12 +155,12 @@ const Footer = () => {
           <Box className="copy-right">
             <p>
               © 2022 designed and developed by
-              <a href="" target="-_blank">
+              <a href="/" target="_blank">
                 Mr Ochu Dominic.
               </a>
               Powered by
-              <a href="" target="_blank">
-                Bridge<span>Tech</span>
+              <a href="/" target="_blank">
+                Bridge<span className="section-span">Tech</span>
               </a>
             </p>
           </Box>

@@ -382,4 +382,19 @@ h1 {
 .copy-right {
   color: var(--clr-white);
   text-align: center;
+}
+
+.copy-right a {
+  margin: 0px 7px;
+}
+
+.section-span {
+  color: var(--primary-clr-1);
+}
+
+.copy-right a:hover {
+  color: var(--primary-clr-3);
+  transition: var(--transition);
+  border-bottom: 1px solid var(--primary-clr-1);
+  padding-bottom: 5px;
 }/*# sourceMappingURL=globals.css.map */
