@@ -50,6 +50,31 @@ const Footer = () => {
             </Link>
           </li>
         </Box>
+        <Box>
+          <h2>Supports</h2>
+
+          <li>
+            <Link href="/contact" className="nav-link" passhref="true">
+              info@example.com
+            </Link>
+          </li>
+          <li>
+            <Link href="Tel:+234 07034278995" passhref="true">
+              +234 (0) 70 3427 8995
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact" className="nav-link" passhref="true">
+              License
+            </Link>
+          </li>
+        </Box>
+        <Box>
+          {/* <h2>Contact</h2>
+                  <Box>
+                      <p>298A, First Floor, Colex Building</p>
+                  </Box> */}
+        </Box>
       </Flex>
     </>
   );
