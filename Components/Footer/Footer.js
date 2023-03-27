@@ -55,7 +55,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/pages/aboutus"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   About
@@ -64,7 +64,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services/"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Our Service
@@ -73,7 +73,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/aboutus"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Company
@@ -82,7 +82,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/projects"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Projects
@@ -92,7 +92,7 @@ const Footer = () => {
                 <Link
                   href="https://www.google.com"
                   target="_blank"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Blog Post
@@ -101,7 +101,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/contactus"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Contact
@@ -113,7 +113,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/access/login"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Login
@@ -122,7 +122,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/pages/team"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Team
@@ -131,7 +131,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/pages/faq"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Faq
@@ -140,7 +140,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/contactus"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   License
@@ -149,7 +149,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/register"
-                  className="footer-nav-link"
+                  className="footerlink"
                   passhref="true"
                 >
                   Register
@@ -166,7 +166,7 @@ const Footer = () => {
                 <li>
                   <Link
                     href="Tel:+234 07034278995"
-                    className="footer-nav-link"
+                    className="footerlink"
                     passhref="true"
                   >
                     +234 (0) 70 3427 8995
@@ -175,7 +175,7 @@ const Footer = () => {
                 <li>
                   <Link
                     href="Tel:+234 07034278995"
-                    className="footer-nav-link"
+                    className="footerlink"
                     passhref="true"
                   >
                     +234 (0) 81 1099 8914
@@ -184,12 +184,12 @@ const Footer = () => {
               </Box>
               <Box>
                 <li>
-                  <Link href="/" className="footer-nav-link" passhref="true">
+                  <Link href="/" className="footerlink" passhref="true">
                     info@example.com
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="footer-nav-link" passhref="true">
+                  <Link href="/" className="footerlink" passhref="true">
                     info@example.com
                   </Link>
                 </li>
