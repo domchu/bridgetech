@@ -62,29 +62,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/services/"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/services/" className="footerlink" passhref="true">
                   Our Service
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/aboutus"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/aboutus" className="footerlink" passhref="true">
                   Company
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/projects"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/projects" className="footerlink" passhref="true">
                   Projects
                 </Link>
               </li>
@@ -99,11 +87,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/contactus"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/contactus" className="footerlink" passhref="true">
                   Contact
                 </Link>
               </li>
@@ -120,38 +104,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/pages/team"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/pages/team" className="footerlink" passhref="true">
                   Team
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/pages/faq"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/pages/faq" className="footerlink" passhref="true">
                   Faq
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/contactus"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/contactus" className="footerlink" passhref="true">
                   License
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/register"
-                  className="footerlink"
-                  passhref="true"
-                >
+                <Link href="/register" className="footerlink" passhref="true">
                   Register
                 </Link>
               </li>
@@ -174,7 +142,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="Tel:+234 07034278995"
+                    href="Tel:+234 08110998914"
                     className="footerlink"
                     passhref="true"
                   >
@@ -184,12 +152,22 @@ const Footer = () => {
               </Box>
               <Box>
                 <li>
-                  <Link href="/" className="footerlink" passhref="true">
+                  <Link
+                    href="/"
+                    target="_blank"
+                    className="footerlink"
+                    passhref="true"
+                  >
                     info@example.com
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="footerlink" passhref="true">
+                  <Link
+                    href="/"
+                    target="_blank"
+                    className="footerlink"
+                    passhref="true"
+                  >
                     info@example.com
                   </Link>
                 </li>
