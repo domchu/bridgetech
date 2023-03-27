@@ -345,6 +345,7 @@ h1 {
 
 .footer-link p {
   font-weight: 300;
+  font-size: 17px;
 }
 
 .footer-link h2 {
@@ -379,7 +380,7 @@ h1 {
 .footer-bottom {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #043676;
+  background-color: var(--natural-clr-4);
 }
 
 .copy-right {
@@ -393,6 +394,7 @@ h1 {
 
 .section-span {
   color: var(--primary-clr-1);
+  font-weight: 700;
 }
 
 .copy-right a:hover {

@@ -201,13 +201,13 @@ const Footer = () => {
           <Box className="copy-right">
             <p>
               © 2023 designed and developed by
-              <a href="/" target="_blank">
+              <Link href="/" target="_blank">
                 Mr Ochu Dominic.
-              </a>
+              </Link>
               Powered by
-              <a href="/" target="_blank">
+              <Link href="/" target="_blank">
                 Bridge<span className="section-span">Tech</span>
-              </a>
+              </Link>
             </p>
           </Box>
         </div>
