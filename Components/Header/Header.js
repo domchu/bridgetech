@@ -43,7 +43,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/pages/" className="nav-link" passhref="true">
+                <Link href="/pages" className="nav-link" passhref="true">
                   Pages
                 </Link>
               </li>
