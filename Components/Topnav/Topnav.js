@@ -1,7 +1,12 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/react";
 import Link from "next/link";
-import { FaBars, FaEnvelope, FaPhone, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaBlogger,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaRegAddressBook,
+} from "react-icons/fa";
 
 const Topnav = () => {
   return (
@@ -22,6 +27,7 @@ const Topnav = () => {
             textAlign="center"
             height="auto"
             margin="auto"
+            width="auto"
             flexWrap="wrap"
           >
             <Box>
@@ -57,17 +63,23 @@ const Topnav = () => {
           >
             <Box>
               <li className="topnav-links">
-                <Link href="/access/login" passhref="true">
-                  Login
-                </Link>
+                <Flex align="center">
+                  <FaBlogger className="topnav-icons" />
+                  <Link href="/access/login" passhref="true">
+                    Login
+                  </Link>
+                </Flex>
               </li>
             </Box>
             <div className="divider" />
             <Box>
               <li className="topnav-links register">
-                <Link href="/access/signin" passhref="true">
-                  Register
-                </Link>
+                <Flex align="center">
+                  <FaRegAddressBook className="topnav-icons" />
+                  <Link href="/access/signin" passhref="true">
+                    Register
+                  </Link>
+                </Flex>
               </li>
             </Box>
           </Flex>

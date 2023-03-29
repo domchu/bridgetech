@@ -190,7 +190,7 @@ nav {
 .show-container {
   height: 10rem;
 }
-.social-icons {
+.quotes-container {
   display: none;
 }
 .quote-primary.small{
@@ -292,14 +292,11 @@ font-weight: 500;
   transition: var(--transition);
 }
 .topnav-icons{
-  margin: 0px 5px 0px 0px;
+  margin: 0px 2px 0px 0px;
   color: var(--primary-clr-3);
 font-weight: 500;
 }
-.topnav-icons:hover{
-  color: var(--primary-clr-1);
-  transition: var(--transition);
-}
+
 .divider{
   height: 12px;
   border: 1px solid var(--primary-clr-3);
@@ -309,9 +306,7 @@ h1{
   text-align: center;
   margin: 5rem 0rem !important;
 }
-.topnav-icons{
 
-}
 @media screen and (max-width:#{$phone-width}) {
  .divider{
   display: none;
