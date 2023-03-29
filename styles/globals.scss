@@ -257,18 +257,18 @@ nav {
   .links li:hover::after {
     width: 100%;
   }
-  .social-icons {
+  .quotes-container {
     display: flex;
     font-size: 1.5rem;
   }
   
-  .social-icons a {
+  .quotes-container a {
     margin: 0 0.5rem;
     color: var(--primary-clr-5);
     transition: var(--transition);
     font-weight: 600;
   }
-  .social-icons li:hover {
+  .quotes-container li:hover {
     color: var(--clr-white) ;
     transition: 0.9s;
     border-radius: 6px;
