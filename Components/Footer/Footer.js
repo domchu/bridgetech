@@ -35,7 +35,7 @@ const Footer = () => {
                 Neque porro quisquam est qui most dolorem quia enough impedit
                 same quo minus quod and maxime
               </p>
-              <Flex>
+              <Flex className="icons-container">
                 <Link href="/" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
