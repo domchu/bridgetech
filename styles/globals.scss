@@ -50,6 +50,7 @@ Css Variables
   --primary-clr-1: #0077B6;
   --primary-clr-2: #023E8A;
   --primary-clr-3: #48CAE4;
+  --primary-clr-4: #d4563a;
   --natural-clr-1: #E7FBFF;
   --natural-clr-2: #80858F;
   --natural-clr-3: #0C0C0C;
@@ -144,7 +145,7 @@ nav {
   justify-content: space-between;
   padding:  0.5rem ;
 }
-.nav-link{
+#nav-link{
   padding: 0px;
   color: var(--primary-clr-2);
    font-size: 20px;
@@ -359,16 +360,21 @@ font-weight: 300;
   color:var(--clr-white);
   margin-bottom: 10px;
 }
-.footerlink{
+#footerlink{
   color: var(--clr-white);
    font-size: 20px;
    font-weight: 300;
 }
-.footerlink:hover{
+#footerlink:hover{
   color:var(--primary-clr-3);
   transition: var(--transition);
   border-bottom: 1px solid var(--primary-clr-1);
   padding-bottom: 5px;
+}
+.active{
+  color:var(--primary-clr-3) !important;
+  font-weight: 600 !important;
+  
 }
 .footer-bottom{
   padding-top: 20px;

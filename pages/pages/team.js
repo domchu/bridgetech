@@ -1,7 +1,7 @@
-import React from 'react'
-import Head from "next/head"
+import React from "react";
+import Head from "next/head";
 import Header from "../../Components/Header/Header";
-import Topnav from "./../../Components/Topnav/Topnav";
+import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 const team = () => {
   return (
@@ -22,4 +22,4 @@ const team = () => {
   );
 };
 
-export default team
+export default team;

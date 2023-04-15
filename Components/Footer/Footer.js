@@ -1,11 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import action from "../../public/images/action.png";
 import { Flex, Box } from "@chakra-ui/react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <>
       <footer>
@@ -51,28 +54,39 @@ const Footer = () => {
               </Flex>
             </Box>
             <Box className="footer-link">
-              <h2>Links</h2>
+              <h2>Menu</h2>
               <li>
                 <Link
                   href="/pages/aboutus"
-                  className="footerlink"
+                  id="footerlink"
                   passhref="true"
+                  className={currentRoute == "/pages/aboutus" ? "active" : ""}
                 >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footerlink" passhref="true">
+                <Link href="/services" id="footerlink" passhref="true">
                   Our Service
                 </Link>
               </li>
               <li>
-                <Link href="/aboutus" className="footerlink" passhref="true">
+                <Link
+                  href="/aboutus"
+                  id="footerlink"
+                  className={currentRoute == "/pages/aboutus" ? "active" : ""}
+                  passhref="true"
+                >
                   Company
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="footerlink" passhref="true">
+                <Link
+                  href="/projects"
+                  id="footerlink"
+                  className={currentRoute == "/projects" ? "active" : ""}
+                  passhref="true"
+                >
                   Projects
                 </Link>
               </li>
@@ -80,14 +94,20 @@ const Footer = () => {
                 <Link
                   href="https://www.google.com"
                   target="_blank"
-                  className="footerlink"
+                  id="footerlink"
+                  className={currentRoute == "/blog" ? "active" : ""}
                   passhref="true"
                 >
                   Blog Post
                 </Link>
               </li>
               <li>
-                <Link href="/contactus" className="footerlink" passhref="true">
+                <Link
+                  href="/contactus"
+                  id="footerlink"
+                  className={currentRoute == "/contactus" ? "active" : ""}
+                  passhref="true"
+                >
                   Contact
                 </Link>
               </li>
@@ -97,35 +117,56 @@ const Footer = () => {
               <li>
                 <Link
                   href="/access/login"
-                  className="footerlink"
+                  id="footerlink"
+                  className={currentRoute == "/access/login" ? "active" : ""}
                   passhref="true"
                 >
                   Login
                 </Link>
               </li>
               <li>
-                <Link href="/pages/team" className="footerlink" passhref="true">
+                <Link
+                  href="/pages/team"
+                  id="footerlink"
+                  className={currentRoute == "/pages/team" ? "active" : ""}
+                  passhref="true"
+                >
                   Team
                 </Link>
               </li>
               <li>
-                <Link href="/pages/faq" className="footerlink" passhref="true">
+                <Link
+                  href="/pages/faq"
+                  id="footerlink"
+                  className={currentRoute == "/pages/faq" ? "active" : ""}
+                  passhref="true"
+                >
                   Faq
                 </Link>
               </li>
               <li>
-                <Link href="/contactus" className="footerlink" passhref="true">
+                <Link
+                  href="/contactus"
+                  id="footerlink"
+                  className={currentRoute == "/contactus" ? "active" : ""}
+                  passhref="true"
+                >
                   License
                 </Link>
               </li>
               <li>
-                <Link href="/register" className="footerlink" passhref="true">
+                <Link
+                  href="/register"
+                  id="footerlink"
+                  className={currentRoute == "/register" ? "active" : ""}
+                  passhref="true"
+                >
                   Register
                 </Link>
               </li>
             </Box>
             <Box className="footer-link">
-              <h2>Contact</h2>
+              <h2>Contact Us</h2>
               <Box>
                 <p>298A, First Floor, Colex Building</p>
                 <p>North City, Main Town, USA</p>
@@ -134,7 +175,7 @@ const Footer = () => {
                 <li>
                   <Link
                     href="Tel:+234 07034278995"
-                    className="footerlink"
+                    id="footerlink"
                     passhref="true"
                   >
                     +234 (0) 70 3427 8995
@@ -143,7 +184,7 @@ const Footer = () => {
                 <li>
                   <Link
                     href="Tel:+234 08110998914"
-                    className="footerlink"
+                    id="footerlink"
                     passhref="true"
                   >
                     +234 (0) 81 1099 8914
@@ -155,7 +196,7 @@ const Footer = () => {
                   <Link
                     href="/"
                     target="_blank"
-                    className="footerlink"
+                    id="footerlink"
                     passhref="true"
                   >
                     info@example.com
@@ -165,7 +206,7 @@ const Footer = () => {
                   <Link
                     href="/"
                     target="_blank"
-                    className="footerlink"
+                    id="footerlink"
                     passhref="true"
                   >
                     info@example.com
@@ -178,9 +219,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              © 2023 designed and developed by
+              © 2023 BridgeTech designed and developed by
               <Link href="/" target="_blank">
-                Mr Ochu Dominic.
+                Ochu Dominic.
               </Link>
               Powered by
               <Link href="/" target="_blank">

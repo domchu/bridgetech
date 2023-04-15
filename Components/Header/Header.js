@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import action from "../../public/images/action.png";
@@ -18,6 +19,10 @@ const Navbar = () => {
       linksContainerRef.current.style.height = "0px";
     }
   }, [showLinks]);
+
+  // active pages route
+  const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <>
       <nav>
@@ -38,32 +43,57 @@ const Navbar = () => {
           <div className="links-container" ref={linksContainerRef}>
             <ul className="links" ref={linksRef}>
               <li>
-                <Link href="/" className="nav-link" passhref="true">
+                <Link
+                  href="/"
+                  id="nav-link"
+                  className={currentRoute == "/" ? "active" : ""}
+                  passhref="true"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/pages" className="nav-link" passhref="true">
+                <Link href="/pages" id="nav-link" passhref="true">
                   Pages
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="nav-link" passhref="true">
+                <Link
+                  href="/services"
+                  id="nav-link"
+                  className={currentRoute == "/services" ? "active" : ""}
+                  passhref="true"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="nav-link" passhref="true">
+                <Link
+                  href="/projects"
+                  id="nav-link"
+                  className={currentRoute == "/projects" ? "active" : ""}
+                  passhref="true"
+                >
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="nav-link" passhref="true">
+                <Link
+                  href="/blog"
+                  id="nav-link"
+                  className={currentRoute == "/blog" ? "active" : ""}
+                  passhref="true"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/contactus" className="nav-link" passhref="true">
+                <Link
+                  href="/contactus"
+                  id="nav-link"
+                  className={currentRoute == "/contactus" ? "active" : ""}
+                  passhref="true"
+                >
                   Contact
                 </Link>
               </li>
@@ -72,7 +102,11 @@ const Navbar = () => {
           {/* the Quotes section */}
           <Box className="quotes-container">
             <li className="quote-primary small">
-              <Link href="/pages/quotes" passhref="true">
+              <Link
+                href="/pages/quotes"
+                className={currentRoute == "/pages/quotes" ? "active" : ""}
+                passhref="true"
+              >
                 Get a quote
               </Link>
             </li>
