@@ -385,6 +385,7 @@ h1 {
 .active {
   color: var(--primary-clr-3) !important;
   font-weight: 600 !important;
+  border-bottom: 3px solid var(--primary-clr-3);
 }
 
 .footer-bottom {
