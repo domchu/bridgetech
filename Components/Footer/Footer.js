@@ -219,9 +219,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              © 2023 BridgeTech designed and developed by
+              © 2023 BridgeTech, All right reserved. designed and developed by
               <Link href="/" target="_blank">
-                OchuDominic
+                Ochu<span className="section-span">Dominic</span>
               </Link>
               Powered by
               <Link href="/" target="_blank">
