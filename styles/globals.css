@@ -309,11 +309,6 @@ nav {
   margin: 0px 0.5rem;
 }
 
-h1 {
-  text-align: center;
-  margin: 5rem 0rem !important;
-}
-
 @media screen and (max-width: 500px) {
   .divider {
     display: none;
@@ -439,4 +434,7 @@ h1 {
   .icons-container {
     margin-bottom: 2rem;
   }
+}
+.sub_heading_span {
+  color: var(--primary-clr-3);
 }/*# sourceMappingURL=globals.css.map */

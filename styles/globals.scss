@@ -304,10 +304,10 @@ font-weight: 500;
   border: 1px solid var(--primary-clr-3);
   margin: 0px .5rem;
 }
-h1{
-  text-align: center;
-  margin: 5rem 0rem !important;
-}
+// h1{
+//   text-align: center;
+//   margin: 5rem 0rem !important;
+// }
 
 @media screen and (max-width:#{$phone-width}) {
  .divider{
@@ -423,5 +423,11 @@ font-weight: 300;
   .icons-container{
     margin-bottom: 2rem;
   }
+}
+
+
+// subheading css
+.sub_heading_span{
+  color: var(--primary-clr-3);
 }
  

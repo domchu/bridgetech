@@ -74,7 +74,7 @@ const Navbar = () => {
                   className={currentRoute == "/projects" ? "active" : ""}
                   passhref="true"
                 >
-                  Projects
+                  Project
                 </Link>
               </li>
               <li>
