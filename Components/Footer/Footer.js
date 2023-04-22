@@ -221,7 +221,7 @@ const Footer = () => {
             <p>
               © 2023 BridgeTech designed and developed by
               <Link href="/" target="_blank">
-                Ochu Dominic.
+                OchuDominic
               </Link>
               Powered by
               <Link href="/" target="_blank">
