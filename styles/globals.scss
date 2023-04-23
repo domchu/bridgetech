@@ -590,4 +590,21 @@ font-family: Rajdhani, sans-serif;
     }
 
 }
+// newsletter css
+.newsletter-container{
+display: grid;
+padding: 40px 50px;
+align-items: center;
+grid-auto-columns: 1fr;
+grid-column-gap: 40px;
+grid-row-gap: 40px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+border-radius: 20px;
+background-color: #e7fbff;
+background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png"), url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png");
+background-position: 100% 50%, 0% 50%;
+background-size: 528px 528px, 528px 528px;
+background-repeat: no-repeat, no-repeat;
+}
  
