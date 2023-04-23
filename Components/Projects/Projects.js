@@ -2,9 +2,10 @@ import React from 'react'
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
-import { HiArrowLongRight } from "react-icons/hi2";
+// import { HiArrowLongRight } from "react-icons/hi2";
 import SubHeading from "./../SubHeading";
 import project2 from "../../public/images/project2.jpg";
+import arrow from "../../public/images/arrow-long-icon.png";
 
 const Projects = () => {
   return (
@@ -21,7 +22,8 @@ const Projects = () => {
                 same quo minus quod and maxime
               </p>
               <Link href="/">
-                <HiArrowLongRight />
+                <Image src={arrow} alt="" />
+                {/* <HiArrowLongRight /> */}
               </Link>
             </Box>
           </Box>
