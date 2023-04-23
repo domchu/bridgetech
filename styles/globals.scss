@@ -492,7 +492,17 @@ color: var(--primary-clr-2);
 }
 .project-wrapper{
   margin: 3rem 0px;
+  display: grid;
+grid-auto-columns: 1fr;
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+// -ms-grid-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+-ms-grid-rows: auto;
+grid-template-rows: auto;
+
 }
+
 .project-item-wrapper{
   border-radius: 10px;
   position: relative;

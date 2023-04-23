@@ -511,6 +511,12 @@ nav {
 
 .project-wrapper {
   margin: 3rem 0px;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .project-item-wrapper {
