@@ -510,7 +510,7 @@ nav {
 }
 
 .project-wrapper {
-  margin: 3rem 0px;
+  margin: 10rem 0px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 30px;
@@ -588,4 +588,30 @@ nav {
 
 .project-item-wrapper:hover .project__contents {
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0px;
+  }
+  .project-sub-content h1 {
+    font-size: 45px;
+  }
+  .project-sub-content p {
+    font-size: 16px;
+    padding: 1rem;
+  }
 }/*# sourceMappingURL=globals.css.map */
