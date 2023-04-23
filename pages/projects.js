@@ -18,7 +18,6 @@ const projects = () => {
       <Topnav />
       <Header />
       <Projects />
-      {/* <h1>projects</h1> */}
       <Footer />
     </>
   );
