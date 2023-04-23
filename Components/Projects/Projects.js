@@ -164,7 +164,7 @@ const Projects = () => {
               />
               <Box className="project__contents">
                 <Link href="/">
-                  <h3>Mobile App Development</h3>
+                  <h3>School Portal/Database</h3>
                 </Link>
                 <p>
                   Neque porro quisquam est qui most dolorem quia enough impedit
@@ -186,7 +186,7 @@ const Projects = () => {
               />
               <Box className="project__contents">
                 <Link href="/">
-                  <h3>Mobile App Development</h3>
+                  <h3>web Design Training</h3>
                 </Link>
                 <p>
                   Neque porro quisquam est qui most dolorem quia enough impedit
@@ -208,7 +208,7 @@ const Projects = () => {
               />
               <Box className="project__contents">
                 <Link href="/">
-                  <h3>Mobile App Development</h3>
+                  <h3>Microsoft office</h3>
                 </Link>
                 <p>
                   Neque porro quisquam est qui most dolorem quia enough impedit
