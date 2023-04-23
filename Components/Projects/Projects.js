@@ -6,6 +6,10 @@ import SubHeading from "./../SubHeading";
 import project1 from "../../public/images/project1.jpg";
 import project2 from "../../public/images/project2.jpg";
 import project3 from "../../public/images/project3.jpg";
+import project4 from "../../public/images/project4.jpeg";
+import project5 from "../../public/images/project5.jpg";
+import project6 from "../../public/images/project6.jpg";
+import project7 from "../../public/images/project3.jpg";
 import arrow from "../../public/images/arrow-long-icon.png";
 
 const Projects = () => {
@@ -85,7 +89,7 @@ const Projects = () => {
           <Box className="project-item-wrapper">
             <Box className="project-collection">
               <Image
-                src={project1}
+                src={project4}
                 alt="Digital marketing"
                 loading="lazy"
                 className="project__img"
@@ -107,7 +111,7 @@ const Projects = () => {
           <Box className="project-item-wrapper">
             <Box className="project-collection">
               <Image
-                src={project1}
+                src={project5}
                 alt="Digital marketing"
                 loading="lazy"
                 className="project__img"
@@ -129,7 +133,7 @@ const Projects = () => {
           <Box className="project-item-wrapper">
             <Box className="project-collection">
               <Image
-                src={project1}
+                src={project6}
                 alt="Digital marketing"
                 loading="lazy"
                 className="project__img"
@@ -151,7 +155,7 @@ const Projects = () => {
           <Box className="project-item-wrapper">
             <Box className="project-collection">
               <Image
-                src={project1}
+                src={project7}
                 alt="Digital marketing"
                 loading="lazy"
                 className="project__img"
