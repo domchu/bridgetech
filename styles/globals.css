@@ -51,8 +51,8 @@ Css Variables
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
-  --hover-clr-1: rgba(0, 119, 182, 0.95);
-  --hover-clr-2: rgba(3, 43, 69, 0.92);
+  --style-clr-1: rgba(0, 119, 182, 0.95);
+  --style-clr-2: rgba(3, 43, 69, 0.92);
   --transition:300ms ease-in-out;
   --line-height:1.08;
   --spacing: 0.1rem;
@@ -513,8 +513,73 @@ nav {
   margin: 3rem 0px;
 }
 
-.project-collection {
-  background-color: var(--natural-clr-1);
-  padding: 1.5rem;
+.project-item-wrapper {
   border-radius: 10px;
+  position: relative;
+  padding: 25px;
+  width: 300px;
+  background-color: var(--natural-clr-1);
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.13);
+}
+
+.project-collection {
+  position: relative;
+  width: 100%;
+}
+
+.project__img {
+  opacity: 1;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.project__contents {
+  transition: 0.5s ease;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--style-clr-1);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.project__contents h3 {
+  margin-bottom: 1rem;
+  color: var(--clr-white);
+  font-family: Rajdhani, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.project__contents p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--clr-white);
+  font-family: Rajdhani, sans-serif;
+}
+
+.pointer-arrow {
+  display: grid;
+  place-items: center;
+}
+
+.project-item-wrapper:hover .project__img {
+  opacity: 0.5;
+}
+
+.project-item-wrapper:hover .project__contents {
+  opacity: 1;
 }/*# sourceMappingURL=globals.css.map */
