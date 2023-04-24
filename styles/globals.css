@@ -762,4 +762,40 @@ nav {
     height: 45px;
     margin-bottom: 6px;
   }
+}
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.contact-block {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 73px;
+  grid-row-gap: 73px;
+  grid-template-columns: minmax(200px, 1fr) 1fr;
+  grid-template-rows: auto;
+}
+
+.section-title {
+  margin-top: 0px;
+  color: #023e8a;
+  font-size: 38px;
+}
+
+.section-text {
+  margin-top: 20px;
+}
+
+strong {
+  color: #0077b6;
+  font-weight: 500;
+}
+
+.contact-details-info {
+  margin-top: 30px;
 }/*# sourceMappingURL=globals.css.map */
