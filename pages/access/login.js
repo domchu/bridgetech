@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
+import Footer from "../../Components/Footer/Footer";
 const login = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const login = () => {
       <Topnav />
       <Header />
       <h1>Login page</h1>
+      <Footer />
     </>
   );
 };

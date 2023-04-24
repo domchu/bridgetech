@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 
@@ -14,6 +15,7 @@ export default function faq() {
       <Topnav />
       <Header />
       <h1>Faq</h1>
+      <Footer />
     </>
   );
 }
