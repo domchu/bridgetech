@@ -3,6 +3,7 @@ import Head from "next/head"
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
+import Contact from "../Components/Contact/Contact";
 
 const contactus = () => {
   return (
@@ -17,6 +18,7 @@ const contactus = () => {
       </Head>
       <Topnav />
       <Header />
+      <Contact />
       <h1>Contact</h1>
       <Footer />
     </>
