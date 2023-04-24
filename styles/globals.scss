@@ -268,7 +268,7 @@ nav {
   
   .quotes-container a {
     margin: 0 0.5rem;
-    color: var(--primary-clr-5);
+    color: var(--clr-white);
     transition: var(--transition);
     font-weight: 600;
   }
@@ -546,7 +546,7 @@ grid-template-rows: auto;
 margin-bottom: 1rem;
 color: var(--clr-white);
 font-family: Rajdhani, sans-serif;
-font-size: 20px;
+font-size: 18px;
 font-weight: 700;
 }
 .project__contents p{
@@ -637,6 +637,7 @@ margin-bottom: 10px;
 }
 .section-text{
   margin-bottom: 20px;
+  font-family: Rajdhani, sans-serif;
 }
 .newsletter-form{
   position: relative;
