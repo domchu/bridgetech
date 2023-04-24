@@ -4,6 +4,7 @@ import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Components/Contact/Contact";
+import NewsLetter from "./../Components/NewsLetter";
 
 const contactus = () => {
   return (
@@ -19,7 +20,7 @@ const contactus = () => {
       <Topnav />
       <Header />
       <Contact />
-      <h1>Contact</h1>
+      <NewsLetter />
       <Footer />
     </>
   );

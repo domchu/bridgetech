@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import { Box } from "@chakra-ui/react";
+import Map from "../Map";
 
 const Contact = () => {
   return (
@@ -31,6 +32,8 @@ const Contact = () => {
           </Box>
         </Box>
       </Box>
+      {/* Map part of the project */}
+      <Map />
     </>
   );
 };
