@@ -12,7 +12,7 @@ const NewsLetter = () => {
             </h2>
             <Box className="section-text">
               Subscribe to our newsletter for get laset update of
-              <span className="section-span">
+              <span className="section-span newsletter-text">
                 news, offers, promotions, blog post
               </span>
               in which toil and pain can procure him some great pleasure.

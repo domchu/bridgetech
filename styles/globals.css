@@ -329,17 +329,22 @@ nav {
 }
 
 .footer-container {
-  display: flex !important;
+  display: flex;
   justify-content: space-evenly;
   width: 80%;
   margin: auto;
+  overflow: hidden;
   padding-top: 100px;
   padding-bottom: 100px;
   color: var(--clr-white);
 }
 
+.footer-link {
+  flex: 1;
+  justify-content: center;
+}
+
 .footer-link-p {
-  width: 40%;
   margin-bottom: 25px;
   color: var(--clr-white);
   font-weight: 300;
@@ -348,6 +353,11 @@ nav {
 .footer-link p {
   font-weight: 300;
   font-size: 17px;
+}
+
+.footer-center {
+  display: grid;
+  text-align: left;
 }
 
 .footer-link h2 {
@@ -442,7 +452,7 @@ nav {
   background-position: 50% 50%, 0px 0px;
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
-  padding: 5rem 0px;
+  padding: 6rem 0px;
 }
 
 .w-container {
@@ -512,7 +522,7 @@ nav {
 }
 
 .project-wrapper {
-  margin: 10rem 0px;
+  margin: 6rem 0px 8rem 0px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 30px;
@@ -662,6 +672,10 @@ nav {
   font-size: 38px;
   font-weight: 700;
   font-family: Rajdhani, sans-serif;
+}
+
+.newsletter-text {
+  margin: 0px 5px;
 }
 
 .section-text {

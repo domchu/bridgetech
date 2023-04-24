@@ -53,7 +53,7 @@ const Footer = () => {
                 </Link>
               </Flex>
             </Box>
-            <Box className="footer-link">
+            <Box className="footer-link footer-center">
               <h2>Menu</h2>
               <li>
                 <Link
@@ -112,7 +112,7 @@ const Footer = () => {
                 </Link>
               </li>
             </Box>
-            <Box className="footer-link">
+            <Box className="footer-link footer-center">
               <h2>Support</h2>
               <li>
                 <Link
