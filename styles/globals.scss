@@ -52,6 +52,7 @@ Css Variables
   --primary-clr-2: #023E8A;
   --primary-clr-3: #48CAE4;
   --primary-clr-4: #d4563a;
+  --primary-clr-5: #3898EC;
   --natural-clr-1: #E7FBFF;
   --natural-clr-2: #80858F;
   --natural-clr-3: #0C0C0C;
@@ -59,6 +60,7 @@ Css Variables
   --natural-clr-5: #1E1717;
   --natural-clr-6: #FBF4F4;
   --natural-clr-7: #dddddd;
+  --natural-clr-8: #333333;
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
@@ -554,8 +556,9 @@ color: var(--clr-white);
 font-family: Rajdhani, sans-serif;
 }
 .pointer-arrow{
- display: grid;
- place-items: center;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
 .project-item-wrapper:hover .project__img{
   opacity: 0.5;
@@ -642,40 +645,33 @@ margin-bottom: 10px;
   margin: 0 0 15px;
 }
 .newsletter-input-form{
-  height: 64px;
+height: 64px;
 margin-bottom: 0px;
 padding-right: 140px;
 padding-left: 20px;
 border-style: solid;
 border-width: 1px;
-border-color: #0077b6;
+border-color: var(--primary-clr-1);
 border-radius: 30px;
 background-color: transparent;
+// columns: var(--clr-black);
 }
 .w-input{
   display: block;
 width: 100%;
-// height: 38px;
-padding: 8px 12px;
-  // padding-right: 12px;
-  // padding-left: 12px;
-// margin-bottom: 10px;
+padding: 10px 12px;
 font-size: 14px;
 line-height: 1.42857143;
-color: #333333;
-// vertical-align: middle;
-background-color: #ffffff;
-border: 1px solid #cccccc;
+color: var(--clr-black);
 }
 .primary-button{
   padding: 10px 27px;
   border-radius: 25px;
   // background-image: -webkit-gradient(linear, right top, left top, from(#030b63), to(#0179af));
   background-image: linear-gradient(270deg, #030b63, #0179af);
-  // -webkit-transition: background-color 300ms ease-in-out;
   transition: background-color 300ms ease-in-out;
   font-family: Rajdhani, sans-serif;
-  color: #fff;
+  color: var(--clr-white);
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
@@ -684,13 +680,8 @@ border: 1px solid #cccccc;
 .w-button{
   display: inline-block;
 // padding: 9px 15px;
-background-color: #3898EC;
-// color: white;
-// line-height: inherit;
-// text-decoration: none;
+background-color: var(--primary-clr-5);
 cursor: pointer;
-border-radius: 0;
-
 }
 .primary-button.newsletter-button {
   position: absolute;

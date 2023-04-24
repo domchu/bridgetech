@@ -13,7 +13,7 @@ const NewsLetter = () => {
             <Box className="section-text">
               Subscribe to our newsletter for get laset update of
               <span className="section-span">
-                news, offers, promotions,blog post
+                news, offers, promotions, blog post
               </span>
               in which toil and pain can procure him some great pleasure.
             </Box>
@@ -34,9 +34,9 @@ const NewsLetter = () => {
                   id="newsletter-email"
                   className="newsletter-input-form w-input"
                   data-name="Email"
-                  maxlength="256"
+                  maxLength="256"
                   placeholder="Enter your email here ..."
-                  required="true"
+                  required={true}
                 />
                 <input
                   type="submit"

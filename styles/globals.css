@@ -41,6 +41,7 @@ Css Variables
   --primary-clr-2: #023E8A;
   --primary-clr-3: #48CAE4;
   --primary-clr-4: #d4563a;
+  --primary-clr-5: #3898EC;
   --natural-clr-1: #E7FBFF;
   --natural-clr-2: #80858F;
   --natural-clr-3: #0C0C0C;
@@ -48,6 +49,7 @@ Css Variables
   --natural-clr-5: #1E1717;
   --natural-clr-6: #FBF4F4;
   --natural-clr-7: #dddddd;
+  --natural-clr-8: #333333;
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --btn-clr:linear-gradient(270deg, #030b63, #0179af);
@@ -578,8 +580,9 @@ nav {
 }
 
 .pointer-arrow {
-  display: grid;
-  place-items: center;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .project-item-wrapper:hover .project__img {
@@ -680,7 +683,7 @@ nav {
   padding-left: 20px;
   border-style: solid;
   border-width: 1px;
-  border-color: #0077b6;
+  border-color: var(--primary-clr-1);
   border-radius: 30px;
   background-color: transparent;
 }
@@ -688,12 +691,10 @@ nav {
 .w-input {
   display: block;
   width: 100%;
-  padding: 8px 12px;
+  padding: 10px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
+  color: var(--clr-black);
 }
 
 .primary-button {
@@ -702,7 +703,7 @@ nav {
   background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
   font-family: Rajdhani, sans-serif;
-  color: #fff;
+  color: var(--clr-white);
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
@@ -711,9 +712,8 @@ nav {
 
 .w-button {
   display: inline-block;
-  background-color: #3898EC;
+  background-color: var(--primary-clr-5);
   cursor: pointer;
-  border-radius: 0;
 }
 
 .primary-button.newsletter-button {
