@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Box } from "@chakra-ui/react";
+import Form from "./Form";
 
 const Map = () => {
   return (
@@ -52,6 +53,9 @@ const Map = () => {
           </Box>
         </Box>
       </Box>
+
+      {/* form section */}
+      <Form />
     </>
   );
 };
