@@ -680,6 +680,7 @@ nav {
 
 .section-text {
   margin-bottom: 20px;
+  font-weight: 500;
   font-family: Rajdhani, sans-serif;
 }
 
@@ -768,7 +769,7 @@ nav {
   grid-auto-columns: 1fr;
   grid-column-gap: 73px;
   grid-row-gap: 73px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(200px, 1fr) 1fr;
   grid-template-rows: auto;
 }
 
@@ -783,6 +784,15 @@ nav {
   height: 100%;
 }
 
+.w-widget {
+  position: relative;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
 .w-container {
   margin-left: auto;
   margin-right: auto;
@@ -792,6 +802,10 @@ nav {
   max-width: 960px;
 }
 
+.container-contact {
+  max-width: 1050px;
+}
+
 .contact-block {
   display: grid;
   grid-auto-columns: 1fr;
@@ -799,6 +813,8 @@ nav {
   grid-row-gap: 73px;
   grid-template-columns: minmax(200px, 1fr) 1fr;
   grid-template-rows: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .section-title {
@@ -810,10 +826,6 @@ nav {
   font-size: 46px;
   line-height: 1.08;
   font-weight: 700;
-}
-
-.section-text {
-  margin-top: 20px;
 }
 
 .section-text a {
