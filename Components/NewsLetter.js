@@ -33,7 +33,7 @@ const NewsLetter = () => {
                   name="email"
                   id="newsletter-email"
                   className="newsletter-input-form w-input"
-                  data-name="Email"
+                  data-name="email"
                   maxLength="256"
                   placeholder="Enter your email here ..."
                   required={true}
