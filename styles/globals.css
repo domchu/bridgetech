@@ -763,6 +763,26 @@ nav {
     margin-bottom: 6px;
   }
 }
+.contact-block {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 73px;
+  grid-row-gap: 73px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.contact-map-block {
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 6px 21px 0 rgba(0, 0, 0, 0.1);
+}
+
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
 .w-container {
   margin-left: auto;
   margin-right: auto;
