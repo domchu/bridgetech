@@ -18,7 +18,6 @@ const Map = () => {
                   height="100%"
                   className="map"
                   loading="lazy"
-                  // referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </Box>
             </Box>
@@ -30,9 +29,7 @@ const Map = () => {
                 <Box className="section-text">
                   I am expert on <strong>BridgeTech</strong> provide the best
                   quality
-                  <Link href="/" target="_blank">
-                    IT solution
-                  </Link>
+                  <Link href="/projects">IT solution</Link>
                   neque porro quisqu qui dolorem ipsum quia golor sit amet,
                   conse ctetur, adipisci velit, sed eligendi optio cumque nihil
                   impedit quo minus id quod maxime placeat most of the a people
@@ -47,7 +44,7 @@ const Map = () => {
                 </Box>
                 <Box className="contact-info-small-title">Phone</Box>
                 <Box className="contact-info-text">
-                  09 (354) 587 874 or 10 (698) 852 741
+                  +234 (0) 70 3427 8995 or +234 (0) 81 1099 8914
                 </Box>
                 <Box className="contact-info-small-title">Email</Box>
                 <Box className="contact-info-text">
