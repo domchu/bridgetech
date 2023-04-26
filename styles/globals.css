@@ -356,7 +356,6 @@ nav {
 }
 
 .footer-center {
-  display: grid;
   text-align: left;
 }
 
@@ -1008,5 +1007,8 @@ strong {
   }
   .contact-map-block {
     min-height: 320px;
+  }
+  .contact-input-group {
+    width: 300px;
   }
 }/*# sourceMappingURL=globals.css.map */

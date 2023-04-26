@@ -353,7 +353,7 @@ font-weight: 300;
   font-size: 17px;
 }
 .footer-center{
-  display: grid;
+  // display: grid;
   text-align:left;
 }
 
@@ -432,6 +432,7 @@ font-weight: 300;
   .icons-container{
     margin-bottom: 2rem;
   }
+ 
 }
 
 
@@ -947,5 +948,8 @@ color: var(--primary-clr-2);
   }
   .contact-map-block {
     min-height: 320px;
+  }
+  .contact-input-group {
+    width: 300px ;
   }
 }

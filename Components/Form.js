@@ -26,6 +26,7 @@ const Form = () => {
                       data-name="Contact-Name"
                       placeholder="Name*"
                       maxLength="256"
+                      pattern="[a-zA-z]{3}"
                       required={true}
                       className="default-input-field w-input"
                     />
