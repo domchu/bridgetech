@@ -1041,4 +1041,18 @@ strong {
   grid-row-end: span 1;
   grid-column-start: span 3;
   grid-column-end: span 3;
+}
+
+.quote-input-group {
+  display: grid;
+  width: 100%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.quote-input-group-item {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=globals.css.map */
