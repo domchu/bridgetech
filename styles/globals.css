@@ -1023,4 +1023,22 @@ strong {
     padding-top: 70px;
     padding-bottom: 100px;
   }
+}
+.quote-subtitle {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7 {
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  grid-column-start: span 3;
+  grid-column-end: span 3;
+}
+
+#Product-Budget-2.w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7 {
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  grid-column-start: span 3;
+  grid-column-end: span 3;
 }/*# sourceMappingURL=globals.css.map */
