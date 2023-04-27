@@ -762,6 +762,13 @@ nav {
     height: 45px;
     margin-bottom: 6px;
   }
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
 }
 .contact-block {
   display: grid;
@@ -946,6 +953,7 @@ strong {
   width: 100%;
   grid-auto-columns: 1fr;
   grid-column-gap: 20px;
+  grid-row-gap: 0px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -982,6 +990,10 @@ strong {
   padding-bottom: 100px;
 }
 
+#newsletter-email {
+  color: var(--clr-black) !important;
+}
+
 @media screen and (max-width: 768px) {
   .contact-block {
     grid-column-gap: 30px;
@@ -1010,5 +1022,9 @@ strong {
   }
   .contact-input-group {
     width: 300px;
+  }
+  .section-gap-130 {
+    padding-top: 70px;
+    padding-bottom: 100px;
   }
 }/*# sourceMappingURL=globals.css.map */

@@ -22,10 +22,10 @@ const NewsLetter = () => {
             <Box className="w-form">
               <form
                 action=""
-                id="email-form"
-                className="newsletter-form"
-                name="email-form"
-                data-name="Email form"
+                // id="email-form"
+                // className="newsletter-form"
+                // name="email-form"
+                // data-name="Email form"
                 method="get"
               >
                 <input
