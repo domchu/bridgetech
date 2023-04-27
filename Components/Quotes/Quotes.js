@@ -81,7 +81,216 @@ const Quotes = () => {
                     />
                   </Box>
                   <Box className="quote-input-group">
-                    <Box className="quote-input-left-block"></Box>
+                    <Box
+                      className="quote-input-left-block"
+                      id="w-node-bde85bbb-254f-6ba9-3d7e-cc5d3fb19536-a714e7e7"
+                    >
+                      <Box className="quote-input-group-item">
+                        <Box className="quote-subtitle">
+                          What kind of project?
+                        </Box>
+                        <ul className="quote-project-list" role="list">
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Website
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                APP Development
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Graphic Design
+                              </span>
+                            </label>
+                          </li>
+                        </ul>
+                      </Box>
+                      <Box className="quote-input-group-item">
+                        <Box className="quote-subtitle">
+                          What would you like us to?
+                        </Box>
+                        <ul className="quote-project-list" role="list">
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Web Development
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Web Design
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Web Management
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                API
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Ecommerce
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                UI / UX
+                              </span>
+                            </label>
+                          </li>
+                          <li className="quote-project-item">
+                            <label className="w-checkbox checkbox-field">
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                              <input
+                                type="checkbox"
+                                name="Website"
+                                id="Website"
+                                data-name="Website"
+                                style={{
+                                  opacity: "0",
+                                  position: "absolute",
+                                  zIndex: "-1",
+                                }}
+                              />
+                              <span className="w-form-label" for="website">
+                                Web Training
+                              </span>
+                            </label>
+                          </li>
+                        </ul>
+                      </Box>
+                    </Box>
+                    {/* quote right */}
                     <Box className="quote-input-right-block">
                       <Box className="quote-input-group-item">
                         <Box className="quote-subtitle">
@@ -125,7 +334,7 @@ const Quotes = () => {
                       placeholder="Type your budget*"
                       maxLength="256"
                       required={true}
-                      className="default-input-field w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
+                      className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input"
                     />
                   </Box>
                   <input
