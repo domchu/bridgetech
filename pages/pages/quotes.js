@@ -3,6 +3,7 @@ import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
+import Quotes from "../../Components/Quotes/Quotes";
 
 const quotes = () => {
   return (
@@ -17,7 +18,8 @@ const quotes = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>Quotes</h1>
+      <Quotes />
+
       <Footer />
     </>
   );
