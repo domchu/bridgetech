@@ -990,10 +990,6 @@ strong {
   padding-bottom: 100px;
 }
 
-#newsletter-email {
-  color: var(--clr-black) !important;
-}
-
 @media screen and (max-width: 768px) {
   .contact-block {
     grid-column-gap: 30px;
