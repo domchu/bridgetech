@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Header from "../Components/Header/Header";
 import Topnav from '../Components/Topnav/Topnav';
 import Footer from "../Components/Footer/Footer";
-// import Home from "../Components/HomePage/HomePage";
 import HomePage from "../Components/HomePage/HomePage";
 
 export default function Home() {
