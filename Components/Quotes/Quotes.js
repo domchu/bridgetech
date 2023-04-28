@@ -37,8 +37,10 @@ const Quotes = () => {
       <Box className="contact-form-section wf-section">
         <Box className="section-gap-130">
           <Box className="container w-container">
-            <Box className="quote-form-wrapper">
-              <Box className="quote-upper-text">Get a Quote</Box>
+            <Box className="quote-form-wrapper contact-form-wrapper">
+              <Box className="quote-upper-text contact-upper-text">
+                Get a Quote
+              </Box>
               <Box className="quote-form-block w-form">
                 <form
                   action=""
