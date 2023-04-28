@@ -1100,6 +1100,10 @@ label {
   border-top-right-radius: 2px;
 }
 
+.w-checkbox-input--inputType-custom {
+  box-shadow: 0px 0px 3px 1px #3898EC;
+}
+
 .w-form-label {
   display: inline-block;
   cursor: pointer;
@@ -1119,17 +1123,6 @@ label {
   z-index: -1;
 }
 
-.w-checkbox::before {
-  content: " ";
-  display: table;
-}
-
-.w-checkbox::after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
 label {
   font-weight: bold;
 }
@@ -1137,6 +1130,19 @@ label {
 .quote-form-block {
   width: 100%;
   margin-bottom: 0px;
+}
+
+.checkbox.w--redirected-focus {
+  border-color: #5853ec;
+}
+
+.checkbox.w--redirected-checked {
+  border-color: #0077b6;
+  background-color: #0077b6;
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633142b0d726c72dd1db64e0_check-16px.svg");
+  background-position: 50% 50%;
+  background-size: auto;
+  box-shadow: none;
 }
 
 #w-node-bde85bbb-254f-6ba9-3d7e-cc5d3fb19536-a714e7e7 {
