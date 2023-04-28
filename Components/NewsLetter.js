@@ -25,15 +25,15 @@ const NewsLetter = () => {
                 id="email-form"
                 className="newsletter-form"
                 name="email-form"
-                data-name="Email form"
+                data-name="Email Form"
                 method="get"
               >
                 <input
                   type="email"
-                  name="email"
+                  name="email-form"
                   id="newsletter-email"
                   className="newsletter-input-form w-input"
-                  data-name="email"
+                  data-name="Email Form"
                   maxLength="256"
                   placeholder="Enter your email here ..."
                   required={true}
