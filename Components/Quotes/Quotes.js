@@ -37,8 +37,10 @@ const Quotes = () => {
       <Box className="contact-form-section wf-section">
         <Box className="section-gap-130">
           <Box className="container w-container">
-            <Box className="quote-form-wrapper">
-              <Box className="quote-upper-text">Get a Quote</Box>
+            <Box className="quote-form-wrapper contact-form-wrapper">
+              <Box className="quote-upper-text contact-upper-text">
+                Get a Quote
+              </Box>
               <Box className="quote-form-block w-form">
                 <form
                   action=""
@@ -91,32 +93,41 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              {/* <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box> */}
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
+                                // style={{
+                                //   opacity: "0",
+                                //   position: "absolute",
+                                //   zIndex: "-1",
+                                // }}
+                                // style={{}}
                               />
                               <span className="w-form-label" for="website">
                                 Website
                               </span>
                             </label>
+                            {/* <label htmlFor=""></label> */}
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
+                                name="App "
+                                id="App "
+                                data-name="App "
                                 style={{
                                   opacity: "0",
                                   position: "absolute",
@@ -129,13 +140,16 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
+                                name="checkbox-2"
+                                id="checkbox-2"
+                                data-name="checkbox-2"
                                 style={{
                                   opacity: "0",
                                   position: "absolute",
@@ -155,8 +169,11 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -174,8 +191,11 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -191,10 +211,14 @@ const Quotes = () => {
                                 Web Design
                               </span>
                             </label>
+                            <label htmlFor=""></label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -212,8 +236,11 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -231,8 +258,11 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -250,8 +280,11 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -269,8 +302,11 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></Box>
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
+                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
@@ -334,7 +370,7 @@ const Quotes = () => {
                       placeholder="Type your budget*"
                       maxLength="256"
                       required={true}
-                      className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input"
+                      className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
                     />
                   </Box>
                   <input
