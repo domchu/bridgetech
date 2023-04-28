@@ -35,8 +35,8 @@ const HomePage = () => {
                     alt="Play Icon"
                     loading="lazy"
                     className="video-play"
-                    width={50}
-                    height={50}
+                    width={30}
+                    height={30}
                   />
                   <Box>Watch Video</Box>
                 </Link>

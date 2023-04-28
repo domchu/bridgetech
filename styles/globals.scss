@@ -433,14 +433,7 @@ font-weight: 300;
  
 }
 // h1
-h1 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: Rajdhani, sans-serif;
-  font-size: 64px;
-  line-height: 1.12;
-  font-weight: 700;
-}
+
 // 
 
 // subheading css
@@ -1160,7 +1153,7 @@ ul{
 // home css
 .hero-background {
   position: relative;
-  padding-top: 250px;
+  padding-top: 180px;
   padding-bottom: 120px;
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633190cf0474c871ea8804a4_hero-bg-pattern.png");
   background-position: 50% 50%;
@@ -1168,7 +1161,6 @@ ul{
   background-repeat: no-repeat;
 }
 .hero-container-wrapper {
- 
   display: flex;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
@@ -1176,6 +1168,14 @@ ul{
 }
 .hero-content {
   max-width: 500px;
+}
+.hero-content h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 64px;
+    line-height: 1.12;
+    font-weight: 700;
 }
 .hero-title {
   margin-bottom: 20px;
@@ -1203,6 +1203,10 @@ ul{
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   text-decoration: none;
+  color: #0077B6;
+  // font-family:
+  font-family: Rajdhani, sans-serif;
+  font-weight:600;
 }
 .w-inline-block {
   max-width: 100%;
