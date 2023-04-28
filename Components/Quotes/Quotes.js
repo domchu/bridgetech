@@ -93,7 +93,10 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               {/* <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box> */}
                               <input
                                 type="checkbox"
@@ -112,9 +115,13 @@ const Quotes = () => {
                                 Website
                               </span>
                             </label>
+                            {/* <label htmlFor=""></label> */}
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -133,7 +140,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -159,7 +169,10 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -178,7 +191,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -195,9 +211,13 @@ const Quotes = () => {
                                 Web Design
                               </span>
                             </label>
+                            <label htmlFor=""></label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -216,7 +236,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -235,7 +258,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -254,7 +280,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
@@ -273,7 +302,10 @@ const Quotes = () => {
                             </label>
                           </li>
                           <li className="quote-project-item">
-                            <label className="w-checkbox checkbox-field">
+                            <label
+                              className="w-checkbox checkbox-field"
+                              htmlFor=""
+                            >
                               <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"

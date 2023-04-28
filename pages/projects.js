@@ -4,7 +4,7 @@ import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Projects from "../Components/Projects/Projects";
-import NewsLetter from "../Components/newsLetter";
+import NewsLetter from "../Components/NewsLetter";
 
 
 
