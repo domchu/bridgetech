@@ -3,6 +3,8 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import watch from "../../public/images/video-play-icon.png";
+import banner from "../../public/images/banner-image.png";
+import arrowIcon from "../../public/images/banner-item.png";
 
 const HomePage = () => {
   return (
@@ -30,7 +32,6 @@ const HomePage = () => {
                   aria-haspopup="dialog"
                 >
                   <Image
-                    // src="https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633282f6557e05c596c95559_video-play-icon.png"
                     src={watch}
                     alt="Play Icon"
                     loading="lazy"
@@ -44,19 +45,19 @@ const HomePage = () => {
             </Box>
             <Box className="hero-image-block">
               <Image
-                className="hero-image"
-                width={300}
-                height={300}
-                // src="https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63536b582cf25003d158f7c8_bannerimage.png"
+                className="hero-image img"
+                width={400}
+                height={400}
+                src={banner}
                 alt="hero image"
                 loading="lazy"
               />
               <Image
-                className="shape-image"
-                // width={300}
-                // height={300}
-                // src="https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63536b582cf25003d158f7c8_bannerimage.png"
-                alt="hero shape image"
+                className="hero-shape hero__shape"
+                width={50}
+                height={60}
+                src={arrowIcon}
+                alt="hero shape Image"
                 loading="lazy"
               />
             </Box>

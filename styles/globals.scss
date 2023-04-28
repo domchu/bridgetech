@@ -1217,7 +1217,51 @@ ul{
   vertical-align: middle;
   display: inline-block;
 }
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
 .hero-shape {
   position: absolute;
   inset: auto auto 35px 6%;
+}
+.hero-image{
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63536b582cf25003d158f7c8_hero-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  display: grid;
+  place-items: center;
+}
+.hero__shape{
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63536c2e4f3fdf00dafdcacb_hero-shape.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 50px;
+}
+.hero-image-block {
+  position: absolute;
+  inset: auto 1% 0% auto;
+  width: 45%;
+}
+.hero-image-block {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 1%;
+  bottom: 0%;
+  width: 45%;
+}
+.hero-shape {
+  position: absolute;
+  left: 8%;
+  top: auto;
+  right: auto;
+  bottom: 35px;
+  font-size:2rem;
 }
