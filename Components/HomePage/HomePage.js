@@ -5,6 +5,8 @@ import Image from "next/image";
 import watch from "../../public/images/video-play-icon.png";
 import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
+import femaleImage from "../../public/images/female-img.png";
+import femaleImage1 from "../../public/images/female-img-1.png";
 
 const HomePage = () => {
   return (
@@ -60,6 +62,32 @@ const HomePage = () => {
                 alt="hero shape Image"
                 loading="lazy"
               />
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+      {/* second section of the home page */}
+      <Box className="eliminate-section wf-section">
+        <Box className="section-gap-130-eliminate">
+          <Box className="container w-container">
+            <Box className="eliminate-grid">
+              <Box className="eliminate-gridbox-left" id="">
+                <Box className="eliminate-image-box">
+                  <Image
+                    src={femaleImage}
+                    className="eliminate-user-image"
+                    alt="Eliminate Image"
+                    loading="lazy"
+                  />
+                  <Image
+                    src={femaleImage1}
+                    className="eliminate-shape-1"
+                    alt="Eliminate Shape"
+                    loading="lazy"
+                  />
+                </Box>
+              </Box>
+              <Box className="eliminate-gridbox-right" id=""></Box>
             </Box>
           </Box>
         </Box>
