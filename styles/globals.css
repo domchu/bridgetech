@@ -533,8 +533,7 @@ nav {
   display: block;
   width: 100%;
   transition: 0.5s;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .project__contents {
@@ -1287,7 +1286,6 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60px;
   width: 50px;
 }
 
@@ -1308,7 +1306,7 @@ img {
 
 .hero-shape {
   position: absolute;
-  left: 8%;
+  left: 10%;
   top: auto;
   right: auto;
   bottom: 35px;
