@@ -7,6 +7,7 @@ import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
 import femaleImage from "../../public/images/female-img.png";
 import femaleImage1 from "../../public/images/female-img-1.png";
+import femaleBg from "../../public/images/eliminate-2.png";
 
 const HomePage = () => {
   return (
@@ -71,17 +72,26 @@ const HomePage = () => {
         <Box className="section-gap-130-eliminate">
           <Box className="container w-container">
             <Box className="eliminate-grid">
-              <Box className="eliminate-gridbox-left" id="">
+              <Box
+                className="eliminate-gridbox-left"
+                id="w-node-bb981379-6d5b-d20f-880f-d0a5b9a4085c-44adaf1d"
+              >
                 <Box className="eliminate-image-box">
                   <Image
                     src={femaleImage}
-                    className="eliminate-user-image"
+                    className="eliminate-user-image img"
                     alt="Eliminate Image"
                     loading="lazy"
                   />
                   <Image
                     src={femaleImage1}
-                    className="eliminate-shape-1"
+                    className="eliminate-shape-1 img"
+                    alt="Eliminate Shape"
+                    loading="lazy"
+                  />
+                  <Image
+                    src={femaleBg}
+                    className="eliminate-shape-2 img"
                     alt="Eliminate Shape"
                     loading="lazy"
                   />
