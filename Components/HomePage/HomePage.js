@@ -67,6 +67,7 @@ const HomePage = () => {
           </Box>
         </Box>
       </Box>
+
       {/* second section of the home page */}
       <Box className="eliminate-section wf-section">
         <Box className="section-gap-130-eliminate">
@@ -97,7 +98,54 @@ const HomePage = () => {
                   />
                 </Box>
               </Box>
-              <Box className="eliminate-gridbox-right" id=""></Box>
+              <Box className="eliminate-gridbox-right" id="">
+                <Box classname="section-block">
+                  <h2 className="section-title max-width-440">
+                    Eliminate
+                    <span className="section-title-inner-style">
+                      IT Challenges
+                    </span>
+                    for your Business
+                  </h2>
+                  <Box className="section-text">
+                    Neque porro quisquam est, qui dolorem ipsum quia golor sit
+                    amet, conse ctetur, adipisci velit, sed eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat facere
+                    possimus mentioned technology
+                  </Box>
+                </Box>
+                <ul className="eliminate-list w-list-unstyled" role="list">
+                  <li className="eliminate-list-item">
+                    <Box className="eliminate-list-style"></Box>
+                    <Box className="eliminate-list-text">
+                      Neque porro quisquam est, qui dolorem ipsum quia more than
+                      enough impedit quo minus quod maxime facere possimus
+                    </Box>
+                  </li>
+                  <li className="eliminate-list-item">
+                    <Box className="eliminate-list-style"></Box>
+                    <Box className="eliminate-list-text">
+                      Neque porro quisquam est, qui dolorem ipsum quia more than
+                      enough impedit quo minus quod maxime facere possimus
+                    </Box>
+                  </li>
+                  <li className="eliminate-list-item">
+                    <Box className="eliminate-list-style"></Box>
+                    <Box className="eliminate-list-text">
+                      Neque porro quisquam est, qui dolorem ipsum quia more than
+                      enough impedit quo minus quod maxime facere possimus
+                    </Box>
+                  </li>
+                  <li
+                    className="eliminate-list-item-dash-progress"
+                    data-w-id=""
+                    style="will-change: width, height, height:32.7201%"
+                  ></li>
+                </ul>
+                <Link href="/" className="primary-button">
+                  Let's Start
+                </Link>
+              </Box>
             </Box>
           </Box>
         </Box>
