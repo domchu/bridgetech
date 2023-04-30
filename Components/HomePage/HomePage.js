@@ -3,8 +3,8 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import NewsLetter from "../NewsLetter";
-// import Ethic from "../Ethic";
 import Ethic from "../Ethic";
+import WhyBridgetech from "../WhyBridgetech";
 import watch from "../../public/images/video-play-icon.png";
 import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
@@ -143,7 +143,7 @@ const HomePage = () => {
                   <li
                     className="eliminate-list-item-dash-progress li"
                     data-w-id=""
-                    // style={{ willChange: width, height }}
+                    style={{willChange:"width", willChange:"height" }}
                   ></li>
                 </ul>
                 <Link href="/" className="primary-button">
@@ -155,7 +155,10 @@ const HomePage = () => {
         </Box>
       </Box>
 
-      {/* MODE OF OPERATION */}
+      {/* WHY BRIDGETECH AT THE HOME PAGE  */}
+      <WhyBridgetech />
+
+      {/* MODE OF OPERATION AT THE HOME PAGE */}
       <Ethic />
 
       {/* NEWSLETTER SECTION AT THE HOME PAGE */}
