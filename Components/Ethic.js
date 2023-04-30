@@ -1,7 +1,10 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
-import MeetPeople from "../public/images/work-proess-2.png";
+import MeetPeople from "../public/images/work-proess-1.png";
+import Brain from "../public/images/work-proess-2.png";
+import Solution from "../public/images/work-proess-3.png";
+import Project from "../public/images/work-proess-4.png";
 
 const Ethic = () => {
   return (
@@ -60,7 +63,7 @@ const Ethic = () => {
               >
                 <Box className="work-progress-icon-block">
                   <Image
-                    src={MeetPeople}
+                    src={Brain}
                     alt="Work Icon Image"
                     className="work-progress-icon-image img"
                     loading="lazy"
@@ -90,7 +93,7 @@ const Ethic = () => {
               >
                 <Box className="work-progress-icon-block">
                   <Image
-                    src={MeetPeople}
+                    src={Solution}
                     alt="Work Icon Image"
                     className="work-progress-icon-image img"
                     loading="lazy"
@@ -120,7 +123,7 @@ const Ethic = () => {
               >
                 <Box className="work-progress-icon-block">
                   <Image
-                    src={MeetPeople}
+                    src={Project}
                     alt="Work Icon Image"
                     className="work-progress-icon-image img"
                     loading="lazy"
