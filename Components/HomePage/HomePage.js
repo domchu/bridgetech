@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import NewsLetter from "../NewsLetter";
 // import Ethic from "../Ethic";
+import Ethic from "../Ethic";
 import watch from "../../public/images/video-play-icon.png";
 import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
@@ -14,6 +15,7 @@ import femaleBg from "../../public/images/eliminate-2.png";
 const HomePage = () => {
   return (
     <>
+      {/* HERO SECTION OF THE HOME PAGE */}
       <Box className="hero-background">
         <Box className="container w-container">
           <Box className="hero-container-wrapper">
@@ -70,7 +72,7 @@ const HomePage = () => {
         </Box>
       </Box>
 
-      {/* ELIMINATE section of the home page */}
+      {/* ELIMINATE SECTION OF THE HOME PAGE */}
       <Box className="eliminate-section wf-section">
         <Box className="section-gap-130-eliminate">
           <Box className="container w-container">
@@ -154,7 +156,7 @@ const HomePage = () => {
       </Box>
 
       {/* MODE OF OPERATION */}
-      {/* <Ethic /> */}
+      <Ethic />
 
       {/* NEWSLETTER SECTION AT THE HOME PAGE */}
       <NewsLetter />
