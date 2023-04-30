@@ -6,11 +6,9 @@ import SubHeading from "./../SubHeading";
 import project1 from "../../public/images/project1.jpg";
 import project2 from "../../public/images/project2.jpg";
 import project3 from "../../public/images/project3.jpg";
-// import project4 from "../../public/images/project4.jpeg";
 import project5 from "../../public/images/project5.jpg";
 import project6 from "../../public/images/project6.jpg";
 import project7 from "../../public/images/project7.jpg";
-// import project8 from "../../public/images/project8.jpg";
 import project9 from "../../public/images/project9.jpg";
 import arrow from "../../public/images/arrow-long-icon.png";
 
