@@ -1322,7 +1322,7 @@ img {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Rajdhani, sans-serif;
-    font-size: 38px ;
+    font-size: 38px !important;
     line-height: 1.08;
     font-weight: 700;
 }
@@ -1408,12 +1408,13 @@ img {
   grid-row-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  flex-wrap:wrap;
 }
 .single-work-progress-item {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding: 50px 20px 25px;
+  padding: 50px 30px 25px;
   border-radius: 14px;
   transition: box-shadow 300ms ease, background-color 300ms ease;
   text-align: center;
