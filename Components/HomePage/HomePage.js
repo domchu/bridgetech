@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import NewsLetter from "../NewsLetter";
+// import Ethic from "../Ethic";
 import watch from "../../public/images/video-play-icon.png";
 import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
@@ -151,6 +152,9 @@ const HomePage = () => {
           </Box>
         </Box>
       </Box>
+
+      {/* MODE OF OPERATION */}
+      {/* <Ethic /> */}
 
       {/* NEWSLETTER SECTION AT THE HOME PAGE */}
       <NewsLetter />
