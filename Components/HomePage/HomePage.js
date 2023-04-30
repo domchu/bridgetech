@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
+import NewsLetter from "../NewsLetter";
 import watch from "../../public/images/video-play-icon.png";
 import banner from "../../public/images/banner-image.png";
 import arrowIcon from "../../public/images/banner-item.png";
@@ -68,7 +69,7 @@ const HomePage = () => {
         </Box>
       </Box>
 
-      {/* second section of the home page */}
+      {/* ELIMINATE section of the home page */}
       <Box className="eliminate-section wf-section">
         <Box className="section-gap-130-eliminate">
           <Box className="container w-container">
@@ -99,12 +100,12 @@ const HomePage = () => {
                 </Box>
               </Box>
               <Box className="eliminate-gridbox-right" id="">
-                <Box classname="section-block">
+                <Box className="section-block">
                   <h2 className="section-title max-width-440">
-                    Eliminate
+                    Eliminate{" "}
                     <span className="section-title-inner-style">
                       IT Challenges
-                    </span>
+                    </span>{" "}
                     for your Business
                   </h2>
                   <Box className="section-text">
@@ -137,9 +138,9 @@ const HomePage = () => {
                     </Box>
                   </li>
                   <li
-                    className="eliminate-list-item-dash-progress"
+                    className="eliminate-list-item-dash-progress li"
                     data-w-id=""
-                    style="will-change: width, height, height:32.7201%"
+                    // style={{ willChange: width, height }}
                   ></li>
                 </ul>
                 <Link href="/" className="primary-button">
@@ -150,6 +151,9 @@ const HomePage = () => {
           </Box>
         </Box>
       </Box>
+
+      {/* NEWSLETTER SECTION AT THE HOME PAGE */}
+      <NewsLetter />
     </>
   );
 };
