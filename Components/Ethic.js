@@ -50,7 +50,97 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-lin-bottom"
-                  style={{}}
+                  //   style={{}}
+                  id="special"
+                ></Box>
+              </Box>
+              <Box
+                className="single-work-progress-item"
+                id="w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d"
+              >
+                <Box className="work-progress-icon-block">
+                  <Image
+                    src={MeetPeople}
+                    alt="Work Icon Image"
+                    className="work-progress-icon-image img"
+                    loading="lazy"
+                  />
+                </Box>
+                <Box
+                  className="work-progress-text"
+                  style={{ color: "rgb(2,62.138)" }}
+                >
+                  Brainstorming
+                </Box>
+                <Box
+                  className="work-progress-number-text"
+                  style={{ opacity: "0.3" }}
+                >
+                  02
+                </Box>
+                <Box
+                  className="work-progress-horizontal-lin-bottom"
+                  //   style={{}}
+                  id="special"
+                ></Box>
+              </Box>
+              <Box
+                className="single-work-progress-item"
+                id="w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d"
+              >
+                <Box className="work-progress-icon-block">
+                  <Image
+                    src={MeetPeople}
+                    alt="Work Icon Image"
+                    className="work-progress-icon-image img"
+                    loading="lazy"
+                  />
+                </Box>
+                <Box
+                  className="work-progress-text"
+                  style={{ color: "rgb(2,62.138)" }}
+                >
+                  Find the Solution
+                </Box>
+                <Box
+                  className="work-progress-number-text"
+                  style={{ opacity: "0.3" }}
+                >
+                  03
+                </Box>
+                <Box
+                  className="work-progress-horizontal-lin-bottom"
+                  //   style={{}}
+                  id="special"
+                ></Box>
+              </Box>
+              <Box
+                className="single-work-progress-item"
+                id="w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d"
+              >
+                <Box className="work-progress-icon-block">
+                  <Image
+                    src={MeetPeople}
+                    alt="Work Icon Image"
+                    className="work-progress-icon-image img"
+                    loading="lazy"
+                  />
+                </Box>
+                <Box
+                  className="work-progress-text"
+                  style={{ color: "rgb(2,62.138)" }}
+                >
+                  Project Done
+                </Box>
+                <Box
+                  className="work-progress-number-text"
+                  style={{ opacity: "0.3" }}
+                >
+                  04
+                </Box>
+                <Box
+                  className="work-progress-horizontal-lin-bottom"
+                  //   style={{}}
                   id="special"
                 ></Box>
               </Box>
