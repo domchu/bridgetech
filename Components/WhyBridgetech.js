@@ -4,6 +4,7 @@ import { Box } from "@chakra-ui/react";
 import Expert from "../public/images/team.png";
 import Action from "../public/images/action.png";
 import Tech from "../public/images/tech.png";
+import ManImage from "../public/images/male-img.png";
 
 const WhyBridgetech = () => {
   return (
@@ -84,7 +85,23 @@ const WhyBridgetech = () => {
               </Box>
 
               {/*WHY CHOOSE BRIDGETECH RIGHT PART  */}
-              <Box className="choose-gridbox-right"></Box>
+              <Box className="choose-gridbox-right">
+                <Box className="choose-image-box">
+                  <Image
+                    src={ManImage}
+                    alt="Choose Image"
+                    className="choose-image img"
+                  />
+                  <Box className="choose-inner-text-box-1">
+                    <Box className="text-block">100% Clients Satisfaction</Box>
+                  </Box>
+                  <Box className="choose-inner-text-box-2">
+                    <Box className="text-block">
+                      Get Perfect Solution for your Problems
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
             </Box>
           </Box>
         </Box>
