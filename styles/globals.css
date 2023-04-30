@@ -1205,7 +1205,6 @@ ul {
 
 .hero-container-wrapper {
   display: flex;
-  grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
@@ -1322,6 +1321,33 @@ img {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-background {
+    padding-top: 180px;
+    padding-bottom: 100px;
+  }
+  .hero-content {
+    max-width: 355px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  .hero-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-background {
+    padding-top: 170px;
+    padding-bottom: 90px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .hero-container-wrapper {
+    display: block;
+  }
+}
 .section-gap-130-eliminate {
   padding-top: 80px;
   padding-bottom: 100px;
