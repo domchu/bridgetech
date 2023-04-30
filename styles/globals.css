@@ -1378,7 +1378,7 @@ img {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Rajdhani, sans-serif;
-  font-size: 38px !important;
+  font-size: 38px;
   line-height: 1.08;
   font-weight: 700;
 }
@@ -1474,7 +1474,7 @@ img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding: 50px 30px 25px;
+  padding: 50px 20px 25px;
   border-radius: 14px;
   transition: box-shadow 300ms ease, background-color 300ms ease;
   text-align: center;
@@ -1537,9 +1537,20 @@ img {
 }
 
 .single-work-progress-item:hover .work-progress-number-text {
-  opacity: 1;
+  opacity: 1 !important;
+  will-change: opacity;
 }
 
 .single-work-progress-item:hover .work-progress-text {
   color: rgb(0, 119, 182);
+}
+
+.single-work-progress-item:hover .single-work-progress-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 50px 30px 25px;
+  border-radius: 14px;
+  transition: box-shadow 300ms ease, background-color 300ms ease;
+  text-align: center;
 }/*# sourceMappingURL=globals.css.map */
