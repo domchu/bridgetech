@@ -1383,3 +1383,21 @@ img {
 //  width:1px;
  
 // }
+
+// ethic
+.container.justify-center {
+  
+  flex-direction: column;
+  justify-content: center;
+}
+.section-justify-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-block.max-width-475 {
+  max-width: 475px;
+}
+.section-block.max-width-475.text-center {
+  text-align: center;
+}
