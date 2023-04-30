@@ -1466,11 +1466,18 @@ img {
   grid-auto-columns: 1fr;
   grid-column-gap: 25px;
   grid-row-gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-template-rows: auto;
-  flex-wrap: wrap;
 }
 
+@media screen and (max-width: 500px) {
+  .work-progres-block {
+    padding: 0rem 1rem;
+  }
+  .contact-upper-text {
+    font-size: 22px;
+  }
+}
 .single-work-progress-item {
   position: relative;
   overflow: hidden;
