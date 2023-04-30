@@ -1496,6 +1496,52 @@ img {
 }
 
 // WHY CHOOSE BRIDGETECH CSS
+.choose-grid-layout {
+  display: -ms-grid;
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.choose-list {
+
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+.choose-list-item {
+  display: flex;
+  padding-left: 0px;
+  align-items: center;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  background-image: none;
+}
+.choose-image-icon {
+  width: auto;
+  height: 62px;
+}
+.choose-content {
+ 
+  flex: 1;
+}
+p {
+  margin-top: 0;
+  // margin-bottom: 10px;
+}
+.choose-title {
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 700;
+}
 
 
 
