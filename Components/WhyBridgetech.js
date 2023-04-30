@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 import { Box } from "@chakra-ui/react";
+import Expert from "../public/images/team.png";
 
 const WhyBridgetech = () => {
   return (
@@ -24,6 +26,25 @@ const WhyBridgetech = () => {
                     possimus mentioned technology
                   </Box>
                 </Box>
+                <ul className="choose-list w-list-unstyled" role="list">
+                  <li className="choose-list-item">
+                    <Box className="choose-list-image-icon-block">
+                      <Image
+                        src={Expert}
+                        alt="Choose Icon"
+                        loading="lazy"
+                        className="choose-image-icon"
+                      />
+                    </Box>
+                    <Box className="choose-content">
+                      <Box className="section-title">Expert Team</Box>
+                      <p className="choose-text">
+                        Neque porro quisquam est, qui dolorem quia enough
+                        impedit quo minus quod maxime
+                      </p>
+                    </Box>
+                  </li>
+                </ul>
               </Box>
               <Box className="choose-gridbox-right"></Box>
             </Box>
