@@ -107,7 +107,7 @@ const Navbar = () => {
                 className={currentRoute == "/pages/quotes" ? "active" : ""}
                 passhref="true"
               >
-                Get a quote
+                Get a Quote
               </Link>
             </li>
           </Box>

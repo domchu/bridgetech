@@ -52,7 +52,7 @@ const Ethic = () => {
                   01
                 </Box>
                 <Box
-                  className="work-progress-horizontal-lin-bottom"
+                  className="work-progress-horizontal-line-bottom"
                   //   style={{}}
                   id="special"
                 ></Box>
@@ -82,7 +82,7 @@ const Ethic = () => {
                   02
                 </Box>
                 <Box
-                  className="work-progress-horizontal-lin-bottom"
+                  className="work-progress-horizontal-line-bottom"
                   //   style={{}}
                   id="special"
                 ></Box>
@@ -112,7 +112,7 @@ const Ethic = () => {
                   03
                 </Box>
                 <Box
-                  className="work-progress-horizontal-lin-bottom"
+                  className="work-progress-horizontal-line-bottom"
                   //   style={{}}
                   id="special"
                 ></Box>
@@ -142,7 +142,7 @@ const Ethic = () => {
                   04
                 </Box>
                 <Box
-                  className="work-progress-horizontal-lin-bottom"
+                  className="work-progress-horizontal-line-bottom"
                   //   style={{}}
                   id="special"
                 ></Box>
