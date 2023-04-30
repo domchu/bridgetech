@@ -1450,6 +1450,33 @@ img {
   background-image: none;
 }
 
+@media screen and (max-width: 768px) {
+  .eliminate-grid {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: minmax(400px, 1fr) 1fr;
+  }
+  .section-title {
+    font-size: 34px;
+  }
+  .eliminate-shape-1 {
+    bottom: 23%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .eliminate-grid {
+    grid-template-columns: 1fr;
+  }
+  .eliminate-shape-1 {
+    right: 3%;
+  }
+  .eliminate-shape-2 {
+    top: 10%;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+}
 .container.justify-center {
   flex-direction: column;
   justify-content: center;

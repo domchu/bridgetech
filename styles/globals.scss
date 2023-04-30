@@ -1298,6 +1298,10 @@ img {
   bottom: 35px;
   font-size:2rem;
 }
+@media screen and (max-width:#{$tablet-width}) {
+  
+}
+@media screen and (max-width:#{$tablet-width}) {}
 
 // eliminate css
 .section-gap-130-eliminate {
@@ -1412,11 +1416,35 @@ img {
   border-left: 1px dashed #00b4d8;
   background-image: none;
 }
-// .li {
-//  height:54.5544%;
-//  width:1px;
- 
-// }
+@media screen and (max-width:#{$tablet-width}) {
+  .eliminate-grid {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: minmax(400px, 1fr) 1fr;
+  }
+  .section-title {
+    font-size: 34px;
+  }
+  .eliminate-shape-1 {
+    bottom: 23%;
+  }
+}
+@media screen and (max-width:#{$phone-width}) {
+  .eliminate-grid {
+    grid-template-columns: 1fr;
+  }
+  .eliminate-shape-1 {
+    right: 3%;
+  }
+  .eliminate-shape-2 {
+    top: 10%;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+}
+
+
 
 // ethic
 .container.justify-center {
