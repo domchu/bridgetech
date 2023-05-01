@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import ManImage from "../../public/images/male-img.png";
+import project7 from "../../public/images/project7.jpg";
 
 const Service = () => {
   return (
@@ -90,6 +91,63 @@ const Service = () => {
                   <Box className="choose-inner-text-box-2">
                     <Box className="text-block">
                       Get Perfect Solution for your Problems
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
+      {/* SERVICES OFFER IN BRIDGETECH */}
+      <Box className="service-section wf-section" id="service-section">
+        <Box className="section-gap-bottom-130">
+          <Box className="container w-container">
+            <Box className="section-justify-center">
+              <Box className="section-block max-width-475 text-center">
+                <h2 className="section-title">
+                  Services
+                  <span className="section-title-inner-style">that we</span>
+                  Provide
+                </h2>
+                <Box className="section-text">
+                  Neque porro quisquam est, qui dolorem ipsum quia golor sit
+                  amet <br />
+                  ctetur, adipisci velit, sed eligendi optio cumque nihil
+                  impedit
+                </Box>
+              </Box>
+            </Box>
+            <Box className="section-collection-list-wrapper w-dyn-list">
+              <Box className="service-collection-list w-dyn-list" role="list">
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
                     </Box>
                   </Box>
                 </Box>
