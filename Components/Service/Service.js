@@ -8,6 +8,7 @@ import project2 from "../../public/images/project2.jpg";
 import project3 from "../../public/images/project3.jpg";
 import project5 from "../../public/images/project5.jpg";
 import project7 from "../../public/images/project7.jpg";
+import project10 from "../../public/images/project10.jpg";
 
 const Service = () => {
   return (
@@ -195,7 +196,7 @@ const Service = () => {
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project5}
+                        src={project10}
                         alt="Web Design Training"
                         loading="lazy"
                         className="image-responsive img"

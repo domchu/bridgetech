@@ -1856,5 +1856,10 @@ strong {
   color: var(--primary-clr-5);
   transition: 0.5s;
 }
+.image-responsive:hover{
+  transition: 0.5s;
+  filter:blur(3px)
+}
+@media screen and (max-width:#{$phone-width}){}
 
 
