@@ -8,7 +8,7 @@ const index = () => {
   return (
     <div>
       <Head>
-        <title>BridgeTech | About Us</title>
+        <title>BridgeTech | Services</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
@@ -17,7 +17,8 @@ const index = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>passing the single service page </h1>
+
+      <Service />
       <Footer />
     </div>
   );
