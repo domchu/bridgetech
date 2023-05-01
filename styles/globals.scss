@@ -519,6 +519,7 @@ grid-template-rows: auto;
   width: 300px;
   background-color: var(--natural-clr-1);
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.13);
+  // height: auto;
 }
 .project-collection{
   position: relative;
@@ -540,6 +541,8 @@ grid-template-rows: auto;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  // height: 0;
+  // bottom: 100%;
   position: absolute;
   z-index: 10;
   top: 50%;
@@ -573,13 +576,15 @@ font-family: Rajdhani, sans-serif;
 }
 .project-item-wrapper:hover .project__contents{
   opacity: 1;
+  // bottom: 0;
+  // height: 100%;
 }
 @media screen and (max-width:#{$tablet-width}) {
   .project-wrapper{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    padding: 50px;
+    // padding: 50px;
   }
 
 }
@@ -599,10 +604,25 @@ font-family: Rajdhani, sans-serif;
     font-size: 16px;
     padding:1rem;
     }
+    .project-item-wrapper{
+      width: none;
+    }
 
 }
-// newsletter css
-.newsletter-container{
+
+
+// NEWSLETTER STYLES
+.section-gap-bottom-130 {
+  padding-bottom: 100px;
+}
+.newsletter-text-span {
+  color: var(--primary-clr-2);
+  margin: 0px 3px;
+}
+.newsletter-form-block {
+  margin-bottom: 0px;
+}
+.newsletter-grid{
 display: grid;
 padding: 40px 50px;
 align-items: center;
@@ -617,24 +637,20 @@ background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c
 background-position: 100% 50%, 0% 50%;
 background-size: 528px 528px, 528px 528px;
 background-repeat: no-repeat, no-repeat;
-width: 60%;
-margin:auto
+
 }
 .newsletter-form{
   position: relative;
 }
-.news-container{
+.w-container{
   margin-left: auto;
   margin-right:auto;
- margin-bottom:100px;
 }
-.newsletter-section{
-  margin-bottom: 100px;
+
+.container{
+  max-width: 960px !important;
 }
-.newscont{
-  max-width: 960px;
-}
-.newsletter-contents h2{
+.newsletter-content h2{
 margin-bottom: 10px; 
  color: var(--primary-clr-2);
  line-height: 1.08;
@@ -642,9 +658,7 @@ margin-bottom: 10px;
   font-weight: 700;
   font-family: Rajdhani, sans-serif;
 }
-.newsletter-text{
-  margin: 0px 5px;
-}
+
 .section-text{
   margin-bottom: 20px;
   font-weight: 500;
@@ -706,70 +720,63 @@ cursor: pointer;
 @media screen and (max-width:#{$tablet-width}) {
   .newsletter-grid {
     padding: 30px 40px;
-    padding-right: 40px;
-      padding-left: 40px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-   
+    -ms-grid-columns: 0.75fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
+  }
+  .container {
+    max-width: 720px !important;
+  }
+  .section-title {
+    font-size: 34px;
   }
 }
 @media screen and (max-width:#{$phone-width}) {
-  // .newsletter-grid {
-  //   grid-template-columns: 1fr;
-  // }
-  // .newsletter-content {
-  //   text-align: center;
-  // }
-  // .newsletter-grid {
-  //   padding-right: 30px;
-  //   padding-left: 30px;
-  // }
-  // .section-title {
-  //   font-size: 30px;
-  // }
-  // .newsletter-form {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   grid-column-gap: 15px;
-  //   grid-row-gap: 15px;
-  // }
-  // .newsletter-input-field {
-  //   height: 45px;
-  // }
-  // .primary-button.newsletter-button {
-  //   position: static;
-  // }
-
-
-
-  .newsletter-container{
-   flex-direction: column;
-   display: flex;
-   justify-content: center;
-   width: 100%;
+  .newsletter-grid {
+    grid-template-columns: 1fr;
   }
-  .newsletter-contents h2{
-  font-size: 30px;
-  line-height: 1.2;
+  .newsletter-content {
+    text-align: center;
   }
-  .primary-button.newsletter-button {
-    position: relative;
-    margin-top: 10px;
+  .container {
+    max-width: 100% ;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
   }
-  .newsletter-input-form {
-    height: 45px;
-    margin-bottom: 6px;
+  .newsletter-grid {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .section-title {
+    font-size: 20px;
   }
   .newsletter-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
   }
+  .newsletter-input-form{
+    height: 45px;
+    align-items: center;
+  }
+  .primary-button.newsletter-button {
+    position: static;
+  }
+  .primary-button {
+    padding: 8px 22px;
+  }
+  .newsletter-content h2{
+      font-size: 28px;
+    }
 }
-// contact css
+
+
+
+// CONTACT STYLES
 .contact-block {
   display: grid;
   grid-auto-columns: 1fr;
