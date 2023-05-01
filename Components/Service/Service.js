@@ -3,6 +3,10 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import ManImage from "../../public/images/male-img.png";
+import project1 from "../../public/images/project1.jpg";
+import project2 from "../../public/images/project2.jpg";
+import project3 from "../../public/images/project3.jpg";
+import project5 from "../../public/images/project5.jpg";
 import project7 from "../../public/images/project7.jpg";
 
 const Service = () => {
@@ -127,22 +131,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/mobile-app"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
                         src={project7}
-                        alt="It Management"
+                        alt="Mobile App"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/mobile-app"
                         className="service-title-link"
                       >
-                        IT Management
+                        Mobile App
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -157,22 +161,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/it-setup-mgmt"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project1}
+                        alt="It Set Up & Management"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/it-setup-mgmt"
                         className="service-title-link"
                       >
-                        IT Management
+                        IT Setup & Management
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -187,22 +191,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/web-design-training"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project5}
+                        alt="Web Design Training"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/web-design-training"
                         className="service-title-link"
                       >
-                        IT Management
+                        Web Design Training
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -217,22 +221,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/ui-ux"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project5}
+                        alt="UI / UX Design"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/ui-ux"
                         className="service-title-link"
                       >
-                        IT Management
+                        UI / UX Design
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -247,22 +251,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/graphics-design"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project2}
+                        alt="Graphics Design"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/graphics-design"
                         className="service-title-link"
                       >
-                        IT Management
+                        Graphics Design
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -277,22 +281,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/software-development"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project3}
+                        alt="Software Development"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/software-development"
                         className="service-title-link"
                       >
-                        IT Management
+                        Software Development
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
@@ -307,22 +311,22 @@ const Service = () => {
                 >
                   <Box className="service-single-item-box">
                     <Link
-                      href="/services/it-management"
+                      href="/services/web-development"
                       className="service-thumbnail-image-block w-inline-block"
                     >
                       <Image
-                        src={project7}
-                        alt="It Management"
+                        src={project2}
+                        alt="Web Development"
                         loading="lazy"
                         className="image-responsive img"
                       />
                     </Link>
                     <Box className="service-content">
                       <Link
-                        href="/services/it-management"
+                        href="/services/web-development"
                         className="service-title-link"
                       >
-                        IT Management
+                        Website Development
                       </Link>
                       <Box className="section-text">
                         Neque porro quisquam est qui most dolorem quia enough
