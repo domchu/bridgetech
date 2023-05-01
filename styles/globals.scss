@@ -1785,6 +1785,10 @@ strong {
   font-weight: 500;
   text-decoration:underline;
 }
-
+@media screen and (max-width:#{$phone-width}){
+  .service-hero-grid-layout {
+    grid-template-columns: 1fr;
+  }
+}
 
 

@@ -1850,4 +1850,10 @@ strong {
   font-size: 24px;
   font-weight: 500;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .service-hero-grid-layout {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=globals.css.map */
