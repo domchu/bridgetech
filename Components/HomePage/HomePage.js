@@ -106,10 +106,10 @@ const HomePage = () => {
               <Box className="eliminate-gridbox-right" id="">
                 <Box className="section-block">
                   <h2 className="section-title max-width-440">
-                    Eliminate{" "}
+                    Eliminate
                     <span className="section-title-inner-style">
                       IT Challenges
-                    </span>{" "}
+                    </span>
                     for your Business
                   </h2>
                   <Box className="section-text">
