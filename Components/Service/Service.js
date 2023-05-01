@@ -151,6 +151,186 @@ const Service = () => {
                     </Box>
                   </Box>
                 </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box
+                  className="section-collection-item w-dyn-item"
+                  role="listitem"
+                >
+                  <Box className="service-single-item-box">
+                    <Link
+                      href="/services/it-management"
+                      className="service-thumbnail-image-block w-inline-block"
+                    >
+                      <Image
+                        src={project7}
+                        alt="It Management"
+                        loading="lazy"
+                        className="image-responsive img"
+                      />
+                    </Link>
+                    <Box className="service-content">
+                      <Link
+                        href="/services/it-management"
+                        className="service-title-link"
+                      >
+                        IT Management
+                      </Link>
+                      <Box className="section-text">
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
               </Box>
             </Box>
           </Box>
