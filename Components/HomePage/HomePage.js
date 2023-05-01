@@ -11,6 +11,7 @@ import arrowIcon from "../../public/images/banner-item.png";
 import femaleImage from "../../public/images/female-img.png";
 import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
+import LatestProject from "../LatestProject";
 
 const HomePage = () => {
   return (
@@ -143,7 +144,7 @@ const HomePage = () => {
                   <li
                     className="eliminate-list-item-dash-progress li"
                     data-w-id=""
-                    style={{willChange:"width", willChange:"height" }}
+                    style={{ willChange: "width", willChange: "height" }}
                   ></li>
                 </ul>
                 <Link href="/" className="primary-button">
@@ -163,6 +164,9 @@ const HomePage = () => {
 
       {/* NEWSLETTER SECTION AT THE HOME PAGE */}
       <NewsLetter />
+
+      {/* LATEST PROJECT AT THE HOME PAGE */}
+      <LatestProject />
     </>
   );
 };
