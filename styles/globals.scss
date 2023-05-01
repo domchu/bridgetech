@@ -1752,5 +1752,39 @@ p {
   max-width: 370px;
 }
 
+// BRIDGETECH SERVICES
+.service-hero-grid-layout {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.servcie-medium-subtitle-text {
+  margin-top: 32px;
+  color: #023e8a;
+  font-size: 20px;
+}
+strong {
+  color: #0077b6;
+  font-weight: 500;
+}
+.section-link.margin-top-20 {
+  margin-top: 20px;
+}
+.section-text {
+  margin-top: 20px;
+}
+.section-link {
+  display: inline-block;
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration:underline;
+}
+
 
 
