@@ -504,7 +504,7 @@ nav {
 }
 
 .project-wrapper {
-  margin: 6rem 0px 8rem 0px;
+  margin: 3rem 0px 2rem 0px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 30px;
@@ -517,7 +517,7 @@ nav {
   border-radius: 10px;
   position: relative;
   padding: 25px;
-  width: 300px;
+  width: 325px;
   background-color: var(--natural-clr-1);
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.13);
 }
@@ -1801,4 +1801,15 @@ p {
   .work-progress-block {
     grid-template-columns: 1fr;
   }
+}
+.blue-background-gradient-bottom {
+  background-image: linear-gradient(180deg, #fff, #f6fdff);
+}
+
+.section-title.max-width-278 {
+  max-width: 400px;
+}
+
+.section-text.max-width-370 {
+  max-width: 370px;
 }/*# sourceMappingURL=globals.css.map */

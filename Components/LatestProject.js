@@ -3,7 +3,10 @@ import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import project2 from "../public/images/project2.jpg";
+import project3 from "../public/images/project3.jpg";
+import project1 from "../public/images/project1.jpg";
 import arrow from "../public/images/arrow-long-icon.png";
+import project5 from "../public/images/project5.jpg";
 
 const LatestProject = () => {
   return (
@@ -35,7 +38,7 @@ const LatestProject = () => {
                     />
                     <Box className="project__contents">
                       <Link href="/">
-                        <h3>Digital Marketing</h3>
+                        <h3>School Website/Portal</h3>
                       </Link>
                       <p>
                         Neque porro quisquam est qui most dolorem quia enough
@@ -54,14 +57,14 @@ const LatestProject = () => {
                 <Box className="project-item-wrapper">
                   <Box className="project-collection">
                     <Image
-                      src={project2}
+                      src={project3}
                       alt="Digital marketing"
                       loading="lazy"
                       className="project__img"
                     />
                     <Box className="project__contents">
                       <Link href="/">
-                        <h3>Digital Marketing</h3>
+                        <h3>Bridgetech Website</h3>
                       </Link>
                       <p>
                         Neque porro quisquam est qui most dolorem quia enough
@@ -80,14 +83,40 @@ const LatestProject = () => {
                 <Box className="project-item-wrapper">
                   <Box className="project-collection">
                     <Image
-                      src={project2}
+                      src={project1}
                       alt="Digital marketing"
                       loading="lazy"
                       className="project__img"
                     />
                     <Box className="project__contents">
                       <Link href="/">
-                        <h3>Digital Marketing</h3>
+                        <h3>Software Development</h3>
+                      </Link>
+                      <p>
+                        Neque porro quisquam est qui most dolorem quia enough
+                        impedit same quo minus quod and maxime
+                      </p>
+                      <Link href="/">
+                        <Image
+                          src={arrow}
+                          alt="Pointer"
+                          className="pointer-arrow"
+                        />
+                      </Link>
+                    </Box>
+                  </Box>
+                </Box>
+                <Box className="project-item-wrapper">
+                  <Box className="project-collection">
+                    <Image
+                      src={project5}
+                      alt="Digital marketing"
+                      loading="lazy"
+                      className="project__img"
+                    />
+                    <Box className="project__contents">
+                      <Link href="/">
+                        <h3>Bridgetech Blogging</h3>
                       </Link>
                       <p>
                         Neque porro quisquam est qui most dolorem quia enough
