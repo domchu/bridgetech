@@ -4,9 +4,9 @@ import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Service from "../../Components/Service/Service";
-import NewsLetter from "./../../Components/NewsLetter";
+import NewsLetter from "../../Components/NewsLetter";
 
-const index = () => {
+const servicehome = () => {
   return (
     <div>
       <Head>
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default servicehome;

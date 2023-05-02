@@ -32,7 +32,10 @@ const softwaredevelopment = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/" className="project-nav-link">
+                  <Link
+                    href="/services/service-home"
+                    className="project-nav-link"
+                  >
                     Service
                   </Link>
                 </li>
