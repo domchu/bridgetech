@@ -1935,4 +1935,15 @@ strong {
 .image-responsive:hover {
   transition: 0.5s;
   filter: blur(3px);
+}
+
+@media screen and (max-width: 768px) {
+  .service-collection-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service-collection-list {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=globals.css.map */

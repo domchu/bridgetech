@@ -1860,6 +1860,15 @@ strong {
   transition: 0.5s;
   filter:blur(3px)
 }
-@media screen and (max-width:#{$phone-width}){}
+@media screen and (max-width:#{$tablet-width}){
+  .service-collection-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+  .service-collection-list {
+    grid-template-columns: 1fr;
+  }
+}
 
 
