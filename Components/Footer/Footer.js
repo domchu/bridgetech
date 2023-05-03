@@ -66,7 +66,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services" id="footerlink" passhref="true">
+                <Link
+                  href="/services/service-home"
+                  id="footerlink"
+                  passhref="true"
+                >
                   Our Service
                 </Link>
               </li>

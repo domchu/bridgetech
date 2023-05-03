@@ -1871,4 +1871,45 @@ strong {
   }
 }
 
+// SINGLE SERVICES STYLES
+.service-benefit-block {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.ul {
+ 
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 30px;
+  flex-direction: column;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  list-style-type: none;
+}
+.li{
+  display: flex;
+padding-left: 35px;
+background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/634a90a4ee4611798db1a09e_list-check-mark.png");
+background-size: auto;
+background-repeat: no-repeat;
+background-attachment: scroll;
+list-style-type: decimal;
+}
+.service-benefit-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+ .w-richtext ul {
+  overflow: hidden;
+}
+.image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 

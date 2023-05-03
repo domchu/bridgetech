@@ -5,11 +5,15 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
+import Singleservices from "../../Components/Single-Services/Singleservices";
 
 const softwaredevelopment = () => {
   return (
     <>
+      {/* TOPNAV COMPONENTS */}
       <Topnav />
+
+      {/* HEADER COMPONENT */}
       <Header />
 
       {/* SUBHEADING DETAIL */}
@@ -49,8 +53,12 @@ const softwaredevelopment = () => {
         </Box>
       </Box>
       {/* SOFTWARE DEVELOPMENT CONTENT */}
+      <Singleservices />
 
+      {/* NEWSLETTER COMPONENT */}
       <NewsLetter />
+
+      {/* FOOTER COMPONENT */}
       <Footer />
     </>
   );
