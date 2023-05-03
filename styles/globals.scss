@@ -1872,6 +1872,23 @@ strong {
 }
 
 // SINGLE SERVICES STYLES
+.service-area-block {
+  display: grid;
+  margin-bottom: 60px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.service-subtitle-text {
+  color: #023e8a;
+  font-size: 20px;
+}
+.service-area-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
 .service-benefit-block {
   display: grid;
   grid-auto-columns: 1fr;
