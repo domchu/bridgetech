@@ -169,7 +169,7 @@ nav {
 
 .brand-logo {
   height: auto;
-  width: 50px;
+  width: 200px;
 }
 
 .links li a {
@@ -353,8 +353,7 @@ nav {
 
 .footer__brand {
   height: auto;
-  width: 50px;
-  color: var(--clr-white);
+  width: 200px;
   margin-bottom: 10px;
 }
 
