@@ -2011,4 +2011,37 @@ strong {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.service-how-to-block {
+  display: grid;
+  margin-bottom: 60px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.service-how-to-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.inner-quote-block {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.inner-quote-border-left {
+  position: absolute;
+  left: 0%;
+  top: 7px;
+  right: auto;
+  bottom: 0%;
+  width: 1px;
+  height: 84%;
+  background-color: #0093f1;
 }/*# sourceMappingURL=globals.css.map */
