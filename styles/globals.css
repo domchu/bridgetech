@@ -2119,6 +2119,13 @@ p {
   margin-bottom: 15px;
 }
 
+.it-solution {
+  transition: color 300ms ease;
+  color: #0077b6;
+  text-decoration: underline;
+  margin: 0px 3px;
+}
+
 @media screen and (max-width: 768px) {
   .service-area-block {
     grid-column-gap: 30px;
@@ -2134,5 +2141,22 @@ p {
   .service-benifit-block {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service-top-manu-image-block {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .service-area-block {
+    margin-bottom: 40px;
+    grid-template-columns: 1fr;
+  }
+  .service-how-to-block {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+  .service-benefit-block {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=globals.css.map */

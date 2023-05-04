@@ -128,7 +128,11 @@ const Singleservices = () => {
                     <p>
                       We are <strong>Bridgetech</strong> provide the best
                       quality
-                      <Link href="https://www.example.com" target="_blank">
+                      <Link
+                        href="https://www.example.com"
+                        target="_blank"
+                        className="it-solution"
+                      >
                         IT solution
                       </Link>
                       neque porro quisquam est qui dolore ipsum quia golor sit
@@ -154,7 +158,11 @@ const Singleservices = () => {
                     <p>
                       We are <strong>Bridgetech</strong>
                       provide the best quality
-                      <Link href="https://www.example.com" target="_blank">
+                      <Link
+                        href="https://www.example.com"
+                        target="_blank"
+                        className="it-solution"
+                      >
                         IT solution
                       </Link>
                       neque qui dolorem ipsum quia golor sit amet, conse ctetur,
@@ -207,7 +215,11 @@ const Singleservices = () => {
                     <p>
                       We are <strong>Bridgetech</strong> provide the best
                       quality
-                      <Link href="https://www.example.com" target="_blank">
+                      <Link
+                        href="https://www.example.com"
+                        target="_blank"
+                        className="it-solution"
+                      >
                         IT solution
                       </Link>
                       neque porro quisquam est qui dolorem ipsum quia golor sit
@@ -233,7 +245,13 @@ const Singleservices = () => {
                   <Box className="w-text">
                     <p>
                       The main way to solve the the best quality
-                      <Link href="https://www.example.com">IT solution</Link>
+                      <Link
+                        href="https://www.example.com"
+                        target="_blank"
+                        className="it-solution"
+                      >
+                        IT solution
+                      </Link>
                       neque porro quisquam qui dolorem ipsum quia golor sit
                       amet, conse ctetur, adipisci velit, sed eligendi optio
                       cumque nihil impedit quo minus id quod maxime placeat
@@ -254,7 +272,11 @@ const Singleservices = () => {
                   <Box className="w-richtext">
                     <p>
                       Benefit of
-                      <Link href="https://www.example.com" target="_blank">
+                      <Link
+                        href="https://www.example.com"
+                        target="_blank"
+                        className="it-solution"
+                      >
                         IT Management
                       </Link>
                       is the provide the best quality It solution neque qui
