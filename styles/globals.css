@@ -169,7 +169,7 @@ nav {
 
 .brand-logo {
   height: auto;
-  width: 50px;
+  width: 200px;
 }
 
 .links li a {
@@ -353,8 +353,7 @@ nav {
 
 .footer__brand {
   height: auto;
-  width: 50px;
-  color: var(--clr-white);
+  width: 200px;
   margin-bottom: 10px;
 }
 
@@ -839,7 +838,6 @@ nav {
 .section-title {
   margin-top: 0px;
   color: var(--primary-clr-2);
-  font-size: 38px;
   margin-bottom: 10px;
   font-family: Rajdhani, sans-serif;
   font-size: 46px;
@@ -1944,6 +1942,221 @@ strong {
 }
 @media screen and (max-width: 500px) {
   .service-collection-list {
+    grid-template-columns: 1fr;
+  }
+}
+.service-area-block {
+  display: grid;
+  margin-bottom: 60px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.service-subtitle-text {
+  color: #023e8a;
+  font-size: 20px;
+}
+
+.service-area-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.service-benefit-block {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.ul {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 30px;
+  flex-direction: column;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  list-style-type: none;
+}
+
+.li {
+  display: flex;
+  padding-left: 35px;
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/634a90a4ee4611798db1a09e_list-check-mark.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  list-style-type: decimal;
+}
+
+.service-benefit-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.w-richtext ul {
+  overflow: hidden;
+}
+
+.image-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service-how-to-block {
+  display: grid;
+  margin-bottom: 60px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 65px;
+  grid-row-gap: 65px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.service-how-to-image-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.inner-quote-block {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.inner-quote-border-left {
+  position: absolute;
+  left: 0%;
+  top: 7px;
+  right: auto;
+  bottom: 0%;
+  width: 1px;
+  height: 84%;
+  background-color: #0093f1;
+}
+
+.service-top-manu-image-block {
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: space-around;
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+}
+
+.service-top-image-block {
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.service-top-menu-block {
+  min-width: 270px;
+  border-radius: 20px;
+  background-color: #e7fbff;
+}
+
+.service-link-list-wrapper {
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.service-link-list {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.service-link-item {
+  position: relative;
+}
+
+.service-link-list-wrapper {
+  text-align: center;
+}
+
+#service-link {
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.single-service-link {
+  color: red;
+}
+
+.service-section-top-text {
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+#service-link:hover {
+  color: var(--primary-clr-3);
+  transition: 0.5s;
+}
+
+.service-link-separator {
+  position: absolute;
+  bottom: -12.5px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 119, 182, 0.42);
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.it-solution {
+  transition: color 300ms ease;
+  color: #0077b6;
+  text-decoration: underline;
+  margin: 0px 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-area-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .service-how-to-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .inner-quote-border-left {
+    height: 88%;
+  }
+  .service-benifit-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service-top-manu-image-block {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .service-area-block {
+    margin-bottom: 40px;
+    grid-template-columns: 1fr;
+  }
+  .service-how-to-block {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+  .service-benefit-block {
     grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=globals.css.map */

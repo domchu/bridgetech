@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
-import action from "../../public/images/action.png";
+import Brand from "../../public/images/brandlogo-blue.png";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
           {/* the logo section */}
           <Box className="nav-header">
             <Link href="/">
-              <Image src={action} className="brand-logo" alt="brand Logo" />
+              <Image src={Brand} className="brand-logo" alt="brand Logo" />
             </Link>
             <button
               className="nav-toggle"
@@ -59,12 +59,14 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/service-home"
                   id="nav-link"
-                  className={currentRoute == "/services" ? "active" : ""}
+                  className={
+                    currentRoute == "/services/service-home" ? "active" : ""
+                  }
                   passhref="true"
                 >
-                  Services
+                  Service
                 </Link>
               </li>
               <li>

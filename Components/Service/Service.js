@@ -62,8 +62,12 @@ const Service = () => {
                   </Box>
                   <Box className="section-text">
                     We are <strong>Bridgetech</strong> provide the best quality
-                    <Link href="/" target="_blank">
-                      It solution
+                    <Link
+                      href="https://www.example.com"
+                      target="_blank"
+                      className="it-solution"
+                    >
+                      IT solution
                     </Link>
                     neque porro qui dolorem ipsum quia golor sit amet, conse
                     ctetur, adipisci velit, optio cumque nihil impedit quo minus

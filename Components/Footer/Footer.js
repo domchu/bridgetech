@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import action from "../../public/images/action.png";
 import { Flex, Box } from "@chakra-ui/react";
+import BrandWhite from "../../public/images/brandlogo-white.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -22,13 +22,10 @@ const Footer = () => {
               lg: "row",
             }}
           >
-            <Box className="footer-link">
-              <h2>
-                Bridge<span className="section-span">Tech</span>
-              </h2>
+            <Box className="footer-link"> 
               <Link href="/">
                 <Image
-                  src={action}
+                  src={BrandWhite}
                   className="footer__brand"
                   alt="brand Logo"
                   loading="lazy"
@@ -66,7 +63,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services" id="footerlink" passhref="true">
+                <Link
+                  href="/services/service-home"
+                  id="footerlink"
+                  passhref="true"
+                >
                   Our Service
                 </Link>
               </li>
@@ -87,7 +88,7 @@ const Footer = () => {
                   className={currentRoute == "/projects" ? "active" : ""}
                   passhref="true"
                 >
-                  Projects
+                  Project
                 </Link>
               </li>
               <li>
