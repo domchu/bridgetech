@@ -2009,7 +2009,6 @@ list-style-type: decimal;
 }
 #service-link:hover{
   color: var(--primary-clr-3);
-  // transition: color 300ms ease;
   transition:.5s
 }
 .service-link-separator {
@@ -2023,7 +2022,6 @@ p {
   margin-bottom: 15px;
 }
 .it-solution{
-  
     transition: color 300ms ease;
     color: #0077b6;
     text-decoration: underline;
@@ -2049,7 +2047,6 @@ p {
 }
 @media screen and (max-width:#{$phone-width}){
   .service-top-manu-image-block {
-    
     flex-direction: column;
     align-items: stretch;
   }
