@@ -2019,3 +2019,26 @@ list-style-type: decimal;
   height: 1px;
   background-color: rgba(0, 119, 182, 0.42);
 }
+p {
+  margin-bottom: 15px;
+}
+@media screen and (max-width:#{$tablet-width}){
+  .service-area-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .service-how-to-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .inner-quote-border-left {
+    height: 88%;
+  }
+  .service-benifit-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+
+}

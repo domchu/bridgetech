@@ -2113,4 +2113,26 @@ strong {
   width: 100%;
   height: 1px;
   background-color: rgba(0, 119, 182, 0.42);
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-area-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .service-how-to-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .inner-quote-border-left {
+    height: 88%;
+  }
+  .service-benifit-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
 }/*# sourceMappingURL=globals.css.map */

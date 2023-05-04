@@ -168,12 +168,12 @@ const Singleservices = () => {
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
                       </li>
-                      <li className="ul" role="list">
+                      <li className="li" role="list">
                         IT Management provide the most service neque porro
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
                       </li>
-                      <li className="ul" role="list">
+                      <li className="li" role="list">
                         IT Management provide the most service neque porro
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
@@ -228,7 +228,7 @@ const Singleservices = () => {
                         conse ctetur, adipisci velit
                       </p>
                     </Box>
-                    <Box className="service-quote-border-left"></Box>
+                    <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
@@ -274,7 +274,7 @@ const Singleservices = () => {
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
                       </li>
-                      <li className="ul" role="list">
+                      <li className="li" role="list">
                         IT Management provide the most service neque porro
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
