@@ -1961,8 +1961,8 @@ list-style-type: decimal;
 .service-top-manu-image-block {
   display: flex;
   margin-bottom: 35px;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around;
+  // align-items: flex-start;
   grid-column-gap: 55px;
   grid-row-gap: 55px;
 }
@@ -1993,16 +1993,25 @@ list-style-type: decimal;
 .service-link-list-wrapper {
   text-align: center;
 }
-.service-link {
+#service-link {
   font-family: Rajdhani, sans-serif;
   color: #023e8a;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
 }
-.service-link:hover{
+.single-service-link{
+  // color:var(--primary-clr-3)
+  color:red;
+}
+.service-section-top-text {
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+#service-link:hover{
   color: var(--primary-clr-3);
-  transition: color 300ms ease;
+  // transition: color 300ms ease;
+  transition:.5s
 }
 .service-link-separator {
   position: absolute;

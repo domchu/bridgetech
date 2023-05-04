@@ -2,11 +2,14 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
 
 const Singleservices = () => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <>
       <Box className="service-details-section wf-section">
@@ -20,7 +23,7 @@ const Singleservices = () => {
                     <Box className="service-top-image-block">
                       <Image
                         src={Benefit}
-                        alt="Benefit Image"
+                        alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
                       />
@@ -35,7 +38,7 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link href="/services/mobile-app" id="service-link">
                               Mobile Application
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -44,7 +47,10 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link
+                              href="/services/web-development"
+                              id="service-link"
+                            >
                               Web Development
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -53,7 +59,10 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link
+                              href="/services/web-design-training"
+                              id="service-link"
+                            >
                               Web Design Training
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -62,7 +71,7 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link href="/services/ui-ux" id="service-link">
                               UX/UI Design
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -71,7 +80,10 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link
+                              href="/services/graphics-design"
+                              id="service-link"
+                            >
                               Graphics Design
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -80,7 +92,15 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link
+                              href="/services/software-development"
+                              className={
+                                currentRoute == "/services/software-development"
+                                  ? "single-service-link"
+                                  : ""
+                              }
+                              id="service-link"
+                            >
                               Software Development
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -89,7 +109,10 @@ const Singleservices = () => {
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >
-                            <Link href="/" className="service-link">
+                            <Link
+                              href="/services/it-setup-mgmt"
+                              id="service-link"
+                            >
                               IT Setup & management
                             </Link>
                             <Box className="service-link-separator"></Box>
@@ -182,7 +205,8 @@ const Singleservices = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Optitech</strong> provide the best quality
+                      We are <strong>Bridgetech</strong> provide the best
+                      quality
                       <Link href="https://www.example.com" target="_blank">
                         IT solution
                       </Link>
