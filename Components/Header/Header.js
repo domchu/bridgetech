@@ -59,12 +59,14 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/service-home"
                   id="nav-link"
-                  className={currentRoute == "/services" ? "active" : ""}
+                  className={
+                    currentRoute == "/services/service-home" ? "active" : ""
+                  }
                   passhref="true"
                 >
-                  Services
+                  Service
                 </Link>
               </li>
               <li>
