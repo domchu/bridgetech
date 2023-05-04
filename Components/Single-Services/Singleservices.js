@@ -13,9 +13,115 @@ const Singleservices = () => {
         <Box className="section-gap-130">
           <Box className="container w-container">
             <Box className="service-details-block">
-              <Box className="service-details-top-block"></Box>
+              {/* SERVICE AREA TOP BLOCK */}
+              <Box className="service-details-top-block">
+                <Box className="service-details-top-right-block">
+                  <Box className="service-top-manu-image-block">
+                    <Box className="service-top-image-block">
+                      <Image
+                        src={Benefit}
+                        alt="Benefit Image"
+                        loading="lazy"
+                        className="image-cover img"
+                      />
+                    </Box>
+                    <Box className="service-top-menu-block">
+                      <Box className="service-link-list-wrapper w-dyn-list">
+                        <Box
+                          className="service-link-list w-dyn-item"
+                          role="list"
+                        >
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              Mobile Application
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              Web Development
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              Web Design Training
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              UX/UI Design
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              Graphics Design
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              Software Development
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/" className="service-link">
+                              IT Setup & management
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                        </Box>
+                      </Box>
+                    </Box>
+                  </Box>
+                  <Box className="section-block">
+                    <h2 className="section-title">Software Development</h2>
+                  </Box>
+                  <Box className="service-section-top-text w-richtext">
+                    <p>
+                      We are <strong>Bridgetech</strong> provide the best
+                      quality
+                      <Link href="https://www.example.com" target="_blank">
+                        IT solution
+                      </Link>
+                      neque porro quisquam est qui dolore ipsum quia golor sit
+                      amet, conse ctetur, adipisci velit, sed eligendi optio
+                      cumque nihil take a trivial example, which of us ever
+                      undertakes laborious physical exercise, except to obtain
+                      some advantage from more than a great service that we
+                      provide
+                    </p>
+                  </Box>
+                </Box>
+              </Box>
+
+              {/* SERVICE CAREER */}
               <Box className="service-area-block">
-                <Box className="service-area-content">
+                <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
                     In IT Management Service we cover most of the IT problems
@@ -26,7 +132,7 @@ const Singleservices = () => {
                       We are <strong>Bridgetech</strong>
                       provide the best quality
                       <Link href="https://www.example.com" target="_blank">
-                        It solution
+                        IT solution
                       </Link>
                       neque qui dolorem ipsum quia golor sit amet, conse ctetur,
                       adipisci velit, sed eligen optio cumque nihil impedit quo
@@ -61,6 +167,8 @@ const Singleservices = () => {
                   />
                 </Box>
               </Box>
+
+              {/* HOW IT WORKS */}
               <Box className="service-how-to-block">
                 <Box className="service-how-to-image-block">
                   <Image
@@ -70,13 +178,13 @@ const Singleservices = () => {
                     className="image-cover img"
                   />
                 </Box>
-                <Box className="service-how-to-content">
+                <Box className="service-how-to-content section-block">
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
                       We are <strong>Optitech</strong> provide the best quality
                       <Link href="https://www.example.com" target="_blank">
-                        It solution
+                        IT solution
                       </Link>
                       neque porro quisquam est qui dolorem ipsum quia golor sit
                       amet, conse ctetur, adipisci velit, sed eligendi optio
@@ -101,7 +209,7 @@ const Singleservices = () => {
                   <Box className="w-text">
                     <p>
                       The main way to solve the the best quality
-                      <Link href="https://www.example.com">It solution</Link>
+                      <Link href="https://www.example.com">IT solution</Link>
                       neque porro quisquam qui dolorem ipsum quia golor sit
                       amet, conse ctetur, adipisci velit, sed eligendi optio
                       cumque nihil impedit quo minus id quod maxime placeat
@@ -114,8 +222,10 @@ const Singleservices = () => {
                   </Box>
                 </Box>
               </Box>
+
+              {/* BENEFITS OF THE SERVICE */}
               <Box className="service-benefit-block">
-                <Box className="service-benefit-content">
+                <Box className="service-benefit-content section-block">
                   <h2 className="section-title">Benefits</h2>
                   <Box className="w-richtext">
                     <p>

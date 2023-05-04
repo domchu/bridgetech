@@ -839,7 +839,6 @@ nav {
 .section-title {
   margin-top: 0px;
   color: var(--primary-clr-2);
-  font-size: 38px;
   margin-bottom: 10px;
   font-family: Rajdhani, sans-serif;
   font-size: 46px;
@@ -2044,4 +2043,67 @@ strong {
   width: 1px;
   height: 84%;
   background-color: #0093f1;
+}
+
+.service-top-manu-image-block {
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+}
+
+.service-top-image-block {
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.service-top-menu-block {
+  min-width: 270px;
+  border-radius: 20px;
+  background-color: #e7fbff;
+}
+
+.service-link-list-wrapper {
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.service-link-list {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.service-link-item {
+  position: relative;
+}
+
+.service-link-list-wrapper {
+  text-align: center;
+}
+
+.service-link {
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.service-link:hover {
+  color: var(--primary-clr-3);
+  transition: color 300ms ease;
+}
+
+.service-link-separator {
+  position: absolute;
+  bottom: -12.5px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 119, 182, 0.42);
 }/*# sourceMappingURL=globals.css.map */
