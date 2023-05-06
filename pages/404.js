@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
+import NotFound from "./../Components/NotFound";
 
 const Error = () => {
   return (
@@ -17,7 +18,7 @@ const Error = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>Error page</h1>
+      <NotFound />
       <Footer />
     </>
   );

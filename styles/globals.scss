@@ -2062,3 +2062,14 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+
+// NOT FOUND PAGE OR ERROR 404 PAGE
+.not-found{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  text-align:center;
+  margin: 6rem 0px;
+}

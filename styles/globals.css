@@ -2159,4 +2159,12 @@ p {
   .service-benefit-block {
     grid-template-columns: 1fr;
   }
+}
+.not-found {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 6rem 0px;
 }/*# sourceMappingURL=globals.css.map */
