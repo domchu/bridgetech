@@ -2238,6 +2238,7 @@ p {
 
 #w-nav-link {
   position: relative;
+  vertical-align: top;
   text-decoration: none;
   color: #222222;
   padding: 20px;

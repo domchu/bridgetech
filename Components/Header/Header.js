@@ -65,6 +65,7 @@ const Navbar = () => {
                       aria-labelledby="w-dropdown-toggle-0"
                     >
                       <Link
+                      
                         href="/pages/aboutus"
                         id="nav-dropdown-link w-nav-link"
                         passhref="true"
