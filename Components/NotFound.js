@@ -22,7 +22,7 @@ const NotFound = () => {
         <Box>
           <h3>That page cannot be found</h3>
         </Box>
-        <Box className="router-back-home">
+        <Box>
           Go back to the
           <Link href="/" className="router-back-home">
             Home page
