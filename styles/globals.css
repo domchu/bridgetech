@@ -135,7 +135,7 @@ Navbar
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  padding: 1.5rem 0px;
+  padding: 1.5rem 1.2rem;
 }
 
 .w-dropdown {
@@ -157,6 +157,7 @@ Navbar
   position: relative;
   vertical-align: top;
   text-decoration: none;
+  color: #222222;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -227,6 +228,11 @@ Navbar
   font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 600;
+}
+
+.w-nav-menu {
+  position: relative;
+  float: right;
 }
 
 .header-menu-wrapper {

@@ -144,7 +144,7 @@ Navbar
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  padding: 1.5rem 0px;
+  padding: 1.5rem 1.2rem;
 
 }
 .w-dropdown {
@@ -158,12 +158,11 @@ Navbar
   user-select: none;
   cursor: pointer;
 }
- .w-dropdown-toggle
- {
+ .w-dropdown-toggle{
   position: relative;
   vertical-align: top;
   text-decoration: none;
-  // color: #222222;
+  color: #222222;
   // padding: 20px;
   text-align: left;
   margin-left: auto;
@@ -230,10 +229,10 @@ Navbar
   font-size: 20px;
   font-weight: 600;
 }
-// .w-nav-menu {
-//   position: relative;
-//   float: right;
-// }
+.w-nav-menu {
+  position: relative;
+  float: right;
+}
 .header-menu-wrapper {
   display: flex;
   grid-column-gap: 40px;
@@ -272,8 +271,6 @@ margin:0px 20px;
   font-weight: 600;
   transition: var(--transition);
 }
-
-
 .primary-button.small {
   padding: 7px 30px;
   border-radius: 20px;
@@ -299,8 +296,6 @@ margin:0px 20px;
 .menu-button{
   display: none;
 }
-
-
 @media screen and (max-width:#{$tablet-width}){
   .menu-button{
     display: block ;
@@ -326,9 +321,9 @@ margin:0px 20px;
   .dropdown {
     display: block;
   }
-.nav-menu {
+  .nav-menu {
   display: none;
-}
+  }
   .menu-button {
     width: 35px;
     padding: 0px;
