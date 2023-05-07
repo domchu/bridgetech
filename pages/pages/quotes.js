@@ -19,7 +19,6 @@ const quotes = () => {
       <Topnav />
       <Header />
       <Quotes />
-
       <Footer />
     </>
   );

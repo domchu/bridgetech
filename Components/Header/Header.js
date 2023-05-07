@@ -1,117 +1,222 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import Brand from "../../public/images/brandlogo-blue.png";
+import Dropdown from "../../public/images/arrow-down.svg";
 
 const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
-  const linksContainerRef = useRef(null);
-  const linksRef = useRef(null);
-
-  useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect().height;
-    if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}px`;
-    } else {
-      linksContainerRef.current.style.height = "0px";
-    }
-  }, [showLinks]);
-
-  // active pages route
+  // ACTIVE PAGES LINK
   const router = useRouter();
   const currentRoute = router.pathname;
+
+  // TOGGLE PAGE AND DROPDOWN ICON
+  const [toggle, setToggle] = useState(false);
+  const handleClick = () => {
+    setToggle(!toggle);
+  };
   return (
     <>
       <nav>
-        <Box className="nav-center">
-          {/* the logo section */}
-          <Box className="nav-header">
+        <Box className=" header-navbar-block">
+          {/* THE BRAND LOGO SECTION */}
+          <Box className=" logo-block">
             <Link href="/">
               <Image src={Brand} className="brand-logo" alt="brand Logo" />
             </Link>
-            <button
-              className="nav-toggle"
-              onClick={() => setShowLinks(!showLinks)}
-            >
-              <FaBars />
-            </button>
           </Box>
-          {/* the navbar section */}
-          <div className="links-container" ref={linksContainerRef}>
-            <ul className="links" ref={linksRef}>
-              <li>
-                <Link
-                  href="/"
-                  id="nav-link"
-                  className={currentRoute == "/" ? "active" : ""}
-                  passhref="true"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages" id="nav-link" passhref="true">
-                  Pages
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services/service-home"
-                  id="nav-link"
-                  className={
-                    currentRoute == "/services/service-home" ? "active" : ""
-                  }
-                  passhref="true"
-                >
-                  Service
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/projects"
-                  id="nav-link"
-                  className={currentRoute == "/projects" ? "active" : ""}
-                  passhref="true"
-                >
-                  Project
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blog"
-                  id="nav-link"
-                  className={currentRoute == "/blog" ? "active" : ""}
-                  passhref="true"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contactus"
-                  id="nav-link"
-                  className={currentRoute == "/contactus" ? "active" : ""}
-                  passhref="true"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-          {/* the Quotes section */}
-          <Box className="quotes-container">
-            <li className="quote-primary small">
-              <Link
-                href="/pages/quotes"
-                className={currentRoute == "/pages/quotes" ? "active" : ""}
-                passhref="true"
-              >
-                Get a Quote
-              </Link>
-            </li>
+          {/* THE NAVBAR SECTION */}
+          <Box className="header-menu-wrapper">
+            <div className="nav-menu w-nav-menu">
+              <ul className="links-container-nav">
+                <li>
+                  <Link
+                    href="/"
+                    id="nav-link"
+                    className={currentRoute == "/" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <Box>
+                  <Box
+                    className="dropdown w-dropdown"
+                    data_hover="fales"
+                    data-delay="0"
+                    style={{ zIndex: "901" }}
+                  >
+                    <Box
+                      id="w-dropdown-toggle-0"
+                      className="dropdown-toggle nav-link w-dropdown-toggle w--open"
+                      aria-controls="w-dropdown-list-0"
+                      aria-haspopup="menu"
+                      aria-expanded="true"
+                      role="button"
+                      tabIndex={0}
+                      onClick={handleClick}
+                    >
+                      <Box id="nav-link">Pages</Box>
+                      <Image
+                        src={Dropdown}
+                        alt="Arrow Down Icon"
+                        loading="lazy"
+                      />
+                    </Box>
+                    {toggle ? (
+                      <Box
+                        id="w-dropdown-toggle-0"
+                        className="nav-dropdown-list w-dropdown-list w--open"
+                        aria-labelledby="w-dropdown-toggle-0"
+                      >
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/aboutus"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/aboutus" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            About Us
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/team"
+                            id="nav-dropdown-link"
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/team" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Team
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/access/signin"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/access/signin" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Signup
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/access/login"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/access/login" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Login
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/faq"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/faq" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Faq
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/getquotes"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/getquotes" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Get A Quote
+                          </Link>
+                        </li>
+                      </Box>
+                    ) : (
+                      <></>
+                    )}
+                  </Box>
+                </Box>
+                <li>
+                  <Link
+                    href="/services/service-home"
+                    id="nav-link"
+                    className={
+                      currentRoute == "/services/service-home" ? "active" : ""
+                    }
+                    passhref="true"
+                  >
+                    Service
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/projects"
+                    id="nav-link"
+                    className={currentRoute == "/projects" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Project
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/blog"
+                    id="nav-link"
+                    className={currentRoute == "/blog" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contactus"
+                    id="nav-link"
+                    className={currentRoute == "/contactus" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* THE QUOTES SECTION AT THE NAVBAR */}
+            <Box className="header-event-button-group ">
+              <Box className="">
+                <FaBars className="menu-button w-nav-button" />
+              </Box>
+              <Box>
+                <li className="primary-button small header-event-button">
+                  <Link
+                    href="/pages/quotes"
+                    className={currentRoute == "/pages/quotes" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Get a Quote
+                  </Link>
+                </li>
+              </Box>
+            </Box>
           </Box>
         </Box>
       </nav>
@@ -120,23 +225,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <Link
-href='/about'
-className={currentRoute === '/about' ? styles.active : styles.nonActive}
->
-About
-</Link> */
-}
-
-/* Specific styles for non-active links */
-// .nonActive {
-//   color: white;
-// }
-
-/* Specific styles for active links */
-// .active {
-//   color: black;
-//   background: orange;
-// }
