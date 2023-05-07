@@ -13,10 +13,10 @@ const Navbar = () => {
   const currentRoute = router.pathname;
 
   // TOGGLE PAGE AND DROPDOWN ICON
-  // const [toggle, setToggle] =useState(false)
-  // const handleClick =()=>{
-  //   setToggle(!toggle)
-  // }
+  const [toggle, setToggle] = useState(false);
+  const handleClick = () => {
+    setToggle(!toggle);
+  };
   return (
     <>
       <nav>
@@ -56,6 +56,7 @@ const Navbar = () => {
                       aria-expanded="true"
                       role="button"
                       tabIndex={0}
+                      onClick={handleClick}
                     >
                       <Box id="nav-link">Pages</Box>
                       <Image
@@ -64,90 +65,94 @@ const Navbar = () => {
                         loading="lazy"
                       />
                     </Box>
-                    <Box
-                      id="w-dropdown-toggle-0"
-                      className="nav-dropdown-list w-dropdown-list w--open"
-                      aria-labelledby="w-dropdown-toggle-0"
-                    >
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/pages/aboutus"
-                          id="nav-dropdown-link "
-                          passhref="true"
-                          className={
-                            currentRoute == "/pages/aboutus" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          About Us
-                        </Link>
-                      </li>
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/pages/team"
-                          id="nav-dropdown-link"
-                          passhref="true"
-                          className={
-                            currentRoute == "/pages/team" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          Team
-                        </Link>
-                      </li>
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/access/signin"
-                          id="nav-dropdown-link "
-                          passhref="true"
-                          className={
-                            currentRoute == "/access/signin" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          Signup
-                        </Link>
-                      </li>
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/access/login"
-                          id="nav-dropdown-link "
-                          passhref="true"
-                          className={
-                            currentRoute == "/access/login" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          Login
-                        </Link>
-                      </li>
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/pages/faq"
-                          id="nav-dropdown-link "
-                          passhref="true"
-                          className={
-                            currentRoute == "/pages/faq" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          Faq
-                        </Link>
-                      </li>
-                      <li className="w-nav-link nav-dropdown-link">
-                        <Link
-                          href="/pages/getquotes"
-                          id="nav-dropdown-link "
-                          passhref="true"
-                          className={
-                            currentRoute == "/pages/getquotes" ? "active" : ""
-                          }
-                          tabIndex={0}
-                        >
-                          Get A Quote
-                        </Link>
-                      </li>
-                    </Box>
+                    {toggle ? (
+                      <Box
+                        id="w-dropdown-toggle-0"
+                        className="nav-dropdown-list w-dropdown-list w--open"
+                        aria-labelledby="w-dropdown-toggle-0"
+                      >
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/aboutus"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/aboutus" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            About Us
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/team"
+                            id="nav-dropdown-link"
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/team" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Team
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/access/signin"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/access/signin" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Signup
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/access/login"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/access/login" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Login
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/faq"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/faq" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Faq
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
+                            href="/pages/getquotes"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/getquotes" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Get A Quote
+                          </Link>
+                        </li>
+                      </Box>
+                    ) : (
+                      <></>
+                    )}
                   </Box>
                 </Box>
                 <li>
