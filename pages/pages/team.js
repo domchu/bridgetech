@@ -3,6 +3,8 @@ import Head from "next/head";
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
+import Team from "../../Components/Team/Team";
+import NewsLetter from "./../../Components/NewsLetter";
 const team = () => {
   return (
     <div>
@@ -16,7 +18,8 @@ const team = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>Team</h1>
+      <Team />
+      <NewsLetter />
       <Footer />
     </div>
   );
