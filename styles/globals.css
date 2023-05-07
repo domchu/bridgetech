@@ -135,6 +135,7 @@ Navbar
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  padding: 1.5rem 0px;
 }
 
 .w-dropdown {
@@ -228,11 +229,6 @@ Navbar
   font-weight: 600;
 }
 
-.w-nav-menu {
-  position: relative;
-  float: right;
-}
-
 .header-menu-wrapper {
   display: flex;
   grid-column-gap: 40px;
@@ -278,57 +274,66 @@ Navbar
   transition: var(--transition);
 }
 
-.quotes-container {
-  display: none;
-}
-
-.quote-primary.small {
+.primary-button.small {
   padding: 7px 30px;
   border-radius: 20px;
   font-size: 18px;
   line-height: 24px;
+  letter-spacing: -0.2px;
 }
 
-.quote-primary {
-  font-family: Rajdhani, sans-serif;
-  margin: 0 0.5rem;
-  color: var(--clr-white);
+.primary-button {
+  padding: 10px 27px;
+  border-radius: 25px;
   background-image: linear-gradient(270deg, #030b63, #0179af);
-  transition: var(--transition);
+  transition: background-color 300ms ease-in-out;
+  font-family: Rajdhani, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
   text-decoration: none;
-  cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+.menu-button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
   .menu-button {
-    padding: 0px;
-    color: var(--primary-clr-2);
+    display: block;
+  }
+  .menu-button.w--open {
     background-color: transparent;
-    font-size: 24px;
+  }
+  .nav-link {
+    line-height: 2;
+  }
+  .nav-menu {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    min-width: 300px;
+    padding: 20px;
+    border-bottom: 3px solid #023e8a;
+    background-color: #eefcff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  .dropdown {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .menu-button {
+    width: 35px;
+    padding: 0px;
+    font-size: 2rem;
+    background-color: transparent;
+    color: var(--primary-clr-2);
     cursor: pointer;
-  }
-  .links a {
-    padding: 0;
-    margin: 0 0.5rem;
-    text-align: center;
-    font-size: 1rem;
-    color: var(--clr-primary-2);
-  }
-  .quotes-container {
-    display: flex;
-    font-size: 1.5rem;
-  }
-  .quotes-container a {
-    margin: 0 0.5rem;
-    color: var(--clr-white);
-    transition: var(--transition);
-    font-weight: 600;
-  }
-  .quotes-container li:hover {
-    color: var(--clr-white);
-    transition: 0.9s;
-    border-radius: 6px;
-    background-color: var(--primary-clr-3);
   }
 }
 .topnav-container {

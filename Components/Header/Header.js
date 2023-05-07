@@ -195,21 +195,22 @@ const Navbar = () => {
               </ul>
             </div>
 
-            
             {/* THE QUOTES SECTION AT THE NAVBAR */}
-            <Box className="header-event-button-group quotes-container">
+            <Box className="header-event-button-group ">
               <Box className="">
-                <FaBars className="menu-button" />
+                <FaBars className="menu-button w-nav-button" />
               </Box>
-              <li className="quote-primary small">
-                <Link
-                  href="/pages/quotes"
-                  className={currentRoute == "/pages/quotes" ? "active" : ""}
-                  passhref="true"
-                >
-                  Get a Quote
-                </Link>
-              </li>
+              <Box>
+                <li className="primary-button small header-event-button">
+                  <Link
+                    href="/pages/quotes"
+                    className={currentRoute == "/pages/quotes" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Get a Quote
+                  </Link>
+                </li>
+              </Box>
             </Box>
           </Box>
         </Box>
