@@ -154,6 +154,7 @@ Navbar
 
 .w-dropdown-toggle {
   position: relative;
+  vertical-align: top;
   text-decoration: none;
   text-align: left;
   margin-left: auto;
@@ -170,7 +171,7 @@ Navbar
 
 .nav-dropdown-list.w--open {
   border-radius: 3px;
-  background-color: #fff;
+  background-color: var(--clr-white);
 }
 
 .w-dropdown-list.w--open {
@@ -180,7 +181,7 @@ Navbar
 .nav-dropdown-list {
   min-width: 220px !important;
   border-top: 3px solid #023e8a;
-  background-color: #fff;
+  background-color: var(--clr-white);
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -201,6 +202,7 @@ Navbar
   padding-top: 10px;
   padding-bottom: 10px;
   text-transform: capitalize;
+  font-family: Rajdhani, sans-serif;
 }
 
 .w-nav-link a {
@@ -212,6 +214,7 @@ Navbar
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  font-family: Rajdhani, sans-serif;
 }
 
 .nav-menu {
@@ -245,7 +248,7 @@ Navbar
 
 #nav-link {
   padding: 0px;
-  color: #023e8a;
+  color: var(--primary-clr-2);
 }
 
 .links-container-nav li {
@@ -253,11 +256,11 @@ Navbar
 }
 
 .nav-dropdown-list a:hover {
-  color: var(--primary-clr-1) !important;
+  color: var(--primary-clr-1);
 }
 
 #nav-link:hover {
-  color: var(--primary-clr-1) !important;
+  color: var(--primary-clr-1);
 }
 
 .brand-logo {
@@ -297,6 +300,13 @@ Navbar
 }
 
 @media screen and (min-width: 768px) {
+  .menu-button {
+    padding: 0px;
+    color: var(--primary-clr-2);
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+  }
   .links a {
     padding: 0;
     margin: 0 0.5rem;

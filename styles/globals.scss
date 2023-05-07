@@ -151,18 +151,15 @@ Navbar
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  // z-index: 900;
 }
 .w-dropdown-toggle {
   user-select: none;
   cursor: pointer;
 }
-// .w-dropdown-btn,
  .w-dropdown-toggle
-//  .w-dropdown-link 
  {
   position: relative;
-  // vertical-align: top;
+  vertical-align: top;
   text-decoration: none;
   // color: #222222;
   // padding: 20px;
@@ -180,7 +177,7 @@ Navbar
 }
 .nav-dropdown-list.w--open {
   border-radius: 3px;
-  background-color: #fff;
+  background-color: var(--clr-white);
 }
 .w-dropdown-list.w--open {
   display: block;
@@ -188,7 +185,7 @@ Navbar
 .nav-dropdown-list {
   min-width: 220px !important;
   border-top: 3px solid #023e8a;
-  background-color: #fff;
+  background-color: var(--clr-white);
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
 }
 .w-dropdown-list {
@@ -201,14 +198,15 @@ Navbar
 .w-dropdown {
   text-align: left;
 }
-// #bbbbb
+
 .nav-dropdown-link a {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
   text-transform: capitalize;
+  font-family: Rajdhani, sans-serif;
 }
-// bbbbb
+
 .w-nav-link a {
   position: relative;
   vertical-align: top;
@@ -218,6 +216,7 @@ Navbar
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  font-family: Rajdhani, sans-serif;
 }
 .nav-menu {
   display: flex;
@@ -246,16 +245,16 @@ Navbar
 }
 #nav-link {
   padding: 0px;
-  color: #023e8a;
+  color: var(--primary-clr-2);
 }
 .links-container-nav li{
 margin:0px 20px;
 }
 .nav-dropdown-list a:hover{
-  color:var(--primary-clr-1) !important
+  color:var(--primary-clr-1) 
 }
 #nav-link:hover{
-  color:var(--primary-clr-1) !important
+  color:var(--primary-clr-1) 
 
 }
 
@@ -272,6 +271,8 @@ margin:0px 20px;
   font-weight: 600;
   transition: var(--transition);
 }
+
+
 
 .quotes-container {
   display: none;
@@ -291,8 +292,19 @@ margin:0px 20px;
   text-decoration: none;
   cursor: pointer;
 }
+@media screen and (max-width:#{tablet-width}){
+
+}
 
 @media screen and (min-width:#{$tablet-width}) {
+  .menu-button {
+    padding: 0px;
+    color: var(--primary-clr-2);
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
   .links a {
     padding: 0;
     margin: 0 0.5rem;
@@ -300,6 +312,7 @@ margin:0px 20px;
     font-size: 1rem;
     color: var(--clr-primary-2) ;
   }
+ 
   
   .quotes-container {
     display: flex;

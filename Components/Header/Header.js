@@ -1,10 +1,9 @@
-// import React, { useState, useRef, useEffect } from "react";
 import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
-// import { FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import Brand from "../../public/images/brandlogo-blue.png";
 import Dropdown from "../../public/images/arrow-down.svg";
 
@@ -12,6 +11,12 @@ const Navbar = () => {
   // ACTIVE PAGES LINK
   const router = useRouter();
   const currentRoute = router.pathname;
+
+  // TOGGLE PAGE AND DROPDOWN ICON
+  // const [toggle, setToggle] =useState(false)
+  // const handleClick =()=>{
+  //   setToggle(!toggle)
+  // }
   return (
     <>
       <nav>
@@ -189,8 +194,13 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
+
+            
             {/* THE QUOTES SECTION AT THE NAVBAR */}
             <Box className="header-event-button-group quotes-container">
+              <Box className="">
+                <FaBars className="menu-button" />
+              </Box>
               <li className="quote-primary small">
                 <Link
                   href="/pages/quotes"
@@ -209,5 +219,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
