@@ -11,7 +11,7 @@ const About = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Our <span className="sub_heading_span">About</span>
+                About <span className="sub_heading_span">Us</span>
               </h1>
               <p>
                 Neque porro quisquam est, qui quia lorem some golor sit amet,

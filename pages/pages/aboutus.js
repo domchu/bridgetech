@@ -5,6 +5,7 @@ import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import About from "../../Components/About/About";
 import NewsLetter from "./../../Components/NewsLetter";
+import WhyBridgetech from "../../Components/WhyBridgetech";
 
 const aboutus = () => {
   return (
@@ -20,6 +21,7 @@ const aboutus = () => {
       <Topnav />
       <Header />
       <About />
+      <WhyBridgetech />
       <NewsLetter />
       <Footer />
     </>
