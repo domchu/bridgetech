@@ -2230,6 +2230,16 @@ p {
   transform: scale(1.5);
   transition:.5s;
 }
+@media screen and (max-width:#{$tablet-width}){
+  .team-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+  .team-list {
+    grid-template-columns: 1fr ;
+  }
+}
 
 .team-single-item:hover .team-separator{
 opacity: 0;

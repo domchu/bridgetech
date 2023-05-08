@@ -7,7 +7,6 @@ import FaceBook from "../../public/images/facebook-icon.png";
 import Twitter from "../../public/images/twitter-icon.png";
 import Linkedin from "../../public/images/skype-icon.png";
 import Instagram from "../../public/images/instagram-icon.png";
-import TeamCeo from "../../public/images/team-ceo.jpg";
 
 const TeamCard = () => {
   return (

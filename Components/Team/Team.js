@@ -40,54 +40,6 @@ const Team = () => {
             <Box className="team-list-wrapper w-dyn-list">
               <Box className="team-list w-dyn-items" role="list">
                 <TeamCard />
-                {/* <Box className="team-item w-dyn-item" role="listiem">
-                  <Box className="team-single-item" data-w-id="">
-                    <Box className="team-image-block img">
-                      <Image src={TeamCeo} alt="Ochu Dominic" loading="lazy" />
-                    </Box>
-                    <Box className="team-content">
-                      <Box className="team-inner-content">
-                        <Box className="team-top-conent">
-                          <Box className="team-name-title">Ochu Dominic</Box>
-                          <Box className="team-job-title">CEO, President</Box>
-                        </Box>
-                        <Box
-                          className="team-separator"
-                          style={{ opacity: 1 }}
-                        ></Box>
-                        <Box className="team-social-block">
-                          <Link
-                            href="hppts://www.facebook.com/"
-                            className="team-social-link w-inline-block"
-                          >
-                            <Image src={FaceBook} alt="Facebook Icon" />
-                          </Link>
-                          <Link
-                            href="hppts://www.Twitter.com/"
-                            className="team-social-link w-inline-block"
-                          >
-                            <Image src={Twitter} alt="Twitter Icon" />
-                          </Link>
-                          <Link
-                            href="hppts://Instagram.com/"
-                            className="team-social-link w-inline-block"
-                          >
-                            <Image src={Instagram} alt="Instagram Icon" />
-                          </Link>
-                          <Link
-                            href="hppts://www.linkedin.com/"
-                            className="team-social-link w-inline-block"
-                          >
-                            <Image src={Linkedin} alt="Linkedin Icon" />
-                          </Link>
-                        </Box>
-                        <Link href="/" className="team-view-profile-button">
-                          View Profile
-                        </Link>
-                      </Box>
-                    </Box>
-                  </Box>
-                </Box> */}
               </Box>
             </Box>
           </Box>

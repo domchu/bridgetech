@@ -33,7 +33,7 @@ const TeamData = [
   {
     image: "/images/product-designer.jpg ",
     name: "Egajivwie Samuel",
-    job: "Product Designer",
+    job: "Product(UX/UI) Designer",
     profile: "View Profile",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -43,7 +43,7 @@ const TeamData = [
   {
     image: "/images/seo-expert.jpg ",
     name: "Isaac Oti",
-    job: "Graphic Designer",
+    job: "Branding/Graphic Designer",
     profile: "View Profile",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -52,8 +52,8 @@ const TeamData = [
   },
   {
     image: "/images/project-man.jpg ",
-    name: "Mushir Tunde",
-    job: "Full Stack Developer",
+    name: "Mudashir Tunde",
+    job: "FullStack Software Egr.",
     profile: "View Profile",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -62,7 +62,7 @@ const TeamData = [
   },
   {
     image: "/images/full-stack.jpg ",
-    name: "Mr Emmanuel ",
+    name: "Owoicho Emmanuel ",
     job: "SEO Expert",
     profile: "View Profile",
     facebookLink: "https://www.facebook.com/",
@@ -72,7 +72,7 @@ const TeamData = [
   },
   {
     image: "/images/graphic.jpg ",
-    name: "Egajivwie Samuel",
+    name: "Nwabudike Ifeanyi",
     job: "Digital Marketing",
     profile: "View Profile",
     facebookLink: "https://www.facebook.com/",

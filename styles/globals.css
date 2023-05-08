@@ -2353,6 +2353,16 @@ p {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 768px) {
+  .team-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .team-list {
+    grid-template-columns: 1fr;
+  }
+}
 .team-single-item:hover .team-separator {
   opacity: 0;
 }
