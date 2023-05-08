@@ -2348,6 +2348,11 @@ p {
   text-decoration: none;
 }
 
+.team-social-link:hover .team-icon {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
 .team-single-item:hover .team-separator {
   opacity: 0;
 }

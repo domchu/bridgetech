@@ -32,8 +32,8 @@ const TeamCard = () => {
                     src={image}
                     alt="Ochu Dominic"
                     loading="lazy"
-                    width={320}
-                    height={320}
+                    width={300}
+                    height={300}
                   />
                 </Box>
                 <Box className="team-content">
@@ -51,25 +51,41 @@ const TeamCard = () => {
                         href={facebookLink}
                         className="team-social-link w-inline-block"
                       >
-                        <Image src={FaceBook} alt="Facebook Icon" />
+                        <Image
+                          src={FaceBook}
+                          alt="Facebook Icon"
+                          className="team-icon"
+                        />
                       </Link>
                       <Link
                         href={twitterLink}
                         className="team-social-link w-inline-block"
                       >
-                        <Image src={Twitter} alt="Twitter Icon" />
+                        <Image
+                          src={Twitter}
+                          alt="Twitter Icon"
+                          className="team-icon"
+                        />
                       </Link>
                       <Link
                         href={instagramLink}
                         className="team-social-link w-inline-block"
                       >
-                        <Image src={Instagram} alt="Instagram Icon" />
+                        <Image
+                          src={Instagram}
+                          alt="Instagram Icon"
+                          className="team-icon"
+                        />
                       </Link>
                       <Link
                         href={linkedinLink}
                         className="team-social-link w-inline-block"
                       >
-                        <Image src={Linkedin} alt="Linkedin Icon" />
+                        <Image
+                          src={Linkedin}
+                          alt="Linkedin Icon"
+                          className="team-icon"
+                        />
                       </Link>
                     </Box>
                     <Link href="/" className="team-view-profile-button">
