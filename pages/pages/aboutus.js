@@ -3,6 +3,8 @@ import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
+import About from "../../Components/About/About";
+import NewsLetter from "./../../Components/NewsLetter";
 
 const aboutus = () => {
   return (
@@ -17,7 +19,8 @@ const aboutus = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>About us page</h1>
+      <About />
+      <NewsLetter />
       <Footer />
     </>
   );
