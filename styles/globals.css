@@ -2259,4 +2259,91 @@ p {
   color: var(--primary-clr-1);
   font-style: 4rem;
   margin: 0px 0.5rem;
+}
+
+.team-list {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.team-single-item {
+  overflow: hidden;
+  border-radius: 14px;
+  transition: box-shadow 300ms ease;
+}
+
+.team-content {
+  position: relative;
+  overflow: hidden;
+  max-height: 140px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  background-color: #e7fbff;
+  text-align: center;
+}
+
+.team-name-title {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.team-job-title {
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 1.3;
+}
+
+.team-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #cbedff;
+}
+
+.team-social-block {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.team-social-link {
+  display: flex;
+  overflow: hidden;
+  width: 27px;
+  height: 27px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0077b6;
+  border-radius: 50%;
+}
+
+.w-inline-block {
+  max-width: 100%;
+}
+
+.team-view-profile-button {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 8px 20px;
+  border-radius: 20.37px;
+  background-image: linear-gradient(90deg, #0179af, #023e8a);
+  font-family: Rajdhani, sans-serif;
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=globals.css.map */

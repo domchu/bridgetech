@@ -46,7 +46,7 @@ const Team = () => {
               <Box className="team-list w-dyn-items" role="list">
                 <Box className="team-item w-dyn-item" role="listiem">
                   <Box className="single-list-item" data-w-id="">
-                    <Box className="team-image-block">
+                    <Box className="team-image-block img">
                       <Image src={TeamCeo} alt="Ochu Dominic" loading="lazy" />
                     </Box>
                     <Box className="team-content">
@@ -59,7 +59,7 @@ const Team = () => {
                           className="team-separator"
                           style={{ opacity: 1 }}
                         ></Box>
-                        <Box className="team-social-network">
+                        <Box className="team-social-block">
                           <Link
                             href="hppts://www.facebook.com/"
                             className="team-social-link w-inline-block"
