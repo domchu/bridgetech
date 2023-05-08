@@ -2155,6 +2155,7 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
+
 .team-single-item {
   overflow: hidden;
   border-radius: 14px;
@@ -2225,4 +2226,12 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
+.team-single-item:hover .team-separator{
+opacity: 0;
+}
+.team-single-item:hover .team-content{
+  height: 20%;
+}
+
 

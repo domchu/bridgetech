@@ -7,6 +7,7 @@ import Twitter from "../../public/images/twitter-icon.png";
 import Linkedin from "../../public/images/skype-icon.png";
 import Instagram from "../../public/images/instagram-icon.png";
 import TeamCeo from "../../public/images/team-ceo.jpg";
+import TeamPeople from "./TeamData";
 
 const Team = () => {
   return (
@@ -45,7 +46,7 @@ const Team = () => {
             <Box className="team-list-wrapper w-dyn-list">
               <Box className="team-list w-dyn-items" role="list">
                 <Box className="team-item w-dyn-item" role="listiem">
-                  <Box className="single-list-item" data-w-id="">
+                  <Box className="team-single-item" data-w-id="">
                     <Box className="team-image-block img">
                       <Image src={TeamCeo} alt="Ochu Dominic" loading="lazy" />
                     </Box>

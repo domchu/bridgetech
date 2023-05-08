@@ -2346,4 +2346,12 @@ p {
   font-family: Rajdhani, sans-serif;
   color: #fff;
   text-decoration: none;
+}
+
+.team-single-item:hover .team-separator {
+  opacity: 0;
+}
+
+.team-single-item:hover .team-content {
+  height: 20%;
 }/*# sourceMappingURL=globals.css.map */
