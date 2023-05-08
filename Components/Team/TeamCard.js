@@ -29,7 +29,7 @@ const TeamCard = () => {
                 <Box className="team-image-block img">
                   <Image
                     src={image}
-                    alt="Ochu Dominic"
+                    alt="Team Members Images"
                     loading="lazy"
                     width={300}
                     height={300}
@@ -87,8 +87,8 @@ const TeamCard = () => {
                         />
                       </Link>
                     </Box>
-                    <Link href="/" className="team-view-profile-button">
-                      {profile}
+                    <Link href={profile} className="team-view-profile-button">
+                      View Profile
                     </Link>
                   </Box>
                 </Box>
