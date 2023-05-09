@@ -2340,9 +2340,9 @@ p {
 .service-grid-layout {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-column-gap: 48px;
+  grid-column-gap: 38px;
   grid-row-gap: 48px;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
   grid-template-rows: auto;
 }
 .service-section-image-box {
@@ -2384,7 +2384,7 @@ p {
 }
 .w-inline-block {
   max-width: 100%;
-  // display: inline-block;
 }
+
 
 

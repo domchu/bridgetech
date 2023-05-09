@@ -2,13 +2,10 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
-import AboutImg from "../../public/images/about-image.png";
-import ServiceQuote from "../../public/images/service-quote.png";
-import ServiceDotted from "../../public/images/service-dotted.png";
 import ArrowIcon from "../../public/images/arrow-long-icon.png";
 import project5 from "../../public/images/project5.jpg";
-import project10 from "../../public/images/project10.jpg";
 import project2 from "../../public/images/project2.jpg";
+import project10 from "../../public/images/project10.jpg";
 
 const ServiceProvide = () => {
   return (
@@ -16,30 +13,8 @@ const ServiceProvide = () => {
       <Box className="service-section wf-section">
         <Box className="blue-background-gradient-bottom">
           <Box className="section-gap-bottom-130">
-            <Box className="custom-container-fliud w-container">
-              <Box className="service-grid-layout">
-                <Box className="service-gridbox-left" id="w-nod">
-                  <Box className="service-section-image-box">
-                    <Image
-                      src={AboutImg}
-                      alt="Service Image"
-                      loading="lazy"
-                      className=""
-                    />
-                    <Image
-                      src={ServiceDotted}
-                      alt="Service Service"
-                      loading="lazy"
-                      className="service-section-dotted-shape"
-                    />
-                    <Image
-                      src={ServiceQuote}
-                      alt="Service Quote Image"
-                      loading="lazy"
-                      className="service-section-quote-image"
-                    />
-                  </Box>
-                </Box>
+            <Box className="custom-continer-fliud w-container">
+              <Box className="service-grid-lyout">
                 <Box className="service-gridbox-right">
                   <Box className="section-up-wrapper">
                     <Box className="section-block">
@@ -58,7 +33,7 @@ const ServiceProvide = () => {
                     </Box>
                     <Link
                       href="/services/service-home"
-                      className="section-page-link w-inline-block"
+                      className="section-page-link w-inline-block arrow-right"
                     >
                       <Image src={ArrowIcon} alt="Arrow Icon" loading="lazy" />
                     </Link>
@@ -89,7 +64,7 @@ const ServiceProvide = () => {
                               href="/services/web-development"
                               className="service-title-link"
                             >
-                              Website Development
+                            Frontend Dev
                             </Link>
                             <Box className="section-text">
                               Neque porro quisquam est qui most dolorem quia
