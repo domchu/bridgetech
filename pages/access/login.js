@@ -3,6 +3,8 @@ import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
+import NewsLetter from "./../../Components/NewsLetter";
+import Login from "../../Components/Login/Login";
 const login = () => {
   return (
     <>
@@ -16,7 +18,8 @@ const login = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>Login page</h1>
+      <Login />
+      <NewsLetter />
       <Footer />
     </>
   );
