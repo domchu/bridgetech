@@ -1,6 +1,8 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
+import Image from "next/image";
+import LoginImage from "../../public/images/login-image.svg";
 
 const Login = () => {
   return (
@@ -37,7 +39,7 @@ const Login = () => {
         <Box className="section-gap-130">
           <Box className="container w-container">
             <Box className="login-block">
-              <Box className="login-form-area">
+              <Box className="login-form-area" id="w-node-order">
                 <Box className="section-block">
                   <h2 className="section-title max-width-442">
                     Login to
@@ -90,7 +92,14 @@ const Login = () => {
                   </form>
                 </Box>
               </Box>
-              <Box className="login-image-box"></Box>
+              <Box className="login-image-box">
+                <Image
+                  src={LoginImage}
+                  alt="Login Image"
+                  className="image-respomsive img"
+                  loading="lazy"
+                />
+              </Box>
             </Box>
           </Box>
         </Box>

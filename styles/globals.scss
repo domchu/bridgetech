@@ -2386,5 +2386,48 @@ p {
   max-width: 100%;
 }
 
-
+// LOGIN FORM
+.login-block {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.section-title.max-width-442 {
+  max-width: 442px;
+}
+.login-form-block {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+@media screen and (max-width:#{$tablet-width}){
+  .login-block {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+  }
+  .section-title {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+.login-block {
+  grid-template-columns: 1fr;
+}
+#w-node-order {
+  order: 9999;
+}
+.section-title {
+  font-size: 25px;
+}
+}
 
