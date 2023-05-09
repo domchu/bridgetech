@@ -1,4 +1,6 @@
 import React from "react";
+import { Box } from "@chakra-ui/react";
+import Link from "next/link";
 
 const Signup = () => {
   return (

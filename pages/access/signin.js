@@ -4,6 +4,7 @@ import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Signup from "../../Components/Signup/Signup";
+import NewsLetter from "./../../Components/NewsLetter";
 
 const signin = () => {
   return (
@@ -19,6 +20,7 @@ const signin = () => {
       <Topnav />
       <Header />
       <Signup />
+      <NewsLetter />
       <Footer />
     </>
   );
