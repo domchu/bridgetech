@@ -2496,4 +2496,24 @@ p {
 #w-nod {
   align-self: end;
   justify-self: end;
+}
+
+.section-up-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.section-title.max-width-152 {
+  max-width: 250px;
+}
+
+.section-text.max-width-370 {
+  max-width: 370px;
+}
+
+.w-inline-block {
+  max-width: 100%;
 }/*# sourceMappingURL=globals.css.map */
