@@ -12,6 +12,7 @@ import femaleImage from "../../public/images/female-img.png";
 import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
+import ServiceProvide from "../Service/ServiceProvide";
 
 const HomePage = () => {
   return (
@@ -30,7 +31,7 @@ const HomePage = () => {
                 consectetur, adipisci velit, sed
               </p>
               <Box className="hero-link-group">
-                <Link href="/" className="primary-button">
+                <Link href="/projects" className="primary-button">
                   Learn more
                 </Link>
                 <Link
@@ -147,7 +148,7 @@ const HomePage = () => {
                     style={{ willChange: "width", willChange: "height" }}
                   ></li>
                 </ul>
-                <Link href="/" className="primary-button">
+                <Link href="/services/service-home" className="primary-button">
                   Let's Start
                 </Link>
               </Box>
@@ -158,6 +159,9 @@ const HomePage = () => {
 
       {/* WHY BRIDGETECH AT THE HOME PAGE  */}
       <WhyBridgetech />
+
+      {/* SERVICE PROVIDES BY BRIDGETECH */}
+      <ServiceProvide />
 
       {/* MODE OF OPERATION AT THE HOME PAGE */}
       <Ethic />

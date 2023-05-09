@@ -82,7 +82,10 @@ const About = () => {
                   that are extremely painful. Nor again is there anyone who
                   loves or pursues or desires to obtain
                 </p>
-                <Link href="/" className="primary-button margin-top-40">
+                <Link
+                  href="/contactus"
+                  className="primary-button margin-top-40"
+                >
                   Let's Talk
                 </Link>
               </Box>

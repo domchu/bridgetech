@@ -2331,3 +2331,60 @@ p {
 }
 
 
+// SERVICES PROVIDE @ HOME PAGE
+.custom-container-fluid {
+  max-width: 100%;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.service-grid-layout {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 38px;
+  grid-row-gap: 48px;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: auto;
+}
+.service-section-image-box {
+  position: relative;
+  z-index: 1;
+}
+.service-section-dotted-shape {
+  position: absolute;
+  left: 100px;
+  top: 5%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+}
+.service-section-quote-image {
+  position: absolute;
+  left: -8%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+}
+#w-nod {
+  align-self: end;
+  justify-self: end;
+}
+.section-up-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.section-title.max-width-152 {
+  max-width: 250px;
+}
+.section-text.max-width-370 {
+  max-width: 370px;
+}
+.w-inline-block {
+  max-width: 100%;
+}
+
+
+
