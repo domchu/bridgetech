@@ -333,7 +333,11 @@ margin:0px 20px;
     cursor:pointer;
   }
 }
-
+@media screen and (max-width:#{$phone-width}){
+  .primary-button{
+    display: none;
+  }
+}
   
 
 
@@ -2241,12 +2245,12 @@ p {
   }
 }
 
-.team-single-item:hover .team-separator{
-opacity: 0;
-}
-.team-single-item:hover .team-content{
-  height: 20%;
-}
+// .team-single-item:hover .team-separator{
+// opacity: 0;
+// }
+// .team-single-item:hover .team-content{
+//   height: 20%;
+// }
 
 // ABOUT BRIDGETECH CSS
 .about-block {
@@ -2269,13 +2273,7 @@ opacity: 0;
   bottom: auto;
   z-index: -1;
 }
-.about-section-quote-image {
-  // position: absolute;
-  left: auto;
-  top: 75px;
-  right: 0%;
-  bottom: auto;
-}
+
 .section-gap-top-130 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -2312,6 +2310,24 @@ opacity: 0;
 .primary-button.margin-top-40 {
   display: inline-block;
   margin-top: 40px;
+}
+@media screen and (max-width:#{$tablet-width}){
+  .about-block {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-subtitle.paragraph-medium {
+    font-weight: 500;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+  .about-image-block {
+    display: none;
+  }
+  .about-block {
+    grid-template-columns: 1fr;
+  }
 }
 
 

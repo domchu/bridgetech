@@ -55,12 +55,6 @@ const About = () => {
                   loading="lazy"
                   className="service-section-quote-image img"
                 />
-                {/* <Image
-                  src={TextQuote}
-                  alt="About  Quote Text Image"
-                  loading="lazy"
-                  className="about-section-quote-image img"
-                /> */}
               </Box>
               <Box className="about-content">
                 <h2 className="section-title">
