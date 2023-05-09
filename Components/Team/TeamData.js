@@ -12,7 +12,7 @@ const TeamData = [
   },
   {
     image: "/images/digital-head.jpg ",
-    name: "Olatunde Oladipo",
+    name: "Olatunde Sleek",
     job: "Project Manager",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
@@ -23,7 +23,7 @@ const TeamData = [
   {
     image: "/images/senior-frontend.jpg ",
     name: "Ogada Stanley",
-    job: "Senior Frontend Egr.",
+    job: "Senior Frontend Egnr.",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -32,7 +32,7 @@ const TeamData = [
   },
   {
     image: "/images/product-designer.jpg ",
-    name: "Egajivwie Samuel",
+    name: "Egaji Samuel",
     job: "Product(UX/UI) Designer",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
@@ -43,7 +43,7 @@ const TeamData = [
   {
     image: "/images/seo-expert.jpg ",
     name: "Isaac Oti",
-    job: "Branding/Graphic Designer",
+    job: "Web/Graphic Designer",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -53,7 +53,7 @@ const TeamData = [
   {
     image: "/images/project-man.jpg ",
     name: "Mudashir Tunde",
-    job: "FullStack Software Egr.",
+    job: "FullStack Software Engr.",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -62,8 +62,8 @@ const TeamData = [
   },
   {
     image: "/images/full-stack.jpg ",
-    name: "Owoicho Emmanuel ",
-    job: "SEO Expert",
+    name: "Owoicho Emma ",
+    job: "Branding/SEO Expert",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
@@ -72,8 +72,8 @@ const TeamData = [
   },
   {
     image: "/images/graphic.jpg ",
-    name: "Nwabudike Ifeanyi",
-    job: "Digital Marketing",
+    name: "Mr Lawrence",
+    job: "Hardware/Network Engr",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",

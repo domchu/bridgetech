@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../../public/images/about-image.png";
 import ServiceQuote from "../../public/images/service-quote.png";
-import TextQuote from "../../public/images/text-quote.png";
+import TeamCard from "./../Team/TeamCard";
 import WhyBridgetech from "../WhyBridgetech";
 
 const About = () => {
@@ -93,6 +93,19 @@ const About = () => {
 
       {/* WHY BRIDGETECH  */}
       <WhyBridgetech />
+
+      {/* BRIDGETECH TEAM */}
+      <Box className="team-section wf-section">
+        <Box className="section-gap-130">
+          <Box className="container w-container">
+            <Box className="team-list-wrapper w-dyn-list">
+              <Box className="team-list w-dyn-items" role="list">
+                <TeamCard />
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
     </>
   );
 };
