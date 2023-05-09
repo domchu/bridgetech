@@ -18,7 +18,7 @@ const WhyBridgetech = () => {
                   <h2 className="section-title">
                     Why should people
                     <span className="section-title-inner-style">
-                      Choose Optitech,
+                      Choose BridgeTech,
                     </span>
                     Because...
                   </h2>
