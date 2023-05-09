@@ -14,7 +14,7 @@ const ServiceProvide = () => {
           <Box className="section-gap-bottom-130">
             <Box className="custom-container-fliud w-container">
               <Box className="service-layout-grid">
-                <Box className="service-gridbox-left">
+                <Box className="service-gridbox-left" id="w-nod">
                   <Box className="service-section-image-box">
                     <Image
                       src={AboutImg}
@@ -26,7 +26,7 @@ const ServiceProvide = () => {
                       src={ServiceDotted}
                       alt="Service Service"
                       loading="lazy"
-                      className="service-section-dotted-image"
+                      className="service-section-dotted-shape"
                     />
                     <Image
                       src={ServiceQuote}
