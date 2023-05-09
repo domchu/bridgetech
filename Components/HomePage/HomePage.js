@@ -12,6 +12,7 @@ import femaleImage from "../../public/images/female-img.png";
 import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
+import ServiceProvide from "../Service/ServiceProvide";
 
 const HomePage = () => {
   return (
@@ -158,6 +159,9 @@ const HomePage = () => {
 
       {/* WHY BRIDGETECH AT THE HOME PAGE  */}
       <WhyBridgetech />
+
+      {/* SERVICE PROVIDES BY BRIDGETECH */}
+      <ServiceProvide />
 
       {/* MODE OF OPERATION AT THE HOME PAGE */}
       <Ethic />
