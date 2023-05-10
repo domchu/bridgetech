@@ -68,7 +68,7 @@ const DataServ = [
   {
     image: "/images/project2.jpg",
     title: " Digital/Social Media",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/social-media",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
 ];
