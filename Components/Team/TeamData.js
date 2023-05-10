@@ -72,7 +72,7 @@ const TeamData = [
   },
   {
     image: "/images/graphic.jpg ",
-    name: "Mr Lawrence",
+    name: "Dim Lawrence",
     job: "Hardware/Network Engr",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",

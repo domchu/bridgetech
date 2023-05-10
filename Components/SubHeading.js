@@ -10,7 +10,7 @@ const SubHeading = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Our <span className="sub_heading_span">Project</span>
+                Our <span className="sub_heading_span">Projects</span>
               </h1>
               <p>
                 Neque porro quisquam est, qui quia lorem some golor sit amet,
@@ -24,7 +24,7 @@ const SubHeading = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Projects</Box>
+                  <Box className="project-link-text">Project</Box>
                 </li>
               </ul>
             </Box>
