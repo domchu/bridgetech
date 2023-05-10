@@ -604,12 +604,12 @@ nav {
 }
 
 .project-wrapper {
-  margin: 3rem 0px 2rem 0px;
+  margin: 3rem 0px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
 }
 
