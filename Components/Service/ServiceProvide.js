@@ -64,7 +64,7 @@ const ServiceProvide = () => {
                               href="/services/web-development"
                               className="service-title-link"
                             >
-                            Frontend Dev
+                              Website Design
                             </Link>
                             <Box className="section-text">
                               Neque porro quisquam est qui most dolorem quia
