@@ -2,7 +2,6 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-// import ServicePeople from "./DataServ";
 import DataServ from "./ServiceData";
 
 const ServiceCard = () => {

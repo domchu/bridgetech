@@ -32,7 +32,7 @@ const DataServ = [
   {
     image: "/images/project3.jpg",
     title: "Software Development",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/software-development",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
   {
