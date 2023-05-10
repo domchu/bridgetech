@@ -62,7 +62,7 @@ const DataServ = [
   {
     image: "/images/project5.jpg",
     title: " Python Data-Science",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/python",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
   {
