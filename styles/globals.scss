@@ -139,6 +139,12 @@ Navbar
 ===============
 */
 // PAGE DROPDOWN MENU
+nav{
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+}
 .header-navbar-block {
   display: flex;
   justify-content: space-around;
