@@ -56,7 +56,7 @@ const DataServ = [
   {
     image: "/images/project7.jpg",
     title: " Human Resources(HR)",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/human-resources",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
   {
