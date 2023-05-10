@@ -347,6 +347,13 @@ Navbar
     display: none;
   }
 }
+.top-nav-container {
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+}
+
 .topnav-container {
   border-bottom: 1px solid var(--primary-clr-3);
   padding-bottom: 1rem;
@@ -370,7 +377,7 @@ Navbar
 }
 
 .divider {
-  height: 12px;
+  height: 20px;
   border: 1px solid var(--primary-clr-3);
   margin: 0px 0.5rem;
 }
@@ -381,6 +388,12 @@ Navbar
   }
   .register {
     margin-left: 1rem;
+  }
+  .mobile {
+    margin-left: 11px;
+  }
+  .topnav-container {
+    width: 100%;
   }
 }
 .footer-top {
