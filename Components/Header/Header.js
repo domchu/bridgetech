@@ -179,12 +179,15 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/blog"
+                    // legacyBehavior
+                    href="https://test.com"
+                    target="_blank"
                     id="nav-link"
                     className={currentRoute == "/blog" ? "active" : ""}
                     passhref="true"
                   >
                     Blog
+                    {/* <a target="_blank"> Blog</a> */}
                   </Link>
                 </li>
                 <li>
