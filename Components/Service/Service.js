@@ -9,6 +9,7 @@ import project3 from "../../public/images/project3.jpg";
 import project5 from "../../public/images/project5.jpg";
 import project7 from "../../public/images/project7.jpg";
 import project10 from "../../public/images/project10.jpg";
+import ServiceCard from "./ServiceCard";
 
 const Service = () => {
   return (
@@ -130,7 +131,8 @@ const Service = () => {
             </Box>
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="service-collection-list w-dyn-list" role="list">
-                <Box
+                <ServiceCard />
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -159,9 +161,9 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
+                </Box> */}
 
-                <Box
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -190,8 +192,8 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box
+                </Box> */}
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -220,8 +222,8 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box
+                </Box> */}
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -250,8 +252,8 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box
+                </Box> */}
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -280,8 +282,8 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box
+                </Box> */}
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -310,8 +312,8 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box
+                </Box> */}
+                {/* <Box
                   className="section-collection-item w-dyn-item"
                   role="listitem"
                 >
@@ -340,7 +342,7 @@ const Service = () => {
                       </Box>
                     </Box>
                   </Box>
-                </Box>
+                </Box> */}
               </Box>
             </Box>
           </Box>

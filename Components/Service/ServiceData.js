@@ -59,4 +59,18 @@ const DataServ = [
     urlPath: "/services/mobile-app",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
+  {
+    image: "/images/project5.jpg",
+    title: " Python Data-Science",
+    urlPath: "/services/mobile-app",
+    text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
+  },
+  {
+    image: "/images/project2.jpg",
+    title: " Digital/Social Media",
+    urlPath: "/services/mobile-app",
+    text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
+  },
 ];
+
+export default DataServ;
