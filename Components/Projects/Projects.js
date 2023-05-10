@@ -46,7 +46,7 @@ const Projects = () => {
             <Box className="project-collection">
               <Image
                 src={project3}
-                alt="Digital marketing"
+                alt="IT Management"
                 loading="lazy"
                 className="project__img"
               />
@@ -68,7 +68,7 @@ const Projects = () => {
             <Box className="project-collection">
               <Image
                 src={project1}
-                alt="Digital marketing"
+                alt="Software Development"
                 loading="lazy"
                 className="project__img"
               />
