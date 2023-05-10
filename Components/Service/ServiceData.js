@@ -50,7 +50,7 @@ const DataServ = [
   {
     image: "/images/project10.jpg",
     title: " Hardware/network Engr.",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/hardware-network",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
   {
