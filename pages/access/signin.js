@@ -3,6 +3,8 @@ import Head from "next/head"
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
+import Signup from "../../Components/Signup/Signup";
+import NewsLetter from "./../../Components/NewsLetter";
 
 const signin = () => {
   return (
@@ -17,7 +19,8 @@ const signin = () => {
       </Head>
       <Topnav />
       <Header />
-      <h1>Sign up page</h1>
+      <Signup />
+      <NewsLetter />
       <Footer />
     </>
   );

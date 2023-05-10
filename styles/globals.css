@@ -2564,4 +2564,26 @@ p {
   .section-title {
     font-size: 25px;
   }
+}
+.signup-form-block {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.signup-block {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }/*# sourceMappingURL=globals.css.map */
