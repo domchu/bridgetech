@@ -44,7 +44,7 @@ const DataServ = [
   {
     image: "/images/project5.jpg",
     title: " Branding & SEO",
-    urlPath: "/services/mobile-app",
+    urlPath: "/services/branding-seo",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
   {
