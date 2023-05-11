@@ -18,8 +18,8 @@ const About = () => {
                 About <span className="sub_heading_span">Us</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Bridgetech is a software development services that is based on
+                coding and general IT solutions
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
