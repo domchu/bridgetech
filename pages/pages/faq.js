@@ -3,6 +3,8 @@ import Image from "next/image";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
+import Faq from "../../Components/Faq/Faq";
+import NewsLetter from "./../../Components/NewsLetter";
 
 export default function faq() {
   return (
@@ -14,7 +16,8 @@ export default function faq() {
       </Head>
       <Topnav />
       <Header />
-      <h1>Faq</h1>
+      <Faq />
+      <NewsLetter />
       <Footer />
     </>
   );

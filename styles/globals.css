@@ -2606,4 +2606,24 @@ p {
   align-items: flex-start;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+}
+
+.faq-container {
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+  font-family: Rajdhani, sans-serif;
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  margin-bottom: 100px;
+}
+
+.faq-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primary-clr-2);
+}
+
+.faq-text {
+  font-size: 20px;
+  font-weight: 500;
 }/*# sourceMappingURL=globals.css.map */
