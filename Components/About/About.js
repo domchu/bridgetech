@@ -66,21 +66,64 @@ const About = () => {
                 </p>
                 <p>
                   We are <strong>Bridgetech</strong> provide the best quality
-                  <Link href="https://www.example.com">IT solution</Link> neque
-                  porro quisquam est qui dolorem ipsum quia golor sit amet,
-                  conse ctetur, adipisci velit, sed eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat facere possim us
-                  mentioned most effective technology to solve problem
+                  <Link href="https://www.example.com">IT solution.</Link>
+                  Bridgetech is a leading software development services company
+                  dedicated to providing innovative and tailored solutions to
+                  businesses of all sizes. With a strong focus on technology and
+                  a team of highly skilled professionals, Bridgetech is
+                  committed to delivering high-quality software products and
+                  services that drive business growth and efficiency.
+                  <br />
+                  <li>Our Services:</li>
+                  <li>
+                    Custom Software Development: Bridgetech specializes in
+                    building custom software solutions that are precisely
+                    tailored to meet your unique business requirements. Whether
+                    you need a web application, mobile app, or enterprise
+                    software, our team can create scalable, secure, and
+                    user-friendly solutions.
+                  </li>
+                  <li>
+                    Web Development: We offer comprehensive web development
+                    services, including front-end and back-end development, CMS
+                    (Content Management System) customization, e-commerce
+                    platforms, and web portal development. Our experienced
+                    developers ensure your website is visually appealing,
+                    responsive, and optimized for performance.
+                  </li>
+                  <li>
+                    Mobile App Development: Bridgetech develops mobile
+                    applications for iOS and Android platforms that provide
+                    seamless user experiences. We leverage the latest
+                    technologies, such as native development, cross-platform
+                    frameworks, and cloud integration, to deliver feature-rich
+                    and intuitive mobile apps.
+                  </li>
                 </p>
                 <Box className="about-small-title">
-                  <span className="text-span-title">Mission /</span> Vision
+                  <span className="text-span-title">Mission</span>
                 </Box>
                 <p>
-                  We set our <strong>Mission</strong> quisquam est, qui dolorem
-                  ipsum quia more than enough impedit quo minus quod maxime
-                  facere possimus pleasure rationally encoun ter consequences
-                  that are extremely painful. Nor again is there anyone who
-                  loves or pursues or desires to obtain
+                  At <strong>Bridgetech</strong>, our <strong>Mission</strong>{" "}
+                  is to empower businesses with innovative and tailored software
+                  solutions that drive growth, efficiency, and digital
+                  transformation. We are committed to delivering high-quality
+                  products and services that exceed client expectations,
+                  leverage cutting-edge technologies, and create sustainable
+                  value for our partners.
+                </p>
+                <Box className="about-small-title">
+                  <span className="text-span-title">Vision </span>
+                </Box>
+                <p>
+                  Our <strong>Vision</strong> is to be a trusted and renowned
+                  global leader in software development services, known for our
+                  technical excellence, customer-centric approach, and ability
+                  to deliver transformative solutions. We aspire to be at the
+                  forefront of technological advancements, driving positive
+                  change through innovation, and making a meaningful impact in
+                  the industries we serve. We envision long-term partnerships
+                  built on trust, collaboration, and shared success.
                 </p>
                 <Link
                   href="/contactus"
