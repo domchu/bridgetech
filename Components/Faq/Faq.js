@@ -266,16 +266,37 @@ const Faq = () => {
                   textAlign="left"
                   className="faq-heading"
                 >
-                  Section 9 title
+                  What computer program do people use to write code?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              In order to write code, you can start with something as simple as
+              a text editor like Notepad—code simply looks like letters,
+              numbers, and symbols. As your coding skills improve and your needs
+              diversify, though, you’ll probably want to upgrade to a text
+              editor with more functionality. Editors like Notepad++(opens in a
+              new tab), Atom(opens in a new tab), and Light Table (opens in a
+              new tab)are free, customizable, and designed with coding in mind.
+              These programs offer features like autocomplete based on specific
+              programming languages.
+              <br />
+              Once your code is written, you’ll use another program called a
+              compiler to edit and format your code for a computer to read.
+              Compilers are specific to the programming language you’re working
+              with, and the finished product still isn’t the type of thing
+              you’ll see when you open up your browser—it’s simply code in a
+              more finished format.
+              <br />
+              Some coders like to use what’s called an Integrated Development
+              Environment(opens in a new tab), or IDE. IDEs like NetBeans(opens
+              in a new tab) and Eclipse(opens in a new tab) combine text editors
+              with compilers as well as other tools for automating and debugging
+              your code (locating and correcting errors), making them
+              comprehensive suites for coding. With an IDE, you’ll also have a
+              built-in preview so you can see what your code will look like once
+              it’s compiled.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -287,16 +308,21 @@ const Faq = () => {
                   textAlign="left"
                   className="faq-heading"
                 >
-                  Section 10 title
+                  What is Bridgetech?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Bridgetech is a strategic technology partner for custom software
+              development and staff augmentation. Founded in 2022, Bridgetech
+              has extensive experience of building solutions for start-ups and
+              SMEs all over the world. Our team has already implemented over 10
+              software products of different complexity in the following niches:
+              healthcare, e-commerce, fintech, real estate, education, &
+              proptech. Our goal is to help businesses accelerate growth and
+              innovation, transform operational efficiency, deliver new products
+              to market, improve profitability and customer satisfaction.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
