@@ -1,11 +1,14 @@
 import React from 'react'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+} from "@chakra-ui/react";
 
 const Faq = () => {
-  return (
-    <div>
-      <h1>Faq page</h1>
-    </div>
-  )
-}
+  return <></>;
+};
 
 export default Faq
