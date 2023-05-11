@@ -4,7 +4,6 @@ import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Faq from "../../Components/Faq/Faq";
-import Faq from "./../../Components/Faq/Faq";
 
 export default function faq() {
   return (
