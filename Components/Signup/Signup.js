@@ -15,8 +15,8 @@ const Signup = () => {
                 Signup <span className="sub_heading_span">Page</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                SIgn up to our wide variaties of IT skills most especially
+                coding and developing software.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
