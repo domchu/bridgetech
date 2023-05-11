@@ -276,11 +276,11 @@ const Faq = () => {
               a text editor like Notepad—code simply looks like letters,
               numbers, and symbols. As your coding skills improve and your needs
               diversify, though, you’ll probably want to upgrade to a text
-              editor with more functionality. Editors like Notepad++(opens in a
-              new tab), Atom(opens in a new tab), and Light Table (opens in a
-              new tab)are free, customizable, and designed with coding in mind.
-              These programs offer features like autocomplete based on specific
-              programming languages.
+              editor with more functionality. Editors like Notepad++, Sublime
+              text, Visual studio code(VS code) Atom, and Light Table are free,
+              customizable, and designed with coding in mind. These programs
+              offer features like autocomplete based on specific programming
+              languages.
               <br />
               Once your code is written, you’ll use another program called a
               compiler to edit and format your code for a computer to read.
@@ -290,10 +290,9 @@ const Faq = () => {
               more finished format.
               <br />
               Some coders like to use what’s called an Integrated Development
-              Environment(opens in a new tab), or IDE. IDEs like NetBeans(opens
-              in a new tab) and Eclipse(opens in a new tab) combine text editors
-              with compilers as well as other tools for automating and debugging
-              your code (locating and correcting errors), making them
+              Environment, or IDE. IDEs like NetBeans and Eclipse combine text
+              editors with compilers as well as other tools for automating and
+              debugging your code (locating and correcting errors), making them
               comprehensive suites for coding. With an IDE, you’ll also have a
               built-in preview so you can see what your code will look like once
               it’s compiled.
