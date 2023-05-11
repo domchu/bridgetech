@@ -11,6 +11,7 @@ import {
 const Faq = () => {
   return (
     <>
+      {/* CHAKRA ACCORDION COMPONENT */}
       <Accordion defaultIndex={[0]} allowMultiple>
         <AccordionItem>
           <h2>
