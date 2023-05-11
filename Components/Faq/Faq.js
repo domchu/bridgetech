@@ -72,7 +72,7 @@ const Faq = () => {
               different industries and products of various complexity. There are
               Software development department, Project management office,
               Quality assurance and Business analytics department, Recruitment &
-              HR, and internal team offering account and legal support.
+              HR, and internal team offering account, Design and legal support.
             </AccordionPanel>
           </AccordionItem>
 
@@ -91,22 +91,48 @@ const Faq = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              What are the perks of working with Softermii? Team We focus on
-              teamwork, because the key to our company's success is a synergy
-              from every team member’s efforts! Responsibility We are
-              responsible for every task. This approach allows us to eliminate
-              chaos, makes our processes efficient and gives everyone a clear
-              path to growth together with Softermii. Result-driven We are
-              deeply engaged in what we do as we love to deliver results with
-              fun and pleasure. Development We invest our time in self-education
-              and training, and Softermii helps us to achieve synergies in our
-              common development. Professional second opinion Audit your
-              software to boost its performance and improve user experience.
-              Valuable market insights Get the latest tech follow up, including
-              market trends and users’ needs. On-time and -budget delivery We
-              guarantee a record 10% deviation in time and scope for project
-              delivery. Software support after the release We provide ongoing
-              maintenance and Quality Assurance for your software.
+              What are the perks of working with Bridgetech?
+              <li>
+                <strong>Team</strong>
+              </li>
+              We focus on teamwork, because the key to our company's success is
+              a synergy from every team member’s efforts!
+              <li>
+                <strong>Responsibility</strong>
+              </li>
+              We are responsible for every task. This approach allows us to
+              eliminate chaos, makes our processes efficient and gives everyone
+              a clear path to growth together with Bridgetech.
+              <li>
+                <strong>Result-driven</strong>
+              </li>
+              We are deeply engaged in what we do as we love to deliver results
+              with fun and pleasure.
+              <li>
+                <strong>Development</strong>
+              </li>
+              We invest our time in self-education and training, and Bridgetech
+              helps us to achieve synergies in our common development.
+              <li>
+                <strong>Professional second opinion</strong>
+              </li>
+              Audit your software to boost its performance and improve user
+              experience.
+              <li>
+                <strong>Valuable market insights</strong>
+              </li>
+              Get the latest tech follow up, including market trends and users’
+              needs.
+              <li>
+                <strong>On-time and -budget delivery</strong>
+              </li>
+              We guarantee a record 10% deviation in time and scope for project
+              delivery.
+              <li>
+                <strong>Software support after the release</strong>
+              </li>
+              We provide ongoing maintenance and Quality Assurance for your
+              software.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -129,6 +155,8 @@ const Faq = () => {
               for several primary industries:
               <li>E-commerce</li>
               <li>Healthcare</li>
+              <li>Education</li>
+              <li>Food & Science</li>
               <li>Real Estate</li>
               <li>Fintech</li>
               <li>Telecommunication</li>
@@ -153,9 +181,20 @@ const Faq = () => {
             <AccordionPanel pb={4} className="faq-text">
               We offer the next set of software and design development services
               separately or within the full project development life cycle:
-              Branding and UI/UX Design Web Development Mobile App Development
-              QA Services MVP Strategy Consulting AR/VR Blockchain DevOps
-              Project Management Product Management
+              <li>Web Development</li>
+              <li>Web Development Training</li>
+              <li>Branding</li>
+              <li>Mobile App Development</li>
+              <li>UI/UX Design</li>
+              <li>SEO</li>
+              <li>Graphics Design</li>
+              <li>QA Services</li>
+              <li>Human Resources Services</li>
+              <li>IT Setup & Management</li>
+              <li>Consulting AR/VR </li>
+              <li>Blockchain DevOps</li>
+              <li>Project Management</li>
+              <li>Hardware & Networking</li>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -174,13 +213,31 @@ const Faq = () => {
             </h2>
             <AccordionPanel pb={4} className="faq-text">
               Our team includes only highly-professional specialists, that are
-              experienced in the following technologies: For web development:
-              Ruby on Rails PHP Node.js C# Javascript Angular React.js Bootstrap
-              HTML 5, CSS 3 Web API Services For mobile development: Swift
-              Kotlin Java React Native Thus, if you’d like to implement some
-              recent technologies into your project and make it look updated,
-              outsourcing to our specialists experienced in that niche will be
-              the best option.
+              experienced in the following technologies:
+              <li>
+                <strong>For web development:</strong>
+              </li>
+              <li>Ruby on Rails</li>
+              <li>PHP</li>
+              <li>Node.js</li>
+              <li>C#</li>
+              <li>Javascript</li>
+              <li>Angular</li>
+              <li>HTML 5</li>
+              <li>React.js</li>
+              <li>CSS 3</li>
+              <li>Bootstrap</li>
+              <li>Web API Services</li>
+              <li>Typescript</li>
+              <li>Database:MySql, Postgres, Moongoes</li>
+              <strong>For mobile development:</strong>
+              <li>Swift</li>
+              <li>Kotlin</li>
+              <li>Java</li>
+              <li>React Native</li>
+              Thus, if you’d like to implement some recent technologies into
+              your project and make it look updated, outsourcing to our
+              specialists experienced in that niche will be the best option.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -198,14 +255,21 @@ const Faq = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Softermii can provide a dedicated development team with extensive
+              Bridgetech can provide a dedicated development team with extensive
               experience to fill any skill gaps that affect your development
-              projects. We have such high-quality specialists as Full-Stack
-              Engineers, Front-end, Backend and Mobile developers, UI/UX
-              Designers, Project Managers, Business Analysts, QA Engineers, and
-              DevOps specialists. We make sure that our professionals use the
-              latest technologies, are middle and senior professionals with
-              minimum B2 level of English, and are fully dedicated to your
+              projects. We have such high-quality specialists as:
+              <li>Full-Stack Engineers</li>
+              <li>Mobile Engineers</li>
+              <li>Front-end Engineers</li>
+              <li>Back-end Engineers</li>
+              <li>UI/UX Designers</li>
+              <li>Project Managers</li>
+              <li>Business Analysts</li>
+              <li>Tester Engineers</li>
+              <li>QA Engineers</li>
+              <li>DevOps specialists</li> We make sure that our professionals
+              use the latest technologies, are middle and senior professionals
+              with minimum B2 level of English, and are fully dedicated to your
               project.
             </AccordionPanel>
           </AccordionItem>
@@ -227,11 +291,12 @@ const Faq = () => {
               To start with, we review project requirements from the client, we
               get them analyzed and then inform you of the estimation results.
               Once you are fine with the cost and time, the next step would be
-              to create a project report document and a proposal. Our team
-              prepares all the needed documentation with requirements and sends
-              it for the client’s approval. Once everything has been finalized,
-              we would then take the project to the next stage, which is the
-              start of the development process.
+              to create a project report document and a proposal.
+              <br />
+              Our team prepares all the needed documentation with requirements
+              and sends it for the client’s approval. Once everything has been
+              finalized, we would then take the project to the next stage, which
+              is the start of the development process.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>

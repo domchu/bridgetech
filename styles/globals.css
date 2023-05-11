@@ -2584,6 +2584,9 @@ p {
   .section-title {
     font-size: 25px;
   }
+  .faq-heading {
+    font-size: 18px;
+  }
 }
 .signup-form-block {
   margin-top: 40px;
@@ -2619,7 +2622,7 @@ p {
 
 .faq-heading {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--primary-clr-2);
 }
 

@@ -15,8 +15,8 @@ const Signup = () => {
                 Signup <span className="sub_heading_span">Page</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                SIgn up to our wide variaties of IT skills most especially
+                coding and developing software.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -48,9 +48,10 @@ const Signup = () => {
                     </span>
                   </h2>
                   <Box className="section-text">
-                    Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                    amet, conse ctetur, adipisci velit, sed eligendi optio
-                    cumque nihil impedit quo minus id quod maxime
+                    "There is no one who loves pain itself, who seeks after it
+                    and wants to have it, simply because it is pain, but because
+                    occasionally circumstances occur in which toil and pain can
+                    procure him some great pleasure."
                   </Box>
                 </Box>
                 <Box className="section-form-block w-form">

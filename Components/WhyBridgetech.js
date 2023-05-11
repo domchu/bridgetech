@@ -23,10 +23,10 @@ const WhyBridgetech = () => {
                     Because...
                   </h2>
                   <Box className="section-text">
-                    Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                    amet, conse ctetur, adipisci velit, sed eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus mentioned technology
+                    Experience the power of technology with Bridgetech as your
+                    software development partner. Contact us today to discuss
+                    your project requirements and explore how our expertise can
+                    help drive your business forward.
                   </Box>
                 </Box>
                 <ul className="choose-list w-list-unstyled" role="list">
@@ -42,8 +42,11 @@ const WhyBridgetech = () => {
                     <Box className="choose-content">
                       <Box className="choose-title">Expert Team</Box>
                       <p className="choose-text">
-                        Neque porro quisquam est, qui dolorem quia enough
-                        impedit quo minus quod maxime
+                        At Bridgetech, we take great pride in our expert team of
+                        professionals who are at the forefront of software
+                        development. Our team is comprised of highly skilled and
+                        experienced individuals with diverse expertise in
+                        various technologies and domains.
                       </p>
                     </Box>
                   </li>
@@ -59,8 +62,10 @@ const WhyBridgetech = () => {
                     <Box className="choose-content">
                       <Box className="choose-title">Quick Action</Box>
                       <p className="choose-text">
-                        Neque porro quisquam est, qui dolorem quia enough
-                        impedit quo minus quod maxime
+                        At Bridgetech, we understand the importance of quick
+                        action and responsiveness in the fast-paced world of
+                        software development. Our team is committed to prompt
+                        and efficient execution to meet your project needs.
                       </p>
                     </Box>
                   </li>
@@ -76,8 +81,12 @@ const WhyBridgetech = () => {
                     <Box className="choose-content">
                       <Box className="choose-title">Latest Technology</Box>
                       <p className="choose-text">
-                        Neque porro quisquam est, qui dolorem quia enough
-                        impedit quo minus quod maxime
+                        These are just a few of the many emerging technologies
+                        that are shaping our world. It's important to stay
+                        updated with the latest trends and assess how they can
+                        potentially impact your industry or business to stay
+                        competitive and leverage technological advancements to
+                        your advantage.
                       </p>
                     </Box>
                   </li>
