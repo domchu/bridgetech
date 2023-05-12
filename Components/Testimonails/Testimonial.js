@@ -31,61 +31,59 @@ const Testimonial = () => {
 
   return (
     <Box className="section testimonial-section testimonial-section wf-section">
-      <Box className="section-gp-130">
-        <Box className="continer w-continer">
-          <Box className=" section-justify-center section">
-            <Box className="section-block max-width-475 text-center tile">
-              <h2 className="section-title">
-                Client's
-                <span className="section-title-inner-style">Talk</span>
-              </h2>
-              <Box className="section-text">
-                Neque porro quisquam est, qui dolorem ipsum quia golor sit amet
-                <br />
-                ctetur, adipisci velit, sed eligendi optio cumque nihil impedit
-              </Box>
+      <Box className="section-gap-130">
+        <Box className=" section-justify-center section">
+          <Box className="section-block max-width-475 text-center tile">
+            <h2 className="section-title">
+              Client's
+              <span className="section-title-inner-style">Talk</span>
+            </h2>
+            <Box className="section-text">
+              Neque porro quisquam est, qui dolorem ipsum quia golor sit amet
+              <br />
+              ctetur, adipisci velit, sed eligendi optio cumque nihil impedit
             </Box>
           </Box>
-          <Box className="section-center">
-            {people.map((person, personIndex) => {
-              const { id, image, title, quote, name } = person;
+        </Box>
+        <Box className="section-center">
+          {people.map((person, personIndex) => {
+            const { id, image, title, quote, name } = person;
 
-              //* conditions for the slide.
-              let position = "nextSlide";
-              if (personIndex === index) {
-                position = "activeSlide";
-              }
-              if (
-                personIndex === index - 1 ||
-                (index === 0 && personIndex === people.length - 1)
-              ) {
-                position = "lastSlide";
-              }
-              //* mapping the json/data to the dom.
-              return (
-                <article className={position} key={id}>
-                  <img
-                    src={image}
-                    alt={name}
-                    className="person-img img"
-                    loading="lazy"
-                  />
-                  <h4>{name}</h4>
-                  <p className="title">{title} </p>
-                  <p className="text">{quote} </p>
-                  {/* <FaQuoteRight className="icon" /> */}
-                </article>
-              );
-            })}
+            //* conditions for the slide.
+            let position = "nextSlide";
+            if (personIndex === index) {
+              position = "activeSlide";
+            }
+            if (
+              personIndex === index - 1 ||
+              (index === 0 && personIndex === people.length - 1)
+            ) {
+              position = "lastSlide";
+            }
+            //* mapping the json/data to the dom.
+            return (
+              <article className={position} key={id}>
+                <img
+                  src={image}
+                  alt={name}
+                  className="person-img img"
+                  loading="lazy"
+                />
+                <h4>{name}</h4>
+                <p className="title">{title} </p>
+                <p className="text">{quote} </p>
+                {/* <FaQuoteRight className="icon" /> */}
+              </article>
+            );
+          })}
 
-            {/* the prev and next buttons */}
-            <button className="prev" onClick={() => setIndex(index - 1)}>
-              <FiChevronLeft />
-            </button>
-            <button className="next" onClick={() => setIndex(index + 1)}>
-              <FiChevronRight />
-            </button>
-          </Box>
+          {/* the prev and next buttons */}
+          <button className="prev" onClick={() => setIndex(index - 1)}>
+            <FiChevronLeft />
+          </button>
+          <button className="next" onClick={() => setIndex(index + 1)}>
+            <FiChevronRight />
+          </button>
         </Box>
       </Box>
     </Box>

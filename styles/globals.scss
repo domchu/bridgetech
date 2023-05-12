@@ -1678,9 +1678,7 @@ img {
   grid-template-rows: auto;
 }
 .choose-list {
-
   display: flex;
-  margin-top: 45px;
   margin-bottom: 0px;
   padding-left: 0px;
   flex-direction: column;
@@ -1689,11 +1687,8 @@ img {
 }
 .choose-list-item {
   display: flex;
-  padding-left: 0px;
   align-items: center;
   grid-column-gap: 25px;
-  grid-row-gap: 25px;
-  background-image: none;
 }
 .choose-image-icon {
   width: auto;
@@ -2492,57 +2487,32 @@ margin-bottom: 100px;
 }
 
 // TESTIMONIAL CSS
-
-// .title {
-//   text-align: center;
-//   margin-bottom: 2rem;
-// }
-// .title h2 {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-weight: 500;
-//   margin-top: 4rem;
-//   color: var(--clr-primary-3);
-// }
-// .title span {
-//   font-size: 0.85em;
-//   color: var(--clr-orange-600); 
-//   margin-right: 1rem;
-//   font-weight: 700;
-// }
-
-// @media screen and (max-width:#{$phone-width}) {
-//     .title span{
-//       display: none;
-//     }
-//     .title h2{
-//       font-size: 1.5rem;
-//     }
-// }
-// .section-justify-center {
-//   display: flex;
-//   justify-content: center;
-//   flex-wrap: wrap;
-// }
-// .section-block.max-width-475.text-center {
-//   text-align: center;
-// }
-// .section-block.max-width-475 {
-//   max-width: 475px;
-// }
+.section-justify-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-block.max-width-475.text-center {
+  text-align: center;
+}
+.section-block.max-width-475 {
+  max-width: 475px;
+}
 
 .section-center {
   margin: 0 auto;
   margin-top: 2rem;
-  // width: 90vw;
+  width: 90vw;
   /* have to have a height */
   height: 390px;
-  max-width: 800px;
+  max-width: 820px;
   text-align: center;
   position: relative;
-  display: flex;
   overflow: hidden;
+}
+.img-center{
+  display: grid;
+  place-items: center;
 }
 .person-img {
   border-radius: 50%;
@@ -2557,17 +2527,12 @@ margin-bottom: 100px;
 }
 article h4 {
   text-transform: uppercase;
-  color: var(--primary-clr-2) !important;
+  color: var(--primary-clr-2) ;
   margin-bottom: 0.25rem;
   font-family: Rajdhani, sans-serif;
   font-weight: 700;
   font-size: 25px;
 }
-// .title {
-//   text-transform: capitalize;
-//   margin-bottom: 0.75rem;
-//   color: var(--clr-grey-3);
-// }
 .text {
   max-width: 35em;
   margin: 0 auto;
@@ -2577,11 +2542,11 @@ article h4 {
   font-family: Rajdhani, sans-serif;
   
 }
-.icon {
-  font-size: 3rem;
-  margin-top: 1rem;
-  color: var(--clr-primary-5);
-}
+// .icon {
+//   font-size: 3rem;
+//   margin-top: 1rem;
+//   color: var(--clr-primary-5);
+// }
 .prev,
 .next {
   position: absolute;
@@ -2609,17 +2574,7 @@ article h4 {
 .next {
   right: 0;
 }
-// @media (min-width: 800px) {
-//   .text {
-//     max-width: 45em;
-//   }
-//   .prev,
-//   .next {
-//     width: 2rem;
-//     height: 2rem;
-//     font-size: 1.5rem;
-//   }
-// }
+
 article {
   position: absolute;
   top: 0;
