@@ -5,7 +5,7 @@ import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Projects from "../Components/Projects/Projects";
 import NewsLetter from "../Components/NewsLetter";
-import Brand from "../Components/Logo/Brand";
+import Brand from "../Components/Brand/Brand";
 
 const projects = () => {
   return (
@@ -14,7 +14,7 @@ const projects = () => {
         <title>BridgeTech | Projects</title>
         <meta
           name="projects"
-          content="you can select from our wide range of projects done"
+          content="you can explore from our wide range of projects done"
         />
         <link rel="icon" href="/logo-blue.png" size="64x64" />
       </Head>
