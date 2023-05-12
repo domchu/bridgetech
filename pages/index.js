@@ -4,6 +4,7 @@ import Header from "../Components/Header/Header";
 import Topnav from '../Components/Topnav/Topnav';
 import Footer from "../Components/Footer/Footer";
 import HomePage from "../Components/HomePage/HomePage";
+import Testimonial from "../Components/Testimonails/Testimonial";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Topnav />
       <Header />
       <HomePage />
-
+      <Testimonial />
       <Footer />
     </>
   );
