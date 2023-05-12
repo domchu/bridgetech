@@ -10,39 +10,35 @@ const TestimonialData = [
   },
   {
     id: 2,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    name: "Mrs Uzoma",
-    title: "school Parent",
+    image: "/images/seo-expert.jpg",
+    name: "Owoicho Emmanuel",
+    title: "CEO The Exclusive Media",
     quote:
-      "I thank keyonaville  for calling us on phone to check on our children also, to remind us and to find out if there's any challenges when our kids are yet to be picked up from the school. Thank you for your care. ",
+      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",
   },
   {
     id: 3,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    name: "Mrs Uzoma",
-    title: "school Parent",
+    image: "/images/graphic.jpg",
+    name: "Nwabudike Ifeanyi ",
+    title: "school Teacher",
     quote:
-      "I thank keyonaville  for calling us on phone to check on our children also, to remind us and to find out if there's any challenges when our kids are yet to be picked up from the school. Thank you for your care. ",
+      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
   },
   {
     id: 4,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    name: "Mrs Uzoma",
-    title: "school Parent",
+    image: "/images/project-man.jpg",
+    name: "Olatunde Sleek",
+    title: "CEO Florintech Computer College",
     quote:
-      "I thank keyonaville  for calling us on phone to check on our children also, to remind us and to find out if there's any challenges when our kids are yet to be picked up from the school. Thank you for your care. ",
+      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",
   },
   {
     id: 5,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    name: "Mrs Uzoma",
-    title: "school Parent",
+    image: "/images/team-ceo.jpg",
+    name: "Chinyere",
+    title: "Clearing & Forwarding(Shipping)",
     quote:
-      "I thank keyonaville  for calling us on phone to check on our children also, to remind us and to find out if there's any challenges when our kids are yet to be picked up from the school. Thank you for your care. ",
+      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
   },
 ];
 export default TestimonialData;

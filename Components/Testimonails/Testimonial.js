@@ -36,7 +36,7 @@ const Testimonial = () => {
           <Box className=" section-justify-center">
             <Box className="section-block max-width-475 text-center">
               <h2 className="section-title">
-                Client's{" "}
+                Client's
                 <span className="section-titile-inner-style">Talk</span>
               </h2>
               <Box className="section-text">
