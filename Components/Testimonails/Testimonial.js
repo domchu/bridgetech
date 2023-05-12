@@ -31,13 +31,13 @@ const Testimonial = () => {
 
   return (
     <Box className="section testimonial-section testimonial-section wf-section">
-      <Box className="section-gap-130">
-        <Box className="container w-container">
-          <Box className=" section-justify-center">
-            <Box className="section-block max-width-475 text-center">
+      <Box className="section-gp-130">
+        <Box className="continer w-continer">
+          <Box className=" section-justify-center section">
+            <Box className="section-block max-width-475 text-center tile">
               <h2 className="section-title">
                 Client's
-                <span className="section-titile-inner-style">Talk</span>
+                <span className="section-title-inner-style">Talk</span>
               </h2>
               <Box className="section-text">
                 Neque porro quisquam est, qui dolorem ipsum quia golor sit amet
@@ -67,13 +67,13 @@ const Testimonial = () => {
                   <img
                     src={image}
                     alt={name}
-                    className="person-img"
+                    className="person-img img"
                     loading="lazy"
                   />
                   <h4>{name}</h4>
                   <p className="title">{title} </p>
                   <p className="text">{quote} </p>
-                  <FaQuoteRight className="icon" />
+                  {/* <FaQuoteRight className="icon" /> */}
                 </article>
               );
             })}
