@@ -39,9 +39,9 @@ const Testimonial = () => {
               <span className="section-title-inner-style">Talk</span>
             </h2>
             <Box className="section-text">
-              Neque porro quisquam est, qui dolorem ipsum quia golor sit amet
-              <br />
-              ctetur, adipisci velit, sed eligendi optio cumque nihil impedit
+              A short quote or personal anecdote from our clients that describes
+              the experience they've had with bridgekode. We implore you to go
+              via the feedbacks carefully.
             </Box>
           </Box>
         </Box>

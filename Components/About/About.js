@@ -16,7 +16,7 @@ const About = () => {
                 About <span className="sub_heading_span">Us</span>
               </h1>
               <p>
-                Bridgetech is a software development services that is based on
+                Bridgekode is a software development services that is based on
                 coding and general IT solutions
               </p>
               <ul className="project-link">
@@ -50,7 +50,7 @@ const About = () => {
                 </p>
                 <p>
                   We are <strong>Bridgekode</strong> provide the best quality
-                  <Link href="https://www.example.com"> IT solution.</Link>
+                  <Link href="https://www.example.com"> IT solution. </Link>
                   Bridgekode is a leading software development services company
                   dedicated to providing innovative and tailored solutions to
                   businesses of all sizes. With a strong focus on technology and
@@ -87,12 +87,29 @@ const About = () => {
                     frameworks, and cloud integration, to deliver feature-rich
                     and intuitive mobile apps.
                   </li>
+                  <br />
+                  <li>
+                    <b>Web Development Training:</b> Bridgekode's web
+                    development training program is exceptional. The instructors
+                    are highly knowledgeable and experienced in the field,
+                    providing thorough explanations and practical examples.The
+                    curriculum is comprehensive, covering all essential aspects
+                    of web development, including HTML, CSS, JavaScript,
+                    Typescript, Bootstrap, Git/Github, WordPress and frameworks
+                    like React, Next, Angular, Vue and Node.js.
+                    <br />
+                    Overall, Bridgekode's web development training program not
+                    only equipped you with the necessary skills but also boosted
+                    you confidence in pursuing a career in web development. I
+                    highly recommend their training program to anyone looking to
+                    gain expertise in this field.
+                  </li>
                 </p>
                 <Box className="about-small-title">
                   <span className="text-span-title">Mission</span>
                 </Box>
                 <p>
-                  At <strong>Bridgekode</strong>, our <strong>Mission</strong>
+                  At <strong>Bridgekode</strong>, our <strong>Mission </strong>
                   is to empower businesses with innovative and tailored software
                   solutions that drive growth, efficiency, and digital
                   transformation. We are committed to delivering high-quality
