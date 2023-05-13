@@ -31,7 +31,7 @@ const Testimonial = () => {
 
   return (
     <Box className="section testimonial-section testimonial-section wf-section">
-      <Box className="section-gap-130">
+      <Box className="sect-gap-130">
         <Box className="section-justify-center ">
           <Box className="section-block max-width-475 text-center ">
             <h2 className="section-title">

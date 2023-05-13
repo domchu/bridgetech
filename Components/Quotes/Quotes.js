@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
-import NewsLetter from "./../NewsLetter";
 
 const Quotes = () => {
   return (
@@ -385,9 +384,6 @@ const Quotes = () => {
           </Box>
         </Box>
       </Box>
-
-      {/* Newsletter part */}
-      <NewsLetter />
     </>
   );
 };
