@@ -2291,8 +2291,8 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.about-content {
-  max-width: 550px;
+.about-content p{
+  font-size:18px
 }
 .about-content h2{
   font-size: 34px !important;
@@ -2314,7 +2314,7 @@ p {
   margin-top: 20px;
   font-family: Rajdhani, sans-serif;
   color: #023e8a;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 700;
 }
 .text-span-style {
@@ -2498,6 +2498,9 @@ margin-bottom: 100px;
 .section-block.max-width-475.text-center {
   text-align: center;
 }
+.sect-gap-130{
+  margin-bottom:100px
+}
 .section-block.max-width-475 {
   max-width: 475px;
 }
@@ -2516,6 +2519,7 @@ margin-bottom: 100px;
 .img-center{
   display: grid;
   place-items: center;
+  margin-bottom: 15px;
 }
 .person-img {
   border-radius: 50%;
@@ -2541,15 +2545,15 @@ article h4 {
   margin: 0 auto;
   line-height: 1.6;
   color: var(--clr-black);
-  font-size: 20px;
+  font-size: 18px;
   font-family: Rajdhani, sans-serif;
   
 }
-// .icon {
-//   font-size: 3rem;
-//   margin-top: 1rem;
-//   color: var(--clr-primary-5);
-// }
+.icon {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: var(--primary-clr-5);
+}
 .prev,
 .next {
   position: absolute;
@@ -2560,16 +2564,21 @@ article h4 {
   place-items: center;
   border-color: transparent;
   font-size: 1.5rem;
-  background-color: #023E8A;
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+  transition: background-color 300ms ease-in-out;
   border-radius: var(--radius);
   cursor: pointer;
   transition: var(--transition);
   width: 35px;
   height: 35px;
 }
-.prev:hover,
-.next:hover {
-  background-color: var(--primary-clr-5);
+// .prev:hover,
+// .next:hover {
+//   background-color: var(--primary-clr-5);
+// }
+.image-container{
+  display: grid;
+  place-items: center;
 }
 .prev {
   left: 0;
@@ -2588,7 +2597,7 @@ article {
   transition: var(--transition);
 }
 article p{
-  color: var(--primary-clr-1);
+  color: var(--primary-clr-5);
   font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 600;

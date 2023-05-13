@@ -5,6 +5,7 @@ import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Team from "../../Components/Team/Team";
 import NewsLetter from "./../../Components/NewsLetter";
+import Testimonial from "../../Components/Testimonails/Testimonial";
 const team = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const team = () => {
       <Header />
       <Team />
       <NewsLetter />
+      <Testimonial />
       <Footer />
     </div>
   );

@@ -2,8 +2,6 @@ import React from 'react'
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../../public/images/about-image.png";
-import ServiceQuote from "../../public/images/service-quote.png";
 import TeamCard from "./../Team/TeamCard";
 import WhyBridgetech from "../WhyBridgetech";
 
@@ -18,7 +16,7 @@ const About = () => {
                 About <span className="sub_heading_span">Us</span>
               </h1>
               <p>
-                Bridgetech is a software development services that is based on
+                Bridgekode is a software development services that is based on
                 coding and general IT solutions
               </p>
               <ul className="project-link">
@@ -41,21 +39,7 @@ const About = () => {
       <Box className="about-section wf-section">
         <Box className="section-gap-top-130">
           <Box className="container w-container">
-            <Box className="about-block">
-              <Box className="about-image-block">
-                <Image
-                  src={AboutImg}
-                  alt="About Image"
-                  loading="lazy"
-                  className="about-section-quote-image img"
-                />
-                <Image
-                  src={ServiceQuote}
-                  alt="Service Quote Image"
-                  loading="lazy"
-                  className="service-section-quote-image img"
-                />
-              </Box>
+            <Box className="bout-block">
               <Box className="about-content">
                 <h2 className="section-title">
                   Hi <span className="section-title-inner-style">there!</span>
@@ -65,46 +49,67 @@ const About = () => {
                   applications and mobile apps for clients all over the world.
                 </p>
                 <p>
-                  We are <strong>Bridgetech</strong> provide the best quality
-                  <Link href="https://www.example.com">IT solution.</Link>
-                  Bridgetech is a leading software development services company
+                  We are <strong>Bridgekode</strong> provide the best quality
+                  <Link href="https://www.example.com"> IT solution. </Link>
+                  Bridgekode is a leading software development services company
                   dedicated to providing innovative and tailored solutions to
                   businesses of all sizes. With a strong focus on technology and
-                  a team of highly skilled professionals, Bridgetech is
+                  a team of highly skilled professionals, Bridgekode is
                   committed to delivering high-quality software products and
                   services that drive business growth and efficiency.
                   <br />
-                  <li>Our Services:</li>
                   <li>
-                    Custom Software Development: Bridgetech specializes in
-                    building custom software solutions that are precisely
+                    <strong>Our Services:</strong>
+                  </li>
+                  <li>
+                    <b>Custom Software Development:</b> Bridgekode specializes
+                    in building custom software solutions that are precisely
                     tailored to meet your unique business requirements. Whether
                     you need a web application, mobile app, or enterprise
                     software, our team can create scalable, secure, and
                     user-friendly solutions.
                   </li>
+                  <br />
                   <li>
-                    Web Development: We offer comprehensive web development
-                    services, including front-end and back-end development, CMS
-                    (Content Management System) customization, e-commerce
-                    platforms, and web portal development. Our experienced
-                    developers ensure your website is visually appealing,
-                    responsive, and optimized for performance.
+                    <b>Web Development:</b> We offer comprehensive web
+                    development services, including front-end and back-end
+                    development, CMS (Content Management System) customization,
+                    e-commerce platforms, and web portal development. Our
+                    experienced developers ensure your website is visually
+                    appealing, responsive, and optimized for performance.
                   </li>
+                  <br />
                   <li>
-                    Mobile App Development: Bridgetech develops mobile
+                    <b>Mobile App Development:</b> Bridgekode develops mobile
                     applications for iOS and Android platforms that provide
                     seamless user experiences. We leverage the latest
                     technologies, such as native development, cross-platform
                     frameworks, and cloud integration, to deliver feature-rich
                     and intuitive mobile apps.
                   </li>
+                  <br />
+                  <li>
+                    <b>Web Development Training:</b> Bridgekode's web
+                    development training program is exceptional. The instructors
+                    are highly knowledgeable and experienced in the field,
+                    providing thorough explanations and practical examples.The
+                    curriculum is comprehensive, covering all essential aspects
+                    of web development, including HTML, CSS, JavaScript,
+                    Typescript, Bootstrap, Git/Github, WordPress and frameworks
+                    like React, Next, Angular, Vue and Node.js.
+                    <br />
+                    Overall, Bridgekode's web development training program not
+                    only equipped you with the necessary skills but also boosted
+                    you confidence in pursuing a career in web development. I
+                    highly recommend their training program to anyone looking to
+                    gain expertise in this field.
+                  </li>
                 </p>
                 <Box className="about-small-title">
                   <span className="text-span-title">Mission</span>
                 </Box>
                 <p>
-                  At <strong>Bridgetech</strong>, our <strong>Mission</strong>{" "}
+                  At <strong>Bridgekode</strong>, our <strong>Mission </strong>
                   is to empower businesses with innovative and tailored software
                   solutions that drive growth, efficiency, and digital
                   transformation. We are committed to delivering high-quality
@@ -137,10 +142,10 @@ const About = () => {
         </Box>
       </Box>
 
-      {/* WHY BRIDGETECH  */}
+      {/* WHY BRIDGEKODE  */}
       <WhyBridgetech />
 
-      {/* BRIDGETECH TEAM */}
+      {/* BRIDGEKODE TEAM */}
       <Box className="team-section wf-section">
         <Box className="section-gap-130">
           <Box className="container w-container">

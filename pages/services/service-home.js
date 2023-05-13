@@ -5,6 +5,7 @@ import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Service from "../../Components/Service/Service";
 import NewsLetter from "../../Components/NewsLetter";
+import Testimonial from "../../Components/Testimonails/Testimonial";
 
 const servicehome = () => {
   return (
@@ -21,6 +22,7 @@ const servicehome = () => {
       <Header />
       <Service />
       <NewsLetter />
+      <Testimonial />
       <Footer />
     </div>
   );

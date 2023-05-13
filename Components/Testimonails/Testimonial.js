@@ -31,7 +31,7 @@ const Testimonial = () => {
 
   return (
     <Box className="section testimonial-section testimonial-section wf-section">
-      <Box className="section-gap-130">
+      <Box className="sect-gap-130">
         <Box className="section-justify-center ">
           <Box className="section-block max-width-475 text-center ">
             <h2 className="section-title">
@@ -39,9 +39,9 @@ const Testimonial = () => {
               <span className="section-title-inner-style">Talk</span>
             </h2>
             <Box className="section-text">
-              Neque porro quisquam est, qui dolorem ipsum quia golor sit amet
-              <br />
-              ctetur, adipisci velit, sed eligendi optio cumque nihil impedit
+              A short quote or personal anecdote from our clients that describes
+              the experience they've had with bridgekode. We implore you to go
+              via the feedbacks carefully.
             </Box>
           </Box>
         </Box>
@@ -63,16 +63,20 @@ const Testimonial = () => {
             //* mapping the json/data to the dom.
             return (
               <article className={position} key={id}>
-                <img
-                  src={image}
-                  alt={name}
-                  className="person-img img"
-                  loading="lazy"
-                />
+                <Box className="image-container">
+                  <img
+                    src={image}
+                    alt={name}
+                    className="person-img img"
+                    loading="lazy"
+                  />
+                </Box>
                 <h4>{name}</h4>
                 <p className="title">{title} </p>
-                <p className="text">{quote} </p>
-                {/* <FaQuoteRight className="icon" /> */}
+                <p className="text">'' {quote} '' </p>
+                <Box className="image-container">
+                  <FaQuoteRight className="icon" />
+                </Box>
               </article>
             );
           })}

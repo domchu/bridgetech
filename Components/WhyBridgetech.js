@@ -18,15 +18,19 @@ const WhyBridgetech = () => {
                   <h2 className="section-title">
                     Why should people
                     <span className="section-title-inner-style">
-                      Choose BridgeTech,
+                      Choose Bridgekode,
                     </span>
                     Because...
                   </h2>
                   <Box className="section-text">
-                    Experience the power of technology with Bridgetech as your
-                    software development partner. Contact us today to discuss
-                    your project requirements and explore how our expertise can
-                    help drive your business forward.
+                    There are several reasons why people should choose
+                    Bridgekode for their web development training or services.
+                    It's important for individuals to carefully evaluate their
+                    specific needs and compare different options before choosing
+                    any training provider or service. Conducting thorough
+                    research, reviewing testimonials, and considering personal
+                    goals can help determine if Bridgekode aligns with their
+                    requirements for web development training or services.
                   </Box>
                 </Box>
                 <ul className="choose-list w-list-unstyled" role="list">
@@ -42,7 +46,7 @@ const WhyBridgetech = () => {
                     <Box className="choose-content">
                       <Box className="choose-title">Expert Team</Box>
                       <p className="choose-text">
-                        At Bridgetech, we take great pride in our expert team of
+                        At Bridgekode, we take great pride in our expert team of
                         professionals who are at the forefront of software
                         development. Our team is comprised of highly skilled and
                         experienced individuals with diverse expertise in
@@ -62,7 +66,7 @@ const WhyBridgetech = () => {
                     <Box className="choose-content">
                       <Box className="choose-title">Quick Action</Box>
                       <p className="choose-text">
-                        At Bridgetech, we understand the importance of quick
+                        At Bridgekode, we understand the importance of quick
                         action and responsiveness in the fast-paced world of
                         software development. Our team is committed to prompt
                         and efficient execution to meet your project needs.
