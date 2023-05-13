@@ -64,7 +64,6 @@ const Testimonial = () => {
             return (
               <article className={position} key={id}>
                 <Box className="image-container">
-                  
                   <img
                     src={image}
                     alt={name}
@@ -74,8 +73,10 @@ const Testimonial = () => {
                 </Box>
                 <h4>{name}</h4>
                 <p className="title">{title} </p>
-                <p className="text">{quote} </p>
-                {/* <FaQuoteRight className="icon" /> */}
+                <p className="text">'' {quote} '' </p>
+                <Box className="image-container">
+                  <FaQuoteRight className="icon" />
+                </Box>
               </article>
             );
           })}

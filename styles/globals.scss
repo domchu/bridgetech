@@ -2546,11 +2546,11 @@ article h4 {
   font-family: Rajdhani, sans-serif;
   
 }
-// .icon {
-//   font-size: 3rem;
-//   margin-top: 1rem;
-//   color: var(--clr-primary-5);
-// }
+.icon {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: var(--primary-clr-5);
+}
 .prev,
 .next {
   position: absolute;
@@ -2561,17 +2561,18 @@ article h4 {
   place-items: center;
   border-color: transparent;
   font-size: 1.5rem;
-  background-color: #023E8A;
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+  transition: background-color 300ms ease-in-out;
   border-radius: var(--radius);
   cursor: pointer;
   transition: var(--transition);
   width: 35px;
   height: 35px;
 }
-.prev:hover,
-.next:hover {
-  background-color: var(--primary-clr-5);
-}
+// .prev:hover,
+// .next:hover {
+//   background-color: var(--primary-clr-5);
+// }
 .image-container{
   display: grid;
   place-items: center;
@@ -2593,7 +2594,7 @@ article {
   transition: var(--transition);
 }
 article p{
-  color: var(--primary-clr-1);
+  color: var(--primary-clr-5);
   font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 600;
