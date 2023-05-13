@@ -32,8 +32,8 @@ const Testimonial = () => {
   return (
     <Box className="section testimonial-section testimonial-section wf-section">
       <Box className="section-gap-130">
-        <Box className=" section-justify-center section">
-          <Box className="section-block max-width-475 text-center tile">
+        <Box className="section-justify-center ">
+          <Box className="section-block max-width-475 text-center ">
             <h2 className="section-title">
               Client's
               <span className="section-title-inner-style">Talk</span>

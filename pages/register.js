@@ -7,7 +7,7 @@ const register = () => {
   return (
     <>
       <Head>
-        <title>BridgeTech | Register</title>
+        <title>BridgeKode | Register</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"

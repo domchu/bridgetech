@@ -11,7 +11,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>BridgeTech | Projects</title>
+        <title>BridgeKode | Projects</title>
         <meta
           name="projects"
           content="you can explore from our wide range of projects done"

@@ -10,7 +10,7 @@ const servicehome = () => {
   return (
     <div>
       <Head>
-        <title>BridgeTech | Services</title>
+        <title>BridgeKode | Services</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
