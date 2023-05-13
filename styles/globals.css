@@ -2411,8 +2411,8 @@ p {
   padding-bottom: 100px;
 }
 
-.about-content {
-  max-width: 550px;
+.about-content p {
+  font-size: 18px;
 }
 
 .about-content h2 {
