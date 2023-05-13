@@ -2655,6 +2655,7 @@ p {
 .img-center {
   display: grid;
   place-items: center;
+  margin-bottom: 15px;
 }
 
 .person-img {
@@ -2684,7 +2685,7 @@ article h4 {
   margin: 0 auto;
   line-height: 1.6;
   color: var(--clr-black);
-  font-size: 20px;
+  font-size: 18px;
   font-family: Rajdhani, sans-serif;
 }
 
@@ -2709,6 +2710,11 @@ article h4 {
 .prev:hover,
 .next:hover {
   background-color: var(--primary-clr-5);
+}
+
+.image-container {
+  display: grid;
+  place-items: center;
 }
 
 .prev {

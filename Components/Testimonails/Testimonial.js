@@ -63,12 +63,15 @@ const Testimonial = () => {
             //* mapping the json/data to the dom.
             return (
               <article className={position} key={id}>
-                <img
-                  src={image}
-                  alt={name}
-                  className="person-img img"
-                  loading="lazy"
-                />
+                <Box className="image-container">
+                  
+                  <img
+                    src={image}
+                    alt={name}
+                    className="person-img img"
+                    loading="lazy"
+                  />
+                </Box>
                 <h4>{name}</h4>
                 <p className="title">{title} </p>
                 <p className="text">{quote} </p>
