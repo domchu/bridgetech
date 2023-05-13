@@ -18,7 +18,7 @@ const Brand = () => {
 
       <marquee>
         <h2 style={{ fontSize: "30px" }}>
-          Bridgetech Software Development Services
+          Bridgekode Software Development Services
         </h2>
       </marquee>
     </>

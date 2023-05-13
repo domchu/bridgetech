@@ -9,7 +9,7 @@ const login = () => {
   return (
     <>
       <Head>
-        <title>BridgeKode | Log In</title>
+        <title>Bridgekode | Log In</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"

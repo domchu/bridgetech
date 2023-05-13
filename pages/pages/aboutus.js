@@ -10,7 +10,7 @@ const aboutus = () => {
   return (
     <>
       <Head>
-        <title>BridgeKode | About Us</title>
+        <title>Bridgekode | About Us</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
