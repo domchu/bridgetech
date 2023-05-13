@@ -10,7 +10,7 @@ const signin = () => {
   return (
     <>
       <Head>
-        <title>BridgeTech | Sign up</title>
+        <title>Bridgekode | Sign up</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"

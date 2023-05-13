@@ -9,7 +9,7 @@ const Error = () => {
   return (
     <>
       <Head>
-        <title>BridgeTech | Projects</title>
+        <title>Bridgekode | Projects</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"

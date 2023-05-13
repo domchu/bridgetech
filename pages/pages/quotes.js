@@ -9,7 +9,7 @@ const quotes = () => {
   return (
     <>
       <Head>
-        <title>BridgeTech | Quotes</title>
+        <title>Bridgekode | Quotes</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
