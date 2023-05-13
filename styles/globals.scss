@@ -1656,14 +1656,17 @@ img {
 .single-work-progress-item:hover .work-progress-text{
   color:rgb(0,119,182)
 }
-.single-work-progress-item:hover .single-work-progress-item {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding: 50px 30px 25px;
+.single-work-progress-item:hover {
+
   border-radius: 14px;
+  box-shadow: inset 5px 5px 10px #949494,
+            inset -5px -5px 10px #ffffff;
+// box-shadow:  5px 5px 10px #949494,
+//              -5px -5px 10px #ffffff;
+  transition: 0.5s;
   transition: box-shadow 300ms ease, background-color 300ms ease;
-  text-align: center;
+  background-color: var(--natural-clr-1);
+  position: relative;
 }
 
 // WHY CHOOSE BRIDGETECH CSS
@@ -2585,10 +2588,10 @@ article {
   transition: var(--transition);
 }
 article p{
-  color: var(--primary-clr-2);
+  color: var(--primary-clr-1);
   font-family: Rajdhani, sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 article.activeSlide {
   opacity: 1;
