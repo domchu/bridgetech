@@ -4,6 +4,8 @@ import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Quotes from "./../../Components/Quotes/Quotes";
+import Testimonial from "../../Components/Testimonails/Testimonial";
+import NewsLetter from "../../Components/NewsLetter";
 
 const getquotes = () => {
   return (
@@ -19,6 +21,8 @@ const getquotes = () => {
       <Topnav />
       <Header />
       <Quotes />
+      <NewsLetter />
+      <Testimonial />
       <Footer />
     </>
   );

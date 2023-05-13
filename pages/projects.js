@@ -6,6 +6,7 @@ import Footer from "../Components/Footer/Footer";
 import Projects from "../Components/Projects/Projects";
 import NewsLetter from "../Components/NewsLetter";
 import Brand from "../Components/Brand/Brand";
+import Testimonial from "../Components/Testimonails/Testimonial";
 
 const projects = () => {
   return (
@@ -22,6 +23,7 @@ const projects = () => {
       <Header />
       <Projects />
       <NewsLetter />
+      <Testimonial />
       <Brand />
       <Footer />
     </>

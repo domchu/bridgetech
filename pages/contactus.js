@@ -5,6 +5,7 @@ import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Components/Contact/Contact";
 import NewsLetter from "./../Components/NewsLetter";
+import Testimonial from "../Components/Testimonails/Testimonial";
 
 const contactus = () => {
   return (
@@ -21,6 +22,7 @@ const contactus = () => {
       <Header />
       <Contact />
       <NewsLetter />
+      <Testimonial />
       <Footer />
     </>
   );
