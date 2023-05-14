@@ -14,8 +14,8 @@ const Contact = () => {
                 Contact <span className="sub_heading_span">Us</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Here is a list of verious medium or platform to get accross to
+                us If you haven't found the one that is confortable with you.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

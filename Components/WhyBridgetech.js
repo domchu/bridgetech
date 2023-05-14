@@ -110,7 +110,7 @@ const WhyBridgetech = () => {
                   </Box>
                   <Box className="choose-inner-text-box-2">
                     <Box className="text-block">
-                      Get Perfect Solution for your Problems
+                      Get Perfect Solution for your Business
                     </Box>
                   </Box>
                 </Box>

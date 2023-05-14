@@ -13,8 +13,8 @@ const SubHeading = () => {
                 Our <span className="sub_heading_span">Projects</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                The underlisted projects are carried out by bridgekode,
+                completed and delivered to the their respective clients
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

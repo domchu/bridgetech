@@ -13,8 +13,8 @@ const Quotes = () => {
                 Get a <span className="sub_heading_span">Quotes</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Let's have your project budget and unlock the power of software
+                in businesses.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
