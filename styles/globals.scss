@@ -397,7 +397,6 @@ font-family: Rajdhani, sans-serif;
     border-top: none;
     box-shadow: none;
   }
- 
   .mobile-container{
    display: block;
    justify-content: center;
@@ -405,7 +404,7 @@ font-family: Rajdhani, sans-serif;
    align-items: center;
    text-align: left;
    position: absolute;
-   z-index: 10;
+   z-index: 100;
    top:0px;
    left:0px;
   height:100vh;
