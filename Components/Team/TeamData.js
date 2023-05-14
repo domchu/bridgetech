@@ -88,5 +88,27 @@ const TeamData = [
     twitterLink: "https://twitter.com/",
     linkedinLink: "https://linkedin.com/in/",
   },
+  {
+    id: "9",
+    image: "/images/graphic.jpg ",
+    name: "Nwabudike Ifeanyi",
+    job: "Software Tester",
+    profile: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/",
+    instagramLink: "https://www.instagram.com/",
+    twitterLink: "https://twitter.com/",
+    linkedinLink: "https://linkedin.com/in/",
+  },
+  {
+    id: "10",
+    image: "/images/full-stack.jpg ",
+    name: "Ochu Comfort",
+    job: "Content Writer [Copywriter]",
+    profile: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/",
+    instagramLink: "https://www.instagram.com/",
+    twitterLink: "https://twitter.com/",
+    linkedinLink: "https://linkedin.com/in/",
+  },
 ];
 export default TeamData
