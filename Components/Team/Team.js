@@ -14,8 +14,8 @@ const Team = () => {
                 Our <span className="sub_heading_span">Team</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                A comprehensive members of highly knowledgeable and experienced
+                in the field of software development life cycle.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
