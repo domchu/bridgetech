@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Box>
                   <Box
                     className="dropdown w-dropdown"
-                    data_hover="fales"
+                    data_hover="false"
                     data-delay="0"
                     style={{ zIndex: "901" }}
                   >

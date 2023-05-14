@@ -347,6 +347,7 @@ nav {
     background-color: transparent;
     color: var(--primary-clr-2);
     cursor: pointer;
+    font-weight: 300;
   }
 }
 @media screen and (max-width: 500px) {

@@ -337,6 +337,7 @@ margin:0px 20px;
     background-color: transparent;
     color: var(--primary-clr-2);
     cursor:pointer;
+    font-weight: 300;
   }
 }
 @media screen and (max-width:#{$phone-width}){
@@ -348,7 +349,6 @@ margin:0px 20px;
     justify-content: center;
     flex-direction: column;
     overflow:hidden;
-
   }
   .mobile-link{
     display:block;
