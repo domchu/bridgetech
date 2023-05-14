@@ -85,13 +85,13 @@ const Faq = () => {
                   textAlign="left"
                   className="faq-heading"
                 >
-                  What are the perks of working with Bridgetech?
+                  What are the perks of working with Bridgekode?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              What are the perks of working with Bridgetech?
+              What are the perks of working with Bridgekode?
               <li>
                 <strong>Team</strong>
               </li>
@@ -102,7 +102,7 @@ const Faq = () => {
               </li>
               We are responsible for every task. This approach allows us to
               eliminate chaos, makes our processes efficient and gives everyone
-              a clear path to growth together with Bridgetech.
+              a clear path to growth together with Bridgekode.
               <li>
                 <strong>Result-driven</strong>
               </li>
@@ -111,7 +111,7 @@ const Faq = () => {
               <li>
                 <strong>Development</strong>
               </li>
-              We invest our time in self-education and training, and Bridgetech
+              We invest our time in self-education and training, and Bridgekode
               helps us to achieve synergies in our common development.
               <li>
                 <strong>Professional second opinion</strong>
@@ -155,6 +155,8 @@ const Faq = () => {
               for several primary industries:
               <li>E-commerce</li>
               <li>Healthcare</li>
+              <li>Entertaiments</li>
+              <li>Electronics</li>
               <li>Education</li>
               <li>Food & Science</li>
               <li>Real Estate</li>
@@ -255,7 +257,7 @@ const Faq = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Bridgetech can provide a dedicated development team with extensive
+              Bridgekode can provide a dedicated development team with extensive
               experience to fill any skill gaps that affect your development
               projects. We have such high-quality specialists as:
               <li>Full-Stack Engineers</li>
@@ -266,7 +268,9 @@ const Faq = () => {
               <li>Project Managers</li>
               <li>Business Analysts</li>
               <li>Tester Engineers</li>
+              <li>Contents writers</li>
               <li>QA Engineers</li>
+              <li>Hardware/Network Engineers</li>
               <li>DevOps specialists</li> We make sure that our professionals
               use the latest technologies, are middle and senior professionals
               with minimum B2 level of English, and are fully dedicated to your
@@ -372,14 +376,14 @@ const Faq = () => {
                   textAlign="left"
                   className="faq-heading"
                 >
-                  What is Bridgetech?
+                  What is Bridgekode?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Bridgetech is a strategic technology partner for custom software
-              development and staff augmentation. Founded in 2022, Bridgetech
+              Bridgekode is a strategic technology partner for custom software
+              development and staff augmentation. Founded in 2022, Bridgekode
               has extensive experience of building solutions for start-ups and
               SMEs all over the world. Our team has already implemented over 10
               software products of different complexity in the following niches:
