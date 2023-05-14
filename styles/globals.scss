@@ -2499,6 +2499,9 @@ p {
   .section-title {
     font-size: 34px;
   }
+  .service-gridbox-right{
+    padding: 20px;
+  }
 }
 @media screen and (max-width:#{$phone-width}){
 .login-block {

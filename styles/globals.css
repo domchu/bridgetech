@@ -2636,6 +2636,9 @@ p {
   .section-title {
     font-size: 34px;
   }
+  .service-gridbox-right {
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 500px) {
   .login-block {
