@@ -6,6 +6,7 @@ import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import Brand from "../../public/images/brandlogo-blue.png";
 import Dropdown from "../../public/images/arrow-down.svg";
+import MobileView from "../Mobile/MobileView";
 
 const Navbar = () => {
   // ACTIVE PAGES LINK
@@ -14,8 +15,13 @@ const Navbar = () => {
 
   // TOGGLE PAGE AND DROPDOWN ICON
   const [toggle, setToggle] = useState(false);
+  const [mobile, setMobile] = useState(false);
   const handleClick = () => {
     setToggle(!toggle);
+  };
+
+  const handleMobileView = () => {
+    setMobile(!mobile);
   };
   return (
     <>
@@ -206,7 +212,14 @@ const Navbar = () => {
             {/* THE QUOTES SECTION AT THE NAVBAR */}
             <Box className="header-event-button-group ">
               <Box className="">
-                <FaBars className="menu-button w-nav-button" />
+                <FaBars
+                  className="menu-button w-nav-button"
+                  onClick={handleMobileView}
+                />
+              </Box>
+              {/* MOBILE VIEW OF THE BRIDGEKODE */}
+              <Box className="" style={{ display: mobile ? "block" : "none" }}>
+                <MobileView />
               </Box>
               <Box>
                 <li className="primary-button small header-event-button">

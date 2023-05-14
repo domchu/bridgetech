@@ -58,7 +58,9 @@ const MobileView = () => {
                       tabIndex={0}
                       onClick={handleClick}
                     >
-                      <Box id="nav-link">Pages</Box>
+                      <Box id="nav-link" className="pages">
+                        Pages
+                      </Box>
                       <Image
                         src={Dropdown}
                         alt="Arrow Down Icon"

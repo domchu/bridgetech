@@ -8,11 +8,11 @@ const ServiceCard = () => {
   return (
     <>
       {DataServ.map((serviceDetails) => {
-        const { title, urlPath, image, text } = serviceDetails;
+        const { title, urlPath, image, text, id } = serviceDetails;
         return (
           <div>
             <Box className="section-collection-item w-dyn-item" role="listitem">
-              <Box className="service-single-item-box">
+              <Box className="service-single-item-box" key={id}>
                 <Link
                   href={urlPath}
                   className="service-thumbnail-image-block w-inline-block"
