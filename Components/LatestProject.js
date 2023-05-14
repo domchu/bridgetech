@@ -24,9 +24,9 @@ const LatestProject = () => {
                   Project
                 </h2>
                 <Box className="section-text max-width-370">
-                  Neque porro quisquam est, qui dolorem ipsum quia
+                  The underlisted projects are our latest and
                   <br />
-                  ctetur, adipisci velit, sed eligendi option cumque
+                  affordable services completed.
                 </Box>
               </Box>
               <Box className="project-wrapper">
@@ -40,11 +40,10 @@ const LatestProject = () => {
                     />
                     <Box className="project__contents">
                       <Link href="/">
-                        <h3>School Website/Portal</h3>
+                        <h3>School Website</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                      Technologies used to developed Keyonaville schools are  Javascript, Next.js, React.js, Chakra-Ui, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -69,8 +68,7 @@ const LatestProject = () => {
                         <h3>Bridgetech Website</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                        Technologies used to developed bridgekode are  Javascript, Next.js, React.js, Chakra-Ui, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -92,11 +90,10 @@ const LatestProject = () => {
                     />
                     <Box className="project__contents">
                       <Link href="/">
-                        <h3>Software Development</h3>
+                        <h3>School Portal/Database</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                      Technologies used to developed Keyonaville school portal are PHP, MySQL, laravel, Mantie, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -121,8 +118,8 @@ const LatestProject = () => {
                         <h3>Bridgetech Blogging</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                        The technologies used for these project are Contents
+                        Management system[CMS], plugins, CSS etc
                       </p>
                       <Link href="/">
                         <Image
@@ -147,8 +144,8 @@ const LatestProject = () => {
                         <h3>Web Dev Training</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                        Bridgekode train students/kids on web development with
+                        HTML, CSS, Bootstrap, WordPress and JavaScript
                       </p>
                       <Link href="/">
                         <Image
@@ -173,8 +170,8 @@ const LatestProject = () => {
                         <h3>Opay UX/UI Design</h3>
                       </Link>
                       <p>
-                        Neque porro quisquam est qui most dolorem quia enough
-                        impedit same quo minus quod and maxime
+                        The wireframe or template was done by the uses of Figma,
+                        Illustrator, etc.
                       </p>
                       <Link href="/">
                         <Image

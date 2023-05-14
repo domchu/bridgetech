@@ -27,8 +27,8 @@ const HomePage = () => {
                 Business
               </h1>
               <p className="hero-text">
-                Neque porro quisquam est, qui dolorem ipsum quia golor sit amet,
-                consectetur, adipisci velit, sed
+                Building the future, one line of code at a time. Turning ideas
+                into digital solutions.
               </p>
               <Box className="hero-link-group">
                 <Link href="/projects" className="primary-button">
@@ -114,32 +114,40 @@ const HomePage = () => {
                     for your Business
                   </h2>
                   <Box className="section-text">
-                    Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                    amet, conse ctetur, adipisci velit, sed eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus mentioned technology
+                    Bridgekode can help eliminate IT challenges through a
+                    combination of expertise, proactive problem-solving, and
+                    effective technology solutions. Here are some ways
+                    Bridgetech can address IT challenges:
                   </Box>
                 </Box>
                 <ul className="eliminate-list w-list-unstyled" role="list">
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
                     <Box className="eliminate-list-text">
-                      Neque porro quisquam est, qui dolorem ipsum quia more than
-                      enough impedit quo minus quod maxime facere possimus
+                      Comprehensive Assessments: Bridgetech can conduct thorough
+                      assessments of an organization's IT infrastructure,
+                      systems, and processes. This helps identify existing
+                      challenges, vulnerabilities, and areas for improvement.
                     </Box>
                   </li>
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
                     <Box className="eliminate-list-text">
-                      Neque porro quisquam est, qui dolorem ipsum quia more than
-                      enough impedit quo minus quod maxime facere possimus
+                      Tailored Solutions: Based on the assessment results,
+                      Bridgekode can provide customized solutions to address
+                      specific IT challenges. This may involve implementing new
+                      technologies, optimizing existing systems, or streamlining
+                      workflows to improve efficiency and productivity.
                     </Box>
                   </li>
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
                     <Box className="eliminate-list-text">
-                      Neque porro quisquam est, qui dolorem ipsum quia more than
-                      enough impedit quo minus quod maxime facere possimus
+                      Training and Support: Bridgekode can offer training
+                      programs and ongoing support to enhance the IT skills of
+                      the organization's staff. This empowers employees to
+                      effectively use IT systems, troubleshoot minor issues, and
+                      reduce dependence on external IT support.
                     </Box>
                   </li>
                   <li

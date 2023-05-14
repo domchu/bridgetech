@@ -18,11 +18,9 @@ const Ethic = () => {
                   How <span className="section-title-inner-style">we</span> work
                 </h2>
                 <Box className="section-text">
-                  Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                  amet
+                  The modus operandi in bridgekode makes life easy
                   <br />
-                  ctetur, adipisci velit, sed eligendi optio cumque nihil
-                  impedit
+                  to all team members
                 </Box>
               </Box>
             </Box>
@@ -53,7 +51,7 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  //   style={{}}
+                  
                   id="special"
                 ></Box>
               </Box>
@@ -83,7 +81,7 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  //   style={{}}
+                  
                   id="special"
                 ></Box>
               </Box>
@@ -113,7 +111,7 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  //   style={{}}
+                 
                   id="special"
                 ></Box>
               </Box>
@@ -143,7 +141,7 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  //   style={{}}
+                 
                   id="special"
                 ></Box>
               </Box>

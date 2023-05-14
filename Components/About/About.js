@@ -51,12 +51,13 @@ const About = () => {
                 <p>
                   We are <strong>Bridgekode</strong> provide the best quality
                   <Link href="https://www.example.com"> IT solution. </Link>
-                  Bridgekode is a leading software development services company
-                  dedicated to providing innovative and tailored solutions to
-                  businesses of all sizes. With a strong focus on technology and
-                  a team of highly skilled professionals, Bridgekode is
-                  committed to delivering high-quality software products and
-                  services that drive business growth and efficiency.
+                  Bridgekode is an innovative software development services
+                  company dedicated to providing innovative and tailored
+                  solutions to businesses of all sizes. With a strong focus on
+                  technology and a team of highly skilled professionals,
+                  Bridgekode is committed to delivering high-quality software
+                  products and services that drive business growth and
+                  efficiency.
                   <br />
                   <li>
                     <strong>Our Services:</strong>

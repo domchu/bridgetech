@@ -26,9 +26,9 @@ const ServiceProvide = () => {
                         provide
                       </h2>
                       <Box className="section-text max-width-370">
-                        Neque porro quisquam est, qui dolorem ipsum quia
+                        Choose from our wide range of services offered by
                         <br />
-                        ctetur, adipisci velit, sed eligendi option cumque
+                        bridgekode software development services.
                       </Box>
                     </Box>
                     <Link

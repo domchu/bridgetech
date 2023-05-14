@@ -16,8 +16,8 @@ const Service = () => {
                 Our <span className="sub_heading_span">Services</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Choose from our wide range of services offered by bridgekode
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -94,7 +94,7 @@ const Service = () => {
                   </Box>
                   <Box className="choose-inner-text-box-2">
                     <Box className="text-block">
-                      Get Perfect Solution for your Problems
+                      Get Perfect Solution for your Business
                     </Box>
                   </Box>
                 </Box>
@@ -116,10 +116,9 @@ const Service = () => {
                   Provide
                 </h2>
                 <Box className="section-text">
-                  Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                  amet <br />
-                  ctetur, adipisci velit, sed eligendi optio cumque nihil
-                  impedit
+                  Choose from our wide range of services offered by
+                  <br />
+                  bridgekode software development services.
                 </Box>
               </Box>
             </Box>

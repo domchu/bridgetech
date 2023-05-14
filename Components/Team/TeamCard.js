@@ -13,6 +13,7 @@ const TeamCard = () => {
     <>
       {TeamPeople.map((team) => {
         const {
+          id,
           image,
           name,
           job,
@@ -23,7 +24,7 @@ const TeamCard = () => {
           profile,
         } = team;
         return (
-          <div>
+          <div key={id}>
             <Box className="team-item w-dyn-item" role="listiem">
               <Box className="team-single-item" data-w-id="">
                 <Box className="team-image-block img">

@@ -1,6 +1,7 @@
 
 const TeamData = [
   {
+    id: "1",
     image: "/images/team-ceo.jpg ",
     name: "Ochu Dominic",
     job: "CEO, President",
@@ -11,6 +12,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "2",
     image: "/images/digital-head.jpg ",
     name: "Olatunde Sleek",
     job: "Project Manager",
@@ -21,6 +23,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "3",
     image: "/images/senior-frontend.jpg ",
     name: "Ogada Stanley",
     job: "Senior Frontend Egnr.",
@@ -31,6 +34,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "4",
     image: "/images/product-designer.jpg ",
     name: "Egaji Samuel",
     job: "Product(UX/UI) Designer",
@@ -41,6 +45,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "5",
     image: "/images/seo-expert.jpg ",
     name: "Isaac Oti",
     job: "Web/Graphic Designer",
@@ -51,6 +56,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "6",
     image: "/images/project-man.jpg ",
     name: "Mudashir Tunde",
     job: "FullStack Software Engr.",
@@ -61,6 +67,7 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "7",
     image: "/images/full-stack.jpg ",
     name: "Owoicho Emma ",
     job: "Branding/SEO Expert",
@@ -71,9 +78,32 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
   {
+    id: "8",
     image: "/images/graphic.jpg ",
     name: "Dim Lawrence",
     job: "Hardware/Network Engr",
+    profile: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/",
+    instagramLink: "https://www.instagram.com/",
+    twitterLink: "https://twitter.com/",
+    linkedinLink: "https://linkedin.com/in/",
+  },
+  {
+    id: "9",
+    image: "/images/graphic.jpg ",
+    name: "Nwabudike Ifeanyi",
+    job: "Software Tester",
+    profile: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/",
+    instagramLink: "https://www.instagram.com/",
+    twitterLink: "https://twitter.com/",
+    linkedinLink: "https://linkedin.com/in/",
+  },
+  {
+    id: "10",
+    image: "/images/full-stack.jpg ",
+    name: "Ochu Comfort",
+    job: "Content Writer [Copywriter]",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",

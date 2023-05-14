@@ -253,9 +253,11 @@ nav{
 #nav-link {
   padding: 0px;
   color: var(--primary-clr-2);
+  font-family: Rajdhani, sans-serif;
 }
 .links-container-nav li{
 margin:0px 20px;
+font-family: Rajdhani, sans-serif;
 }
 .nav-dropdown-list a:hover{
   color:var(--primary-clr-1) 
@@ -337,11 +339,77 @@ margin:0px 20px;
     background-color: transparent;
     color: var(--primary-clr-2);
     cursor:pointer;
+    font-weight: 300;
   }
 }
 @media screen and (max-width:#{$phone-width}){
   .primary-button{
     display: none;
+  }
+  .mobile-view{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    overflow:hidden;
+  }
+  .mobile-link{
+    display:block;
+    padding: 1rem;
+    font-family: Rajdhani, sans-serif;
+  }
+  .mobile-link li{
+    font-family: Rajdhani, sans-serif;
+    margin:15px 0px;
+    font-size: 20px;
+  }
+  .pages{
+    font-family: Rajdhani, sans-serif;
+    color: var(--primary-clr-2);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .mobile-position{
+     padding: 16px 25px 16px 16px;
+  }
+  .w-dropdown-list {
+    position: relative;
+    display: none;
+  }
+  .nav-dropdown-link a {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Rajdhani, sans-serif;
+  }
+  .nav-dropdown-list.w--open {
+     background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+    width:100%
+  }
+  .w-nav-link a {
+    position: relative;
+    text-decoration: none;
+    color: var(--primary-clr-2);
+    padding-left: 20px;
+    text-align: left;
+    font-family: Rajdhani, sans-serif;
+  }
+  .nav-dropdown-list {
+    border-top: none;
+    box-shadow: none;
+  }
+  .mobile-container{
+   display: block;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+   position: absolute;
+   z-index: 100;
+   top:0px;
+   left:0px;
+  height:100vh;
+  width:60%;
+  box-shadow: 1px 1px 4px rgb(176, 177, 183)
   }
 }
   
@@ -2430,6 +2498,9 @@ p {
   }
   .section-title {
     font-size: 34px;
+  }
+  .service-gridbox-right{
+    padding: 20px;
   }
 }
 @media screen and (max-width:#{$phone-width}){

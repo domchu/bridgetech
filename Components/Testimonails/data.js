@@ -18,7 +18,7 @@ const TestimonialData = [
   },
   {
     id: 3,
-    image: "/images/graphic.jpg",
+    image: "/images/full-stack.jpg",
     name: "Nwabudike Ifeanyi ",
     title: "school Teacher",
     quote:
@@ -34,9 +34,17 @@ const TestimonialData = [
   },
   {
     id: 5,
-    image: "/images/team-ceo.jpg",
+    image: "/images/slider.jpg",
     name: "Chinyere",
     title: "Clearing & Forwarding(Shipping)",
+    quote:
+      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
+  },
+  {
+    id: 6,
+    image: "/images/full-stack.jpg",
+    name: "Ochu Comfort",
+    title: "Guardian and consellor",
     quote:
       "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
   },
