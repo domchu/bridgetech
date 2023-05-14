@@ -9,9 +9,9 @@ const ProjectCard = () => {
   return (
     <>
       {ProjectCont.map((ProjectDetail) => {
-        const { title, url, comments, image } = ProjectDetail;
+        const { id, title, url, comments, image } = ProjectDetail;
         return (
-          <Box>
+          <Box key={id}>
             <Box className="project-item-wrapper">
               <Box className="project-collection">
                 <Image
