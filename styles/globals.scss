@@ -343,6 +343,38 @@ margin:0px 20px;
   .primary-button{
     display: none;
   }
+  .mobile-view{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    overflow:hidden;
+
+  }
+  .mobile-link{
+    display:block;
+    padding: 1rem;
+  }
+  .mobile-link li{
+    margin:15px 0px;
+    font-size: 18px;
+    font-family: Rajdhani, sans-serif;
+  }
+ 
+  .mobile-container{
+display: block;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: left;
+position: absolute;
+z-index: 10;
+padding: 16px 25px 16px 16px;
+top:0px;
+left:0px;
+height:100vh;
+width:60%;
+// box-shadow: 1px 1px 3px rgba(0,0,0)
+  }
 }
   
 

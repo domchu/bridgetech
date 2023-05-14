@@ -6,6 +6,7 @@ import Footer from "../../Components/Footer/Footer";
 import Team from "../../Components/Team/Team";
 import NewsLetter from "./../../Components/NewsLetter";
 import Testimonial from "../../Components/Testimonails/Testimonial";
+import MobileView from "../../Components/Mobile/MobileView";
 const team = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const team = () => {
       <Team />
       <NewsLetter />
       <Testimonial />
+      <MobileView />
       <Footer />
     </div>
   );
