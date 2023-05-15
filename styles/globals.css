@@ -330,6 +330,9 @@ nav {
   .nav-menu {
     display: none;
   }
+  .nav-dropdown-list.w--open {
+    background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+  }
   .menu-button {
     width: 35px;
     padding: 0px;
@@ -356,7 +359,7 @@ nav {
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 300px;
+    width: 350px;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
   }
   .mobile-position {
