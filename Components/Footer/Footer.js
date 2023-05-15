@@ -22,7 +22,7 @@ const Footer = () => {
               lg: "row",
             }}
           >
-            <Box className="footer-link"> 
+            <Box className="footer-link">
               <Link href="/">
                 <Image
                   src={BrandWhite}
@@ -73,12 +73,16 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/aboutus"
+                  href="/services/software-development"
                   id="footerlink"
-                  className={currentRoute == "/pages/aboutus" ? "active" : ""}
+                  className={
+                    currentRoute == "/services/software-development"
+                      ? "active"
+                      : ""
+                  }
                   passhref="true"
                 >
-                  Company
+                  Software Development
                 </Link>
               </li>
               <li>
@@ -152,7 +156,7 @@ const Footer = () => {
                   className={currentRoute == "/contactus" ? "active" : ""}
                   passhref="true"
                 >
-                  License
+                  Enquires
                 </Link>
               </li>
               <li>
