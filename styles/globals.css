@@ -324,18 +324,6 @@ nav {
   .nav-link {
     line-height: 2;
   }
-  .nav-menu {
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: 0%;
-    min-width: 300px;
-    padding: 20px;
-    border-bottom: 3px solid #023e8a;
-    background-color: #eefcff;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-  }
   .dropdown {
     display: block;
   }
@@ -350,6 +338,69 @@ nav {
     color: var(--primary-clr-2);
     cursor: pointer;
     font-weight: 300;
+  }
+  .mobile-view {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .mobile-container {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 300px;
+    box-shadow: 1px 1px 4px rgb(176, 177, 183);
+  }
+  .mobile-position {
+    padding: 16px 25px 16px 16px;
+  }
+  .w-dropdown-list {
+    position: relative;
+    display: none;
+  }
+  .pages {
+    font-family: Rajdhani, sans-serif;
+    color: var(--primary-clr-2);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .w-nav-link a {
+    position: relative;
+    text-decoration: none;
+    color: var(--primary-clr-2);
+    padding-left: 20px;
+    text-align: left;
+    font-family: Rajdhani, sans-serif;
+  }
+  .nav-dropdown-list {
+    border-top: none;
+    box-shadow: none;
+  }
+  .mobile-link {
+    display: block;
+    padding: 1rem;
+    font-family: Rajdhani, sans-serif;
+  }
+  .mobile-link li {
+    font-family: Rajdhani, sans-serif;
+    margin: 15px 0px;
+    font-size: 20px;
+  }
+  .w-dropdown-list {
+    position: relative;
+    display: none;
+  }
+  .nav-dropdown-list {
+    border-top: none;
+    box-shadow: none;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1868,7 +1919,7 @@ p {
 
 .choose-inner-text-box-1 {
   position: absolute;
-  left: -100px;
+  left: -40px;
   top: auto;
   right: auto;
   bottom: 102px;

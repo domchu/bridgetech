@@ -35,7 +35,7 @@ const TestimonialData = [
   {
     id: 5,
     image: "/images/slider.jpg",
-    name: "Chinyere",
+    name: "Onuabueke Fidelia",
     title: "Clearing & Forwarding(Shipping)",
     quote:
       "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",

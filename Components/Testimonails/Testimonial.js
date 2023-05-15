@@ -40,7 +40,7 @@ const Testimonial = () => {
             </h2>
             <Box className="section-text">
               A short quote or personal anecdote from our clients that describes
-              the experience they've had with bridgekode. We implore you to go
+              the experienced they've had with bridgekode. We implore you to go
               via the feedbacks carefully.
             </Box>
           </Box>

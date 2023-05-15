@@ -140,6 +140,21 @@ const MobileView = () => {
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
+                              href="/services/web-design-training"
+                              id="nav-dropdown-link "
+                              passhref="true"
+                              className={
+                                currentRoute == "/services/web-design-training"
+                                  ? "active"
+                                  : ""
+                              }
+                              tabIndex={0}
+                            >
+                              Website Training
+                            </Link>
+                          </li>
+                          <li className="w-nav-link nav-dropdown-link">
+                            <Link
                               href="/pages/getquotes"
                               id="nav-dropdown-link "
                               passhref="true"
