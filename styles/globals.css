@@ -2884,4 +2884,11 @@ article.lastSlide {
 
 article.nextSlide {
   transform: translateX(100%);
+}
+
+.page-link {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
 }/*# sourceMappingURL=globals.css.map */
