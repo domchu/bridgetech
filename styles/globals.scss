@@ -2754,9 +2754,19 @@ article.nextSlide {
 
 // PAGINATION AT PROJECT PAGE
 .page-link{
-  padding: 10px;
+  padding: 10px 13px;
   height: 50px;
   width: 50px;
-  border:1px solid;
+  color:var(--clr-white);
+  background-image: -webkit-gradient(linear, right top, left top, from(#030b63), to(#0179af));
+  background-image: linear-gradient(270deg, #030b63, #0179af);
 }
+.pagination{
+ display: grid;
+ place-items: center;
+ width:100%;
+ margin:auto;
+}
+
+
 
