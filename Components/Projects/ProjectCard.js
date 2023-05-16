@@ -1,32 +1,57 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectCont from "./ProjectData";
 import arrow from "../../public/images/arrow-long-icon.png";
 
+const RECORDS_PER_PAGE = 3;
 const ProjectCard = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const recordsPerPage = 3;
-  const lastIndex = currentPage * recordsPerPage;
-  const FirstIndex = lastIndex - recordsPerPage;
-  const records = ProjectCont.slice(FirstIndex, lastIndex);
-  const nPage = Math.ceil(ProjectCont.length / recordsPerPage);
-  const numbers = [...Array(nPage + 1).keys()].slice(1);
+  const lastIndex = useMemo(
+    () => currentPage * RECORDS_PER_PAGE,
+    [currentPage]
+  );
+  const firstIndex = useMemo(() => lastIndex - RECORDS_PER_PAGE, [lastIndex]);
+  const records = useMemo(
+    () => ProjectCont.slice(firstIndex, lastIndex),
+    [firstIndex, lastIndex]
+  );
+  const nPage = useMemo(
+    () => Math.ceil(ProjectCont.length / RECORDS_PER_PAGE),
+    []
+  );
+  const numbers = useMemo(
+    () =>
+      (() => {
+        const arr = [];
+        for (let i = ProjectCont.length / RECORDS_PER_PAGE; i > 0; i--) {
+          arr.unshift(i);
+        }
 
+        return arr;
+      })(),
+    []
+  ); // IFFE
+
+  // PREVIOUS PAGE
   const prePage = () => {
     if (currentPage !== 1) {
       setCurrentPage(currentPage - 1);
     }
   };
+  // CHANGE CURRENT PAGE
   const changeCPage = (id) => {
-    currentPage(id);
+    setCurrentPage(id);
   };
+  // NEXT PAGE
   const nextPage = () => {
     if (currentPage !== nPage) {
       setCurrentPage(currentPage + 1);
     }
   };
+
+  console.log(records);
 
   return (
     <>
@@ -67,24 +92,24 @@ const ProjectCard = () => {
       {/* <Box aria-label="Page navigation example" className="page-holder"> */}
       <ul className="pagination">
         <li className="page-item">
-          <a className="page-link" href="#" onClick={prePage}>
+          <button className="page-link" onClick={prePage}>
             Prev
-          </a>
+          </button>
         </li>
-        {numbers.map((n, i) => {
+        {numbers.map((n, i) => (
           <li
             className={`page-item ${currentPage === n ? "active" : ""}`}
             key={i}
           >
-            <a href="#" className="page-link" onClick={() => changeCPage(n)}>
+            <button className="page-link" onClick={() => changeCPage(n)}>
               {n}
-            </a>
-          </li>;
-        })}
+            </button>
+          </li>
+        ))}
         <li className="page-item">
-          <a className="page-link" href="#" onClick={nextPage}>
+          <button className="page-link" href="#" onClick={nextPage}>
             Next
-          </a>
+          </button>
         </li>
       </ul>
       {/* </Box> */}
