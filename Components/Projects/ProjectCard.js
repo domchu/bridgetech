@@ -5,7 +5,7 @@ import Link from "next/link";
 import ProjectCont from "./ProjectData";
 import arrow from "../../public/images/arrow-long-icon.png";
 
-const RECORDS_PER_PAGE = 3;
+const RECORDS_PER_PAGE = 6;
 const ProjectCard = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const lastIndex = useMemo(
@@ -51,8 +51,6 @@ const ProjectCard = () => {
     }
   };
 
-  console.log(records);
-
   return (
     <>
       {records.map((ProjectDetail) => {
@@ -88,32 +86,32 @@ const ProjectCard = () => {
         );
       })}
 
-      {/* <Box className="pagination-container"> */}
-      {/* <Box aria-label="Page navigation example" className="page-holder"> */}
-      <ul className="pagination">
-        <li className="page-item">
-          <button className="page-link" onClick={prePage}>
-            Prev
-          </button>
-        </li>
-        {numbers.map((n, i) => (
-          <li
-            className={`page-item ${currentPage === n ? "active" : ""}`}
-            key={i}
-          >
-            <button className="page-link" onClick={() => changeCPage(n)}>
-              {n}
+      <Box className="pagination-container">
+        {/* <Box aria-label="Page navigation example" className="page-holder"> */}
+        <ul className="pagination">
+          <li className="page-item">
+            <button className="page-link next_prev" onClick={prePage}>
+              Prev
             </button>
           </li>
-        ))}
-        <li className="page-item">
-          <button className="page-link" href="#" onClick={nextPage}>
-            Next
-          </button>
-        </li>
-      </ul>
-      {/* </Box> */}
-      {/* </Box> */}
+          {numbers.map((n, i) => (
+            <li
+              className={`page-item ${currentPage === n ? "active" : ""}`}
+              key={i}
+            >
+              <button className="page-link" onClick={() => changeCPage(n)}>
+                {n}
+              </button>
+            </li>
+          ))}
+          <li className="page-item">
+            <button className="page-link next_prev" href="#" onClick={nextPage}>
+              Next
+            </button>
+          </li>
+        </ul>
+        {/* </Box> */}
+      </Box>
     </>
   );
 };

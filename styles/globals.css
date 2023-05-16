@@ -2895,5 +2895,10 @@ article.nextSlide {
 }
 
 .pagination {
+  margin-bottom: 2.5rem;
   border-radius: 5px;
+}
+
+.next_prev {
+  width: 70px;
 }/*# sourceMappingURL=globals.css.map */
