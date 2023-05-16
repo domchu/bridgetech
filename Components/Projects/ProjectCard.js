@@ -87,7 +87,6 @@ const ProjectCard = () => {
       })}
 
       <Box className="pagination-container">
-        {/* <Box aria-label="Page navigation example" className="page-holder"> */}
         <ul className="pagination">
           <li className="page-item">
             <button className="page-link next_prev" onClick={prePage}>
@@ -96,7 +95,7 @@ const ProjectCard = () => {
           </li>
           {numbers.map((n, i) => (
             <li
-              className={`page-item ${currentPage === n ? "active" : ""}`}
+              className={`page-item${currentPage === n ? "active" : ""}`}
               key={i}
             >
               <button className="page-link" onClick={() => changeCPage(n)}>
@@ -110,7 +109,6 @@ const ProjectCard = () => {
             </button>
           </li>
         </ul>
-        {/* </Box> */}
       </Box>
     </>
   );
