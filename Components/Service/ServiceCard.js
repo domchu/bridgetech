@@ -53,9 +53,9 @@ const ServiceCard = () => {
       {records.map((serviceDetails) => {
         const { title, urlPath, image, text, id } = serviceDetails;
         return (
-          <div>
+          <Box key={id}>
             <Box className="section-collection-item w-dyn-item" role="listitem">
-              <Box className="service-single-item-box" key={id}>
+              <Box className="service-single-item-box">
                 <Link
                   href={urlPath}
                   className="service-thumbnail-image-block w-inline-block"
@@ -77,7 +77,7 @@ const ServiceCard = () => {
                 </Box>
               </Box>
             </Box>
-          </div>
+          </Box>
         );
       })}
 
