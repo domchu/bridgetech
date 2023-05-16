@@ -2763,10 +2763,13 @@ article.nextSlide {
 }
 .pagination{
   margin-bottom:2.5rem;
-border-radius:5px;
+  border-radius:5px;
 }
 .next_prev{
   width:70px;
+}
+.current{
+  background-color: red;
 }
 
 

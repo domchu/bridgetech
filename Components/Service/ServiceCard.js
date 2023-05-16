@@ -91,7 +91,7 @@ const ServiceCard = () => {
           </li>
           {numbers.map((n, i) => (
             <li
-              className={`page-item${currentPage === n ? "active" : ""}`}
+              className={`page-item${currentPage === n ? "current" : ""}`}
               key={i}
             >
               <button className="page-link" onClick={() => changeCPage(n)}>
@@ -100,7 +100,7 @@ const ServiceCard = () => {
             </li>
           ))}
           <li className="page-item">
-            <button className="page-link next_prev" href="#" onClick={nextPage}>
+            <button className="page-link next_prev" onClick={nextPage}>
               Next
             </button>
           </li>

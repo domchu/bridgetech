@@ -2901,4 +2901,8 @@ article.nextSlide {
 
 .next_prev {
   width: 70px;
+}
+
+.current {
+  background-color: red;
 }/*# sourceMappingURL=globals.css.map */
