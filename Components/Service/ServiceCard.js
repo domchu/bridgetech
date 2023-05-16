@@ -1,13 +1,56 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import DataServ from "./ServiceData";
 
+const RECORDS_PER_PAGE = 6;
 const ServiceCard = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const lastIndex = useMemo(
+    () => currentPage * RECORDS_PER_PAGE,
+    [currentPage]
+  );
+  const firstIndex = useMemo(() => lastIndex - RECORDS_PER_PAGE, [lastIndex]);
+  const records = useMemo(
+    () => DataServ.slice(firstIndex, lastIndex),
+    [firstIndex, lastIndex]
+  );
+  const nPage = useMemo(
+    () => Math.ceil(DataServ.length / RECORDS_PER_PAGE),
+    []
+  );
+  const numbers = useMemo(
+    () =>
+      (() => {
+        const arr = [];
+        for (let i = DataServ.length / RECORDS_PER_PAGE; i > 0; i--) {
+          arr.unshift(i);
+        }
+
+        return arr;
+      })(),
+    []
+  ); // IFFE
+  // PREVIOUS PAGE
+  const prePage = () => {
+    if (currentPage !== 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+  // CHANGE CURRENT PAGE
+  const changeCPage = (id) => {
+    setCurrentPage(id);
+  };
+  // NEXT PAGE
+  const nextPage = () => {
+    if (currentPage !== nPage) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
   return (
     <>
-      {DataServ.map((serviceDetails) => {
+      {records.map((serviceDetails) => {
         const { title, urlPath, image, text, id } = serviceDetails;
         return (
           <div>
@@ -37,6 +80,32 @@ const ServiceCard = () => {
           </div>
         );
       })}
+
+      {/* PAGINATION COMPONENETS */}
+      <Box className="pagination-container">
+        <ul className="pagination">
+          <li className="page-item">
+            <button className="page-link next_prev" onClick={prePage}>
+              Prev
+            </button>
+          </li>
+          {numbers.map((n, i) => (
+            <li
+              className={`page-item${currentPage === n ? "current" : ""}`}
+              key={i}
+            >
+              <button className="page-link" onClick={() => changeCPage(n)}>
+                {n}
+              </button>
+            </li>
+          ))}
+          <li className="page-item">
+            <button className="page-link next_prev" onClick={nextPage}>
+              Next
+            </button>
+          </li>
+        </ul>
+      </Box>
     </>
   );
 };

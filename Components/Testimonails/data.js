@@ -3,7 +3,7 @@ const TestimonialData = [
   {
     id: 1,
     image: "/images/full-stack.jpg",
-    name: "Zenefer Smith",
+    name: "Ekeh Esther Uchechi",
     title: "Keyonaville HeadTeacher",
     quote:
       "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",

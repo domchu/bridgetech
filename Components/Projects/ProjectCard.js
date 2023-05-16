@@ -1,14 +1,59 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectCont from "./ProjectData";
 import arrow from "../../public/images/arrow-long-icon.png";
 
+const RECORDS_PER_PAGE = 6;
 const ProjectCard = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const lastIndex = useMemo(
+    () => currentPage * RECORDS_PER_PAGE,
+    [currentPage]
+  );
+  const firstIndex = useMemo(() => lastIndex - RECORDS_PER_PAGE, [lastIndex]);
+  const records = useMemo(
+    () => ProjectCont.slice(firstIndex, lastIndex),
+    [firstIndex, lastIndex]
+  );
+  const nPage = useMemo(
+    () => Math.ceil(ProjectCont.length / RECORDS_PER_PAGE),
+    []
+  );
+  const numbers = useMemo(
+    () =>
+      (() => {
+        const arr = [];
+        for (let i = ProjectCont.length / RECORDS_PER_PAGE; i > 0; i--) {
+          arr.unshift(i);
+        }
+
+        return arr;
+      })(),
+    []
+  ); // IFFE
+
+  // PREVIOUS PAGE
+  const prePage = () => {
+    if (currentPage !== 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+  // CHANGE CURRENT PAGE
+  const changeCPage = (id) => {
+    setCurrentPage(id);
+  };
+  // NEXT PAGE
+  const nextPage = () => {
+    if (currentPage !== nPage) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
   return (
     <>
-      {ProjectCont.map((ProjectDetail) => {
+      {records.map((ProjectDetail) => {
         const { id, title, url, comments, image } = ProjectDetail;
         return (
           <Box key={id}>
@@ -40,6 +85,31 @@ const ProjectCard = () => {
           </Box>
         );
       })}
+
+      <Box className="pagination-container">
+        <ul className="pagination">
+          <li className="page-item">
+            <button className="page-link next_prev" onClick={prePage}>
+              Prev
+            </button>
+          </li>
+          {numbers.map((n, i) => (
+            <li
+              className={`page-item${currentPage === n ? "current" : ""}`}
+              key={i}
+            >
+              <button className="page-link" onClick={() => changeCPage(n)}>
+                {n}
+              </button>
+            </li>
+          ))}
+          <li className="page-item">
+            <button className="page-link next_prev" onClick={nextPage}>
+              Next
+            </button>
+          </li>
+        </ul>
+      </Box>
     </>
   );
 };
