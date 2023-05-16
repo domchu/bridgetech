@@ -6,7 +6,7 @@ const TestimonialData = [
     name: "Ekeh Esther Uchechi",
     title: "Keyonaville HeadTeacher",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",
+      "I had a fantastic experience working with Bridgekode on my website development project. They were highly professional, attentive to detail, and delivered a stunning website that exceeded my expectations. I highly recommend Bridgekode for web development services. ",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const TestimonialData = [
     name: "Owoicho Emmanuel",
     title: "CEO The Exclusive Media",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",
+      "Creativity and excellent tech expertise of the team in combination with the transparency of working process make bridgekode one of the best company to work with. ",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const TestimonialData = [
     name: "Nwabudike Ifeanyi ",
     title: "school Teacher",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
+      "Extremely fast and always available for any emergency issue. Always trying to understand the problem and propose the best solution possible ",
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const TestimonialData = [
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy ",
+      "Although they are a small team, their project management reflects the excellence of a larger company. Their team delivers high-quality results, attentive service, and reasonable pricing. ",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const TestimonialData = [
     name: "Onuabueke Fidelia",
     title: "Clearing & Forwarding(Shipping)",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
+      "Excellent responsiveness and focus on customer needs. Work is done by the book, when there is a crisis they respond rapidly. I can only recommend their services wholeheartedly.  ",
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const TestimonialData = [
     name: "Ochu Comfort",
     title: "Guardian and consellor",
     quote:
-      "Best service for us amd I am very so satisfy with them is the best way a cases perfectly simple and easy  ",
+      "I appreciated that the cost of the project turned out to be smaller than what we expected because they made some very good suggestions. They are very pleasant to work with.  ",
   },
 ];
 export default TestimonialData;
