@@ -1,4 +1,6 @@
 import React from "react";
+import Topnav from "../../Components/Topnav/Topnav";
+import Header from "../../Components/Header/Header";
 
 const course = () => {
   return (
@@ -11,6 +13,8 @@ const course = () => {
         />
         <link rel="icon" href="/logo-blue.png" size="64x64" />
       </Head>
+      <Topnav />
+      <Header />
     </>
   );
 };
