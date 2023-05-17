@@ -169,6 +169,16 @@ const Footer = () => {
                   Register
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/courses"
+                  id="footerlink"
+                  className={currentRoute == "/register" ? "active" : ""}
+                  passhref="true"
+                >
+                  Courses
+                </Link>
+              </li>
             </Box>
             <Box className="footer-link">
               <h2>Contact Us</h2>
