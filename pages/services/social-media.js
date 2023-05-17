@@ -47,7 +47,7 @@ const socialMedia = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Digital/Social Media</Box>
+                  <Box className="project-link-text">Digital & Social Media</Box>
                 </li>
               </ul>
             </Box>

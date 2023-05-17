@@ -166,7 +166,7 @@ const humanResources = () => {
                   </Box>
                   <Box className="section-block">
                     <h2 className="section-title">
-                      Human Resources Development
+                      Human Resources [HR] Dev/Mgmt
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">

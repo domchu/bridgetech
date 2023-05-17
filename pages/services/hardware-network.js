@@ -168,7 +168,7 @@ const hardwareNetwork = () => {
                   </Box>
                   <Box className="section-block">
                     <h2 className="section-title">
-                      Hardware and Network Engineering
+                      Hardware and Networking Engineering
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
