@@ -47,7 +47,9 @@ const brandingSeo = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Branding and SEO</Box>
+                  <Box className="project-link-text">
+                    Contents Writing and SEO
+                  </Box>
                 </li>
               </ul>
             </Box>
@@ -165,7 +167,7 @@ const brandingSeo = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">Branding and SEO</h2>
+                    <h2 className="section-title">Branding, Contents Writing and SEO</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
