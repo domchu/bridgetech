@@ -44,7 +44,7 @@ const TestimonialData = [
     id: 6,
     image: "/images/full-stack.jpg",
     name: "Ochu Comfort",
-    title: "Guardian and consellor",
+    title: "Guidance counselor",
     quote:
       "I appreciated that the cost of the project turned out to be smaller than what we expected because they made some very good suggestions. They are very pleasant to work with.  ",
   },
