@@ -21,7 +21,6 @@ const course = () => {
       <Topnav />
       <Header />
       <CoursesTab />
-      <h2>Coures</h2>
       <Testimonial />
       <NewsLetter />
       <Footer />

@@ -35,7 +35,7 @@ const Topnav = () => {
                 <li className="topnav-links">
                   <Flex align="center">
                     <FaEnvelope className="topnav-icons" />
-                    <Link href="/" passhref="true">
+                    <Link href="mailto:info@example.com" passhref="true">
                       info@example.com
                     </Link>
                   </Flex>

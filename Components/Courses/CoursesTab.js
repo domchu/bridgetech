@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
 import { BsArrowRight } from "react-icons/bs";
-import WedDesign from "../../public/images/graphic.jpg";
+import WedDesign from "../../public/images/project9.jpg";
 
 const CoursesTab = () => {
   return (

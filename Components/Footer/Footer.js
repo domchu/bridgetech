@@ -209,7 +209,7 @@ const Footer = () => {
               <Box>
                 <li>
                   <Link
-                    href="/"
+                    href="mailto:info@example.com"
                     target="_blank"
                     id="footerlink"
                     passhref="true"
@@ -219,7 +219,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="mailto:info@example.com"
                     target="_blank"
                     id="footerlink"
                     passhref="true"
