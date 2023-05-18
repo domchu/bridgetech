@@ -880,7 +880,7 @@ nav {
 }
 
 .container {
-  max-width: 960px !important;
+  max-width: 960px;
 }
 
 .newsletter-content h2 {
