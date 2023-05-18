@@ -666,10 +666,13 @@ nav {
   padding: 6rem 0px;
 }
 
+.container {
+  max-width: 1024px;
+}
+
 .w-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 940px;
 }
 
 .project-block {
@@ -874,15 +877,6 @@ nav {
   position: relative;
 }
 
-.w-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container {
-  max-width: 960px;
-}
-
 .newsletter-content h2 {
   margin-bottom: 10px;
   color: var(--primary-clr-2);
@@ -1039,15 +1033,6 @@ nav {
 .map {
   height: 100%;
   width: 100%;
-}
-
-.w-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container {
-  max-width: 960px;
 }
 
 .container-contact {

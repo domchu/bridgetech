@@ -65,8 +65,8 @@ const ServiceCard = () => {
                     alt="Mobile App"
                     loading="lazy"
                     className="image-responsive img"
-                    width={300}
-                    height={300}
+                    width={320}
+                    height={320}
                   />
                 </Link>
                 <Box className="service-content">

@@ -653,10 +653,12 @@ background-size: cover, auto;
 background-repeat: no-repeat, repeat;
 padding: 6rem 0px;
 }
+.container{
+  max-width: 1024px;
+}
 .w-container{
 margin-left: auto;
 margin-right: auto;
-max-width: 940px;
 }
 .project-block{
   display: flex;
@@ -850,14 +852,9 @@ background-repeat: no-repeat, no-repeat;
 .newsletter-form{
   position: relative;
 }
-.w-container{
-  margin-left: auto;
-  margin-right:auto;
-}
 
-.container{
-  max-width: 960px;
-}
+
+
 .newsletter-content h2{
 margin-bottom: 10px; 
  color: var(--primary-clr-2);
@@ -1009,13 +1006,13 @@ cursor: pointer;
   height: 100%;
   width: 100%;
  }
-.w-container{
-  margin-left: auto;
-  margin-right: auto;
-}
-.container{
-  max-width: 960px;
-}
+// .w-container{
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+// .container{
+//   max-width: 960px;
+// }
 .container-contact{
   max-width: 1050px;
 }

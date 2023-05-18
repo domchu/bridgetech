@@ -61,11 +61,11 @@ const ProjectCard = () => {
               <Box className="project-collection">
                 <Image
                   src={image}
-                  alt="Digital marketing"
+                  alt="People together brainstorming"
                   loading="lazy"
                   className="project__img"
-                  width={300}
-                  height={300}
+                  width={320}
+                  height={320}
                 />
                 <Box className="project__contents">
                   <Link href={url}>

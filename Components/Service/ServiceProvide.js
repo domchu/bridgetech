@@ -13,7 +13,7 @@ const ServiceProvide = () => {
       <Box className="service-section wf-section">
         <Box className="blue-background-gradient-bottom">
           <Box className="section-gap-bottom-130">
-            <Box className="custom-continer-fliud w-container">
+            <Box className="custom-continer-fliud w-container container">
               <Box className="service-grid-lyout">
                 <Box className="service-gridbox-right">
                   <Box className="section-up-wrapper">
