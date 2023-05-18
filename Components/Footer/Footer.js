@@ -173,7 +173,7 @@ const Footer = () => {
                 <Link
                   href="/courses/course"
                   id="footerlink"
-                  className={currentRoute == "/register" ? "active" : ""}
+                  className={currentRoute == "/courses/course" ? "active" : ""}
                   passhref="true"
                 >
                   Courses
@@ -183,8 +183,8 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Contact Us</h2>
               <Box>
-                <p>298A, First Floor, Colex Building</p>
-                <p>North City, Main Town, USA</p>
+                <p>Shop H4, First Floor, Wharfedale Building</p>
+                <p>Alaba Int'l Mkt, Ojo-Lagos, Nigeria</p>
               </Box>
               <Box style={{ margin: "10px 0px" }}>
                 <li>

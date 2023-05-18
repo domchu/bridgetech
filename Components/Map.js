@@ -40,7 +40,9 @@ const Map = () => {
                 <Box className="contact-info-title">Contact Info</Box>
                 <Box className="contact-info-small-title">Address</Box>
                 <Box className="contact-info-text">
-                  254, North City, Bulex Center, New York
+                Shop H4, First Floor, Wharfedale Building
+                <br/>
+                Alaba Int'l Mkt, Ojo-Lagos, Nigeria
                 </Box>
                 <Box className="contact-info-small-title">Phone</Box>
                 <Box className="contact-info-text">
