@@ -326,6 +326,13 @@ font-family: Rajdhani, sans-serif;
   //   background-color: #eefcff;
   //   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
   // }
+  .nav-dropdown-link a {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+  }
   .dropdown {
     display: block;
   }
@@ -333,7 +340,6 @@ font-family: Rajdhani, sans-serif;
   display: none;
   }
   .nav-dropdown-list.w--open {
-    // border-radius: 3px;
     background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);;
   }
   .menu-button {
@@ -448,6 +454,7 @@ font-family: Rajdhani, sans-serif;
     padding-bottom: 0px;
     font-family: Rajdhani, sans-serif;
   }
+ 
   .nav-dropdown-list.w--open {
      background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
     width:100%

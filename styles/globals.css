@@ -324,6 +324,13 @@ nav {
   .nav-link {
     line-height: 2;
   }
+  .nav-dropdown-link a {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+  }
   .dropdown {
     display: block;
   }
