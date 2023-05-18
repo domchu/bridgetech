@@ -131,6 +131,19 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
+                            href="/courses/course"
+                            id="nav-dropdown-link "
+                            passhref="true"
+                            className={
+                              currentRoute == "/pages/faq" ? "active" : ""
+                            }
+                            tabIndex={0}
+                          >
+                            Courses
+                          </Link>
+                        </li>
+                        <li className="w-nav-link nav-dropdown-link">
+                          <Link
                             href="/pages/faq"
                             id="nav-dropdown-link "
                             passhref="true"
