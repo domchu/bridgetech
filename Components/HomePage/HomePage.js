@@ -31,7 +31,7 @@ const HomePage = () => {
                 into digital solutions.
               </p>
               <Box className="hero-link-group">
-                <Link href="/projects" className="primary-button">
+                <Link href="/projects" className="primary-button home_btn_link">
                   Learn more
                 </Link>
                 <Link
@@ -42,7 +42,7 @@ const HomePage = () => {
                 >
                   <Image
                     src={watch}
-                    alt="Play Icon"
+                    alt="Vidio Play Icon"
                     loading="lazy"
                     className="video-play"
                     width={30}
@@ -58,7 +58,7 @@ const HomePage = () => {
                 width={400}
                 height={400}
                 src={banner}
-                alt="hero image"
+                alt="People learning with Computer"
                 loading="lazy"
               />
               <Image
@@ -87,7 +87,7 @@ const HomePage = () => {
                   <Image
                     src={femaleImage}
                     className="eliminate-user-image img"
-                    alt="Eliminate Image"
+                    alt="Female carry computer in her hand"
                     loading="lazy"
                   />
                   <Image

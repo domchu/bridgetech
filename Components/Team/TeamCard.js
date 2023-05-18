@@ -50,6 +50,7 @@ const TeamCard = () => {
                       <Link
                         href={facebookLink}
                         className="team-social-link w-inline-block"
+                        target="_blank"
                       >
                         <Image
                           src={FaceBook}
@@ -60,6 +61,7 @@ const TeamCard = () => {
                       <Link
                         href={twitterLink}
                         className="team-social-link w-inline-block"
+                        target="_blank"
                       >
                         <Image
                           src={Twitter}
@@ -70,6 +72,7 @@ const TeamCard = () => {
                       <Link
                         href={instagramLink}
                         className="team-social-link w-inline-block"
+                        target="_blank"
                       >
                         <Image
                           src={Instagram}
@@ -80,6 +83,7 @@ const TeamCard = () => {
                       <Link
                         href={linkedinLink}
                         className="team-social-link w-inline-block"
+                        target="_blank"
                       >
                         <Image
                           src={Linkedin}

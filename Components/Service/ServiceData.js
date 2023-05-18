@@ -2,7 +2,7 @@ const DataServ = [
   {
     id: 1,
     image: "/images/project7.jpg",
-    title: " Mobile App",
+    title: " Mobile Applications",
     urlPath: "/services/mobile-app",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
@@ -58,7 +58,7 @@ const DataServ = [
   {
     id: 9,
     image: "/images/project10.jpg",
-    title: " Hardware/network Engr.",
+    title: " Hardware & networking",
     urlPath: "/services/hardware-network",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },
@@ -79,7 +79,7 @@ const DataServ = [
   {
     id: 12,
     image: "/images/project2.jpg",
-    title: " Digital/Social Media",
+    title: " Digital & Social Media",
     urlPath: "/services/social-media",
     text: " Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime ",
   },

@@ -18,7 +18,7 @@ const Faq = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Frequently{" "}
+                Frequently
                 <span className="sub_heading_span">Asked Questions</span>
               </h1>
               <p>
@@ -92,43 +92,43 @@ const Faq = () => {
             </h2>
             <AccordionPanel pb={4} className="faq-text">
               What are the perks of working with Bridgekode?
-              <li>
+              <li className="number">
                 <strong>Team</strong>
               </li>
               We focus on teamwork, because the key to our company's success is
               a synergy from every team member’s efforts!
-              <li>
+              <li className="number">
                 <strong>Responsibility</strong>
               </li>
               We are responsible for every task. This approach allows us to
               eliminate chaos, makes our processes efficient and gives everyone
               a clear path to growth together with Bridgekode.
-              <li>
+              <li className="number">
                 <strong>Result-driven</strong>
               </li>
               We are deeply engaged in what we do as we love to deliver results
               with fun and pleasure.
-              <li>
+              <li className="number">
                 <strong>Development</strong>
               </li>
               We invest our time in self-education and training, and Bridgekode
               helps us to achieve synergies in our common development.
-              <li>
+              <li className="number">
                 <strong>Professional second opinion</strong>
               </li>
               Audit your software to boost its performance and improve user
               experience.
-              <li>
+              <li className="number">
                 <strong>Valuable market insights</strong>
               </li>
               Get the latest tech follow up, including market trends and users’
               needs.
-              <li>
+              <li className="number">
                 <strong>On-time and -budget delivery</strong>
               </li>
               We guarantee a record 10% deviation in time and scope for project
               delivery.
-              <li>
+              <li className="number">
                 <strong>Software support after the release</strong>
               </li>
               We provide ongoing maintenance and Quality Assurance for your
@@ -153,15 +153,15 @@ const Faq = () => {
               To provide the best services in the market we mainly focus our
               software development outsourcing services on product development
               for several primary industries:
-              <li>E-commerce</li>
-              <li>Healthcare</li>
-              <li>Entertaiments</li>
-              <li>Electronics</li>
-              <li>Education</li>
-              <li>Food & Science</li>
-              <li>Real Estate</li>
-              <li>Fintech</li>
-              <li>Telecommunication</li>
+              <li className="number">E-commerce</li>
+              <li className="number">Healthcare</li>
+              <li className="number">Entertaiments</li>
+              <li className="number">Electronics</li>
+              <li className="number">Education</li>
+              <li className="number">Food & Science</li>
+              <li className="number">Real Estate</li>
+              <li className="number">Fintech</li>
+              <li className="number">Telecommunication</li>
               Besides, we have a lot of successful projects in other industries
               like entertainment, hospitality, media, education and other.
             </AccordionPanel>
@@ -183,20 +183,20 @@ const Faq = () => {
             <AccordionPanel pb={4} className="faq-text">
               We offer the next set of software and design development services
               separately or within the full project development life cycle:
-              <li>Web Development</li>
-              <li>Web Development Training</li>
-              <li>Branding</li>
-              <li>Mobile App Development</li>
-              <li>UI/UX Design</li>
-              <li>SEO</li>
-              <li>Graphics Design</li>
-              <li>QA Services</li>
-              <li>Human Resources Services</li>
-              <li>IT Setup & Management</li>
-              <li>Consulting AR/VR </li>
-              <li>Blockchain DevOps</li>
-              <li>Project Management</li>
-              <li>Hardware & Networking</li>
+              <li className="number">Web Development</li>
+              <li className="number">Web Development Training</li>
+              <li className="number">Branding</li>
+              <li className="number">Mobile App Development</li>
+              <li className="number">UI/UX Design</li>
+              <li className="number">SEO</li>
+              <li className="number">Graphics Design</li>
+              <li className="number">QA Services</li>
+              <li className="number">Human Resources Services</li>
+              <li className="number">IT Setup & Management</li>
+              <li className="number">Consulting AR/VR </li>
+              <li className="number">Blockchain DevOps</li>
+              <li className="number">Project Management</li>
+              <li className="number">Hardware & Networking</li>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -219,24 +219,24 @@ const Faq = () => {
               <li>
                 <strong>For web development:</strong>
               </li>
-              <li>Ruby on Rails</li>
-              <li>PHP</li>
-              <li>Node.js</li>
-              <li>C#</li>
-              <li>Javascript</li>
-              <li>Angular</li>
-              <li>HTML 5</li>
-              <li>React.js</li>
-              <li>CSS 3</li>
-              <li>Bootstrap</li>
-              <li>Web API Services</li>
-              <li>Typescript</li>
-              <li>Database:MySql, Postgres, Moongoes</li>
+              <li className="number">Ruby on Rails</li>
+              <li className="number">PHP</li>
+              <li className="number">Node.js</li>
+              <li className="number">C#</li>
+              <li className="number">Javascript</li>
+              <li className="number">Angular</li>
+              <li className="number">HTML 5</li>
+              <li className="number">React.js</li>
+              <li className="number">CSS 3</li>
+              <li className="number">Bootstrap</li>
+              <li className="number">Web API Services</li>
+              <li className="number">Typescript</li>
+              <li className="number">Database:MySql, Postgres, Moongoes</li>
               <strong>For mobile development:</strong>
-              <li>Swift</li>
-              <li>Kotlin</li>
-              <li>Java</li>
-              <li>React Native</li>
+              <li className="number">Swift</li>
+              <li className="number">Kotlin</li>
+              <li className="number">Java</li>
+              <li className="number">React Native</li>
               Thus, if you’d like to implement some recent technologies into
               your project and make it look updated, outsourcing to our
               specialists experienced in that niche will be the best option.
@@ -260,21 +260,21 @@ const Faq = () => {
               Bridgekode can provide a dedicated development team with extensive
               experience to fill any skill gaps that affect your development
               projects. We have such high-quality specialists as:
-              <li>Full-Stack Engineers</li>
-              <li>Mobile Engineers</li>
-              <li>Front-end Engineers</li>
-              <li>Back-end Engineers</li>
-              <li>UI/UX Designers</li>
-              <li>Project Managers</li>
-              <li>Business Analysts</li>
-              <li>Tester Engineers</li>
-              <li>Contents writers</li>
-              <li>QA Engineers</li>
-              <li>Hardware/Network Engineers</li>
-              <li>DevOps specialists</li> We make sure that our professionals
-              use the latest technologies, are middle and senior professionals
-              with minimum B2 level of English, and are fully dedicated to your
-              project.
+              <li className="number">Full-Stack Engineers</li>
+              <li className="number">Mobile Engineers</li>
+              <li className="number">Front-end Engineers</li>
+              <li className="number">Back-end Engineers</li>
+              <li className="number">UI/UX Designers</li>
+              <li className="number">Project Managers</li>
+              <li className="number">Business Analysts</li>
+              <li className="number">Tester Engineers</li>
+              <li className="number">Contents writers</li>
+              <li className="number">QA Engineers</li>
+              <li className="number">Hardware/Network Engineers</li>
+              <li className="number">DevOps specialists</li> We make sure that
+              our professionals use the latest technologies, are middle and
+              senior professionals with minimum B2 level of English, and are
+              fully dedicated to your project.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
