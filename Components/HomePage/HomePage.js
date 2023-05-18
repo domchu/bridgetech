@@ -31,7 +31,7 @@ const HomePage = () => {
                 into digital solutions.
               </p>
               <Box className="hero-link-group">
-                <Link href="/projects" className="primary-button">
+                <Link href="/projects" className="primary-button home_btn_link">
                   Learn more
                 </Link>
                 <Link
