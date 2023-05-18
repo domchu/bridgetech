@@ -24,7 +24,7 @@ const CoursesTab = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Coures</Box>
+                  <Box className="project-link-text">Courses</Box>
                 </li>
               </ul>
             </Box>
