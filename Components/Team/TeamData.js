@@ -117,9 +117,9 @@ const TeamData = [
     job: "Web dev Tutor",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
-    instagramLink: "https://www.instagram.com/",
-    twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    instagramLink: "https://instagram.com/jnprof_2022/",
+    twitterLink: "https://twitter.com/OgbonnayaJohns3",
+    linkedinLink: "http://linkedin.com/in/ogbonnaya-johnson-874bb4211",
   },
   {
     id: "12",
