@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import { Box } from "@chakra-ui/react";
+import Image from "next/image";
+import { Box, Flex } from "@chakra-ui/react";
+import { BsArrowRight } from "react-icons/bs";
+import WedDesign from "../../public/images/graphic.jpg";
 
 const CoursesTab = () => {
   return (
@@ -27,6 +30,50 @@ const CoursesTab = () => {
                   <Box className="project-link-text">Courses</Box>
                 </li>
               </ul>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
+      {/* COURSES OFFERED  */}
+      <Box className="service-section wf-section" id="service-section">
+        <Box className="section-gap-bottom-130">
+          <Box className="container w-container">
+            <Box className="section-justify-center">
+              <Box className="section-block max-width-475 text-center">
+                <h2 className="section-title">
+                  Courses
+                  <span className="section-title-inner-style">
+                    that Bridgekode
+                  </span>
+                  Offered
+                </h2>
+                <Box className="section-text">
+                  Your career path to finacial stability begin here and now.
+                  <br />
+                  bridgekode software development services the only solution.
+                </Box>
+              </Box>
+            </Box>
+            <Box className="section-collection-list-wrapper w-dyn-list">
+              <Box className="service-collection-list w-dyn-list" role="list">
+              <Link href="/">
+              <figure>
+                  <Image src={WedDesign} alt="People learning web design" />
+                  <figcaption>
+                    <Box className="course-content">
+                    <Box className="price">
+                      <p>Price: #100,000</p>
+                    </Box>
+                    <Flex className="course-detail">
+                      Details
+                      <BsArrowRight className="icon-right" />
+                    </Flex>
+                    </Box>
+                  </figcaption>
+                </figure>
+              </Link>
+              </Box>
             </Box>
           </Box>
         </Box>
