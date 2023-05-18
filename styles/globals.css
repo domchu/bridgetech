@@ -2764,6 +2764,10 @@ p {
   font-weight: 500;
 }
 
+.number {
+  list-style-type: square;
+}
+
 .section-justify-center {
   display: flex;
   justify-content: center;
