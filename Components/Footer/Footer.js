@@ -32,8 +32,8 @@ const Footer = () => {
                 />
               </Link>
               <p className="footer-link-p">
-                Neque porro quisquam est qui most dolorem quia enough impedit
-                same quo minus quod and maxime
+                Bridgekode is software development services focuses on turning
+                ideas into creativities & digital solutions
               </p>
               <Flex className="icons-container">
                 <Link href="/" target="_blank">
@@ -235,12 +235,15 @@ const Footer = () => {
           <Box className="copy-right">
             <p>
               © 2023 BridgeTech, All right reserved. designed and developed by
-              <Link href="/" target="_blank">
-                Ochu<span className="section-span">Dominic</span>
+              <Link
+                href="https://www.linkedin/in/dominic-ochu/"
+                target="_blank"
+              >
+                Mr.Dominic
               </Link>
               Powered by
               <Link href="/" target="_blank">
-                Bridge<span className="section-span">Tech</span>
+                Bridgekode
               </Link>
             </p>
           </Box>

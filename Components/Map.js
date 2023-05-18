@@ -37,16 +37,16 @@ const Map = () => {
                 </Box>
               </Box>
               <Box className="conact-details-info">
-                <Box className="contact-info-title">Contact Info</Box>
+                <Box className="contact-info-title">Contact Information</Box>
                 <Box className="contact-info-small-title">Address</Box>
                 <Box className="contact-info-text">
-                Shop H4, First Floor, Wharfedale Building
-                <br/>
-                Alaba Int'l Mkt, Ojo-Lagos, Nigeria
+                  Shop H4, First Floor, Wharfedale Building
+                  <br />
+                  Alaba Int'l Mkt, Ojo-Lagos State, Nigeria
                 </Box>
                 <Box className="contact-info-small-title">Phone</Box>
                 <Box className="contact-info-text">
-                  +234 (0) 70 3427 8995 or +234 (0) 81 1099 8914
+                  +234 (0) 70 3427 8995 || +234 (0) 81 1099 8914
                 </Box>
                 <Box className="contact-info-small-title">Email</Box>
                 <Box className="contact-info-text">

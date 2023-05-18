@@ -114,7 +114,7 @@ const TeamData = [
     id: "11",
     image: "/images/full-stack.jpg ",
     name: "Johnson JnpRof",
-    job: "Web dev Tutor",
+    job: "Web Dev Tutor",
     profile: "https://linkedin.com/in/",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://instagram.com/jnprof_2022/",
