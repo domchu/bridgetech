@@ -78,7 +78,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/">
+                  {/* <Link href="/">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -97,8 +97,8 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link>
-                  <Link href="/">
+                  </Link> */}
+                  {/* <Link href="/">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -117,8 +117,8 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link>
-                  <Link href="/">
+                  </Link> */}
+                  {/* <Link href="/">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -137,8 +137,8 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link>
-                  <Link href="/">
+                  </Link> */}
+                  {/* <Link href="/">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -157,7 +157,7 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link>
+                  </Link> */}
                 </Box>
               </Box>
             </Box>
