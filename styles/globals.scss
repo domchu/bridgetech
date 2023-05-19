@@ -2814,14 +2814,14 @@ figure.card{
   grid-template-columns:minmax(0,1fr)/minmax(0, 1fr);
   grid-template-areas:"stack";
 }
-figure.card > img{
+figure.card>img{
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   grid-area:" stack";
   object-fit: cover;
   place-self: stretch;
 }
-figure.card > figcaption{
+figure.card>figcaption{
   grid-area: "stack";
   align-self: center;
   justify-self: stretch;
@@ -2842,11 +2842,11 @@ figure.card > figcaption{
   column-gap: 35px;
   row-gap: 40px;
 }
-.card:hover .course-image{
+// .card:hover .course-image{
   // transform: scale(-1);
   // transition: 1.5s;
   // filter: blur(3px);
-}
+// }
 
 
 
