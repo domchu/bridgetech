@@ -2928,6 +2928,7 @@ article.nextSlide {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: Rajdhani, sans-serif;
 }
 
 .icon-right {
@@ -2939,4 +2940,43 @@ article.nextSlide {
   display: flex;
   justify-content: space-between;
   padding: 10px 7px;
+}
+
+figure.card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr)/minmax(0, 1fr);
+  grid-template-areas: "stack";
+}
+
+figure.card > img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  grid-area: " stack";
+  -o-object-fit: cover;
+     object-fit: cover;
+  place-self: stretch;
+}
+
+figure.card > figcaption {
+  grid-area: "stack";
+  align-self: center;
+  justify-self: stretch;
+  background-color: rgba(39, 39, 57, 0.5019607843);
+  color: var(--clr-white);
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: Rajdhani, sans-serif;
+  overflow: hidden;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 0rem;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  row-gap: 40px;
 }/*# sourceMappingURL=globals.css.map */

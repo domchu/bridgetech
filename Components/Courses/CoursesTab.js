@@ -56,23 +56,109 @@ const CoursesTab = () => {
               </Box>
             </Box>
             <Box className="section-collection-list-wrapper w-dyn-list">
-              <Box className="service-collection-list w-dyn-list" role="list">
-              <Link href="/">
-              <figure>
-                  <Image src={WedDesign} alt="People learning web design" />
-                  <figcaption>
-                    <Box className="course-content">
-                    <Box className="price">
-                      <p>Price: #100,000</p>
-                    </Box>
-                    <Flex className="course-detail">
-                      Details
-                      <BsArrowRight className="icon-right" />
-                    </Flex>
-                    </Box>
-                  </figcaption>
-                </figure>
-              </Link>
+              <Box className="servce-collection-list w-dyn-list" role="list">
+                <Box className="course-container ">
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #100,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #80,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #60,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #45,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #150,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                </Box>
               </Box>
             </Box>
           </Box>
