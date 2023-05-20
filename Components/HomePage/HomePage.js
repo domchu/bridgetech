@@ -124,7 +124,7 @@ const HomePage = () => {
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
                     <Box className="eliminate-list-text">
-                      Comprehensive Assessments: Bridgetech can conduct thorough
+                      Comprehensive Assessments: Bridgekode can conduct thorough
                       assessments of an organization's IT infrastructure,
                       systems, and processes. This helps identify existing
                       challenges, vulnerabilities, and areas for improvement.

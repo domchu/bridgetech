@@ -126,21 +126,18 @@ const Singleservices = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolore ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil take a trivial example, which of us ever
-                      undertakes laborious physical exercise, except to obtain
-                      some advantage from more than a great service that we
-                      provide
+                      Software development is the process of designing, coding,
+                      testing, and deploying computer programs or applications.
+                      It involves a systematic approach to building software
+                      solutions to meet specific requirements and solve
+                      problems. Software development is a dynamic field that
+                      requires a combination of technical skills,
+                      problem-solving abilities, and creativity. It encompasses
+                      various areas such as web development, mobile app
+                      development, database development, and more. As technology
+                      evolves, new tools, frameworks, and methodologies emerge,
+                      driving innovation and advancements in the software
+                      development industry.
                     </p>
                   </Box>
                 </Box>
@@ -151,40 +148,36 @@ const Singleservices = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                    In IT Management Service we cover most of the IT problems
-                    that your company faces and we try to solve it.
+                    In Software Development Service, we cover most of the IT
+                    problems that your company faces and we try to solve it.
                   </Box>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong>
-                      provide the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque qui dolorem ipsum quia golor sit amet, conse ctetur,
-                      adipisci velit, sed eligen optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                      These are just a few areas within
+                      <strong>software development</strong>, and the field is
+                      continuously evolving with emerging technologies and
+                      trends. Software developers may specialize in one or
+                      multiple areas depending on their interests, skills, and
+                      project requirements.
                     </p>
 
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Web Development: Web development focuses on creating
+                        websites and web applications using technologies such as
+                        HTML, CSS, JavaScript, and various web frameworks such
+                        as:React, Vue, Angular, Next. It involves front-end
+                        development (client-side interface) and back-end
+                        development (server-side logic and database integration)
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </li>
-                      <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Mobile App Development: Mobile app development involves
+                        creating applications specifically designed for mobile
+                        devices, such as smartphones and tablets. It can include
+                        native app development (using platform-specific
+                        languages like Java or Swift) or cross-platform app
+                        development (using frameworks like React Native or
+                        Flutter).
                       </li>
                     </ul>
                   </Box>
@@ -213,53 +206,53 @@ const Singleservices = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
+                      We are <strong>Bridgekode</strong> provide the best
                       quality
                       <Link
                         href="https://www.example.com"
                         target="_blank"
                         className="it-solution"
                       >
-                        IT solution
+                        IT solution.
                       </Link>
-                      neque porro quisquam est qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                      Software development is a complex process that involves
+                      designing, coding, testing, and deploying software
+                      applications or systems. Here's a high-level overview of
+                      how software development works:
                     </p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="service-quote w-richtext">
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Requirements Gathering: The software development process
+                        begins with gathering and documenting the requirements
+                        for the software. This involves understanding the
+                        objectives, functionalities, and constraints of the
+                        software to be developed. It may involve meetings,
+                        interviews, and discussions with stakeholders to ensure
+                        a clear understanding of their needs.
                       </p>
+                      <br />
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        System Design: Once the requirements are gathered, the
+                        next step is to design the system architecture and
+                        software components. This includes defining the overall
+                        structure, data models, user interfaces, and
+                        interactions between different parts of the system. The
+                        design phase aims to create a blueprint for the software
+                        solution.
                       </p>
                     </Box>
                     <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
-                      The main way to solve the the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
-                    </p>
-                    <p>
-                      Great deal dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit, sed optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                      Throughout the software development process, collaboration
+                      and communication among the development team,
+                      stakeholders, and users are crucial. Project management
+                      methodologies, such as Agile or Waterfall, can be employed
+                      to plan, track, and manage the development process
+                      effectively.
                     </p>
                   </Box>
                 </Box>
@@ -277,29 +270,34 @@ const Singleservices = () => {
                         target="_blank"
                         className="it-solution"
                       >
-                        IT Management
+                        Software development,
                       </Link>
-                      is the provide the best quality It solution neque qui
-                      dolorem ipsum quia golor sit amet, conse ctetur, adipisci
-                      velit, sed eligen optio cumque nihil impedit quo minus id
-                      quod maxime placeat
+                      These benefits highlight the significance of software
+                      development in today's digital age. By leveraging
+                      technology and custom solutions, individuals and
+                      organizations can unlock new opportunities, improve
+                      efficiency, and achieve their goals effectively.
                     </p>
                     <p>
-                      Benefit of IT Management is the provide the best quality
-                      more than neque qui dolorem ipsum quia golor sit amet,
-                      conse ctetur, adipisci velit, sed eligen optio cumque
-                      nihil impedit quo minus id quod maxime placeat
+                      Software development offers numerous benefits for
+                      individuals, businesses, and society as a whole. Here are
+                      some key benefits of software development:
                     </p>
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Enhanced Productivity: Software applications provide
+                        tools and features that enhance productivity and
+                        collaboration. They enable users to organize and manage
+                        tasks, share information, communicate effectively, and
+                        work together efficiently, leading to increased
+                        productivity and better outcomes.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Competitive Advantage: Well-developed software can
+                        provide a competitive edge in the market. It can
+                        differentiate a business by offering unique features,
+                        improved user experience, and efficient processes that
+                        attract and retain customers.
                       </li>
                     </ul>
                   </Box>

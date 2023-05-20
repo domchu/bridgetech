@@ -25,8 +25,8 @@ const softwaredevelopment = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Software development is the process of designing, coding,
+                testing, and deploying computer programs or applications.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
