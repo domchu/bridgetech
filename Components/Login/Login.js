@@ -15,8 +15,8 @@ const Login = () => {
                 Login <span className="sub_heading_span">Page</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                Great to see you again, We've missed you. Check out what's new
+                since your last visit
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -44,14 +44,10 @@ const Login = () => {
                   <h2 className="section-title max-width-442">
                     Login to
                     <span className="section-title-inner-style">
-                      Bridgetech
+                      Bridgekode
                     </span>
                   </h2>
-                  <Box className="section-text">
-                    Neque porro quisquam est, qui dolorem ipsum quia golor sit
-                    amet, conse ctetur, adipisci velit, sed eligendi optio
-                    cumque nihil impedit quo minus id quod maxime
-                  </Box>
+                  <Box className="section-text">Hello! Wecome Back!</Box>
                 </Box>
                 <Box className="section-form-block w-form">
                   <form
