@@ -2830,17 +2830,19 @@ figure.card{
   display:grid;
   grid-template-columns:minmax(0,1fr)/minmax(0, 1fr);
   grid-template-areas:"stack";
+  position:relative;
 }
 figure.card>img{
-  border-top-left-radius:5px;
-  border-top-right-radius:5px;
+  // border-top-left-radius:5px;
+  // border-top-right-radius:5px;
   grid-area:" stack";
   object-fit: cover;
   place-self: stretch;
+  border-radius:7px;
 }
 figure.card>figcaption{
-  grid-area: "stack";
-  align-self: center;
+  // grid-area: stack;
+  align-self: last baseline;
   justify-self: stretch;
   background-color: #27273980;
   color: var(--clr-white);
@@ -2862,7 +2864,7 @@ figure.card>figcaption{
 // .card:hover .course-image{
   // transform: scale(-1);
   // transition: 1.5s;
-  // filter: blur(3px);
+  filter: blur(3px);
 // }
 
 
