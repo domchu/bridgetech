@@ -53,26 +53,30 @@ const Service = () => {
                   <Box className="service-medium-subtitle-text">
                     Over <strong>3 years</strong> working in IT services,
                     developing <br />
-                    software, mobile apps for clients all over the world.
+                    software, websites, e-commerce sites, school
+                    portal/database, mobile apps for clients all over the world.
                   </Box>
                   <Box className="section-text">
-                    We are <strong>Bridgetech</strong> provide the best quality
+                    We are <strong>Bridgekode</strong> provide the best quality
                     <Link
                       href="https://www.example.com"
                       target="_blank"
                       className="it-solution"
                     >
-                      IT solution
+                      IT solution.
                     </Link>
-                    neque porro qui dolorem ipsum quia golor sit amet, conse
-                    ctetur, adipisci velit, optio cumque nihil impedit quo minus
-                    id quod maxime placossim us mentioned most effective
-                    technology to solve problem
+                    At Bridgekode, we take pride in offering the best IT
+                    services to solve a wide range of problems. Our team of
+                    experienced professionals is dedicated to providing
+                    innovative and effective solutions tailored to meet your
+                    specific needs.
                   </Box>
                   <Box className="section-text">
-                    We set our <strong>Mission</strong> quisquam est, qui
-                    dolorem ipsum quia more impedit quo minus quod maxime facere
-                    possimus pleasure
+                    We set our <strong>key reasons:</strong> expertise,
+                    customized solutions, comprehensive Services, client-centric
+                    approach, agile and flexible, cutting-edge technology,
+                    cost-effective solutions, strong communication, commitment
+                    to excellence, proven track record.
                   </Box>
                   <Link href="/" className="section-link margin-top-20">
                     Choose your Desired Services
