@@ -27,13 +27,18 @@ const Map = () => {
               <Box className="section-block">
                 <h3 className="section-title">Get in touch</h3>
                 <Box className="section-text">
-                  I am expert on <strong>BridgeTech</strong> provide the best
-                  quality
-                  <Link href="/projects">IT solution</Link>
-                  neque porro quisqu qui dolorem ipsum quia golor sit amet,
-                  conse ctetur, adipisci velit, sed eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat most of the a people
-                  want to lear IT related solution is very great reason
+                  To get in touch with <strong>Bridgekode</strong>, You can
+                  reach out to Bridgekode via phone or email to inquire about
+                  their services, request a consultation, or ask any questions
+                  you may have. Additionally, you can visit their website to
+                  explore more information about their offerings, browse their
+                  portfolio, and find additional contact details or a contact
+                  form.
+                  <br />
+                  It's recommended to directly contact
+                  <strong>Bridgekode</strong> using the provided contact
+                  information for the most accurate and up-to-date
+                  communication.
                 </Box>
               </Box>
               <Box className="conact-details-info">
@@ -42,7 +47,7 @@ const Map = () => {
                 <Box className="contact-info-text">
                   Shop H4, First Floor, Wharfedale Building
                   <br />
-                  Alaba Int'l Mkt, Ojo-Lagos State, Nigeria
+                  Alaba Int'l Mkt, Ojo-Lagos State. Nigeria
                 </Box>
                 <Box className="contact-info-small-title">Phone</Box>
                 <Box className="contact-info-text">
