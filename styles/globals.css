@@ -2936,10 +2936,31 @@ article.nextSlide {
   font-size: 1rem;
 }
 
+figcaption {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+}
+
+.card {
+  height: 370px;
+  width: 320px;
+}
+
 .course-content {
   display: flex;
   justify-content: space-between;
   padding: 10px 7px;
+}
+
+figure {
+  height: 370px;
+  width: 320px;
+}
+
+.course-container a {
+  height: 370px;
+  width: 320px;
 }
 
 figure.card {
