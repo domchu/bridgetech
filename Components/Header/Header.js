@@ -135,7 +135,7 @@ const Navbar = () => {
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/faq" ? "active" : ""
+                              currentRoute == "/courses/course" ? "active" : ""
                             }
                             tabIndex={0}
                           >
