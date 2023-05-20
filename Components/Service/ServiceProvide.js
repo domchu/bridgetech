@@ -67,8 +67,12 @@ const ServiceProvide = () => {
                               Website Design
                             </Link>
                             <Box className="section-text">
-                              Neque porro quisquam est qui most dolorem quia
-                              enough impedit same quo minus quod and maxime
+                              Bridgekode's web design services aim to create
+                              visually appealing, user-friendly, and
+                              brand-aligned websites that leave a lasting
+                              impression on visitors. By combining aesthetics
+                              with usability, they strive to deliver designs
+                              that effectively communicate the client's message.
                             </Box>
                           </Box>
                         </Box>
@@ -97,8 +101,11 @@ const ServiceProvide = () => {
                               Web Design Training
                             </Link>
                             <Box className="section-text">
-                              Neque porro quisquam est qui most dolorem quia
-                              enough impedit same quo minus quod and maxime
+                              web dev. training programs for students interested
+                              in learning and acquiring skills in web design.
+                              Their training programs are designed to provide
+                              comprehensive knowledge and hands-on experience in
+                              various aspects of web development.
                             </Box>
                           </Box>
                         </Box>
@@ -127,8 +134,12 @@ const ServiceProvide = () => {
                               Graphics Design
                             </Link>
                             <Box className="section-text">
-                              Neque porro quisquam est qui most dolorem quia
-                              enough impedit same quo minus quod and maxime
+                              It aim to create visually compelling designs that
+                              effectively communicate the client's message and
+                              align with their branding. Whether it's for print
+                              or digital mediums, they strive to deliver
+                              high-quality designs that leave a positive impact
+                              on the target audience.
                             </Box>
                           </Box>
                         </Box>

@@ -1997,7 +1997,7 @@ strong {
   font-weight: 500;
 }
 .section-link.margin-top-20 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .section-text {
   margin-top: 20px;
@@ -2035,7 +2035,7 @@ strong {
   border-radius: 10px;
 }
 .service-single-item-box {
-  padding: 25px 25px 35px;
+  padding: 25px 25px 0px 25px;
   border-radius: 10px;
   background-color: #e7fbff ;
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.13) ;
@@ -2061,7 +2061,7 @@ strong {
 }
 .service-content {
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
