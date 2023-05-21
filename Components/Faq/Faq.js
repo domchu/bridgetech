@@ -18,8 +18,8 @@ const Faq = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Frequently
-                <span className="sub_heading_span">Asked Questions</span>
+                Frequently  
+                <span className="sub_heading_span">  Asked Questions</span>
               </h1>
               <p>
                 Here is a list of the most common questions we are usually
