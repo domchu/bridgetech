@@ -2953,16 +2953,6 @@ figcaption {
   padding: 10px 7px;
 }
 
-figure {
-  height: 370px;
-  width: 320px;
-}
-
-.course-container a {
-  height: 370px;
-  width: 320px;
-}
-
 figure.card {
   display: grid;
   grid-template-columns: minmax(0, 1fr)/minmax(0, 1fr);
@@ -2999,4 +2989,8 @@ figure.card > figcaption {
   -moz-column-gap: 35px;
        column-gap: 35px;
   row-gap: 40px;
+}
+
+.card:hover .course-image {
+  filter: blur(3px);
 }/*# sourceMappingURL=globals.css.map */

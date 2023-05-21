@@ -2817,14 +2817,14 @@ width: 320px;
   padding: 10px 7px;
   
 }
-figure{
-  height: 370px;
-width: 320px;
-}
-.course-container a{
-  height: 370px;
-  width: 320px;
-}
+// figure{
+//   height: 370px;
+// width: 320px;
+// }
+// .course-container a{
+//   height: 370px;
+//   width: 320px;
+// }
 
 figure.card{
   display:grid;
@@ -2833,15 +2833,12 @@ figure.card{
   position:relative;
 }
 figure.card>img{
-  // border-top-left-radius:5px;
-  // border-top-right-radius:5px;
   grid-area:" stack";
   object-fit: cover;
   place-self: stretch;
   border-radius:7px;
 }
 figure.card>figcaption{
-  // grid-area: stack;
   align-self: last baseline;
   justify-self: stretch;
   background-color: #27273980;
@@ -2861,11 +2858,11 @@ figure.card>figcaption{
   column-gap: 35px;
   row-gap: 40px;
 }
-// .card:hover .course-image{
+.card:hover .course-image{
   // transform: scale(-1);
   // transition: 1.5s;
   filter: blur(3px);
-// }
+}
 
 
 
