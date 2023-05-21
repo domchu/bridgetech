@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
 import { BsArrowRight } from "react-icons/bs";
 import WedDesign from "../../public/images/project9.jpg";
+import WedDesign7 from "../../public/images/project7.jpg";
+import WedDesign3 from "../../public/images/project3.jpg";
 
 const CoursesTab = () => {
   return (
@@ -82,7 +84,7 @@ const CoursesTab = () => {
                   <Link href="/">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign7}
                         alt="People learning web design"
                         className="course-image"
                       />
@@ -103,7 +105,7 @@ const CoursesTab = () => {
                   <Link href="/">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign3}
                         alt="People learning web design"
                         className="course-image"
                       />
@@ -124,7 +126,7 @@ const CoursesTab = () => {
                   <Link href="/">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign7}
                         alt="People learning web design"
                         className="course-image"
                       />
@@ -145,7 +147,7 @@ const CoursesTab = () => {
                   <Link href="/">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign3}
                         alt="People learning web design"
                         className="course-image"
                       />
