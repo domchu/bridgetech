@@ -2841,7 +2841,7 @@ figure.card>img{
 figure.card>figcaption{
   align-self: last baseline;
   justify-self: stretch;
-  background-color: #27273980;
+  background-color: #29292b80;
   color: var(--clr-white);
   text-align: center;
   font-size:1.2rem;
@@ -2850,6 +2850,7 @@ figure.card>figcaption{
   border-bottom-right-radius: 5px;
   font-family: Rajdhani, sans-serif;
   overflow:hidden;
+  filter: grayscale(10px);
 }
 .course-container{
   display: grid;

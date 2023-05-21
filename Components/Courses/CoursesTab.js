@@ -46,7 +46,7 @@ const CoursesTab = () => {
                   <span className="section-title-inner-style">
                     that Bridgekode
                   </span>
-                  Offered
+                  Offers
                 </h2>
                 <Box className="section-text">
                   Your career path to finacial stability begin here and now.
@@ -66,6 +66,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Web Design</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #100,000</p>
@@ -86,6 +87,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">UX/UI Design</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #80,000</p>
@@ -106,6 +108,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Graphics Design</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #60,000</p>
@@ -126,6 +129,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Branding & SEO</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #45,000</p>
@@ -146,9 +150,31 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Software Development</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #150,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
+                  <Link href="/">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <h2 className="section-text">Contents Writing</h2>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #50,000</p>
                           </Box>
                           <Flex className="course-detail">
                             Details
