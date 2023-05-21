@@ -45,10 +45,8 @@ const CoursesTab = () => {
               <Box className="section-block max-width-475 text-center">
                 <h2 className="section-title">
                   Courses
-                  <span className="section-title-inner-style">
-                    that Bridgekode
-                  </span>
-                  Offers
+                  <span className="section-title-inner-style">Offers By</span>
+                  Bridgekode
                 </h2>
                 <Box className="section-text">
                   Your career path to finacial stability begin here and now.
@@ -81,7 +79,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/">
+                  <Link href="/courses/uxui">
                     <figure className="card">
                       <Image
                         src={WedDesign7}
