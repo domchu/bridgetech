@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 
-const uxui = () => {
+const contentswriting = () => {
   return (
     <>
       <Head>
@@ -18,11 +18,11 @@ const uxui = () => {
       </Head>
       <Topnav />
       <Header />
-      <h2>UI / UX Design</h2>
+      <h2>Contents Writing</h2>
       <Testimonial />
       <Footer />
     </>
   );
 };
 
-export default uxui;
+export default contentswriting;
