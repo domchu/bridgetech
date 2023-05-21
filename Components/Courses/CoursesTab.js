@@ -121,7 +121,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/">
+                  <Link href="/courses/branding">
                     <figure className="card">
                       <Image
                         src={WedDesign7}

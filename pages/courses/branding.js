@@ -5,11 +5,11 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 
-const contentswriting = () => {
+const branding = () => {
   return (
     <>
       <Head>
-        <title>Bridgekode | Contents Writing </title>
+        <title>Bridgekode | Branding & Seo</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses  "
@@ -18,11 +18,11 @@ const contentswriting = () => {
       </Head>
       <Topnav />
       <Header />
-      <h2>Contents Writing</h2>
+      <h2>Branding & Seo</h2>
       <Testimonial />
       <Footer />
     </>
   );
 };
 
-export default contentswriting;
+export default branding;
