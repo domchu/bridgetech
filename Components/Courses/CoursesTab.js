@@ -68,7 +68,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
-                        <h2 className="section-text">Web Design</h2>
+                        <h2 className="section-text">Web development</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #100,000</p>
