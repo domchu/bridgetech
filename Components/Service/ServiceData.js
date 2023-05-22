@@ -60,7 +60,7 @@ const DataServ = [
     image: "/images/project10.jpg",
     title: " Hardware & networking",
     urlPath: "/services/hardware-network",
-    text: " It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. Hardware includes a wide range of components, from basic internal parts to peripheral devices ",
+    text: " It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. Also a wide range of components, from basic internal parts to peripheral devices ",
   },
   {
     id: 10,
@@ -74,14 +74,14 @@ const DataServ = [
     image: "/images/project5.jpg",
     title: " Python Data-Science",
     urlPath: "/services/python",
-    text: " Language widely used in the field of data science due to its  versatility & extensive collection of libraries & frameworks. Python provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning ",
+    text: " Language widely used in the field of data science due to its  versatility & extensive collection of libraries & frameworks. It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning ",
   },
   {
     id: 12,
     image: "/images/project2.jpg",
     title: " Digital & Social Media",
     urlPath: "/services/social-media",
-    text: "  Refers to online platforms & websites that enable users to create, share, & interact with content, as well as connect & communicate with others. It allows individuals & organizations to share information, ideas, opinions, & media in various formats such as text, images, videos, & links.  ",
+    text: "  An online platforms & websites that enable users to create, share & interact with contents, as well as connect & communicate with others. It allows individuals & organizations to share information, ideas, opinions, & media in various formats such as text, images, videos, & links.  ",
   },
 ];
 
