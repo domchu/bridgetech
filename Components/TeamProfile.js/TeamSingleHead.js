@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 
-const TeamSingleProf = () => {
+const TeamSingleHead = () => {
   return (
     <>
       <Box className="project-sub-container">
@@ -41,4 +41,4 @@ const TeamSingleProf = () => {
   );
 };
 
-export default TeamSingleProf;
+export default TeamSingleHead;
