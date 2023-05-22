@@ -24,7 +24,7 @@ const TeamSingleHead = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/team/president" className="project-nav-link">
+                  <Link href="/pages/team/" className="project-nav-link">
                     Team
                   </Link>
                 </li>
