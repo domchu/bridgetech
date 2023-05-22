@@ -5,6 +5,7 @@ import Header from "../../Components/Header/Header";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import Footer from "../../Components/Footer/Footer";
 import TeamSingleHead from "../../Components/TeamProfile.js/TeamSingleHead";
+import TeamProfile from "../../Components/TeamProfile.js/TeamProfile";
 
 const president = () => {
   return (
@@ -20,6 +21,7 @@ const president = () => {
       <Topnav />
       <Header />
       <TeamSingleHead />
+      <TeamProfile />
       <Testimonial />
       <Footer />
     </>
