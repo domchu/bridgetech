@@ -79,12 +79,18 @@ const TeamProfile = () => {
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>
                   <Box className="contact-info-text">
-                    3947 Grove Avenue Oklahoma City, OK 73129
+                    Shop H4, First Floor, Wharfedale Building
+                    <br />
+                    Alaba Int'l Mkt, Ojo-Lagos State. Nigeria
                   </Box>
                   <Box className="contact-info-small-title">Phone Number</Box>
-                  <Box className="contact-info-text">580-366-0345</Box>
+                  <Box className="contact-info-text">
+                    +234 0703 427 8995 || +234 0811 099 8914
+                  </Box>
                   <Box className="contact-info-small-title">Email Address</Box>
-                  <Box className="contact-info-text">info@example.com</Box>
+                  <Box className="contact-info-text">
+                    info@bridgekodetech.com or bridgekodetech@gmail.com
+                  </Box>
                 </Box>
               </Box>
             </Box>

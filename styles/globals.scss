@@ -2859,7 +2859,6 @@ figure.card>figcaption{
 // TEAM PROFILE
 .team-details-block {
   display: grid;
-  
   align-items: stretch;
   grid-auto-columns: 1fr;
   grid-column-gap: 70px;
@@ -2885,7 +2884,7 @@ figure.card>figcaption{
 }
 .image-responsie {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .team-details-image-shadow {
   position: absolute;
@@ -2899,8 +2898,6 @@ figure.card>figcaption{
   background-color: rgba(0, 119, 182, 0.52);
   -webkit-filter: blur(60px);
   filter: blur(60px);
-  -webkit-transform: translate(-50%, 0px);
-  -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
 }
 .team-details-social-block {
@@ -2928,20 +2925,20 @@ figure.card>figcaption{
 }
 .team-details-job-title {
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #0077b6;
   font-size: 20px;
 }
 .achivement-text {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: #0077b6;
   font-size: 20px;
 }
 .team-contact-details-info {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .team-biography-text {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .team-details-name {
   display: flex;
