@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
 import { BsArrowRight } from "react-icons/bs";
 import WedDesign from "../../public/images/project9.jpg";
+import WedDesign7 from "../../public/images/project7.jpg";
+import WedDesign3 from "../../public/images/project3.jpg";
 
 const CoursesTab = () => {
   return (
@@ -43,10 +45,8 @@ const CoursesTab = () => {
               <Box className="section-block max-width-475 text-center">
                 <h2 className="section-title">
                   Courses
-                  <span className="section-title-inner-style">
-                    that Bridgekode
-                  </span>
-                  Offered
+                  <span className="section-title-inner-style">Offers By</span>
+                  Bridgekode
                 </h2>
                 <Box className="section-text">
                   Your career path to finacial stability begin here and now.
@@ -58,7 +58,7 @@ const CoursesTab = () => {
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="servce-collection-list w-dyn-list" role="list">
                 <Box className="course-container ">
-                  <Link href="/">
+                  <Link href="/courses/web">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -66,6 +66,7 @@ const CoursesTab = () => {
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Web development</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #100,000</p>
@@ -78,14 +79,15 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  {/* <Link href="/">
+                  <Link href="/courses/uxui">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign7}
                         alt="People learning web design"
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">UX/UI Design</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #80,000</p>
@@ -97,15 +99,16 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link> */}
-                  {/* <Link href="/">
+                  </Link>
+                  <Link href="/courses/graphics">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign3}
                         alt="People learning web design"
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Graphics Design</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #60,000</p>
@@ -117,15 +120,16 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link> */}
-                  {/* <Link href="/">
+                  </Link>
+                  <Link href="/courses/branding">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign7}
                         alt="People learning web design"
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Branding & SEO</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #45,000</p>
@@ -137,15 +141,16 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link> */}
-                  {/* <Link href="/">
+                  </Link>
+                  <Link href="/courses/software">
                     <figure className="card">
                       <Image
-                        src={WedDesign}
+                        src={WedDesign3}
                         alt="People learning web design"
                         className="course-image"
                       />
                       <figcaption>
+                        <h2 className="section-text">Software Development</h2>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #150,000</p>
@@ -157,7 +162,28 @@ const CoursesTab = () => {
                         </Box>
                       </figcaption>
                     </figure>
-                  </Link> */}
+                  </Link>
+                  <Link href="/courses/contents-writing">
+                    <figure className="card">
+                      <Image
+                        src={WedDesign}
+                        alt="People learning web design"
+                        className="course-image"
+                      />
+                      <figcaption>
+                        <h2 className="section-text">Contents Writing</h2>
+                        <Box className="course-content">
+                          <Box className="price">
+                            <p>Price: #50,000</p>
+                          </Box>
+                          <Flex className="course-detail">
+                            Details
+                            <BsArrowRight className="icon-right" />
+                          </Flex>
+                        </Box>
+                      </figcaption>
+                    </figure>
+                  </Link>
                 </Box>
               </Box>
             </Box>

@@ -5,7 +5,7 @@ const TeamData = [
     image: "/images/team-ceo.jpg ",
     name: "Ochu Dominic",
     job: "CEO, President",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/president",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",

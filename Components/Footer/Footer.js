@@ -214,7 +214,7 @@ const Footer = () => {
                     id="footerlink"
                     passhref="true"
                   >
-                    info@example.com
+                    info@bridgekodetech.com
                   </Link>
                 </li>
                 <li>
@@ -224,7 +224,7 @@ const Footer = () => {
                     id="footerlink"
                     passhref="true"
                   >
-                    info@example.com
+                    bridgekodetech@gmail.com
                   </Link>
                 </li>
               </Box>
