@@ -2856,6 +2856,105 @@ figure.card>figcaption{
   filter: blur(3px);
 }
 
+// TEAM PROFILE
+.team-details-block {
+  display: grid;
+  
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-columns: 1fr 0.75fr;
+  grid-template-rows: auto;
+}
+.team-details-image-block {
+  position: relative;
+  z-index: 1;
+ 
+  display: flex;
+  overflow: hidden;
+  max-height: 625px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 14px;
+  background-color: #e7fbff;
+}
+// .responsive.team-large-image {
+//   height: 100%;
+//   object-fit: contain;
+// }
+.team-details-image-shadow {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  z-index: -1;
+  width: 153px;
+  height: 234px;
+  max-height: 234px;
+  border-radius: 50%;
+  background-color: rgba(0, 119, 182, 0.52);
+  -webkit-filter: blur(60px);
+  filter: blur(60px);
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+.team-details-social-block {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+ 
+  display: flex;
+  padding: 16px 43px;
+  
+  justify-content: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 100%, 0.79);
+ 
+  transform: translate(-50%, 0px);
+}
+.team-details-content-block {
+  max-width: 570px;
+}
+.team-details-greeting-text {
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.team-details-job-title {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #0077b6;
+  font-size: 20px;
+}
+.achivement-text {
+  margin-bottom: 0px;
+  color: #0077b6;
+  font-size: 20px;
+}
+.team-biography-text {
+  margin-bottom: 10px;
+}
+.team-details-name {
+ 
+  display: flex;
+ 
+  flex-wrap: wrap;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  font-family: Rajdhani, sans-serif;
+  color: #023e8a;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+
+
 
 
 
