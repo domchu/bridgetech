@@ -7,11 +7,11 @@ import Footer from "../../Components/Footer/Footer";
 import TeamSingleHead from "../../Components/TeamProfile.js/TeamSingleHead";
 import TeamProfile from "../../Components/TeamProfile.js/TeamProfile";
 
-const president = () => {
+const promanager = () => {
   return (
     <>
       <Head>
-        <title>Bridgekode | CEO president</title>
+        <title>Bridgekode | project Manager</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
@@ -28,4 +28,4 @@ const president = () => {
   );
 };
 
-export default president;
+export default promanager;

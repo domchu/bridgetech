@@ -16,7 +16,7 @@ const TeamData = [
     image: "/images/digital-head.jpg ",
     name: "Olatunde Sleek",
     job: "Project Manager",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/promanager",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
