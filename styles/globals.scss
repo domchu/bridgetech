@@ -2870,7 +2870,6 @@ figure.card>figcaption{
 .team-details-image-block {
   position: relative;
   z-index: 1;
- 
   display: flex;
   overflow: hidden;
   max-height: 625px;
@@ -2880,10 +2879,14 @@ figure.card>figcaption{
   border-radius: 14px;
   background-color: #e7fbff;
 }
-// .responsive.team-large-image {
-//   height: 100%;
-//   object-fit: contain;
-// }
+.image-responsie.team-large-image {
+  height: 100%;
+  object-fit: contain;
+}
+.image-responsie {
+  width: 100%;
+  height: 100%;
+}
 .team-details-image-shadow {
   position: absolute;
   left: 50%;
@@ -2904,16 +2907,13 @@ figure.card>figcaption{
   position: absolute;
   left: 50%;
   bottom: 30px;
- 
   display: flex;
   padding: 16px 43px;
-  
   justify-content: center;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   border-radius: 16px;
   background-color: hsla(0, 0%, 100%, 0.79);
- 
   transform: translate(-50%, 0px);
 }
 .team-details-content-block {
@@ -2937,13 +2937,14 @@ figure.card>figcaption{
   color: #0077b6;
   font-size: 20px;
 }
+.team-contact-details-info {
+  margin-top: 20px;
+}
 .team-biography-text {
   margin-bottom: 10px;
 }
 .team-details-name {
- 
   display: flex;
- 
   flex-wrap: wrap;
   grid-column-gap: 10px;
   grid-row-gap: 10px;

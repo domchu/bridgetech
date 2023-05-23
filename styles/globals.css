@@ -3018,6 +3018,17 @@ figure.card > figcaption {
   background-color: #e7fbff;
 }
 
+.image-responsie.team-large-image {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.image-responsie {
+  width: 100%;
+  height: 100%;
+}
+
 .team-details-image-shadow {
   position: absolute;
   left: 50%;
@@ -3069,6 +3080,10 @@ figure.card > figcaption {
   margin-bottom: 0px;
   color: #0077b6;
   font-size: 20px;
+}
+
+.team-contact-details-info {
+  margin-top: 20px;
 }
 
 .team-biography-text {

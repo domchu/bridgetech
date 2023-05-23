@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-import Man from "../../public/images/digital-head.jpg";
+import Man from "../../public/images/team-ceo.jpg";
 import Facebook from "../../public/images/facebook-icon.png";
 import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
@@ -20,7 +20,7 @@ const TeamProfile = () => {
                   src={Man}
                   alt="A man wearing suite"
                   loading="lazy"
-                  className="image-responsie team-large-image"
+                  className="image-responsie team-large-image img"
                 />
                 <Box className="team-details-image-shadow"></Box>
                 <Box className="team-details-social-block">
@@ -76,14 +76,14 @@ const TeamProfile = () => {
                 <Box className="contact-info-title">Achievement</Box>
                 <Box className="achivement-text">Best Entrepreneur - 2020</Box>
                 <Box className="team-contact-details-info">
-                  <Box className="contact-info-title">Contact Info</Box>
-                  <Box className="contact-info-small-title">Address</Box>
+                  <Box className="contact-info-title">Contact Information</Box>
+                  <Box className="contact-info-small-title">Office Address</Box>
                   <Box className="contact-info-text">
                     3947 Grove Avenue Oklahoma City, OK 73129
                   </Box>
-                  <Box className="contact-info-small-title">Phone</Box>
+                  <Box className="contact-info-small-title">Phone Number</Box>
                   <Box className="contact-info-text">580-366-0345</Box>
-                  <Box className="contact-info-small-title">Email</Box>
+                  <Box className="contact-info-small-title">Email Address</Box>
                   <Box className="contact-info-text">info@example.com</Box>
                 </Box>
               </Box>
