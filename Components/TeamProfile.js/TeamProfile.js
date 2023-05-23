@@ -59,22 +59,22 @@ const TeamProfile = () => {
                 <Box className="team-details-greeting-text">Hi there!</Box>
                 <Box className="team-details-name">
                   <Box>I am</Box>
-                  <Box>Luther Mathuis</Box>
+                  <Box>Ochu Dominic</Box>
                 </Box>
                 <Box className="team-details-job-title">CEO, President</Box>
                 <Box className="contact-info-title">Biography</Box>
                 <Box className="team-biography-text w-richtext">
                   <p>
-                    I am expert on <strong>bridgekode</strong> provide the best
-                    quality It solution neque porro quisqu qui dolorem ipsum
-                    quia golor sit amet, conse ctetur, adipisci velit, sed
-                    eligendi optio cumque nihil impedit quo minus id quod maxime
-                    placeat most of the a people want to lear IT related
-                    solution is very great reason
+                    A Creative and immovable Front-End Engineer with over 3
+                    years of experience building stable websites and apps in
+                    fast-paced, collaborative environments and mathematice/
+                    further math tutor for over a decade
                   </p>
                 </Box>
                 <Box className="contact-info-title">Achievement</Box>
-                <Box className="achivement-text">Best Entrepreneur - 2020</Box>
+                <Box className="achivement-text">
+                  Best mathematics tutor - 2013
+                </Box>
                 <Box className="team-contact-details-info">
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>

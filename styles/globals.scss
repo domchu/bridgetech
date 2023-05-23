@@ -2880,11 +2880,12 @@ figure.card>figcaption{
 }
 .image-responsie.team-large-image {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .image-responsie {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .team-details-image-shadow {
   position: absolute;
@@ -2950,7 +2951,29 @@ figure.card>figcaption{
   font-size: 46px;
   font-weight: 700;
 }
-
+@media screen and (max-width:#{$tablet-width}){
+  .team-details-block {
+    
+    align-items: start;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 0.75fr;
+  }
+  .team-details-name {
+   
+    flex-wrap: wrap;
+    font-size: 38px;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
+  .team-details-block {
+    grid-template-columns: 1fr;
+  }
+  .team-details-name {
+    font-size: 35px;
+  }
+}
 
 
 
