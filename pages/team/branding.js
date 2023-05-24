@@ -7,11 +7,11 @@ import Footer from "../../Components/Footer/Footer";
 import TeamSingleHead from "../../Components/TeamProfile.js/TeamSingleHead";
 import TeamProfile from "../../Components/TeamProfile.js/TeamProfile";
 
-const president = () => {
+const promanager = () => {
   return (
     <>
       <Head>
-        <title>Bridgekode | CEO president</title>
+        <title>Bridgekode | project Manager</title>
         <meta
           name="courses"
           content="you can select from our wide range of courses"
@@ -22,13 +22,10 @@ const president = () => {
       <Header />
       <TeamSingleHead />
       <TeamProfile
-        name="Ochu Dominic"
-        title="CEO-President"
-        biography="A Creative and immovable Front-End Engineer with over 3
-                    years of experience building stable websites and apps in
-                    fast-paced, collaborative environments and mathematice/
-                    further math tutor for over a decade."
-        achievement="Best mathematics tutor - 2013"
+        name="Owoicho Emma"
+        title="Branding/SEO Expert"
+        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        achievement="Best ICT personel by MFM-R9 -2020 "
       />
       <Testimonial />
       <Footer />
@@ -36,4 +33,4 @@ const president = () => {
   );
 };
 
-export default president;
+export default promanager;

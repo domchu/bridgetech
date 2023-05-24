@@ -3,7 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Brand from "../../public/images/brandlogo-blue.png";
+import Brand from "../../public/images/bridgekode-blue.png";
 import Dropdown from "../../public/images/arrow-down.svg";
 
 const MobileView = () => {

@@ -8,7 +8,7 @@ import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
 import linkedin from "../../public/images/skype-icon.png";
 
-const TeamProfile = () => {
+const TeamProfile = ({ name, title, achievement, biography }) => {
   return (
     <>
       <Box className="team-details-section wf-section">
@@ -59,22 +59,15 @@ const TeamProfile = () => {
                 <Box className="team-details-greeting-text">Hi there!</Box>
                 <Box className="team-details-name">
                   <Box>I am</Box>
-                  <Box>Ochu Dominic</Box>
+                  <Box>{name}</Box>
                 </Box>
-                <Box className="team-details-job-title">CEO, President</Box>
+                <Box className="team-details-job-title">{title}</Box>
                 <Box className="contact-info-title">Biography</Box>
                 <Box className="team-biography-text w-richtext">
-                  <p>
-                    A Creative and immovable Front-End Engineer with over 3
-                    years of experience building stable websites and apps in
-                    fast-paced, collaborative environments and mathematice/
-                    further math tutor for over a decade
-                  </p>
+                  <p>{biography}</p>
                 </Box>
                 <Box className="contact-info-title">Achievement</Box>
-                <Box className="achivement-text">
-                  Best mathematics tutor - 2013
-                </Box>
+                <Box className="achivement-text">{achievement}</Box>
                 <Box className="team-contact-details-info">
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>

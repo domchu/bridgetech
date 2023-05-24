@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
-import Brand from "../../public/images/brandlogo-blue.png";
+import Brand from "../../public/images/bridgekode-blue.png";
 import Dropdown from "../../public/images/arrow-down.svg";
 import MobileView from "../Mobile/MobileView";
 

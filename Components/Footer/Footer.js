@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { Flex, Box } from "@chakra-ui/react";
-import BrandWhite from "../../public/images/brandlogo-white.png";
+import BrandWhite from "../../public/images/bridgekode-white.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
