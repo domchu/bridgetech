@@ -21,9 +21,10 @@ const promanager = () => {
       <Topnav />
       <Header />
       <TeamSingleHead />
-      <TeamProfile />
+      <TeamProfile name="Olatunde Sleek" title="Project Manager" biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate." achievement="Best Coding School at Ojo-Lagos " />
       <Testimonial />
       <Footer />
+     
     </>
   );
 };

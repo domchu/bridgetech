@@ -21,7 +21,15 @@ const president = () => {
       <Topnav />
       <Header />
       <TeamSingleHead />
-      <TeamProfile />
+      <TeamProfile
+        name="Ochu Dominic"
+        title="CEO-President"
+        biography="A Creative and immovable Front-End Engineer with over 3
+                    years of experience building stable websites and apps in
+                    fast-paced, collaborative environments and mathematice/
+                    further math tutor for over a decade."
+        achievement="Best mathematics tutor - 2013"
+      />
       <Testimonial />
       <Footer />
     </>
