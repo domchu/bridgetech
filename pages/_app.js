@@ -4,7 +4,16 @@ import { extendTheme } from "@chakra-ui/react";
 import { ChakraProvider } from '@chakra-ui/react'
 import "../styles/globals.css";
 import { ChakraBaseProvider  } from '@chakra-ui/react'
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
+const linkTags = [
+  {
+    rel: "icon",
+    href: "/logo-blue.png",
+    sizes: "80x80",
+  },
+];
 
 const theme = extendTheme({
   colors: {
@@ -28,12 +37,13 @@ const theme = extendTheme({
 });
 function MyApp({ Component, pageProps }) {
   return (
-  <ChakraBaseProvider >
-     <ChakraProvider theme={theme}>
-      <Component {...pageProps} />
+    <ChakraBaseProvider>
+      <ChakraProvider theme={theme}>
+        <DefaultSeo additionalLinkTags={linkTags} {...SEO} />
+        <Component {...pageProps} />
       </ChakraProvider>
-      </ChakraBaseProvider >
-  )
+    </ChakraBaseProvider>
+  );
 }
 
 export default MyApp
