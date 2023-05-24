@@ -1,4 +1,3 @@
-
 const TeamData = [
   {
     id: "1",
@@ -82,7 +81,7 @@ const TeamData = [
     image: "/images/graphic.jpg ",
     name: "Dim Lawrence",
     job: "Hardware/Network Engr",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/hardware",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
@@ -133,4 +132,4 @@ const TeamData = [
     linkedinLink: "https://linkedin.com/in/",
   },
 ];
-export default TeamData
+export default TeamData;
