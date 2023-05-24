@@ -103,7 +103,7 @@ const TeamData = [
     image: "/images/full-stack.jpg ",
     name: "Ochu Comfort",
     job: "Junior Copywriter",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/juniorwriter",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
