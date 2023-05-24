@@ -125,7 +125,7 @@ const TeamData = [
     image: "/images/full-stack.jpg ",
     name: "Esther Uchechi",
     job: " Senior Content Writer",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/seniorwriter",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
