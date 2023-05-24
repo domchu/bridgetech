@@ -10,12 +10,19 @@ import { useRouter } from "next/router";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const hardwareNetwork = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Hardware & Networking | Bridgekode"
+        description="It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}

@@ -6,10 +6,17 @@ import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Singleservices from "../../Components/Single-Services/Singleservices";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const softwaredevelopment = () => {
   return (
     <>
+      <DefaultSeo
+        title="Software Development | Bridgekode"
+        description="Software development refers to the process of designing, coding, testing, and maintaining software applications or systems.   "
+        {...SEO}
+      />
       {/* TOPNAV COMPONENTS */}
       <Topnav />
 

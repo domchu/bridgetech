@@ -10,12 +10,19 @@ import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const python = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Python Data-Sci | Bridgekode"
+        description="It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning. "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}

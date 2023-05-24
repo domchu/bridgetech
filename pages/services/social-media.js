@@ -10,12 +10,19 @@ import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const socialMedia = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Social Media | Bridgekode"
+        description="An online platforms & websites that enable users to create, share & interact with contents, as well as connect & communicate with others.  "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}
@@ -47,7 +54,9 @@ const socialMedia = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Digital & Social Media</Box>
+                  <Box className="project-link-text">
+                    Digital & Social Media
+                  </Box>
                 </li>
               </ul>
             </Box>
@@ -165,7 +174,9 @@ const socialMedia = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">Digital & Social Media Management</h2>
+                    <h2 className="section-title">
+                      Digital & Social Media Management
+                    </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>

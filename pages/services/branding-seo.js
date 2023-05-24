@@ -10,12 +10,19 @@ import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const brandingSeo = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Branding & SEO | Bridgekode"
+        description="Optimizing website for easy searching by clients"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}
@@ -167,7 +174,9 @@ const brandingSeo = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">Branding, Contents Writing and SEO</h2>
+                    <h2 className="section-title">
+                      Branding, Contents Writing and SEO
+                    </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>

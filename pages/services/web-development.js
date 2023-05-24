@@ -10,12 +10,19 @@ import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const webdevelopment = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Web Development | Bridgekode"
+        description="It involves designing, coding, & maintaining the various components that make up a website, user interface, functionality, & databases."
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}

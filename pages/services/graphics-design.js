@@ -10,12 +10,19 @@ import { useRouter } from "next/router";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const graphicdesign = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+     <DefaultSeo
+        title="Graphics Design | Bridgekode"
+        description="The art and practice of creating visual content using typography, images, and other graphical elements "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}
