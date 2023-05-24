@@ -22,10 +22,10 @@ const promanager = () => {
       <Header />
       <TeamSingleHead />
       <TeamProfile
-        name="Olatunde Sleek"
-        title="Project Manager"
+        name="Ogada Stanley"
+        title="Senior Frontend Egnr."
         biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
-        achievement="Best Coding School at Ojo-Lagos "
+        achievement="Best front-end Engineer tutor-2022 "
       />
       <Testimonial />
       <Footer />

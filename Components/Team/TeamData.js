@@ -27,7 +27,7 @@ const TeamData = [
     image: "/images/senior-frontend.jpg ",
     name: "Ogada Stanley",
     job: "Senior Frontend Egnr.",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/frontend",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
