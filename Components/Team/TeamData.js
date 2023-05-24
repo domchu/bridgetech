@@ -92,7 +92,7 @@ const TeamData = [
     image: "/images/graphic.jpg ",
     name: "Nwabudike Ifeanyi",
     job: "Admin Officer",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/admin",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
