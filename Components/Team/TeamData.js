@@ -38,7 +38,7 @@ const TeamData = [
     image: "/images/product-designer.jpg ",
     name: "Egaji Samuel",
     job: "Product(UX/UI) Designer",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/uxui",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
