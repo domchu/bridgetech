@@ -71,7 +71,7 @@ const TeamData = [
     image: "/images/full-stack.jpg ",
     name: "Owoicho Emma ",
     job: "Branding/SEO Expert",
-    profile: "https://linkedin.com/in/",
+    profile: "/team/branding",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
