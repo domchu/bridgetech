@@ -115,7 +115,7 @@ const TeamData = [
     name: "Johnson JnpRof",
     job: "Web Dev Tutor",
     profile: "/team/tutor",
-    facebookLink: "https://www.facebook.com/",
+    facebookLink: "https://www.facebook.com/chinonyerem.johnsonogbonnaya",
     instagramLink: "https://instagram.com/jnprof_2022/",
     twitterLink: "https://twitter.com/OgbonnayaJohns3",
     linkedinLink: "http://linkedin.com/in/ogbonnaya-johnson-874bb4211",
