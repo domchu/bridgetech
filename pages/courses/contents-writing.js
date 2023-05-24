@@ -1,21 +1,19 @@
 import React from "react";
-import Head from "next/head";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const contentswriting = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | Contents Writing </title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses  "
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Contents Writing | Bridgekode"
+        description="A well tutor materials tailored for contents writing for easy understanding by clients"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <h2>Contents Writing</h2>
