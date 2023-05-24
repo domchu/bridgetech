@@ -1,23 +1,21 @@
-import React from 'react'
-import Head from "next/head"
+import React from "react";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Components/Contact/Contact";
 import NewsLetter from "./../Components/NewsLetter";
 import Testimonial from "../Components/Testimonails/Testimonial";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
 const contactus = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | Contact Us</title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Contact Us | Bridgekode"
+        description="Contact Us at Bridgekode, we are open 24/7 hours"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <Contact />
@@ -28,4 +26,4 @@ const contactus = () => {
   );
 };
 
-export default contactus
+export default contactus;

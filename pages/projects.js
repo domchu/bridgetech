@@ -1,5 +1,4 @@
-import React from 'react'
-import Head from "next/head"
+import React from "react";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
@@ -7,18 +6,17 @@ import Projects from "../Components/Projects/Projects";
 import NewsLetter from "../Components/NewsLetter";
 import Brand from "../Components/Brand/Brand";
 import Testimonial from "../Components/Testimonails/Testimonial";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
 const projects = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | Projects</title>
-        <meta
-          name="projects"
-          content="you can explore from our wide range of projects done"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Project | Bridgekode"
+        description="Projects completed successfully by bridgekode for clients"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <Projects />
@@ -30,4 +28,4 @@ const projects = () => {
   );
 };
 
-export default projects
+export default projects;

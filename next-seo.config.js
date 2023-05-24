@@ -6,7 +6,7 @@ export default {
     siteName: "bridgekode",
     images: [
       {
-        url: "https://www.bridgekode.com.ng/logo-blue.png",
+        url: "https://www.bridgekode.com/logo-blue.png",
         width: 800,
         height: 600,
         alt: "Og Image Alt",

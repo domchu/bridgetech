@@ -1,20 +1,19 @@
-import React from 'react'
-import Head from "next/head"
+import React from "react";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import Signup from "../Components/Signup/Signup";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+
 const register = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | Register</title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Register | Bridgekode"
+        description="Register for Bridgekode available services"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <Signup />
@@ -23,4 +22,4 @@ const register = () => {
   );
 };
 
-export default register
+export default register;

@@ -1,21 +1,19 @@
 import React from "react";
-import Head from "next/head";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
 import NotFound from "./../Components/NotFound";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
 const Error = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | Projects</title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="404 Page | Bridgekode"
+        description="That page is not found in bridgekode website."
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <NotFound />
