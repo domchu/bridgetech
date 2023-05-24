@@ -1,23 +1,21 @@
 import React from "react";
-import Head from "next/head";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import Footer from "../../Components/Footer/Footer";
 import TeamSingleHead from "../../Components/TeamProfile.js/TeamSingleHead";
 import TeamProfile from "../../Components/TeamProfile.js/TeamProfile";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const promanager = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | project Manager</title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Branding Expert | Bridgekode"
+        description="Experte in branding & SEO"
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <TeamSingleHead />
