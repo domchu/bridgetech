@@ -10,12 +10,19 @@ import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/service-main.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const webdesigntraining = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="Web Training | Bridgekode"
+        description="If you're interested in learning web development, there are several paths you can take to acquire the necessary skills and knowledge."
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}
@@ -38,7 +45,10 @@ const webdesigntraining = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/services/service-home" className="project-nav-link">
+                  <Link
+                    href="/services/service-home"
+                    className="project-nav-link"
+                  >
                     Service
                   </Link>
                 </li>

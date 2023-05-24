@@ -1,29 +1,27 @@
 import React from "react";
-import Head from "next/head";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import Footer from "../../Components/Footer/Footer";
 import TeamSingleHead from "../../Components/TeamProfile.js/TeamSingleHead";
 import TeamProfile from "../../Components/TeamProfile.js/TeamProfile";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const promanager = () => {
   return (
     <>
-      <Head>
-        <title>Bridgekode | project Manager</title>
-        <meta
-          name="courses"
-          content="you can select from our wide range of courses"
-        />
-        <link rel="icon" href="/logo-blue.png" size="64x64" />
-      </Head>
+      <DefaultSeo
+        title="Fullstack Engineer | Bridgekode"
+        description="Fullstack engineer with Java, PHP, Python, Mobile & desktop apps development,  Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       <TeamSingleHead />
       <TeamProfile
         name="Mudashir Tunde"
-        title="FullStack Software Engr."
+        title="FullStack Software Engineer."
         biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
         achievement="Best programmer by laspotech 2021,2022,2023 "
       />

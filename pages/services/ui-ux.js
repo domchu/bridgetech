@@ -10,12 +10,19 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const uiux = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
     <>
+      <DefaultSeo
+        title="UX / UI Design | Bridgekode"
+        description="UX/UI design refers to the process of creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications.   "
+        {...SEO}
+      />
       <Topnav />
       <Header />
       {/* SUBHEADING DETAIL */}
@@ -38,7 +45,10 @@ const uiux = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/services/service-home" className="project-nav-link">
+                  <Link
+                    href="/services/service-home"
+                    className="project-nav-link"
+                  >
                     Service
                   </Link>
                 </li>
