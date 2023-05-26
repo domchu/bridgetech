@@ -3,7 +3,7 @@ const ProjectCont = [
     id: "1",
     image: "/images/project9.jpg",
     title: "Web Development",
-    url: "/",
+    url: "/projects/website",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
   },
