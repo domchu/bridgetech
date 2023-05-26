@@ -42,7 +42,7 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
-                  action=""
+                  action="HtmlForm"
                   className="quote-form"
                   data-name="Quote Form"
                   name="wf-form-quote-form"
@@ -153,7 +153,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-group"
                             >
                               <input
                                 type="checkbox"
@@ -170,7 +170,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
                               <input
                                 type="checkbox"
@@ -183,7 +183,7 @@ const Quotes = () => {
                                 Web Design
                               </span>
                             </label>
-                            <label htmlFor=""></label>
+                            <label htmlFor="form-control"></label>
                           </li>
                           <li className="quote-project-item">
                             <label
@@ -205,7 +205,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
                               <input
                                 type="checkbox"
@@ -222,7 +222,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
                               <input
                                 type="checkbox"
@@ -239,7 +239,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
                               <input
                                 type="checkbox"
@@ -256,7 +256,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
                               <input
                                 type="checkbox"
