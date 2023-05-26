@@ -13,7 +13,7 @@ const contactus = () => {
     <>
       <DefaultSeo
         title="Contact Us | Bridgekode"
-        description="Contact Us at Bridgekode, we are open 24/7 hours"
+        description="Contact us at bridgekode, we are open 24/7 hours"
         {...SEO}
       />
       <Topnav />
