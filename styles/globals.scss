@@ -2854,6 +2854,21 @@ figure.card>figcaption{
   transition: 0.5s;
   filter: blur(3px);
 }
+@media screen and (max-width:#{$tablet-width}){
+  .course-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+}
+@media screen and (max-width:#{$phone-width}){
+.course-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+}
+}
 
 // TEAM PROFILE
 .team-details-block {

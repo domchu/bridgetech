@@ -109,7 +109,7 @@ const MobileView = () => {
                               }
                               tabIndex={0}
                             >
-                              Signup
+                              Register
                             </Link>
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
@@ -131,7 +131,9 @@ const MobileView = () => {
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/courses/course" ? "active" : ""
+                                currentRoute == "/courses/course"
+                                  ? "active"
+                                  : ""
                               }
                               tabIndex={0}
                             >
