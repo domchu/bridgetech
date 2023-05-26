@@ -1076,7 +1076,6 @@ strong {
 }
 
 .contact-info-title {
-  margin-bottom: 10px;
   font-family: Rajdhani, sans-serif;
   color: var(--primary-clr-2);
   font-size: 24px;
@@ -2995,6 +2994,20 @@ figure.card > figcaption {
   filter: blur(3px);
 }
 
+@media screen and (max-width: 768px) {
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
 .team-details-block {
   display: grid;
   align-items: stretch;

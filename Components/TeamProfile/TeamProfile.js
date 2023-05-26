@@ -8,7 +8,16 @@ import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
 import linkedin from "../../public/images/skype-icon.png";
 
-const TeamProfile = ({ name, title, achievement, biography }) => {
+const TeamProfile = ({
+  name,
+  title,
+  achievement,
+  biography,
+  facebooklink,
+  twitterlink,
+  instagramlink,
+  linkedinlink,
+}) => {
   return (
     <>
       <Box className="team-details-section wf-section">
@@ -25,19 +34,19 @@ const TeamProfile = ({ name, title, achievement, biography }) => {
                 <Box className="team-details-image-shadow"></Box>
                 <Box className="team-details-social-block">
                   <Link
-                    href="https://www.facebook.com/"
+                    href={facebooklink}
                     className="team-social-link w-inline-block"
                   >
                     <Image src={Facebook} alt="Facebook Icon" loading="lazy" />
                   </Link>
                   <Link
-                    href="https://www.twitter.com/"
+                    href={twitterlink}
                     className="team-social-link w-inline-block"
                   >
                     <Image src={twitter} alt="twitter Icon" loading="lazy" />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/"
+                    href={instagramlink}
                     className="team-social-link w-inline-block"
                   >
                     <Image
@@ -47,7 +56,7 @@ const TeamProfile = ({ name, title, achievement, biography }) => {
                     />
                   </Link>
                   <Link
-                    href="https://www.linkedin.com/"
+                    href={linkedinlink}
                     className="team-social-link w-inline-block"
                   >
                     <Image src={linkedin} alt="linkedin Icon" loading="lazy" />

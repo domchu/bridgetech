@@ -1050,7 +1050,6 @@ font-weight: 500;
   margin-top: 30px;
 }
 .contact-info-title {
-  margin-bottom: 10px;
   font-family: Rajdhani, sans-serif;
   color: var(--primary-clr-2);
   font-size: 24px;
@@ -2854,6 +2853,21 @@ figure.card>figcaption{
 .card:hover .course-image{
   transition: 0.5s;
   filter: blur(3px);
+}
+@media screen and (max-width:#{$tablet-width}){
+  .course-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+}
+@media screen and (max-width:#{$phone-width}){
+.course-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+}
 }
 
 // TEAM PROFILE

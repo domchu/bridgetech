@@ -12,10 +12,10 @@ const Signup = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Signup <span className="sub_heading_span">Page</span>
+                Register <span className="sub_heading_span">Page</span>
               </h1>
               <p>
-                SIgn up to our wide variaties of IT skills most especially
+                Register to our wide variaties of IT skills most especially
                 coding and developing software.
               </p>
               <ul className="project-link">
@@ -26,7 +26,7 @@ const Signup = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Signup</Box>
+                  <Box className="project-link-text">Register</Box>
                 </li>
               </ul>
             </Box>
@@ -42,7 +42,7 @@ const Signup = () => {
               <Box className="login-form-area" id="w-node-order">
                 <Box className="section-block">
                   <h2 className="section-title max-width-442">
-                    Signup to
+                    Register to
                     <span className="section-title-inner-style">
                       Bridgetech
                     </span>
@@ -72,6 +72,16 @@ const Signup = () => {
                       id="signup-Username"
                       data-name="User Name"
                       placeholder="Enter Name*"
+                      required={true}
+                    />
+                    <input
+                      type="number"
+                      className="default-input-field w-input"
+                      maxLength="256"
+                      name="user-number"
+                      id="signup-Username"
+                      data-name="User Number"
+                      placeholder="Enter Number*"
                       required={true}
                     />
                     <input

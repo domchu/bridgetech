@@ -10,11 +10,11 @@ const Quotes = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Get a <span className="sub_heading_span">Quotes</span>
+                Get a <span className="sub_heading_span">Quote</span>
               </h1>
               <p>
                 Let's have your project budget and unlock the power of software
-                in businesses.
+                in your business or career path to finacial stability.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -42,7 +42,7 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
-                  action=""
+                  action="HtmlForm"
                   className="quote-form"
                   data-name="Quote Form"
                   name="wf-form-quote-form"
@@ -96,19 +96,12 @@ const Quotes = () => {
                               className="w-checkbox checkbox-field"
                               htmlFor=""
                             >
-                              {/* <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box> */}
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
                                 className="checkbox w--redirected-checked w--redirected-focus"
-                                // style={{
-                                //   opacity: "0",
-                                //   position: "absolute",
-                                //   zIndex: "-1",
-                                // }}
-                                // style={{}}
                               />
                               <span className="w-form-label" for="website">
                                 Website
@@ -121,17 +114,12 @@ const Quotes = () => {
                               className="w-checkbox checkbox-field"
                               htmlFor=""
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="App "
                                 id="App "
                                 data-name="App "
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 APP Development
@@ -143,17 +131,12 @@ const Quotes = () => {
                               className="w-checkbox checkbox-field"
                               htmlFor=""
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="checkbox-2"
                                 id="checkbox-2"
                                 data-name="checkbox-2"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 Graphic Design
@@ -170,19 +153,14 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-group"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 Web Development
@@ -192,42 +170,32 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 Web Design
                               </span>
                             </label>
-                            <label htmlFor=""></label>
+                            <label htmlFor="form-control"></label>
                           </li>
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
                               htmlFor=""
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 Web Management
@@ -237,19 +205,14 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 API
@@ -259,41 +222,31 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
-                                Ecommerce
+                                E-commerce
                               </span>
                             </label>
                           </li>
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 UI / UX
@@ -303,19 +256,14 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <label
                               className="w-checkbox checkbox-field"
-                              htmlFor=""
+                              htmlFor="form-control"
                             >
-                              <Box className="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked w--redirected-focus"></Box>
                               <input
                                 type="checkbox"
                                 name="Website"
                                 id="Website"
                                 data-name="Website"
-                                style={{
-                                  opacity: "0",
-                                  position: "absolute",
-                                  zIndex: "-1",
-                                }}
+                                className="checkbox w--redirected-checked w--redirected-focus"
                               />
                               <span className="w-form-label" for="website">
                                 Web Training
