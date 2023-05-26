@@ -5,12 +5,18 @@ import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "./../../Components/Testimonails/Testimonial";
+import { DefaultSeo } from "next-seo";
+import SEO from "../../next-seo.config";
 
 const website = () => {
   return (
     <>
-
-<Topnav />
+      <DefaultSeo
+        title="Website Details | Bridgekode"
+        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        {...SEO}
+      />
+      <Topnav />
       <Header />
       <Box className="project-sub-container">
         <Box className="w-container">
@@ -38,7 +44,7 @@ const website = () => {
                     Project
                   </Link>
                 </li>
-                  <Box className="separator">/</Box>
+                <Box className="separator">/</Box>
                 <li>
                   <Box className="project-link-text">Web Development</Box>
                 </li>
@@ -47,7 +53,8 @@ const website = () => {
           </Box>
         </Box>
       </Box>
-     {/* SINGLE PROJECT DETAILS */}
+      {/* SINGLE PROJECT DETAILS */}
+      <h1>Web Development</h1>
       <Testimonial />
       <Footer />
     </>
