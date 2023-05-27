@@ -5,6 +5,7 @@ import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "./../../Components/Testimonails/Testimonial";
+import SingleProject from "../../Components/Projects/SingleProject";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -53,9 +54,8 @@ const website = () => {
           </Box>
         </Box>
       </Box>
-      {/* SINGLE PROJECT DETAILS */}
-
-      <h1>Web Development</h1>
+      {/* SINGLE PROJECT DETAILS AND ITEMS AS PROPS*/}
+      <SingleProject />
       <Testimonial />
       <Footer />
     </>
