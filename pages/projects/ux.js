@@ -55,7 +55,7 @@ const ux = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS */}
-      <SingleProject />
+      <SingleProject title="UX / UI Design"/>
       <Testimonial />
       <Footer />
     </>

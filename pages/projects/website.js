@@ -55,7 +55,7 @@ const website = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS AND ITEMS AS PROPS*/}
-      <SingleProject />
+      <SingleProject title="Web Development" />
       <Testimonial />
       <Footer />
     </>

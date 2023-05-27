@@ -5,7 +5,7 @@ import WebImage from "../../public/images/project2.jpg";
 import WebIm from "../../public/images/service-benefit.jpg";
 import ladyImage from "../../public/images/ladyimage.png";
 
-const SingleProject = () => {
+const SingleProject = ({ title }) => {
   return (
     <>
       <Box className="project-section wf-section">
@@ -13,7 +13,7 @@ const SingleProject = () => {
           <Box className="container w-container">
             <Box className="project-details-block">
               <Box className="project-block-copy max-width-635">
-                <h2 className="project-details-title">Digital Marketing</h2>
+                <h2 className="project-details-title">{title}</h2>
                 <Box className="project-top-rich-text-block w-richtext">
                   <strong>IT Consultancy</strong> provide the best quality It
                   solution neque porro quisquam est qui dolore ipsum quia golor

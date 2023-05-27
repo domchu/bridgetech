@@ -55,7 +55,7 @@ const software = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
-      <SingleProject />
+      <SingleProject title="Software Development"/>
       <Testimonial />
       <Footer />
     </>
