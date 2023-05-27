@@ -7,6 +7,7 @@ import Footer from "../../Components/Footer/Footer";
 import Testimonial from "./../../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
+import SingleProject from "../../Components/Projects/SingleProject";
 
 const ux = () => {
   return (
@@ -27,7 +28,7 @@ const ux = () => {
               </h1>
               <p>
                 The underlisted project was carried out by bridgekode, completed
-                and delivered to the clients
+                and delivered to the client.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -54,7 +55,7 @@ const ux = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS */}
-      <h1>ux / ui Design</h1>
+      <SingleProject />
       <Testimonial />
       <Footer />
     </>

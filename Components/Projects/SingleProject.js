@@ -114,32 +114,32 @@ const SingleProject = () => {
                 </h2>
                 <Box className="w-richtext">
                   <p>
-                    We are Optitech provide the best quality It solution neque
-                    porro quisquam est qui dolorem ipsum quia golor sit amet,
-                    conse ctetur, adipisci velit, sed eligendi optio cumque
-                    nihil impedit quo minus id quod maxime placeat pleasure
+                    We are <strong>Optitech</strong> provide the best quality It
+                    solution neque porro quisquam est qui dolorem ipsum quia
+                    golor sit amet, conse ctetur, adipisci velit, sed eligendi
+                    optio cumque nihil impedit quo minus id quod maxime placeat
+                    pleasure rationally encounter consequences that are
+                    extremely painful. Nor again is there anyone who loves or
+                    pursues or desires to obtain pain of itself, because it is
+                    pain, but because occasionally circumstances occur in which
+                    toil and pain can procure him some great pleaser pleasure
                     rationally encounter consequences that are extremely
                     painful. Nor again is there anyone who loves or pursues or
-                    desires to obtain pain of itself, because it is pain, but
+                    desires to obtain pain of itsel because it is pain, but
                     because occasionally circumstances occur in which toil and
-                    pain can procure him some great pleaser pleasure rationally
-                    encounter consequences that are extremely painful. Nor again
-                    is there anyone who loves or pursues or desires to obtain
-                    pain of itsel because it is pain, but because occasionally
-                    circumstances occur in which toil and pain can procure him
-                    some great pleaser
+                    pain can procure him some great pleaser
                   </p>
                   <br />
                   <p>
-                    We are Optitech provide the best quality It solution neque
-                    porro quisquam est qui dolorem ipsum quia golor sit amet,
-                    conse ctetur, adipisci velit, sed eligendi optio cumque
-                    nihil impedit quo minus id quod maxime placeat pleasure
-                    rationally encounter consequences that are extremely
-                    painful. Nor again is there anyone who loves or pursues or
-                    desires to obtain pain of itself, because it is pain, but
-                    because occasionally circumstances occur in which toil and
-                    pain can procure
+                    We are <strong>Optitech</strong> provide the best quality It
+                    solution neque porro quisquam est qui dolorem ipsum quia
+                    golor sit amet, conse ctetur, adipisci velit, sed eligendi
+                    optio cumque nihil impedit quo minus id quod maxime placeat
+                    pleasure rationally encounter consequences that are
+                    extremely painful. Nor again is there anyone who loves or
+                    pursues or desires to obtain pain of itself, because it is
+                    pain, but because occasionally circumstances occur in which
+                    toil and pain can procure
                   </p>
                 </Box>
               </Box>
