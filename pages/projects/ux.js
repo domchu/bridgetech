@@ -8,11 +8,11 @@ import Testimonial from "./../../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const website = () => {
+const ux = () => {
   return (
     <>
       <DefaultSeo
-        title="Website Details | Bridgekode"
+        title="Ux/Ui Details | Bridgekode"
         description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
         {...SEO}
       />
@@ -26,8 +26,8 @@ const website = () => {
                 Project <span className="sub_heading_span">Details</span>
               </h1>
               <p>
-                The underlisted project was carried out by bridgekode,
-                completed and delivered to the  clients
+                The underlisted project was carried out by bridgekode, completed
+                and delivered to the clients
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -46,7 +46,7 @@ const website = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Web Development</Box>
+                  <Box className="project-link-text">UX / UI Design</Box>
                 </li>
               </ul>
             </Box>
@@ -54,11 +54,11 @@ const website = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS */}
-      <h1>Web Development</h1>
+      <h1>ux / ui Design</h1>
       <Testimonial />
       <Footer />
     </>
   );
 };
 
-export default website;
+export default ux;

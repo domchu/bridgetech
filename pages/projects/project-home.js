@@ -12,7 +12,7 @@ const projecthome = () => {
     <>
       <DefaultSeo
         title="Project | Bridgekode"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        description="Check carefully the various projects carried out by bridgekode such as websites, UX/UI design, Database, School portal, Blog etc"
         {...SEO}
       />
       <Topnav />

@@ -54,7 +54,7 @@ const ProjectCard = () => {
   return (
     <>
       {records.map((ProjectDetail) => {
-        const { id, title, url, comments, image } = ProjectDetail;
+        const { id, title, url, comments, image, projectUrl } = ProjectDetail;
         return (
           <Box key={id}>
             <Box className="project-item-wrapper">
@@ -72,11 +72,12 @@ const ProjectCard = () => {
                     <h3>{title}</h3>
                   </Link>
                   <p>{comments}</p>
-                  <Link href={url}>
+                  <Link href={projectUrl}>
                     <Image
                       src={arrow}
                       alt="Pointer"
                       className="pointer-arrow"
+                      rel="nofollow"
                     />
                   </Link>
                 </Box>
