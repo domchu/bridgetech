@@ -113,7 +113,7 @@ const Navbar = () => {
                             }
                             tabIndex={0}
                           >
-                            Signup
+                            Register
                           </Link>
                         </li>
                         <li className="w-nav-link nav-dropdown-link">

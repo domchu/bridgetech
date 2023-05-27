@@ -72,12 +72,11 @@ const ProjectCard = () => {
                     <h3>{title}</h3>
                   </Link>
                   <p>{comments}</p>
-                  <Link href={projectUrl}>
+                  <Link href={projectUrl} target="_blank" rel="nofollow">
                     <Image
                       src={arrow}
                       alt="Pointer"
                       className="pointer-arrow"
-                      rel="nofollow"
                     />
                   </Link>
                 </Box>
