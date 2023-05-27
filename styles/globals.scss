@@ -3003,7 +3003,6 @@ figure.card>figcaption{
   font-size: 46px !important;
 font-weight: 700;
 }
-
 .project-top-rich-text-block {
   font-size: 20px;
 }
@@ -3020,9 +3019,8 @@ font-weight: 700;
   font-family: Rajdhani, sans-serif;
   color: #023e8a;
   font-size: 46px !important;
-font-weight: 700;
+  font-weight: 700;
 }
-
 .project-info-block {
   display: flex;
   margin-bottom: 50px;
@@ -3050,7 +3048,6 @@ font-weight: 700;
 .how-to-left-block {
   max-width: 560px;
 }
-
 .project-list-block {
   display: grid;
   margin-top: 30px;
@@ -3084,6 +3081,25 @@ p {
 .list-special{
   display: flex;
 }
+@media screen and (max-width:#{$tablet-width}){
+  .how-to-block {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+  .how-to-left-block {
+    max-width: 50%;
+  }
+  .project-details-subtile-title, .project-details-title {
+    font-size: 34px !important;
+  }
+  .project-list-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:#{$phone-width}){
 
+}
 
 

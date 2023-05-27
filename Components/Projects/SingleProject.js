@@ -129,6 +129,7 @@ const SingleProject = () => {
                     circumstances occur in which toil and pain can procure him
                     some great pleaser
                   </p>
+                  <br />
                   <p>
                     We are Optitech provide the best quality It solution neque
                     porro quisquam est qui dolorem ipsum quia golor sit amet,
@@ -149,6 +150,7 @@ const SingleProject = () => {
                     alt="People Working"
                     loading="lazy"
                     className="image-cover img"
+                    sizes="(max-width:1279px) 334px 544px "
                   />
                 </Box>
                 <Box className="project-list-content">

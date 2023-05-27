@@ -3240,4 +3240,22 @@ p {
 
 .list-special {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .how-to-block {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+  .how-to-left-block {
+    max-width: 50%;
+  }
+  .project-details-subtile-title, .project-details-title {
+    font-size: 34px !important;
+  }
+  .project-list-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=globals.css.map */
