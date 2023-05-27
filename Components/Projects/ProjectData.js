@@ -30,7 +30,7 @@ const ProjectCont = [
     id: "4",
     image: "/images/project1.jpg",
     title: "Software Development",
-    url: "/",
+    url: "/projects/software",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
