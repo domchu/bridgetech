@@ -18,8 +18,8 @@ const Faq = () => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Frequently  
-                <span className="sub_heading_span">  Asked Questions</span>
+                Frequently
+                <span className="sub_heading_span"> Asked Questions</span>
               </h1>
               <p>
                 Here is a list of the most common questions we are usually
@@ -383,14 +383,16 @@ const Faq = () => {
             </h2>
             <AccordionPanel pb={4} className="faq-text">
               Bridgekode is a strategic technology partner for custom software
-              development and staff augmentation. Founded in 2022, Bridgekode
-              has extensive experience of building solutions for start-ups and
-              SMEs all over the world. Our team has already implemented over 10
-              software products of different complexity in the following niches:
-              healthcare, e-commerce, fintech, real estate, education, &
-              proptech. Our goal is to help businesses accelerate growth and
-              innovation, transform operational efficiency, deliver new products
-              to market, improve profitability and customer satisfaction.
+              development services and staff augmentation. Founded in 2022,
+              Bridgekode has extensive experience of building solutions for
+              start-ups and SMEs all over the world. Our team has already
+              implemented over 10 software products of different complexity in
+              the following niches: healthcare, e-commerce, fintech, real
+              estate, education, & proptech. Our goal is to help businesses
+              accelerate growth and innovation, transform operational
+              efficiency, deliver new products to market, improve profitability,
+              career path in IT skills to finacial stabiliy among the youths and
+              customer satisfaction.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
