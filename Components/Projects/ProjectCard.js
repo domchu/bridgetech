@@ -61,7 +61,7 @@ const ProjectCard = () => {
               <Box className="project-collection">
                 <Image
                   src={image}
-                  alt="People together brainstorming"
+                  alt="People brainstorming"
                   loading="lazy"
                   className="project__img"
                   width={320}

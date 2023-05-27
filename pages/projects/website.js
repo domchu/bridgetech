@@ -26,8 +26,8 @@ const website = () => {
                 Project <span className="sub_heading_span">Details</span>
               </h1>
               <p>
-                The underlisted project was carried out by bridgekode,
-                completed and delivered to the  clients
+                The underlisted project was carried out by bridgekode, completed
+                and delivered to the clients
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -54,6 +54,7 @@ const website = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS */}
+
       <h1>Web Development</h1>
       <Testimonial />
       <Footer />
