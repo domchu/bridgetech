@@ -529,7 +529,7 @@ nav {
     margin-left: 11px;
   }
   .topnav-container {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .footer-top {
@@ -3257,5 +3257,30 @@ p {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .how-to-block {
+    flex-direction: column;
+  }
+  .project-details-subtile-title, .project-details-title {
+    font-size: 30px !important;
+  }
+  .project-list-block {
+    grid-template-columns: 1fr;
+  }
+  .how-to-left-block {
+    max-width: 100%;
+  }
+  .how-to-image-block {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .inner-quote-block {
+    padding-left: 20px;
+  }
+  .project-list-subtitle {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=globals.css.map */

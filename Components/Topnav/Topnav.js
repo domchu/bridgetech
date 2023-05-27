@@ -29,7 +29,7 @@ const Topnav = () => {
               height="auto"
               margin="auto"
               width="auto"
-              // flexWrap="wrap"
+              flexWrap="wrap"
             >
               <Box>
                 <li className="topnav-links">
