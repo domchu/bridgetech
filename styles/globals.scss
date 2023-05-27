@@ -627,6 +627,10 @@ font-weight: 300;
   transition: var(--transition);
   transform: scale(1.3);
 }
+// @media screen and (max-width:#{$table-width} ){
+//   .footer-container{
+//   }
+// }
 @media screen and (max-width:#{$phone-width} ){
   .footer-link h2{
     font-size: 22px;
