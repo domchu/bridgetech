@@ -66,7 +66,7 @@ const ProjectCont = [
     id: "8",
     image: "/images/project3.jpg",
     title: "Mobile App Development",
-    url: "/",
+    url: "/projects/mobile",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
