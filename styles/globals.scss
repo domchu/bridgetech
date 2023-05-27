@@ -2996,9 +2996,12 @@ figure.card>figcaption{
   max-width: 790px;
 }
 .project-details-title {
-  margin-top: 0px;
+  margin-top: 0px ;
+  margin-bottom:20px;
+  font-family: Rajdhani, sans-serif;
   color: #023e8a;
-  font-size: 38px;
+  font-size: 46px !important;
+font-weight: 700;
 }
 
 .project-top-rich-text-block {
@@ -3014,9 +3017,12 @@ figure.card>figcaption{
 .project-details-subtile-title {
   margin-top: 0px;
   margin-bottom: 20px;
+  font-family: Rajdhani, sans-serif;
   color: #023e8a;
-  font-size: 38px;
+  font-size: 46px !important;
+font-weight: 700;
 }
+
 .project-info-block {
   display: flex;
   margin-bottom: 50px;
@@ -3036,9 +3042,7 @@ figure.card>figcaption{
   font-size: 20px;
 }
 .how-to-block {
- 
   display: flex;
- 
   align-items: center;
   grid-column-gap: 80px;
   grid-row-gap: 80px;
@@ -3046,18 +3050,7 @@ figure.card>figcaption{
 .how-to-left-block {
   max-width: 560px;
 }
-.project-details-subtile-title {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  color: #023e8a;
-  font-size: 38px;
-}
-.project-details-subtile-title {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  color: #023e8a;
-  font-size: 38px;
-}
+
 .project-list-block {
   display: grid;
   margin-top: 30px;
@@ -3084,16 +3077,13 @@ figure.card>figcaption{
 p {
   margin-bottom: 15px;
 }
-.details-name {
-  font-family: Rajdhani, sans-serif;
-  color: #023e8a;
-  font-size: 46px;
-  font-weight:700;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
+
 .w-richtext ul {
   overflow: hidden;
 }
+.list-special{
+  display: flex;
+}
+
 
 

@@ -108,8 +108,8 @@ const SingleProject = () => {
                   </Box>
                 </Box>
               </Box>
-              <Box className="project-result-block">
-                <h2 className="project-details-subtile-title ">
+              <Box className="project-result-block ">
+                <h2 className="project-details-subtile-title section-title ">
                   Project Result & Benefits of Project
                 </h2>
                 <Box className="w-richtext">
@@ -148,7 +148,7 @@ const SingleProject = () => {
                     src={WebIm}
                     alt="People Working"
                     loading="lazy"
-                    className="image-cover"
+                    className="image-cover img"
                   />
                 </Box>
                 <Box className="project-list-content">
@@ -164,23 +164,21 @@ const SingleProject = () => {
                       eligendi optio cumque nihil impedit quo minus id quod
                       maxime placeat
                     </p>
-                    <ul role="list">
-                      <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </li>
-                      <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </li>
-                      <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </li>
-                    </ul>
+                    <Box className="li">
+                      IT Management provide the most service neque porro
+                      quisquam est qui dolorem ipsum quia golor sit amet, conse
+                      ctetur, adipisci velit
+                    </Box>
+                    <Box className="li">
+                      IT Management provide the most service neque porro
+                      quisquam est qui dolorem ipsum quia golor sit amet, conse
+                      ctetur, adipisci velit
+                    </Box>
+                    <Box className="li">
+                      IT Management provide the most service neque porro
+                      quisquam est qui dolorem ipsum quia golor sit amet, conse
+                      ctetur, adipisci velit
+                    </Box>
                   </Box>
                 </Box>
               </Box>

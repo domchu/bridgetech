@@ -234,7 +234,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              © 2023 BridgeTech, All right reserved. designed and developed by
+              © 2023 Bridgekode, All rights reserved. Designed and developed by
               <Link
                 href="https://www.linkedin/in/dominic-ochu/"
                 target="_blank"
