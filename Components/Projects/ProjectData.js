@@ -11,8 +11,8 @@ const ProjectCont = [
   {
     id: "2",
     image: "/images/project2.jpg",
-    title: "Digital Marketing",
-    url: "/",
+    title: "E-commerce Website",
+    url: "/projects/ecommerce",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
