@@ -11,7 +11,7 @@ const Form = () => {
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
                 <form
-                  action=""
+                  action="value"
                   id="wf-form-contact-form"
                   className="contact-form"
                   name="wf-form-Contact-form"

@@ -51,7 +51,7 @@ const Login = () => {
                 </Box>
                 <Box className="section-form-block w-form">
                   <form
-                    action=""
+                    action="value"
                     id="wf-form-login-form"
                     className="login-form"
                     data-name="Login Form"
