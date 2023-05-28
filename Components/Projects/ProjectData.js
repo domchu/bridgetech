@@ -56,7 +56,7 @@ const ProjectCont = [
   {
     id: "7",
     image: "/images/project7.jpg",
-    title: "Schools Database",
+    title: "School Database",
     url: "/projects/database",
     projectUrl: "https://www.google.com",
     comments:
@@ -74,8 +74,8 @@ const ProjectCont = [
   {
     id: "9",
     image: "/images/project1.jpg",
-    title: "web Design Training",
-    url: "/",
+    title: "Web Design Tutorials",
+    url: "/projects/training",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
