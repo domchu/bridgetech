@@ -101,8 +101,8 @@ const ProjectCont = [
   {
     id: "12",
     image: "/images/project5.jpg",
-    title: "IT Setup/Consultancy",
-    url: "/",
+    title: "Hardware & Networking",
+    url: "/projects/network",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",

@@ -35,7 +35,11 @@ const ServiceProvide = () => {
                       href="/services/service-home"
                       className="section-page-link w-inline-block arrow-right"
                     >
-                      <Image src={ArrowIcon} alt="Arrow Icon" loading="lazy" />
+                      <Image
+                        src={ArrowIcon}
+                        alt="Forward Arrow Icon"
+                        loading="lazy"
+                      />
                     </Link>
                   </Box>
                   <Box className="service-collection-list-wrapper w-dyn-list">
@@ -54,7 +58,7 @@ const ServiceProvide = () => {
                           >
                             <Image
                               src={project5}
-                              alt="Web Development"
+                              alt="Web Development Image"
                               loading="lazy"
                               className="image-responsive img"
                             />
@@ -88,7 +92,7 @@ const ServiceProvide = () => {
                           >
                             <Image
                               src={project10}
-                              alt="Web Design Training"
+                              alt="Web Design Training Image"
                               loading="lazy"
                               className="image-responsive img"
                             />
@@ -98,7 +102,7 @@ const ServiceProvide = () => {
                               href="/services/web-design-training"
                               className="service-title-link"
                             >
-                              Web Design Training
+                              Web Design Tutorals
                             </Link>
                             <Box className="section-text">
                               web dev. training programs for students interested
@@ -121,7 +125,7 @@ const ServiceProvide = () => {
                           >
                             <Image
                               src={project2}
-                              alt="Graphics Design"
+                              alt="Graphics Design Image"
                               loading="lazy"
                               className="image-responsive img"
                             />
