@@ -2491,6 +2491,9 @@ p {
 }
 
 .team-view-profile-button {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
   padding: 8px 20px;
   border-radius: 20.37px;
   background-image: linear-gradient(90deg, #0179af, #023e8a);
