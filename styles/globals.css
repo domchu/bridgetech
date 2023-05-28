@@ -3230,8 +3230,8 @@ figure.card > figcaption {
   font-size: 20px;
 }
 
-p {
-  margin-bottom: 15px;
+.p {
+  margin-bottom: 20px;
 }
 
 .w-richtext ul {

@@ -238,6 +238,7 @@ const Footer = () => {
               <Link
                 href="https://www.linkedin/in/dominic-ochu/"
                 target="_blank"
+                rel="nofollow"
               >
                 Mr.Dominic
               </Link>

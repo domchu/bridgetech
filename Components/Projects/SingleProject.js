@@ -69,7 +69,7 @@ const SingleProject = ({ title }) => {
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="w-richtext">
-                      <p>
+                      <p className="p">
                         IT Consultancy provide the most service neque porro
                         quisquam est qui dolorem ipsum quia golor sit amet,
                         conse ctetur, adipisci velit
@@ -83,7 +83,7 @@ const SingleProject = ({ title }) => {
                     </Box>
                   </Box>
                   <Box className="w-richtext">
-                    <p>
+                    <p className="p">
                       The main way to solve the the best quality It solution
                       neque porro quisquam qui dolorem ipsum quia golor sit
                       amet, conse ctetur, adipisci velit, sed eligendi optio
@@ -159,24 +159,24 @@ const SingleProject = ({ title }) => {
                     that your company faces and we try to solve it.
                   </Box>
                   <Box className="w-richtext">
-                    <p>
+                    <p className="p">
                       We are <strong>Optitech</strong> provide the best quality
                       It solution neque porro quisquam est qui dolorem ipsum
                       quia golor sit amet, conse ctetur, adipisci velit, sed
                       eligendi optio cumque nihil impedit quo minus id quod
                       maxime placeat
                     </p>
-                    <Box className="li">
+                    <Box className="li p">
                       IT Management provide the most service neque porro
                       quisquam est qui dolorem ipsum quia golor sit amet, conse
                       ctetur, adipisci velit
                     </Box>
-                    <Box className="li">
+                    <Box className="li p">
                       IT Management provide the most service neque porro
                       quisquam est qui dolorem ipsum quia golor sit amet, conse
                       ctetur, adipisci velit
                     </Box>
-                    <Box className="li">
+                    <Box className="li p">
                       IT Management provide the most service neque porro
                       quisquam est qui dolorem ipsum quia golor sit amet, conse
                       ctetur, adipisci velit
