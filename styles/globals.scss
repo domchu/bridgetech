@@ -1087,8 +1087,8 @@ color: var(--primary-clr-2);
 // form css
 .contact-form-wrapper {
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1209,6 +1209,7 @@ color: var(--primary-clr-2);
     grid-auto-columns: 1fr;
     grid-template-rows: auto;
   }
+  
   .contact-map-block {
     min-height: 320px;
   }
