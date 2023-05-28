@@ -20,8 +20,8 @@ const ProjectCont = [
   {
     id: "3",
     image: "/images/project3.jpg",
-    title: "IT Management",
-    url: "/",
+    title: "Blog Website",
+    url: "/projects/blog",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
@@ -39,7 +39,7 @@ const ProjectCont = [
     id: "5",
     image: "/images/project5.jpg",
     title: "Graphics Design",
-    url: "/",
+    url: "/projects/graphics",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
