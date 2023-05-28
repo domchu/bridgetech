@@ -56,8 +56,8 @@ const ProjectCont = [
   {
     id: "7",
     image: "/images/project7.jpg",
-    title: "Schools Portal/Database",
-    url: "/",
+    title: "Schools Database",
+    url: "/projects/database",
     projectUrl: "https://www.google.com",
     comments:
       "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
