@@ -1200,11 +1200,7 @@ color: var(--primary-clr-2);
   .section-gap-bottom-130 {
     padding-bottom: 60px;
   }
-  .contact-input-group {
-    flex-direction: column;
-    grid-row-gap: 20px;
-    grid-template-columns: 1fr;
-  }
+ 
  
 }
 @media screen and (max-width:#{$phone-width}) {
@@ -1225,6 +1221,12 @@ color: var(--primary-clr-2);
     padding-top: 70px;
     padding-bottom: 100px;
   }
+  #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
+    grid-column-start: span 3;
+    grid-column-end: span 3;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
 }
 
 
@@ -1243,8 +1245,9 @@ color: var(--primary-clr-2);
   grid-row-start: span 1;
   grid-row-end: span 1;
   grid-column-start: span 3;
-  grid-column-end: span 3;
+  // grid-column-end: span 3;
 }
+
 .quote-input-group {
   display: grid;
   width: 100%;
@@ -1388,12 +1391,25 @@ ul{
   grid-row-gap: 20px;
 }
 #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
-  grid-column-start: span 3;
+  grid-column-start: span 1;
   grid-column-end: span 3;
   grid-row-start: span 1;
   grid-row-end: span 1;
 }
-@media screen and (max-width:#{$tablet-width}) {}
+@media screen and (max-width:#{$tablet-width}) {
+  #Product-Budget-2.w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 3;
+    grid-column-end: span 3;
+  }
+  #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
+    grid-column-start: span 1;
+    grid-column-end: span 3;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+}
 @media screen and (max-width:#{$phone-width}) {
   .contact-input-group {
     flex-direction: column;
@@ -1414,15 +1430,23 @@ ul{
   #Product-Budget-2.w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 {
     grid-row-start: span 1;
     grid-row-end: span 1;
+    // grid-column-start: span 3;
+    // grid-column-end: span 3;
+  }
+  #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
     grid-column-start: span 3;
     grid-column-end: span 3;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
   }
-  
-  
- 
-  
- 
-
+}
+@media screen and (max-width:#{360px}) {
+  #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
+    grid-column-start: span 3;
+    grid-column-end: span 3;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
 }
 
 
