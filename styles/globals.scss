@@ -1084,7 +1084,7 @@ color: var(--primary-clr-2);
   padding-bottom: 100px;
 }
 
-// form css
+// FORM CSS
 .contact-form-wrapper {
   display: flex;
   padding-right: 80px;
@@ -1192,6 +1192,11 @@ color: var(--primary-clr-2);
     grid-template-columns: 1fr;
     padding:0px 15px;
   }
+  .contact-form-wrapper {
+    padding-right: 40px;
+    padding-left: 40px;
+   
+  }
   .section-gap-bottom-130 {
     padding-bottom: 60px;
   }
@@ -1265,11 +1270,7 @@ label {
   align-items: center;
   align-self: flex-start;
 }
-// element {
-//   opacity: 0;
-//   position: absolute;
-//   z-index: -1;
-// }
+
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
@@ -1278,12 +1279,7 @@ input[type="checkbox"] {
   border-color: #5853ec;
   
   }
-// .w-checkbox-input--inputType-custom.w--redirected-focus {
-//   box-shadow: 0px 0px 3px 1px #3898EC;
-// }
-// .checkbox.w--redirected-focus {
-//   box-shadow: 0px 0px 3px 1px #3898EC;
-// }
+
 .checkbox {
   width: 20px;
   height: 20px;
@@ -1332,12 +1328,6 @@ input[type="checkbox"] {
 .checkbox.no-padding-checkbox {
   margin-top: 0px;
 }
-
-// .checkbox:hover {
-//   opacity: 0;
-//   position: absolute;
-//   z-index: -1;
-// }
 .w-checkbox::before {
   content: ' ';
   display: table;
@@ -1354,10 +1344,7 @@ label{
   width: 100%;
   margin-bottom: 0px;
 }
-// #inputs-bold{
-//   color: var(--clr-black);
-//   font-size:30px;
-// }
+
 
 .checkbox.w--redirected-checked {
   border-color: #0077b6;
@@ -1401,9 +1388,38 @@ ul{
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
+@media screen and (max-width:#{$tablet-width}) {}
+@media screen and (max-width:#{$phone-width}) {
+  .contact-input-group {
+    flex-direction: column;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .quote-form-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .quote-input-group {
+    
+    flex-direction: column;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .contact-input-group {
+    width: 300px;
+  }
+  
+  #w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7 {
+    grid-column-start: span 3;
+    grid-column-end: span 3;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+
+}
 
 
-// home css
+// HOME PAGE CSS.
 .hero-background {
   position: relative;
   padding-top: 180px;

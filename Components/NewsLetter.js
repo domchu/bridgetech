@@ -106,7 +106,6 @@ const NewsLetter = ({ status, message, onValidated }) => {
                       value="Send Now"
                       data-wait="please wait..."
                       className="primary-button newsletter-button w-button"
-                      // onClick={handleFormSubmit}>
                       onClick={handleFormSubmit}
                     />
                   </form>
