@@ -15,7 +15,7 @@ const ProjectCont = [
     url: "/projects/ecommerce",
     projectUrl: "https://www.google.com",
     comments:
-      "These E-commerce website was done using Content Management System[CMS] (WordPress), Sass, and others Plugins like liveChats, Google Analytics etc & included payments gateway, delivery service etc.",
+      "These E-commerce website was done using Content Management System[CMS]  Sass & others Plugins like liveChats, Google Analytics, payments gateway, delivery service etc.",
   },
   {
     id: "3",
@@ -33,7 +33,7 @@ const ProjectCont = [
     url: "/projects/software",
     projectUrl: "https://www.google.com",
     comments:
-      "These Bridgekode website was created by Nextjs, Reactjs, JavaScript, Chakra-Ui, Sass, CSS3, Html5, Next-SEO and others libraries etc.",
+      "These Bridgekode website was created/designed using Nextjs, Reactjs, JavaScript, Chakra-Ui, Sass, CSS3, Html5, Next-SEO and others libraries etc.",
   },
   {
     id: "5",

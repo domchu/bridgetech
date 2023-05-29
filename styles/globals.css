@@ -788,7 +788,7 @@ nav {
 }
 
 .project__contents h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   color: var(--clr-white);
   font-family: Rajdhani, sans-serif;
   font-size: 18px;
@@ -2920,7 +2920,7 @@ article.nextSlide {
 }
 
 .current {
-  background-color: red;
+  background-color: red !important;
 }
 
 .course-detail {
