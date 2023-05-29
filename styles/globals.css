@@ -788,7 +788,7 @@ nav {
 }
 
 .project__contents h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   color: var(--clr-white);
   font-family: Rajdhani, sans-serif;
   font-size: 18px;
@@ -1112,8 +1112,8 @@ strong {
 
 .contact-form-wrapper {
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -2491,6 +2491,9 @@ p {
 }
 
 .team-view-profile-button {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
   padding: 8px 20px;
   border-radius: 20.37px;
   background-image: linear-gradient(90deg, #0179af, #023e8a);
@@ -2917,7 +2920,7 @@ article.nextSlide {
 }
 
 .current {
-  background-color: red;
+  background-color: red !important;
 }
 
 .course-detail {

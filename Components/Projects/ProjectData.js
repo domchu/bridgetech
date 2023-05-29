@@ -6,7 +6,7 @@ const ProjectCont = [
     url: "/projects/website",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These project was carried out with technologies like Reactjs, Nextjs, Jvascript, Sass, Html5, CSS3, Chakra-Ui, React-icons etc. ",
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const ProjectCont = [
     url: "/projects/ecommerce",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These E-commerce website was done using Content Management System[CMS]  Sass & others Plugins like liveChats, Google Analytics, payments gateway, delivery service etc.",
   },
   {
     id: "3",
@@ -24,7 +24,7 @@ const ProjectCont = [
     url: "/projects/blog",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These blog website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics etc.",
   },
   {
     id: "4",
@@ -33,7 +33,7 @@ const ProjectCont = [
     url: "/projects/software",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These Bridgekode website was created/designed using Nextjs, Reactjs, JavaScript, Chakra-Ui, Sass, CSS3, Html5, Next-SEO and others libraries etc.",
   },
   {
     id: "5",
@@ -51,7 +51,7 @@ const ProjectCont = [
     url: "/projects/movie",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These Movie Engine was designed using JavaScript, Typescript, Chakra-Ui, Sass, CSS3, Html5, and others libraries etc.",
   },
   {
     id: "7",
@@ -60,7 +60,7 @@ const ProjectCont = [
     url: "/projects/database",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
   },
   {
     id: "8",
@@ -78,7 +78,7 @@ const ProjectCont = [
     url: "/projects/training",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "Bridgekode specialized in kids coding programming at home, school pupils/students and youths across ages as career path in IT skills to financial stability",
   },
   {
     id: "10",
@@ -87,16 +87,16 @@ const ProjectCont = [
     url: "/projects/crypto",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These cryptocurrency website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics, difference payments gateway etc.",
   },
   {
     id: "11",
     image: "/images/project9.jpg",
-    title: "UI / UX Design",
+    title: "Opay UI/UX Design",
     url: "/projects/ux",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These wireframes was designed using illustrator, Figma, and others designed tools. ",
   },
   {
     id: "12",

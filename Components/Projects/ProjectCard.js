@@ -95,7 +95,7 @@ const ProjectCard = () => {
           </li>
           {numbers.map((n, i) => (
             <li
-              className={`page-item${currentPage === n ? "current" : ""}`}
+              className={`page-item ${currentPage === n ? "current" : ""}`}
               key={i}
             >
               <button className="page-link" onClick={() => changeCPage(n)}>
