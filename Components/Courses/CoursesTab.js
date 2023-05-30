@@ -109,6 +109,11 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Graphics Design</h2>
+                        <Box>
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation.
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #60,000</p>
