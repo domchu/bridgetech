@@ -3002,7 +3002,7 @@ figcaption {
 }
 
 .card {
-  height: 370px;
+  height: 400px;
   width: 320px;
 }
 
@@ -3055,6 +3055,12 @@ figure.card > figcaption {
 .card:hover .course-image {
   transition: 0.5s;
   filter: blur(3px);
+}
+
+.course-text {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 7px;
 }
 
 @media screen and (max-width: 768px) {
