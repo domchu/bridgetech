@@ -274,7 +274,10 @@ const Quotes = () => {
                       </Box>
                     </Box>
                     {/* quote right */}
-                    <Box className="quote-input-right-block">
+                    <Box
+                      className="quote-input-right-block"
+                      id="w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7"
+                    >
                       <Box className="quote-input-group-item">
                         <Box className="quote-subtitle">
                           When should we start?
@@ -307,7 +310,10 @@ const Quotes = () => {
                       </Box>
                     </Box>
                   </Box>
-                  <Box className="contact-input-group">
+                  <Box
+                    className="contact-input-group"
+                    id="w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7"
+                  >
                     <Box className="quote-subtitle">What's your budget?</Box>
                     <input
                       type="number"
