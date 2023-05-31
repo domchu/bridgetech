@@ -2861,9 +2861,21 @@ figcaption {
 }
 
 .card{
-  height: 400px;
+  height: 420px;
 width: 320px;
+border-radius: 5px;
+overflow:hidden;
 }
+.card:hover{
+  color: #000;
+  background-color: #c0c0c0;
+  box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15), 
+              inset 0px 4px 8px rgba(0,0,0,0.15), 
+              inset 0px 8px 16px rgba(0,0,0,0.15);
+  transition: 0.2s;
+  transform: translateY(10px);
+}
+
 .course-content{
   display:flex;
   justify-content:space-between;
@@ -2878,6 +2890,7 @@ figure.card{
   position:relative;
 }
 figure.card>img{
+  
   grid-area:" stack";
   object-fit: cover;
   place-self: stretch;
@@ -2904,10 +2917,7 @@ figure.card>figcaption{
   column-gap: 35px;
   row-gap: 40px;
 }
-.card:hover .course-image{
-  transition: 0.5s;
-  filter: blur(3px);
-}
+
 .course-text{
 font-size: 16px;
 text-align: left;
