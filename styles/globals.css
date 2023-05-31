@@ -3368,7 +3368,7 @@ figure.card > figcaption {
 .back-to-top {
   position: fixed;
   z-index: 5;
-  bottom: 15vh;
+  bottom: 12vh;
   background-color: #dcdcdc;
   color: var(--primary-clr-5);
   right: 5%;
