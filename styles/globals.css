@@ -886,6 +886,10 @@ nav {
   font-family: Rajdhani, sans-serif;
 }
 
+.service-text {
+  text-align: left;
+}
+
 .section-text {
   margin-bottom: 20px;
   font-weight: 500;

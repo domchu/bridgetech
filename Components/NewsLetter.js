@@ -74,7 +74,7 @@ const NewsLetter = ({ status, message, onValidated }) => {
                 <Box className="section-text">
                   Subscribe to our newsletter for get laset update of
                   <span className="newsletter-text-span">
-                    news, offers, promotions, blog post
+                     news, offers, promotions, blog post
                   </span>
                   in which toil and pain can procure him some great pleasure.
                 </Box>

@@ -42,8 +42,9 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>School Website</h3>
                       </Link>
-                      <p>
-                      Technologies used to developed Keyonaville schools are  Javascript, Next.js, React.js, Chakra-Ui, etc.
+                      <p className="service-text">
+                        Technologies used to developed Keyonaville schools are
+                        Javascript, Next.js, React.js, Chakra-Ui, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -67,8 +68,9 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>Bridgetech Website</h3>
                       </Link>
-                      <p>
-                        Technologies used to developed bridgekode are  Javascript, Next.js, React.js, Chakra-Ui, etc.
+                      <p className="service-text">
+                        Technologies used to developed bridgekode are
+                        Javascript, Next.js, React.js, Chakra-Ui, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -92,8 +94,9 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>School Portal/Database</h3>
                       </Link>
-                      <p>
-                      Technologies used to developed Keyonaville school portal are PHP, MySQL, laravel, Mantie, etc.
+                      <p className="service-text">
+                        Technologies used to developed Keyonaville school portal
+                        are PHP, MySQL, laravel, Mantie, etc.
                       </p>
                       <Link href="/">
                         <Image
@@ -117,7 +120,7 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>Bridgetech Blogging</h3>
                       </Link>
-                      <p>
+                      <p className="service-text">
                         The technologies used for these project are Contents
                         Management system[CMS], plugins, CSS etc
                       </p>
@@ -143,7 +146,7 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>Web Dev Training</h3>
                       </Link>
-                      <p>
+                      <p className="service-text">
                         Bridgekode train students/kids on web development with
                         HTML, CSS, Bootstrap, WordPress and JavaScript
                       </p>
@@ -169,7 +172,7 @@ const LatestProject = () => {
                       <Link href="/">
                         <h3>Opay UX/UI Design</h3>
                       </Link>
-                      <p>
+                      <p className="service-text">
                         The wireframe or template was done by the uses of Figma,
                         Illustrator, etc.
                       </p>

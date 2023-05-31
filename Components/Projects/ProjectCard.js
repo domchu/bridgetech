@@ -71,7 +71,7 @@ const ProjectCard = () => {
                   <Link href={url}>
                     <h3>{title}</h3>
                   </Link>
-                  <p>{comments}</p>
+                  <p className="service-text">{comments}</p>
                   <Link href={projectUrl} target="_blank" rel="nofollow">
                     <Image
                       src={arrow}
