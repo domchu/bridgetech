@@ -231,7 +231,8 @@ const Footer = () => {
               </Box>
             </Box>
           </Flex>
-          <ScrollToTop />
+          {/* <ScrollToTop showBelow={250} /> */}
+          {/* <h1>gghjhjjj</h1> */}
         </Box>
         <div className="footer-bottom">
           <Box className="copy-right">
