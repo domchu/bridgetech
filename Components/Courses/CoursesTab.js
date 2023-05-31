@@ -67,6 +67,12 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Web development</h2>
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #100,000</p>
@@ -88,6 +94,12 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">UX/UI Design</h2>
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #80,000</p>
@@ -109,6 +121,13 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Graphics Design</h2>
+
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #60,000</p>
@@ -130,6 +149,12 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Branding & SEO</h2>
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #45,000</p>
@@ -151,6 +176,12 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Software Development</h2>
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #150,000</p>
@@ -172,6 +203,12 @@ const CoursesTab = () => {
                       />
                       <figcaption>
                         <h2 className="section-text">Contents Writing</h2>
+                        <Box className="course-text">
+                          Bridgekode is a strategic technology partner for
+                          custom software development services and staff
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
+                        </Box>
                         <Box className="course-content">
                           <Box className="price">
                             <p>Price: #50,000</p>

@@ -29,7 +29,12 @@ const Topnav = () => {
               height="auto"
               margin="auto"
               width="auto"
-              flexWrap="wrap"
+              flexWrap={{
+                base: "wrap",
+                sm: "nowrap",
+                md: "nowrap",
+                lg: "nowrap",
+              }}
             >
               <Box>
                 <li className="topnav-links">

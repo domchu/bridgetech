@@ -890,6 +890,7 @@ nav {
   margin-bottom: 20px;
   font-weight: 500;
   font-family: Rajdhani, sans-serif;
+  font-size: 18px;
 }
 
 .newsletter-form {
@@ -3002,8 +3003,17 @@ figcaption {
 }
 
 .card {
-  height: 370px;
+  height: 420px;
   width: 320px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: #c0c0c0;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15), inset 0px 4px 8px rgba(0, 0, 0, 0.15), inset 0px 8px 16px rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+  transform: translateY(10px);
 }
 
 .course-content {
@@ -3031,7 +3041,7 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  background-color: rgba(41, 41, 43, 0.5019607843);
+  background-color: rgba(50, 50, 50, 0.5019607843);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;
@@ -3052,9 +3062,10 @@ figure.card > figcaption {
   row-gap: 40px;
 }
 
-.card:hover .course-image {
-  transition: 0.5s;
-  filter: blur(3px);
+.course-text {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 7px;
 }
 
 @media screen and (max-width: 768px) {
@@ -3069,6 +3080,13 @@ figure.card > figcaption {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
+  }
+  .card {
+    height: 420px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #989898, 5px 5px 10px #989898;
   }
 }
 .team-details-block {
