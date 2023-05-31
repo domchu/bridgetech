@@ -3364,4 +3364,23 @@ figure.card > figcaption {
   .project-list-subtitle {
     font-size: 17px;
   }
+}
+.back-to-top {
+  position: fixed;
+  z-index: 5;
+  bottom: 12vh;
+  background-color: #dcdcdc;
+  color: var(--primary-clr-5);
+  right: 5%;
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.back-to-top:hover {
+  transition: 0.3s;
+  color: var(--primary-clr-2);
+  background-color: #dcdcdc;
 }/*# sourceMappingURL=globals.css.map */
