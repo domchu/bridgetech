@@ -3205,19 +3205,26 @@ font-weight: 700;
 
 
 // BACK TO TOP
-.scroll-back-container{
-  // height:20px;
-  // width:20px;
-  // border-radius:50%;
-  // background-color:var(--clr-white);
-  // position:absolute;
-  // z-index:5
-}
-.back__to__top{
-  // color: var(--clr-white);
-  // font-size: 2rem;
-  // display:flex;
-  // justify-content:end;
+
+.back-to-top{
+  position: fixed;
+  z-index: 5;
+  bottom: 15vh;
+  background-color: #dcdcdc;
+  // color: var(--clr-black);
+  // color: #397ba6;
+  color:var(--primary-clr-5);
+  right: 5%;
+  padding:7px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 600;
  
+}
+.back-to-top:hover{
+  transition: 0.3s;
+  color: var(--primary-clr-2);
+  background-color: #dcdcdc;
 }
 

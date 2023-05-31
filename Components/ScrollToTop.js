@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Box } from "@chakra-ui/react";
 import { FaChevronUp } from "react-icons/fa";
 
-const ScrollToTop = (ShowBelow) => {
-  const [show, setShow] = useState(ShowBelow ? false : true);
+const Scroll = ({ showBelow }) => {
+  const [show, setShow] = useState(showBelow ? false : true);
 
   const handleScroll = () => {
-    if (window.pageYOffset > ShowBelow) {
+    if (window.pageYOffset > showBelow) {
       if (!show) setShow(true);
     } else {
       if (show) setShow(false);
@@ -14,7 +14,7 @@ const ScrollToTop = (ShowBelow) => {
   };
 
   useEffect(() => {
-    if (ShowBelow) {
+    if (showBelow) {
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
     }
@@ -25,15 +25,14 @@ const ScrollToTop = (ShowBelow) => {
   };
 
   return (
-    <>
+    <Box>
       {show && (
-        <Box className="scroll-back-container" onClick={handleClick}>
+        <Box onClick={handleClick} className="back-to-top">
           <FaChevronUp />
-          <h1>Back to top</h1>
         </Box>
       )}
-    </>
+    </Box>
   );
 };
 
-export default ScrollToTop;
+export default Scroll;

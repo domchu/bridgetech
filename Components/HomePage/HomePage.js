@@ -20,8 +20,11 @@ const HomePage = () => {
   return (
     <>
       {/* HERO SECTION OF THE HOME PAGE */}
+
+      {/* BACK TO TOP ICON */}
       <ScrollToTop showBelow={250} />
-        <FaChevronUp />
+      {/* BACK TO TOP ICON */}
+
       <Box className="hero-background">
         <Box className="container w-container">
           <Box className="hero-container-wrapper">
