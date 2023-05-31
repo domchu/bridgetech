@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import { ChakraBaseProvider  } from '@chakra-ui/react'
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
+import ScrollToTop from "../Components/ScrollToTop";
 
 const linkTags = [
   {
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider theme={theme}>
         <DefaultSeo additionalLinkTags={linkTags} {...SEO} />
         <Component {...pageProps} />
+        <ScrollToTop showBelow={250} />
       </ChakraProvider>
     </ChakraBaseProvider>
   );
