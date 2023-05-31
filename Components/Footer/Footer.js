@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { Flex, Box } from "@chakra-ui/react";
 import BrandWhite from "../../public/images/bridgekode-white.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import ScrollToTop from "../ScrollToTop";
 
 const Footer = () => {
   const router = useRouter();
@@ -230,6 +231,7 @@ const Footer = () => {
               </Box>
             </Box>
           </Flex>
+          <ScrollToTop />
         </Box>
         <div className="footer-bottom">
           <Box className="copy-right">
