@@ -2937,6 +2937,16 @@ padding-left:7px;
   grid-template-columns: repeat(1, 1fr);
   place-items: center;
 }
+.card {
+  height: 420px;
+  width:100%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow:  5px 5px 10px #989898,
+             5px 5px 10px #989898;
+  
+}
+
 }
 
 // TEAM PROFILE
