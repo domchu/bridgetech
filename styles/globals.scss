@@ -873,6 +873,7 @@ margin-bottom: 10px;
   margin-bottom: 20px;
   font-weight: 500;
   font-family: Rajdhani, sans-serif;
+  font-size: 18px;
 }
 .newsletter-form{
   position: relative;
@@ -2867,7 +2868,7 @@ border-radius: 5px;
 overflow:hidden;
 }
 .card:hover{
-  color: #000;
+  
   background-color: #c0c0c0;
   box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15), 
               inset 0px 4px 8px rgba(0,0,0,0.15), 
@@ -2890,7 +2891,6 @@ figure.card{
   position:relative;
 }
 figure.card>img{
-  
   grid-area:" stack";
   object-fit: cover;
   place-self: stretch;
@@ -2899,7 +2899,7 @@ figure.card>img{
 figure.card>figcaption{
   align-self: last baseline;
   justify-self: stretch;
-  background-color: #29292b80;
+  background-color: #32323280;
   color: var(--clr-white);
   text-align: center;
   font-size:1.2rem;

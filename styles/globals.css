@@ -890,6 +890,7 @@ nav {
   margin-bottom: 20px;
   font-weight: 500;
   font-family: Rajdhani, sans-serif;
+  font-size: 18px;
 }
 
 .newsletter-form {
@@ -3009,7 +3010,6 @@ figcaption {
 }
 
 .card:hover {
-  color: #000;
   background-color: #c0c0c0;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15), inset 0px 4px 8px rgba(0, 0, 0, 0.15), inset 0px 8px 16px rgba(0, 0, 0, 0.15);
   transition: 0.2s;
@@ -3041,7 +3041,7 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  background-color: rgba(41, 41, 43, 0.5019607843);
+  background-color: rgba(50, 50, 50, 0.5019607843);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;

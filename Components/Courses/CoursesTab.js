@@ -70,7 +70,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
@@ -96,7 +97,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
@@ -123,7 +125,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
@@ -149,7 +152,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
@@ -175,7 +179,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
@@ -201,7 +206,8 @@ const CoursesTab = () => {
                         <Box className="course-text">
                           Bridgekode is a strategic technology partner for
                           custom software development services and staff
-                          augmentation.
+                          augmentation. Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Molestiae, expedita!
                         </Box>
                         <Box className="course-content">
                           <Box className="price">
