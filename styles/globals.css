@@ -666,8 +666,18 @@ nav {
   padding: 6rem 0px;
 }
 
+.project-wrapper {
+  margin: 4rem 0px;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
 .container {
-  max-width: 1024px;
+  max-width: 900px;
 }
 
 .w-container {
@@ -733,16 +743,6 @@ nav {
 
 .project-link {
   display: flex;
-}
-
-.project-wrapper {
-  margin: 3rem 0px;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
 }
 
 .project-item-wrapper {
