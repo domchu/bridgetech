@@ -73,7 +73,7 @@ const ServiceCard = () => {
                   <Link href={urlPath} className="service-title-link">
                     {title}
                   </Link>
-                  <Box className="section-text">{text}</Box>
+                  <Box className="section-text service-text">{text}</Box>
                 </Box>
               </Box>
             </Box>

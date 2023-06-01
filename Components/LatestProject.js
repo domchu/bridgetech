@@ -29,157 +29,199 @@ const LatestProject = () => {
                   affordable services completed.
                 </Box>
               </Box>
-              <Box className="project-wrapper">
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project2}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>School Website</h3>
-                      </Link>
-                      <p>
-                      Technologies used to developed Keyonaville schools are  Javascript, Next.js, React.js, Chakra-Ui, etc.
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+
+              <Box className="project-collection-list-wrapper">
+                <Box className="project-wrapper">
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project2}
+                        alt="School Image"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href="/projects/website">
+                          <h3>School Website</h3>
+                        </Link>
+                        <p className="service-text">
+                          Technologies used to developed Keyonaville schools are
+                          Javascript, Next.js, React.js, Chakra-Ui, etc.
+                        </p>
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project3}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>Bridgetech Website</h3>
-                      </Link>
-                      <p>
-                        Technologies used to developed bridgekode are  Javascript, Next.js, React.js, Chakra-Ui, etc.
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project3}
+                        alt="Bridgekode Website Image"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href="/projects/ecommerce">
+                          <h3>E-Commerce Website</h3>
+                        </Link>
+                        <p className="service-text">
+                          Technologies used to developed bridgekode are
+                          Javascript, Next.js, React.js, Chakra-Ui, etc.
+                        </p>
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project1}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>School Portal/Database</h3>
-                      </Link>
-                      <p>
-                      Technologies used to developed Keyonaville school portal are PHP, MySQL, laravel, Mantie, etc.
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project1}
+                        alt="School Dashboard Image"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href="/projects/database">
+                          <h3>School Portal/Database</h3>
+                        </Link>
+                        <p className="service-text">
+                          Technologies used to developed Keyonaville school
+                          portal are PHP, MySQL, laravel, Mantie, etc.
+                        </p>
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project6}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>Bridgetech Blogging</h3>
-                      </Link>
-                      <p>
-                        The technologies used for these project are Contents
-                        Management system[CMS], plugins, CSS etc
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project6}
+                        alt="Blogging Image"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href="/projects/blog">
+                          <h3>Bridgetech Blogging</h3>
+                        </Link>
+                        <p className="service-text">
+                          The technologies used for these project are Contents
+                          Management system[CMS], plugins, CSS etc
+                        </p>
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project7}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>Web Dev Training</h3>
-                      </Link>
-                      <p>
-                        Bridgekode train students/kids on web development with
-                        HTML, CSS, Bootstrap, WordPress and JavaScript
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project7}
+                        alt="Web Design Images"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href=" /projects/training">
+                          <h3>Web Dev Training</h3>
+                        </Link>
+                        <p className="service-text">
+                          Bridgekode train students/kids on web development with
+                          HTML, CSS, Bootstrap, WordPress and JavaScript
+                        </p>
+                        <Link
+                          href="/https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
-                </Box>
-                <Box className="project-item-wrapper">
-                  <Box className="project-collection">
-                    <Image
-                      src={project5}
-                      alt="Digital marketing"
-                      loading="lazy"
-                      className="project__img"
-                    />
-                    <Box className="project__contents">
-                      <Link href="/">
-                        <h3>Opay UX/UI Design</h3>
-                      </Link>
-                      <p>
-                        The wireframe or template was done by the uses of Figma,
-                        Illustrator, etc.
-                      </p>
-                      <Link href="/">
-                        <Image
-                          src={arrow}
-                          alt="Pointer"
-                          className="pointer-arrow"
-                        />
-                      </Link>
+                  <Box className="project-item-wrapper">
+                    <Box className="project-collection">
+                      <Image
+                        src={project5}
+                        alt="UI / UX Design Image"
+                        height={300}
+                        width={300}
+                        loading="lazy"
+                        className="project__img"
+                      />
+                      <Box className="project__contents">
+                        <Link href="/projects/ux">
+                          <h3>Opay UX/UI Design</h3>
+                        </Link>
+                        <p className="service-text">
+                          The wireframe or template was done by the uses of
+                          Figma, Illustrator, etc.
+                        </p>
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          <Image
+                            src={arrow}
+                            alt="Pointer"
+                            className="pointer-arrow"
+                          />
+                        </Link>
+                      </Box>
                     </Box>
                   </Box>
                 </Box>

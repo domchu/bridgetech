@@ -13,18 +13,13 @@ import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
-import ScrollToTop from "../ScrollToTop";
+
 import { FaChevronUp } from "react-icons/fa";
 
 const HomePage = () => {
   return (
     <>
       {/* HERO SECTION OF THE HOME PAGE */}
-
-      {/* BACK TO TOP ICON */}
-      <ScrollToTop showBelow={250} />
-      {/* BACK TO TOP ICON */}
-
       <Box className="hero-background">
         <Box className="container w-container">
           <Box className="hero-container-wrapper">

@@ -57,7 +57,7 @@ const ProjectCard = () => {
         const { id, title, url, comments, image, projectUrl } = ProjectDetail;
         return (
           <Box key={id}>
-            <Box className="project-item-wrapper">
+            <Box className="project-item-wrapper ">
               <Box className="project-collection">
                 <Image
                   src={image}
@@ -71,7 +71,7 @@ const ProjectCard = () => {
                   <Link href={url}>
                     <h3>{title}</h3>
                   </Link>
-                  <p>{comments}</p>
+                  <p className="service-text">{comments}</p>
                   <Link href={projectUrl} target="_blank" rel="nofollow">
                     <Image
                       src={arrow}

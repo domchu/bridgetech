@@ -70,7 +70,7 @@ const ServiceProvide = () => {
                             >
                               Website Design
                             </Link>
-                            <Box className="section-text">
+                            <Box className="section-text service-text">
                               Bridgekode's web design services aim to create
                               visually appealing, user-friendly, and
                               brand-aligned websites that leave a lasting
@@ -104,7 +104,7 @@ const ServiceProvide = () => {
                             >
                               Web Design Tutorals
                             </Link>
-                            <Box className="section-text">
+                            <Box className="section-text service-text">
                               web dev. training programs for students interested
                               in learning and acquiring skills in web design.
                               Their training programs are designed to provide
@@ -137,7 +137,7 @@ const ServiceProvide = () => {
                             >
                               Graphics Design
                             </Link>
-                            <Box className="section-text">
+                            <Box className="section-text service-text">
                               It aim to create visually compelling designs that
                               effectively communicate the client's message and
                               align with their branding. Whether it's for print
