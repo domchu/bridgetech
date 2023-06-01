@@ -2,7 +2,7 @@ const ProjectCont = [
   {
     id: "1",
     image: "/images/web.jpg",
-    title: "Web Development",
+    title: "School Website",
     url: "/projects/website",
     projectUrl: "https://www.google.com",
     comments:

@@ -43,14 +43,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
+                        <Link href="/projects/website">
                           <h3>School Website</h3>
                         </Link>
                         <p className="service-text">
                           Technologies used to developed Keyonaville schools are
                           Javascript, Next.js, React.js, Chakra-Ui, etc.
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
@@ -71,14 +75,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
-                          <h3>Bridgetech Website</h3>
+                        <Link href="/projects/ecommerce">
+                          <h3>E-Commerce Website</h3>
                         </Link>
                         <p className="service-text">
                           Technologies used to developed bridgekode are
                           Javascript, Next.js, React.js, Chakra-Ui, etc.
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
@@ -99,14 +107,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
+                        <Link href="/projects/database">
                           <h3>School Portal/Database</h3>
                         </Link>
                         <p className="service-text">
                           Technologies used to developed Keyonaville school
                           portal are PHP, MySQL, laravel, Mantie, etc.
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
@@ -127,14 +139,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
+                        <Link href="/projects/blog">
                           <h3>Bridgetech Blogging</h3>
                         </Link>
                         <p className="service-text">
                           The technologies used for these project are Contents
                           Management system[CMS], plugins, CSS etc
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
@@ -155,14 +171,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
+                        <Link href=" /projects/training">
                           <h3>Web Dev Training</h3>
                         </Link>
                         <p className="service-text">
                           Bridgekode train students/kids on web development with
                           HTML, CSS, Bootstrap, WordPress and JavaScript
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="/https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
@@ -183,14 +203,18 @@ const LatestProject = () => {
                         className="project__img"
                       />
                       <Box className="project__contents">
-                        <Link href="/">
+                        <Link href="/projects/ux">
                           <h3>Opay UX/UI Design</h3>
                         </Link>
                         <p className="service-text">
                           The wireframe or template was done by the uses of
                           Figma, Illustrator, etc.
                         </p>
-                        <Link href="/">
+                        <Link
+                          href="https://www.google.com"
+                          target="_blank"
+                          rel="nofollow"
+                        >
                           <Image
                             src={arrow}
                             alt="Pointer"
