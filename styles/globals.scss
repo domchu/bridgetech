@@ -748,8 +748,8 @@ color: var(--primary-clr-2);
 }
 .project-collection{
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
 }
 .project__img{
   border-radius: 10px;
@@ -779,7 +779,7 @@ color: var(--primary-clr-2);
 margin-bottom: 20px;
 color: var(--clr-white);
 font-family: Rajdhani, sans-serif;
-font-size: 18px;
+font-size: 20px;
 font-weight: 700;
 }
 .project__contents p{
@@ -806,7 +806,7 @@ font-family: Rajdhani, sans-serif;
 }
 .project-item-wrapper:hover .project__contents{
   opacity: 1;
-transform: translate3d(0px, -160px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+transform: translate3d(0px, -150px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
 transform-style: preserve-3d;
 }
 
@@ -2772,7 +2772,7 @@ article h4 {
   color: var(--clr-black);
   font-size: 18px;
   font-family: Rajdhani, sans-serif;
-  
+  font-weight: 500;
 }
 .icon {
   font-size: 2rem;
@@ -2956,7 +2956,6 @@ padding-left:7px;
   overflow: hidden;
   box-shadow:  5px 5px 10px #989898,
              5px 5px 10px #989898;
-  
 }
 
 }
@@ -3220,7 +3219,7 @@ font-weight: 700;
 // BACK TO TOP STYLES
 .back-to-top{
   position: fixed;
-  z-index: 5;
+  z-index: 20;
   bottom: 12vh;
   background-color: #dcdcdc;
   color:var(--primary-clr-5);

@@ -765,8 +765,8 @@ nav {
 
 .project-collection {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
 }
 
 .project__img {
@@ -799,7 +799,7 @@ nav {
   margin-bottom: 20px;
   color: var(--clr-white);
   font-family: Rajdhani, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -828,7 +828,7 @@ nav {
 
 .project-item-wrapper:hover .project__contents {
   opacity: 1;
-  transform: translate3d(0px, -160px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform: translate3d(0px, -150px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
   transform-style: preserve-3d;
 }
 
@@ -2925,6 +2925,7 @@ article h4 {
   color: var(--clr-black);
   font-size: 18px;
   font-family: Rajdhani, sans-serif;
+  font-weight: 500;
 }
 
 .icon {
@@ -3400,7 +3401,7 @@ figure.card > figcaption {
 }
 .back-to-top {
   position: fixed;
-  z-index: 5;
+  z-index: 20;
   bottom: 12vh;
   background-color: #dcdcdc;
   color: var(--primary-clr-5);

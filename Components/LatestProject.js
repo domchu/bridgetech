@@ -36,7 +36,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project2}
-                        alt="Digital marketing"
+                        alt="School Image"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
@@ -62,7 +64,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project3}
-                        alt="Digital marketing"
+                        alt="Bridgekode Website Image"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
@@ -88,7 +92,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project1}
-                        alt="Digital marketing"
+                        alt="School Dashboard Image"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
@@ -114,7 +120,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project6}
-                        alt="Digital marketing"
+                        alt="Blogging Image"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
@@ -140,7 +148,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project7}
-                        alt="Digital marketing"
+                        alt="Web Design Images"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
@@ -166,7 +176,9 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project5}
-                        alt="Digital marketing"
+                        alt="UI / UX Design Image"
+                        height={300}
+                        width={300}
                         loading="lazy"
                         className="project__img"
                       />
