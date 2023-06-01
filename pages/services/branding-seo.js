@@ -180,21 +180,8 @@ const brandingSeo = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolore ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil take a trivial example, which of us ever
-                      undertakes laborious physical exercise, except to obtain
-                      some advantage from more than a great service that we
-                      provide
+                    Branding refers to the process of creating a unique and memorable identity for a product, service, or company. It involves shaping the perception and image of a brand in the minds of consumers. Branding encompasses various elements, including the brand name, logo, tagline, visual design, messaging, and overall brand personality.
+                    SEO is the practice of optimizing a website or online content to improve its visibility and ranking in search engine results pages (SERPs). The aim of SEO is to drive organic (non-paid) traffic to a website by increasing its visibility for relevant search queries.
                     </p>
                   </Box>
                 </Box>
@@ -205,41 +192,21 @@ const brandingSeo = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                    In IT Management Service we cover most of the IT problems
-                    that your company faces and we try to solve it.
+                  When it comes to SEO (Search Engine Optimization), there are several key areas that you should cover to optimize your website and improve its visibility in search engine results pages (SERPs). 
                   </Box>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong>
-                      provide the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque qui dolorem ipsum quia golor sit amet, conse ctetur,
-                      adipisci velit, sed eligen optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                    You can enhance your website's visibility, attract organic traffic, and improve your search engine rankings. Keep in mind that SEO is an ongoing process, and it requires consistent effort and adaptation to stay ahead of the competition and deliver long-term results.
                     </p>
 
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Technical SEO: Ensure that your website has a solid technical foundation for search engines to crawl and index effectively. This involves optimizing website speed, implementing proper URL structures, utilizing canonical tags to manage duplicate content, optimizing robots.txt and XML sitemaps, and ensuring mobile-friendliness and responsive design.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Link Building: Build high-quality backlinks from reputable and relevant websites. Focus on acquiring natural and authoritative links through content promotion, guest blogging, influencer outreach, and participating in industry-specific directories. Quality backlinks can boost your website's authority and improve search engine rankings.
                       </li>
-                      <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </li>
+                      
                     </ul>
                   </Box>
                 </Box>
@@ -267,54 +234,25 @@ const brandingSeo = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                    SEO (Search Engine Optimization) involves a combination of strategies, techniques, and best practices aimed at improving a website's visibility and ranking in search engine results pages (SERPs). Here's a general overview of how SEO works:
                     </p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="service-quote w-richtext">
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Keyword Research: SEO begins with keyword research to identify the search terms and phrases that users commonly use when looking for products, services, or information related to your business. By understanding these keywords, you can optimize your website's content to align with user intent.
                       </p>
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Content Creation and Optimization: Content plays a crucial role in SEO. Creating high-quality, original, and relevant content that addresses the needs and interests of your target audience is essential. Optimizing your content with targeted keywords, using proper formatting and headings, incorporating multimedia elements, and providing a great user experience are key aspects of content optimization.
                       </p>
                     </Box>
                     <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
-                      The main way to solve the the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                    Remember that SEO is a long-term process, and it takes time to see results. Consistency, patience, and staying updated with SEO practices are key to achieving and maintaining good search engine rankings and organic traffic for your website.
                     </p>
-                    <p>
-                      Great deal dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit, sed optio cumque nihil impedit quo
-                      minus id quod maxime placeat
-                    </p>
+                    
                   </Box>
                 </Box>
               </Box>
@@ -325,35 +263,17 @@ const brandingSeo = () => {
                   <h2 className="section-title">Benefits</h2>
                   <Box className="w-richtext">
                     <p>
-                      Benefit of
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT Management
-                      </Link>
-                      is the provide the best quality It solution neque qui
-                      dolorem ipsum quia golor sit amet, conse ctetur, adipisci
-                      velit, sed eligen optio cumque nihil impedit quo minus id
-                      quod maxime placeat
+                    Overall, SEO offers numerous benefits for businesses, including increased website visibility, organic traffic growth, targeted audience reach, cost-effectiveness, improved brand credibility and trust, enhanced user experience, long-term results, and a competitive edge. By investing in SEO, businesses can improve their online presence, attract relevant traffic, and achieve their marketing and business goals.
                     </p>
                     <p>
-                      Benefit of IT Management is the provide the best quality
-                      more than neque qui dolorem ipsum quia golor sit amet,
-                      conse ctetur, adipisci velit, sed eligen optio cumque
-                      nihil impedit quo minus id quod maxime placeat
+                    SEO (Search Engine Optimization) offers several benefits for businesses and websites. Here are some key benefits of SEO:
                     </p>
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Increased Website Visibility: SEO techniques help improve your website's visibility in search engine results pages (SERPs). By optimizing your website for relevant keywords and search queries, you increase the chances of appearing higher in search results, leading to increased visibility and exposure to potential customers.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                      Organic Traffic Growth: SEO aims to drive organic, non-paid traffic to your website. When your website ranks higher in search results, it attracts more clicks from users looking for relevant information or solutions. Increased organic traffic means more opportunities to engage with potential customers and convert them into leads or sales.
                       </li>
                     </ul>
                   </Box>
