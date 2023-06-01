@@ -8,8 +8,6 @@ $desktop-width:  1024px;
 // @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-
-
 //global css
 * {
     // border: 1px solid red;
@@ -360,7 +358,7 @@ font-family: Rajdhani, sans-serif;
     left:0px;
    height:100vh;
    width:350px;
-   box-shadow: 1px 1px 4px rgb(176, 177, 183)
+   box-shadow: 1px 1px 4px rgb(176, 177, 183);
    }
    .mobile-position{
     padding: 16px 25px 16px 16px;
@@ -652,7 +650,7 @@ font-weight: 300;
 
 // 
 
-// subheading css
+// SUBHEADING STYLES
 .project-sub-container{
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
 background-position: 50% 50%, 0px 0px;
@@ -660,6 +658,9 @@ background-size: cover, auto;
 background-repeat: no-repeat, repeat;
 padding: 6rem 0px;
 }
+
+
+// PROJECT ITEMS STYLES
 .project-wrapper{
   margin: 4rem 0px;
   display: grid;
@@ -845,6 +846,7 @@ transform-style: preserve-3d;
     padding: 20px;
   }
 }
+// END OF PROJECT PAGE
 
 
 // NEWSLETTER STYLES
@@ -1036,13 +1038,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
  }
-// .w-container{
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-// .container{
-//   max-width: 960px;
-// }
+
 .container-contact{
   max-width: 1050px;
 }
@@ -1109,7 +1105,7 @@ color: var(--primary-clr-2);
   padding-bottom: 100px;
 }
 
-// FORM CSS
+// FORM STYLES
 .contact-form-wrapper {
   display: flex;
   padding-right: 80px;
@@ -1255,7 +1251,7 @@ color: var(--primary-clr-2);
 }
 
 
-// Quotes css
+// QUOTE STYLES
 .quote-subtitle {
   margin-bottom: 10px;
   font-weight: 600;
@@ -1475,7 +1471,7 @@ ul{
 }
 
 
-// HOME PAGE CSS.
+// HOME PAGE STYLES.
 .hero-background {
   position: relative;
   padding-top: 180px;
@@ -1637,7 +1633,7 @@ img {
 }
 }
 
-// ELIMINATE TECH CHALLENGES.
+// ELIMINATE TECH CHALLENGES STYLES.
 .section-gap-130-eliminate {
   padding-top: 80px;
   padding-bottom: 100px;
@@ -1780,7 +1776,7 @@ img {
 
 
 
-// ethic
+// ETHIC STYLES
 .container.justify-center {
   flex-direction: column;
   justify-content: center;
@@ -1803,7 +1799,6 @@ img {
   grid-column-gap: 25px;
   grid-row-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  // grid-template-columns:repeat(auto-fit, minmax(10rem, 1fr));
   grid-template-rows: auto;
 }
 @media screen and (max-width:#{$phone-width}) {
@@ -1888,15 +1883,14 @@ img {
   border-radius: 14px;
   box-shadow: inset 5px 5px 10px #949494,
             inset -5px -5px 10px #ffffff;
-// box-shadow:  5px 5px 10px #949494,
-//              -5px -5px 10px #ffffff;
+
   transition: 0.5s;
   transition: box-shadow 300ms ease, background-color 300ms ease;
   background-color: var(--natural-clr-1);
   position: relative;
 }
 
-// WHY CHOOSE BRIDGETECH CSS
+// WHY CHOOSE BRIDGETECH STYLES
 .choose-grid-layout {
   display: -ms-grid;
   display: grid;
@@ -2042,9 +2036,8 @@ p {
 }
 }
 
-// LATEST PROJECT OF BRIDGETECH
+// LATEST PROJECT OF BRIDGETECH STYLES
 .blue-background-gradient-bottom {
-  
   background-image: linear-gradient(180deg, #fff, #f6fdff);
 }
 .section-title.max-width-278 {
@@ -2054,7 +2047,7 @@ p {
   max-width: 370px;
 }
 
-// BRIDGETECH SERVICES
+// BRIDGETECH SERVICES STYLES
 .service-hero-grid-layout {
   display: grid;
   align-items: center;
@@ -2093,7 +2086,7 @@ strong {
   }
 }
 
-// SERVICES BRIDGETECH OFFER
+// SERVICES BRIDGETECH OFFER STYLES
 .service-collection-list-wrapper {
   margin-top: 40px;
 }
@@ -2264,7 +2257,6 @@ list-style-type: decimal;
   display: flex;
   margin-bottom: 35px;
   justify-content: space-around;
-  // align-items: flex-start;
   grid-column-gap: 55px;
   grid-row-gap: 55px;
 }
@@ -2329,7 +2321,6 @@ p {
     color: #0077b6;
     text-decoration: underline;
     margin:0px 3px
-
 }
 @media screen and (max-width:#{$tablet-width}){
   .service-area-block {
@@ -2367,7 +2358,7 @@ p {
 }
 
 
-// NOT FOUND PAGE OR ERROR 404 PAGE
+// NOT FOUND PAGE OR ERROR 404 PAGE STYLES
 .not-found{
   display: flex;
   justify-content: center;
@@ -2390,7 +2381,7 @@ p {
   margin:0px .5rem;
 }
 
-// BRIDGETECH TEAM
+// BRIDGETECH TEAM STYLES
 .team-list {
   display: grid;
   grid-auto-columns: 1fr;
@@ -2418,7 +2409,6 @@ p {
   text-align: center;
 }
 .team-single-item:hover .team-inner-content{
-  
   // transform: translateY( -50px);
   transform: translate3d(0px, -77px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
 transform-style: preserve-3d;
@@ -2494,14 +2484,9 @@ transition: 0.5s;
   }
 }
 
-// .team-single-item:hover .team-separator{
-// opacity: 0;
-// }
-// .team-single-item:hover .team-content{
-//   height: 20%;
-// }
 
-// ABOUT BRIDGEKODE CSS
+
+// ABOUT BRIDGEKODE STYLES
 .about-block {
   display: grid;
   align-items: center;
@@ -2580,7 +2565,7 @@ transition: 0.5s;
 }
 
 
-// SERVICES PROVIDE @ HOME PAGE
+// SERVICES PROVIDE @ HOME PAGE STYLES
 .custom-container-fluid {
   max-width: 100%;
   padding-right: 60px;
@@ -2635,7 +2620,7 @@ transition: 0.5s;
   max-width: 100%;
 }
 
-// LOGIN FORM
+// LOGIN FORM STYLES
 .login-block {
   display: grid;
   align-items: center;
@@ -2685,7 +2670,7 @@ transition: 0.5s;
   font-size: 18px;
 }
 }
-// SIGNUP FORM 
+// REGISTER FORM STYLES
 .signup-form-block {
   margin-top: 40px;
   margin-bottom: 0px;
@@ -2707,8 +2692,7 @@ transition: 0.5s;
   grid-row-gap: 30px;
 }
 
-// FAQ CSS
-
+// FAQ STYLES
 .faq-container{
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
   font-family: Rajdhani, sans-serif;
@@ -2725,13 +2709,12 @@ margin-bottom: 100px;
 .faq-text{
   font-size: 20px;
   font-weight: 500;
-
 }
 .number{
   list-style-type: square;
 }
 
-// TESTIMONIAL CSS
+// TESTIMONIAL STYLES
 .section-justify-center {
   display: flex;
   justify-content: center;
@@ -2814,10 +2797,7 @@ article h4 {
   width: 35px;
   height: 35px;
 }
-// .prev:hover,
-// .next:hover {
-//   background-color: var(--primary-clr-5);
-// }
+
 .image-container{
   display: grid;
   place-items: center;
@@ -2856,7 +2836,7 @@ article.nextSlide {
 }
 
 
-// PAGINATION AT PROJECT PAGE
+// PAGINATION AT PROJECT & SERVICE PAGE STYLES
 .page-link{
   padding: 10px 13px;
   height: 50px;
@@ -2878,7 +2858,7 @@ article.nextSlide {
 }
 
 
-// COURSES CSS
+// COURSES STYLES
 .course-detail{
   justify-content:center;
   align-items:center;
@@ -2902,7 +2882,6 @@ border-radius: 5px;
 overflow:hidden;
 }
 .card:hover{
-  
   background-color: #c0c0c0;
   box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15), 
               inset 0px 4px 8px rgba(0,0,0,0.15), 
@@ -2951,7 +2930,6 @@ figure.card>figcaption{
   column-gap: 35px;
   row-gap: 40px;
 }
-
 .course-text{
 font-size: 16px;
 text-align: left;
@@ -2983,7 +2961,7 @@ padding-left:7px;
 
 }
 
-// TEAM PROFILE
+// TEAM PROFILE STYLES
 .team-details-block {
   display: grid;
   align-items: stretch;
@@ -3080,14 +3058,12 @@ padding-left:7px;
 }
 @media screen and (max-width:#{$tablet-width}){
   .team-details-block {
-    
     align-items: start;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     grid-template-columns: 1fr 0.75fr;
   }
   .team-details-name {
-   
     flex-wrap: wrap;
     font-size: 38px;
     line-height: 1.3;
@@ -3104,7 +3080,7 @@ padding-left:7px;
 
 
 
-// SINGLE PROJECT DETAILS CSS
+// SINGLE PROJECT DETAILS STYLES
 .project-block-copy.max-width-635 {
   max-width: 790px;
 }
@@ -3241,8 +3217,7 @@ font-weight: 700;
 }
 
 
-// BACK TO TOP
-
+// BACK TO TOP STYLES
 .back-to-top{
   position: fixed;
   z-index: 5;
@@ -3255,7 +3230,6 @@ font-weight: 700;
   font-size: 25px;
   cursor: pointer;
   font-weight: 600;
- 
 }
 .back-to-top:hover{
   transition: 0.3s;
