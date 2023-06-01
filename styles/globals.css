@@ -2114,6 +2114,23 @@ p {
   .work-progress-block {
     grid-template-columns: 1fr;
   }
+  .section-block h2 {
+    font-size: 30px !important;
+  }
+  .section-center {
+    height: 440px;
+  }
+  .why-us-text {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .why-us-text {
+    padding-right: 10px;
+  }
+  .section-block h2 {
+    font-size: 28px !important;
+  }
 }
 .blue-background-gradient-bottom {
   background-image: linear-gradient(180deg, #fff, #f6fdff);

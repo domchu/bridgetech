@@ -1,4 +1,5 @@
 // different screen/devices
+$small-width:  360px;
 $phone-width:  500px;
 $tablet-width:  768px;
 $desktop-width:  1024px;
@@ -2033,6 +2034,23 @@ p {
 }
 .work-progress-block {
   grid-template-columns: 1fr;
+}
+.section-block h2 {
+  font-size: 30px !important;
+}
+.section-center {
+  height: 440px;
+}
+.why-us-text{
+  padding-right: 10px;
+}
+}
+@media screen and (max-width:#{$small-width}){
+.why-us-text{
+  padding-right: 10px;
+}
+.section-block h2 {
+  font-size: 28px !important;
 }
 }
 
