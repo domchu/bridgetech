@@ -2382,8 +2382,10 @@ p {
 .team-single-item {
   overflow: hidden;
   border-radius: 14px;
+  cursor: pointer;
   transition: box-shadow 300ms ease;
 }
+
 .team-content {
   position: relative;
   overflow: hidden;
@@ -2393,6 +2395,13 @@ p {
   flex-direction: column;
   background-color: #e7fbff;
   text-align: center;
+}
+.team-single-item:hover .team-inner-content{
+  // height: auto;
+  // transform: translateY( -50px);
+  transform: translate3d(0px, -77px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+transform-style: preserve-3d;
+transition: 0.5s;
 }
 .team-name-title {
   padding-right: 10px;
