@@ -57,7 +57,7 @@ const ProjectCard = () => {
         const { id, title, url, comments, image, projectUrl } = ProjectDetail;
         return (
           <Box key={id}>
-            <Box className="project-item-wrapper">
+            <Box className="project-item-wrapper ">
               <Box className="project-collection">
                 <Image
                   src={image}

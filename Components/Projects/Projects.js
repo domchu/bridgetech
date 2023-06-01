@@ -8,11 +8,12 @@ const Projects = () => {
     <>
       <SubHeading />
 
-
       {/* project items */}
-      <Box className="w-container container">
-        <Box className="project-wrapper">
-          <ProjectCard />
+      <Box className="container w-container ">
+        <Box className="project-collection-list-wrapper">
+          <Box className="project-wrapper">
+            <ProjectCard />
+          </Box>
         </Box>
       </Box>
     </>
