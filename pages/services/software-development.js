@@ -32,8 +32,8 @@ const softwaredevelopment = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Software development is the process of designing, coding,
-                testing, and deploying computer programs or applications.
+              An indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

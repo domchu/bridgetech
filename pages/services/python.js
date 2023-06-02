@@ -34,8 +34,8 @@ const python = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+              An indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

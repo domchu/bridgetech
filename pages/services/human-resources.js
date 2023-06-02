@@ -34,8 +34,8 @@ const humanResources = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                An indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -178,8 +178,18 @@ const humanResources = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                    Human resources (HR) refers to the department or function within an organization that is responsible for managing the organization's human capital. It involves a range of activities and processes related to the recruitment, selection, development, management, and well-being of employees.
-                    The primary role of HR is to ensure that the organization has the right people with the right skills, knowledge, and abilities to achieve its goals and objectives. HR professionals work closely with managers and employees at all levels to create a positive work environment, support employee development, and align human capital strategies with the overall business strategy.
+                      Human resources (HR) refers to the department or function
+                      within an organization that is responsible for managing
+                      the organization's human capital. It involves a range of
+                      activities and processes related to the recruitment,
+                      selection, development, management, and well-being of
+                      employees. The primary role of HR is to ensure that the
+                      organization has the right people with the right skills,
+                      knowledge, and abilities to achieve its goals and
+                      objectives. HR professionals work closely with managers
+                      and employees at all levels to create a positive work
+                      environment, support employee development, and align human
+                      capital strategies with the overall business strategy.
                     </p>
                   </Box>
                 </Box>
@@ -190,21 +200,38 @@ const humanResources = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                  These areas in HR are interrelated and contribute to the effective management and development of the organization's human capital. HR professionals play a vital role in aligning HR practices with the organization's overall strategic goals and ensuring a productive and engaged workforce.
+                    These areas in HR are interrelated and contribute to the
+                    effective management and development of the organization's
+                    human capital. HR professionals play a vital role in
+                    aligning HR practices with the organization's overall
+                    strategic goals and ensuring a productive and engaged
+                    workforce.
                   </Box>
                   <Box className="w-richtext">
                     <p>
-                    In human resources (HR), there are several key areas that HR professionals need to cover to effectively manage the organization's human capital. Here are some essential areas in HR:
+                      In human resources (HR), there are several key areas that
+                      HR professionals need to cover to effectively manage the
+                      organization's human capital. Here are some essential
+                      areas in HR:
                     </p>
 
                     <ul className="ul" role="list">
                       <li className="li">
-                      Onboarding and Orientation: HR ensures a smooth onboarding process for new employees. This includes providing orientation sessions to familiarize new hires with the organization's culture, policies, procedures, and introducing them to their roles and responsibilities.
+                        Onboarding and Orientation: HR ensures a smooth
+                        onboarding process for new employees. This includes
+                        providing orientation sessions to familiarize new hires
+                        with the organization's culture, policies, procedures,
+                        and introducing them to their roles and
+                        responsibilities.
                       </li>
                       <li className="li" role="list">
-                      Training and Development: HR plans and coordinates training and development programs to enhance employee skills and knowledge. This can include organizing workshops, seminars, e-learning modules, and providing opportunities for professional development and career growth.
+                        Training and Development: HR plans and coordinates
+                        training and development programs to enhance employee
+                        skills and knowledge. This can include organizing
+                        workshops, seminars, e-learning modules, and providing
+                        opportunities for professional development and career
+                        growth.
                       </li>
-                      
                     </ul>
                   </Box>
                 </Box>
@@ -232,23 +259,41 @@ const humanResources = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                    HR functions may vary depending on the size and industry of the organization. HR professionals collaborate with managers and employees at all levels to create a positive work environment, support employee development, and align human capital strategies with the overall business goals.
+                      HR functions may vary depending on the size and industry
+                      of the organization. HR professionals collaborate with
+                      managers and employees at all levels to create a positive
+                      work environment, support employee development, and align
+                      human capital strategies with the overall business goals.
                     </p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="service-quote w-richtext">
                       <p>
-                      Strategic Planning: HR professionals align HR strategies with the overall goals and objectives of the organization. They collaborate with senior management to understand business needs, forecast workforce requirements, and develop HR initiatives that support the organization's strategic direction.
+                        Strategic Planning: HR professionals align HR strategies
+                        with the overall goals and objectives of the
+                        organization. They collaborate with senior management to
+                        understand business needs, forecast workforce
+                        requirements, and develop HR initiatives that support
+                        the organization's strategic direction.
                       </p>
                       <p>
-                      Recruitment and Selection: HR departments oversee the recruitment process to attract and select qualified candidates. They create job descriptions, advertise positions, screen resumes, conduct interviews, and coordinate the selection process. HR professionals assess candidates' skills, qualifications, and cultural fit to make informed hiring decisions.
+                        Recruitment and Selection: HR departments oversee the
+                        recruitment process to attract and select qualified
+                        candidates. They create job descriptions, advertise
+                        positions, screen resumes, conduct interviews, and
+                        coordinate the selection process. HR professionals
+                        assess candidates' skills, qualifications, and cultural
+                        fit to make informed hiring decisions.
                       </p>
                     </Box>
                     <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
-                    Human resources (HR) departments are responsible for managing the human capital within organizations. They perform various functions to ensure effective recruitment, development, and management of employees. 
+                      Human resources (HR) departments are responsible for
+                      managing the human capital within organizations. They
+                      perform various functions to ensure effective recruitment,
+                      development, and management of employees.
                     </p>
                   </Box>
                 </Box>
@@ -268,17 +313,35 @@ const humanResources = () => {
                       >
                         human resourses,
                       </Link>
-                      By leveraging these benefits, organizations can create a positive work environment, attract and retain top talent, develop employee skills, and align human capital with business objectives, ultimately contributing to the overall success and growth of the organization.
+                      By leveraging these benefits, organizations can create a
+                      positive work environment, attract and retain top talent,
+                      develop employee skills, and align human capital with
+                      business objectives, ultimately contributing to the
+                      overall success and growth of the organization.
                     </p>
                     <p>
-                    Human resources (HR) play a crucial role in organizations by managing the human capital and ensuring the effective utilization of the workforce. Here are some key benefits of having a strong HR function:
+                      Human resources (HR) play a crucial role in organizations
+                      by managing the human capital and ensuring the effective
+                      utilization of the workforce. Here are some key benefits
+                      of having a strong HR function:
                     </p>
                     <ul className="ul" role="list">
                       <li className="li">
-                      Talent Acquisition: HR departments are responsible for attracting, recruiting, and selecting qualified candidates for job positions. By having a strategic approach to talent acquisition, HR professionals can help organizations find the right people who align with the company's culture, values, and skills requirements.
+                        Talent Acquisition: HR departments are responsible for
+                        attracting, recruiting, and selecting qualified
+                        candidates for job positions. By having a strategic
+                        approach to talent acquisition, HR professionals can
+                        help organizations find the right people who align with
+                        the company's culture, values, and skills requirements.
                       </li>
                       <li className="li" role="list">
-                      Employee Onboarding and Development: HR teams facilitate the onboarding process for new employees, ensuring a smooth transition into the organization. They also create and implement training and development programs to enhance employees' skills, knowledge, and capabilities, fostering continuous growth and improvement.
+                        Employee Onboarding and Development: HR teams facilitate
+                        the onboarding process for new employees, ensuring a
+                        smooth transition into the organization. They also
+                        create and implement training and development programs
+                        to enhance employees' skills, knowledge, and
+                        capabilities, fostering continuous growth and
+                        improvement.
                       </li>
                     </ul>
                   </Box>

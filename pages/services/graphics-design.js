@@ -34,7 +34,7 @@ const graphicdesign = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                The indepth overview of the services we renders at bridgekode
+                An indepth overview of the services we renders at bridgekode
                 development services.
               </p>
               <ul className="project-link">
