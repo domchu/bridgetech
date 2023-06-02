@@ -42,12 +42,12 @@ const Register = () => {
               {/* TEXT BLOCK */}
               <Box className="login-form-area" id="w-node-order">
                 <Box className="section-block">
-                  <h2 className="section-title max-width-442">
+                  <h3 className="section-title max-width-442">
                     Register to
                     <span className="section-title-inner-style">
                       Bridgetech
                     </span>
-                  </h2>
+                  </h3>
                   <Box className="section-text">
                     "There is no one who loves pain itself, who seeks after it
                     and wants to have it, simply because it is pain, but because

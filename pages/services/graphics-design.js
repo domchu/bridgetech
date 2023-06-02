@@ -18,7 +18,7 @@ const graphicdesign = () => {
   const currentRoute = router.pathname;
   return (
     <>
-     <DefaultSeo
+      <DefaultSeo
         title="Graphics Design | Bridgekode"
         description="The art and practice of creating visual content using typography, images, and other graphical elements "
         {...SEO}
@@ -34,8 +34,8 @@ const graphicdesign = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+                The indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -176,21 +176,16 @@ const graphicdesign = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolore ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil take a trivial example, which of us ever
-                      undertakes laborious physical exercise, except to obtain
-                      some advantage from more than a great service that we
-                      provide
+                      Graphic design encompasses a wide range of mediums and
+                      applications, including print materials, digital
+                      platforms, branding and identity, advertising, packaging,
+                      web design, user interface design, and more. It is a
+                      fundamental element of visual communication, helping
+                      businesses and individuals convey their messages and
+                      establish a visual identity. Graphic design is a dynamic
+                      field that combines creativity, visual problem-solving,
+                      and technical skills to create visually compelling and
+                      effective designs across various mediums and platforms.
                     </p>
                   </Box>
                 </Box>
@@ -201,40 +196,39 @@ const graphicdesign = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                    In IT Management Service we cover most of the IT problems
-                    that your company faces and we try to solve it.
+                    Graphic design encompasses various areas and
+                    specializations.
                   </Box>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong>
-                      provide the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque qui dolorem ipsum quia golor sit amet, conse ctetur,
-                      adipisci velit, sed eligen optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                      These are just some of the areas within graphic design,
+                      and many designers specialize in specific fields or work
+                      across multiple disciplines. The field of graphic design
+                      is broad and diverse, providing numerous opportunities for
+                      creative expression and problem-solving.
                     </p>
 
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Motion Graphics and Animation: Motion graphics combines
+                        graphic design with animation to create engaging visuals
+                        for videos, presentations, websites, and user
+                        interfaces. It involves using software like Adobe After
+                        Effects to bring static designs to life through movement
+                        and visual effects.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        User Interface (UI) Design: UI design involves creating
+                        interfaces for software applications, websites, and
+                        interactive experiences. It focuses on designing
+                        intuitive and visually appealing user interfaces that
+                        enhance user interaction and engagement.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Branding and Identity Design: This area focuses on
+                        creating or refreshing a brand's visual identity,
+                        including logo design, typography selection, color
+                        palette creation, and overall brand guidelines.
                       </li>
                     </ul>
                   </Box>
@@ -263,53 +257,45 @@ const graphicdesign = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                      Graphic design is a collaborative and iterative process
+                      that involves creativity, research, visual
+                      problem-solving, and technical skills. It combines
+                      artistic elements with strategic thinking to create
+                      visually compelling and effective designs that communicate
+                      messages and engage audiences.
                     </p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="service-quote w-richtext">
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Understanding the Project: The first step in graphic
+                        design is to understand the project requirements. This
+                        involves gathering information about the client's goals,
+                        target audience, message, and any specific guidelines or
+                        constraints.
                       </p>
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Sketching and Wireframing: Designers often start by
+                        sketching rough ideas on paper or creating wireframes to
+                        outline the layout and structure of the design. This
+                        stage focuses on exploring different compositions,
+                        arrangement of elements, and overall visual hierarchy.
                       </p>
                     </Box>
                     <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
-                      The main way to solve the the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                      After the initial sketches and concept development,
+                      designers move on to digital tools and software. Popular
+                      design software includes Adobe Photoshop, Illustrator, and
+                      InDesign, among others. These tools allow designers to
+                      refine and create the final design digitally.
                     </p>
                     <p>
-                      Great deal dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit, sed optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                      Graphic design involves a creative process that combines
+                      art, technology, and communication to visually communicate
+                      messages and ideas.
                     </p>
                   </Box>
                 </Box>
@@ -321,35 +307,36 @@ const graphicdesign = () => {
                   <h2 className="section-title">Benefits</h2>
                   <Box className="w-richtext">
                     <p>
-                      Benefit of
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT Management
-                      </Link>
-                      is the provide the best quality It solution neque qui
-                      dolorem ipsum quia golor sit amet, conse ctetur, adipisci
-                      velit, sed eligen optio cumque nihil impedit quo minus id
-                      quod maxime placeat
+                      graphic design offers several benefits, including
+                      effective communication, branding, visual appeal,
+                      professionalism, consistency, increased engagement,
+                      information visualization, and a memorable user
+                      experience. These advantages contribute to building a
+                      strong brand, attracting customers, and achieving business
+                      goals.
                     </p>
                     <p>
-                      Benefit of IT Management is the provide the best quality
-                      more than neque qui dolorem ipsum quia golor sit amet,
-                      conse ctetur, adipisci velit, sed eligen optio cumque
-                      nihil impedit quo minus id quod maxime placeat
+                      Graphic design offers numerous benefits across various
+                      industries and platforms. Here are some key advantages:
                     </p>
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Branding and Identity: Graphic design plays a vital role
+                        in establishing a strong brand identity. A
+                        professionally designed logo, typography, color schemes,
+                        and visual elements create a distinct brand image that
+                        helps businesses stand out from competitors. Consistent
+                        branding across all marketing materials fosters brand
+                        recognition and builds trust among customers.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Memorable User Experience: Well-designed interfaces,
+                        websites, and applications enhance the user experience
+                        by making them intuitive, visually pleasing, and easy to
+                        navigate. Effective graphic design considers
+                        user-centric principles, ensuring that the visual
+                        elements contribute to an enjoyable and memorable
+                        interaction with a product or service.
                       </li>
                     </ul>
                   </Box>
