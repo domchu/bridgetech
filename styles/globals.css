@@ -1479,7 +1479,6 @@ ul {
 @media screen and (max-width: 500px) {
   .contact-input-group {
     flex-direction: column;
-    width: 100%;
     grid-row-gap: 20px;
     grid-template-columns: 1fr;
   }
