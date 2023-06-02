@@ -19,8 +19,8 @@ const course = () => {
       <Topnav />
       <Header />
       <CoursesTab />
-      <Testimonial />
       <NewsLetter />
+      <Testimonial />
       <Footer />
     </>
   );

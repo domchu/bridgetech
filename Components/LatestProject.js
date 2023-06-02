@@ -179,7 +179,7 @@ const LatestProject = () => {
                           HTML, CSS, Bootstrap, WordPress and JavaScript
                         </p>
                         <Link
-                          href="/https://www.google.com"
+                          href="https://www.google.com"
                           target="_blank"
                           rel="nofollow"
                         >
