@@ -2851,6 +2851,11 @@ p {
   grid-row-gap: 30px;
 }
 
+.message {
+  border: 1px solid #00b4d8;
+  border-radius: 10px;
+}
+
 .faq-container {
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
   font-family: Rajdhani, sans-serif;

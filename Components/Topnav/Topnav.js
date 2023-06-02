@@ -40,7 +40,7 @@ const Topnav = () => {
                 <li className="topnav-links">
                   <Flex align="center">
                     <FaEnvelope className="topnav-icons" />
-                    <Link href="mailto:info@example.com" passhref="true">
+                    <Link href="mailto:info@bridgekodetech.com" passhref="true">
                       info@bridgekodetech.com
                     </Link>
                   </Flex>
@@ -82,7 +82,7 @@ const Topnav = () => {
                 <li className="topnav-links register">
                   <Flex align="center">
                     <FaRegAddressBook className="topnav-icons" />
-                    <Link href="/access/signin" passhref="true">
+                    <Link href="/access/form" passhref="true">
                       Register
                     </Link>
                   </Flex>
