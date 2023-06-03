@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box } from "@chakra-ui/react";
+import { Box, transition } from "@chakra-ui/react";
 import { FaChevronUp } from "react-icons/fa";
 
 const Scroll = ({ showBelow }) => {
@@ -21,7 +21,7 @@ const Scroll = ({ showBelow }) => {
   });
 
   const handleClick = () => {
-    window["scrollTo"]({ top: 0, behavior: "smooth" });
+    window["scrollTo"]({ top: 0, behavior: "smooth", transition: "2s" });
   };
 
   return (

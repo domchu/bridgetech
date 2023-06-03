@@ -34,8 +34,8 @@ const webdesigntraining = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Neque porro quisquam est, qui quia lorem some golor sit amet,
-                are more consectetur sed
+              An indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -172,25 +172,11 @@ const webdesigntraining = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">Web Design Training </h2>
+                    <h2 className="section-title">Web Development Training </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolore ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil take a trivial example, which of us ever
-                      undertakes laborious physical exercise, except to obtain
-                      some advantage from more than a great service that we
-                      provide
+                    <strong>Web development training</strong> refers to the process of learning and acquiring the necessary skills, knowledge, and practical experience to become proficient in web development. It involves structured courses, educational programs, workshops, tutorials, or online resources designed to teach individuals the fundamentals and advanced concepts of building websites and web applications.
                     </p>
                   </Box>
                 </Box>
@@ -201,40 +187,34 @@ const webdesigntraining = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                    In IT Management Service we cover most of the IT problems
-                    that your company faces and we try to solve it.
+                    Web development encompasses various areas that you should
+                    cover to build robust and effective websites or web
+                    applications. Here are some key areas to focus on:
                   </Box>
                   <Box className="w-richtext">
-                    <p>
-                      We are <strong>Bridgetech</strong>
-                      provide the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque qui dolorem ipsum quia golor sit amet, conse ctetur,
-                      adipisci velit, sed eligen optio cumque nihil impedit quo
-                      minus id quod maxime placeat
-                    </p>
-
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Front-End Development:HTML, CSS, JavaScript, Responsive
+                        Design
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Back-End Development:Server-Side Languages(Ruby, PHP, or
+                        JavaScript (Node.js)),Databases( MySQL, PostgreSQL,
+                        MongoDB)
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Web Frameworks: React, Angular, Vue.js, Django (Python),
+                        Ruby on Rails, Laravel (PHP), or Express.js (Node.js)
+                      </li>
+                      <li className="li" role="list">
+                        Version Control: Learn to use Git, a widely-used version
+                        control system, to track changes, collaborate with
+                        others, and manage code repositories effectively.
+                      </li>
+                      <li className="li" role="list">
+                        SEO Basics:Gain knowledge of Search Engine Optimization
+                        (SEO) principles to optimize websites for better
+                        visibility and search engine rankings.
                       </li>
                     </ul>
                   </Box>
@@ -263,53 +243,50 @@ const webdesigntraining = () => {
                   <h2 className="section-title">How it works</h2>
                   <Box className="w-richtext">
                     <p>
-                      We are <strong>Bridgetech</strong> provide the best
-                      quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam est qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                      Web development is the process of creating websites or web
+                      applications. It involves a combination of coding,
+                      designing, and implementing various elements to build
+                      functional and visually appealing digital products. Here's
+                      a general overview of how web development works:
                     </p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="service-quote w-richtext">
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Planning and Analysis: The first step in web development
+                        is to define the project's goals, requirements, and
+                        target audience. This involves understanding the purpose
+                        of the website or application, conducting research, and
+                        creating a plan for the development process.
                       </p>
                       <p>
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Front-End Development: Front-end development focuses on
+                        the user-facing aspects of a website or application. It
+                        involves writing code in languages such as HTML
+                        (Hypertext Markup Language), CSS (Cascading Style
+                        Sheets), and JavaScript. HTML defines the structure of
+                        the web pages, CSS controls the presentation and
+                        styling, and JavaScript adds interactivity and
+                        functionality.
                       </p>
                     </Box>
                     <Box className="inner-quote-border-left"></Box>
                   </Box>
                   <Box className="w-text">
                     <p>
-                      The main way to solve the the best quality
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT solution
-                      </Link>
-                      neque porro quisquam qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
+                      HTML: HTML provides the foundation for creating the
+                      structure and content of web pages. It defines the various
+                      elements, such as headings, paragraphs, images, links,
+                      forms, and more. CSS: CSS is used to control the
+                      appearance and styling of the web pages. It allows you to
+                      define colors, fonts, layouts, positioning, animations,
+                      and other visual aspects of the website.
                     </p>
                     <p>
-                      Great deal dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit, sed optio cumque nihil impedit quo
-                      minus id quod maxime placeat
+                      JavaScript: JavaScript is a programming language that adds
+                      interactivity and functionality to web pages. It enables
+                      you to create dynamic elements, handle user interactions,
+                      perform calculations, make API requests, and more.
                     </p>
                   </Box>
                 </Box>
@@ -321,35 +298,26 @@ const webdesigntraining = () => {
                   <h2 className="section-title">Benefits</h2>
                   <Box className="w-richtext">
                     <p>
-                      Benefit of
-                      <Link
-                        href="https://www.example.com"
-                        target="_blank"
-                        className="it-solution"
-                      >
-                        IT Management
-                      </Link>
-                      is the provide the best quality It solution neque qui
-                      dolorem ipsum quia golor sit amet, conse ctetur, adipisci
-                      velit, sed eligen optio cumque nihil impedit quo minus id
-                      quod maxime placeat
-                    </p>
-                    <p>
-                      Benefit of IT Management is the provide the best quality
-                      more than neque qui dolorem ipsum quia golor sit amet,
-                      conse ctetur, adipisci velit, sed eligen optio cumque
-                      nihil impedit quo minus id quod maxime placeat
+                      There are several benefits to undergoing web development
+                      training. Here are some of the key advantages:
                     </p>
                     <ul className="ul" role="list">
                       <li className="li">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Career Advancement: Web development training can open
+                        doors to new career opportunities or help you advance in
+                        your current career. Whether you are seeking a career
+                        change or looking to enhance your existing skills, web
+                        development training equips you with the knowledge and
+                        expertise to take on more challenging roles.
                       </li>
                       <li className="li" role="list">
-                        IT Management provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
+                        Independence and Freelancing: Web development skills
+                        offer the flexibility to work independently or as a
+                        freelancer. With the ability to build websites or web
+                        applications, you can offer your services to clients or
+                        work on personal projects on a freelance basis. This
+                        provides freedom and control over your work and
+                        schedule.
                       </li>
                     </ul>
                   </Box>

@@ -34,8 +34,8 @@ const webdevelopment = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-                Web development services encompass a range of offerings related
-                to creating, building, and maintaining websites.
+              An indepth overview of the services we renders at bridgekode
+                development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
