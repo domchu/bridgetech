@@ -9,9 +9,8 @@ import SEO from "../../next-seo.config";
 const branding = () => {
   return (
     <>
-     
       <DefaultSeo
-        title="Branding | Bridgekode"
+        title="Branding | Bridgekode Tech"
         description="Making businesses look enticing and innovative to clients"
         {...SEO}
       />
