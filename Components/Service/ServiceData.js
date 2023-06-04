@@ -11,7 +11,7 @@ const DataServ = [
     image: "/images/project5.jpg",
     title: " Website Development",
     urlPath: "/services/web-development",
-    text: " It involves designing, coding, & testing the various components that make up a website, user interface, functionality using  HTML5, CSS3, javascript, Git/GitHub, JQuery, Bootstrap, CMS & others tools  ",
+    text: " It involves designing, coding, & testing the various components that make up a website, user interface, functionality using  HTML5, CSS3, javascript, Git/Github, Jquery, Bootstrap, CMS & others tools  ",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const DataServ = [
     image: "/images/project3.jpg",
     title: "Software Development",
     urlPath: "/services/software-development",
-    text: "Designing, coding, testing, and maintaining software apps using technologies like everything in kids coding training & Js frameworks like React, Next, Vue, Angular & CSS frameworks like Chakra, Tailwindcss, Semantic. ",
+    text: "Designing, coding, testing, and maintaining software apps using technologies like everything in kids coding training & js frameworks like react, next, vue, angular & css3 frameworks like chakra, tailwindcss, semantic. ",
   },
   {
     id: 7,
