@@ -1188,9 +1188,9 @@ strong {
   border-radius: 12px;
   background-color: var(--clr-white);
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.04);
-  color: var(--clr-black) !important;
+  color: var(--clr-black);
   color: #686d76;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.8px;
 }
@@ -1267,7 +1267,7 @@ strong {
     min-height: 320px;
   }
   .contact-input-group {
-    width: 300px;
+    width: 100%;
   }
   .section-gap-130 {
     padding-top: 70px;
@@ -1881,7 +1881,7 @@ img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding: 43px 28px 23px;
+  padding: 50px 30px 25px;
   border-radius: 14px;
   transition: box-shadow 300ms ease, background-color 300ms ease;
   text-align: center;
@@ -2149,6 +2149,10 @@ p {
   grid-row-gap: 60px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+}
+
+.section-collection-list-wrapper {
+  margin-top: 4rem;
 }
 
 .servcie-medium-subtitle-text {

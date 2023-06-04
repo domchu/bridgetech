@@ -114,6 +114,15 @@ const Register = () => {
                     data-name="Email"
                     placeholder="Enter Email*"
                     required={true}
+                  />                  <input
+                    type="text"
+                    className="default-input-field w-input"
+                    maxLength="256"
+                    name="text"
+                    id="Login text"
+                    data-name="Subject"
+                    placeholder="Subject*"
+                    required={true}
                   />
                   <textarea
                     name="message"
