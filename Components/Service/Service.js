@@ -120,9 +120,8 @@ const Service = () => {
                   Provide
                 </h2>
                 <Box className="section-text">
-                  Choose from our wide range of services offered by
-                  <br />
-                  bridgekode software development services.
+                  Choose from our wide range of services offered by bridgekode
+                  software development services.
                 </Box>
               </Box>
             </Box>

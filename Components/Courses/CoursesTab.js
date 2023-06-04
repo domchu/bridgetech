@@ -50,7 +50,6 @@ const CoursesTab = () => {
                 </h2>
                 <Box className="section-text">
                   Your career path to finacial stability begin here and now.
-                  <br />
                   bridgekode software development services the only solution.
                 </Box>
               </Box>

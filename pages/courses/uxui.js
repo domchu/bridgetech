@@ -10,7 +10,7 @@ const uxui = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux / Ui Design | Bridgekode"
+        title="Ux / Ui Design | Bridgekode Tech"
         description="We train peoples to design templates for websites, apps, desktop apps, editing images using figma, photoshop, illustrator, adobe etc"
         {...SEO}
       />

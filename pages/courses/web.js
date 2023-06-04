@@ -10,7 +10,7 @@ const web = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Development | Bridgekode"
+        title="Web Development | Bridgekode Tech"
         description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness."
         {...SEO}
       />

@@ -12,7 +12,7 @@ const contactus = () => {
   return (
     <>
       <DefaultSeo
-        title="Contact Us | Bridgekode"
+        title="Contact Us | Bridgekode Tech"
         description="Contact us at bridgekode, we are open 24/7 hours"
         {...SEO}
       />

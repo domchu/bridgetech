@@ -68,7 +68,7 @@ const ServiceProvide = () => {
                               href="/services/web-development"
                               className="service-title-link"
                             >
-                              Website Design
+                              Web Development
                             </Link>
                             <Box className="section-text service-text">
                               Bridgekode's web design services aim to create
@@ -102,14 +102,15 @@ const ServiceProvide = () => {
                               href="/services/web-design-training"
                               className="service-title-link"
                             >
-                              Web Design Tutorals
+                              Students/kids Coding Training
                             </Link>
                             <Box className="section-text service-text">
-                              web dev. training programs for students interested
-                              in learning and acquiring skills in web design.
-                              Their training programs are designed to provide
-                              comprehensive knowledge and hands-on experience in
-                              various aspects of web development.
+                              web dev. training programs for students/kids
+                              interested in learning and acquiring skills in
+                              website design. Their training programs are
+                              designed to provide comprehensive knowledge and
+                              hands-on experience in various aspects of web
+                              development.
                             </Box>
                           </Box>
                         </Box>

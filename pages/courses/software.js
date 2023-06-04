@@ -10,7 +10,7 @@ const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Software Engineering | Bridgekode"
+        title="Software Engineering | Bridgekode Tech"
         description="Full front-end development training using nextjs, Reactjs, Javscript, Typescript and Css frameworks like chakra-ui etc"
         {...SEO}
       />
