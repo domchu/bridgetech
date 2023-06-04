@@ -12,7 +12,7 @@ const servicehome = () => {
   return (
     <>
       <DefaultSeo
-        title="Services | Bridgekode"
+        title="Services | Bridgekode Tech"
         description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
         {...SEO}
       />

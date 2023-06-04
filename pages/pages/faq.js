@@ -12,7 +12,7 @@ export default function faq() {
   return (
     <>
       <DefaultSeo
-        title="Faq | Bridgekode"
+        title="Faq | Bridgekode Tech"
         description="You have questions to ask and we have the answers."
         {...SEO}
       />

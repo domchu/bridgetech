@@ -39,7 +39,7 @@ const DataServ = [
     image: "/images/project3.jpg",
     title: "Software Development",
     urlPath: "/services/software-development",
-    text: "Designing, coding, testing, and maintaining software apps using technologies like everything in kids coding training & js frameworks like react, next, vue, angular & css3 frameworks like chakra, tailwindcss, semantic. ",
+    text: "Designing, coding, testing, and maintaining software apps using technologies like everything in kids coding training & js frameworks like React, Next, Vue, Angular & CSS3 frameworks like Chakra, Tailwind, Semantic. ",
   },
   {
     id: 7,

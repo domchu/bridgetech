@@ -10,7 +10,7 @@ const register = () => {
   return (
     <>
       <DefaultSeo
-        title="Register | Bridgekode"
+        title="Register | Bridgekode Tech"
         description="Register for Bridgekode available services"
         {...SEO}
       />
