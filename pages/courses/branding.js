@@ -11,7 +11,7 @@ const branding = () => {
     <>
       <DefaultSeo
         title="Branding | Bridgekode Tech"
-        description="Making businesses look enticing and innovative to clients"
+        description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         {...SEO}
       />
       <Topnav />
