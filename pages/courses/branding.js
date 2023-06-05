@@ -18,7 +18,6 @@ const branding = () => {
       <Topnav />
       <Header />
       <SingleCourse />
-      <h2>Branding & Seo</h2>
       <Testimonial />
       <Footer />
     </>
