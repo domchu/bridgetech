@@ -2949,7 +2949,10 @@ figure.card>img{
 figure.card>figcaption{
   align-self: last baseline;
   justify-self: stretch;
-  background-color: #32323280;
+  // background-color: #32323280;
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+transition: background-color 300ms ease-in-out;
+  // background-color: var(--natural-clr-4);
   color: var(--clr-white);
   text-align: center;
   font-size:1.2rem;

@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
+import SingleCourse from "../../Components/Courses/SingleCourse";
 
 const branding = () => {
   return (
@@ -16,6 +17,7 @@ const branding = () => {
       />
       <Topnav />
       <Header />
+      <SingleCourse />
       <h2>Branding & Seo</h2>
       <Testimonial />
       <Footer />
