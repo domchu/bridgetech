@@ -1,7 +1,8 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
-
+import Image from "next/image";
+import project2 from "../../public/images/project10.jpg";
 
 const SingleCourse = () => {
   return (
@@ -37,8 +38,13 @@ const SingleCourse = () => {
                   </Link>
                 </Box>
               </Box>
-                          <Box className="course-block-image-right">
-                     <Image src={} alt=""/>         
+              <Box className="course-block-image-right">
+                <Image
+                  src={project2}
+                  alt="Coding image"
+                  width={650}
+                  height={450}
+                />
               </Box>
             </Box>
           </Box>
