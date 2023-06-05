@@ -38,10 +38,7 @@ const branding = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/projects/project-home"
-                    className="project-nav-link"
-                  >
+                  <Link href="/courses/course" className="project-nav-link">
                     Cousre
                   </Link>
                 </li>
