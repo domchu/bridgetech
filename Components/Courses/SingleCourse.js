@@ -1,5 +1,7 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import Link from "next/link";
+
 
 const SingleCourse = () => {
   return (
@@ -20,8 +22,24 @@ const SingleCourse = () => {
                   mastered a specialization and learn the art of effective
                   collaboration to solve real world problems.
                 </Box>
+                <Box>
+                  <Link
+                    href="/access/form"
+                    className="primary-button margin-top-40"
+                  >
+                    Enrol Now
+                  </Link>
+                  <Link
+                    href="https://wa.me/2347034278995"
+                    className="primary-button margin-top-40"
+                  >
+                    Chat with us
+                  </Link>
+                </Box>
               </Box>
-              <Box className="course-block-image-right"></Box>
+                          <Box className="course-block-image-right">
+                     <Image src={} alt=""/>         
+              </Box>
             </Box>
           </Box>
         </Box>
