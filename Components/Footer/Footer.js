@@ -33,8 +33,9 @@ const Footer = () => {
                 />
               </Link>
               <p className="footer-link-p">
-                Bridgekode is software development services focuses on turning
-                ideas into creativities & digital solutions
+                Bridgekode is a software development services focuses on website
+                design, students/kids coding, general IT training, turning ideas
+                into creativities & provide digital solutions to businesses.
               </p>
               <Flex className="icons-container">
                 <Link href="/" target="_blank">
@@ -231,8 +232,6 @@ const Footer = () => {
               </Box>
             </Box>
           </Flex>
-          {/* <ScrollToTop showBelow={250} /> */}
-          {/* <h1>gghjhjjj</h1> */}
         </Box>
         <div className="footer-bottom">
           <Box className="copy-right">
