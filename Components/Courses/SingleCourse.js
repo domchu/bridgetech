@@ -12,17 +12,19 @@ const SingleCourse = () => {
           <Box className="container w-container">
             <Box className="course-section-block">
               <Box className="course-block-text-left">
-                <Box>
-                  <p> For Starters</p>
-                  <h2>Frontend Development Bootcamp</h2>
+                <Box className="section-block">
+                  <p className="section-title-inner-style" id="starter"> For Starters</p>
+                  <h2 className="section-title">Frontend Development Bootcamp</h2>
                 </Box>
-                <Box>
+                <Box className="section-text">
                   Go from zero knowledge to being able to build your technology
                   platforms! Starting with the foundations of software
                   engineering. By the end of this program you would have
                   mastered a specialization and learn the art of effective
                   collaboration to solve real world problems.
                 </Box>
+                
+            
                 <Box>
                   <Link
                     href="/access/form"
@@ -33,6 +35,7 @@ const SingleCourse = () => {
                   <Link
                     href="https://wa.me/2347034278995"
                     className="primary-button margin-top-40"
+                    id="chat"
                   >
                     Chat with us
                   </Link>
@@ -44,6 +47,7 @@ const SingleCourse = () => {
                   alt="Coding image"
                   width={650}
                   height={450}
+                  className="course-image"
                 />
               </Box>
             </Box>

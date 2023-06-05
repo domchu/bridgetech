@@ -3276,3 +3276,25 @@ font-weight: 700;
   background-color: #dcdcdc;
 }
 
+
+// THE COURSE PAGE CSS
+.course-section-block{
+  display: grid;
+  margin-top: 4rem;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-template-columns:repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.course-block-text-left{
+  max-width:500px
+}
+.course-image{
+  border-radius:10px;
+}
+#chat{
+  margin-left:20px;
+}
+#starter{
+  font-size:1.5rem;
+}

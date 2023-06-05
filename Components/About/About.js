@@ -113,10 +113,11 @@ const About = () => {
                   At <strong>Bridgekode</strong>, our <strong>Mission </strong>
                   is to empower businesses with innovative and tailored software
                   solutions that drive growth, efficiency, and digital
-                  transformation. We are committed to delivering high-quality
-                  products and services that exceed client expectations,
-                  leverage cutting-edge technologies, and create sustainable
-                  value for our partners.
+                  transformation & train school students/kids in coding websites
+                  with the basics tools. We are committed to delivering
+                  high-quality products and services that exceed client
+                  expectations, leverage cutting-edge technologies, and create
+                  sustainable value for our partners.
                 </p>
                 <Box className="about-small-title">
                   <span className="text-span-title">Vision </span>
