@@ -3456,6 +3456,7 @@ figure.card > figcaption {
 
 .course-image {
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 #chat {

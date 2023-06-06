@@ -30,6 +30,19 @@ const SingleCourse = () => {
                   engineering. By the end of this program you would have
                   mastered a specialization and learn the art of effective
                   collaboration to solve real world problems.
+                  <br />
+                  Learn to structure code in a concise, logical, and readable
+                  manner, while mastering HTML and CSS, two foundational
+                  front-end languages. Create static web pages using HTML and
+                  CSS alone, before applying Flexbox (a CSS framework) to
+                  increase the complexity and speed in which you create your web
+                  pages.
+                  <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam illum, repellat a aspernatur doloremque aliquid
+                  laudantium magni corporis voluptate? Voluptatem itaque nulla
+                  consectetur voluptate assumenda eos amet nemo delectus
+                  aliquid.
                 </Box>
 
                 <Box>
@@ -53,14 +66,28 @@ const SingleCourse = () => {
                   src={project2}
                   alt="Coding image"
                   width={650}
-                  height={450}
+                  height={700}
                   className="course-image"
                 />
+                <Box>
+                  <h1 className="section-title">Requirements</h1>
+                </Box>
+                <Box>
+                  <li className="li">
+                    We do not require any previous experience or pre-defined
+                    skills to take this course. A great orientation would be
+                    enough to master web development.
+                  </li>
+                  <li className="li">A good computer </li>
+                  <li className="li">A good phone </li>
+                </Box>
               </Box>
             </Box>
           </Box>
         </Box>
       </Box>
+      {/*  */}
+      <p></p>
     </>
   );
 };
