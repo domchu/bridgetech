@@ -3276,3 +3276,63 @@ font-weight: 700;
   background-color: #dcdcdc;
 }
 
+
+// THE COURSE PAGE CSS
+.course-section-block{
+  display: grid;
+  margin-top: 4rem;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 50px;
+  grid-template-columns:repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.course-block-text-left{
+  max-width:500px;
+}
+.course-image{
+  border-radius:10px;
+  margin-bottom:2rem
+}
+#chat{
+  margin-left:20px;
+}
+#starter{
+  font-size:1.5rem;
+}
+.list-group {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-bottom:1px solid lightgrey;
+  width:60%;
+  margin:auto;
+  padding:5px;
+ 
+}
+.list-group-item{
+  font-family: Rajdhani, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 60px;
+  padding: 5px 0px;
+}
+.list-container{
+  padding:1rem .5rem;
+  background-color:#e7fbff;
+  box-shadow:  5px 5px 10px #989898,
+             5px 5px 10px #989898;
+  border-radius: 10px;
+
+}
+.list-group-flush{
+  margin-bottom: 15px;
+}
+.center{
+  text-align: center;
+}
+.course-icons{
+  
+ margin-right:10px;
+
+}
+

@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
+import CoursesSubHeading from "../../Components/CoursesSubHeading";
 
 const web = () => {
   return (
@@ -16,6 +17,7 @@ const web = () => {
       />
       <Topnav />
       <Header />
+      <CoursesSubHeading text="Web development" />
       <h2>Web development course</h2>
       <Testimonial />
       <Footer />

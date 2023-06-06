@@ -13,7 +13,7 @@ const course = () => {
     <>
       <DefaultSeo
         title="Courses | Bridgekode Tech"
-        description="Choose from our wide range of courses to land your dream job"
+        description="Choose from our wide range of courses to land your dream job and be finacially stable."
         {...SEO}
       />
       <Topnav />

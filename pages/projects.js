@@ -14,7 +14,7 @@ const projects = () => {
     <>
       <DefaultSeo
         title="Project | Bridgekode Tech"
-        description="Projects completed successfully by bridgekode for clients"
+        description="Projects completed successfully by bridgekode, hosted online & delivered to clients respectively"
         {...SEO}
       />
       <Topnav />
