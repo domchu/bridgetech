@@ -3471,15 +3471,19 @@ figure.card > figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid lightgrey;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
 }
 
 .list-group-item {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 60px;
   padding: 5px 0px;
 }
 
-.duration-course-text-left {
-  border: 1px solid red;
+.list-container {
+  border: 1px solid lightgray;
 }/*# sourceMappingURL=globals.css.map */

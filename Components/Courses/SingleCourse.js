@@ -89,22 +89,24 @@ const SingleCourse = () => {
         <Box className="section-gap-bottom-130">
           <Box className="container w-container">
             <Box className="course-section-block">
-              <Box className="duration-course-text-left  course-block-text-left">
-                <ul className="list-group list-group-flush">
-                  <Box>
-                    <FcAlarmClock style={{ marginRight: "10px" }} />
+              <Box className="duration-course-text-left  course-block-text-left"></Box>
+              <Box className="duration-course-text-right course-block-image-right">
+                <Box className="list-container">
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li>
+                        <h6>Duration</h6>
+                      </li>
+                      <li>
+                        <p>43 weeks</p>
+                      </li>
+                    </Box>
                   </Box>
-                  <Box className="list-group-item">
-                    <li>
-                      <h6>Duration</h6>
-                    </li>
-                    <li>
-                      <p>43 weeks</p>
-                    </li>
-                  </Box>
-                </ul>
+                </Box>
               </Box>
-              <Box className="duration-course-text-right course-block-image-right"></Box>
             </Box>
           </Box>
         </Box>
