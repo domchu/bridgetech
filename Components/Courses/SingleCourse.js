@@ -147,7 +147,7 @@ const SingleCourse = () => {
                 <Box className="list-container">
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <FcAlarmClock className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
@@ -165,7 +165,7 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <SiSkillshare style={{ marginRight: "10px" }} />
+                      <SiSkillshare className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
@@ -183,7 +183,7 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FaLanguage style={{ marginRight: "10px" }} />
+                      <FaLanguage className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
@@ -201,7 +201,7 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <BsBook style={{ marginRight: "10px" }} />
+                      <BsBook className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
@@ -219,7 +219,7 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FaAddressBook style={{ marginRight: "10px" }} />
+                      <FaAddressBook className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
@@ -237,7 +237,7 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FaAward style={{ marginRight: "10px" }} />
+                      <FaAward className="course-icons" />
                     </Box>
                     <Box className="list-group-item">
                       <li
