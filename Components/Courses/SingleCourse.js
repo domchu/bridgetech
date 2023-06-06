@@ -18,7 +18,6 @@ const SingleCourse = () => {
               <Box className="course-block-text-left">
                 <Box className="section-block">
                   <p className="section-title-inner-style" id="starter">
-                    {" "}
                     For Starters
                   </p>
                   <h2 className="section-title">
