@@ -3,6 +3,9 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { FcAlarmClock } from "react-icons/fc";
+import { BsBook } from "react-icons/bs";
+import { SiSkillshare } from "react-icons/si";
+import { FaAddressBook, FaAward, FaLanguage } from "react-icons/fa";
 import project2 from "../../public/images/project10.jpg";
 
 const SingleCourse = () => {
@@ -89,15 +92,70 @@ const SingleCourse = () => {
         <Box className="section-gap-bottom-130">
           <Box className="container w-container">
             <Box className="course-section-block">
-              <Box className="duration-course-text-left  course-block-text-left"></Box>
+              <Box className="duration-course-text-left  course-block-text-left">
+                <Box>
+                  <h2 className="section-title">What you'll learn</h2>
+                </Box>
+                <Box>
+                  <li className="li">Become a UI/UX designer.</li>
+                  <li className="li">
+                    You will be able to start earning money skills.
+                  </li>
+                  <li className="li">
+                    Build a UI project from beginning to end.
+                  </li>
+                  <li className="li">
+                    Learn to design mobile apps & websites. quaerat dolore
+                    numquam odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    You will be able to start earning money skills. quaerat
+                    dolore numquam odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    You will create your own UI Kit. quaerat dolore numquam
+                    odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    Learn to design mobile apps & websites. quaerat dolore
+                    numquam odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    You will create your own UI Kit. quaerat dolore numquam
+                    odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    Build & test a complete mobile app. quaerat dolore numquam
+                    odit, quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    Design 3 different logos. quaerat dolore numquam odit, quos
+                    sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    Create low-fidelity wireframe. quaerat dolore numquam odit,
+                    quos sunt iusto! Eum velit
+                  </li>
+                  <li className="li">
+                    Build & test a complete mobile app. quaerat dolore numquam
+                    odit, quos sunt iusto! Eum velit
+                  </li>
+                </Box>
+              </Box>
               <Box className="duration-course-text-right course-block-image-right">
+                <h2 className="section-title center">Key Points</h2>
                 <Box className="list-container">
                   <Box className="list-group list-group-flush">
                     <Box>
                       <FcAlarmClock style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Duration</h6>
                       </li>
                       <li>
@@ -107,10 +165,15 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <SiSkillshare style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Skill level</h6>
                       </li>
                       <li>
@@ -120,10 +183,15 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <FaLanguage style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Language</h6>
                       </li>
                       <li>
@@ -133,10 +201,15 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <BsBook style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Lectures</h6>
                       </li>
                       <li>
@@ -146,10 +219,15 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <FaAddressBook style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Deadline</h6>
                       </li>
                       <li>
@@ -159,10 +237,15 @@ const SingleCourse = () => {
                   </Box>
                   <Box className="list-group list-group-flush">
                     <Box>
-                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                      <FaAward style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                      <li
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "20px",
+                        }}
+                      >
                         <h6>Certificate</h6>
                       </li>
                       <li>
