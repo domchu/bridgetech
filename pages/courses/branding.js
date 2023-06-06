@@ -12,7 +12,7 @@ const branding = () => {
   return (
     <>
       <DefaultSeo
-        title="Branding | Bridgekode Tech"
+        title="Branding Website | Bridgekode Tech"
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         {...SEO}
       />

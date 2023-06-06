@@ -3282,12 +3282,12 @@ font-weight: 700;
   display: grid;
   margin-top: 4rem;
   grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
+  grid-column-gap: 50px;
   grid-template-columns:repeat(2, 1fr);
   grid-template-rows: auto;
 }
 .course-block-text-left{
-  max-width:500px
+  max-width:500px;
 }
 .course-image{
   border-radius:10px;
@@ -3298,4 +3298,19 @@ font-weight: 700;
 }
 #starter{
   font-size:1.5rem;
+}
+.list-group {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+.list-group-item{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  padding: 5px 0px;
+}
+.duration-course-text-left{
+  border: 1px solid red;
 }

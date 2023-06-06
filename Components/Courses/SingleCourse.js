@@ -2,15 +2,12 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
-// import SubHeading from "../../Components/SubHeading";
+import { FcAlarmClock } from "react-icons/fc";
 import project2 from "../../public/images/project10.jpg";
 
 const SingleCourse = () => {
   return (
     <>
-      {/* SUBHEADING */}
-      {/* <SubHeading /> */}
-
       <Box classname="course-section wf-section">
         <Box className="section-gap-bottom-130">
           <Box className="container w-container">
@@ -65,7 +62,7 @@ const SingleCourse = () => {
                 <Image
                   src={project2}
                   alt="Coding image"
-                  width={650}
+                  width={550}
                   height={700}
                   className="course-image"
                 />
@@ -86,8 +83,32 @@ const SingleCourse = () => {
           </Box>
         </Box>
       </Box>
-      {/*  */}
-      <p></p>
+
+      {/*COURSE DURATION AND OVERVIEW  */}
+      <Box className="duration-section course-section wf-section">
+        <Box className="section-gap-bottom-130">
+          <Box className="container w-container">
+            <Box className="course-section-block">
+              <Box className="duration-course-text-left  course-block-text-left">
+                <ul className="list-group list-group-flush">
+                  <Box>
+                    <FcAlarmClock style={{ marginRight: "10px" }} />
+                  </Box>
+                  <Box className="list-group-item">
+                    <li>
+                      <h6>Duration</h6>
+                    </li>
+                    <li>
+                      <p>43 weeks</p>
+                    </li>
+                  </Box>
+                </ul>
+              </Box>
+              <Box className="duration-course-text-right course-block-image-right"></Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
     </>
   );
 };
