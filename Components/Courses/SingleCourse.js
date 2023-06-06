@@ -97,11 +97,76 @@ const SingleCourse = () => {
                       <FcAlarmClock style={{ marginRight: "10px" }} />
                     </Box>
                     <Box className="list-group-item">
-                      <li>
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
                         <h6>Duration</h6>
                       </li>
                       <li>
-                        <p>43 weeks</p>
+                        <p>5 Months</p>
+                      </li>
+                    </Box>
+                  </Box>
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                        <h6>Skill level</h6>
+                      </li>
+                      <li>
+                        <p>Beginner</p>
+                      </li>
+                    </Box>
+                  </Box>
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                        <h6>Language</h6>
+                      </li>
+                      <li>
+                        <p>English</p>
+                      </li>
+                    </Box>
+                  </Box>
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                        <h6>Lectures</h6>
+                      </li>
+                      <li>
+                        <p>Physical</p>
+                      </li>
+                    </Box>
+                  </Box>
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                        <h6>Deadline</h6>
+                      </li>
+                      <li>
+                        <p>Depend</p>
+                      </li>
+                    </Box>
+                  </Box>
+                  <Box className="list-group list-group-flush">
+                    <Box>
+                      <FcAlarmClock style={{ marginRight: "10px" }} />
+                    </Box>
+                    <Box className="list-group-item">
+                      <li style={{ fontWeight: "600", fontSize: "20px" }}>
+                        <h6>Certificate</h6>
+                      </li>
+                      <li>
+                        <p>Yes</p>
                       </li>
                     </Box>
                   </Box>

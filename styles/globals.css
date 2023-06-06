@@ -3472,12 +3472,13 @@ figure.card > figcaption {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid lightgrey;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: 5px;
 }
 
 .list-group-item {
+  font-family: Rajdhani, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 60px;
@@ -3485,5 +3486,12 @@ figure.card > figcaption {
 }
 
 .list-container {
-  border: 1px solid lightgray;
+  padding: 1rem 0.5rem;
+  background-color: #e7fbff;
+  box-shadow: 5px 5px 10px #989898, 5px 5px 10px #989898;
+  border-radius: 10px;
+}
+
+.list-group-flush {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=globals.css.map */

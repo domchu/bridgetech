@@ -3304,19 +3304,27 @@ font-weight: 700;
   justify-content:center;
   align-items:center;
   border-bottom:1px solid lightgrey;
-  width:50%;
+  width:60%;
   margin:auto;
   padding:5px;
  
 }
 .list-group-item{
+  font-family: Rajdhani, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 60px;
   padding: 5px 0px;
 }
 .list-container{
-  border:1px solid lightgray;
-  // padding:1rem;
+  padding:1rem .5rem;
+  background-color:#e7fbff;
+  box-shadow:  5px 5px 10px #989898,
+             5px 5px 10px #989898;
+  border-radius: 10px;
+
+}
+.list-group-flush{
+  margin-bottom: 15px;
 }
 
