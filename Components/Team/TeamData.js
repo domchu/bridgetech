@@ -71,10 +71,10 @@ const TeamData = [
     name: "Owoicho Emma ",
     job: "Branding/SEO Expert",
     profile: "/team/branding",
-    facebookLink: "https://www.facebook.com/",
-    instagramLink: "https://www.instagram.com/",
+    facebookLink: "https://www.facebook.com/Thexclusivemedia/",
+    instagramLink: "https://www.instagram.com/thexclusive_media",
     twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    linkedinLink: "https://linkedin.com/in/owoicho-emmanuel-a95301152",
   },
   {
     id: "8",
