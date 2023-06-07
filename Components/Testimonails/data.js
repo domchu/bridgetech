@@ -2,9 +2,9 @@
 const TestimonialData = [
   {
     id: 1,
-    image: "/images/full-stack.jpg",
+    image: "/images/senwriter.jpg",
     name: "Ekeh Esther Uchechi",
-    title: "Keyonaville HeadTeacher",
+    title: "Keyonaville Sch. HeadTeacher",
     quote:
       "I had a fantastic experience working with Bridgekode on my website development project. They were highly professional, attentive to detail, and delivered a stunning website that exceeded my expectations. I highly recommend Bridgekode for web development services. ",
   },
@@ -26,7 +26,7 @@ const TestimonialData = [
   },
   {
     id: 4,
-    image: "/images/project-man.jpg",
+    image: "/images/mr-sleek.jpg",
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
