@@ -52,7 +52,7 @@ const TeamData = [
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    linkedinLink: "https://linkedin.com/in/chinasa-oti",
   },
   {
     id: "6",

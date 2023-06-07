@@ -5,7 +5,23 @@ import WebImage from "../../public/images/project2.jpg";
 import WebIm from "../../public/images/service-benefit.jpg";
 import ladyImage from "../../public/images/ladyimage.png";
 
-const SingleProject = ({ title }) => {
+const SingleProject = ({
+  title,
+  name,
+  date,
+  category,
+  address,
+  works,
+  number1,
+  number2,
+  Summary,
+  result,
+  benefits,
+  problemsState,
+  solution1,
+  solution2,
+  solution3,
+}) => {
   return (
     <>
       <Box className="project-section wf-section">
