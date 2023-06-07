@@ -34,7 +34,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    image: "/images/slider.jpg",
+    image: "/images/chineyre.jpg",
     name: "Onuabueke Fidelia",
     title: "Clearing & Forwarding(Shipping)",
     quote:

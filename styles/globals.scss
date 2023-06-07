@@ -2917,6 +2917,7 @@ figcaption {
 width: 320px;
 border-radius: 5px;
 overflow:hidden;
+box-shadow: 2px 0px 8px 8px rgba(0,0,0,0.2);
 }
 .card:hover{
   background-color: #c0c0c0;
@@ -3292,6 +3293,11 @@ font-weight: 700;
 .course-image{
   border-radius:10px;
   margin-bottom:2rem
+}
+.card:hover .course-image{
+  transform: scale(1.1);
+  transition:.5s;
+  box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
 }
 #chat{
   margin-left:20px;

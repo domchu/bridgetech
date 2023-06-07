@@ -1,7 +1,7 @@
 const TeamData = [
   {
     id: "1",
-    image: "/images/team-ceo.jpg ",
+    image: "/images/ceo.jpg ",
     name: "Ochu Dominic",
     job: "CEO, President",
     profile: "/team/president",
@@ -12,7 +12,7 @@ const TeamData = [
   },
   {
     id: "2",
-    image: "/images/digital-head.jpg ",
+    image: "/images/mr-sleek.jpg ",
     name: "Olatunde Sleek",
     job: "Project Manager",
     profile: "/team/promanager",
@@ -23,7 +23,7 @@ const TeamData = [
   },
   {
     id: "3",
-    image: "/images/senior-frontend.jpg ",
+    image: "/images/richcode.jpg ",
     name: "Ogada Stanley",
     job: "Senior Frontend Engr.",
     profile: "/team/frontend",
@@ -34,7 +34,7 @@ const TeamData = [
   },
   {
     id: "4",
-    image: "/images/product-designer.jpg ",
+    image: "/images/sam.jpg ",
     name: "Egaji Samuel",
     job: "Product(UX/UI) Designer",
     profile: "/team/uxui",
@@ -56,7 +56,7 @@ const TeamData = [
   },
   {
     id: "6",
-    image: "/images/project-man.jpg ",
+    image: "/images/tunde.jpg ",
     name: "Mudashir Tunde",
     job: "FullStack Software Engr.",
     profile: "/team/fullstack",
@@ -89,7 +89,7 @@ const TeamData = [
   },
   {
     id: "9",
-    image: "/images/graphic.jpg ",
+    image: "/images/admin.jpg ",
     name: "Dike Ifeanyi",
     job: "Admin Officer",
     profile: "/team/admin",
@@ -122,7 +122,7 @@ const TeamData = [
   },
   {
     id: "12",
-    image: "/images/full-stack.jpg ",
+    image: "/images/senwriter.jpg ",
     name: "Esther Uchechi",
     job: " Senior Content Writer",
     profile: "/team/seniorwriter",
