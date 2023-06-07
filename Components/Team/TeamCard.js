@@ -34,6 +34,7 @@ const TeamCard = () => {
                     loading="lazy"
                     width={300}
                     height={300}
+                    // objectFit="cover"
                   />
                 </Box>
                 <Box className="team-content">
