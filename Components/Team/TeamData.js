@@ -23,7 +23,7 @@ const TeamData = [
   },
   {
     id: "3",
-    image: "/images/senwriter.jpg ",
+    image: "/images/senwrita.jpg ",
     name: "Esther Uchechi",
     job: " Senior Content Writer",
     profile: "/team/seniorwriter",
@@ -34,7 +34,7 @@ const TeamData = [
   },
   {
     id: "4",
-    image: "/images/richcode.jpg ",
+    image: "/images/stanley.jpg ",
     name: "Ogada Stanley",
     job: "Senior Frontend Engr.",
     profile: "/team/frontend",
@@ -78,7 +78,7 @@ const TeamData = [
   },
   {
     id: "8",
-    image: "/images/admin.jpg ",
+    image: "/images/ify.jpg ",
     name: "Dike Ifeanyi",
     job: "Admin Officer",
     profile: "/team/admin",
