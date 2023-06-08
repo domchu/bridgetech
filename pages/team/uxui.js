@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux/Ui Design | Bridgekode"
+        title="Ux/Ui Design | Bridgekode Tech"
         description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc  "
         {...SEO}
       />
@@ -28,6 +28,7 @@ const promanager = () => {
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/"
+        image="/images/sammy.jpg"
       />
       <Testimonial />
       <Footer />

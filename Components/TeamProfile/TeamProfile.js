@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-import Man from "../../public/images/team-ceo.jpg";
+// import Man from "../../public/images/team-ceo.jpg";
 import Facebook from "../../public/images/facebook-icon.png";
 import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
@@ -17,6 +17,7 @@ const TeamProfile = ({
   twitterlink,
   instagramlink,
   linkedinlink,
+  image,
 }) => {
   return (
     <>
@@ -26,7 +27,9 @@ const TeamProfile = ({
             <Box className="team-details-block">
               <Box className="team-details-image-block">
                 <Image
-                  src={Man}
+                  src={image}
+                  height={625}
+                  width={100}
                   alt="A man wearing suite"
                   loading="lazy"
                   className="image-responsie team-large-image img"

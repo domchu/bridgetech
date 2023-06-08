@@ -12,8 +12,8 @@ const team = () => {
   return (
     <div>
       <DefaultSeo
-        title="Team | Bridgekode Tech"
-        description="Human resourses of bridgekode, hale & hearty"
+        title="Bridgekode Team | Bridgekode Tech"
+        description="Human resourses of bridgekode, hale & hearty, exparte, knowledgeable & experience "
         {...SEO}
       />
       <Topnav />

@@ -2134,10 +2134,14 @@ strong {
   border-radius: 10px;
 }
 .service-single-item-box {
-  padding: 10px 10px 0px 20px;
+  padding: 20px 20px 0px 20px;
   border-radius: 10px;
   background-color: #e7fbff ;
   box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.13) ;
+}
+.service-single-item-box:hover .image-responsive {
+  transform: scale(1.2);
+  transition: .5s;
 }
 .w-inline-block {
   max-width: 100%;
@@ -2917,6 +2921,7 @@ figcaption {
 width: 320px;
 border-radius: 5px;
 overflow:hidden;
+box-shadow: 2px 0px 8px 8px rgba(0,0,0,0.2);
 }
 .card:hover{
   background-color: #c0c0c0;
@@ -3120,9 +3125,9 @@ padding-left:7px;
 
 
 // SINGLE PROJECT DETAILS STYLES
-.project-block-copy.max-width-635 {
-  max-width: 790px;
-}
+// .project-block-copy.max-width-635 {
+//   max-width: 790px;
+// }
 .project-details-title {
   margin-top: 0px ;
   margin-bottom:20px;
@@ -3292,6 +3297,11 @@ font-weight: 700;
 .course-image{
   border-radius:10px;
   margin-bottom:2rem
+}
+.card:hover .course-image{
+  transform: scale(1.1);
+  transition:.5s;
+  box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
 }
 #chat{
   margin-left:20px;

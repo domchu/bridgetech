@@ -35,7 +35,7 @@ const Map = () => {
                   form.
                   <br />
                   It's recommended to directly contact
-                  <strong>Bridgekode</strong> using the provided contact
+                  <strong> Bridgekode</strong> using the provided contact
                   information for the most accurate and up-to-date
                   communication.
                 </Box>

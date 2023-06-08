@@ -2,31 +2,31 @@
 const TestimonialData = [
   {
     id: 1,
-    image: "/images/full-stack.jpg",
+    image: "/images/senwrita.jpg",
     name: "Ekeh Esther Uchechi",
-    title: "Keyonaville HeadTeacher",
+    title: "Keyonaville Sch. HeadTeacher",
     quote:
       "I had a fantastic experience working with Bridgekode on my website development project. They were highly professional, attentive to detail, and delivered a stunning website that exceeded my expectations. I highly recommend Bridgekode for web development services. ",
   },
   {
     id: 2,
-    image: "/images/seo-expert.jpg",
-    name: "Owoicho Emmanuel",
-    title: "CEO The Exclusive Media",
+    image: "/images/simon.jpg",
+    name: "Odey Simon",
+    title: "Pastor, City of Signs & Wonders Assembly.",
     quote:
       "Creativity and excellent tech expertise of the team in combination with the transparency of working process make bridgekode one of the best company to work with. ",
   },
   {
     id: 3,
     image: "/images/full-stack.jpg",
-    name: "Nwabudike Ifeanyi ",
-    title: "school Teacher",
+    name: "Muhammad Habeebulah",
+    title: "Web Developer",
     quote:
       "Extremely fast and always available for any emergency issue. Always trying to understand the problem and propose the best solution possible ",
   },
   {
     id: 4,
-    image: "/images/project-man.jpg",
+    image: "/images/sleek.jpg",
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
@@ -34,7 +34,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    image: "/images/slider.jpg",
+    image: "/images/chineyre.jpg",
     name: "Onuabueke Fidelia",
     title: "Clearing & Forwarding(Shipping)",
     quote:

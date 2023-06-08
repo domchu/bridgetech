@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Senior Frontend | Bridgekode"
+        title="Senior Frontend | Bridgekode Tech"
         description="senior frontend engineer with Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />
@@ -21,13 +21,14 @@ const promanager = () => {
       <TeamSingleHead />
       <TeamProfile
         name="Ogada Stanley"
-        title="Senior Frontend Egnr."
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
-        achievement="Best front-end Engineer tutor-2022 "
+        title="Senior Frontend Engineer."
+        biography="A very versatile, confident, Creative and immovable Front-End Engineer with over 5 years of experience building stable eCommerce websites and apps in fast-paced, collaborative environments and software tutor/mentor to younger developers"
+        achievement="Best front-end Engineer Tutor/Mentor-2022 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/"
+        image="/images/stanley.jpg"
       />
       <Testimonial />
       <Footer />

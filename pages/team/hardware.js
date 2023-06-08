@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Hardware Engineer | Bridgekode"
+        title="Hardware Engineer | Bridgekode Tech"
         description="Expert in hardware maintainance and networking.  "
         {...SEO}
       />
@@ -28,6 +28,7 @@ const promanager = () => {
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/"
+        image="/images/lawrence.jpg"
       />
       <Testimonial />
       <Footer />

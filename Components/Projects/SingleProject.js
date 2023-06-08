@@ -1,11 +1,30 @@
 import React from "react";
 import Image from "next/image";
 import { Box } from "@chakra-ui/react";
-import WebImage from "../../public/images/project2.jpg";
-import WebIm from "../../public/images/service-benefit.jpg";
 import ladyImage from "../../public/images/ladyimage.png";
 
-const SingleProject = ({ title }) => {
+const SingleProject = ({
+  title,
+  content,
+  name,
+  date,
+  category,
+  address,
+  number1,
+  number2,
+  summary,
+  result,
+  benefits,
+  point1,
+  point2,
+  problemsState,
+  problemsSummary,
+  solution1,
+  solution2,
+  solution3,
+  image1,
+  image2,
+}) => {
   return (
     <>
       <Box className="project-section wf-section">
@@ -15,18 +34,16 @@ const SingleProject = ({ title }) => {
               <Box className="project-block-copy max-width-635">
                 <h2 className="project-details-title">{title}</h2>
                 <Box className="project-top-rich-text-block w-richtext">
-                  <strong>IT Consultancy</strong> provide the best quality It
-                  solution neque porro quisquam est qui dolore ipsum quia golor
-                  sit amet, conse ctetur, adipisci velit, sed eligendi optio
-                  cumque nihil take a trivial example, which of us ever
-                  undertakes laborious physical exercise, except
+                  {content}
                 </Box>
               </Box>
               <Box className="project-details-large-image-block">
                 <Image
-                  src={WebImage}
+                  src={image1}
                   alt="Web Image"
                   loading="lazy"
+                  width={100}
+                  height={100}
                   className="image-responsive img"
                 />
               </Box>
@@ -36,21 +53,19 @@ const SingleProject = ({ title }) => {
               <Box className="project-info-block">
                 <Box className="project-info-single-item">
                   <Box className="project-info-title">Client Name</Box>
-                  <Box className="project-info-text">Flex Corporation</Box>
+                  <Box className="project-info-text">{name}</Box>
                 </Box>
                 <Box className="project-info-single-item">
                   <Box className="project-info-title">Date</Box>
-                  <Box className="project-info-text">June 25, 2022</Box>
+                  <Box className="project-info-text">{date}</Box>
                 </Box>
                 <Box className="project-info-single-item">
                   <Box className="project-info-title">Category</Box>
-                  <Box className="project-info-text">Consultancy</Box>
+                  <Box className="project-info-text">{category}</Box>
                 </Box>
                 <Box className="project-info-single-item">
                   <Box className="project-info-title">Address</Box>
-                  <Box className="project-info-text">
-                    25K, North City, New York
-                  </Box>
+                  <Box className="project-info-text">{address}</Box>
                 </Box>
               </Box>
               <Box className="how-to-block">
@@ -59,42 +74,18 @@ const SingleProject = ({ title }) => {
                     How this Project works
                   </h2>
                   <Box className="w-richtext">
-                    <p>
-                      We are <strong>Optitech</strong> provide the best quality
-                      It solution neque porro quisquam est qui dolorem ipsum
-                      quia golor sit amet, conse ctetur, adipisci velit, sed
-                      eligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat
-                    </p>
+                    <p>{summary}</p>
                   </Box>
                   <Box className="inner-quote-block">
                     <Box className="w-richtext">
-                      <p className="p">
-                        IT Consultancy provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </p>
-                      <p>
-                        IT Consultancy provide the most service neque porro
-                        quisquam est qui dolorem ipsum quia golor sit amet,
-                        conse ctetur, adipisci velit
-                      </p>
+                      <p className="p">{number1}</p>
+                      <p>{number2}</p>
                       <Box className="inner-quote-border-left"></Box>
                     </Box>
                   </Box>
                   <Box className="w-richtext">
-                    <p className="p">
-                      The main way to solve the the best quality It solution
-                      neque porro quisquam qui dolorem ipsum quia golor sit
-                      amet, conse ctetur, adipisci velit, sed eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
-                    </p>
-                    <p>
-                      Great deal dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit, sed optio cumque nihil impedit quo
-                      minus id quod maxime placeat optio cumque nihil impedit
-                      quo minus id quod maxime placeat
-                    </p>
+                    <p className="p">{point1}</p>
+                    <p className="p">{point2}</p>
                   </Box>
                 </Box>
                 <Box className="how-to-right-block">
@@ -113,74 +104,29 @@ const SingleProject = ({ title }) => {
                   Project Result & Benefits of Project
                 </h2>
                 <Box className="w-richtext">
-                  <p>
-                    We are <strong>Optitech</strong> provide the best quality It
-                    solution neque porro quisquam est qui dolorem ipsum quia
-                    golor sit amet, conse ctetur, adipisci velit, sed eligendi
-                    optio cumque nihil impedit quo minus id quod maxime placeat
-                    pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain pain of itself, because it is
-                    pain, but because occasionally circumstances occur in which
-                    toil and pain can procure him some great pleaser pleasure
-                    rationally encounter consequences that are extremely
-                    painful. Nor again is there anyone who loves or pursues or
-                    desires to obtain pain of itsel because it is pain, but
-                    because occasionally circumstances occur in which toil and
-                    pain can procure him some great pleaser
-                  </p>
+                  <p>{result}</p>
                   <br />
-                  <p>
-                    We are <strong>Optitech</strong> provide the best quality It
-                    solution neque porro quisquam est qui dolorem ipsum quia
-                    golor sit amet, conse ctetur, adipisci velit, sed eligendi
-                    optio cumque nihil impedit quo minus id quod maxime placeat
-                    pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain pain of itself, because it is
-                    pain, but because occasionally circumstances occur in which
-                    toil and pain can procure
-                  </p>
+                  <p>{benefits}</p>
                 </Box>
               </Box>
               <Box className="project-list-block">
                 <Box className="project-list-image-block">
                   <Image
-                    src={WebIm}
+                    src={image2}
                     alt="People Working"
                     loading="lazy"
                     className="image-cover img"
-                    sizes="(max-width:1279px) 334px 544px "
+                    width={100}
+                    height={100}
                   />
                 </Box>
                 <Box className="project-list-content">
-                  <Box className="project-list-subtitle">
-                    In IT Consultancy Service we cover most of the IT problems
-                    that your company faces and we try to solve it.
-                  </Box>
+                  <Box className="project-list-subtitle">{problemsState}</Box>
                   <Box className="w-richtext">
-                    <p className="p">
-                      We are <strong>Optitech</strong> provide the best quality
-                      It solution neque porro quisquam est qui dolorem ipsum
-                      quia golor sit amet, conse ctetur, adipisci velit, sed
-                      eligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat
-                    </p>
-                    <Box className="li p">
-                      IT Management provide the most service neque porro
-                      quisquam est qui dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit
-                    </Box>
-                    <Box className="li p">
-                      IT Management provide the most service neque porro
-                      quisquam est qui dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit
-                    </Box>
-                    <Box className="li p">
-                      IT Management provide the most service neque porro
-                      quisquam est qui dolorem ipsum quia golor sit amet, conse
-                      ctetur, adipisci velit
-                    </Box>
+                    <p className="p">{problemsSummary}</p>
+                    <Box className="li p">{solution1}</Box>
+                    <Box className="li p">{solution2}</Box>
+                    <Box className="li p">{solution3}</Box>
                   </Box>
                 </Box>
               </Box>
