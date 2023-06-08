@@ -10,23 +10,23 @@ const TestimonialData = [
   },
   {
     id: 2,
-    image: "/images/seo-expert.jpg",
-    name: "Owoicho Emmanuel",
-    title: "CEO The Exclusive Media",
+    image: "/images/simon.jpg",
+    name: "Odey Simon",
+    title: "Pastor, City of Signs & Wonders Assembly.",
     quote:
       "Creativity and excellent tech expertise of the team in combination with the transparency of working process make bridgekode one of the best company to work with. ",
   },
   {
     id: 3,
     image: "/images/full-stack.jpg",
-    name: "Nwabudike Ifeanyi ",
-    title: "school Teacher",
+    name: "Muhammad Habeebulah",
+    title: "Web Developer",
     quote:
       "Extremely fast and always available for any emergency issue. Always trying to understand the problem and propose the best solution possible ",
   },
   {
     id: 4,
-    image: "/images/mr-sleek.jpg",
+    image: "/images/sleek.jpg",
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
