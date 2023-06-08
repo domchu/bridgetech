@@ -82,10 +82,11 @@ const TeamData = [
     name: "Dim Lawrence",
     job: "Hardware/Network Engr",
     profile: "/team/hardware",
-    facebookLink: "https://www.facebook.com/",
-    instagramLink: "https://www.instagram.com/",
-    twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/dimkpa.lawrence",
+    instagramLink: "https://www.instagram.com/engr.lawrence",
+    twitterLink: "https://twitter.com/cyberdyne_tech",
+    linkedinLink:
+      "https://linkedin.com/in/emmanuel-lawrence-dimkpa-ebgr-96a161123",
   },
   {
     id: "9",
