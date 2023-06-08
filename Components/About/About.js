@@ -144,6 +144,22 @@ const About = () => {
         </Box>
       </Box>
 
+      {/*CSS ANIMATED BACKGROUND  */}
+      <div className="arae">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      {/* end of animated */}
       {/* WHY BRIDGEKODE  */}
       <WhyBridgetech />
 
