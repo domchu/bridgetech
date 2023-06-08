@@ -2,7 +2,7 @@
 const TestimonialData = [
   {
     id: 1,
-    image: "/images/senwriter.jpg",
+    image: "/images/senwrita.jpg",
     name: "Ekeh Esther Uchechi",
     title: "Keyonaville Sch. HeadTeacher",
     quote:

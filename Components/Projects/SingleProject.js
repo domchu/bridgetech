@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Box } from "@chakra-ui/react";
-// import WebImage from "../../public/images/project2.jpg";
-// import WebIm from "../../public/images/service-benefit.jpg";
 import ladyImage from "../../public/images/ladyimage.png";
 
 const SingleProject = ({
