@@ -246,7 +246,7 @@ const Navbar = () => {
                 />
               </Box>
               {/* MOBILE VIEW OF THE BRIDGEKODE */}
-              <Box className="" style={{ display: mobile ? "block" : "none" }}>
+              <Box className="" style={{ mobile: mobile ? "block" : "none" }}>
                 <MobileView />
               </Box>
               <Box>

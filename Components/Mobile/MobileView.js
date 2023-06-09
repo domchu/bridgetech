@@ -18,6 +18,15 @@ const MobileView = () => {
   };
   return (
     <>
+      {/* <Box
+                className={`moview-view-container ${
+                  mobile
+                    ? "moview-view-container--show"
+                    : "moview-view-container--hide"
+                }`}
+              >
+                <MobileView />
+              </Box> */}
       <nav className="mobile-container">
         <Box className="mobile-position">
           <Box className="">
