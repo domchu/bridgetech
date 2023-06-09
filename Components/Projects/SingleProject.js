@@ -79,7 +79,7 @@ const SingleProject = ({
                   <Box className="inner-quote-block">
                     <Box className="w-richtext">
                       <p className="p">{number1}</p>
-                      <p>{number2}</p>
+                      <p className="p">{number2}</p>
                       <Box className="inner-quote-border-left"></Box>
                     </Box>
                   </Box>

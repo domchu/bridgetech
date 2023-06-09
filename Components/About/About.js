@@ -36,7 +36,7 @@ const About = () => {
       </Box>
 
       {/* HI THERE */}
-      <Box className="about-section wf-section">
+      <Box className="about-section wf-section contet">
         <Box className="section-gap-top-130">
           <Box className="container w-container">
             <Box className="bout-block">
@@ -145,7 +145,7 @@ const About = () => {
       </Box>
 
       {/*CSS ANIMATED BACKGROUND  */}
-      <div className="arae">
+      {/* <Box className="area">
         <ul className="circles">
           <li></li>
           <li></li>
@@ -158,7 +158,7 @@ const About = () => {
           <li></li>
           <li></li>
         </ul>
-      </div>
+      </Box> */}
       {/* end of animated */}
       {/* WHY BRIDGEKODE  */}
       <WhyBridgetech />
