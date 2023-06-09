@@ -18,6 +18,7 @@ const graphics = () => {
       <Topnav />
       <Header />
       <CoursesSubHeading text="Graphics Design" />
+      
       <h2>Graphics Course</h2>
       <Testimonial />
       <Footer />
