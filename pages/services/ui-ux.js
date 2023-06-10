@@ -34,7 +34,7 @@ const uiux = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-              An indepth overview of the services we renders at bridgekode
+                An indepth overview of the services we renders at bridgekode
                 development services.
               </p>
               <ul className="project-link">
@@ -113,7 +113,7 @@ const uiux = () => {
                               href="/services/web-design-training"
                               id="service-link"
                             >
-                              Web Design Training
+                              Kids Coding Training
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
@@ -167,6 +167,63 @@ const uiux = () => {
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/social-media"
+                              id="service-link"
+                            >
+                              Digital & Social Media
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/services/python" id="service-link">
+                              Python Data-Science
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/human-resources"
+                              id="service-link"
+                            >
+                              Human Resources(HR)
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/branding-seo"
+                              id="service-link"
+                            >
+                              Branding & SEO
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/hardware-network"
+                              id="service-link"
+                            >
+                              Hradware & Networking
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
                         </Box>
                       </Box>
                     </Box>
@@ -176,8 +233,17 @@ const uiux = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                   <strong> UI/UX design</strong> refers to the practice of creating user-friendly and visually appealing interfaces for digital products or systems. It involves considering both the User Interface (UI) and User Experience (UX) aspects of design.
-                    UI design focuses on the visual elements of the interface, including the layout, colors, typography, icons, and other graphical elements. It aims to create an attractive and consistent visual design that aligns with the brand identity. UI designers strive to make the interface visually appealing, engaging, and easy to navigate.
+                      <strong> UI/UX design</strong> refers to the practice of
+                      creating user-friendly and visually appealing interfaces
+                      for digital products or systems. It involves considering
+                      both the User Interface (UI) and User Experience (UX)
+                      aspects of design. UI design focuses on the visual
+                      elements of the interface, including the layout, colors,
+                      typography, icons, and other graphical elements. It aims
+                      to create an attractive and consistent visual design that
+                      aligns with the brand identity. UI designers strive to
+                      make the interface visually appealing, engaging, and easy
+                      to navigate.
                     </p>
                   </Box>
                 </Box>

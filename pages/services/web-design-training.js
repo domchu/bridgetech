@@ -34,7 +34,7 @@ const webdesigntraining = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-              An indepth overview of the services we renders at bridgekode
+                An indepth overview of the services we renders at bridgekode
                 development services.
               </p>
               <ul className="project-link">
@@ -54,7 +54,7 @@ const webdesigntraining = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Web Design Training</Box>
+                  <Box className="project-link-text">Kids Coding Training</Box>
                 </li>
               </ul>
             </Box>
@@ -113,7 +113,7 @@ const webdesigntraining = () => {
                               href="/services/web-design-training"
                               id="service-link"
                             >
-                              Web Design Training
+                              Kids Coding Training
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
@@ -167,16 +167,81 @@ const webdesigntraining = () => {
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/social-media"
+                              id="service-link"
+                            >
+                              Digital & Social Media
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/services/python" id="service-link">
+                              Python Data-Science
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/human-resources"
+                              id="service-link"
+                            >
+                              Human Resources(HR)
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/branding-seo"
+                              id="service-link"
+                            >
+                              Branding & SEO
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/hardware-network"
+                              id="service-link"
+                            >
+                              Hradware & Networking
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
                         </Box>
                       </Box>
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">Web Development Training </h2>
+                    <h2 className="section-title">Kids Coding Training </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                    <strong>Web development training</strong> refers to the process of learning and acquiring the necessary skills, knowledge, and practical experience to become proficient in web development. It involves structured courses, educational programs, workshops, tutorials, or online resources designed to teach individuals the fundamentals and advanced concepts of building websites and web applications.
+                      <strong>Web development training</strong> refers to the
+                      process of learning and acquiring the necessary skills,
+                      knowledge, and practical experience to become proficient
+                      in web development. It involves structured courses,
+                      educational/school programs, workshops, tutorials, or
+                      online resources designed to teach students, kids,
+                      secondary leavers, teenagers, individuals the fundamentals
+                      using HTML, CSS, Javascript(Js) and advanced concepts of
+                      building websites and web applications.
                     </p>
                   </Box>
                 </Box>

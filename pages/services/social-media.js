@@ -34,7 +34,7 @@ const socialMedia = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-              An indepth overview of the services we renders at bridgekode
+                An indepth overview of the services we renders at bridgekode
                 development services.
               </p>
               <ul className="project-link">
@@ -115,7 +115,7 @@ const socialMedia = () => {
                               href="/services/web-design-training"
                               id="service-link"
                             >
-                              Web Design Training
+                              Kids Coding Training
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
@@ -169,6 +169,63 @@ const socialMedia = () => {
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/social-media"
+                              id="service-link"
+                            >
+                              Digital & Social Media
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/services/python" id="service-link">
+                              Python Data-Science
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/human-resources"
+                              id="service-link"
+                            >
+                              Human Resources(HR)
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/branding-seo"
+                              id="service-link"
+                            >
+                              Branding & SEO
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/hardware-network"
+                              id="service-link"
+                            >
+                              Hradware & Networking
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
                         </Box>
                       </Box>
                     </Box>
@@ -180,7 +237,14 @@ const socialMedia = () => {
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
-                    Social media refers to a collection of online platforms and technologies that allow individuals and organizations to create, share, and interact with user-generated content. It is a digital communication channel that enables users to connect, collaborate, and engage with others on the internet. Social media platforms provide various features and tools for communication, content sharing, and networking.
+                      Social media refers to a collection of online platforms
+                      and technologies that allow individuals and organizations
+                      to create, share, and interact with user-generated
+                      content. It is a digital communication channel that
+                      enables users to connect, collaborate, and engage with
+                      others on the internet. Social media platforms provide
+                      various features and tools for communication, content
+                      sharing, and networking.
                     </p>
                   </Box>
                 </Box>
@@ -191,7 +255,7 @@ const socialMedia = () => {
                 <Box className="service-area-content section-block">
                   <h2 className="section-title">Which area we cover</h2>
                   <Box className="service-subtitle-text">
-                  <p>
+                    <p>
                       Remember, each social media platform has its own unique
                       features and best practices. Stay updated with the latest
                       trends and changes in algorithms to optimize your social
@@ -200,7 +264,7 @@ const socialMedia = () => {
                       consider. Here are some important aspects to cover:
                     </p>
                   </Box>
-                    <Box className="w-richtext">
+                  <Box className="w-richtext">
                     <ul className="ul" role="list">
                       <li className="li">
                         Influencer Marketing: Collaborate with influencers or
@@ -216,9 +280,8 @@ const socialMedia = () => {
                         of community. Show appreciation for your followers and
                         build relationships with them.
                       </li>
-                     
                     </ul>
-                    </Box>
+                  </Box>
                 </Box>
                 <Box className="service-area-image-block">
                   <Image
@@ -275,11 +338,12 @@ const socialMedia = () => {
                   </Box>
                   <Box className="w-text">
                     <p>
-                      <strong>Social media</strong> encourages user engagement through likes,
-                      comments, shares, and reactions. Users can interact with
-                      the content shared by others, expressing their thoughts,
-                      opinions, and emotions. Platforms may also offer private
-                      messaging features for direct communication between users.
+                      <strong>Social media</strong> encourages user engagement
+                      through likes, comments, shares, and reactions. Users can
+                      interact with the content shared by others, expressing
+                      their thoughts, opinions, and emotions. Platforms may also
+                      offer private messaging features for direct communication
+                      between users.
                     </p>
                   </Box>
                 </Box>

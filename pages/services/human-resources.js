@@ -54,7 +54,7 @@ const humanResources = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Human Resources</Box>
+                  <Box className="project-link-text">Human Resources(HR)</Box>
                 </li>
               </ul>
             </Box>
@@ -113,7 +113,7 @@ const humanResources = () => {
                               href="/services/web-design-training"
                               id="service-link"
                             >
-                              Web Design Training
+                              Kids Coding Training
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
@@ -167,13 +167,71 @@ const humanResources = () => {
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/social-media"
+                              id="service-link"
+                            >
+                              Digital & Social Media
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/services/python" id="service-link">
+                              Python Data-Science
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/human-resources"
+                              id="service-link"
+                            >
+                              Human Resources(HR)
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/branding-seo"
+                              id="service-link"
+                            >
+                              Branding & SEO
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/hardware-network"
+                              id="service-link"
+                            >
+                              Hradware & Networking
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
                         </Box>
                       </Box>
                     </Box>
                   </Box>
                   <Box className="section-block">
                     <h2 className="section-title">
-                      Human Resources [HR] Dev/Mgmt
+                      Human Resources [HR] 
+                       & Mgmt
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
