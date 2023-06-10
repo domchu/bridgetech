@@ -655,10 +655,7 @@ nav {
   transition: var(--transition);
   transform: scale(1.3);
 }
-// @media screen and (max-width:#{$table-width} ){
-//   .footer-container{
-//   }
-// }
+
 @media screen and (max-width:#{$phone-width} ) {
   .footer-link h2 {
     font-size: 22px;
@@ -673,9 +670,7 @@ nav {
     margin-bottom: 2rem;
   }
 }
-// h1
 
-//
 
 // SUBHEADING STYLES
 .project-sub-container {
@@ -772,12 +767,13 @@ nav {
   padding: 25px;
   background-color: var(--natural-clr-1);
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.13);
-  // overflow: hidden;
 }
 .project-collection {
   position: relative;
   width: 300px;
   height: 300px;
+  overflow:hidden;
+  border-radius: 10px;
 }
 .project__img {
   border-radius: 10px;
@@ -785,7 +781,6 @@ nav {
   width: 100%;
   height: 100%;
   transition: 0.5s;
-  overflow: hidden;
 }
 .project__contents {
   transition: 0.5s ease;
@@ -824,8 +819,6 @@ nav {
 
 .project__contents {
   opacity: 0;
-  // transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
-  // transform-style: preserve-3d;
 }
 .project-item-wrapper:hover .pointer-arrow {
   opacity: 1;
@@ -1919,7 +1912,7 @@ img {
 }
 .choose-list-item {
   display: flex;
-  align-items: center;
+  // align-items: center;
   grid-column-gap: 25px;
 }
 .choose-image-icon {
@@ -3089,9 +3082,9 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  background-image: linear-gradient(270deg, #030b63, #0179af);
+  // background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
-  // background-color: var(--natural-clr-4);
+  background-color: var(--primary-clr-2);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;

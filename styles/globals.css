@@ -769,6 +769,8 @@ nav {
   position: relative;
   width: 300px;
   height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .project__img {
@@ -777,7 +779,6 @@ nav {
   width: 100%;
   height: 100%;
   transition: 0.5s;
-  overflow: hidden;
 }
 
 .project__contents {
@@ -1986,7 +1987,6 @@ img {
 
 .choose-list-item {
   display: flex;
-  align-items: center;
   grid-column-gap: 25px;
 }
 
@@ -3106,8 +3106,8 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
+  background-color: var(--primary-clr-5);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;
