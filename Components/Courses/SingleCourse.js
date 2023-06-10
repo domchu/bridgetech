@@ -8,11 +8,13 @@ import { SiSkillshare } from "react-icons/si";
 import { FaAddressBook, FaAward, FaLanguage } from "react-icons/fa";
 import project2 from "../../public/images/project10.jpg";
 
-const SingleCourse = ({ courseTitle,
+const SingleCourse = ({
+  courseTitle,
   courseSummary,
   contents,
   comment,
   duration,
+  amount,
   list1,
   list2,
   list3,
@@ -25,7 +27,7 @@ const SingleCourse = ({ courseTitle,
   list10,
   list11,
   list12,
-  courseImage
+  courseImage,
 }) => {
   return (
     <>
@@ -38,9 +40,7 @@ const SingleCourse = ({ courseTitle,
                   <p className="section-title-inner-style" id="starter">
                     For Starters
                   </p>
-                  <h2 className="section-title">
-                    {courseTitle}
-                  </h2>
+                  <h2 className="section-title">{courseTitle}</h2>
                 </Box>
                 <Box className="section-text">
                   {courseSummary}
@@ -68,7 +68,7 @@ const SingleCourse = ({ courseTitle,
               </Box>
               <Box className="course-block-image-right">
                 <Image
-                  src={project2}
+                  src={courseImage}
                   alt="Coding image"
                   width={550}
                   height={700}
@@ -86,6 +86,13 @@ const SingleCourse = ({ courseTitle,
                   <li className="li">A good computer </li>
                   <li className="li">A good phone </li>
                 </Box>
+                <Link
+                  href="https://wa.me/2347034278995"
+                  className="primary-button margin-top-40"
+                  id="chat"
+                >
+                  {amount}
+                </Link>
               </Box>
             </Box>
           </Box>
@@ -103,39 +110,17 @@ const SingleCourse = ({ courseTitle,
                 </Box>
                 <Box>
                   <li className="li">{list1} </li>
-                  <li className="li">
-                    {list2}
-                  </li>
-                  <li className="li">
-                   {list3}
-                  </li>
-                  <li className="li">
-                    {list4}
-                  </li>
-                  <li className="li">
-                    {list5}
-                  </li>
-                  <li className="li">
-                    {list6}
-                  </li>
-                  <li className="li">
-                    {list7}
-                  </li>
-                  <li className="li">
-                   {list8}
-                  </li>
-                  <li className="li">
-                    {list9}
-                  </li>
-                  <li className="li">
-                   {list10}
-                  </li>
-                  <li className="li">
-                    {list11}
-                  </li>
-                  <li className="li">
-                    {list12}
-                  </li>
+                  <li className="li">{list2}</li>
+                  <li className="li">{list3}</li>
+                  <li className="li">{list4}</li>
+                  <li className="li">{list5}</li>
+                  <li className="li">{list6}</li>
+                  <li className="li">{list7}</li>
+                  <li className="li">{list8}</li>
+                  <li className="li">{list9}</li>
+                  <li className="li">{list10}</li>
+                  <li className="li">{list11}</li>
+                  <li className="li">{list12}</li>
                 </Box>
               </Box>
               <Box className="duration-course-text-right course-block-image-right">

@@ -14,13 +14,14 @@ const branding = () => {
       <DefaultSeo
         title="Branding Website | Bridgekode Tech"
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
+        content=""
         {...SEO}
       />
       <Topnav />
       <Header />
-      <CoursesSubHeading text="Branding" />
+      <CoursesSubHeading text="Branding & SEO" />
       <SingleCourse
-        courseTitle="Frontend Development Bootcamp"
+        courseTitle="Branding & SEO Bootcamp"
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -37,28 +38,21 @@ const branding = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
+        amount="#45,000"
         duration="5 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."
         list3=" Build a UI project from beginning to end."
         list4="Learn to design mobile apps & websites. quaerat dolore
         numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
+        list5="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
+        list6="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list8="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list9="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
         courseImage="/images/project2.jpg"
       />
       <Testimonial />
