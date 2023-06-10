@@ -3107,7 +3107,7 @@ figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
   transition: background-color 300ms ease-in-out;
-  background-color: var(--primary-clr-5);
+  background-color: var(--primary-clr-2);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;
