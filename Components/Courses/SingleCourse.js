@@ -79,13 +79,13 @@ const SingleCourse = ({
                   <h1 className="section-title">Requirements</h1>
                 </Box>
                 <Box>
-                  <li className="li">
+                  <Box className="li">
                     We do not require any previous experience or pre-defined
                     skills to take this course. A great orientation would be
                     enough to master web development.
-                  </li>
-                  <li className="li">A good computer </li>
-                  <li className="li">A good phone </li>
+                  </Box>
+                  <Box className="li">A good computer </Box>
+                  <Box className="li">A good phone </Box>
                 </Box>
                 <Link
                   href="https://wa.me/2347034278995"
@@ -142,7 +142,6 @@ const SingleCourse = ({
                       <li
                         style={{
                           fontWeight: "600",
-                          // fontSize: "20px",
                         }}
                         fontSize={{
                           base: "16px",
@@ -153,9 +152,9 @@ const SingleCourse = ({
                       >
                         <h6>Duration</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>{duration}</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                   <Box className="list-group list-group-flush">
@@ -171,9 +170,9 @@ const SingleCourse = ({
                       >
                         <h6>Skill level</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>Beginner</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                   <Box className="list-group list-group-flush">
@@ -189,9 +188,9 @@ const SingleCourse = ({
                       >
                         <h6>Language</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>English</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                   <Box className="list-group list-group-flush">
@@ -207,9 +206,9 @@ const SingleCourse = ({
                       >
                         <h6>Lectures</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>Physical</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                   <Box className="list-group list-group-flush">
@@ -225,9 +224,9 @@ const SingleCourse = ({
                       >
                         <h6>Deadline</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>Depend</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                   <Box className="list-group list-group-flush">
@@ -243,9 +242,9 @@ const SingleCourse = ({
                       >
                         <h6>Certificate</h6>
                       </li>
-                      <li>
+                      <Box>
                         <p>Yes</p>
-                      </li>
+                      </Box>
                     </Box>
                   </Box>
                 </Box>

@@ -56,85 +56,73 @@ const About = () => {
                     technologies.
                   </p>
                 </Reveal>
-                <p>
-                  <Reveal>
-                    <li>
-                      We are <strong>Bridgekode</strong> provide the best
-                      quality
-                      <Link href="https://www.example.com"> IT solution. </Link>
-                      Bridgekode is an innovative software development services
-                      company dedicated to providing innovative and tailored
-                      solutions to businesses of all sizes. With a strong focus
-                      on technology and a team of highly skilled professionals,
-                      Bridgekode is committed to delivering high-quality
-                      software products and services that drive business growth
-                      and efficiency.
-                    </li>
-                  </Reveal>
+                <Box>
+                  <li>
+                    We are <strong>Bridgekode</strong> provide the best quality
+                    <Link href="https://www.example.com"> IT solution. </Link>
+                    Bridgekode is an innovative software development services
+                    company dedicated to providing innovative and tailored
+                    solutions to businesses of all sizes. With a strong focus on
+                    technology and a team of highly skilled professionals,
+                    Bridgekode is committed to delivering high-quality software
+                    products and services that drive business growth and
+                    efficiency.
+                  </li>
                   <br />
-                  <Reveal>
-                    <li>
-                      <strong>Our Services:</strong>
-                    </li>
-                    <li>
-                      <b>Custom Software Development:</b> Bridgekode specializes
-                      in building custom software solutions that are precisely
-                      tailored to meet your unique business requirements.
-                      Whether you need a web application, mobile app, or
-                      enterprise software, our team can create scalable, secure,
-                      and user-friendly solutions.
-                    </li>
+                  <li>
+                    <strong>Our Services:</strong>
+                  </li>
+                  <li>
+                    <b>Custom Software Development:</b> Bridgekode specializes
+                    in building custom software solutions that are precisely
+                    tailored to meet your unique business requirements. Whether
+                    you need a web application, mobile app, or enterprise
+                    software, our team can create scalable, secure, and
+                    user-friendly solutions.
+                  </li>
+                  <br />
+                  <li>
+                    <b>Web Development:</b> We offer comprehensive web
+                    development services, including front-end and back-end
+                    development, CMS (Content Management System) customization,
+                    e-commerce platforms, and web portal development. Our
+                    experienced developers ensure your website is visually
+                    appealing, responsive, and optimized for performance.
+                  </li>
+                  <br />
+                  <li>
+                    <b>Mobile App Development:</b> Bridgekode develops mobile
+                    applications for iOS and Android platforms that provide
+                    seamless user experiences. We leverage the latest
+                    technologies, such as native development, cross-platform
+                    frameworks, and cloud integration, to deliver feature-rich
+                    and intuitive mobile apps.
+                  </li>
+                  <br />
+                  <li>
+                    <b>Web Development Training:</b> Bridgekode's web
+                    development training program is exceptional. The instructors
+                    are highly knowledgeable and experienced in the field,
+                    providing thorough explanations and practical examples.The
+                    curriculum is comprehensive, covering all essential aspects
+                    of web development, including HTML, CSS, JavaScript,
+                    Typescript, Bootstrap, Git/Github, WordPress and frameworks
+                    like React, Next, Angular, Vue and Node.js.
                     <br />
-                  </Reveal>
-                  <Reveal>
-                    <li>
-                      <b>Web Development:</b> We offer comprehensive web
-                      development services, including front-end and back-end
-                      development, CMS (Content Management System)
-                      customization, e-commerce platforms, and web portal
-                      development. Our experienced developers ensure your
-                      website is visually appealing, responsive, and optimized
-                      for performance.
-                    </li>
-                  </Reveal>
-                  <br />
-                  <Reveal>
-                    <li>
-                      <b>Mobile App Development:</b> Bridgekode develops mobile
-                      applications for iOS and Android platforms that provide
-                      seamless user experiences. We leverage the latest
-                      technologies, such as native development, cross-platform
-                      frameworks, and cloud integration, to deliver feature-rich
-                      and intuitive mobile apps.
-                    </li>
-                  </Reveal>
-                  <br />
-                  <Reveal>
-                    <li>
-                      <b>Web Development Training:</b> Bridgekode's web
-                      development training program is exceptional. The
-                      instructors are highly knowledgeable and experienced in
-                      the field, providing thorough explanations and practical
-                      examples.The curriculum is comprehensive, covering all
-                      essential aspects of web development, including HTML, CSS,
-                      JavaScript, Typescript, Bootstrap, Git/Github, WordPress
-                      and frameworks like React, Next, Angular, Vue and Node.js.
-                      <br />
-                      Overall, Bridgekode's web development training program not
-                      only equipped you with the necessary skills but also
-                      boosted you confidence in pursuing a career in web
-                      development. I highly recommend their training program to
-                      anyone looking to gain expertise in this field.
-                    </li>
-                  </Reveal>
-                </p>
+                    Overall, Bridgekode's web development training program not
+                    only equipped you with the necessary skills but also boosted
+                    you confidence in pursuing a career in web development. I
+                    highly recommend their training program to anyone looking to
+                    gain expertise in this field.
+                  </li>
+                </Box>
 
                 <Reveal>
                   <Box className="about-small-title">
                     <span className="text-span-title">Mission</span>
                   </Box>
                   <p>
-                    At <strong>Bridgekode</strong>, our{" "}
+                    At <strong>Bridgekode</strong>, our
                     <strong>Mission </strong>
                     is to empower businesses with innovative and tailored
                     software solutions that drive growth, efficiency, and
