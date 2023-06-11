@@ -13,7 +13,6 @@ import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
-
 import { FaChevronUp } from "react-icons/fa";
 
 const HomePage = () => {

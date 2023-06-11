@@ -5,6 +5,7 @@ import Expert from "../public/images/team.png";
 import Action from "../public/images/action.png";
 import Tech from "../public/images/tech.png";
 import ManImage from "../public/images/male-img.png";
+import Reveal from "../Components/Reveal";
 
 const WhyBridgetech = () => {
   return (
@@ -22,16 +23,19 @@ const WhyBridgetech = () => {
                     </span>
                     Because...
                   </h2>
-                  <Box className="section-text why-us-text">
-                    There are several reasons why people should choose
-                    Bridgekode for their web development training or services.
-                    It's important for individuals to carefully evaluate their
-                    specific needs and compare different options before choosing
-                    any training provider or service. Conducting thorough
-                    research, reviewing testimonials, and considering personal
-                    goals can help determine if Bridgekode aligns with their
-                    requirements for web development training or services.
-                  </Box>
+                  <Reveal>
+                    <Box className="section-text why-us-text">
+                      There are several reasons why people should choose
+                      Bridgekode for their web development training or services.
+                      It's important for individuals to carefully evaluate their
+                      specific needs and compare different options before
+                      choosing any training provider or service. Conducting
+                      thorough research, reviewing testimonials, and considering
+                      personal goals can help determine if Bridgekode aligns
+                      with their requirements for web development training or
+                      services.
+                    </Box>
+                  </Reveal>
                 </Box>
                 <ul className="choose-list w-list-unstyled" role="list">
                   <li className="choose-list-item">
@@ -45,13 +49,15 @@ const WhyBridgetech = () => {
                     </Box>
                     <Box className="choose-content">
                       <Box className="choose-title">Expert Team</Box>
-                      <p className="choose-text ">
-                        At Bridgekode, we take great pride in our expert team of
-                        professionals who are at the forefront of software
-                        development. Our team is comprised of highly skilled and
-                        experienced individuals with diverse expertise in
-                        various technologies and domains.
-                      </p>
+                      <Reveal>
+                        <p className="choose-text ">
+                          At Bridgekode, we take great pride in our expert team
+                          of professionals who are at the forefront of software
+                          development. Our team is comprised of highly skilled
+                          and experienced individuals with diverse expertise in
+                          various technologies and domains.
+                        </p>
+                      </Reveal>
                     </Box>
                   </li>
                   <li className="choose-list-item">
@@ -65,12 +71,14 @@ const WhyBridgetech = () => {
                     </Box>
                     <Box className="choose-content">
                       <Box className="choose-title">Quick Action</Box>
-                      <p className="choose-text ">
-                        At Bridgekode, we understand the importance of quick
-                        action and responsiveness in the fast-paced world of
-                        software development. Our team is committed to prompt
-                        and efficient execution to meet your project needs.
-                      </p>
+                      <Reveal>
+                        <p className="choose-text ">
+                          At Bridgekode, we understand the importance of quick
+                          action and responsiveness in the fast-paced world of
+                          software development. Our team is committed to prompt
+                          and efficient execution to meet your project needs.
+                        </p>
+                      </Reveal>
                     </Box>
                   </li>
                   <li className="choose-list-item">
@@ -84,14 +92,16 @@ const WhyBridgetech = () => {
                     </Box>
                     <Box className="choose-content">
                       <Box className="choose-title">Latest Technology</Box>
-                      <p className="choose-text ">
-                        These are just a few of the many emerging technologies
-                        that are shaping our world. It's important to stay
-                        updated with the latest trends and assess how they can
-                        potentially impact your industry or business to stay
-                        competitive and leverage technological advancements to
-                        your advantage.
-                      </p>
+                      <Reveal>
+                        <p className="choose-text ">
+                          These are just a few of the many emerging technologies
+                          that are shaping our world. It's important to stay
+                          updated with the latest trends and assess how they can
+                          potentially impact your industry or business to stay
+                          competitive and leverage technological advancements to
+                          your advantage.
+                        </p>
+                      </Reveal>
                     </Box>
                   </li>
                 </ul>
