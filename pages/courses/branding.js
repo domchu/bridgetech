@@ -14,14 +14,14 @@ const branding = () => {
       <DefaultSeo
         title="Branding Website | Bridgekode Tech"
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
-        content=""
+        keywords=""
         {...SEO}
       />
       <Topnav />
       <Header />
       <CoursesSubHeading text="Branding & SEO" />
       <SingleCourse
-        courseTitle="Branding & SEO Course"
+        courseTitle="Branding & SEO "
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have

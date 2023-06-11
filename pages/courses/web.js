@@ -14,6 +14,7 @@ const web = () => {
       <DefaultSeo
         title="Web Development | Bridgekode Tech"
         description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness."
+        keywords=""
         {...SEO}
       />
       <Topnav />
@@ -37,7 +38,8 @@ const web = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
-        amount="#100,000"
+        amount="# 100,000"
+        dollars="$ 200.00"
         duration="5 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."

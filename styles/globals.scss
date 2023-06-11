@@ -849,7 +849,7 @@ nav {
     margin: 4rem 0px;
   }
   .project-sub-content h1 {
-    font-size: 45px;
+    font-size: 38px;
   }
   .project-sub-content p {
     font-size: 16px;
@@ -2826,9 +2826,8 @@ p {
   .section-title {
     font-size: 25px;
   }
-  .faq-heading {
-    font-size: 18px;
-  }
+  
+  
 }
 // REGISTER FORM STYLES
 .signup-form-block {
@@ -2878,7 +2877,14 @@ p {
 .number {
   list-style-type: square;
 }
-
+// @media screen and (max-width:#{$phone-width}) {
+//   .faq-heading{
+//     font-size:18px;
+//   }
+//   .faq-text {
+//     font-size:16px;
+//   }
+// }
 // TESTIMONIAL STYLES
 .section-justify-center {
   display: flex;

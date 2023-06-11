@@ -14,13 +14,14 @@ const software = () => {
       <DefaultSeo
         title="Software Engineering | Bridgekode Tech"
         description="Full front-end development training using nextjs, Reactjs, Javscript, Typescript and Css frameworks like chakra-ui etc"
+        keywords=""
         {...SEO}
       />
       <Topnav />
       <Header />
       <CoursesSubHeading text="Software development" />
       <SingleCourse
-        courseTitle="Frontend Development Bootcamp"
+        courseTitle="Frontend Development Bootcamp "
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -37,8 +38,9 @@ const software = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
-        amount="#150,000"
-        duration="5 Months"
+        amount="# 150,000"
+        dollars="$ 250.55"
+        duration="6 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."
         list3=" Build a UI project from beginning to end."

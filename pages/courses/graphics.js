@@ -14,6 +14,7 @@ const graphics = () => {
       <DefaultSeo
         title="Graphics Design | Bridgekode Tech"
         description="We design logos, complementary cards, flyers, handbills, etc using coraldraw, photoshop, illustrator, adobe Pagemaker etc"
+        keywords=""
         {...SEO}
       />
       <Topnav />
@@ -21,7 +22,7 @@ const graphics = () => {
       <CoursesSubHeading text="Graphics Design" />
 
       <SingleCourse
-        courseTitle="Graphics Design Bootcamp"
+        courseTitle="Graphics Design "
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -38,7 +39,8 @@ const graphics = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
-        amount="#60,000"
+        amount="# 60,000"
+        dollars="$ 110.58"
         duration="5 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."

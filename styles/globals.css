@@ -852,7 +852,7 @@ nav {
     margin: 4rem 0px;
   }
   .project-sub-content h1 {
-    font-size: 45px;
+    font-size: 38px;
   }
   .project-sub-content p {
     font-size: 16px;
@@ -2833,9 +2833,6 @@ p {
   }
   .section-title {
     font-size: 25px;
-  }
-  .faq-heading {
-    font-size: 18px;
   }
 }
 .signup-form-block {

@@ -14,14 +14,14 @@ const contentswriting = () => {
       <DefaultSeo
         title="Content Writing | Bridgekode Tech"
         description="A well tutor materials tailored for contents writing for easy understanding by clients"
-        content=""
+        keywords=""
         {...SEO}
       />
       <Topnav />
       <Header />
       <CoursesSubHeading text="Contents Writing" />
       <SingleCourse
-        courseTitle="Contents Writing Bootcamp"
+        courseTitle="Contents Writing "
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -38,8 +38,9 @@ const contentswriting = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
-        amount="#50,000"
-        duration="5 Months"
+        amount="# 50,000"
+        dollars="$ 100.00"
+        duration="3 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."
         list3=" Build a UI project from beginning to end."
