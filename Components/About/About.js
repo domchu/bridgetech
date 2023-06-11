@@ -56,18 +56,23 @@ const About = () => {
                     technologies.
                   </p>
                 </Reveal>
-                <Reveal>
-                  <p>
-                    We are <strong>Bridgekode</strong> provide the best quality
-                    <Link href="https://www.example.com"> IT solution. </Link>
-                    Bridgekode is an innovative software development services
-                    company dedicated to providing innovative and tailored
-                    solutions to businesses of all sizes. With a strong focus on
-                    technology and a team of highly skilled professionals,
-                    Bridgekode is committed to delivering high-quality software
-                    products and services that drive business growth and
-                    efficiency.
-                    <br />
+                <p>
+                  <Reveal>
+                    <li>
+                      We are <strong>Bridgekode</strong> provide the best
+                      quality
+                      <Link href="https://www.example.com"> IT solution. </Link>
+                      Bridgekode is an innovative software development services
+                      company dedicated to providing innovative and tailored
+                      solutions to businesses of all sizes. With a strong focus
+                      on technology and a team of highly skilled professionals,
+                      Bridgekode is committed to delivering high-quality
+                      software products and services that drive business growth
+                      and efficiency.
+                    </li>
+                  </Reveal>
+                  <br />
+                  <Reveal>
                     <li>
                       <strong>Our Services:</strong>
                     </li>
@@ -80,6 +85,8 @@ const About = () => {
                       and user-friendly solutions.
                     </li>
                     <br />
+                  </Reveal>
+                  <Reveal>
                     <li>
                       <b>Web Development:</b> We offer comprehensive web
                       development services, including front-end and back-end
@@ -89,7 +96,9 @@ const About = () => {
                       website is visually appealing, responsive, and optimized
                       for performance.
                     </li>
-                    <br />
+                  </Reveal>
+                  <br />
+                  <Reveal>
                     <li>
                       <b>Mobile App Development:</b> Bridgekode develops mobile
                       applications for iOS and Android platforms that provide
@@ -98,7 +107,9 @@ const About = () => {
                       frameworks, and cloud integration, to deliver feature-rich
                       and intuitive mobile apps.
                     </li>
-                    <br />
+                  </Reveal>
+                  <br />
+                  <Reveal>
                     <li>
                       <b>Web Development Training:</b> Bridgekode's web
                       development training program is exceptional. The
@@ -115,8 +126,9 @@ const About = () => {
                       development. I highly recommend their training program to
                       anyone looking to gain expertise in this field.
                     </li>
-                  </p>
-                </Reveal>
+                  </Reveal>
+                </p>
+
                 <Box className="about-small-title">
                   <span className="text-span-title">Mission</span>
                 </Box>
