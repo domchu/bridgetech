@@ -8,7 +8,7 @@ import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/service-main.jpg";
+import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -113,7 +113,7 @@ const itsetupmanagement = () => {
                               href="/services/web-design-training"
                               id="service-link"
                             >
-                              Web Design Training
+                              Kids Coding Training
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>
@@ -164,6 +164,63 @@ const itsetupmanagement = () => {
                               id="service-link"
                             >
                               IT Setup & management
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/social-media"
+                              id="service-link"
+                            >
+                              Digital & Social Media
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link href="/services/python" id="service-link">
+                              Python Data-Science
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/human-resources"
+                              id="service-link"
+                            >
+                              Human Resources(HR)
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/branding-seo"
+                              id="service-link"
+                            >
+                              Branding & SEO
+                            </Link>
+                            <Box className="service-link-separator"></Box>
+                          </Box>
+                          <Box
+                            className="service-link-item w-dyn-item"
+                            role="listitem"
+                          >
+                            <Link
+                              href="/services/hardware-network"
+                              id="service-link"
+                            >
+                              Hradware & Networking
                             </Link>
                             <Box className="service-link-separator"></Box>
                           </Box>

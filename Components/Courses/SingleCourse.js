@@ -8,7 +8,28 @@ import { SiSkillshare } from "react-icons/si";
 import { FaAddressBook, FaAward, FaLanguage } from "react-icons/fa";
 import project2 from "../../public/images/project10.jpg";
 
-const SingleCourse = () => {
+const SingleCourse = ({
+  courseTitle,
+  courseSummary,
+  contents,
+  comment,
+  duration,
+  amount,
+  dollars,
+  list1,
+  list2,
+  list3,
+  list4,
+  list5,
+  list6,
+  list7,
+  list8,
+  list9,
+  list10,
+  list11,
+  list12,
+  courseImage,
+}) => {
   return (
     <>
       <Box classname="course-section wf-section">
@@ -20,29 +41,14 @@ const SingleCourse = () => {
                   <p className="section-title-inner-style" id="starter">
                     For Starters
                   </p>
-                  <h2 className="section-title">
-                    Frontend Development Bootcamp
-                  </h2>
+                  <h2 className="section-title">{courseTitle}</h2>
                 </Box>
                 <Box className="section-text">
-                  Go from zero knowledge to being able to build your technology
-                  platforms! Starting with the foundations of software
-                  engineering. By the end of this program you would have
-                  mastered a specialization and learn the art of effective
-                  collaboration to solve real world problems.
+                  {courseSummary}
                   <br />
-                  Learn to structure code in a concise, logical, and readable
-                  manner, while mastering HTML and CSS, two foundational
-                  front-end languages. Create static web pages using HTML and
-                  CSS alone, before applying Flexbox (a CSS framework) to
-                  increase the complexity and speed in which you create your web
-                  pages.
+                  {contents}
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam illum, repellat a aspernatur doloremque aliquid
-                  laudantium magni corporis voluptate? Voluptatem itaque nulla
-                  consectetur voluptate assumenda eos amet nemo delectus
-                  aliquid.
+                  {comment}
                 </Box>
 
                 <Box>
@@ -63,7 +69,7 @@ const SingleCourse = () => {
               </Box>
               <Box className="course-block-image-right">
                 <Image
-                  src={project2}
+                  src={courseImage}
                   alt="Coding image"
                   width={550}
                   height={700}
@@ -81,6 +87,20 @@ const SingleCourse = () => {
                   <li className="li">A good computer </li>
                   <li className="li">A good phone </li>
                 </Box>
+                <Link
+                  href="https://wa.me/2347034278995"
+                  className="primary-button margin-top-40"
+                  id="chat"
+                >
+                  {amount}
+                </Link>
+                <Link
+                  href="https://wa.me/2347034278995"
+                  className="primary-button margin-top-40"
+                  id="chat"
+                >
+                  {dollars}
+                </Link>
               </Box>
             </Box>
           </Box>
@@ -97,49 +117,18 @@ const SingleCourse = () => {
                   <h2 className="section-title">What you'll learn</h2>
                 </Box>
                 <Box>
-                  <li className="li">Become a UI/UX designer.</li>
-                  <li className="li">
-                    You will be able to start earning money skills.
-                  </li>
-                  <li className="li">
-                    Build a UI project from beginning to end.
-                  </li>
-                  <li className="li">
-                    Learn to design mobile apps & websites. quaerat dolore
-                    numquam odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    You will create your own UI Kit. quaerat dolore numquam
-                    odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    Learn to design mobile apps & websites. quaerat dolore
-                    numquam odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    You will create your own UI Kit. quaerat dolore numquam
-                    odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    Build & test a complete mobile app. quaerat dolore numquam
-                    odit, quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    Design 3 different logos. quaerat dolore numquam odit, quos
-                    sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    Create low-fidelity wireframe. quaerat dolore numquam odit,
-                    quos sunt iusto! Eum velit
-                  </li>
-                  <li className="li">
-                    Build & test a complete mobile app. quaerat dolore numquam
-                    odit, quos sunt iusto! Eum velit
-                  </li>
+                  <li className="li">{list1} </li>
+                  <li className="li">{list2}</li>
+                  <li className="li">{list3}</li>
+                  <li className="li">{list4}</li>
+                  <li className="li">{list5}</li>
+                  <li className="li">{list6}</li>
+                  <li className="li">{list7}</li>
+                  <li className="li">{list8}</li>
+                  <li className="li">{list9}</li>
+                  <li className="li">{list10}</li>
+                  <li className="li">{list11}</li>
+                  <li className="li">{list12}</li>
                 </Box>
               </Box>
               <Box className="duration-course-text-right course-block-image-right">
@@ -153,13 +142,19 @@ const SingleCourse = () => {
                       <li
                         style={{
                           fontWeight: "600",
-                          fontSize: "20px",
+                          // fontSize: "20px",
+                        }}
+                        fontSize={{
+                          base: "16px",
+                          sm: "20px",
+                          md: "20px",
+                          lg: "20px",
                         }}
                       >
                         <h6>Duration</h6>
                       </li>
                       <li>
-                        <p>5 Months</p>
+                        <p>{duration}</p>
                       </li>
                     </Box>
                   </Box>

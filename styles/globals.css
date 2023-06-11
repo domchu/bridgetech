@@ -37,26 +37,26 @@ Css Variables
 ===============
 */
 :root {
-  --primary-clr-1: #0077B6;
-  --primary-clr-2: #023E8A;
-  --primary-clr-3: #48CAE4;
+  --primary-clr-1: #0077b6;
+  --primary-clr-2: #023e8a;
+  --primary-clr-3: #48cae4;
   --primary-clr-4: #d4563a;
-  --primary-clr-5: #3898EC;
-  --natural-clr-1: #E7FBFF;
-  --natural-clr-2: #80858F;
-  --natural-clr-3: #0C0C0C;
+  --primary-clr-5: #3898ec;
+  --natural-clr-1: #e7fbff;
+  --natural-clr-2: #80858f;
+  --natural-clr-3: #0c0c0c;
   --natural-clr-4: #043676;
-  --natural-clr-5: #1E1717;
-  --natural-clr-6: #FBF4F4;
+  --natural-clr-5: #1e1717;
+  --natural-clr-6: #fbf4f4;
   --natural-clr-7: #dddddd;
   --natural-clr-8: #333333;
-  --clr-white: #FFFFFF;
+  --clr-white: #ffffff;
   --clr-black: #000000;
-  --btn-clr:linear-gradient(270deg, #030b63, #0179af);
+  --btn-clr: linear-gradient(270deg, #030b63, #0179af);
   --style-clr-1: rgba(0, 119, 182, 0.95);
   --style-clr-2: rgba(3, 43, 69, 0.92);
-  --transition:300ms ease-in-out;
-  --line-height:1.08;
+  --transition: 300ms ease-in-out;
+  --line-height: 1.08;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -311,6 +311,10 @@ nav {
 }
 
 .menu-button {
+  display: none;
+}
+
+.mobile-container {
   display: none;
 }
 
@@ -765,6 +769,8 @@ nav {
   position: relative;
   width: 300px;
   height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .project__img {
@@ -773,7 +779,6 @@ nav {
   width: 100%;
   height: 100%;
   transition: 0.5s;
-  overflow: hidden;
 }
 
 .project__contents {
@@ -847,7 +852,7 @@ nav {
     margin: 4rem 0px;
   }
   .project-sub-content h1 {
-    font-size: 45px;
+    font-size: 38px;
   }
   .project-sub-content p {
     font-size: 16px;
@@ -1570,7 +1575,7 @@ ul {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   text-decoration: none;
-  color: #0077B6;
+  color: #0077b6;
   font-family: Rajdhani, sans-serif;
   font-weight: 600;
 }
@@ -1894,7 +1899,7 @@ img {
 
 .work-progress-icon-block {
   display: flex;
-  min-height: 127px;
+  min-height: 140px;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
@@ -1982,7 +1987,6 @@ img {
 
 .choose-list-item {
   display: flex;
-  align-items: center;
   grid-column-gap: 25px;
 }
 
@@ -2419,7 +2423,7 @@ strong {
 }
 
 .service-link-list-wrapper {
-  text-align: center;
+  text-align: left;
 }
 
 #service-link {
@@ -2830,9 +2834,6 @@ p {
   .section-title {
     font-size: 25px;
   }
-  .faq-heading {
-    font-size: 18px;
-  }
 }
 .signup-form-block {
   margin-top: 40px;
@@ -3067,7 +3068,7 @@ figcaption {
   width: 320px;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 2px 0px 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
@@ -3102,8 +3103,8 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
+  background-color: var(--primary-clr-2);
   color: var(--clr-white);
   text-align: center;
   font-size: 1.2rem;
@@ -3389,7 +3390,8 @@ figure.card > figcaption {
   .how-to-left-block {
     max-width: 50%;
   }
-  .project-details-subtile-title, .project-details-title {
+  .project-details-subtile-title,
+  .project-details-title {
     font-size: 34px !important;
   }
   .project-list-block {
@@ -3402,7 +3404,8 @@ figure.card > figcaption {
   .how-to-block {
     flex-direction: column;
   }
-  .project-details-subtile-title, .project-details-title {
+  .project-details-subtile-title,
+  .project-details-title {
     font-size: 30px !important;
   }
   .project-list-block {
@@ -3510,4 +3513,36 @@ figure.card > figcaption {
 
 .course-icons {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .course-section-block {
+    grid-template-columns: 1fr;
+  }
+  .course-block-text-left {
+    max-width: 100%;
+  }
+  .course-image {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .duration-course-text-right {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .list-group {
+    width: 100%;
+  }
+  #chat {
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #chat {
+    margin-left: 8px;
+  }
+  .list-group {
+    width: 100%;
+  }
 }/*# sourceMappingURL=globals.css.map */

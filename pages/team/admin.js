@@ -22,8 +22,9 @@ const promanager = () => {
       <TeamProfile
         name="Dike Ifeanyi"
         title="Admin Officer + Secretary"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
-        achievement="Best Guidance Counselor at Keyonaville - 2022"
+        biography="An experience & self-motivated office administrator/secretary with over 3 years of experience working in companies, overseeing schedules, travelling arrangements,clients & staff meetings,
+        answering incoming & outgoing correspondence."
+        achievement="Face of SAMRACK Travelling Agency - 2022"
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
