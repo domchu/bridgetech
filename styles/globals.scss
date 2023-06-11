@@ -1828,7 +1828,7 @@ img {
 }
 .work-progress-icon-block {
   display: flex;
-  min-height: 127px;
+  min-height: 140px;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
@@ -3461,3 +3461,38 @@ figure.card > figcaption {
 .course-icons {
   margin-right: 10px;
 }
+
+@media screen and (max-width:#{$tablet-width}) {
+  .course-section-block{
+grid-template-columns: 1fr;
+  }
+  .course-block-text-left {
+    max-width: 100%;
+  }
+  .course-image {
+    width:100%;
+    margin-top:3rem;
+  }
+  .duration-course-text-right{
+    margin-top:4rem;
+  }
+}
+@media screen and (max-width:#{$phone-width}) {
+  .list-group {
+    width:100%;
+  }
+  #chat {
+    margin-left: 8px;
+  }
+  
+}
+@media screen and (max-width:#{$small-width}) {
+  #chat {
+    margin-left: 8px;
+  }
+  .list-group {
+    width:100%;
+  }
+}
+
+

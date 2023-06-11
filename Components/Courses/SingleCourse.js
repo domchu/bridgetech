@@ -15,6 +15,7 @@ const SingleCourse = ({
   comment,
   duration,
   amount,
+  dollars,
   list1,
   list2,
   list3,
@@ -93,6 +94,13 @@ const SingleCourse = ({
                 >
                   {amount}
                 </Link>
+                <Link
+                  href="https://wa.me/2347034278995"
+                  className="primary-button margin-top-40"
+                  id="chat"
+                >
+                  {dollars}
+                </Link>
               </Box>
             </Box>
           </Box>
@@ -134,7 +142,13 @@ const SingleCourse = ({
                       <li
                         style={{
                           fontWeight: "600",
-                          fontSize: "20px",
+                          // fontSize: "20px",
+                        }}
+                        fontSize={{
+                          base: "16px",
+                          sm: "20px",
+                          md: "20px",
+                          lg: "20px",
                         }}
                       >
                         <h6>Duration</h6>

@@ -21,7 +21,7 @@ const branding = () => {
       <Header />
       <CoursesSubHeading text="Branding & SEO" />
       <SingleCourse
-        courseTitle="Branding & SEO Bootcamp"
+        courseTitle="Branding & SEO Course"
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -38,7 +38,8 @@ const branding = () => {
         laudantium magni corporis voluptate? Voluptatem itaque nulla
         consectetur voluptate assumenda eos amet nemo delectus
         aliquid."
-        amount="#45,000"
+        amount="# 45,000"
+        dollars="$ 90.00"
         duration="5 Months"
         list1="Become a UI/UX designer."
         list2="You will be able to start earning money skills."
