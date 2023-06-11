@@ -7,6 +7,7 @@ import { ChakraBaseProvider  } from '@chakra-ui/react'
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import ScrollToTop from "../Components/ScrollToTop";
+// import { motion } from "framer-motion";
 
 const linkTags = [
   {

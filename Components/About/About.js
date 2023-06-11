@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import TeamCard from "./../Team/TeamCard";
 import WhyBridgetech from "../WhyBridgetech";
+import Reveal from "../../Components/Reveal";
 
 const About = () => {
   return (
@@ -40,13 +41,18 @@ const About = () => {
           <Box className="container w-container">
             <Box className="bout-block">
               <Box className="about-content">
+                <Reveal>
                 <h2 className="section-title">
                   Hi <span className="section-title-inner-style">there!</span>
                 </h2>
+                </Reveal>
+                <Reveal>
                 <p className="about-subtitle paragraph-medium">
                   Over 3 years working in IT services developing software
                   applications and mobile apps for clients all over the world.
                 </p>
+                </Reveal>
+                <Reveal>
                 <p>
                   We are <strong>Bridgekode</strong> provide the best quality
                   <Link href="https://www.example.com"> IT solution. </Link>
@@ -105,6 +111,7 @@ const About = () => {
                     gain expertise in this field.
                   </li>
                 </p>
+                </Reveal>
                 <Box className="about-small-title">
                   <span className="text-span-title">Mission</span>
                 </Box>
