@@ -129,32 +129,38 @@ const About = () => {
                   </Reveal>
                 </p>
 
-                <Box className="about-small-title">
-                  <span className="text-span-title">Mission</span>
-                </Box>
-                <p>
-                  At <strong>Bridgekode</strong>, our <strong>Mission </strong>
-                  is to empower businesses with innovative and tailored software
-                  solutions that drive growth, efficiency, and digital
-                  transformation & train school students/kids in coding websites
-                  with the basics tools. We are committed to delivering
-                  high-quality products and services that exceed client
-                  expectations, leverage cutting-edge technologies, and create
-                  sustainable value for our partners.
-                </p>
-                <Box className="about-small-title">
-                  <span className="text-span-title">Vision </span>
-                </Box>
-                <p>
-                  Our <strong>Vision</strong> is to be a trusted and renowned
-                  global leader in software development services, known for our
-                  technical excellence, customer-centric approach, and ability
-                  to deliver transformative solutions. We aspire to be at the
-                  forefront of technological advancements, driving positive
-                  change through innovation, and making a meaningful impact in
-                  the industries we serve. We envision long-term partnerships
-                  built on trust, collaboration, and shared success.
-                </p>
+                <Reveal>
+                  <Box className="about-small-title">
+                    <span className="text-span-title">Mission</span>
+                  </Box>
+                  <p>
+                    At <strong>Bridgekode</strong>, our{" "}
+                    <strong>Mission </strong>
+                    is to empower businesses with innovative and tailored
+                    software solutions that drive growth, efficiency, and
+                    digital transformation & train school students/kids in
+                    coding websites with the basics tools. We are committed to
+                    delivering high-quality products and services that exceed
+                    client expectations, leverage cutting-edge technologies, and
+                    create sustainable value for our partners.
+                  </p>
+                </Reveal>
+                <Reveal>
+                  <Box className="about-small-title">
+                    <span className="text-span-title">Vision </span>
+                  </Box>
+                  <p>
+                    Our <strong>Vision</strong> is to be a trusted and renowned
+                    global leader in software development services, known for
+                    our technical excellence, customer-centric approach, and
+                    ability to deliver transformative solutions. We aspire to be
+                    at the forefront of technological advancements, driving
+                    positive change through innovation, and making a meaningful
+                    impact in the industries we serve. We envision long-term
+                    partnerships built on trust, collaboration, and shared
+                    success.
+                  </p>
+                </Reveal>
                 <Link
                   href="/contactus"
                   className="primary-button margin-top-40"
