@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,16 +13,27 @@ import femaleImage1 from "../../public/images/female-img-1.png";
 import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
+import { useInView } from "framer-motion";
 import { FaChevronUp } from "react-icons/fa";
 
 const HomePage = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <>
       {/* HERO SECTION OF THE HOME PAGE */}
       <Box className="hero-background">
         <Box className="container w-container">
           <Box className="hero-container-wrapper">
-            <Box className="hero-content">
+            <Box
+              className="hero-content"
+              ref={ref}
+              style={{
+                transform: isInView ? "none" : "translateX(-200px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+              }}
+            >
               <h1 className="hero-title">
                 IT <span className="hero-title-span">Solutions</span> for your
                 Business
@@ -53,7 +64,15 @@ const HomePage = () => {
                 </Link>
               </Box>
             </Box>
-            <Box className="hero-image-block">
+            <Box
+              className="hero-image-block"
+              ref={ref}
+              style={{
+                transform: isInView ? "none" : "translateX(200px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+              }}
+            >
               <Image
                 className="hero-image img"
                 width={400}
