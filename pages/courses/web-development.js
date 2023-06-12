@@ -32,7 +32,7 @@ const webdevelopment = () => {
         front-end languages. Create static web pages using HTML and
         CSS alone, before applying Flexbox, Grid (a CSS framework) to
         increase the complexity and speed in which you create your web
-        pages."
+        pages, then added javascript to it for interactivities."
         comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
         amount="# 100,000"
         dollars="$ 200.00"
