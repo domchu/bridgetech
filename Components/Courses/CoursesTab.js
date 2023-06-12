@@ -57,7 +57,7 @@ const CoursesTab = () => {
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="servce-collection-list w-dyn-list" role="list">
                 <Box className="course-container ">
-                  <Link href="/courses/web">
+                  <Link href="/courses/web-development">
                     <figure className="card">
                       <Image
                         src={WedDesign}
