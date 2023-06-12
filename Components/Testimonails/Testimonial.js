@@ -3,6 +3,7 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
 import data from "./data";
 import { Box } from "@chakra-ui/react";
+import Reveal from "../../Components/Reveal";
 
 const Testimonial = () => {
   const [people, setPeople] = useState(data);
@@ -38,11 +39,13 @@ const Testimonial = () => {
               Client's
               <span className="section-title-inner-style">Talk</span>
             </h2>
-            <Box className="section-text">
-              A short quote or personal anecdote from our clients that describes
-              the experienced they've had with bridgekode. We implore you to go
-              via the feedbacks carefully.
-            </Box>
+            <Reveal>
+              <Box className="section-text">
+                A short quote or personal anecdote from our clients that
+                describes the experienced they've had with bridgekode. We
+                implore you to go via the feedbacks carefully.
+              </Box>
+            </Reveal>
           </Box>
         </Box>
         <Box className="section-center">
@@ -73,7 +76,9 @@ const Testimonial = () => {
                 </Box>
                 <h4>{name}</h4>
                 <p className="title">{title} </p>
-                <p className="text">'' {quote} '' </p>
+                <Reveal>
+                  <p className="text">'' {quote} '' </p>
+                </Reveal>
                 <Box className="image-container">
                   <FaQuoteRight className="icon" />
                 </Box>
