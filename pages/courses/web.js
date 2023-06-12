@@ -13,7 +13,7 @@ const web = () => {
     <>
       <DefaultSeo
         title="Web Development | Bridgekode Tech"
-        description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness."
+        description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness, CMS & make cool cash for themselves."
         keywords=""
         {...SEO}
       />
@@ -30,38 +30,25 @@ const web = () => {
         contents="Learn to structure code in a concise, logical, and readable
         manner, while mastering HTML and CSS, two foundational
         front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
+        CSS alone, before applying Flexbox, Grid (a CSS framework) to
         increase the complexity and speed in which you create your web
         pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
         amount="# 100,000"
         dollars="$ 200.00"
-        duration="5 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat
-                    dolore numquam odit, quos sunt iusto! Eum velit"
+        duration="6 Months"
+        list1="Become a Web Developer."
+        list2="HTML5: Learn the Hypertext Markup Language (HTML) used for structuring the content of web pages."
+        list3=" CSS3: Gain knowledge of Cascading Style Sheets (CSS) to control the presentation and layout of web pages, flexbox, CSS gird."
+        list4="JavaScript: Master JavaScript, a scripting language used to add interactivity, dynamic behavior, and functionality to websites."
+        list5="Basics of JavaScript (Data types, Loops, Arrays, Objects, Functions, operators, control structures etc)"
+        list6="Introduction to Document Object Model(DOM) and Browser Object Model(BOM)"
+        list7="Functions, Hoisting, Type Coercion"
+        list8="Testing and Debugging: Learn various testing approaches and tools to ensure the reliability and correctness of your web applications. Understand how to debug and fix issues that arise during development"
+        list9="Responsive Design: Learn techniques for building websites that adapt and respond to different screen sizes and devices, providing a consistent user experience across platforms."
+        list10="JavaScript: Master JavaScript, a scripting language used to add interactivity, dynamic behavior, and functionality to websites."
+        list11="Version Control: Familiarize yourself with version control systems like Git. Understand how to manage and collaborate on code repositories effectively."
+        list12="Keep Learning: The web development field is continually evolving, so it's important to stay updated with the latest technologies and best practices. Follow blogs, participate in online communities, and explore new tools and frameworks."
         courseImage="/images/project10.jpg"
       />
       <Testimonial />
