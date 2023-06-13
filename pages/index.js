@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <DefaultSeo
         title="Home Page | Bridgekode Tech"
-        description="Bridgekode is a software development services focuses on website design, students/kids coding, career path in IT, general IT training, turning ideas into creativities & provide digital solutions to businesses."
-        content=""
+        description="Bridgekode is a software development service focuses on website design, students/kids coding, customize software, career path in IT, general IT training, turning ideas into creativities & provide digital solutions to businesses across globe."
+        keywords="software, website, web design, kids coding, school coding program, general IT training, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress,sass, bootstrap,tailwind,semantic-ui,chakra-ui,mantie, web development."
         {...SEO}
       />
       <Topnav />

@@ -13,7 +13,7 @@ const president = () => {
     <>
       <DefaultSeo
         title="Team President | Bridgekode Tech"
-        description="General overseer and Team Leader of bridgekode development service"
+        description="General overseer and Team Lead at bridgekode Software development service"
         {...SEO}
       />
       <Topnav />
@@ -24,7 +24,7 @@ const president = () => {
         title="CEO-President"
         biography="A Creative and immovable Front-End Engineer with over 3
         years of experience building stable websites and apps in fast-paced, collaborative environments and mathematice/further mathematics tutor for over a decade with track records & awards."
-        achievement="Best mathematics tutor - 2013, 2014, 2015"
+        achievement="Best Mathematics Tutor - 2013, 2014, 2015"
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"

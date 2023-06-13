@@ -13,7 +13,7 @@ const contactus = () => {
     <>
       <DefaultSeo
         title="Contact Us | Bridgekode Tech"
-        description="Contact us at bridgekode via social media like whatsapp, facebook, twitter, instagram, phone call, email, Office address, blog, etc. We are open 24/7 hours "
+        description="Contact us at bridgekode via social media handles like whatsapp, facebook, twitter, instagram, phone call, email, Office address, blog, etc. We are open 24/7 hours at your service."
         {...SEO}
       />
       <Topnav />
