@@ -78,8 +78,8 @@ const Service = () => {
                     cost-effective solutions, strong communication, commitment
                     to excellence, proven track record.
                   </Box>
-                  <Link href="/" className="section-link margin-top-20">
-                    Choose your Desired Services
+                  <Link href="/courses/course" className="section-link margin-top-20">
+                    Choose your Desired Courses
                   </Link>
                 </Box>
               </Box>
@@ -120,7 +120,7 @@ const Service = () => {
                   Provide
                 </h2>
                 <Box className="section-text">
-                  Choose from our wide range of services offered by bridgekode
+                  Choose from our wide range of services offers by bridgekode
                   software development services.
                 </Box>
               </Box>

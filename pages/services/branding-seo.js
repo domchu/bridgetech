@@ -35,7 +35,7 @@ const brandingSeo = () => {
               </h1>
               <p>
                 Am indepth overview of the services we renders at bridgekode
-                development services.
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -55,7 +55,7 @@ const brandingSeo = () => {
                 <Box className="separator">/</Box>
                 <li>
                   <Box className="project-link-text">
-                    Branding & Content Writing 
+                    Branding & Content Writing
                   </Box>
                 </li>
               </ul>
