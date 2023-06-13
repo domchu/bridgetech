@@ -14,7 +14,7 @@ const SubHeading = () => {
               </h1>
               <p>
                 The underlisted projects are carried out by bridgekode,
-                completed and delivered to the their respective clients
+                completed and delivered to our respective clients.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
