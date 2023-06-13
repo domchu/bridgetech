@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Olatunde Sleek"
         title="Project Manager"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="The Chief Executive Officer of Florintech Computer College, Best coding school in Ojo-Lagos state, with over ten(10) years of versatile experience in IT field such programming, Branding, SEO expert, Microsoft suite, Graphics, to list but a few."
         achievement="Best Coding School at Ojo-Lagos "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"

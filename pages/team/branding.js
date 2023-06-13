@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Owoicho Emma"
         title="Branding/SEO Expert"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="The Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best ICT personel by MFM-R9 -2020 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"

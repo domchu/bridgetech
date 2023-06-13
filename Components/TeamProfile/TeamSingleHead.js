@@ -13,8 +13,8 @@ const TeamSingleHead = () => {
                 Team <span className="sub_heading_span">Profile</span>
               </h1>
               <p>
-                The underlisted projects are carried out by bridgekode,
-                completed and delivered to the their respective clients
+                The underlisted details of bridgekode team members, expert &
+                knowledgeable in he/her field of practice.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
