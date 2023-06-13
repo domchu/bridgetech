@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import { motion, whileHover, whileTap } from "framer-motion";
 
 const Form = () => {
   return (
@@ -61,12 +62,14 @@ const Form = () => {
                       className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
                     ></textarea>
                   </Box>
-                  <input
-                    type="submit"
-                    className="primary-button margin-top-50 w-button"
-                    value="Send Now"
-                    data-wait="please wait..."
-                  />
+                  <Box>
+                    <input
+                      type="submit"
+                      className="primary-button margin-top-50 w-button"
+                      value="Send Now"
+                      data-wait="please wait..."
+                    />
+                  </Box>
                 </form>
               </Box>
             </Box>

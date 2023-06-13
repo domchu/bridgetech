@@ -35,7 +35,7 @@ const mobileapp = () => {
               </h1>
               <p>
                 An indepth overview of the services we renders at bridgekode
-                development services.
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

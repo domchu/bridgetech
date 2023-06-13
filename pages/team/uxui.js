@@ -23,7 +23,7 @@ const promanager = () => {
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
         biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
-        achievement="Best graphics Deginger - 2023"
+        achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"

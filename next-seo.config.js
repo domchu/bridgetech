@@ -22,4 +22,8 @@ export default {
     height: 640,
     cardType: "summary_large_image",
   },
+
+  facebook: {
+    appId: "1234567890",
+  },
 };

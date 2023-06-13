@@ -310,6 +310,11 @@ nav {
   text-decoration: none;
 }
 
+.primary-button:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
 .menu-button {
   display: none;
 }
@@ -628,6 +633,10 @@ nav {
 .section-span {
   color: var(--primary-clr-1);
   font-weight: 700;
+}
+
+.icons-container {
+  margin-left: 0.7rem;
 }
 
 .copy-right a:hover {
@@ -1578,6 +1587,14 @@ ul {
   color: #0077b6;
   font-family: Rajdhani, sans-serif;
   font-weight: 600;
+}
+
+.hero-video-link:hover {
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+  transition: 0.5s;
+  color: var(--clr-white);
+  padding: 5px 10px;
+  border-radius: 7px;
 }
 
 .w-inline-block {
@@ -2978,6 +2995,16 @@ article h4 {
   transition: var(--transition);
   width: 35px;
   height: 35px;
+}
+
+.prev:hover {
+  background-color: var(--primary-clr-5);
+  transition: 0.5s;
+}
+
+.next:hover {
+  background-color: var(--primary-clr-5);
+  transition: 0.5s;
 }
 
 .image-container {

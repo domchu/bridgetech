@@ -8,11 +8,11 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Senior Frontend | Bridgekode Tech"
+        title="Senior Software | Bridgekode Tech"
         description="senior frontend engineer with Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />
@@ -21,8 +21,8 @@ const promanager = () => {
       <TeamSingleHead />
       <TeamProfile
         name="Ogada Stanley"
-        title="Senior Frontend Engineer."
-        biography="Dedicated front-end developer with over five(5) years of building intuitive, user-friendly websites with a strong emphasis on writing clean, reusable code and renowed for promoting rapid feature development, has practical experience working across time zones with deverse teams."
+        title="Senior Software Engineer."
+        biography="Dedicated front-end developer with over five(5) years of building intuitive, user-friendly websites with a strong emphasis on writing clean, reusable code and renowed for promoting rapid feature development, has practical experience working across time zones with diverse teams."
         achievement="Best front-end Engineer Tutor/Mentor- 2021, 2022 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default software;

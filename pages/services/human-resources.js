@@ -35,7 +35,7 @@ const humanResources = () => {
               </h1>
               <p>
                 An indepth overview of the services we renders at bridgekode
-                development services.
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -230,8 +230,7 @@ const humanResources = () => {
                   </Box>
                   <Box className="section-block">
                     <h2 className="section-title">
-                      Human Resources [HR] 
-                       & Mgmt
+                      Human Resources [HR] & Mgmt
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">

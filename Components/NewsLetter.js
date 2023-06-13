@@ -74,7 +74,7 @@ const NewsLetter = ({ status, message, onValidated }) => {
                 <Box className="section-text">
                   Subscribe to our newsletter for get laset update of
                   <span className="newsletter-text-span">
-                     news, offers, promotions, blog post
+                    news, offers, promotions, blog post
                   </span>
                   in which toil and pain can procure him some great pleasure.
                 </Box>
@@ -103,7 +103,7 @@ const NewsLetter = ({ status, message, onValidated }) => {
                     />
                     <input
                       type="submit"
-                      value="Send Now"
+                      value="Subscribe"
                       data-wait="please wait..."
                       className="primary-button newsletter-button w-button"
                       onClick={handleFormSubmit}

@@ -57,7 +57,7 @@ const CoursesTab = () => {
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="servce-collection-list w-dyn-list" role="list">
                 <Box className="course-container ">
-                  <Link href="/courses/web">
+                  <Link href="/courses/web-development">
                     <figure className="card">
                       <Image
                         src={WedDesign}
@@ -84,7 +84,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/courses/uxui">
+                  <Link href="/courses/uxui-design">
                     <figure className="card">
                       <Image
                         src={WedDesign7}
@@ -111,7 +111,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/courses/graphics">
+                  <Link href="/courses/graphics-design">
                     <figure className="card">
                       <Image
                         src={WedDesign3}
@@ -166,7 +166,7 @@ const CoursesTab = () => {
                       </figcaption>
                     </figure>
                   </Link>
-                  <Link href="/courses/software">
+                  <Link href="/courses/software-development">
                     <figure className="card">
                       <Image
                         src={WedDesign3}

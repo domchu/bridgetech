@@ -35,7 +35,7 @@ const itsetupmanagement = () => {
               </h1>
               <p>
                 An indepth overview of the services we renders at bridgekode
-                development services.
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -379,7 +379,7 @@ const itsetupmanagement = () => {
                   <h2 className="section-title">Benefits</h2>
                   <Box className="w-richtext">
                     <p>
-                      a well-designed IT setup can bring numerous benefits,
+                      A well-designed IT setup can bring numerous benefits,
                       including increased efficiency, enhanced communication and
                       collaboration, improved data management and security,
                       scalability, customer service improvement, competitive

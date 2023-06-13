@@ -52,7 +52,7 @@ const Topnav = () => {
                   <Flex align="center">
                     <FaPhoneAlt className="topnav-icons" />
                     <Link href="Tel:+234 07034278995" passhref="true">
-                      +234 (0) 70 3427 8995
+                      +234 (0)703 427 8995
                     </Link>
                   </Flex>
                 </li>

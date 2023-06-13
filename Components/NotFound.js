@@ -20,7 +20,7 @@ const NotFound = () => {
           <h2>Oooops</h2>
         </Box>
         <Box>
-          <h3>That page cannot be found</h3>
+          <h3>That page cannot be found in bridgekode website. Please!!!</h3>
         </Box>
         <Box>
           Go back to the
