@@ -17,7 +17,8 @@ const About = () => {
               </h1>
               <p>
                 Bridgekode is a software development services that is based on
-                coding and general IT solutions
+                coding software & general IT solutions to businesses across
+                globe.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -68,7 +69,7 @@ const About = () => {
                       on technology and a team of highly skilled professionals,
                       Bridgekode is committed to delivering high-quality
                       software products and services that drive business growth
-                      and efficiency.
+                      and efficiency thereby increases income to oganisation.
                     </li>
                   </Reveal>
                   <br />
@@ -80,9 +81,9 @@ const About = () => {
                       <b>Custom Software Development:</b> Bridgekode specializes
                       in building custom software solutions that are precisely
                       tailored to meet your unique business requirements.
-                      Whether you need a web application, mobile app, or
-                      enterprise software, our team can create scalable, secure,
-                      and user-friendly solutions.
+                      Whether you need a web application, mobile app, school
+                      kids coding program or enterprise software, our team can
+                      create scalable, secure, and user-friendly solutions.
                     </li>
                   </Reveal>
                   <br />
@@ -100,12 +101,12 @@ const About = () => {
                   <br />
                   <Reveal>
                     <li>
-                      <b>Mobile App Development:</b> Bridgekode develops mobile
-                      applications for iOS and Android platforms that provide
-                      seamless user experiences. We leverage the latest
-                      technologies, such as native development, cross-platform
-                      frameworks, and cloud integration, to deliver feature-rich
-                      and intuitive mobile apps.
+                      <b>Mobile App Development:</b> Bridgekode develops desktop
+                      apps & mobile applications for iOS and Android platforms
+                      that provide seamless user experiences. We leverage the
+                      latest technologies, such as native development,
+                      cross-platform frameworks, and cloud integration, to
+                      deliver feature-rich and intuitive mobile apps.
                     </li>
                   </Reveal>
                   <br />
@@ -118,13 +119,16 @@ const About = () => {
                       examples.The curriculum is comprehensive, covering all
                       essential aspects of web development, including HTML, CSS,
                       JavaScript, Typescript, Bootstrap, Git/Github, WordPress
-                      and frameworks like React, Next, Angular, Vue and Node.js.
+                      and frameworks like React, Next, Angular, Vue and back-end
+                      services like Node/Express.js, PHP/laravel, ruby on rail,
+                      Python, MySQL, MongooseDB, Postgres, Oracle etc .
                       <br />
                       Overall, Bridgekode's web development training program not
                       only equipped you with the necessary skills but also
                       boosted you confidence in pursuing a career in web
-                      development. I highly recommend their training program to
-                      anyone looking to gain expertise in this field.
+                      development. We highly recommend their training program to
+                      anyone especially kids, students, secondary school leavres
+                      looking to gain expertise skill in IT field.
                     </li>
                   </Reveal>
                 </Box>
