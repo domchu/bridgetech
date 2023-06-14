@@ -1,6 +1,9 @@
 import React from "react";
 import CourseDetails from "./CourseData";
-import { Box } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
+import Link from "next/link";
+import Image from "next/image";
+import { BsArrowRight } from "react-icons/bs";
 
 const CourseCard = () => {
   return (
@@ -25,7 +28,7 @@ const CourseCard = () => {
                   <Box className="course-text">{contents}</Box>
                   <Box className="course-content">
                     <Box className="price">
-                      <p>Price: {price} </p>
+                      <p>Price: {price}</p>
                     </Box>
                     <Flex className="course-detail">
                       Details
