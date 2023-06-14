@@ -17,6 +17,8 @@ const CourseCard = () => {
                   src={courseImage}
                   alt="People learning web design"
                   className="course-image"
+                  height={420}
+                  width={320}
                 />
                 <figcaption>
                   <h2 className="section-text">{title} </h2>
