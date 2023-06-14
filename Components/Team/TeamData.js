@@ -113,7 +113,7 @@ const TeamData = [
 
   {
     id: "11",
-    image: "/images/full-stack.jpg ",
+    image: "/images/comfort.jpg ",
     name: "Ochu Comfort",
     job: "Junior Copywriter",
     profile: "/team/juniorwriter",

@@ -8,20 +8,20 @@ import CoursesSubHeading from "../../Components/CoursesSubHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const webdevelopment = () => {
+const kidscoding = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Development | Bridgekode Tech"
-        description="We train teenager, youths, and individual to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness, CMS & make cool cash for themselves. Hence, preparing them for the future."
+        title="Kids Coding Website | Bridgekode Tech"
+        description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness,  make cool cash for themselves. Hence, preparing them for the future at hand"
         keywords=""
         {...SEO}
       />
       <Topnav />
       <Header />
-      <CoursesSubHeading text="Web development" />
+      <CoursesSubHeading text="Kids Coding Website" />
       <SingleCourse
-        courseTitle=" Web Development Bootcamp"
+        courseTitle=" Kids Coding Website"
         courseSummary="Go from zero knowledge to being able to build your technology
         platforms! Starting with the foundations of software
         engineering. By the end of this program you would have
@@ -34,8 +34,8 @@ const webdevelopment = () => {
         increase the complexity and speed in which you create your web
         pages, then added javascript to it for interactivities."
         comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
-        amount="# 100,000"
-        dollars="$ 200.00"
+        amount="# 50,000"
+        dollars="$ 100.00"
         duration="6 Months"
         list1="Become a Web Developer."
         list2="HTML5: Learn the Hypertext Markup Language (HTML) used for structuring the content of web pages."
@@ -57,4 +57,4 @@ const webdevelopment = () => {
   );
 };
 
-export default webdevelopment;
+export default kidscoding;
