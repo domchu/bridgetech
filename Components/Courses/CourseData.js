@@ -44,8 +44,18 @@ const CourseDetails = [
     contents:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
   },
+ 
   {
     id: "6",
+    courseImage: "/images/web.jpg",
+    title: "students/Kids Coding",
+    price: "#50,000",
+    courseUrl: "/courses/kids-coding",
+    contents:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+  },
+  {
+    id: "7",
     courseImage: "/images/project9.jpg",
     title: "Contents Writing",
     price: "#50,000",
