@@ -51,7 +51,7 @@ const TestimonialData = [
   },
   {
     id: 7,
-    image: "/images/full-stack.jpg",
+    image: "/images/habeeb.jpg",
     name: "Muhammad Habeebulah",
     title: "Web Developer",
     quote:

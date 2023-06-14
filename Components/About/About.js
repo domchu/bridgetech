@@ -138,8 +138,8 @@ const About = () => {
                     <span className="text-span-title">Mission</span>
                   </Box>
                   <p>
-                    At <strong>Bridgekode</strong>, our
-                    <strong>Mission </strong>
+                    At <strong>Bridgekode</strong>, our  
+                     <strong>Mission </strong>
                     is to empower businesses with innovative and tailored
                     software solutions that drive growth, efficiency, and
                     digital transformation & train school students/kids in
