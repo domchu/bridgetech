@@ -1,9 +1,5 @@
 import React from "react";
 import { Slider } from "react-rc-carousel";
-import {
-  jsxDEV as _jsxDEV,
-  Fragment as _Fragment,
-} from "react/jsx-dev-runtime";
 
 const SliderCarousel = () => {
   return (
