@@ -7,7 +7,8 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/coaching.jpg";
+import career from "../../public/images/web1.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/web.jpg";
 import { DefaultSeo } from "next-seo";
@@ -72,7 +73,7 @@ const webdevelopment = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
