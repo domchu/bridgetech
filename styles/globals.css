@@ -923,6 +923,22 @@ nav {
   text-align: left;
 }
 
+.forward-service-arrow {
+  border: 1px solid var(--natural-clr-4);
+  background: var(--natural-clr-4);
+  padding: 8px;
+  font-weight: 600;
+  border-radius: 7px;
+  color: var(--clr-white);
+  overflow: hidden;
+}
+
+.forward-service-arrow:hover {
+  background-color: var(--primary-clr-1);
+  border: var(--primary-clr-1);
+  transition: 0.5s;
+}
+
 .section-text {
   margin-bottom: 20px;
   font-weight: 500;

@@ -3,9 +3,9 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import ArrowIcon from "../../public/images/arrow-long-icon.png";
-import project5 from "../../public/images/project5.jpg";
-import project2 from "../../public/images/project2.jpg";
-import project10 from "../../public/images/project10.jpg";
+import webDev from "../../public/images/web2.jpg";
+import graphicDev from "../../public/images/graphic.jpg";
+import webTrain from "../../public/images/web-train.jpg";
 
 const ServiceProvide = () => {
   return (
@@ -38,6 +38,7 @@ const ServiceProvide = () => {
                         src={ArrowIcon}
                         alt="Forward Arrow Icon"
                         loading="lazy"
+                        className="forward-service-arrow"
                       />
                     </Link>
                   </Box>
@@ -56,7 +57,7 @@ const ServiceProvide = () => {
                             className="service-thumbnail-image-block w-inline-block"
                           >
                             <Image
-                              src={project5}
+                              src={webDev}
                               alt="Web Development Image"
                               loading="lazy"
                               className="image-responsive img"
@@ -90,7 +91,7 @@ const ServiceProvide = () => {
                             className="service-thumbnail-image-block w-inline-block"
                           >
                             <Image
-                              src={project10}
+                              src={webTrain}
                               alt="Web Design Training Image"
                               loading="lazy"
                               className="image-responsive img"
@@ -124,7 +125,7 @@ const ServiceProvide = () => {
                             className="service-thumbnail-image-block w-inline-block"
                           >
                             <Image
-                              src={project2}
+                              src={graphicDev}
                               alt="Graphics Design Image"
                               loading="lazy"
                               className="image-responsive img"
