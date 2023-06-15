@@ -9,7 +9,7 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/service-benefit.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import ServiceWork from "../../public/images/web.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -54,9 +54,7 @@ const webdevelopment = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">
-                    Web Development Service
-                  </Box>
+                  <Box className="project-link-text">Web Development</Box>
                 </li>
               </ul>
             </Box>
@@ -231,9 +229,7 @@ const webdevelopment = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">
-                      Website Development 
-                    </h2>
+                    <h2 className="section-title">Website Development</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>
