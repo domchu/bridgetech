@@ -7,7 +7,7 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/me.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
 import { DefaultSeo } from "next-seo";

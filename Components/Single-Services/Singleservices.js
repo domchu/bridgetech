@@ -3,9 +3,10 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Benefit from "../../public/images/service-benefit.jpg";
+import career from "../../public/images/software.jpg";
+import Benefits from "../../public/images/software4.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import ServiceWork from "../../public/images/software3.jpg";
 
 const Singleservices = () => {
   const router = useRouter();
@@ -22,7 +23,7 @@ const Singleservices = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
@@ -361,7 +362,7 @@ const Singleservices = () => {
                 </Box>
                 <Box className="service-benefit-image-block">
                   <Image
-                    src={Benefit}
+                    src={Benefits}
                     alt="Benefit Image"
                     loading="lazy"
                     className="image-cover img"
