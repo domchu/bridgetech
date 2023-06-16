@@ -7,9 +7,10 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/network2.jpg";
+import career from "../../public/images/hardware1.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import ServiceWork from "../../public/images/hardware2.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -34,8 +35,8 @@ const hardwareNetwork = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-              An indepth overview of the services we renders at bridgekode
-              software development services.
+                An indepth overview of the services we renders at bridgekode
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -54,9 +55,7 @@ const hardwareNetwork = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">
-                    Hardware & Networking
-                  </Box>
+                  <Box className="project-link-text">Hardware & Networking</Box>
                 </li>
               </ul>
             </Box>
@@ -74,7 +73,7 @@ const hardwareNetwork = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

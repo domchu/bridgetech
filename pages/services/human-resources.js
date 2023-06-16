@@ -7,7 +7,8 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/training.jpg";
+import humanR from "../../public/images/hr2.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
 import { DefaultSeo } from "next-seo";
@@ -405,7 +406,7 @@ const humanResources = () => {
                 </Box>
                 <Box className="service-benefit-image-block">
                   <Image
-                    src={Benefit}
+                    src={humanR}
                     alt="Benefit Image"
                     loading="lazy"
                     className="image-cover img"

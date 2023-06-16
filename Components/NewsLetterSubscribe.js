@@ -20,3 +20,5 @@ const NewsLetterSubscribe = () => {
     />
   );
 };
+
+export default NewsLetterSubscribe;

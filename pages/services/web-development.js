@@ -7,9 +7,10 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/coaching.jpg";
+import career from "../../public/images/web1.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import ServiceWork from "../../public/images/web.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -54,9 +55,7 @@ const webdevelopment = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">
-                    Web Development Service
-                  </Box>
+                  <Box className="project-link-text">Web Development</Box>
                 </li>
               </ul>
             </Box>
@@ -74,7 +73,7 @@ const webdevelopment = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
@@ -231,9 +230,7 @@ const webdevelopment = () => {
                     </Box>
                   </Box>
                   <Box className="section-block">
-                    <h2 className="section-title">
-                      Website Development 
-                    </h2>
+                    <h2 className="section-title">Website Development</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
                     <p>

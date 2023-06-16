@@ -14,13 +14,19 @@ import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
 import { useInView } from "framer-motion";
-import { FaChevronUp } from "react-icons/fa";
+// import SliderCarousel from "../Slider/SliderCarousel.cjs";
 
 const HomePage = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
     <>
+      {/* SLIDER */}
+
+      {/* <SliderCarousel /> */}
+
+
+      
       {/* HERO SECTION OF THE HOME PAGE */}
       <Box className="hero-background">
         <Box className="container w-container">
