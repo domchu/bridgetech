@@ -78,7 +78,7 @@ const CourseDetails = [
     courseImage: "/images/project7.jpg",
     title: "Desktop Publishing",
     price: "#50,000",
-    courseUrl: "/courses/contents-writing",
+    courseUrl: "/courses/desktop-publishing",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
   },
