@@ -1,49 +1,29 @@
 import React from "react";
-import { Slider } from "react-rc-carousel";
+import { Carousel as ReactCarousel } from "react-responsive-carousel";
 
-const SliderCarousel = () => {
-  return (
-    <>
-      <Slider
-        nSlidePerView={3}
-        animationInterval={3000}
-        isPauseOnHover={true}
-        isAutoSlide={true}
-        isShowDots={{
-          position: "bottom-center",
-          isOut: true,
-        }}
-        isShowButtons={{
-          position: "bottom-left",
-          isOut: false,
-          renderNext: (onClick) => <button onClick={onClick}>Next</button>,
-          renderPrev: (onClick) => <button onClick={onClick}>Previous</button>,
-        }}
-        theme={{
-          color: "#222",
-          backgroundColor: "#aaa",
-        }}
-        breakpoints={[
-          { width: 500, nSlidePerView: 1 },
-          { width: 900, nSlidePerView: 2 },
-          { width: 1200, nSlidePerView: 3 },
-        ]}
-        lastSlideAnimation={{
-          isFade: true,
-          isSlide: false,
-        }}
-        changeSlideAnimation={{
-          isFade: false,
-          isSlide: "1s ease",
-        }}
-      >
-        <div>Slide 1</div>
-        <div>Slide 2</div>
-        <div>Slide 3</div>
-        <div>Slide 4</div>
-      </Slider>
-    </>
-  );
-};
+import Image1 from "../../public/images/ceo.jpg";
+import Image2 from "../../public/images/ceo.jpg";
+import Image3 from "../../public/images/ceo.jpg";
 
-export default SliderCarousel;
+const slides = [
+  {
+    title: "Get Started",
+    subtitle: "Start with your Email",
+    control: <input type="email" placeholder="Email" />,
+    image: image1,
+  },
+  {
+    title: "Your Password",
+    subtitle: "Start with your Email",
+    control: <input type="password" placeholder="Password" />,
+    image: image2,
+  },
+  {
+    title: "Let's GO",
+    subtitle: "Start with your Email",
+    control: <input type="email" placeholder="Email" />,
+    image: image3,
+  },
+];
+
+      

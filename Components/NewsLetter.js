@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
-// import { sanitize } from '../../../utils/miscellaneous';
-// import Loading from '../../loading';
+import { sanitize } from "./sanitize";
+// import Loading from "./Loading";
 
 const NewsLetter = ({ status, message, onValidated }) => {
   const [error, setError] = useState(null);
@@ -20,8 +20,7 @@ const NewsLetter = ({ status, message, onValidated }) => {
       return null;
     }
 
-    const isFormValidated = onValidated({ EMAIL: email });
-
+    const isFormValidated = onValidated({ email });
     // On success return true
     return email && email.indexOf("@") > -1 && isFormValidated;
   };
