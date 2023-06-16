@@ -10,20 +10,25 @@ const slides = [
     title: "Get Started",
     subtitle: "Start with your Email",
     control: <input type="email" placeholder="Email" />,
-    image: image1,
+    image: Image1,
   },
   {
     title: "Your Password",
     subtitle: "Start with your Email",
     control: <input type="password" placeholder="Password" />,
-    image: image2,
+    image: Image2,
   },
   {
     title: "Let's GO",
     subtitle: "Start with your Email",
     control: <input type="email" placeholder="Email" />,
-    image: image3,
+    image: Image3,
   },
 ];
+
+const Carousel = () => {
+  return <></>;
+};
+export default Carousel;
 
       

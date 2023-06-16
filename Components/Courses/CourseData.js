@@ -6,7 +6,7 @@ const CourseDetails = [
     price: "#100,000",
     courseUrl: "/courses/web-development",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "The different between your business and any other businesses is an online presence i.e website design, which makes bridgekode technology offers these primium services & train an individual to achieve that within the shortest period of time.",
   },
   {
     id: "2",
@@ -33,7 +33,7 @@ const CourseDetails = [
     price: "#45,000",
     courseUrl: "/courses/branding",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course focuses on optimizing websites to improve their visibility to clients in search engine results. It may cover keyword research, on-page optimization, link building, and SEO best practices.",
   },
   {
     id: "5",
@@ -42,9 +42,9 @@ const CourseDetails = [
     price: "#150,000",
     courseUrl: "/courses/software-development",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course covers the principles of software development, javacript frameworks/libraries, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
   },
- 
+
   {
     id: "6",
     courseImage: "/images/web.jpg",
@@ -52,13 +52,22 @@ const CourseDetails = [
     price: "#50,000",
     courseUrl: "/courses/kids-coding",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course will introduces children to coding concepts in a fun and interactive manner. It may cover basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
   },
   {
     id: "7",
     courseImage: "/images/project9.jpg",
     title: "Contents Writing",
     price: "#50,000",
+    courseUrl: "/courses/contents-writing",
+    contents:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+  },
+  {
+    id: "7",
+    courseImage: "/images/project3.jpg",
+    title: "Microsoft Suite",
+    price: "#45,000",
     courseUrl: "/courses/contents-writing",
     contents:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
