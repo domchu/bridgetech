@@ -69,7 +69,7 @@ const CourseDetails = [
     courseImage: "/images/project3.jpg",
     title: "Office Applications",
     price: "#45,000",
-    courseUrl: "/courses/contents-writing",
+    courseUrl: "/courses/office-application",
     contents:
       "This course focuses on the Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook. It will cover essential skills like document formatting, data analysis, presentation creation, and email management.",
   },
