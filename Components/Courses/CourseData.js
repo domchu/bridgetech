@@ -15,7 +15,7 @@ const CourseDetails = [
     price: "#80,000",
     courseUrl: "/courses/uxui-design",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course covers the principles of user experience (UX) & user interface (UI) design, including user research, wireframing, prototyping, usability testing, & creating visually appealing & user-friendly interfaces & certified personnel as products disigner",
   },
   {
     id: "3",
@@ -24,7 +24,7 @@ const CourseDetails = [
     price: "#60,000",
     courseUrl: "/courses/graphics-design",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course explores the principles of graphic design and certification, including layout, typography, color theory, and visual communication. It cover design software like Adobe Photoshop, Illustrator, or InDesign.",
   },
   {
     id: "4",
@@ -33,7 +33,7 @@ const CourseDetails = [
     price: "#45,000",
     courseUrl: "/courses/branding",
     contents:
-      "This course focuses on optimizing websites to improve their visibility to clients in search engine results. It may cover keyword research, on-page optimization, link building, and SEO best practices.",
+      "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & gain the crucials of consistency & differentiation.",
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ const CourseDetails = [
     price: "#50,000",
     courseUrl: "/courses/kids-coding",
     contents:
-      "This course will introduces children to coding concepts in a fun and interactive manner. It may cover basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
+      "This course will introduces children, students, secondary leavers to coding concepts in a fun and interactive manner. It may cover basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
   },
   {
     id: "7",
@@ -61,16 +61,25 @@ const CourseDetails = [
     price: "#50,000",
     courseUrl: "/courses/contents-writing",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course will provides  a valuable skill in the digital age, as high-quality content is crucial for effective communication & engagement with online audiences. With time & dedication, you can become a skilled content writer ",
   },
   {
     id: "7",
     courseImage: "/images/project3.jpg",
-    title: "Microsoft Suite",
+    title: "Office Applications",
     price: "#45,000",
     courseUrl: "/courses/contents-writing",
     contents:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ut suscipit velit voluptas iusto neque, magni porro incidunt? Assumenda magnam unde distinctio libero fugiat accusantium qui officia natus, nemo consequuntur.",
+      "This course focuses on the Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook. It will cover essential skills like document formatting, data analysis, presentation creation, and email management.",
+  },
+  {
+    id: "7",
+    courseImage: "/images/project7.jpg",
+    title: "Desktop Publishing",
+    price: "#45,000",
+    courseUrl: "/courses/contents-writing",
+    contents:
+      "This course focuses on the Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook. It will cover essential skills like document formatting, data analysis, presentation creation, and email management.",
   },
 ];
 
