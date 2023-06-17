@@ -2997,7 +2997,7 @@ figure.card > img {
   grid-area: " stack";
   object-fit: cover;
   place-self: stretch;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 figure.card > figcaption {
   align-self: last baseline;
@@ -3338,6 +3338,7 @@ figure.card > figcaption {
 .course-image {
   border-radius: 10px;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 .card:hover .course-image {
   transform: scale(1.1);

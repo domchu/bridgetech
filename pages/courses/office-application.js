@@ -54,7 +54,7 @@ const officeapplication = () => {
         list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
         list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
         list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        courseImage="/images/project2.jpg"
+        courseImage="/images/setup2.jpg"
       />
       <Testimonial />
       <Footer />
