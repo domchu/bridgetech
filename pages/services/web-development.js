@@ -9,7 +9,7 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/coaching.jpg";
 import career from "../../public/images/web1.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
+import ServiceImage from "../../public/images/web2.jpg";
 import ServiceWork from "../../public/images/web.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";

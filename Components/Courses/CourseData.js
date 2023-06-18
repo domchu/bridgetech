@@ -30,10 +30,10 @@ const CourseDetails = [
     id: "4",
     courseImage: "/images/kids.jpg",
     title: "students/Kids Coding",
-    price: "#50,000",
+    price: "#60,000",
     courseUrl: "/courses/kids-coding",
     contents:
-      "This course will introduces children, students, secondary leavers to coding concepts in a fun and interactive manner. It may cover basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
+      "This course will introduces children, students, secondary leavers to coding concepts in a fun and interactive manner. It covers basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
   },
 
   {
@@ -53,7 +53,7 @@ const CourseDetails = [
     price: "#45,000",
     courseUrl: "/courses/branding",
     contents:
-      "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & gain the crucials of consistency & differentiation.",
+      "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & many more.",
   },
   {
     id: "7",

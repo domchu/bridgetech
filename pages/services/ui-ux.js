@@ -20,7 +20,7 @@ const uiux = () => {
     <>
       <DefaultSeo
         title="Ux / Ui Design | Bridgekode"
-        description="UX/UI design refers to the process of creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications.   "
+        description="UX/UI design involves creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications."
         {...SEO}
       />
       <Topnav />
