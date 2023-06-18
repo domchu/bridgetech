@@ -2920,6 +2920,12 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+ @media screen and (max-width:#{$phone-width}) {
+.prev, .next{
+  width: 25px;
+  height: 25px;
+}
+}
 // PAGINATION AT PROJECT & SERVICE PAGE STYLES
 .page-link {
   padding: 10px 13px;

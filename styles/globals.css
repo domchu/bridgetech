@@ -3066,6 +3066,12 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+@media screen and (max-width: 500px) {
+  .prev, .next {
+    width: 25px;
+    height: 25px;
+  }
+}
 .page-link {
   padding: 10px 13px;
   height: 50px;
