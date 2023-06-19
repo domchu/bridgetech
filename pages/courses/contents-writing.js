@@ -4,9 +4,9 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import SingleCourse from "../../Components/Courses/SingleCourse";
+import CoursesSubHeading from "./../../Components/CoursesSubHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
-import CoursesSubHeading from "./../../Components/CoursesSubHeading";
 
 const contentswriting = () => {
   return (
@@ -22,38 +22,24 @@ const contentswriting = () => {
       <CoursesSubHeading text="Contents Writing" />
       <SingleCourse
         courseTitle="Contents Writing "
-        courseSummary="Go from zero knowledge to being able to build your technology
-        platforms! Starting with the foundations of software
-        engineering. By the end of this program you would have
-        mastered a specialization and learn the art of effective
-        collaboration to solve real world problems."
-        contents="Learn to structure code in a concise, logical, and readable
-        manner, while mastering HTML and CSS, two foundational
-        front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
-        increase the complexity and speed in which you create your web
-        pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        courseSummary="Content writing offers creating written material for various platforms and mediums, such as websites, blogs, social media, marketing materials, and more. It involves crafting engaging, informative, and valuable content that resonates with the target audience and achieves specific goals, such as driving traffic, increasing conversions, or building brand awareness."
+        contents="Involves creating high-quality, valuable, and engaging written material tailored to a specific target audience. It requires research, strong writing skills, an understanding of SEO, effective structuring, and continuous learning to produce content that achieves its intended purpose and resonates with readers."
+        comment="practice and experience play a significant role in becoming a proficient content writer. Continuously writing, seeking feedback, and staying curious about industry developments will help you refine your content writing abilities over time."
         amount="# 50,000"
         dollars="$ 100.00"
         duration="3 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list1="Become a content writer or copywriter."
+        list2="Develop strong writing skills, including grammar, punctuation, sentence structure, and vocabulary. Practice writing regularly to improve your fluency and clarity of expression."
+        list3=" Understanding the Audience"
+        list4="Content Planning and Organization"
+        list5=" Learn how to find credible sources, fact-check information, and conduct thorough research on your topic to provide valuable and well-informed content"
+        list6="SEO Writing"
+        list7="Engaging Introductions and Headlines"
+        list8="Use of Language and Tone"
+        list9="Editing and Proofreading"
+        list10="Formatting and Visual Elements"
+        list11="Call-to-Action (CTA): subscribing, sharing, or making a purchase. Craft compelling CTAs that align with the content's purpose and engage your audience."
+        list12="Adaptability and Continuous Learning"
         courseImage="/images/content.jpg"
       />
       <Testimonial />
