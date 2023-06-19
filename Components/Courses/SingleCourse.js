@@ -43,7 +43,7 @@ const SingleCourse = ({
                   </p>
                   <h2 className="section-title">{courseTitle}</h2>
                 </Box>
-                <Box className="section-text">
+                <Box className="secton-text">
                   {courseSummary}
                   <br />
                   {contents}
@@ -86,7 +86,10 @@ const SingleCourse = ({
                   </Box>
                   <Box className="li">A good computer </Box>
                   <Box className="li">A good phone </Box>
-                  <Box className="li">Any medium of payment that is convinence for you is acceptable by us. </Box>
+                  <Box className="li">
+                    Any medium of payment that is convinence for you is
+                    acceptable by us.{" "}
+                  </Box>
                 </Box>
                 <Link
                   href="https://wa.me/2347034278995"

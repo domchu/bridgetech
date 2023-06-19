@@ -22,18 +22,9 @@ const branding = () => {
       <CoursesSubHeading text="Branding & SEO" />
       <SingleCourse
         courseTitle="Branding & SEO "
-        courseSummary="Go from zero knowledge to being able to build your technology
-        platforms! Starting with the foundations of software
-        engineering. By the end of this program you would have
-        mastered a specialization and learn the art of effective
-        collaboration to solve real world problems."
-        contents="Learn to structure code in a concise, logical, and readable
-        manner, while mastering HTML and CSS, two foundational
-        front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
-        increase the complexity and speed in which you create your web
-        pages."
-        comment="Remember, both branding and SEO require continuous learning and adaptation. The field of SEO is constantly evolving, and branding strategies may need to be adjusted over time to align with changing market trends and consumer preferences. It's crucial to stay updated, experiment, and refine your strategies based on the specific goals and needs of your brand or website."
+        courseSummary=" Search Engine Optimization, entails practice of optimizing a website or content to improve its visibility and ranking in search engine results pages. It involves keyword research to identify relevant and high-ranking keywords, on-page optimization techniques to optimize titles, descriptions, headers, and content, and technical optimization to improve website speed, mobile responsiveness, and crawlability. Link building, content optimization, and local SEO strategies are also important for improving search engine visibility. Regular monitoring and analysis of website traffic and keyword rankings help in making data-driven decisions to improve SEO performance."
+        contents="Branding is the process of creating a unique and memorable identity for a business, product, or service. It involves developing a strategy to define the brand's vision, values, target audience, and positioning. Visual identity elements such as logos, colors, typography, and brand guidelines are designed to reflect the brand's personality and create consistency across various touchpoints. Effective branding involves communicating the brand's message and values through storytelling and engaging content."
+        comment="In summary, branding focuses on creating a strong and consistent identity for a brand, while SEO aims to increase visibility and traffic through search engine optimization techniques. Both branding and SEO require continuous learning, adaptation, and staying updated with industry trends to effectively reach and engage the target audience."
         amount="# 45,000"
         dollars="$ 90.00"
         duration="5 Months"
