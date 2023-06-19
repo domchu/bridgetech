@@ -13,7 +13,7 @@ const graphics = () => {
     <>
       <DefaultSeo
         title="Graphics Design | Bridgekode Tech"
-        description="We design logos, complementary cards, flyers, handbills, etc using coraldraw, photoshop, illustrator, adobe Pagemaker etc"
+        description="We design logos, complementary cards, flyers, handbills, letter Heads etc using coraldraw, photoshop, illustrator, adobe Pagemaker etc"
         keywords=""
         {...SEO}
       />
@@ -23,38 +23,25 @@ const graphics = () => {
 
       <SingleCourse
         courseTitle="Graphics Design "
-        courseSummary="Go from zero knowledge to being able to build your technology
-        platforms! Starting with the foundations of software
-        engineering. By the end of this program you would have
-        mastered a specialization and learn the art of effective
-        collaboration to solve real world problems."
-        contents="Learn to structure code in a concise, logical, and readable
-        manner, while mastering HTML and CSS, two foundational
-        front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
-        increase the complexity and speed in which you create your web
-        pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        courseSummary="Go from zero knowledge to being able to design 
+        any portfolio print out. Graphic design is a creative discipline that involves visual communication and problem-solving through the use of typography, imagery, color, and layout. It is a versatile field that encompasses various mediums, including print, digital, and multimedia.."
+        contents="The primary goal of graphic design is to convey messages, ideas, and information effectively and visually. Graphic designers work on a wide range of projects, including branding and identity design, advertising campaigns, packaging design, web design, user interface (UI) design, and editorial design."
+        comment="Graphic design is a creative field, and practice is essential for honing your skills. Create personal projects, build a portfolio, and seek feedback from peers and professionals to continue improving your design abilities."
         amount="# 60,000"
         dollars="$ 110.58"
         duration="5 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list1="Become a certified graphic professional"
+        list2="Design Principles, design Research and Concept Development"
+        list3=" Graphic Design Software"
+        list4="Typography"
+        list5="Layout and Composition"
+        list6="Color Theory"
+        list7="Branding and Identity"
+        list8="Image Editing and Manipulation"
+        list9="Vector Graphics"
+        list10="Communication and Collaboration, digital Design"
+        list11="Layout Software, print Design"
+        list12="Composition and Visual Communication"
         courseImage="/images/graphic.jpg"
       />
       <Testimonial />

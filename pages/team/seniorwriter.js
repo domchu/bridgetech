@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Esther Uchechi"
         title="Senior Content Writer"
-        biography="An English language tutor, a creative writer & an editor of articles, brochure, journals and magazines on various platforms with over sevent(7) years of experience. "
+        biography="An English language tutor, a creative writer & an editor of articles, brochure, journals and magazines on various platforms with over seven(7) years of experience. "
         achievement="Best English Tutor - 2022 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"

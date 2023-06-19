@@ -33,27 +33,22 @@ const branding = () => {
         CSS alone, before applying Flexbox (a CSS framework) to
         increase the complexity and speed in which you create your web
         pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        comment="Remember, both branding and SEO require continuous learning and adaptation. The field of SEO is constantly evolving, and branding strategies may need to be adjusted over time to align with changing market trends and consumer preferences. It's crucial to stay updated, experiment, and refine your strategies based on the specific goals and needs of your brand or website."
         amount="# 45,000"
         dollars="$ 90.00"
         duration="5 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list1="Become an SE0 expert"
+        list2="Brand Strategy, brand Guidelines"
+        list3=" Visual Identity, brand Collateral, brand Communication"
+        list4="Keyword Research, On-Page Optimization"
+        list5="Technical SEO, website speed optimization, mobile responsiveness, crawlability, and indexability. Learn how to optimize robots.txt files, XML sitemaps, and handle issues like duplicate content, broken links, and canonicalization"
+        list6="Link Building"
+        list7="Content Optimization"
+        list8="Analytics and Reporting"
+        list9="Local SEO: If you have a local business, learn about local SEO techniques such as optimizing Google My Business listings, managing online reviews, and targeting location-specific keywords to improve visibility in local search results"
+        list10="SEO Best Practices and Updates"
+        list11="Understand how to use tools like Google Keyword Planner or SEMrush to find valuable keywords for optimization"
+        list12="Learn about incorporating keywords naturally, structuring content, and using headings, bullet points, and other formatting techniques"
         courseImage="/images/branding.jpg"
       />
       <Testimonial />
