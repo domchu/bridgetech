@@ -2,9 +2,25 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
+import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
 const Register = () => {
+  const handleSendMail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_bk8yeji",
+        "template_i85dg7c",
+        e.target,
+        "aIeJ8TaW8cYOjt6mI"
+      )
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((err) => console.log(err));
+    e.target.reset();
+  };
   return (
     <>
       <Box className="project-sub-container">
@@ -74,6 +90,7 @@ const Register = () => {
                   method="post"
                   name="wf-form-Signup-form"
                   aria-label="Signup Form"
+                  onSubmit={handleSendMail}
                 >
                   <input
                     type="Text"
