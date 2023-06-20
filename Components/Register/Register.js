@@ -79,13 +79,13 @@ const Register = () => {
                     type="Text"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="user-name"
+                    name="user_name"
                     id="signup-Username"
                     data-name="User Name"
-                    placeholder="Last Name*"
+                    placeholder="Full Name*"
                     required={true}
                   />
-                  <input
+                  {/* <input
                     type="Text"
                     className="default-input-field w-input"
                     maxLength="256"
@@ -94,12 +94,12 @@ const Register = () => {
                     data-name="User Name"
                     placeholder="First Name*"
                     required={true}
-                  />
+                  /> */}
                   <input
                     type="number"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="user-number"
+                    name="user_number"
                     id="signup-Username"
                     data-name="User Number"
                     placeholder="Enter Number*"
@@ -109,16 +109,17 @@ const Register = () => {
                     type="email"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="email"
+                    name="user_email"
                     id="Login Email"
                     data-name="Email"
                     placeholder="Enter Email*"
                     required={true}
-                  />                  <input
+                  />
+                  <input
                     type="text"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="text"
+                    name="user_subject"
                     id="Login text"
                     data-name="Subject"
                     placeholder="Subject*"
