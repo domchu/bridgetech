@@ -85,16 +85,7 @@ const Register = () => {
                     placeholder="Full Name*"
                     required={true}
                   />
-                  {/* <input
-                    type="Text"
-                    className="default-input-field w-input"
-                    maxLength="256"
-                    name="user-name"
-                    id="signup-Username"
-                    data-name="User Name"
-                    placeholder="First Name*"
-                    required={true}
-                  /> */}
+
                   <input
                     type="number"
                     className="default-input-field w-input"
