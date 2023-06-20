@@ -6,19 +6,22 @@ import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
 const Register = () => {
+  // HANDLE THE SUBMIT FORM FUNCTION
   const handleSendMail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
         "service_bk8yeji",
-        "template_i85dg7c",
+        "template_2lunr8k",
         e.target,
-        "aIeJ8TaW8cYOjt6mI"
+        "96iqhJ7BekdwKq5HK"
       )
       .then((result) => {
         console.log(result);
       })
       .catch((err) => console.log(err));
+
+    // CLEAR THE FORM AFTER SUBMITTING.
     e.target.reset();
   };
   return (
