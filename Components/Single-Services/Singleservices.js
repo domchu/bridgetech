@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import career from "../../public/images/software.jpg";
 import Benefits from "../../public/images/software4.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
+import ServiceImage from "../../public/images/software2.jpg";
 import ServiceWork from "../../public/images/software3.jpg";
 
 const Singleservices = () => {

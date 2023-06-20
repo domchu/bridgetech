@@ -9,7 +9,6 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Benefit from "../../public/images/network2.jpg";
 import career from "../../public/images/hardware1.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/hardware2.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -299,7 +298,7 @@ const hardwareNetwork = () => {
                 </Box>
                 <Box className="service-area-image-block">
                   <Image
-                    src={ServiceImage}
+                    src={career}
                     alt="Software Development"
                     loading="lazy"
                     className="image-cover img"

@@ -6,7 +6,6 @@ import { FcAlarmClock } from "react-icons/fc";
 import { BsBook } from "react-icons/bs";
 import { SiSkillshare } from "react-icons/si";
 import { FaAddressBook, FaAward, FaLanguage } from "react-icons/fa";
-import project2 from "../../public/images/project10.jpg";
 
 const SingleCourse = ({
   courseTitle,
@@ -43,7 +42,7 @@ const SingleCourse = ({
                   </p>
                   <h2 className="section-title">{courseTitle}</h2>
                 </Box>
-                <Box className="section-text">
+                <Box className="secton-text">
                   {courseSummary}
                   <br />
                   {contents}
@@ -80,13 +79,16 @@ const SingleCourse = ({
                 </Box>
                 <Box>
                   <Box className="li">
-                    We do not require any previous experience or pre-defined
+                    You do not require any previous experience or pre-defined
                     skills to take this course. A great orientation would be
                     enough to master web development.
                   </Box>
                   <Box className="li">A good computer </Box>
                   <Box className="li">A good phone </Box>
-                  <Box className="li">Any medium of payment that is convinence for you is acceptable by us. </Box>
+                  <Box className="li">
+                    Any medium of payment that is convinence for you is
+                    acceptable by us.
+                  </Box>
                 </Box>
                 <Link
                   href="https://wa.me/2347034278995"
@@ -143,12 +145,7 @@ const SingleCourse = ({
                       <li
                         style={{
                           fontWeight: "600",
-                        }}
-                        fontSize={{
-                          base: "16px",
-                          sm: "20px",
-                          md: "20px",
-                          lg: "20px",
+                          fontSize: "20px",
                         }}
                       >
                         <h6>Duration</h6>

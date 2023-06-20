@@ -511,6 +511,7 @@ nav {
     height: 100vh;
     width: 60%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
+    position: fixed;
   }
 }
 
@@ -2919,6 +2920,12 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+ @media screen and (max-width:#{$phone-width}) {
+.prev, .next{
+  width: 25px;
+  height: 25px;
+}
+}
 // PAGINATION AT PROJECT & SERVICE PAGE STYLES
 .page-link {
   padding: 10px 13px;
@@ -2996,7 +3003,7 @@ figure.card > img {
   grid-area: " stack";
   object-fit: cover;
   place-self: stretch;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 figure.card > figcaption {
   align-self: last baseline;
@@ -3337,6 +3344,7 @@ figure.card > figcaption {
 .course-image {
   border-radius: 10px;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 .card:hover .course-image {
   transform: scale(1.1);

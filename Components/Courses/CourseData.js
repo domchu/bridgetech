@@ -1,7 +1,7 @@
 const CourseDetails = [
   {
     id: "1",
-    courseImage: "/images/project9.jpg",
+    courseImage: "/images/web1.jpg",
     title: "Web Development",
     price: "#100,000",
     courseUrl: "/courses/web-development",
@@ -10,7 +10,7 @@ const CourseDetails = [
   },
   {
     id: "2",
-    courseImage: "/images/project7.jpg",
+    courseImage: "/images/uiux.jpg",
     title: "UX/UI Design",
     price: "#80,000",
     courseUrl: "/courses/uxui-design",
@@ -19,7 +19,7 @@ const CourseDetails = [
   },
   {
     id: "3",
-    courseImage: "/images/project3.jpg",
+    courseImage: "/images/graphic4.jpg",
     title: "Graphics Design",
     price: "#60,000",
     courseUrl: "/courses/graphics-design",
@@ -28,17 +28,17 @@ const CourseDetails = [
   },
   {
     id: "4",
-    courseImage: "/images/web.jpg",
+    courseImage: "/images/kids.jpg",
     title: "students/Kids Coding",
-    price: "#50,000",
+    price: "#60,000",
     courseUrl: "/courses/kids-coding",
     contents:
-      "This course will introduces children, students, secondary leavers to coding concepts in a fun and interactive manner. It may cover basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
+      "This course will introduces children, students, secondary leavers to coding concepts in a fun and interactive manner. It covers basic web/programming concepts using visual tools & programming languages or block-based coding platforms.",
   },
 
   {
     id: "5",
-    courseImage: "/images/project3.jpg",
+    courseImage: "/images/web-train.jpg",
     title: "Software Development",
     price: "#150,000",
     courseUrl: "/courses/software-development",
@@ -48,16 +48,16 @@ const CourseDetails = [
 
   {
     id: "6",
-    courseImage: "/images/project7.jpg",
+    courseImage: "/images/branding.jpg",
     title: "Branding & SEO",
     price: "#45,000",
     courseUrl: "/courses/branding",
     contents:
-      "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & gain the crucials of consistency & differentiation.",
+      "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & many more.",
   },
   {
     id: "7",
-    courseImage: "/images/project9.jpg",
+    courseImage: "/images/content.jpg",
     title: "Contents Writing",
     price: "#50,000",
     courseUrl: "/courses/contents-writing",
@@ -66,7 +66,7 @@ const CourseDetails = [
   },
   {
     id: "8",
-    courseImage: "/images/project3.jpg",
+    courseImage: "/images/setup2.jpg",
     title: "Office Applications",
     price: "#45,000",
     courseUrl: "/courses/office-application",
@@ -75,7 +75,7 @@ const CourseDetails = [
   },
   {
     id: "9",
-    courseImage: "/images/project7.jpg",
+    courseImage: "/images/desktop.jpg",
     title: "Desktop Publishing",
     price: "#50,000",
     courseUrl: "/courses/desktop-publishing",

@@ -34,8 +34,8 @@ const kidscoding = () => {
         increase the complexity and speed in which you create your web
         pages, then added javascript to it for interactivities."
         comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
-        amount="# 50,000"
-        dollars="$ 100.00"
+        amount="# 60,000"
+        dollars="$ 120.00"
         duration="6 Months"
         list1="Become a Web Developer."
         list2="HTML5: Learn the Hypertext Markup Language (HTML) used for structuring the content of web pages."
@@ -49,7 +49,7 @@ const kidscoding = () => {
         list10="JavaScript: Build real life projects to show your prospective clients or recruiters(HR)."
         list11="Version Control: Familiarize yourself with version control systems like Git. Understand how to manage and collaborate on code repositories effectively."
         list12="Keep Learning: The web development field is continually evolving, so it's important to stay updated with the latest technologies and best practices. Follow blogs, participate in online communities, and explore new tools and frameworks."
-        courseImage="/images/project10.jpg"
+        courseImage="/images/kids.jpg"
       />
       <Testimonial />
       <Footer />

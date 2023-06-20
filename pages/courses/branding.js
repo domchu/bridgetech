@@ -22,39 +22,25 @@ const branding = () => {
       <CoursesSubHeading text="Branding & SEO" />
       <SingleCourse
         courseTitle="Branding & SEO "
-        courseSummary="Go from zero knowledge to being able to build your technology
-        platforms! Starting with the foundations of software
-        engineering. By the end of this program you would have
-        mastered a specialization and learn the art of effective
-        collaboration to solve real world problems."
-        contents="Learn to structure code in a concise, logical, and readable
-        manner, while mastering HTML and CSS, two foundational
-        front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
-        increase the complexity and speed in which you create your web
-        pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        courseSummary=" Search Engine Optimization, entails practice of optimizing a website or content to improve its visibility and ranking in search engine results pages. It involves keyword research to identify relevant and high-ranking keywords, on-page optimization techniques to optimize titles, descriptions, headers, and content, and technical optimization to improve website speed, mobile responsiveness, and crawlability. Link building, content optimization, and local SEO strategies are also important for improving search engine visibility. Regular monitoring and analysis of website traffic and keyword rankings help in making data-driven decisions to improve SEO performance."
+        contents="Branding is the process of creating a unique and memorable identity for a business, product, or service. It involves developing a strategy to define the brand's vision, values, target audience, and positioning. Visual identity elements such as logos, colors, typography, and brand guidelines are designed to reflect the brand's personality and create consistency across various touchpoints. Effective branding involves communicating the brand's message and values through storytelling and engaging content."
+        comment="In summary, branding focuses on creating a strong and consistent identity for a brand, while SEO aims to increase visibility and traffic through search engine optimization techniques. Both branding and SEO require continuous learning, adaptation, and staying updated with industry trends to effectively reach and engage the target audience."
         amount="# 45,000"
         dollars="$ 90.00"
         duration="5 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        courseImage="/images/project2.jpg"
+        list1="Become an SE0 expert"
+        list2="Brand Strategy, brand Guidelines"
+        list3=" Visual Identity, brand Collateral, brand Communication"
+        list4="Keyword Research, On-Page Optimization"
+        list5="Technical SEO, website speed optimization, mobile responsiveness, crawlability, and indexability. Learn how to optimize robots.txt files, XML sitemaps, and handle issues like duplicate content, broken links, and canonicalization"
+        list6="Link Building"
+        list7="Content Optimization"
+        list8="Analytics and Reporting"
+        list9="Local SEO: If you have a local business, learn about local SEO techniques such as optimizing Google My Business listings, managing online reviews, and targeting location-specific keywords to improve visibility in local search results"
+        list10="SEO Best Practices and Updates"
+        list11="Understand how to use tools like Google Keyword Planner or SEMrush to find valuable keywords for optimization"
+        list12="Learn about incorporating keywords naturally, structuring content, and using headings, bullet points, and other formatting techniques"
+        courseImage="/images/branding.jpg"
       />
       <Testimonial />
       <Footer />
