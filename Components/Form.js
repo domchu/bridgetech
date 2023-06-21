@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Box } from "@chakra-ui/react";
-import { motion, whileHover, whileTap } from "framer-motion";
+import emailjs from "emailjs-com";
 
 const Form = () => {
+  const form = useRef();
+  // HANDLE CONTACT FORM
+  const handleContactForm = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_bk8yeji",
+        "template_i85dg7c",
+        e.target,
+        "96iqhJ7BekdwKq5HK"
+      )
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((err) => console.log(err));
+
+    // CLEAR THE FORM AFTER SUBMITTING.
+    e.target.reset();
+  };
   return (
     <>
       <Box className="contact-form-section wf-section">
@@ -12,6 +32,8 @@ const Form = () => {
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
                 <form
+                  ref={form}
+                  onSubmit={handleContactForm}
                   action="value"
                   id="wf-form-contact-form"
                   className="contact-form"
@@ -22,18 +44,18 @@ const Form = () => {
                   <Box className="contact-input-group">
                     <input
                       type="text"
-                      name="Contact-Name"
+                      name="user_name"
                       id="Contact-Name"
                       data-name="Contact-Name"
                       placeholder="Name*"
                       maxLength="256"
-                      pattern="[a-zA-z]{3}"
+                      // pattern="[a-zA-z]{3}"
                       required={true}
                       className="default-input-field w-input"
                     />
                     <input
                       type="email"
-                      name="email"
+                      name="user_email"
                       id="email"
                       data-name="email"
                       placeholder="*Email"
@@ -43,7 +65,7 @@ const Form = () => {
                     />
                     <input
                       type="tel"
-                      name="phone"
+                      name="user_number"
                       id="phone"
                       data-name="phone"
                       placeholder="Phone*"
@@ -54,7 +76,7 @@ const Form = () => {
                   </Box>
                   <Box className="contact-input-group">
                     <textarea
-                      name="Contact-Message"
+                      name="message"
                       id="Contact-Message"
                       maxLength="5000"
                       data-name="field"
