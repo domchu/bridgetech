@@ -222,7 +222,6 @@ const MobileView = () => {
                   </li>
                   <li>
                     <Link
-                      // legacyBehavior
                       href="https://test.com"
                       target="_blank"
                       id="nav-link"
@@ -230,7 +229,7 @@ const MobileView = () => {
                       passhref="true"
                     >
                       Blog
-                      {/* <a target="_blank"> Blog</a> */}
+                      
                     </Link>
                   </li>
                   <li>

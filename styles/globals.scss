@@ -1125,7 +1125,8 @@ strong {
   display: inline-block;
   margin-top: 10px;
   font-size: 20px;
-  letter-spacing: 8px;
+  font-weight: 700;
+  font-family: Rajdhani, sans-serif;
   text-decoration: none;
   color: var(--primary-clr-1);
 }
@@ -2122,8 +2123,8 @@ strong {
   display: inline-block;
   font-family: Rajdhani, sans-serif;
   color: #023e8a;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 600;
   text-decoration: underline;
 }
 @media screen and (max-width:#{$phone-width}) {
