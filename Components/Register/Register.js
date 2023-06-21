@@ -2,9 +2,28 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
+import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
 const Register = () => {
+  // HANDLE THE SUBMIT FORM FUNCTION
+  const handleSendMail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_bk8yeji",
+        "template_2lunr8k",
+        e.target,
+        "96iqhJ7BekdwKq5HK"
+      )
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((err) => console.log(err));
+
+    // CLEAR THE FORM AFTER SUBMITTING.
+    e.target.reset();
+  };
   return (
     <>
       <Box className="project-sub-container">
@@ -74,32 +93,24 @@ const Register = () => {
                   method="post"
                   name="wf-form-Signup-form"
                   aria-label="Signup Form"
+                  onSubmit={handleSendMail}
                 >
                   <input
                     type="Text"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="user-name"
+                    name="user_name"
                     id="signup-Username"
                     data-name="User Name"
-                    placeholder="Last Name*"
+                    placeholder="Full Name*"
                     required={true}
                   />
-                  <input
-                    type="Text"
-                    className="default-input-field w-input"
-                    maxLength="256"
-                    name="user-name"
-                    id="signup-Username"
-                    data-name="User Name"
-                    placeholder="First Name*"
-                    required={true}
-                  />
+
                   <input
                     type="number"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="user-number"
+                    name="user_number"
                     id="signup-Username"
                     data-name="User Number"
                     placeholder="Enter Number*"
@@ -109,16 +120,17 @@ const Register = () => {
                     type="email"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="email"
+                    name="user_email"
                     id="Login Email"
                     data-name="Email"
                     placeholder="Enter Email*"
                     required={true}
-                  />                  <input
+                  />
+                  <input
                     type="text"
                     className="default-input-field w-input"
                     maxLength="256"
-                    name="text"
+                    name="user_subject"
                     id="Login text"
                     data-name="Subject"
                     placeholder="Subject*"
