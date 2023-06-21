@@ -9,6 +9,7 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/training.jpg";
 import humanR from "../../public/images/hr2.jpg";
+import Boss from "../../public/images/boss.jpg";
 import ServiceImage from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/service-6.jpg";
 import { DefaultSeo } from "next-seo";
@@ -73,7 +74,7 @@ const humanResources = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={Boss}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

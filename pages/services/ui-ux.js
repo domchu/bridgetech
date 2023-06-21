@@ -3,13 +3,13 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
 import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
+import Benefit from "../../public/images/service-benefit.jpg";
+import ServiceImage from "../../public/images/ceo.jpg";
+import ServiceWork from "../../public/images/service-6.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 

@@ -2428,8 +2428,8 @@ strong {
 
 .service-top-image-block {
   overflow: hidden;
-  margin-top: 50px;
   border-radius: 20px;
+  width: 60%;
 }
 
 .service-top-menu-block {
