@@ -16,9 +16,11 @@ const Form = () => {
         "96iqhJ7BekdwKq5HK"
       )
       .then((result) => {
-        console.log(result);
+        console.log("Successfully submitted, we will be in touch soon", result);
       })
-      .catch((err) => console.log(err));
+      .catch((err) =>
+        console.log("Failed! This might be due to error in networt", err)
+      );
 
     // CLEAR THE FORM AFTER SUBMITTING.
     e.target.reset();
