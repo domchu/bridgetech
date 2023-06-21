@@ -20,7 +20,7 @@ const python = () => {
   return (
     <>
       <DefaultSeo
-        title="Python Data-Sci | Bridgekode"
+        title="Python Data-Sci | Bridgekode Tech"
         description="It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning. "
         {...SEO}
       />

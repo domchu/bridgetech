@@ -22,7 +22,7 @@ const DataServ = [
   },
   {
     id: 4,
-    image: "/images/uiux.jpg",
+    image: "/images/figma.jpg",
     title: " UI / UX Design",
     urlPath: "/services/ui-ux",
     text: " UX/UI design refers to the process of creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications. ",
@@ -50,7 +50,7 @@ const DataServ = [
   },
   {
     id: 8,
-    image: "/images/seo-img.jpg",
+    image: "/images/brand-seo.jpg",
     title: " Branding & SEO",
     urlPath: "/services/branding-seo",
     text: " It refers to the practice of optimizing websites, web pages, and online content to improve their visibility and rankings in search engine results pages (SERPs).  ",
@@ -71,7 +71,7 @@ const DataServ = [
   },
   {
     id: 11,
-    image: "/images/python.jpg",
+    image: "/images/flask.jpg",
     title: " Python Data-Science",
     urlPath: "/services/python",
     text: " Language widely used in the field of data science due to its  versatility & extensive collection of libraries & frameworks. It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning ",

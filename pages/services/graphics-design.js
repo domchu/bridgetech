@@ -6,8 +6,9 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/graphics.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
+import Benefit from "../../public/images/graphicsdes3.jpg";
+import career from "../../public/images/graphicsdes.jpg";
+import ServiceImage from "../../public/images/graphicsdes2.jpg";
 import ServiceWork from "../../public/images/graphic.jpg";
 import { useRouter } from "next/router";
 import { DefaultSeo } from "next-seo";
@@ -19,7 +20,7 @@ const graphicdesign = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Bridgekode"
+        title="Graphics Design | Bridgekode Tech"
         description="The art and practice of creating visual content using typography, images, and other graphical elements "
         {...SEO}
       />
@@ -72,7 +73,7 @@ const graphicdesign = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

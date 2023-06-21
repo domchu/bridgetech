@@ -8,7 +8,8 @@ import Footer from "./../../Components/Footer/Footer";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Benefit from "../../public/images/network2.jpg";
-import career from "../../public/images/hardware1.jpg";
+import career from "../../public/images/hard2.jpg";
+import career1 from "../../public/images/hard4.jpg";
 import ServiceWork from "../../public/images/hardware2.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -19,7 +20,7 @@ const hardwareNetwork = () => {
   return (
     <>
       <DefaultSeo
-        title="Hardware & Networking | Bridgekode"
+        title="Hardware & Networking | Bridgekode Tech"
         description="It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. "
         {...SEO}
       />
@@ -72,7 +73,7 @@ const hardwareNetwork = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={career}
+                        src={career1}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
