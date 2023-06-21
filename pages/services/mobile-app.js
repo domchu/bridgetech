@@ -8,6 +8,7 @@ import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/appp1.jpg";
+import Mobile from "../../public/images/appp4.jpg";
 import ServiceImage from "../../public/images/appp2.jpg";
 import ServiceWork from "../../public/images/appp3.jpg";
 import { DefaultSeo } from "next-seo";
@@ -74,7 +75,7 @@ const mobileapp = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={Mobile}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
