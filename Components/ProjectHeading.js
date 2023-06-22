@@ -1,6 +1,8 @@
 import React from "react";
+import { Box } from "@chakra-ui/react";
+import Link from "next/link";
 
-const ProjectHeading = () => {
+const ProjectHeading = ({ title, projectUrl }) => {
   return (
     <>
       <Box className="project-sub-container">
@@ -22,16 +24,13 @@ const ProjectHeading = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/projects/project-home"
-                    className="project-nav-link"
-                  >
-                    Project
+                  <Link href={projectUrl} className="project-nav-link">
+                    Projects
                   </Link>
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Mobile Development</Box>
+                  <Box className="project-link-text">{title} </Box>
                 </li>
               </ul>
             </Box>
