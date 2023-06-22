@@ -14,7 +14,7 @@ const training = () => {
     <>
       <DefaultSeo
         title="Web Tutorals | Bridgekode Tech"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />
@@ -55,32 +55,33 @@ const training = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
-      <SingleProject title="Web Development Tutorals" 
-      content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-      name="Business Organisation"
-      date="March 25, 2023"
-      category="E-Commerce"
-      address="25K, North City, New York"
-      summary="We are <strong>Optitech</strong> provide the best quality
+      <SingleProject
+        title="Web Development Tutorals"
+        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        name="Business Organisation"
+        date="March 25, 2023"
+        category="E-Commerce"
+        address="25K, North City, New York"
+        summary="We are <strong>Optitech</strong> provide the best quality
       It solution neque porro quisquam est qui dolorem ipsum
       quia golor sit amet, conse ctetur, adipisci velit, sed
       eligendi optio cumque nihil impedit quo minus id quod
       maxime placeat"
-      number1="IT Consultancy provide the most service neque porro
+        number1="IT Consultancy provide the most service neque porro
       quisquam est qui dolorem ipsum quia golor sit amet,
       conse ctetur, adipisci velit"
-      number2="IT Consultancy provide the most service neque porro
+        number2="IT Consultancy provide the most service neque porro
       quisquam est qui dolorem ipsum quia golor sit amet,
       conse ctetur, adipisci velit"
-      point1="The main way to solve the the best quality It solution
+        point1="The main way to solve the the best quality It solution
       neque porro quisquam qui dolorem ipsum quia golor sit
       amet, conse ctetur, adipisci velit, sed eligendi optio
       cumque nihil impedit quo minus id quod maxime placeat"
-      point2="Great deal dolorem ipsum quia golor sit amet, conse
+        point2="Great deal dolorem ipsum quia golor sit amet, conse
       ctetur, adipisci velit, sed optio cumque nihil impedit quo
       minus id quod maxime placeat optio cumque nihil impedit
       quo minus id quod maxime placeat"
-      result=" We are <strong>Optitech</strong> provide the best quality It
+        result=" We are <strong>Optitech</strong> provide the best quality It
       solution neque porro quisquam est qui dolorem ipsum quia
       golor sit amet, conse ctetur, adipisci velit, sed eligendi
       optio cumque nihil impedit quo minus id quod maxime placeat
@@ -94,7 +95,7 @@ const training = () => {
       desires to obtain pain of itsel because it is pain, but
       because occasionally circumstances occur in which toil and
       pain can procure him some great pleaser"
-      benefits="We are <strong>Optitech</strong> provide the best quality It
+        benefits="We are <strong>Optitech</strong> provide the best quality It
       solution neque porro quisquam est qui dolorem ipsum quia
       golor sit amet, conse ctetur, adipisci velit, sed eligendi
       optio cumque nihil impedit quo minus id quod maxime placeat
@@ -103,20 +104,20 @@ const training = () => {
       pursues or desires to obtain pain of itself, because it is
       pain, but because occasionally circumstances occur in which
       toil and pain can procure"
-      problemsState=" In IT Consultancy Service we cover most of the IT problems
+        problemsState=" In IT Consultancy Service we cover most of the IT problems
       that your company faces and we try to solve it."
-      problemsSummary="We are <strong>Optitech</strong> provide the best quality
+        problemsSummary="We are <strong>Optitech</strong> provide the best quality
       It solution neque porro quisquam est qui dolorem ipsum
       quia golor sit amet, conse ctetur, adipisci velit, sed
       eligendi optio cumque nihil impedit quo minus id quod
       maxime placeat"
-      solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-      solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-      solution3=" IT Management provide the most service neque porro
+        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
+        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
+        solution3=" IT Management provide the most service neque porro
       quisquam est qui dolorem ipsum quia golor sit amet, conse
       ctetur, adipisci velit"
-      image1="/images/project2.jpg"
-      image2="/images/service-benefit.jpg"
+        image1="/images/project2.jpg"
+        image2="/images/service-benefit.jpg"
       />
       <Testimonial />
       <Footer />

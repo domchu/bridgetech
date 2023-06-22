@@ -14,7 +14,7 @@ const movie = () => {
     <>
       <DefaultSeo
         title="Movie Engine | Bridgekode Tech"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training, IT setup, IT management etc"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />

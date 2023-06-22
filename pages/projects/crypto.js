@@ -14,7 +14,7 @@ const crypto = () => {
     <>
       <DefaultSeo
         title="Cryptocurrency | Bridgekode Tech"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
       <Topnav />
@@ -57,9 +57,10 @@ const crypto = () => {
         </Box>
       </Box>
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
-      <SingleProject title="Cryptocurrency Website" 
-      content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-      name="Business Organisation"
+      <SingleProject
+        title="Cryptocurrency Website"
+        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        name="Business Organisation"
         date="March 25, 2023"
         category="E-Commerce"
         address="25K, North City, New York"

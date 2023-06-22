@@ -13,8 +13,8 @@ const graphics = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Bridgekode"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        title="Graphics Design | Bridgekode Tech"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
       <Topnav />
@@ -47,7 +47,7 @@ const graphics = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Graphics Designt</Box>
+                  <Box className="project-link-text">Graphics Design</Box>
                 </li>
               </ul>
             </Box>
@@ -62,7 +62,7 @@ const graphics = () => {
         date="March 25, 2023"
         category="E-Commerce"
         address="25K, North City, New York"
-        summary="We are <strong>Optitech</strong> provide the best quality
+        summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod
@@ -81,7 +81,7 @@ const graphics = () => {
         ctetur, adipisci velit, sed optio cumque nihil impedit quo
         minus id quod maxime placeat optio cumque nihil impedit
         quo minus id quod maxime placeat"
-        result=" We are <strong>Optitech</strong> provide the best quality It
+        result=" We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -95,7 +95,7 @@ const graphics = () => {
         desires to obtain pain of itsel because it is pain, but
         because occasionally circumstances occur in which toil and
         pain can procure him some great pleaser"
-        benefits="We are <strong>Optitech</strong> provide the best quality It
+        benefits="We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -106,7 +106,7 @@ const graphics = () => {
         toil and pain can procure"
         problemsState=" In IT Consultancy Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are <strong>Optitech</strong> provide the best quality
+        problemsSummary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod

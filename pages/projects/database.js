@@ -13,8 +13,8 @@ const database = () => {
   return (
     <>
       <DefaultSeo
-        title="School Database | Bridgekode"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        title="School Database | Bridgekode Tech"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
       <Topnav />

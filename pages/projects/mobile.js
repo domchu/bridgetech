@@ -13,8 +13,8 @@ const mobile = () => {
   return (
     <>
       <DefaultSeo
-        title="Mobile Details | Bridgekode Tech"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        title="Mobile App | Bridgekode Tech"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />
