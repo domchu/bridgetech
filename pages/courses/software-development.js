@@ -22,38 +22,24 @@ const software = () => {
       <CoursesSubHeading text="Software development" />
       <SingleCourse
         courseTitle="Frontend Development Bootcamp "
-        courseSummary="Go from zero knowledge to being able to build your technology
-        platforms! Starting with the foundations of software
-        engineering. By the end of this program you would have
-        mastered a specialization and learn the art of effective
-        collaboration to solve real world problems."
-        contents="Learn to structure code in a concise, logical, and readable
-        manner, while mastering HTML and CSS, two foundational
-        front-end languages. Create static web pages using HTML and
-        CSS alone, before applying Flexbox (a CSS framework) to
-        increase the complexity and speed in which you create your web
-        pages."
-        comment="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Aperiam illum, repellat a aspernatur doloremque aliquid
-        laudantium magni corporis voluptate? Voluptatem itaque nulla
-        consectetur voluptate assumenda eos amet nemo delectus
-        aliquid."
+        courseSummary="Software development refers to the process of creating, designing, coding, testing, and maintaining software applications. It involves a combination of technical skills, problem-solving abilities, and collaboration to produce functional and efficient software solutions."
+        contents="Software development is a vast field that involves designing, coding, testing, and maintaining software applications.software development is a continuously evolving field. Stay curious, embrace new technologies, and continuously learn and update your skills to keep up with industry trends and advancements. Practical experience through personal projects, open-source contributions, or internships can also greatly enhance your skills as a software developer."
+        comment="Software development involves a combination of technical expertise, creativity, problem-solving, and effective communication. It requires a systematic approach to deliver reliable and high-quality software solutions that meet the needs of users and stakeholders. Iterative development cycles, agile methodologies, and feedback-driven improvement are often employed to ensure successful software development projects."
         amount="# 150,000"
         dollars="$ 250.55"
         duration="6 Months"
-        list1="Become a UI/UX designer."
-        list2="You will be able to start earning money skills."
-        list3=" Build a UI project from beginning to end."
-        list4="Learn to design mobile apps & websites. quaerat dolore
-        numquam odit, quos sunt iusto! Eum velit"
-        list5="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
-        list6="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
-        list7="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list8="You will be able to start earning money skills. quaerat dolore numquam odit, quos sunt iusto! Eum velit"
-        list9="You will be able to start earning money skills. quaera  dolore numquam odit, quos sunt iusto! Eum velit"
-        list10="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list11="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
-        list12="You will be able to start earning money skills. quaerat  dolore numquam odit, quos sunt iusto! Eum velit"
+        list1="Become a software developer."
+        list2="HTML, CSS, JavaScript and CMS . "
+        list3=" Media query/ mobile responsiveness."
+        list4="CSS frameworks like Bootstrap, Chakra, Semantic, Tailwind etc"
+        list5="JavaScript frameworks like React, Nextjs, Vue, Angular, etc"
+        list6="Version Control; Git/GitHub, GitLab, etc"
+        list7="Testing and Debugging"
+        list8="Building real live projects to show your prospectives human Resourses"
+        list9="Programming Languages: Gain proficiency in at least one programming language, such as Python, Java, C++, JavaScript, Typescript, or Ruby."
+        list10="Data Structures and Algorithms"
+        list11="Problem-Solving and Critical Thinking"
+        list12="Soft Skills: Enhance your communication, collaboration, and teamwork skills."
         courseImage="/images/software.jpg"
       />
       <Testimonial />
