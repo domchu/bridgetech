@@ -64,7 +64,7 @@ const crypto = () => {
         date="March 25, 2023"
         category="E-Commerce"
         address="25K, North City, New York"
-        summary="We are <strong>Optitech</strong> provide the best quality
+        summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod
@@ -83,7 +83,7 @@ const crypto = () => {
         ctetur, adipisci velit, sed optio cumque nihil impedit quo
         minus id quod maxime placeat optio cumque nihil impedit
         quo minus id quod maxime placeat"
-        result=" We are <strong>Optitech</strong> provide the best quality It
+        result=" We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -97,7 +97,7 @@ const crypto = () => {
         desires to obtain pain of itsel because it is pain, but
         because occasionally circumstances occur in which toil and
         pain can procure him some great pleaser"
-        benefits="We are <strong>Optitech</strong> provide the best quality It
+        benefits="We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -108,7 +108,7 @@ const crypto = () => {
         toil and pain can procure"
         problemsState=" In IT Consultancy Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are <strong>Optitech</strong> provide the best quality
+        problemsSummary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod
