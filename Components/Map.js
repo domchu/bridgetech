@@ -58,11 +58,11 @@ const Map = () => {
                 </Box>
               </Box>
               <Link
-                href="https://www.google.com"
+                href="https://www.test.com"
                 className="contact-site-url"
                 target="_blank"
               >
-                www.example.com
+                Connect To Our Blog 
               </Link>
             </Box>
           </Box>

@@ -7,9 +7,10 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import Benefit from "../../public/images/python8.jpg";
+import Webdev from "../../public/images/webdev.jpg";
+import ServiceImage from "../../public/images/python6.jpg";
+import ServiceWork from "../../public/images/python5.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -19,7 +20,7 @@ const python = () => {
   return (
     <>
       <DefaultSeo
-        title="Python Data-Sci | Bridgekode"
+        title="Python Data-Sci | Bridgekode Tech"
         description="It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning. "
         {...SEO}
       />
@@ -383,7 +384,7 @@ const python = () => {
                 </Box>
                 <Box className="service-benefit-image-block">
                   <Image
-                    src={Benefit}
+                    src={Webdev}
                     alt="Benefit Image"
                     loading="lazy"
                     className="image-cover img"

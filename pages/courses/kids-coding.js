@@ -49,7 +49,7 @@ const kidscoding = () => {
         list10="JavaScript: Build real life projects to show your prospective clients or recruiters(HR)."
         list11="Version Control: Familiarize yourself with version control systems like Git. Understand how to manage and collaborate on code repositories effectively."
         list12="Keep Learning: The web development field is continually evolving, so it's important to stay updated with the latest technologies and best practices. Follow blogs, participate in online communities, and explore new tools and frameworks."
-        courseImage="/images/kids.jpg"
+        courseImage="/images/kidcoding2.jpg"
       />
       <Testimonial />
       <Footer />

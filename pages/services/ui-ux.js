@@ -3,13 +3,14 @@ import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
 import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
+import Benefit from "../../public/images/ui3.jpg";
+import career from "../../public/images/uxuxux.jpg";
+import ServiceImage from "../../public/images/ui5.jpg";
+import ServiceWork from "../../public/images/ui4.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -19,7 +20,7 @@ const uiux = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux / Ui Design | Bridgekode"
+        title="Ux'Ui Design | Bridgekode Tech"
         description="UX/UI design involves creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications."
         {...SEO}
       />
@@ -72,7 +73,7 @@ const uiux = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={career}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

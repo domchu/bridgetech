@@ -7,10 +7,10 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/training.jpg";
-import humanR from "../../public/images/hr2.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import humanR from "../../public/images/human.jpg";
+import Boss from "../../public/images/boss.jpg";
+import ServiceImage from "../../public/images/human4.jpg";
+import ServiceWork from "../../public/images/human5.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -20,7 +20,7 @@ const humanResources = () => {
   return (
     <>
       <DefaultSeo
-        title="Human Resourses | Bridgekode"
+        title="Human Resourses | Bridgekode Tech"
         description="HR plays a crucial role in recruiting, hiring, training, developing, & supporting employees throughout their employment lifecycle. "
         {...SEO}
       />
@@ -73,7 +73,7 @@ const humanResources = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={Boss}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

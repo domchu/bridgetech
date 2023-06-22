@@ -78,10 +78,23 @@ const Service = () => {
                     cost-effective solutions, strong communication, commitment
                     to excellence, proven track record.
                   </Box>
-                  <Link href="/courses/course" className="section-link margin-top-20">
-                    Choose your Desired Courses
+                  <Link
+                    href="/courses/course"
+                    className="section-link margin-top-20"
+                  >
+                    Choose Your Desired Courses
                   </Link>
                 </Box>
+                  <Box>
+                  <Link
+                    href="https://test.com"
+                    className="section-link margin-top-20"
+                    target="_blank"
+                    passhref="true"
+                  >
+                    Connect To Our Blog
+                  </Link>
+                  </Box>
               </Box>
 
               {/* RIGHT PART */}

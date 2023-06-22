@@ -7,9 +7,10 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import Benefit from "../../public/images/appp1.jpg";
+import Mobile from "../../public/images/appp4.jpg";
+import ServiceImage from "../../public/images/appp2.jpg";
+import ServiceWork from "../../public/images/appp3.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -19,7 +20,7 @@ const mobileapp = () => {
   return (
     <>
       <DefaultSeo
-        title="Mobile Applications | Bridgekode"
+        title="Mobile Applications | Bridgekode Tech"
         description="Application designed specifically for user on mobile devices such as smartphones & tablets. "
         {...SEO}
       />
@@ -74,7 +75,7 @@ const mobileapp = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={Mobile}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"

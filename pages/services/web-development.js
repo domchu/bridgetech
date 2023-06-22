@@ -9,7 +9,7 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/coaching.jpg";
 import career from "../../public/images/web1.jpg";
-import ServiceImage from "../../public/images/web2.jpg";
+import ServiceImage from "../../public/images/webdev.jpg";
 import ServiceWork from "../../public/images/web.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -20,7 +20,7 @@ const webdevelopment = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Development | Bridgekode"
+        title="Web Development | Bridgekode Tech"
         description="It involves designing, coding, & maintaining the various components that make up a website, user interface, functionality, & databases."
         {...SEO}
       />

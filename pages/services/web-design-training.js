@@ -7,9 +7,9 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
+import Benefit from "../../public/images/childkode.jpg";
 import Benefits from "../../public/images/me.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
+import ServiceImage from "../../public/images/childkode.jpg";
 import ServiceWork from "../../public/images/kids.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -20,7 +20,7 @@ const webdesigntraining = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Training | Bridgekode"
+        title="Web Training | Bridgekode Tech"
         description="If you're interested in learning web development, there are several paths you can take to acquire the necessary skills and knowledge."
         {...SEO}
       />

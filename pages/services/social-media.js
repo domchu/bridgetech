@@ -7,9 +7,10 @@ import Topnav from "./../../Components/Topnav/Topnav";
 import Header from "./../../Components/Header/Header";
 import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
-import Benefit from "../../public/images/service-benefit.jpg";
-import ServiceImage from "../../public/images/ceo.jpg";
-import ServiceWork from "../../public/images/service-6.jpg";
+import Benefit from "../../public/images/media.jpg";
+import Media from "../../public/images/media2.jpg";
+import ServiceImage from "../../public/images/media3.jpg";
+import ServiceWork from "../../public/images/media4.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -19,7 +20,7 @@ const socialMedia = () => {
   return (
     <>
       <DefaultSeo
-        title="Social Media | Bridgekode"
+        title="Social Media | Bridgekode Tech"
         description="An online platforms & websites that enable users to create, share & interact with contents, as well as connect & communicate with others.  "
         {...SEO}
       />
@@ -74,7 +75,7 @@ const socialMedia = () => {
                   <Box className="service-top-manu-image-block">
                     <Box className="service-top-image-block">
                       <Image
-                        src={Benefit}
+                        src={Media}
                         alt="Summary Image"
                         loading="lazy"
                         className="image-cover img"
