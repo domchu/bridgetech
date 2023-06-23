@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const SliderCarousel = ({ children }) => {
+const Slider = ({ children }) => {
   const sliderContainerRef = useRef < HTMLDivElement > null;
   const intervalId = (useRef < number) | (null > null);
   const [current, setCurrent] = useState(0);
@@ -17,7 +17,7 @@ const SliderCarousel = ({ children }) => {
       });
     }
   };
-  // the NEXT AND PREV BTN
+  // THE NEXT AND PREV BTN
   const handleNext = () => {
     handleCurrentChange(current === children.length - 1 ? 0 : current + 1);
   };
@@ -37,7 +37,7 @@ const SliderCarousel = ({ children }) => {
   }, [current]);
   return (
     <>
-      <SliderWrapper>
+      <SliderWrapper className="slider__wrapper">
         <div className="slider-container" ref={sliderContainerRef}>
           {children.map((item, index) => (
             <div className="slider-slide" key={`slider-slide-${index}`}>
@@ -66,4 +66,62 @@ const SliderCarousel = ({ children }) => {
     </>
   );
 };
-export default SliderCarousel;
+
+// const SliderWrapper = styled.div`
+//   border: 2px solid red;
+//   position: relative;
+
+//   .slider-container {
+//     border: 2px solid blue;
+
+//     display: flex;
+//     overflow: hidden;
+
+//     .slider-slide {
+//       border: 2px solid purple;
+
+//       flex: 1 0 100%;
+//       transform: translateX(0);
+//       transition: transform 0.5s ease-in-out;
+//     }
+//   }
+
+//   .slider-buttons {
+//     border: 2px solid green;
+//     position: absolute;
+//     width: 100%;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     display: flex;
+//     justify-content: space-between;
+//   }
+
+//   .slider-dots {
+//     border: 2px solid yellow
+//     position: absolute;
+//     left: 50%;
+//     top: 100%;
+//     transform: translateX(-50%);
+
+//     .slider-dot {
+//       //reset button default styles
+//       background: none;
+//       outline: none;
+//       border: none;
+//       cursor: pointer;
+
+//       /* border: 2px solid black; */
+//       width: 20px;
+//       height: 20px;
+//       border-radius: 5rem;
+//       background: blue;
+//       transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+//       &--active {
+//         background: red;
+//         width: 30px;
+//       }
+//     }
+//   }
+// `;
+export default Slider;

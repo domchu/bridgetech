@@ -1,6 +1,6 @@
 const Card = ({ renderButtons, img, desc }) => {
   return (
-    <CardWrapper>
+    <CardWrapper className="card__wrapper">
       <div className="img-container">
         <img src={img} alt="random" />
       </div>
@@ -13,5 +13,7 @@ const Card = ({ renderButtons, img, desc }) => {
     </CardWrapper>
   );
 };
+
+
 
 export default Card;

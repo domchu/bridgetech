@@ -2211,10 +2211,6 @@ strong {
   color: var(--primary-clr-5);
   transition: 0.5s;
 }
-// .image-responsive:hover{
-//   transition: 0.5s;
-//   filter:blur(3px)
-// }
 @media screen and (max-width:#{$tablet-width}) {
   .service-collection-list {
     grid-template-columns: 1fr 1fr;
@@ -3425,3 +3421,92 @@ grid-template-columns: 1fr;
 }
 
 
+// SLIDER STYLES AT THE HOME PAGE
+.card__wrapper{
+  border: 2px solid black;
+  height: 400px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  position: relative;
+
+  .img-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  }
+
+  .content {
+    border: 2px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+
+    background-color: #ff9b9b97;
+  }
+}
+.slider__wrapper{
+  border: 2px solid red;
+  position: relative;
+
+  .slider-container {
+    border: 2px solid blue;
+
+    display: flex;
+    overflow: hidden;
+
+    .slider-slide {
+      border: 2px solid purple;
+
+      flex: 1 0 100%;
+      transform: translateX(0);
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+
+  .slider-buttons {
+    border: 2px solid green;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider-dots {
+    border: 2px solid yellow;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+
+    .slider-dot {
+      //reset button default styles
+      background: none;
+      outline: none;
+      border: none;
+      cursor: pointer;
+
+      /* border: 2px solid black; */
+      width: 20px;
+      height: 20px;
+      border-radius: 5rem;
+      background: blue;
+      transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+      &--active {
+        background: red;
+        width: 30px;
+      }
+    }
+  }
+}
