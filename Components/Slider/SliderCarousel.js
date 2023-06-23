@@ -1,10 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import Image1 from "../../public/images/ceo.jpg";
-import Image2 from "../../public/images/ceo.jpg";
-import Image3 from "../../public/images/ceo.jpg";
-
-const Slider = ({ children }) => {
+const SliderCarousel = ({ children }) => {
   const sliderContainerRef = useRef < HTMLDivElement > null;
   const intervalId = (useRef < number) | (null > null);
   const [current, setCurrent] = useState(0);
@@ -70,4 +66,4 @@ const Slider = ({ children }) => {
     </>
   );
 };
-export default Slider;
+export default SliderCarousel;
