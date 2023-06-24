@@ -7,6 +7,7 @@ import Image__slider2 from "../../public/images/graphic.jpg";
 import Image__slider3 from "../../public/images/flask.jpg";
 import Image__slider4 from "../../public/images/figma.jpg";
 import Image__slider5 from "../../public/images/writer3.jpg";
+import Image__slider6 from "../../public/images/web.jpg";
 
 const Card = ({ renderButtons, img, desc }) => {
   return (
@@ -66,7 +67,8 @@ export default Card;
 // Don’t just have a website, have a better website.
 // We have all the web tools you need to get ahead of your competition.
 
-// 
+// links btns
+
 // team
 // about
 
