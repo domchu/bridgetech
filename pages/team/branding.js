@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Branding/SEO expert" />
       <TeamProfile
         name="Owoicho Emma"
         title="Branding/SEO Expert"

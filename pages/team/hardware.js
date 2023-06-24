@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Hardware Engr" />
       <TeamProfile
         name="Dim Lawrence"
         title="Hardware/Network Engineer"

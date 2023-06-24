@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Project Manager" />
       <TeamProfile
         name="Olatunde Sleek"
         title="Project Manager"

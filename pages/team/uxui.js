@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Products Designer" />
       <TeamProfile
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"

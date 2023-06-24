@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Junior Copywriter." />
       <TeamProfile
         name="Ochu Oyame"
         title="Junior Copywriter"
@@ -28,6 +28,7 @@ const promanager = () => {
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/"
+        image="/images/comfort.jpg"
       />
       <Testimonial />
       <Footer />

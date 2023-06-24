@@ -18,7 +18,7 @@ const software = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Front-End Engr." />
       <TeamProfile
         name="Ogada Stanley"
         title="Senior Software Engineer."

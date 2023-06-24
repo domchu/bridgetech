@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 
-const TeamSingleHead = () => {
+const TeamSingleHead = ({teamTitle}) => {
   return (
     <>
       <Box className="project-sub-container">
@@ -30,7 +30,7 @@ const TeamSingleHead = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">Team Details</Box>
+                  <Box className="project-link-text">{teamTitle} </Box>
                 </li>
               </ul>
             </Box>

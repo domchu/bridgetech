@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Fullstack Dev." />
       <TeamProfile
         name="Mudashir Tunde"
         title="FullStack Software Engineer."

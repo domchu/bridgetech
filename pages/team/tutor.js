@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Web Dev. Tutor" />
       <TeamProfile
         name=" JnpRof J."
         title="Web Development Tutor"
