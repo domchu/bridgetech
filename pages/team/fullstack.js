@@ -22,8 +22,8 @@ const promanager = () => {
       <TeamProfile
         name="Mudashir Tunde"
         title="FullStack Software Engineer."
-        biography="The Chief Executive Officer/Team lead at Jaflah Software Development Company & also CTO at Manilla with over ten(10) years of versatile experience in IT field i.e Full stack Development."
-        achievement="Best programmer by laspotech 2021,2022,2023 "
+        biography="Team lead/CEO at Jaflah Software Development Company & also The Chief Technology Officer (CTO) at Manilla with over ten(10) years of versatile experience in IT field such as Full stack Development."
+        achievement="Best programmer by LASPOTECH/LASUTECH 2021,2022,2023 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
