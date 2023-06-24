@@ -5,6 +5,7 @@ import HomePage from "../Components/HomePage/HomePage";
 import Testimonial from "../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
+// import Slider from "../Components/Slider/Slider";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       />
       <Topnav />
       <Header />
+      {/* <Slider /> */}
       <HomePage />
       <Testimonial />
       <Footer />

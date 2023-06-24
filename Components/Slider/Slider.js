@@ -5,7 +5,7 @@ const Slider = ({ children }) => {
   const intervalId = (useRef < number) | (null > null);
   const [current, setCurrent] = useState(0);
 
-  // handle current change.
+  // handle current change and slides.
   const handleCurrentChange = (n) => {
     setCurrent(n);
     window.clearInterval(intervalId.current);

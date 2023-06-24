@@ -14,7 +14,6 @@ import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
 import { useInView } from "framer-motion";
-// import SliderCarousel from "../Slider/SliderCarousel.cjs";
 
 const HomePage = () => {
   const ref = useRef(null);

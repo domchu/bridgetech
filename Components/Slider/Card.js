@@ -1,17 +1,51 @@
 const Card = ({ renderButtons, img, desc }) => {
-  return (
-    <CardWrapper className="card__wrapper">
-      <div className="img-container">
-        <img src={img} alt="random" />
-      </div>
+    return (
+      <>
+        <Slider>
+          <Card
+            img={"https://picsum.photos/350/300"}
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+            renderButtons={() => (
+              <>
+                <button>clissdas</button>
+                <button>clissdas</button>
+              </>
+            )}
+          />
+          <Card
+            img={"https://picsum.photos/300/300"}
+            desc="Lorem ipsum dolor sit amet consect"
+            renderButtons={() => (
+              <>
+                <button>REST</button>
+                <button>Relax</button>
+              </>
+            )}
+          />
+          <Card
+            img={"https://picsum.photos/400/400"}
+            desc="Lorem ipsum dolor sit amet consect sdfdsf .jhksd,jas dasd as daghvsd vasd as da"
+            renderButtons={() => (
+              <>
+                <button>Own the day</button>
+                <button>Birthday</button>
+              </>
+            )}
+          />
+        </Slider>
+        <CardWrapper className="card__wrapper">
+          <div className="img-container">
+            <img src={img} alt="random" />
+          </div>
 
-      <div className="content">
-        <h2>{desc}</h2>
+          <div className="content">
+            <h2>{desc}</h2>
 
-        {renderButtons()}
-      </div>
-    </CardWrapper>
-  );
+            {renderButtons()}
+          </div>
+        </CardWrapper>
+      </>
+    );
 };
 
 
