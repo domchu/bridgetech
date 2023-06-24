@@ -42,7 +42,7 @@ const ProjectCont = [
     url: "/projects/graphics",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These project entails all graphic schemes like design principles, typography, images, colors, and layout techniques to create visually appealing, effective designs & pass the information.",
   },
   {
     id: "6",
@@ -69,7 +69,7 @@ const ProjectCont = [
     url: "/projects/mobile",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These mobile apps serve various functions and can provide a wide range of features and capabilities depending on their purpose, target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
   },
   {
     id: "9",
@@ -105,7 +105,7 @@ const ProjectCont = [
     url: "/projects/network",
     projectUrl: "https://www.google.com",
     comments:
-      "Neque porro quisquam est qui most dolorem quia enough impedit same quo minus quod and maxime",
+      "These project deals with all hardware procurement/purchase, maintenance, configuration, install, troubleshooting & system set up.",
   },
 ];
 
