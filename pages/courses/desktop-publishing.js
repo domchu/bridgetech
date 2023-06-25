@@ -27,7 +27,7 @@ const desktoppublishing = () => {
         comment="The process of desktop publishing typically involves the following steps:Content Creation, Design and Layout, Formatting and Styling, Image Editing and Optimization, Prepress Preparation, Proofing and Revision, etc."
         amount="# 45,000"
         dollars="$ 90.00"
-        duration="5 Months"
+        duration="4 Months"
         list1="Understanding the fundamental principles of design, such as layout, typography, color theory, and composition, is crucial in desktop publishing."
         list2="Familiarize yourself with popular desktop publishing software like Adobe InDesign, QuarkXPress, or Scribus."
         list3=" Gain knowledge of typography, including different font types, font families, and how to choose appropriate fonts for various design purposes."
