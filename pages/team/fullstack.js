@@ -23,7 +23,7 @@ const promanager = () => {
         name="Mudashir Tunde"
         title="FullStack Software Engineer."
         biography="Team lead/CEO at Jaflah Software Development Company & also The Chief Technology Officer (CTO) at Manilla with over ten(10) years of versatile experience in IT field such as Full stack Development."
-        achievement="Best programmer by LASPOTECH/LASUTECH 2021,2022,2023 "
+        achievement="Best programmer by LASPOTECH/LASUTECH - 2019, 2020, 2021 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
