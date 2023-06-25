@@ -22,10 +22,6 @@ const HomePage = () => {
     <>
       {/* SLIDER */}
 
-      {/* <SliderCarousel /> */}
-
-
-      
       {/* HERO SECTION OF THE HOME PAGE */}
       <Box className="hero-background">
         <Box className="container w-container">
