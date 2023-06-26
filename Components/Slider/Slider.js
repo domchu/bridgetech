@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const Slider = ({ children }) => {
-  const sliderContainerRef = useRef < HTMLDivElement > null;
+  const sliderContainerRef = useRef(null);
   const intervalId = (useRef < number) | (null > null);
   const [current, setCurrent] = useState(0);
 
@@ -37,7 +37,7 @@ const Slider = ({ children }) => {
   }, [current]);
   return (
     <>
-      <SliderWrapper className="slider__wrapper">
+      <div className="slider__wrapper">
         <div className="slider-container" ref={sliderContainerRef}>
           {children.map((item, index) => (
             <div className="slider-slide" key={`slider-slide-${index}`}>
@@ -62,7 +62,7 @@ const Slider = ({ children }) => {
             ></button>
           ))}
         </div>
-      </SliderWrapper>
+      </div>
     </>
   );
 };

@@ -5,7 +5,9 @@ import HomePage from "../Components/HomePage/HomePage";
 import Testimonial from "../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
-// import Slider from "../Components/Slider/Slider";
+import Slider from "../Components/Slider/Slider";
+import Card from "../Components/Slider/Card";
+import Image__slider6 from "../public/images/web.jpg";
 
 export default function Home() {
   return (
@@ -18,7 +20,28 @@ export default function Home() {
       />
       <Topnav />
       <Header />
-      {/* <Slider /> */}
+      <Slider>
+        <Card
+          img={Image__slider6}
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          renderButtons={() => (
+            <>
+              <button>clissdas</button>
+              <button>clissdas</button>
+            </>
+          )}
+        />
+        <Card
+          img={Image__slider6}
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          renderButtons={() => (
+            <>
+              <button>clissdas</button>
+              <button>clissdas</button>
+            </>
+          )}
+        />
+      </Slider>
       <HomePage />
       <Testimonial />
       <Footer />
