@@ -3424,7 +3424,7 @@ grid-template-columns: 1fr;
 // SLIDER STYLES AT THE HOME PAGE
 .card__wrapper{
   border: 2px solid black;
-  height: 400px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  height: 650px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
   position: relative;
 
   .img-container {
@@ -3440,7 +3440,9 @@ grid-template-columns: 1fr;
       object-position: bottom;
     }
   }
-
+button{
+  padding: 7px;
+}
   .content {
     border: 2px solid blue;
     position: absolute;
@@ -3456,16 +3458,15 @@ grid-template-columns: 1fr;
 .slider__wrapper{
   border: 2px solid red;
   position: relative;
+  // overflow: hidden;
 
   .slider-container {
     border: 2px solid blue;
-
     display: flex;
     overflow: hidden;
 
     .slider-slide {
       border: 2px solid purple;
-
       flex: 1 0 100%;
       transform: translateX(0);
       transition: transform 0.5s ease-in-out;
@@ -3497,8 +3498,9 @@ grid-template-columns: 1fr;
       cursor: pointer;
 
       /* border: 2px solid black; */
-      width: 20px;
-      height: 20px;
+      margin:0px 3px;
+      width: 18px;
+      height: 18px;
       border-radius: 5rem;
       background: blue;
       transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);

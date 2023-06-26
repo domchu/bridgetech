@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const Slider = ({ children }) => {
   const sliderContainerRef = useRef(null);
-  const intervalId = (useRef < number) | (null > null);
+  const intervalId = useRef();
   const [current, setCurrent] = useState(0);
 
   // handle current change and slides.

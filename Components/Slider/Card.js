@@ -1,18 +1,11 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import Link from "next/link";
-import Image from "next/image";
-import Image__slider1 from "../../public/images/software.jpg";
-import Image__slider2 from "../../public/images/graphic.jpg";
-import Image__slider3 from "../../public/images/flask.jpg";
-import Image__slider4 from "../../public/images/figma.jpg";
-import Image__slider5 from "../../public/images/writer3.jpg";
-import Image__slider6 from "../../public/images/web.jpg";
+
 
 const Card = ({ renderButtons, img, desc }) => {
   return (
     <>
-      <div className="card__wrapper">
+      <Box className="card__wrapper">
         <div className="img-container">
           <img src={img} alt="random" />
         </div>
@@ -22,7 +15,7 @@ const Card = ({ renderButtons, img, desc }) => {
 
           {renderButtons()}
         </div>
-      </div>
+      </Box>
     </>
   );
 };

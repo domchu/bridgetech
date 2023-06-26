@@ -1,3 +1,5 @@
+import React from "react";
+import Link from "next/link";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
@@ -7,7 +9,6 @@ import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import Slider from "../Components/Slider/Slider";
 import Card from "../Components/Slider/Card";
-import Image__slider6 from "../public/images/web.jpg";
 
 export default function Home() {
   return (
@@ -22,22 +23,46 @@ export default function Home() {
       <Header />
       <Slider>
         <Card
-          img={Image__slider6}
+          img="/images/web.jpg"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
           renderButtons={() => (
             <>
-              <button>clissdas</button>
-              <button>clissdas</button>
+              <Link href="/">
+                <button>Addidas</button>
+              </Link>
+              <Link href="/">
+                <button>clissdas</button>
+              </Link>
             </>
           )}
         />
         <Card
-          img={Image__slider6}
+          img="/images/graphic.jpg"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
           renderButtons={() => (
             <>
-              <button>clissdas</button>
-              <button>clissdas</button>
+              <button>Relax</button>
+              <button>Rest</button>
+            </>
+          )}
+        />
+        <Card
+          img="/images/flask.jpg"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          renderButtons={() => (
+            <>
+              <button>Reset</button>
+              <button>closed</button>
+            </>
+          )}
+        />
+        <Card
+          img="/images/writer3.jpg"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          renderButtons={() => (
+            <>
+              <button>Reset</button>
+              <button>closed</button>
             </>
           )}
         />

@@ -3599,7 +3599,7 @@ figure.card > figcaption {
 }
 .card__wrapper {
   border: 2px solid black;
-  height: 400px;
+  height: 650px;
   position: relative;
 }
 .card__wrapper .img-container {
@@ -3615,6 +3615,9 @@ figure.card > figcaption {
      object-fit: cover;
   -o-object-position: bottom;
      object-position: bottom;
+}
+.card__wrapper button {
+  padding: 7px;
 }
 .card__wrapper .content {
   border: 2px solid blue;
@@ -3664,8 +3667,9 @@ figure.card > figcaption {
   border: none;
   cursor: pointer;
   /* border: 2px solid black; */
-  width: 20px;
-  height: 20px;
+  margin: 0px 3px;
+  width: 18px;
+  height: 18px;
   border-radius: 5rem;
   background: blue;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
