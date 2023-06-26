@@ -3440,11 +3440,18 @@ grid-template-columns: 1fr;
       object-position: bottom;
     }
   }
-button{
-  padding: 7px;
+  .content a{
+    margin-top: 2rem;
+  }
+
+.slider__btn{
+  padding:5px 7px;
   background-color: #0077b6;
   color: #ccc;
+  margin-top:10px;
+  border-radius: 5px;
 }
+
   .content {
     border: 2px solid blue;
     position: absolute;
@@ -3453,7 +3460,6 @@ button{
     transform: translate(-50%, -50%);
     width: 50%;
     text-align: center;
-
     background-color: #ff9b9b97;
   }
 }

@@ -3616,10 +3616,15 @@ figure.card > figcaption {
   -o-object-position: bottom;
      object-position: bottom;
 }
-.card__wrapper button {
-  padding: 7px;
+.card__wrapper .content a {
+  margin-top: 2rem;
+}
+.card__wrapper .slider__btn {
+  padding: 5px 7px;
   background-color: #0077b6;
   color: #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 .card__wrapper .content {
   border: 2px solid blue;

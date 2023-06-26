@@ -27,7 +27,9 @@ export default function Home() {
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
           renderButtons={() => (
             <>
-              <Link href="/">Addidas</Link>
+              <Link href="/" className="slider__btn">
+                Addidas
+              </Link>
               <Link href="/">clissdas</Link>
             </>
           )}
