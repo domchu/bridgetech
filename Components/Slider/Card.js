@@ -12,7 +12,6 @@ const Card = ({ renderButtons, img, desc }) => {
 
         <div className="content">
           <h2>{desc}</h2>
-
           {renderButtons()}
         </div>
       </Box>

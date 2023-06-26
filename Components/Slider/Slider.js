@@ -47,8 +47,12 @@ const Slider = ({ children }) => {
         </div>
 
         <div className="slider-buttons">
-          <button onClick={handlePrev}>Prev</button>
-          <button onClick={handleNext}>Next</button>
+          <button className="prev__btn" onClick={handlePrev}>
+            Prev
+          </button>
+          <button className="next__btn" onClick={handleNext}>
+            Next
+          </button>
         </div>
 
         <div className="slider-dots">

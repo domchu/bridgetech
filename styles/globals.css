@@ -3618,6 +3618,8 @@ figure.card > figcaption {
 }
 .card__wrapper button {
   padding: 7px;
+  background-color: #0077b6;
+  color: #ccc;
 }
 .card__wrapper .content {
   border: 2px solid blue;
@@ -3653,6 +3655,24 @@ figure.card > figcaption {
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
+}
+.slider__wrapper .slider-buttons .prev__btn {
+  margin-left: 20px;
+  background-color: red;
+  color: var(--clr-white);
+  padding: 1px 7px;
+  letter-spacing: 1.8;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+.slider__wrapper .slider-buttons .next__btn {
+  margin-right: 20px;
+  background-color: red;
+  color: var(--clr-white);
+  padding: 1px 7px;
+  letter-spacing: 1.8;
+  border-radius: 5px;
+  font-size: 1.5rem;
 }
 .slider__wrapper .slider-dots {
   border: 2px solid yellow;

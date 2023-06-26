@@ -3442,6 +3442,8 @@ grid-template-columns: 1fr;
   }
 button{
   padding: 7px;
+  background-color: #0077b6;
+  color: #ccc;
 }
   .content {
     border: 2px solid blue;
@@ -3481,6 +3483,25 @@ button{
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
+
+    .prev__btn{
+      margin-left: 20px;
+      background-color:red;
+      color:var(--clr-white);
+      padding:1px 7px;
+      letter-spacing: 1.8;
+      border-radius:5px;
+      font-size:1.5rem;
+    }
+    .next__btn{
+      margin-right: 20px;
+      background-color:red;
+      color:var(--clr-white);
+      padding:1px 7px;
+      letter-spacing: 1.8;
+      border-radius:5px;
+      font-size:1.5rem;
+    }
   }
 
   .slider-dots {

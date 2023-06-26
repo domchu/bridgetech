@@ -27,12 +27,8 @@ export default function Home() {
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
           renderButtons={() => (
             <>
-              <Link href="/">
-                <button>Addidas</button>
-              </Link>
-              <Link href="/">
-                <button>clissdas</button>
-              </Link>
+              <Link href="/">Addidas</Link>
+              <Link href="/">clissdas</Link>
             </>
           )}
         />
