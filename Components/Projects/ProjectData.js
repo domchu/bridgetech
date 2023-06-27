@@ -69,7 +69,7 @@ const ProjectCont = [
     url: "/projects/mobile",
     projectUrl: "https://www.google.com",
     comments:
-      "These mobile apps serve various functions and can provide a wide range of features and capabilities depending on their purpose, target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
+      "These mobile apps serve various functions like target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
   },
   {
     id: "9",

@@ -561,6 +561,11 @@ nav {
   padding-bottom: 100px;
   color: var(--clr-white);
 }
+@media screen and (max-width: 768px) {
+  .footer-container .footer-link {
+    margin-bottom: 20px;
+  }
+}
 
 .footer-link {
   flex: 1;
