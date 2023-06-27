@@ -97,7 +97,7 @@ export default function Home() {
         />
         <Card
           img="/images/writer3.jpg"
-          desc="Techs for people to the people. Your IT career path start here & Now."
+          desc="Techs for the people to the people. Your IT career path start here & Now."
           renderButtons={() => (
             <>
               <Link href="/courses/course" className="slider__btn">

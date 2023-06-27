@@ -1502,7 +1502,7 @@ ul {
 // HOME PAGE STYLES.
 .hero-background {
   position: relative;
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 120px;
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633190cf0474c871ea8804a4_hero-bg-pattern.png");
   background-position: 50% 50%;
@@ -3459,6 +3459,7 @@ grid-template-columns: 1fr;
   }
   .content h2{
     margin-bottom: 3rem;
+    font-size: 2rem !important;
   }
   .content a{
     margin: 10px;
@@ -3472,6 +3473,14 @@ grid-template-columns: 1fr;
   .content a:hover{
     background-color:var(--primary-clr-1);
     transition: .5s;
+  }
+  @media screen and (max-width:#{$phone-width}) {
+    .content h2{
+      font-size: 1.2rem !important;
+    }
+    .content a{
+      font-size: 1rem;
+    }
   }
 }
 .slider__wrapper{

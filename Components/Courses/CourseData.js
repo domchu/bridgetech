@@ -19,7 +19,7 @@ const CourseDetails = [
   },
   {
     id: "3",
-    courseImage: "/images/graphic4.jpg",
+    courseImage: "/images/graphicsdes3.jpg",
     title: "Graphics Design",
     price: "#50,000",
     courseUrl: "/courses/graphics-design",
@@ -38,7 +38,7 @@ const CourseDetails = [
 
   {
     id: "5",
-    courseImage: "/images/web-train.jpg",
+    courseImage: "/images/python6.jpg",
     title: "Software Development",
     price: "#180,000",
     courseUrl: "/courses/software-development",
@@ -48,7 +48,7 @@ const CourseDetails = [
 
   {
     id: "6",
-    courseImage: "/images/branding.jpg",
+    courseImage: "/images/media2.jpg",
     title: "Branding & SEO",
     price: "#25,000",
     courseUrl: "/courses/branding",
