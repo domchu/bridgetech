@@ -3631,7 +3631,7 @@ figure.card > figcaption {
   color: var(--clr-white);
 }
 .card__wrapper .content h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .card__wrapper .content a {
   margin: 10px;
