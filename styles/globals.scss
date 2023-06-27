@@ -3423,8 +3423,7 @@ grid-template-columns: 1fr;
 
 // SLIDER STYLES AT THE HOME PAGE
 .card__wrapper{
-  // border: 2px solid black;
-  height: 670px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  height: 668px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
   position: relative;
 
   .img-container {
@@ -3473,7 +3472,6 @@ grid-template-columns: 1fr;
   .content a:hover{
     background-color:var(--primary-clr-1);
     transition: .5s;
-    
   }
 }
 .slider__wrapper{
@@ -3506,7 +3504,7 @@ grid-template-columns: 1fr;
       letter-spacing: 1.8;
       border-radius:5px;
       font-size:1.2rem;
-        font-family: Rajdhani, sans-serif;
+      font-family: Rajdhani, sans-serif;
     }
     .next__btn{
       margin-right: 15px;
@@ -3515,7 +3513,7 @@ grid-template-columns: 1fr;
       padding:1px 8px;
       border-radius:5px;
       font-size:1.2rem;
-        font-family: Rajdhani, sans-serif;
+      font-family: Rajdhani, sans-serif;
     }
     .next__btn:hover{
       background-color:var(--primary-clr-1);
@@ -3540,7 +3538,6 @@ grid-template-columns: 1fr;
       outline: none;
       border: none;
       cursor: pointer;
-
       margin:0px 2px;
       width: 18px;
       height: 18px;

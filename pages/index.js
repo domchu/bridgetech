@@ -27,10 +27,10 @@ export default function Home() {
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
-              <Link href="/" className="slider__btn">
+              <Link href="/pages/aboutus" className="slider__btn">
                 About Us
               </Link>
-              <Link href="/" className="slider__btn">
+              <Link href="/pages/team" className="slider__btn">
                 Team
               </Link>
             </>
@@ -42,10 +42,18 @@ export default function Home() {
           desc="A good programmer looks both ways before crossing a one-way street."
           renderButtons={() => (
             <>
-              <Link href="/" className="slider__btn">
+              <Link
+                href="https://www.test.com"
+                target="_blank"
+                className="slider__btn"
+              >
                 Facebook
               </Link>
-              <Link href="/" className="slider__btn">
+              <Link
+                href="https://www.test.com"
+                target="_blank"
+                className="slider__btn"
+              >
                 Instagram
               </Link>
             </>
@@ -56,10 +64,14 @@ export default function Home() {
           desc="Don’t just have a website, have a better website."
           renderButtons={() => (
             <>
-              <Link href="/" className="slider__btn">
+              <Link href="/contactus" className="slider__btn">
                 Contact
               </Link>
-              <Link href="/" className="slider__btn">
+              <Link
+                href="https://www.test.com"
+                target="_blank"
+                className="slider__btn"
+              >
                 Blog
               </Link>
             </>
@@ -70,10 +82,10 @@ export default function Home() {
           desc="For every complex problem, we give you a simple solution."
           renderButtons={() => (
             <>
-              <Link href="/" className="slider__btn">
+              <Link href="Tel:+234 07034278995" className="slider__btn">
                 Make Call
               </Link>
-              <Link href="/" className="slider__btn">
+              <Link href="https://wa.me/2347034278995" className="slider__btn">
                 WhatsApp
               </Link>
             </>
@@ -84,10 +96,10 @@ export default function Home() {
           desc="Techs for people to the people."
           renderButtons={() => (
             <>
-              <Link href="/" className="slider__btn">
+              <Link href="/courses/course" className="slider__btn">
                 Courses
               </Link>
-              <Link href="/" className="slider__btn">
+              <Link href="/pages/faq" className="slider__btn">
                 FAQ
               </Link>
             </>
