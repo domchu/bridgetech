@@ -48,18 +48,19 @@ const Service = () => {
                       best IT Services
                     </span>
                     to solve your
-                    <span className="section-title-inner-style">Problems</span>
+                    <span className="section-title-inner-style"> Problems</span>
                   </h2>
                   <Box className="service-medium-subtitle-text">
                     Over <strong>3 years</strong> working in IT services,
                     developing <br />
-                    software, websites, e-commerce sites, school
-                    portal/database, mobile apps for clients all over the world.
+                    software, websites, e-commerce sites, kids coding training,
+                    school portal/database, mobile apps for clients all over the
+                    world.
                   </Box>
                   <Box className="section-text">
                     We are <strong>Bridgekode</strong> provide the best quality
                     <Link
-                      href="https://www.example.com"
+                      href="https:/www.example.com"
                       target="_blank"
                       className="it-solution"
                     >
@@ -85,16 +86,16 @@ const Service = () => {
                     Choose Your Desired Courses
                   </Link>
                 </Box>
-                  <Box>
+                <Box>
                   <Link
-                    href="https://test.com"
+                    href="https:/test.com"
                     className="section-link margin-top-20"
                     target="_blank"
                     passhref="true"
                   >
                     Connect To Our Blog
                   </Link>
-                  </Box>
+                </Box>
               </Box>
 
               {/* RIGHT PART */}
