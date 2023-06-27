@@ -3688,10 +3688,12 @@ figure.card > figcaption {
 .slider__wrapper .slider-buttons .next__btn:hover {
   background-color: var(--primary-clr-1);
   color: var(--clr-white);
+  transition: 0.5s;
 }
 .slider__wrapper .slider-buttons .prev__btn:hover {
   background-color: var(--primary-clr-1);
   color: var(--clr-white);
+  transition: 0.5s;
 }
 .slider__wrapper .slider-dots {
   position: absolute;
