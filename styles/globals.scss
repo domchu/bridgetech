@@ -3424,7 +3424,7 @@ grid-template-columns: 1fr;
 // SLIDER STYLES AT THE HOME PAGE
 .card__wrapper{
   border: 2px solid black;
-  height: 650px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  height: 655px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
   position: relative;
 
   .img-container {
@@ -3482,7 +3482,6 @@ grid-template-columns: 1fr;
   }
 
   .slider-buttons {
-    border: 2px solid green;
     position: absolute;
     width: 100%;
     top: 50%;
@@ -3491,49 +3490,54 @@ grid-template-columns: 1fr;
     justify-content: space-between;
 
     .prev__btn{
-      margin-left: 20px;
-      background-color:red;
+      margin-left: 15px;
+      background-color:var(--primary-clr-2);
       color:var(--clr-white);
-      padding:1px 7px;
+      padding:1px 8px;
       letter-spacing: 1.8;
       border-radius:5px;
-      font-size:1.5rem;
+      font-size:1.2rem;
     }
     .next__btn{
-      margin-right: 20px;
-      background-color:red;
+      margin-right: 15px;
+      background-color:var(--primary-clr-2);
       color:var(--clr-white);
-      padding:1px 7px;
+      padding:1px 8px;
       letter-spacing: 1.8;
       border-radius:5px;
-      font-size:1.5rem;
+      font-size:1.2rem;
+    }
+    .next__btn:hover{
+      background-color:var(--primary-clr-1);
+      color:var(--clr-white)
+    }
+    .prev__btn:hover{
+      background-color:var(--primary-clr-1);
+      color:var(--clr-white)
     }
   }
 
   .slider-dots {
-    border: 2px solid yellow;
     position: absolute;
     left: 50%;
     top: 100%;
     transform: translateX(-50%);
 
     .slider-dot {
-      //reset button default styles
       background: none;
       outline: none;
       border: none;
       cursor: pointer;
 
-      /* border: 2px solid black; */
-      margin:0px 3px;
+      margin:0px 2px;
       width: 18px;
       height: 18px;
       border-radius: 5rem;
-      background: blue;
+      background: var(--primary-clr-2);
       transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
       &--active {
-        background: red;
+        background: var(--primary-clr-1);
         width: 30px;
       }
     }
