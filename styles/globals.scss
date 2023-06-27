@@ -3423,15 +3423,14 @@ grid-template-columns: 1fr;
 
 // SLIDER STYLES AT THE HOME PAGE
 .card__wrapper{
-  border: 2px solid black;
-  height: 655px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  // border: 2px solid black;
+  height: 670px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
   position: relative;
 
   .img-container {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 2px solid red;
     
     img {
       width: 100%;
@@ -3440,9 +3439,7 @@ grid-template-columns: 1fr;
       object-position: bottom;
     }
   }
-  .content a{
-    margin-top: 2rem;
-  }
+  
 
 .slider__btn{
   padding:5px 7px;
@@ -3453,28 +3450,40 @@ grid-template-columns: 1fr;
 }
 
   .content {
-    border: 2px solid blue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
     text-align: center;
-    background-color: #ff9b9b97;
+    color: var(--clr-white);
+  }
+  .content h2{
+    margin-bottom: 1rem;
+  }
+  .content a{
+    margin: 10px;
+    color:var(--clr-white);
+    background-color: var(--primary-clr-2);
+    font-family: Rajdhani, sans-serif;
+    padding:5px;
+    font-size:1.2rem;
+
+  }
+  .content a:hover{
+    background-color:var(--primary-clr-1);
+    transition: .5s;
+    
   }
 }
 .slider__wrapper{
-  border: 2px solid red;
   position: relative;
-  // overflow: hidden;
 
   .slider-container {
-    border: 2px solid blue;
     display: flex;
     overflow: hidden;
 
     .slider-slide {
-      border: 2px solid purple;
       flex: 1 0 100%;
       transform: translateX(0);
       transition: transform 0.5s ease-in-out;
@@ -3497,23 +3506,26 @@ grid-template-columns: 1fr;
       letter-spacing: 1.8;
       border-radius:5px;
       font-size:1.2rem;
+        font-family: Rajdhani, sans-serif;
     }
     .next__btn{
       margin-right: 15px;
       background-color:var(--primary-clr-2);
       color:var(--clr-white);
       padding:1px 8px;
-      letter-spacing: 1.8;
       border-radius:5px;
       font-size:1.2rem;
+        font-family: Rajdhani, sans-serif;
     }
     .next__btn:hover{
       background-color:var(--primary-clr-1);
       color:var(--clr-white)
+      transition: .5s;
     }
     .prev__btn:hover{
       background-color:var(--primary-clr-1);
       color:var(--clr-white)
+      transition: .5s;
     }
   }
 

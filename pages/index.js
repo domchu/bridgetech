@@ -24,43 +24,72 @@ export default function Home() {
       <Slider>
         <Card
           img="/images/web.jpg"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
               <Link href="/" className="slider__btn">
-                Addidas
+                About Us
               </Link>
-              <Link href="/">clissdas</Link>
+              <Link href="/" className="slider__btn">
+                Team
+              </Link>
+            </>
+          )}
+        />
+
+        <Card
+          img="/images/flask.jpg"
+          desc="A good programmer looks both ways before crossing a one-way street."
+          renderButtons={() => (
+            <>
+              <Link href="/" className="slider__btn">
+                Facebook
+              </Link>
+              <Link href="/" className="slider__btn">
+                Instagram
+              </Link>
+            </>
+          )}
+        />
+        <Card
+          img="/images/coaching.jpg"
+          desc="Don’t just have a website, have a better website."
+          renderButtons={() => (
+            <>
+              <Link href="/" className="slider__btn">
+                Contact
+              </Link>
+              <Link href="/" className="slider__btn">
+                Blog
+              </Link>
             </>
           )}
         />
         <Card
           img="/images/graphic.jpg"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          desc="For every complex problem, we give you a simple solution."
           renderButtons={() => (
             <>
-              <button>Relax</button>
-              <button>Rest</button>
-            </>
-          )}
-        />
-        <Card
-          img="/images/flask.jpg"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
-          renderButtons={() => (
-            <>
-              <button>Reset</button>
-              <button>closed</button>
+              <Link href="/" className="slider__btn">
+                Make Call
+              </Link>
+              <Link href="/" className="slider__btn">
+                WhatsApp
+              </Link>
             </>
           )}
         />
         <Card
           img="/images/writer3.jpg"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+          desc="Techs for people to the people."
           renderButtons={() => (
             <>
-              <button>Reset</button>
-              <button>closed</button>
+              <Link href="/" className="slider__btn">
+                Courses
+              </Link>
+              <Link href="/" className="slider__btn">
+                FAQ
+              </Link>
             </>
           )}
         />

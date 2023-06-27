@@ -27,23 +27,4 @@ export default Card;
 // Don’t just have a website, have a better website.
 // We have all the web tools you need to get ahead of your competition.
 
-// links btns
 
-// team
-// about
-
-// 
-// facebook
-// instagram
-
-// 
-// courses
-// faq
-
-// 
-// contact
-// make call
-
-// 
-// blog
-// whatsapp us

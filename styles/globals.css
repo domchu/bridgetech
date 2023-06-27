@@ -3598,15 +3598,13 @@ figure.card > figcaption {
   }
 }
 .card__wrapper {
-  border: 2px solid black;
-  height: 655px;
+  height: 670px;
   position: relative;
 }
 .card__wrapper .img-container {
   position: absolute;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 .card__wrapper .img-container img {
   width: 100%;
@@ -3616,9 +3614,6 @@ figure.card > figcaption {
   -o-object-position: bottom;
      object-position: bottom;
 }
-.card__wrapper .content a {
-  margin-top: 2rem;
-}
 .card__wrapper .slider__btn {
   padding: 5px 7px;
   background-color: #0077b6;
@@ -3627,27 +3622,38 @@ figure.card > figcaption {
   border-radius: 5px;
 }
 .card__wrapper .content {
-  border: 2px solid blue;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
   text-align: center;
-  background-color: rgba(255, 155, 155, 0.5921568627);
+  color: var(--clr-white);
+}
+.card__wrapper .content h2 {
+  margin-bottom: 1rem;
+}
+.card__wrapper .content a {
+  margin: 10px;
+  color: var(--clr-white);
+  background-color: var(--primary-clr-2);
+  font-family: Rajdhani, sans-serif;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.card__wrapper .content a:hover {
+  background-color: var(--primary-clr-1);
+  transition: 0.5s;
 }
 
 .slider__wrapper {
-  border: 2px solid red;
   position: relative;
 }
 .slider__wrapper .slider-container {
-  border: 2px solid blue;
   display: flex;
   overflow: hidden;
 }
 .slider__wrapper .slider-container .slider-slide {
-  border: 2px solid purple;
   flex: 1 0 100%;
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
@@ -3668,15 +3674,16 @@ figure.card > figcaption {
   letter-spacing: 1.8;
   border-radius: 5px;
   font-size: 1.2rem;
+  font-family: Rajdhani, sans-serif;
 }
 .slider__wrapper .slider-buttons .next__btn {
   margin-right: 15px;
   background-color: var(--primary-clr-2);
   color: var(--clr-white);
   padding: 1px 8px;
-  letter-spacing: 1.8;
   border-radius: 5px;
   font-size: 1.2rem;
+  font-family: Rajdhani, sans-serif;
 }
 .slider__wrapper .slider-buttons .next__btn:hover {
   background-color: var(--primary-clr-1);
