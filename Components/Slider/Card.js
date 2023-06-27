@@ -6,14 +6,14 @@ const Card = ({ renderButtons, img, desc }) => {
   return (
     <>
       <Box className="card__wrapper">
-        <div className="img-container">
+        <Box className="img-container">
           <img src={img} alt="random" />
-        </div>
+        </Box>
 
-        <div className="content">
+        <Box className="content">
           <h2>{desc}</h2>
           {renderButtons()}
-        </div>
+        </Box>
       </Box>
     </>
   );
@@ -21,10 +21,6 @@ const Card = ({ renderButtons, img, desc }) => {
 
 export default Card;
 
-// For every complex problem, we give you a simple solution.
-// A good programmer looks both ways before crossing a one-way street.
-// Techs for people to the people.
-// Don’t just have a website, have a better website.
-// We have all the web tools you need to get ahead of your competition.
+
 
 

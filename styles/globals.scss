@@ -3423,7 +3423,7 @@ grid-template-columns: 1fr;
 
 // SLIDER STYLES AT THE HOME PAGE
 .card__wrapper{
-  height: 668px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
+  height: 666px; // ALWAYS add a height to child for children prop to work as expected (Because Slider does not have a height)
   position: relative;
 
   .img-container {

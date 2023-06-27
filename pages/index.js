@@ -85,7 +85,11 @@ export default function Home() {
               <Link href="Tel:+234 07034278995" className="slider__btn">
                 Make Call
               </Link>
-              <Link href="https://wa.me/2347034278995" className="slider__btn">
+              <Link
+                href="https://wa.me/2347034278995"
+                target="_blank"
+                className="slider__btn"
+              >
                 WhatsApp
               </Link>
             </>
