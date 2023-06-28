@@ -1,13 +1,13 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-
+import Image from "next/image";
 
 const Card = ({ renderButtons, img, desc }) => {
   return (
     <>
       <Box className="card__wrapper">
         <Box className="img-container">
-          <img src={img} alt="random" />
+          <Image src={img} alt="Random Image Slider" width={100} height={100} />
         </Box>
 
         <Box className="content">
