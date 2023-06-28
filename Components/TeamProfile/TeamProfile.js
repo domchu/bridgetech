@@ -2,7 +2,6 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-// import Man from "../../public/images/team-ceo.jpg";
 import Facebook from "../../public/images/facebook-icon.png";
 import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
@@ -30,7 +29,7 @@ const TeamProfile = ({
                   src={image}
                   height={625}
                   width={100}
-                  alt="A man wearing suite"
+                  alt="Team Member Image"
                   loading="lazy"
                   className="image-responsie team-large-image img"
                 />

@@ -19,7 +19,7 @@ const Footer = () => {
             flexDirection={{
               base: "column",
               sm: "column",
-              md: "row",
+              md: "column",
               lg: "row",
             }}
           >
@@ -34,20 +34,20 @@ const Footer = () => {
               </Link>
               <p className="footer-link-p">
                 Bridgekode is a software development services focuses on website
-                design, students/kids coding, general IT training, turning ideas
-                into creativities & provide digital solutions to businesses.
+                design, students/kids coding, software development, general IT training, turning ideas
+                into creativities & provide digital solutions to businesses across globe.
               </p>
               <Flex className="icons-container">
-                <Link href="/" target="_blank">
+                <Link href="https:/www.test.com" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
-                <Link href="/" target="_blank">
+                <Link href="https:/www.test.com" target="_blank">
                   <FaInstagram className="icons" />
                 </Link>
-                <Link href="/" target="_blank">
+                <Link href="https:/www.test.com" target="_blank">
                   <FaTwitter className="icons" />
                 </Link>
-                <Link href="/" target="_blank">
+                <Link href="https:/www.test.com" target="_blank">
                   <FaLinkedin className="icons" />
                 </Link>
               </Flex>
@@ -211,20 +211,22 @@ const Footer = () => {
               <Box>
                 <li>
                   <Link
-                    href="mailto:info@example.com"
+                    href="mailto:info@bridgekodetech.com"
                     target="_blank"
                     id="footerlink"
                     passhref="true"
+                    rel="nofollow"
                   >
                     info@bridgekodetech.com
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="mailto:info@example.com"
+                    href="mailto:bridgekodetech@gmail.com"
                     target="_blank"
                     id="footerlink"
                     passhref="true"
+                    rel="nofollow"
                   >
                     bridgekodetech@gmail.com
                   </Link>
@@ -236,8 +238,8 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <p>
-              Copyright©2022 Bridgekode. All rights reserved. Designed and
-              developed by
+              Copyright©2022 Bridgekode. All Rights Reserved. Designed and
+              Developed by
               <Link
                 href="https://www.linkedin/in/dominic-ochu/"
                 target="_blank"

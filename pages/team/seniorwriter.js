@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Content Writer" />
       <TeamProfile
         name="Esther Uchechi"
         title="Senior Content Writer"

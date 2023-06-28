@@ -18,13 +18,13 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Admin Officer" />
       <TeamProfile
         name="Dike Ifeanyi"
         title="Admin Officer + Secretary"
         biography="An experience & self-motivated office administrator/secretary with over 3 years of experience working in companies, overseeing schedules, travelling arrangements,clients & staff meetings,
         answering incoming & outgoing correspondence."
-        achievement="Face of SAMRACK Travelling Agency - 2022"
+        achievement="Face of SAMRACK Travelling Agency - 2015"
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"

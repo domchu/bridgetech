@@ -18,7 +18,7 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Graphics Designer." />
       <TeamProfile
         name="Isaac Oti"
         title="Web/Graphic Designer"

@@ -14,7 +14,7 @@ import femaleBg from "../../public/images/eliminate-2.png";
 import LatestProject from "../LatestProject";
 import ServiceProvide from "../Service/ServiceProvide";
 import { useInView } from "framer-motion";
-// import SliderCarousel from "../Slider/SliderCarousel.cjs";
+import Reveal from "../Reveal";
 
 const HomePage = () => {
   const ref = useRef(null);
@@ -23,10 +23,6 @@ const HomePage = () => {
     <>
       {/* SLIDER */}
 
-      {/* <SliderCarousel /> */}
-
-
-      
       {/* HERO SECTION OF THE HOME PAGE */}
       <Box className="hero-background">
         <Box className="container w-container">
@@ -139,42 +135,52 @@ const HomePage = () => {
                     </span>
                     for your Business
                   </h2>
-                  <Box className="section-text">
-                    Bridgekode can help eliminate IT challenges through a
-                    combination of expertise, proactive problem-solving, and
-                    effective technology solutions. Here are some ways
-                    Bridgetech can address IT challenges:
-                  </Box>
+                  <Reveal>
+                    <Box className="section-text">
+                      Bridgekode can help eliminate IT challenges through a
+                      combination of expertise, proactive problem-solving, and
+                      effective technology solutions. Here are some ways
+                      Bridgetech can address IT challenges:
+                    </Box>
+                  </Reveal>
                 </Box>
                 <ul className="eliminate-list w-list-unstyled" role="list">
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
-                    <Box className="eliminate-list-text">
-                      Comprehensive Assessments: Bridgekode can conduct thorough
-                      assessments of an organization's IT infrastructure,
-                      systems, and processes. This helps identify existing
-                      challenges, vulnerabilities, and areas for improvement.
-                    </Box>
+                    <Reveal>
+                      <Box className="eliminate-list-text">
+                        Comprehensive Assessments: Bridgekode can conduct
+                        thorough assessments of an organization's IT
+                        infrastructure, systems, and processes. This helps
+                        identify existing challenges, vulnerabilities, and areas
+                        for improvement.
+                      </Box>
+                    </Reveal>
                   </li>
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
-                    <Box className="eliminate-list-text">
-                      Tailored Solutions: Based on the assessment results,
-                      Bridgekode can provide customized solutions to address
-                      specific IT challenges. This may involve implementing new
-                      technologies, optimizing existing systems, or streamlining
-                      workflows to improve efficiency and productivity.
-                    </Box>
+                    <Reveal>
+                      <Box className="eliminate-list-text">
+                        Tailored Solutions: Based on the assessment results,
+                        Bridgekode can provide customized solutions to address
+                        specific IT challenges. This may involve implementing
+                        new technologies, optimizing existing systems, or
+                        streamlining workflows to improve efficiency and
+                        productivity.
+                      </Box>
+                    </Reveal>
                   </li>
                   <li className="eliminate-list-item">
                     <Box className="eliminate-list-style"></Box>
-                    <Box className="eliminate-list-text">
-                      Training and Support: Bridgekode can offer training
-                      programs and ongoing support to enhance the IT skills of
-                      the organization's staff. This empowers employees to
-                      effectively use IT systems, troubleshoot minor issues, and
-                      reduce dependence on external IT support.
-                    </Box>
+                    <Reveal>
+                      <Box className="eliminate-list-text">
+                        Training and Support: Bridgekode can offer training
+                        programs and ongoing support to enhance the IT skills of
+                        the organization's staff. This empowers employees to
+                        effectively use IT systems, troubleshoot minor issues,
+                        and reduce dependence on external IT support.
+                      </Box>
+                    </Reveal>
                   </li>
                   <li
                     className="eliminate-list-item-dash-progress li"

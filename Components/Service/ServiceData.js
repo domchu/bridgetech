@@ -18,7 +18,7 @@ const DataServ = [
     image: "/images/kids.jpg",
     title: "Kids Coding Training",
     urlPath: "/services/web-design-training",
-    text: "Bidgekode tech. trains students/Kids interested in learning web designing, there are several paths you can take to acquire the necessary skills and knowledge using HTML5, CSS3, javascript & others tools.  ",
+    text: "Bidgekode trains students/Kids interested in learning web design, there are several paths you can take to acquire the crucial skills & knowledge.  ",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const DataServ = [
     image: "/images/software2.jpg",
     title: "Software Development",
     urlPath: "/services/software-development",
-    text: "Designing, coding, testing, and maintaining software apps using technologies like everything in kids coding training & js frameworks like React, Next, Vue, Angular & CSS3 frameworks like Chakra, Tailwind, Semantic. ",
+    text: "Designing, coding, testing, and maintaining software apps using technologies like HTML, CSS, Js & js frameworks like React, Next, Vue, Angular & CSS3 frameworks like Chakra, Tailwind.",
   },
   {
     id: 7,
@@ -60,28 +60,28 @@ const DataServ = [
     image: "/images/network2.jpg",
     title: " Hardware & networking",
     urlPath: "/services/hardware-network",
-    text: " It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. Also a wide range of components, from basic internal parts to peripheral devices ",
+    text: " It encompasses all the tangible parts of a computer  system that you can touch, see & interact with. Ranges from components, internal parts to peripheral devices ",
   },
   {
     id: 10,
     image: "/images/hr.jpg",
     title: " Human Resources(HR)",
     urlPath: "/services/human-resources",
-    text: " These department function within an organization that is responsible for managing & overseeing the human capital or workforce. HR plays a crucial role in recruiting, hiring, training, developing, & supporting employees throughout their employment lifecycle.",
+    text: "These department function within an organization that is responsible for managing & overseeing the human capital or workforce. HR plays a crucial role in recruiting, hiring, training, developing, & supporting employees throughout their employment lifecycle.",
   },
   {
     id: 11,
     image: "/images/flask.jpg",
     title: " Python Data-Science",
     urlPath: "/services/python",
-    text: " Language widely used in the field of data science due to its  versatility & extensive collection of libraries & frameworks. It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning ",
+    text: "Its widely used in the field of data science due to its  versatility & extensive collection of libraries & frameworks, robust ecosystem of tools specifically designed for data manipulation, analysis, visualization & machine learning ",
   },
   {
     id: 12,
     image: "/images/digital.jpg",
     title: " Digital & Social Media",
     urlPath: "/services/social-media",
-    text: "  An online platforms & websites that enable users to create, share & interact with contents, as well as connect & communicate with others. It allows individuals & organizations to share information, ideas, opinions, & media in various formats such as text, images, videos, & links.  ",
+    text: "An online platforms & websites that enable users to create, share & interact with contents, connect & communicate with others. It allows individuals & organizations to share information, ideas, opinions, & media in various formats like text, images, videos, & links.  ",
   },
 ];
 

@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonails/Testimonial";
 import SingleProject from "../../Components/Projects/SingleProject";
+import ProjectHeading from "../../Components/ProjectHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
@@ -13,55 +14,26 @@ const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Software Details | Bridgekode Tech"
-        description="We offers the various IT services such as mobile apps, design websites, HR services, SEO, training,IT setup, IT management etc"
+        title="Software Development | Bridgekode Tech"
+        description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />
       <Header />
-      <Box className="project-sub-container">
-        <Box className="w-container">
-          <Box className="project-block">
-            <Box className="project-sub-content">
-              <h1 className="project-title">
-                Project <span className="sub_heading_span">Details</span>
-              </h1>
-              <p>
-                The underlisted project was carried out by bridgekode, completed
-                and delivered to the client.
-              </p>
-              <ul className="project-link">
-                <li className="project-nav-items">
-                  <Link href="/" className="project-nav-link">
-                    Home
-                  </Link>
-                </li>
-                <Box className="separator">/</Box>
-                <li className="project-nav-items">
-                  <Link
-                    href="/projects/project-home"
-                    className="project-nav-link"
-                  >
-                    Project
-                  </Link>
-                </li>
-                <Box className="separator">/</Box>
-                <li>
-                  <Box className="project-link-text">Software Development</Box>
-                </li>
-              </ul>
-            </Box>
-          </Box>
-        </Box>
-      </Box>
+      <ProjectHeading
+        title="Software Development"
+        projectUrl="/projects/project-home"
+      />
+
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
-      <SingleProject title="Software Development" 
-      content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-      name="Business Organisation"
+      <SingleProject
+        title="Software Development"
+        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        name="Business Organisation"
         date="March 25, 2023"
         category="E-Commerce"
         address="25K, North City, New York"
-        summary="We are <strong>Optitech</strong> provide the best quality
+        summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod
@@ -80,7 +52,7 @@ const software = () => {
         ctetur, adipisci velit, sed optio cumque nihil impedit quo
         minus id quod maxime placeat optio cumque nihil impedit
         quo minus id quod maxime placeat"
-        result=" We are <strong>Optitech</strong> provide the best quality It
+        result=" We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -94,7 +66,7 @@ const software = () => {
         desires to obtain pain of itsel because it is pain, but
         because occasionally circumstances occur in which toil and
         pain can procure him some great pleaser"
-        benefits="We are <strong>Optitech</strong> provide the best quality It
+        benefits="We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
         optio cumque nihil impedit quo minus id quod maxime placeat
@@ -105,7 +77,7 @@ const software = () => {
         toil and pain can procure"
         problemsState=" In IT Consultancy Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are <strong>Optitech</strong> provide the best quality
+        problemsSummary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
         eligendi optio cumque nihil impedit quo minus id quod

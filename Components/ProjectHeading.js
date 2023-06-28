@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 
-const TeamSingleHead = ({teamTitle}) => {
+const ProjectHeading = ({ title, projectUrl }) => {
   return (
     <>
       <Box className="project-sub-container">
@@ -10,11 +10,11 @@ const TeamSingleHead = ({teamTitle}) => {
           <Box className="project-block">
             <Box className="project-sub-content">
               <h1 className="project-title">
-                Team <span className="sub_heading_span">Profile</span>
+                Project <span className="sub_heading_span">Details</span>
               </h1>
               <p>
-                The underlisted details of bridgekode team members, expert &
-                knowledgeable in he/her field of practice.
+                The underlisted project was carried out by bridgekode, completed
+                and delivered to the client.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -24,13 +24,13 @@ const TeamSingleHead = ({teamTitle}) => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/pages/team/" className="project-nav-link">
-                    Team
+                  <Link href={projectUrl} className="project-nav-link">
+                    Projects
                   </Link>
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">{teamTitle} </Box>
+                  <Box className="project-link-text">{title} </Box>
                 </li>
               </ul>
             </Box>
@@ -40,5 +40,4 @@ const TeamSingleHead = ({teamTitle}) => {
     </>
   );
 };
-
-export default TeamSingleHead;
+export default ProjectHeading;

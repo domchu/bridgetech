@@ -13,17 +13,17 @@ const promanager = () => {
     <>
       <DefaultSeo
         title="Fullstack Engineer | Bridgekode Tech"
-        description="Fullstack engineer with Java, PHP, Python, Mobile & desktop apps development,  Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
+        description="Fullstack engineer with Java, PHP, Python, Mobile & desktop apps development, Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Fullstack Dev." />
       <TeamProfile
         name="Mudashir Tunde"
         title="FullStack Software Engineer."
-        biography="The Chief Executive Officer/Team lead at Jaflah Software Development Company & also CTO at Manilla with over ten(10) years of versatile experience in IT field i.e Full stack Development."
-        achievement="Best programmer by laspotech 2021,2022,2023 "
+        biography="Team lead/CEO at Jaflah Software Development Company & also The Chief Technology Officer (CTO) at Manilla with over ten(10) years of versatile experience in IT field especially Mobile apps, Desktop apps, Banks apps, Data-Sci with Python, Full stack Development."
+        achievement="Best programmer by LASPOTECH/LASUTECH - 2019, 2020, 2021 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"

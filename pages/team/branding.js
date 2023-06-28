@@ -18,11 +18,11 @@ const promanager = () => {
       />
       <Topnav />
       <Header />
-      <TeamSingleHead />
+      <TeamSingleHead teamTitle="Branding/SEO expert" />
       <TeamProfile
         name="Owoicho Emma"
         title="Branding/SEO Expert"
-        biography="The Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
+        biography="Team Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best ICT personel by MFM-R9 -2020 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"

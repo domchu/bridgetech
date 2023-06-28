@@ -36,7 +36,7 @@ const webdevelopment = () => {
         comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
         amount="# 100,000"
         dollars="$ 200.00"
-        duration="6 Months"
+        duration="5 Months"
         list1="Become a Web Developer."
         list2="HTML5."
         list3="CSS3: CSS flexbox, CSS gird."
