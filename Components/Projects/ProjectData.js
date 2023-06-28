@@ -4,7 +4,7 @@ const ProjectCont = [
     image: "/images/web.jpg",
     title: "School Website",
     url: "/projects/website",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.keyonavilleschools.com.ng",
     comments:
       "These project was carried out with technologies like Reactjs, Nextjs, Jvascript, Sass, Html5, CSS3, Chakra-Ui, React-icons etc. ",
   },
@@ -22,7 +22,7 @@ const ProjectCont = [
     image: "/images/project3.jpg",
     title: "Blog Website",
     url: "/projects/blog",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.bridgekodeblog.com",
     comments:
       "These blog website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics etc.",
   },
@@ -31,7 +31,7 @@ const ProjectCont = [
     image: "/images/project1.jpg",
     title: "Software Development",
     url: "/projects/software",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.florintechcomputercollege.com",
     comments:
       "These Bridgekode website was created/designed using Nextjs, Reactjs, JavaScript, Chakra-Ui, Sass, CSS3, Html5, Next-SEO and others libraries etc.",
   },
@@ -49,7 +49,7 @@ const ProjectCont = [
     image: "/images/project6.jpg",
     title: "Movie Engine",
     url: "/projects/movie",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://movies-engine.vercel.app/",
     comments:
       "These Movie Engine was designed using JavaScript, Typescript, Chakra-Ui, Sass, CSS3, Html5, and others libraries etc.",
   },
@@ -58,7 +58,7 @@ const ProjectCont = [
     image: "/images/project7.jpg",
     title: "School Database",
     url: "/projects/database",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.admin.keyonavilleschools.com.ng",
     comments:
       "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
   },
