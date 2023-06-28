@@ -191,7 +191,7 @@ nav {
 }
 .nav-dropdown-list {
   min-width: 220px !important;
-  border-top: 3px solid var(--primary-clr-2);
+  border-top: 6px solid var(--primary-clr-2);
   background-color: var(--clr-white);
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
 }
@@ -208,7 +208,7 @@ nav {
 
 .nav-dropdown-link a {
   display: block;
-  padding-top: 10px;
+  padding-top: 1px;
   padding-bottom: 10px;
   text-transform: capitalize;
   font-family: Rajdhani, sans-serif;
