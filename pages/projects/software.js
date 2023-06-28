@@ -89,6 +89,7 @@ const software = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.florintechcomputercollege.com"
       />
       <Testimonial />
       <Footer />

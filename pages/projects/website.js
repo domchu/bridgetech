@@ -48,6 +48,7 @@ const website = () => {
         solution3=" 24/7 Availability: Unlike traditional communication methods, a school website is accessible 24/7. Visitors can access information at their convenience, regardless of time zones or scheduling conflicts."
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.keyonavilleschools.com.ng"
       />
       <Testimonial />
       <Footer />

@@ -89,6 +89,7 @@ const database = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.admin.keyonavilleschools.com.ng"
       />
       <Testimonial />
       <Footer />

@@ -88,6 +88,7 @@ const graphics = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.test.com"
       />
       <Testimonial />
       <Footer />

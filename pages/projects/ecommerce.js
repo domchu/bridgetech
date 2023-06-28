@@ -24,7 +24,7 @@ const ecommerce = () => {
         title="E-commerce Website"
         projectUrl="/projects/project-home"
       />
-      
+
       {/* SINGLE PROJECT DETAILS FOR E-COMMERCE SITE */}
       <SingleProject
         title="E-commerce Website"
@@ -89,6 +89,7 @@ const ecommerce = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.test.com"
       />
       <Testimonial />
       <Footer />

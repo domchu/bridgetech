@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Box } from "@chakra-ui/react";
 import ladyImage from "../../public/images/ladyimage.png";
 
@@ -24,6 +25,7 @@ const SingleProject = ({
   solution3,
   image1,
   image2,
+  projectLink,
 }) => {
   return (
     <>
@@ -127,6 +129,13 @@ const SingleProject = ({
                     <Box className="li p">{solution1}</Box>
                     <Box className="li p">{solution2}</Box>
                     <Box className="li p">{solution3}</Box>
+                    <Link
+                      href={projectLink}
+                      target="_blank"
+                      className="primary-button"
+                    >
+                      Project Link
+                    </Link>
                   </Box>
                 </Box>
               </Box>
