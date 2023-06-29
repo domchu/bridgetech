@@ -49,10 +49,11 @@ const HomePage = () => {
                   Learn more
                 </Link>
                 <Link
-                  href="/"
+                  href="https://www.youtube.com/watch?v=hu-q2zYwEYs&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
                   className="hero-video-link w-inline-block w-lightbox"
                   aria-label="open lightbox"
                   aria-haspopup="dialog"
+                  target="_blank"
                 >
                   <Image
                     src={watch}
