@@ -31,25 +31,12 @@ const software = () => {
         date="March 25, 2023"
         category="ICT"
         address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
+        summary="Florintech Computer College website has it's important to consider such the target audience, the college's mission, and the key information that prospective students and visitors would need. Here's a suggested outline for the website's content:"
+        number1="Homepage: Start with a compelling headline that captures the essence of Florintech Computer College.
+        Introduce the college's mission, emphasizing its commitment to providing high-quality education in the field of IT skills and technology."
+        number2="About Us: Provide a detailed overview of Florintech Computer College, including its history, vision, and values. Introduce the fields, emphasizing their qualifications, expertise, and commitment to student success."
+        point1="Programs and Courses: Highlight practical aspects, such as internships, hands-on projects, or industry collaborations, to showcase the college's commitment to practical learning. Provide a brief description of each program, including the areas of specialization, career prospects, and any unique features."
+        point2="Contact Us: Provide contact information, including the college's address, phone number, email address, and social media handles.nclude a contact form or direct email option for inquiries or further information."
         result=" We are Optitech provide the best quality It
         solution neque porro quisquam est qui dolorem ipsum quia
         golor sit amet, conse ctetur, adipisci velit, sed eligendi
