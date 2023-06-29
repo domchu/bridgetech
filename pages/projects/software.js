@@ -1,6 +1,4 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import Link from "next/link";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -28,11 +26,11 @@ const software = () => {
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
       <SingleProject
         title="Software Development"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
+        content="An overview of the web development technologies used in designing these Florintech Computer College are JavaScript, Next.js, React, HTML, CSS, Chakra UI, and other React libraries.In web development, these technologies work together to create dynamic and interactive websites. JavaScript powers the behavior and interactivity, React provides a structured approach to building UI components, Next.js enables server-side rendering and routing, HTML defines the website's structure, CSS handles its visual styling, and Chakra UI (along with other React libraries) enhances the development process by providing pre-built and customizable UI components. By leveraging these technologies, you can create a robust, responsive, and visually appealing website like the Florintech Computer College website  developed by Bridgekode Software Development Service."
+        name="Florintech Computer College"
         date="March 25, 2023"
-        category="E-Commerce"
-        address="25K, North City, New York"
+        category="ICT "
+        address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
         summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed

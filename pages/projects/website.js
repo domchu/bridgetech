@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import { Box } from "@chakra-ui/react";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
