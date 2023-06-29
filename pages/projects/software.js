@@ -29,7 +29,7 @@ const software = () => {
         content="An overview of the web development technologies used in designing these Florintech Computer College are JavaScript, Next.js, React, HTML, CSS, Chakra UI, and other React libraries.In web development, these technologies work together to create dynamic and interactive websites. JavaScript powers the behavior and interactivity, React provides a structured approach to building UI components, Next.js enables server-side rendering and routing, HTML defines the website's structure, CSS handles its visual styling, and Chakra UI (along with other React libraries) enhances the development process by providing pre-built and customizable UI components. By leveraging these technologies, you can create a robust, responsive, and visually appealing website like the Florintech Computer College website  developed by Bridgekode Software Development Service."
         name="Florintech Computer College"
         date="March 25, 2023"
-        category="ICT "
+        category="ICT"
         address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
         summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
@@ -73,7 +73,7 @@ const software = () => {
         pursues or desires to obtain pain of itself, because it is
         pain, but because occasionally circumstances occur in which
         toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        problemsState=" In software development Service we cover most of the IT problems
         that your company faces and we try to solve it."
         problemsSummary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum

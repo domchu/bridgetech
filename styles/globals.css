@@ -3651,7 +3651,7 @@ figure.card > figcaption {
   color: var(--clr-white);
   background-color: var(--primary-clr-2);
   font-family: Rajdhani, sans-serif;
-  padding: 5px 10px;
+  padding: 5px 8px;
   font-size: 1.2rem;
 }
 .card__wrapper .content a:hover {
