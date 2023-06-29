@@ -37,41 +37,14 @@ const software = () => {
         number2="About Us: Provide a detailed overview of Florintech Computer College, including its history, vision, and values. Introduce the fields, emphasizing their qualifications, expertise, and commitment to student success."
         point1="Programs and Courses: Highlight practical aspects, such as internships, hands-on projects, or industry collaborations, to showcase the college's commitment to practical learning. Provide a brief description of each program, including the areas of specialization, career prospects, and any unique features."
         point2="Contact Us: Provide contact information, including the college's address, phone number, email address, and social media handles.nclude a contact form or direct email option for inquiries or further information."
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
+        result=" It's important to note that the specific results of Florintech Computer College may vary and depend on various factors such as the college's resources, faculty, curriculum, and the individual efforts of students. To obtain accurate and up-to-date information about the college's results, I recommend contacting the college directly or referring to official reports and statistics provided by the institution. As an AI language model, I don't have access to real-time data or specific information about the performance or results of Florintech Computer College. However, I can provide you with some general aspects to consider when evaluating the results of a college"
+        benefits="Overall, Florintech Computer College's commitment to computer science and technology education brings numerous benefits to society, including technological progress, a skilled workforce, increased career opportunities, innovation, and community engagement. By equipping individuals with the necessary skills and knowledge, the college contributes to the growth and development of both individuals and the broader community."
         problemsState=" In software development Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="Florintech Computer College brings several benefits to society through its focus on computer science and technology education. Here are some key advantages that the college offers to the community:"
+        solution1=" The college creates opportunities for individuals to pursue rewarding careers in the computer science and technology sectors. "
+        solution2="  Graduates from the college are equipped with the knowledge and skills to develop innovative solutions, create software applications, and contribute to the digital transformation of various industries."
+        solution3=" Skilled Workforce: Florintech Computer College plays a vital role in producing a skilled workforce in the field of computer science and technology. As graduates enter the job market, they bring specialized knowledge and expertise that can meet the growing demand for tech professionals. This, in turn, helps fill the skills gap and supports economic development in the region."
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.florintechcomputercollege.com"
