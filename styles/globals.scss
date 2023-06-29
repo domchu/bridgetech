@@ -3463,9 +3463,17 @@ grid-template-columns: 1fr;
     text-align: center;
     color: var(--clr-white);
   }
+  .content h1{
+    font-size:1.4rem;
+    margin-bottom:10px;
+    text-transform:uppercase;
+    // color:var(--primary-clr-2);
+    color:red;
+  }
   .content h2{
     margin-bottom: 3rem;
     font-size: 2rem !important;
+    line-height: 1.2;
   }
   .content a{
     margin: 10px;

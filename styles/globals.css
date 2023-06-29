@@ -3635,9 +3635,16 @@ figure.card > figcaption {
   text-align: center;
   color: var(--clr-white);
 }
+.card__wrapper .content h1 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: red;
+}
 .card__wrapper .content h2 {
   margin-bottom: 3rem;
   font-size: 2rem !important;
+  line-height: 1.2;
 }
 .card__wrapper .content a {
   margin: 10px;
