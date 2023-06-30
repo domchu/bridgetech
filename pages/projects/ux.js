@@ -89,7 +89,7 @@ const ux = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
-        projectLink="https://www.test.com"
+        projectLink="https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1"
       />
       <Testimonial />
       <Footer />

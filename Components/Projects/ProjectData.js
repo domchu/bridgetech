@@ -29,7 +29,7 @@ const ProjectCont = [
   {
     id: "4",
     image: "/images/project1.jpg",
-    title: "Software Development",
+    title: "ICT Website",
     url: "/projects/software",
     projectUrl: "https://www.florintechcomputercollege.com",
     comments:
@@ -37,13 +37,14 @@ const ProjectCont = [
   },
   {
     id: "5",
-    image: "/images/project5.jpg",
-    title: "Graphics Design",
-    url: "/projects/graphics",
-    projectUrl: "https://www.google.com",
+    image: "/images/project7.jpg",
+    title: "School Database",
+    url: "/projects/database",
+    projectUrl: "https://www.admin.keyonavilleschools.com.ng",
     comments:
-      "These project entails all graphic schemes like design principles, typography, images, colors, and layout techniques to create visually appealing, effective designs & pass the information.",
+      "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
   },
+
   {
     id: "6",
     image: "/images/project6.jpg",
@@ -55,12 +56,12 @@ const ProjectCont = [
   },
   {
     id: "7",
-    image: "/images/project7.jpg",
-    title: "School Database",
-    url: "/projects/database",
-    projectUrl: "https://www.admin.keyonavilleschools.com.ng",
+    image: "/images/project5.jpg",
+    title: "Graphics Design",
+    url: "/projects/graphics",
+    projectUrl: "https://www.google.com",
     comments:
-      "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
+      "These project entails all graphic schemes like design principles, typography, images, colors, and layout techniques to create visually appealing, effective designs & pass the information.",
   },
   {
     id: "8",
@@ -94,7 +95,7 @@ const ProjectCont = [
     image: "/images/project9.jpg",
     title: "Opay UI/UX Design",
     url: "/projects/ux",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1",
     comments:
       "These wireframes was designed using illustrator, Figma, and others designed tools. ",
   },
