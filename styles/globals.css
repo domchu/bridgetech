@@ -941,6 +941,7 @@ nav {
 .forward-service-arrow:hover {
   background-color: var(--primary-clr-1);
   border: var(--primary-clr-1) 1px solid;
+  transform: scale(1.2);
   transition: 0.7s;
 }
 

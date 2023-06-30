@@ -1,6 +1,4 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import Link from "next/link";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -28,65 +26,25 @@ const ecommerce = () => {
       {/* SINGLE PROJECT DETAILS FOR E-COMMERCE SITE */}
       <SingleProject
         title="E-commerce Website"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Livechat, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
         name="Business Organisation"
-        date="March 25, 2023"
+        date="April 21, 2023"
         category="E-Commerce"
-        address="25K, North City, New York"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        address="829W.Palmdale Blvd Suite 168, California-USA."
+        summary="These are the fundamental components and processes involved in the functioning of an e-commerce website. However, the specific features and functionalities may vary depending on the platform, business requirements, and industry. An e-commerce website works by facilitating the buying and selling of products or services online. Here's a general overview of how an e-commerce website operates:"
+        number1="Product Catalog: The website showcases a catalog of products or services available for purchase. Each product listing includes relevant information such as product images, descriptions, pricing, availability, and any variations (e.g., sizes or colors)."
+        number2="Shopping Cart: Customers can add products they want to purchase to their virtual shopping carts. The shopping cart allows customers to review their selected items, modify quantities, remove products, and calculate the total cost."
+        point1="User Interface: The e-commerce website provides a user-friendly interface where customers can browse products, search for specific items, and access various features and functionalities. The interface typically includes menus, search bars, product categories, and filters to help customers navigate and find desired products."
+        point2="Customer Support: E-commerce websites often provide customer support channels to address inquiries, issues, or requests. This may include options such as live chat, email support, or a customer support hotline. The customer support team assists with order-related queries, product information, returns, and other customer concerns."
+        result=" These results and benefits highlight the transformative impact of e-commerce on businesses and the economy as a whole. By embracing e-commerce, businesses can leverage its advantages to drive growth, increase customer satisfaction, and stay competitive in the digital landscape.E-commerce has yielded significant results and benefits for businesses, customers, and the overall economy. Let's explore some of the key outcomes:increased sales and revenue, expanded market reach, 
+        Cost Savings, improved customer convenience, personalization and targeted marketing, enhanced customer insights, seamless inventory management, global supply chain integration, customer reviews and social proof, job creation and economic growth, etc."
+        benefits=" Overall, e-commerce offers a wide range of benefits, including expanded market reach, increased sales potential, cost savings, convenience for customers, data-driven insights, and environmental advantages. By embracing e-commerce, businesses can thrive in the digital age and provide an enhanced shopping experience for customers."
+        problemsState=" In E-commerce Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="E-commerce breaks down geographical barriers, allowing businesses to reach customers worldwide. With an online store, businesses can expand their customer base beyond their local area, tap into new markets, and access a global audience 24/7."
+        solution1=" Expanded Business Hours: Unlike physical stores with fixed operating hours, e-commerce websites are accessible 24/7. Customers can browse products, make purchases, and seek customer support at their convenience, which can result in increased sales and improved customer satisfaction."
+        solution2=" Targeted Marketing and Remarketing: E-commerce enables businesses to implement targeted marketing strategies, reaching specific customer segments based on demographics, interests, or past purchase behavior. Additionally, e-commerce platforms facilitate remarketing efforts, allowing businesses to reconnect with potential customers who have shown interest but haven't completed a purchase."
+        solution3=" Increased Sales and Revenue: E-commerce opens up additional sales channels, enabling businesses to sell products or services online and generate revenue outside of traditional brick-and-mortar stores. "
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.sebenstore.com"
