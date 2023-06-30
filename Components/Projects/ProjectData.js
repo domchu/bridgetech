@@ -13,7 +13,7 @@ const ProjectCont = [
     image: "/images/project2.jpg",
     title: "E-commerce Website",
     url: "/projects/ecommerce",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.sebenstore.com",
     comments:
       "These E-commerce website was done using Content Management System[CMS]  Sass & others Plugins like liveChats, Google Analytics, payments gateway, delivery service etc.",
   },
