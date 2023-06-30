@@ -30,7 +30,7 @@ const ecommerce = () => {
         name="Business Organisation"
         date="April 21, 2023"
         category="E-Commerce"
-        address="829W.Palmdale Blvd Suite 168, California-USA."
+        address="829 W. Palmdale Blvd Suite 168, California-USA."
         summary="These are the fundamental components and processes involved in the functioning of an e-commerce website. However, the specific features and functionalities may vary depending on the platform, business requirements, and industry. An e-commerce website works by facilitating the buying and selling of products or services online. Here's a general overview of how an e-commerce website operates:"
         number1="Product Catalog: The website showcases a catalog of products or services available for purchase. Each product listing includes relevant information such as product images, descriptions, pricing, availability, and any variations (e.g., sizes or colors)."
         number2="Shopping Cart: Customers can add products they want to purchase to their virtual shopping carts. The shopping cart allows customers to review their selected items, modify quantities, remove products, and calculate the total cost."
