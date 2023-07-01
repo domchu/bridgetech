@@ -39,9 +39,9 @@ const TeamData = [
     job: "Senior Frontend Engr.",
     profile: "/team/frontend",
     facebookLink: "https://www.facebook.com/",
-    instagramLink: "https://www.instagram.com/",
-    twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    instagramLink: "https://www.instagram.com/richcode.js/",
+    twitterLink: "https://www.instagram.com/richcode.js/",
+    linkedinLink: "https://www.linkedin.com/in/stanley-ogada/",
   },
   {
     id: "5",
