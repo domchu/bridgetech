@@ -51,7 +51,7 @@ const TeamData = [
     profile: "/team/uxui",
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
-    twitterLink: "https://twitter.com/",
+    twitterLink: "https://twitter.com/akpevwe102",
     linkedinLink: "https://linkedin.com/in/",
   },
   {

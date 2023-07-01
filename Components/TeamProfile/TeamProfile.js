@@ -38,18 +38,21 @@ const TeamProfile = ({
                   <Link
                     href={facebooklink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={Facebook} alt="Facebook Icon" loading="lazy" />
                   </Link>
                   <Link
                     href={twitterlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={twitter} alt="twitter Icon" loading="lazy" />
                   </Link>
                   <Link
                     href={instagramlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image
                       src={instagram}
@@ -60,6 +63,7 @@ const TeamProfile = ({
                   <Link
                     href={linkedinlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={linkedin} alt="linkedin Icon" loading="lazy" />
                   </Link>
