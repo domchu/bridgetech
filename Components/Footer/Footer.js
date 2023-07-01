@@ -34,8 +34,9 @@ const Footer = () => {
               </Link>
               <p className="footer-link-p">
                 Bridgekode is a software development services focuses on website
-                design, students/kids coding, software development, general IT training, turning ideas
-                into creativities & provide digital solutions to businesses across globe.
+                design, students/kids coding, software development, general IT
+                training, turning ideas into creativities & provide digital
+                solutions to businesses across globe.
               </p>
               <Flex className="icons-container">
                 <Link href="https:/www.test.com" target="_blank">
@@ -44,7 +45,7 @@ const Footer = () => {
                 <Link href="https:/www.test.com" target="_blank">
                   <FaInstagram className="icons" />
                 </Link>
-                <Link href="https:/www.test.com" target="_blank">
+                <Link href="https://twitter.com/software6767" target="_blank">
                   <FaTwitter className="icons" />
                 </Link>
                 <Link href="https:/www.test.com" target="_blank">

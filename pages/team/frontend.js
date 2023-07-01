@@ -27,7 +27,7 @@ const software = () => {
         linkedinlink="https://www.linkedin.com/in/stanley-ogada/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://www.instagram.com/richcode.js/"
-        twitterlink="https://www.twitter.com/"
+        twitterlink="https://www.twitter.com/RichcodeC"
         image="/images/stanley.jpg"
       />
       <Testimonial />
