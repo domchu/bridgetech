@@ -192,8 +192,8 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Contact Us</h2>
               <Box>
-                <p>Shop H4, First Floor, Wharfedale Building</p>
-                <p>Alaba Int'l Mkt, Ojo-Lagos, Nigeria</p>
+                <p>No.53, Aka Road, White House Bus Stop</p>
+                <p>Okokomaiko, Ojo-Lagos State. Nigeria</p>
               </Box>
               <Box style={{ margin: "10px 0px" }}>
                 <li>

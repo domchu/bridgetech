@@ -87,9 +87,9 @@ const TeamProfile = ({
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>
                   <Box className="contact-info-text">
-                    Shop H4, First Floor, Wharfedale Building
+                    No.53, Aka Road, White House Bus Stop.
                     <br />
-                    Alaba Int'l Mkt, Ojo-Lagos State. Nigeria
+                    Okokomaiko, Ojo-Lagos State. Nigeria
                   </Box>
                   <Box className="contact-info-small-title">Phone Number</Box>
                   <Box className="contact-info-text">
