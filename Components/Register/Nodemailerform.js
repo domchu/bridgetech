@@ -4,8 +4,7 @@ import {
   FormControl,
   Heading,
   FormLabel,
-
-  //   FormErrorMessage,
+  FormErrorMessage,
   //   FormHelperText,
 } from "@chakra-ui/react";
 
@@ -38,18 +37,20 @@ const Nodemailerform = () => {
     <>
       <Container maxw={450} mt={12}>
         <Heading>Contact</Heading>
-        <FormControl isRequired mb={5}>
+        <FormControl isRequired isInvalid={!values.name} mb={5}>
           <FormLabel>Full Name</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
             placeholder="Full Name*"
             type="text"
             name="name"
+            errorBorderColor="red:300"
             value={values.name}
             onChange={handleInputChange}
           />
+          <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
-        <FormControl isRequired mb={5}>
+        <FormControl isRequired isInvalid={!values.email} mb={5}>
           <FormLabel>Email Address</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -59,8 +60,9 @@ const Nodemailerform = () => {
             value={values.email}
             onChange={handleInputChange}
           />
+          <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
-        <FormControl isRequired mb={5}>
+        <FormControl isRequired isInvalid={!values.number} mb={5}>
           <FormLabel>Phone Number</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -70,8 +72,9 @@ const Nodemailerform = () => {
             value={values.number}
             onChange={handleInputChange}
           />
+          <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
-        <FormControl isRequired mb={5}>
+        <FormControl isRequired isInvalid={!values.subject} mb={5}>
           <FormLabel>Subject</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -81,8 +84,9 @@ const Nodemailerform = () => {
             value={values.subject}
             onChange={handleInputChange}
           />
+          <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
-        <FormControl isRequired mb={5}>
+        <FormControl isRequired isInvalid={!values.message} mb={5}>
           <FormLabel>Message</FormLabel>
           <textarea
             style={{ border: "1px solid #000" }}
@@ -93,6 +97,7 @@ const Nodemailerform = () => {
             value={values.message}
             onChange={handleInputChange}
           />
+          <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
       </Container>
     </>
