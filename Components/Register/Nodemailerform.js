@@ -38,7 +38,7 @@ const Nodemailerform = () => {
     <>
       <Container maxw={450} mt={12}>
         <Heading>Contact</Heading>
-        <FormControl isRequired>
+        <FormControl isRequired mb={5}>
           <FormLabel>Full Name</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -49,7 +49,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
           />
         </FormControl>
-        <FormControl isRequired>
+        <FormControl isRequired mb={5}>
           <FormLabel>Email Address</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -60,7 +60,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
           />
         </FormControl>
-        <FormControl isRequired>
+        <FormControl isRequired mb={5}>
           <FormLabel>Phone Number</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -71,7 +71,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
           />
         </FormControl>
-        <FormControl isRequired>
+        <FormControl isRequired mb={5}>
           <FormLabel>Subject</FormLabel>
           <input
             style={{ border: "1px solid #000" }}
@@ -82,12 +82,13 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
           />
         </FormControl>
-        <FormControl isRequired>
+        <FormControl isRequired mb={5}>
           <FormLabel>Message</FormLabel>
           <textarea
             style={{ border: "1px solid #000" }}
             placeholder="Write Us Message*"
             type="text"
+            rows={5}
             name="message"
             value={values.message}
             onChange={handleInputChange}
