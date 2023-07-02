@@ -24,10 +24,11 @@ const promanager = () => {
         title="Product Designer (UX/UI)"
         biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
         achievement="Best Project Deginger - 2023"
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
+        linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
+        facebooklink="https://www.facebook.com/egajivwie-samuel"
         instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        twitterlink="https://twitter.com/akpevwe102"
+        s
         image="/images/sammy.jpg"
       />
       <Testimonial />

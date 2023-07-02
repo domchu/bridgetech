@@ -89,6 +89,7 @@ const movie = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://movies-engine.vercel.app/"
       />
       <Testimonial />
       <Footer />

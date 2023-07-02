@@ -38,18 +38,21 @@ const TeamProfile = ({
                   <Link
                     href={facebooklink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={Facebook} alt="Facebook Icon" loading="lazy" />
                   </Link>
                   <Link
                     href={twitterlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={twitter} alt="twitter Icon" loading="lazy" />
                   </Link>
                   <Link
                     href={instagramlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image
                       src={instagram}
@@ -60,6 +63,7 @@ const TeamProfile = ({
                   <Link
                     href={linkedinlink}
                     className="team-social-link w-inline-block"
+                    target="_blank"
                   >
                     <Image src={linkedin} alt="linkedin Icon" loading="lazy" />
                   </Link>
@@ -83,9 +87,9 @@ const TeamProfile = ({
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>
                   <Box className="contact-info-text">
-                    Shop H4, First Floor, Wharfedale Building
+                    No.53, Aka Road, White House Bus Stop.
                     <br />
-                    Alaba Int'l Mkt, Ojo-Lagos State. Nigeria
+                    Okokomaiko, Ojo-Lagos State. Nigeria
                   </Box>
                   <Box className="contact-info-small-title">Phone Number</Box>
                   <Box className="contact-info-text">

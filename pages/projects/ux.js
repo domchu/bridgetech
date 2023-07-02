@@ -29,10 +29,10 @@ const ux = () => {
       <SingleProject
         title="UX'UI Design"
         content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
-        date="March 25, 2023"
-        category="E-Commerce"
-        address="25K, North City, New York"
+        name="Opey Microfinance Bank"
+        date="Feb 25, 2023"
+        category="Banking Industry"
+        address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State."
         summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed
@@ -89,6 +89,7 @@ const ux = () => {
         ctetur, adipisci velit"
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
+        projectLink="https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1"
       />
       <Testimonial />
       <Footer />

@@ -5,7 +5,7 @@ import Image from "next/image";
 import ArrowIcon from "../../public/images/arrow-long-icon.png";
 import webDev from "../../public/images/web2.jpg";
 import graphicDev from "../../public/images/graphic.jpg";
-import webTrain from "../../public/images/web-train.jpg";
+import webTrain from "../../public/images/kidcoding2.jpg";
 
 const ServiceProvide = () => {
   return (
@@ -72,11 +72,11 @@ const ServiceProvide = () => {
                             </Link>
                             <Box className="section-text service-text">
                               Bridgekode's web design services aim to create
-                              visually appealing, user-friendly, and
-                              brand-aligned websites that leave a lasting
-                              impression on visitors. By combining aesthetics
-                              with usability, they strive to deliver designs
-                              that effectively communicate the client's message.
+                              visually appealing, user-friendly & brand-aligned
+                              websites that leave a lasting impression on
+                              visitors. By combining aesthetics with usability,
+                              strive to deliver designs that effectively
+                              communicate the client's ideas.
                             </Box>
                           </Box>
                         </Box>
@@ -102,7 +102,7 @@ const ServiceProvide = () => {
                               href="/services/web-design-training"
                               className="service-title-link"
                             >
-                              Students/kids Coding Training
+                              Students/kids Coding
                             </Link>
                             <Box className="section-text service-text">
                               web dev. training programs for students/kids

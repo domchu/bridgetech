@@ -33,21 +33,28 @@ const Footer = () => {
                 />
               </Link>
               <p className="footer-link-p">
-                Bridgekode is a software development services focuses on website
-                design, students/kids coding, software development, general IT training, turning ideas
-                into creativities & provide digital solutions to businesses across globe.
+                Bridgekode is a software development company that focuses on web
+                design, students/kids coding, software development, general IT
+                training, turning ideas into creativities & provide digital
+                solutions to businesses across globe.
               </p>
               <Flex className="icons-container">
                 <Link href="https:/www.test.com" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
-                <Link href="https:/www.test.com" target="_blank">
+                <Link
+                  href="https://www.instagram.com/bridgekodetech.2023/"
+                  target="_blank"
+                >
                   <FaInstagram className="icons" />
                 </Link>
-                <Link href="https:/www.test.com" target="_blank">
+                <Link href="https://twitter.com/software6767" target="_blank">
                   <FaTwitter className="icons" />
                 </Link>
-                <Link href="https:/www.test.com" target="_blank">
+                <Link
+                  href="https://www.linkedin.com/in/bridgekode-software-development-company-750061282/"
+                  target="_blank"
+                >
                   <FaLinkedin className="icons" />
                 </Link>
               </Flex>
@@ -185,8 +192,8 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Contact Us</h2>
               <Box>
-                <p>Shop H4, First Floor, Wharfedale Building</p>
-                <p>Alaba Int'l Mkt, Ojo-Lagos, Nigeria</p>
+                <p>No.53, Aka Road, White House Bus Stop</p>
+                <p>Okokomaiko, Ojo-Lagos State. Nigeria</p>
               </Box>
               <Box style={{ margin: "10px 0px" }}>
                 <li>

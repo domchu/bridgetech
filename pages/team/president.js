@@ -25,10 +25,10 @@ const president = () => {
         biography="Team Lead/CEO at Bridgekode Software Development Services. A Creative & immovable Front-End Engineer with over 3
         years of experience building stable websites and apps in fast-paced, collaborative environments & mathematice/further math. tutor for over a decade with track records & awards."
         achievement="Best Mathematics Tutor - 2013, 2014, 2015"
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://www.linkedin.com/in/dominic-ochu-470a8418a/"
+        facebooklink="https://www.facebook.com/ochu.dominic/"
+        instagramlink="https://instagram.com/official_ochudominic"
+        twitterlink="https://twitter.com/OchuOnah"
         image="/images/ceo.jpg"
       />
       <Testimonial />

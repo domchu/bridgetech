@@ -86,7 +86,7 @@ const LatestProject = () => {
                           bot, backup wizzard, etc.
                         </p>
                         <Link
-                          href="https://www.google.com"
+                          href="https://www.sebenstore.com"
                           target="_blank"
                           rel="nofollow"
                         >
@@ -217,7 +217,7 @@ const LatestProject = () => {
                           Figma, Illustrator, etc.
                         </p>
                         <Link
-                          href="https://www.google.com"
+                          href="https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1"
                           target="_blank"
                           rel="nofollow"
                         >

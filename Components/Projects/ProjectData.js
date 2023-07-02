@@ -4,7 +4,7 @@ const ProjectCont = [
     image: "/images/web.jpg",
     title: "School Website",
     url: "/projects/website",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.keyonavilleschools.com.ng",
     comments:
       "These project was carried out with technologies like Reactjs, Nextjs, Jvascript, Sass, Html5, CSS3, Chakra-Ui, React-icons etc. ",
   },
@@ -13,7 +13,7 @@ const ProjectCont = [
     image: "/images/project2.jpg",
     title: "E-commerce Website",
     url: "/projects/ecommerce",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.sebenstore.com",
     comments:
       "These E-commerce website was done using Content Management System[CMS]  Sass & others Plugins like liveChats, Google Analytics, payments gateway, delivery service etc.",
   },
@@ -22,45 +22,46 @@ const ProjectCont = [
     image: "/images/project3.jpg",
     title: "Blog Website",
     url: "/projects/blog",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.bridgekodeblog.com",
     comments:
       "These blog website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics etc.",
   },
   {
     id: "4",
     image: "/images/project1.jpg",
-    title: "Software Development",
+    title: "ICT Website",
     url: "/projects/software",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.florintechcomputercollege.com",
     comments:
       "These Bridgekode website was created/designed using Nextjs, Reactjs, JavaScript, Chakra-Ui, Sass, CSS3, Html5, Next-SEO and others libraries etc.",
   },
   {
     id: "5",
+    image: "/images/project7.jpg",
+    title: "School Database",
+    url: "/projects/database",
+    projectUrl: "https://www.admin.keyonavilleschools.com.ng",
+    comments:
+      "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
+  },
+
+  {
+    id: "6",
+    image: "/images/project6.jpg",
+    title: "Movie Engine",
+    url: "/projects/movie",
+    projectUrl: "https://movies-engine.vercel.app/",
+    comments:
+      "These Movie Engine was designed using JavaScript, Typescript, Chakra-Ui, Sass, CSS3, Html5, and others libraries etc.",
+  },
+  {
+    id: "7",
     image: "/images/project5.jpg",
     title: "Graphics Design",
     url: "/projects/graphics",
     projectUrl: "https://www.google.com",
     comments:
       "These project entails all graphic schemes like design principles, typography, images, colors, and layout techniques to create visually appealing, effective designs & pass the information.",
-  },
-  {
-    id: "6",
-    image: "/images/project6.jpg",
-    title: "Movie Engine",
-    url: "/projects/movie",
-    projectUrl: "https://www.google.com",
-    comments:
-      "These Movie Engine was designed using JavaScript, Typescript, Chakra-Ui, Sass, CSS3, Html5, and others libraries etc.",
-  },
-  {
-    id: "7",
-    image: "/images/project7.jpg",
-    title: "School Database",
-    url: "/projects/database",
-    projectUrl: "https://www.google.com",
-    comments:
-      "These School Database was designed using technologies such as PHP, Laravel, CSS3, HTML5, Mantie etc and hosted online.",
   },
   {
     id: "8",
@@ -94,7 +95,7 @@ const ProjectCont = [
     image: "/images/project9.jpg",
     title: "Opay UI/UX Design",
     url: "/projects/ux",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1",
     comments:
       "These wireframes was designed using illustrator, Figma, and others designed tools. ",
   },

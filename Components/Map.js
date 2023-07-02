@@ -13,11 +13,11 @@ const Map = () => {
             <Box className="contact-map-block">
               <Box className="map-container google-map w-widget">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.483702718627!2d3.191743074615611!3d6.460235093531328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8787ec5b147b%3A0x2b25e29d148eafdb!2sWharfedale%20house!5e0!3m2!1sen!2sng!4v1685408930375!5m2!1sen!2sng"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4301861291906!2d3.1756003764067!3d6.467062007146264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b86b48000db1d%3A0xc4e47bba46021804!2sK-Tech!5e0!3m2!1sen!2sng!4v1688253447089!5m2!1sen!2sng"
                   width="100%"
                   height="100%"
-                  className="map"
                   loading="lazy"
+                  className="map"
                 ></iframe>
               </Box>
             </Box>
@@ -44,9 +44,9 @@ const Map = () => {
                 <Box className="contact-info-title">Contact Information</Box>
                 <Box className="contact-info-small-title">Office Address</Box>
                 <Box className="contact-info-text">
-                  Shop H4, First Floor, Wharfedale Building
+                  No.53, Aka Road, White House Bus Stop
                   <br />
-                  Alaba Int'l Mkt, Ojo-Lagos State. Nigeria
+                  Okokomaiko, Ojo-Lagos State. Nigeria
                 </Box>
                 <Box className="contact-info-small-title">Phone Numbers</Box>
                 <Box className="contact-info-text">
@@ -62,7 +62,7 @@ const Map = () => {
                 className="contact-site-url"
                 target="_blank"
               >
-                Connect To Our Blog 
+                Connect To Our Blog
               </Link>
             </Box>
           </Box>

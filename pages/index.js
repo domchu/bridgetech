@@ -24,6 +24,7 @@ export default function Home() {
       <Slider>
         <Card
           img="/images/web.jpg"
+          // title="Welcome to Bridgekode"
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
@@ -50,7 +51,7 @@ export default function Home() {
                 Facebook
               </Link>
               <Link
-                href="https://www.test.com"
+                href="https://www.instagram.com/bridgekodetech.2023/"
                 target="_blank"
                 className="slider__btn"
               >
@@ -68,7 +69,7 @@ export default function Home() {
                 Contact
               </Link>
               <Link
-                href="https://www.test.com"
+                href="https://www.bridgekodeblog.com"
                 target="_blank"
                 className="slider__btn"
               >
