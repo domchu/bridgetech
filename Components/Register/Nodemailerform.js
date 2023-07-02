@@ -5,6 +5,7 @@ import {
   Heading,
   FormLabel,
   FormErrorMessage,
+  Button,
 } from "@chakra-ui/react";
 
 const initValues = {
@@ -20,9 +21,16 @@ const initState = { values: initValues };
 const Nodemailerform = () => {
   const [state, setState] = useState(initState);
   const [touched, setTouched] = useState({});
+  const { values, isLoading } = state;
 
-  const { values } = state;
-
+  // HANDLE ON SUBMIT BUTTON
+  const handleOnSubmit = async () => {
+    setState((prev) => ({
+      ...prev,
+      isLoading: true,
+    }));
+  };
+  // VALIDATION ON TOUCH
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
       ...prev,
@@ -126,6 +134,21 @@ const Nodemailerform = () => {
           />
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
+        <Button
+          varaint="outline"
+          colorScheme="blue"
+          isLoading={isLoading}
+          disabled={
+            !values.name ||
+            !values.email ||
+            !values.number ||
+            !values.subject ||
+            !values.message
+          }
+          onClick={handleOnSubmit}
+        >
+          Submit
+        </Button>
       </Container>
     </>
   );
