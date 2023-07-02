@@ -12,6 +12,7 @@ import {
 const initValues = {
   name: "",
   email: "",
+  number: "",
   subject: "",
   message: "",
 };
@@ -45,6 +46,50 @@ const Nodemailerform = () => {
             type="text"
             name="name"
             value={values.name}
+            onChange={handleInputChange}
+          />
+        </FormControl>
+        <FormControl isRequired>
+          <FormLabel>Email Address</FormLabel>
+          <input
+            style={{ border: "1px solid #000" }}
+            placeholder="Email Address*"
+            type="email"
+            name="email"
+            value={values.email}
+            onChange={handleInputChange}
+          />
+        </FormControl>
+        <FormControl isRequired>
+          <FormLabel>Phone Number</FormLabel>
+          <input
+            style={{ border: "1px solid #000" }}
+            placeholder="Phone Number*"
+            type="number"
+            name="number"
+            value={values.number}
+            onChange={handleInputChange}
+          />
+        </FormControl>
+        <FormControl isRequired>
+          <FormLabel>Subject</FormLabel>
+          <input
+            style={{ border: "1px solid #000" }}
+            placeholder="Subject*"
+            type="text"
+            name="subject"
+            value={values.subject}
+            onChange={handleInputChange}
+          />
+        </FormControl>
+        <FormControl isRequired>
+          <FormLabel>Message</FormLabel>
+          <textarea
+            style={{ border: "1px solid #000" }}
+            placeholder="Write Us Message*"
+            type="text"
+            name="message"
+            value={values.message}
             onChange={handleInputChange}
           />
         </FormControl>
