@@ -51,7 +51,7 @@ export default function Home() {
                 Facebook
               </Link>
               <Link
-                href="https://www.test.com"
+                href="https://www.instagram.com/bridgekodetech.2023/"
                 target="_blank"
                 className="slider__btn"
               >
@@ -69,7 +69,7 @@ export default function Home() {
                 Contact
               </Link>
               <Link
-                href="https://www.test.com"
+                href="https://www.bridgekodeblog.com"
                 target="_blank"
                 className="slider__btn"
               >
