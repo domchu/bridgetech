@@ -6,6 +6,8 @@ import {
   FormLabel,
   FormErrorMessage,
   Button,
+  Input,
+  Textarea,
 } from "@chakra-ui/react";
 
 const initValues = {
@@ -53,8 +55,8 @@ const Nodemailerform = () => {
         <Heading>Contact</Heading>
         <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
           <FormLabel>Full Name</FormLabel>
-          <input
-            style={{ border: "1px solid #000", width: "480px" }}
+          <Input
+            style={{ border: "1px solid blue", width: "480px" }}
             placeholder="Full Name*"
             type="text"
             name="name"
@@ -71,8 +73,8 @@ const Nodemailerform = () => {
           mb={5}
         >
           <FormLabel>Email Address</FormLabel>
-          <input
-            style={{ border: "1px solid #000", width: "480px" }}
+          <Input
+            style={{ border: "1px solid blue", width: "480px" }}
             placeholder="Email Address*"
             type="email"
             name="email"
@@ -88,8 +90,8 @@ const Nodemailerform = () => {
           mb={5}
         >
           <FormLabel>Phone Number</FormLabel>
-          <input
-            style={{ border: "1px solid #000", width: "480px" }}
+          <Input
+            style={{ border: "1px solid blue", width: "480px" }}
             placeholder="Phone Number*"
             type="number"
             name="number"
@@ -105,8 +107,8 @@ const Nodemailerform = () => {
           mb={5}
         >
           <FormLabel>Subject</FormLabel>
-          <input
-            style={{ border: "1px solid #000", width: "480px" }}
+          <Input
+            style={{ border: "1px solid blue", width: "480px" }}
             placeholder="Subject*"
             type="text"
             name="subject"
@@ -122,8 +124,8 @@ const Nodemailerform = () => {
           mb={5}
         >
           <FormLabel>Message</FormLabel>
-          <textarea
-            style={{ border: "1px solid #000", width: "480px" }}
+          <Textarea
+            style={{ border: "1px solid blue", width: "480px" }}
             placeholder="Write Us Message*"
             type="text"
             rows={5}
@@ -135,6 +137,7 @@ const Nodemailerform = () => {
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
         <Button
+          className="primary-button"
           varaint="outline"
           colorScheme="blue"
           isLoading={isLoading}
