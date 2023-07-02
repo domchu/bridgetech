@@ -4,7 +4,13 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { Flex, Box } from "@chakra-ui/react";
 import BrandWhite from "../../public/images/bridgekode-white.png";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
 import ScrollToTop from "../ScrollToTop";
 
 const Footer = () => {
@@ -56,6 +62,9 @@ const Footer = () => {
                   target="_blank"
                 >
                   <FaLinkedin className="icons" />
+                </Link>
+                <Link href="https://wa.me/2347034278995" target="_blank">
+                  <FaWhatsapp className="icons" />
                 </Link>
               </Flex>
             </Box>

@@ -54,7 +54,7 @@ const Nodemailerform = () => {
         <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
           <FormLabel>Full Name</FormLabel>
           <input
-            style={{ border: "1px solid #000", width: "400px" }}
+            style={{ border: "1px solid #000", width: "480px" }}
             placeholder="Full Name*"
             type="text"
             name="name"
@@ -72,7 +72,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Email Address</FormLabel>
           <input
-            style={{ border: "1px solid #000", width: "400px" }}
+            style={{ border: "1px solid #000", width: "480px" }}
             placeholder="Email Address*"
             type="email"
             name="email"
@@ -89,7 +89,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Phone Number</FormLabel>
           <input
-            style={{ border: "1px solid #000", width: "400px" }}
+            style={{ border: "1px solid #000", width: "480px" }}
             placeholder="Phone Number*"
             type="number"
             name="number"
@@ -106,7 +106,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Subject</FormLabel>
           <input
-            style={{ border: "1px solid #000", width: "400px" }}
+            style={{ border: "1px solid #000", width: "480px" }}
             placeholder="Subject*"
             type="text"
             name="subject"
@@ -123,7 +123,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Message</FormLabel>
           <textarea
-            style={{ border: "1px solid #000", width: "400px" }}
+            style={{ border: "1px solid #000", width: "480px" }}
             placeholder="Write Us Message*"
             type="text"
             rows={5}
