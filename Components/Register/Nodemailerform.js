@@ -56,7 +56,7 @@ const Nodemailerform = () => {
         <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
           <FormLabel>Full Name</FormLabel>
           <Input
-            style={{ border: "1px solid blue", width: "480px" }}
+            style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Full Name*"
             type="text"
             name="name"
@@ -65,7 +65,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
             onBlur={onBlur}
           />
-          <FormErrorMessage>Required</FormErrorMessage>
+          <FormErrorMessage>Name is required</FormErrorMessage>
         </FormControl>
         <FormControl
           isRequired
@@ -74,7 +74,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Email Address</FormLabel>
           <Input
-            style={{ border: "1px solid blue", width: "480px" }}
+            style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Email Address*"
             type="email"
             name="email"
@@ -82,7 +82,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
             onBlur={onBlur}
           />
-          <FormErrorMessage>Required</FormErrorMessage>
+          <FormErrorMessage>Email is required</FormErrorMessage>
         </FormControl>
         <FormControl
           isRequired
@@ -91,7 +91,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Phone Number</FormLabel>
           <Input
-            style={{ border: "1px solid blue", width: "480px" }}
+            style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Phone Number*"
             type="number"
             name="number"
@@ -99,7 +99,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
             onBlur={onBlur}
           />
-          <FormErrorMessage>Required</FormErrorMessage>
+          <FormErrorMessage>Phone number is required</FormErrorMessage>
         </FormControl>
         <FormControl
           isRequired
@@ -108,7 +108,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Subject</FormLabel>
           <Input
-            style={{ border: "1px solid blue", width: "480px" }}
+            style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Subject*"
             type="text"
             name="subject"
@@ -116,7 +116,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
             onBlur={onBlur}
           />
-          <FormErrorMessage>Required</FormErrorMessage>
+          <FormErrorMessage>Subject is required</FormErrorMessage>
         </FormControl>
         <FormControl
           isRequired
@@ -125,7 +125,7 @@ const Nodemailerform = () => {
         >
           <FormLabel>Message</FormLabel>
           <Textarea
-            style={{ border: "1px solid blue", width: "480px" }}
+            style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Write Us Message*"
             type="text"
             rows={5}
@@ -134,7 +134,7 @@ const Nodemailerform = () => {
             onChange={handleInputChange}
             onBlur={onBlur}
           />
-          <FormErrorMessage>Required</FormErrorMessage>
+          <FormErrorMessage>Message is required</FormErrorMessage>
         </FormControl>
         <Button
           className="primary-button"
