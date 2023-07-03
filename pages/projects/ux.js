@@ -32,7 +32,7 @@ const ux = () => {
         name="Opey Microfinance Bank"
         date="Feb 25, 2023"
         category="Banking Industry"
-        address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State."
+        address="N0.9 Kembiri Road, Okokomaiko-Ojo, Lagos State."
         summary="We are Optitech provide the best quality
         It solution neque porro quisquam est qui dolorem ipsum
         quia golor sit amet, conse ctetur, adipisci velit, sed

@@ -32,7 +32,7 @@ const database = () => {
         name="Keyonaville Schools"
         date="June 9, 2023"
         category="Education"
-        address="8-10 Odinaka Street, Afromedia-Ojo, Lagos state."
+        address="N0.8-10 Odinaka Street, Afromedia-Ojo, Lagos state."
         summary="Overall, a school portal enhances communication, transparency, and efficiency within the school community. It fosters collaboration among students, parents, teachers, and administrators, making it a valuable tool for managing school operations and supporting student success."
         number1="Student Information System: The portal includes a Student Information System (SIS) that contains comprehensive student data such as enrollment details, attendance records, academic performance, class schedules, and contact information."
         number2="Grading and Progress Tracking: Teachers can record and update students' grades and performance assessments on the portal. Students and parents can view their academic progress in real-time, including grade reports and progress reports"

@@ -29,7 +29,7 @@ const blog = () => {
       <SingleProject
         title="Blogging Website"
         content="Bridgekode Blogging websites serve as a platform for individuals, professionals, businesses, and organizations to express their ideas, share knowledge, build a community, and even monetize their content through advertisements or sponsored posts. They can cover a wide range of topics, including personal experiences, sports, politics, hobbies, travel, fashion, technology, education, and more. The primary goal of a blogging website is to provide valuable and engaging content that informs, entertains, and resonates with the target audience. A blogging website is a platform where individuals or organizations can create and publish blog posts on various topics. It provides a space for writers, known as bloggers, to share their thoughts, ideas, experiences, and expertise with a wider audience."
-        name="Information Technology"
+        name="Bridgekode Blog"
         date="July 10, 2023"
         category="ICT"
         address="No,7 Okache street, Sabo-Ojo, Lagos State."
