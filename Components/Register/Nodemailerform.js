@@ -9,6 +9,7 @@ import {
   Input,
   Textarea,
 } from "@chakra-ui/react";
+import { sendContactForm } from "../../pages/lib/api";
 
 const initValues = {
   name: "",
@@ -31,6 +32,7 @@ const Nodemailerform = () => {
       ...prev,
       isLoading: true,
     }));
+    await sendContactForm(values);
   };
   // VALIDATION ON TOUCH
   const onBlur = ({ target }) =>
