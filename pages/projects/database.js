@@ -28,65 +28,24 @@ const database = () => {
       {/* SINGLE PROJECT DETAILS FOR School Database */}
       <SingleProject
         title="School Database"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        content="These keyonaville school portal is a centralized digital and online platform that serves as a gateway to various online resources and services for students, parents, teachers, and administrators. It provides a secure and personalized interface where users can access information, communicate, and engage with the school community. Keyonaville school portal entails User Authentication, Student Information System, Course Management, Grading and Progress Tracking, Communication Tools, Calendar and Events etc and enhances communication, transparency, and efficiency within the school community. It fosters collaboration among students, parents, teachers, and administrators, making it a valuable tool for managing school operations and supporting student success."
         name="Keyonaville Schools"
         date="June 9, 2023"
         category="Education"
         address="8-10 Odinaka Street, Afromedia-Ojo, Lagos state."
-        summary="We are <strong>Optitech</strong> provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        summary="Overall, a school portal enhances communication, transparency, and efficiency within the school community. It fosters collaboration among students, parents, teachers, and administrators, making it a valuable tool for managing school operations and supporting student success."
+        number1="Student Information System: The portal includes a Student Information System (SIS) that contains comprehensive student data such as enrollment details, attendance records, academic performance, class schedules, and contact information."
+        number2="Grading and Progress Tracking: Teachers can record and update students' grades and performance assessments on the portal. Students and parents can view their academic progress in real-time, including grade reports and progress reports"
+        point1="User Authentication: The school portal requires user authentication to ensure that only authorized individuals can access specific information and services. Students, parents, teachers, and administrators have their own login credentials to access their respective accounts."
+        point2="Online Fee Payment: The portal may include a secure online payment gateway for parents to pay school fees, tuition, and other expenses electronically."
+        result=" The project results of implementing these school portal sometime vary depending on the specific goals and requirements of the institution. However, here are some potential project results and outcomes that can be achieved through the successful implementation of a school portal enhanced user eatisfaction, data-driven decision making, access to real-time information, enhanced parental engagement, streamlined administrative processes,  etc. It's important to note that the actual project results may vary depending on the specific implementation and adoption of the school portal within the institution. Regular monitoring, feedback collection, and continuous improvement are crucial to ensure that the desired outcomes are achieved."
+        benefits="The school portal provides a centralized and efficient platform for communication, information management, personalized learning, and collaboration. It enhances parental involvement, streamlines administrative processes, and supports data-driven decision making. The portal leads to improved outcomes for students, increased efficiency for teachers and administrators, and a stronger school-home partnership."
+        problemsState=" In school portal/database Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="Implementing a school portal offers numerous benefits that improve communication, streamline processes, foster collaboration, and support student success. It is an essential tool for modern schools striving to create a connected and efficient learning environment."
+        solution1=" Access to Real-Time Information: The portal provides real-time access to student data, grades, attendance records, and school announcements. This enables students, parents, and teachers to stay updated on important information and make timely decisions regarding academics, attendance, and school-related activities."
+        solution2=" Centralized Information Access: The school portal provides a centralized platform where users can access important information and resources. It eliminates the need for multiple communication channels and physical documents, making it easier and more efficient to find and retrieve information."
+        solution3=" Data-Driven Decision Making: The portal generates data and analytics that can be used for informed decision making. Administrators can analyze student performance data, attendance trends, and other metrics to identify areas for improvement, allocate resources effectively, and implement evidence-based strategies."
         image1="/images/sch-portal.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.admin.keyonavilleschools.com.ng"
