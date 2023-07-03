@@ -2,13 +2,13 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-import project2 from "../public/images/project2.jpg";
-import project3 from "../public/images/project3.jpg";
-import project1 from "../public/images/project1.jpg";
 import arrow from "../public/images/arrow-long-icon.png";
-import project5 from "../public/images/project5.jpg";
+import project2 from "../public/images/sch-site.png";
+import project3 from "../public/images/e-commerce.png";
+import project1 from "../public/images/sch-portal.png";
+import project5 from "../public/images/opay-ui.png";
 import project6 from "../public/images/project6.jpg";
-import project7 from "../public/images/project7.jpg";
+import project7 from "../public/images/ict-site.png";
 
 const LatestProject = () => {
   return (

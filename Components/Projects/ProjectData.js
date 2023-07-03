@@ -1,7 +1,7 @@
 const ProjectCont = [
   {
     id: "1",
-    image: "/images/web.jpg",
+    image: "/images/sch-site.png",
     title: "School Website",
     url: "/projects/website",
     projectUrl: "https://www.keyonavilleschools.com.ng",
@@ -28,7 +28,7 @@ const ProjectCont = [
   },
   {
     id: "4",
-    image: "/images/project1.jpg",
+    image: "/images/ict-site.png",
     title: "ICT Website",
     url: "/projects/software",
     projectUrl: "https://www.florintechcomputercollege.com",
@@ -47,7 +47,7 @@ const ProjectCont = [
 
   {
     id: "6",
-    image: "/images/project6.jpg",
+    image: "/images/movie-engine.png",
     title: "Movie Engine",
     url: "/projects/movie",
     projectUrl: "https://movies-engine.vercel.app/",
