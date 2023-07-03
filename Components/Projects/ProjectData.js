@@ -10,7 +10,7 @@ const ProjectCont = [
   },
   {
     id: "2",
-    image: "/images/project2.jpg",
+    image: "/images/e-commerce.png",
     title: "E-commerce Website",
     url: "/projects/ecommerce",
     projectUrl: "https://www.sebenstore.com",
@@ -37,7 +37,7 @@ const ProjectCont = [
   },
   {
     id: "5",
-    image: "/images/project7.jpg",
+    image: "/images/sch-portal.png",
     title: "School Database",
     url: "/projects/database",
     projectUrl: "https://www.admin.keyonavilleschools.com.ng",
@@ -92,10 +92,11 @@ const ProjectCont = [
   },
   {
     id: "11",
-    image: "/images/project9.jpg",
+    image: "/images/opay-ui.png",
     title: "Opay UI/UX Design",
     url: "/projects/ux",
-    projectUrl: "https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1",
+    projectUrl:
+      "https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1",
     comments:
       "These wireframes was designed using illustrator, Figma, and others designed tools. ",
   },

@@ -87,7 +87,7 @@ const ux = () => {
         solution3=" IT Management provide the most service neque porro
         quisquam est qui dolorem ipsum quia golor sit amet, conse
         ctetur, adipisci velit"
-        image1="/images/project2.jpg"
+        image1="/images/opay-ui.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1"
       />

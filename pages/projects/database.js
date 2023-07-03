@@ -87,7 +87,7 @@ const database = () => {
         solution3=" IT Management provide the most service neque porro
         quisquam est qui dolorem ipsum quia golor sit amet, conse
         ctetur, adipisci velit"
-        image1="/images/project2.jpg"
+        image1="/images/sch-portal.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.admin.keyonavilleschools.com.ng"
       />
