@@ -1,6 +1,5 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import Link from "next/link";
+
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -14,79 +13,40 @@ const graphics = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Bridgekode Tech"
+        title="Weather App | Bridgekode Tech"
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
       <Topnav />
       <Header />
-      <ProjectHeading
-        title="Graphics Design"
-        projectUrl="/projects/project-home"
-      />
+      <ProjectHeading title="Weather App" projectUrl="/projects/project-home" />
       {/* SINGLE PROJECT DETAILS FOR Graphics Design */}
       <SingleProject
-        title="Graphics Design"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
-        date="March 25, 2023"
-        category="E-Commerce"
-        address="25K, North City, New York"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        title="Weather App (API)"
+        content=" the Weather App leverages JavaScript, HTML, CSS, and a weather API to provide users with real-time weather information for a specific location. Its user-friendly interface, weather data retrieval, and dynamic display of weather information make it a useful tool for checking the current weather conditions and forecasts. Its inclues features like Location Input, Weather Display, Location Validation, Error Handling, Responsive Design, etc. These Weather App may include additional features such as the ability to toggle between different units of measurement (Celsius, Fahrenheit), display weather icons, or provide extended forecasts."
+        name="Weather Focus"
+        date="Sept 25, 2022"
+        category="Geolocation"
+        address="N0.3 Eleda Street, Iba-Ojo, Lagos state"
+        summary="The Weather App works by taking user input, sending a request to a weather API, processing the API response, and dynamically updating the user interface with the retrieved weather data. JavaScript handles the logic and data manipulation, while HTML and CSS are responsible for rendering the user interface. The app provides users with real-time weather information for the specified location, allowing them to stay informed about current weather conditions and forecasts."
+        number1="User Input:
+        The app prompts the user to enter a location, such as a city name or postal code, through a user interface element, such as a text input field.The user submits the location by clicking a button or pressing the Enter key."
+        number2="API Request:When the user submits a location, the JavaScript code constructs an API request using the entered location.
+        The app communicates with a weather API by sending an HTTP request, typically using the Fetch API or XMLHttpRequest."
+        point1="Dynamic UI Update:
+        The JavaScript code dynamically updates the user interface with the retrieved weather data."
+        point2="Weather Display:
+        The app presents the weather information to the user on the user interface.It may display the current temperature, weather description (e.g., sunny, cloudy, rainy), icons representing weather conditions, and additional details like humidity, wind speed, or forecasted data"
+        result=" The app successfully retrieves real-time weather data from the weather API, ensuring that users receive accurate and up-to-date information about their desired locations. The Weather App includes forecasting capabilities, enabling users to not only view the current weather conditions but also access forecasts for upcoming days. This allows users to plan their activities in advance. The app heavily depends on the weather API for retrieving weather data. Any disruptions or changes in the API's availability or functionality may affect the app's ability to provide accurate and real-time weather information.
+        extremely painful. "
+        benefits="In summary, the Weather App provides accurate and real-time weather information, enhances safety and planning, offers convenience and accessibility, and caters to personalized preferences. It empowers users to make informed decisions, stay prepared, and optimize their activities based on weather conditions, ultimately enriching their daily lives."
+        problemsState=" In Application Programming Interface (API) service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
-        image1="/images/project2.jpg"
+        problemsSummary="The Weather App provides users with real-time and accurate weather data for their specified location. Users can rely on the app to obtain up-to-date information about temperature, weather conditions, humidity, wind speed, and other relevant details."
+        solution1=" Travel Planning: For travelers, the Weather App is a valuable tool for planning trips and destinations. Users can explore weather forecasts for different locations, helping them make informed decisions about when and where to travel, ensuring a more enjoyable and comfortable experience."
+        solution2=" Planning and Preparedness: By having access to accurate weather information, users can better plan their activities and make informed decisions. Whether it's scheduling outdoor events, planning travel routes, or choosing appropriate clothing, the Weather App helps users prepare for the weather conditions ahead."
+        solution3=" Enhanced Safety: The app contributes to user safety by providing alerts or warnings about severe weather conditions. Users can stay informed about storms, hurricanes, heatwaves, or other hazardous weather events, allowing them to take necessary precautions and stay safe."
+        image1="/images/weather.jpg"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.test.com"
       />

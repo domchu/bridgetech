@@ -56,12 +56,12 @@ const ProjectCont = [
   },
   {
     id: "7",
-    image: "/images/project5.jpg",
-    title: "Graphics Design",
+    image: "/images/weather.jpg",
+    title: "Weather APP",
     url: "/projects/graphics",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://weatherapp-eta-liart.vercel.app/",
     comments:
-      "These project entails all graphic schemes like design principles, typography, images, colors, and layout techniques to create visually appealing, effective designs & pass the information.",
+      "The Weather App is a project that utilizes JavaScript, HTML, CSS, and a weather API to provide users with real-time weather information for a specific location  of any city or state, display weather icons, provide extended forecasts . Anybody can use it.",
   },
   {
     id: "8",
