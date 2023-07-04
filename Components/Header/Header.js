@@ -25,6 +25,15 @@ const Navbar = () => {
   };
   return (
     <>
+      {/* <Box
+                className={`moview-view-container ${
+                  mobile
+                    ? "moview-view-container--show"
+                    : "moview-view-container--hide"
+                }`}
+              >
+                <MobileView />
+              </Box> */}
       <nav>
         <Box className=" header-navbar-block">
           {/* THE BRAND LOGO SECTION */}
@@ -213,7 +222,6 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    // legacyBehavior
                     href="https://test.com"
                     target="_blank"
                     id="nav-link"
@@ -221,7 +229,6 @@ const Navbar = () => {
                     passhref="true"
                   >
                     Blog
-                    {/* <a target="_blank"> Blog</a> */}
                   </Link>
                 </li>
                 <li>
@@ -246,7 +253,7 @@ const Navbar = () => {
                 />
               </Box>
               {/* MOBILE VIEW OF THE BRIDGEKODE */}
-              <Box className="" style={{ display: mobile ? "block" : "none" }}>
+              <Box style={{ display: mobile ? "block" : "none" }}>
                 <MobileView />
               </Box>
               <Box>

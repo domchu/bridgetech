@@ -38,7 +38,7 @@ export default function Home() {
         />
 
         <Card
-          img="/images/flask.jpg"
+          img="/images/pen1.jpg"
           desc="A good programmer looks both ways before crossing a one-way street."
           renderButtons={() => (
             <>

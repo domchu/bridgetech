@@ -3623,8 +3623,8 @@ figure.card > figcaption {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: bottom;
-     object-position: bottom;
+  -o-object-position: center;
+     object-position: center;
 }
 .card__wrapper .slider__btn {
   padding: 5px 7px;
