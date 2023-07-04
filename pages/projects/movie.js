@@ -35,7 +35,6 @@ const movie = () => {
         address="N0.9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
         summary="It's important to note that the specific workings of a movies engine can vary depending on the implementation, technology stack, and integration with movie databases. The overall process involves user interaction, integration with a movie database API, processing and displaying search results, providing personalized recommendations, fetching movie details, and incorporating user engagement features for an immersive movie discovery and exploration experience."
         number1="User Interaction:
-
         Users interact with the movies engine through the user interface, which allows them to search for movies, view movie details, and access other features."
         number2="Movie Database Integration:
         The movies engine connects to a movie database API, such as IMDb or TMDB, to fetch movie data.
@@ -46,41 +45,14 @@ const movie = () => {
         point2="User Interaction and Features:
         The movies engine may offer additional features for user interaction and engagement.
         This can include options for users to rate movies, write reviews, create watchlists, save favorite movies, or share recommendations on social media."
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        result=" Overall, a movies engine offers a comprehensive and personalized movie discovery experience, saving users time, enhancing their movie-watching choices, and fostering community engagement. It provides a centralized hub for movie information, recommendations, and user interactions, ultimately enriching the movie-watching experience for enthusiasts and casual viewers alike."
+        benefits=" The movies engine is accessible through web browsers or mobile applications, allowing users to explore movies and access recommendations anytime and from anywhere, catering to their convenience and on-the-go lifestyles.Hence, Users can save time and effort by using the movies engine to search for movies based on specific criteria, eliminating the need to manually browse through multiple sources or platforms."
+        problemsState=" In Application Programmimg Interface (API) Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="A movies engine facilitates movie discovery by offering a vast collection of movies, personalized recommendations, and related content. Users can explore a wide range of movies, including popular releases, classics, and niche genres, leading to a diverse and enriching movie-watching experience."
+        solution1=" Accessible Movie Information: Movies engines provide easily accessible and organized movie information in one place. Users can find details about movies, including summaries, cast information, ratings, and reviews, helping them make informed decisions and understand more about the movies they are interested in watching."
+        solution2=" Variety of Viewing Options: Movies engines may also provide information about different viewing options, such as theaters, streaming platforms, or rental services. Users can easily find out where to watch their desired movies, making it convenient to access and enjoy the content they discover."
+        solution3="Personalized User Experience: By tailoring movie recommendations based on user preferences, a movies engine provides a personalized user experience. It helps users discover movies they are likely to enjoy and find relevant content based on their individual tastes and interests."
         image1="/images/movie-engine.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://movies-engine.vercel.app/"
