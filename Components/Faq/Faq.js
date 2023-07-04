@@ -70,9 +70,10 @@ const Faq = () => {
             <AccordionPanel pb={4} className="faq-text">
               We have more than 10 specialists with diverse experience in
               different industries and products of various complexity. There are
-              Software development department, Project management office,
-              Quality assurance and Business analytics department, Recruitment &
-              HR, and internal team offering account, Design and legal support.
+              Software development department such Front-End dept, Back-End
+              dept, Products design office, Project management office, Quality
+              assurance and Business analytics department, Recruitment & HR, and
+              internal team offering account, Design and legal support.
             </AccordionPanel>
           </AccordionItem>
 
@@ -158,6 +159,7 @@ const Faq = () => {
               <li className="number">Entertaiments</li>
               <li className="number">Electronics</li>
               <li className="number">Education</li>
+              <li className="number">Marine & Shipping</li>
               <li className="number">Food & Science</li>
               <li className="number">Real Estate</li>
               <li className="number">Fintech</li>
@@ -185,6 +187,8 @@ const Faq = () => {
               separately or within the full project development life cycle:
               <li className="number">Web Development</li>
               <li className="number">Web Development Training</li>
+              <li className="number">Back-End Development</li>
+              <li className="number">Products Design</li>
               <li className="number">Branding</li>
               <li className="number">Mobile App Development</li>
               <li className="number">UI/UX Design</li>
@@ -208,7 +212,7 @@ const Faq = () => {
                   textAlign="left"
                   className="faq-heading"
                 >
-                  What technologies do you use in software development?
+                  What technologies do you use in software development company?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -382,13 +386,14 @@ const Faq = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4} className="faq-text">
-              Bridgekode is a strategic technology partner for custom software
-              development services and staff augmentation. Founded in 2022,
-              Bridgekode has extensive experience of building solutions for
-              start-ups and SMEs all over the world. Our team has already
-              implemented over 10 software products of different complexity in
-              the following niches: healthcare, e-commerce, fintech, real
-              estate, education, & proptech. Our goal is to help businesses
+              Bridgekode is a software development company & strategic
+              technology partner for custom software development services and
+              staff augmentation. Founded in 2022, Bridgekode has extensive
+              experience of building solutions for start-ups and SMEs all over
+              the world. Our team has already implemented over 10 software
+              products of different complexity in the following niches:
+              healthcare,microfinance bank, e-commerce, fintech, real estate,
+              education, technology & proptech. Our goal is to help businesses
               accelerate growth and innovation, transform operational
               efficiency, deliver new products to market, improve profitability,
               career path in IT skills to finacial stabiliy among the youths and

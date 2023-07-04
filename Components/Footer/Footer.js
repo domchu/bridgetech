@@ -121,7 +121,7 @@ const Footer = () => {
                   className={currentRoute == "/blog" ? "active" : ""}
                   passhref="true"
                 >
-                  Blog Post
+                  Blog Posts
                 </Link>
               </li>
               <li>

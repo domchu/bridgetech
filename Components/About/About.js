@@ -16,7 +16,7 @@ const About = () => {
                 About <span className="sub_heading_span">Us</span>
               </h1>
               <p>
-                Bridgekode is a software development services that is based on
+                Bridgekode is a software development company that is based on
                 coding software & general IT solutions to businesses across
                 globe.
               </p>
@@ -63,10 +63,10 @@ const About = () => {
                       We are <strong>Bridgekode</strong> provide the best
                       quality
                       <Link href="https://www.example.com"> IT solution. </Link>
-                      Bridgekode is an innovative software development services
-                      company dedicated to providing innovative and tailored
-                      solutions to businesses of all sizes. With a strong focus
-                      on technology and a team of highly skilled professionals,
+                      Bridgekode is an innovative software development company
+                      dedicated to providing innovative and tailored solutions
+                      to businesses of all sizes. With a strong focus on
+                      technology and a team of highly skilled professionals,
                       Bridgekode is committed to delivering high-quality
                       software products and services that drive business growth
                       and efficiency thereby increases income to oganisation.
@@ -138,8 +138,8 @@ const About = () => {
                     <span className="text-span-title">Mission</span>
                   </Box>
                   <p>
-                    At <strong>Bridgekode</strong>, our  
-                     <strong>Mission </strong>
+                    At <strong>Bridgekode</strong>, our
+                    <strong> Mission </strong>
                     is to empower businesses with innovative and tailored
                     software solutions that drive growth, efficiency, and
                     digital transformation & train school students/kids in
@@ -155,14 +155,13 @@ const About = () => {
                   </Box>
                   <p>
                     Our <strong>Vision</strong> is to be a trusted and renowned
-                    global leader in software development services, known for
-                    our technical excellence, customer-centric approach, and
-                    ability to deliver transformative solutions. We aspire to be
-                    at the forefront of technological advancements, driving
-                    positive change through innovation, and making a meaningful
-                    impact in the industries we serve. We envision long-term
-                    partnerships built on trust, collaboration, and shared
-                    success.
+                    global leader in software development company, known for our
+                    technical excellence, customer-centric approach, and ability
+                    to deliver transformative solutions. We aspire to be at the
+                    forefront of technological advancements, driving positive
+                    change through innovation, and making a meaningful impact in
+                    the industries we serve. We envision long-term partnerships
+                    built on trust, collaboration, and shared success.
                   </p>
                 </Reveal>
                 <Link
