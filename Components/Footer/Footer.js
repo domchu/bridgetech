@@ -4,7 +4,13 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { Flex, Box } from "@chakra-ui/react";
 import BrandWhite from "../../public/images/bridgekode-white.png";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
 import ScrollToTop from "../ScrollToTop";
 
 const Footer = () => {
@@ -56,6 +62,9 @@ const Footer = () => {
                   target="_blank"
                 >
                   <FaLinkedin className="icons" />
+                </Link>
+                <Link href="https://wa.me/2347034278995" target="_blank">
+                  <FaWhatsapp className="icons" />
                 </Link>
               </Flex>
             </Box>
@@ -112,7 +121,7 @@ const Footer = () => {
                   className={currentRoute == "/blog" ? "active" : ""}
                   passhref="true"
                 >
-                  Blog Post
+                  Blog Posts
                 </Link>
               </li>
               <li>
@@ -192,7 +201,7 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Contact Us</h2>
               <Box>
-                <p>No.53, Aka Road, White House Bus Stop</p>
+                <p>No.53 Aka Road, White House Bus-Stop</p>
                 <p>Okokomaiko, Ojo-Lagos State. Nigeria</p>
               </Box>
               <Box style={{ margin: "10px 0px" }}>

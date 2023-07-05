@@ -30,7 +30,7 @@ const website = () => {
         name="Keyonaville Schools"
         date="March 25, 2023"
         category="Education"
-        address="8-10 Odinaka Str, Afromedia-Ojo, Lagos State"
+        address="N0.8-10 Odinaka Str, Afromedia-Ojo, Lagos State"
         summary="The functioning of the Keyonaville School website focus on some features. However, These are the general overview of how keyonaville school website works. Here are some common features and functionalities you might find:"
         number1="Homepage: The homepage serves as the main entry point to the website and provides an overview of the school. It often includes a welcome message, why keyonaville, core values and links to important sections."
         number2="About Us: This section provides detailed information about Keyonaville School, such as its history, mission, vision, and core values. It may also highlight the school's achievements, facilities, and faculty."
@@ -44,7 +44,7 @@ const website = () => {
         solution1=" The website  serve as a valuable resource for parents, offering access to important resources such as school calendars, parent portals, grade updates, and communication channels."
         solution2=" It can also serve as a platform to showcase collaborations with local organizations or community outreach programs, strengthening ties between the school and the broader community."
         solution3=" 24/7 Availability: Unlike traditional communication methods, a school website is accessible 24/7. Visitors can access information at their convenience, regardless of time zones or scheduling conflicts."
-        image1="/images/project2.jpg"
+        image1="/images/sch-site.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.keyonavilleschools.com.ng"
       />

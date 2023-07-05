@@ -27,7 +27,7 @@ const ecommerce = () => {
       <SingleProject
         title="E-commerce Website"
         content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Livechat, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
+        name="Sebenstore Shopping"
         date="April 21, 2023"
         category="E-Commerce"
         address="829 W. Palmdale Blvd Suite 168, California-USA."
@@ -45,7 +45,7 @@ const ecommerce = () => {
         solution1=" Expanded Business Hours: Unlike physical stores with fixed operating hours, e-commerce websites are accessible 24/7. Customers can browse products, make purchases, and seek customer support at their convenience, which can result in increased sales and improved customer satisfaction."
         solution2=" Targeted Marketing and Remarketing: E-commerce enables businesses to implement targeted marketing strategies, reaching specific customer segments based on demographics, interests, or past purchase behavior. Additionally, e-commerce platforms facilitate remarketing efforts, allowing businesses to reconnect with potential customers who have shown interest but haven't completed a purchase."
         solution3=" Increased Sales and Revenue: E-commerce opens up additional sales channels, enabling businesses to sell products or services online and generate revenue outside of traditional brick-and-mortar stores. "
-        image1="/images/project2.jpg"
+        image1="/images/e-commerce.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.sebenstore.com"
       />

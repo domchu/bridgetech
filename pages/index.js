@@ -24,7 +24,6 @@ export default function Home() {
       <Slider>
         <Card
           img="/images/web.jpg"
-          // title="Welcome to Bridgekode"
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
@@ -39,7 +38,7 @@ export default function Home() {
         />
 
         <Card
-          img="/images/flask.jpg"
+          img="/images/pen1.jpg"
           desc="A good programmer looks both ways before crossing a one-way street."
           renderButtons={() => (
             <>

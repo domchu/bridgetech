@@ -30,7 +30,7 @@ const software = () => {
         name="Florintech Computer College"
         date="March 25, 2023"
         category="ICT"
-        address="9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
+        address="N0.9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
         summary="Florintech Computer College website has it's important to consider such the target audience, the college's mission, and the key information that prospective students and visitors would need. Here's a suggested outline for the website's content:"
         number1="Homepage: Start with a compelling headline that captures the essence of Florintech Computer College.
         Introduce the college's mission, emphasizing its commitment to providing high-quality education in the field of IT skills and technology."
@@ -45,7 +45,7 @@ const software = () => {
         solution1=" The college creates opportunities for individuals to pursue rewarding careers in the computer science and technology sectors. "
         solution2="  Graduates from the college are equipped with the knowledge and skills to develop innovative solutions, create software applications, and contribute to the digital transformation of various industries."
         solution3=" Skilled Workforce: Florintech Computer College plays a vital role in producing a skilled workforce in the field of computer science and technology. As graduates enter the job market, they bring specialized knowledge and expertise that can meet the growing demand for tech professionals. This, in turn, helps fill the skills gap and supports economic development in the region."
-        image1="/images/project2.jpg"
+        image1="/images/ict-site.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.florintechcomputercollege.com"
       />
