@@ -10,7 +10,7 @@ import ProjectHeading from "../../Components/ProjectHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const crypto = () => {
+const landing = () => {
   return (
     <>
       <DefaultSeo
@@ -96,4 +96,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default landing;

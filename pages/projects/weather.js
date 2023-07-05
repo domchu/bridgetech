@@ -1,5 +1,4 @@
 import React from "react";
-
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -9,7 +8,7 @@ import ProjectHeading from "../../Components/ProjectHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const graphics = () => {
+const weather = () => {
   return (
     <>
       <DefaultSeo
@@ -56,4 +55,4 @@ const graphics = () => {
   );
 };
 
-export default graphics;
+export default weather;
