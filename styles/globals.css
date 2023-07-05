@@ -512,7 +512,7 @@ nav {
 }
 
 .topnav-links a:hover {
-  color: var(--primary-clr-1);
+  color: var(--primary-clr-3);
   transition: var(--transition);
 }
 
