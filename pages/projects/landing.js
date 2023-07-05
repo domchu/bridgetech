@@ -25,65 +25,24 @@ const landing = () => {
       {/* SINGLE PROJECT DETAILS FOR Hospital Landing Page. */}
       <SingleProject
         title="Hospital Landing Page."
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
+        content="The hospital website, developed using technologies like HTML, CSS, and JavaScript, is a dynamic and interactive platform that provides information and services to patients, visitors, and healthcare professionals. The hospital website developed using HTML, CSS, JavaScript, and other relevant technologies provides a visually appealing, user-friendly, and interactive platform for users to access information, schedule appointments, and engage with the healthcare facility. The technologies used enable dynamic content, responsive design, interactive features, and seamless integration with external services, ultimately enhancing the overall user experience."
         name="Belenda Hospital"
-        date="April 20, 2022"
+        date="April 20, 2020"
         category="Health Care"
         address="25K Avenue, Liberty Estate, Ojo-Lagos"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        summary="A hospital website works by combining various components and functionalities to provide information, services, and engagement to users. Here is a general overview of how a hospital website works:"
+        number1="Integration of External Systems: The website may integrate with other systems or services to enhance functionality. For example, it may integrate with billing systems for online bill payment or with third-party APIs for displaying real-time weather information or mapping services."
+        number2="Appointment Booking: Many hospital websites offer online appointment booking functionality. This feature allows patients to select their desired date, time, and doctor for their medical consultation or procedure. The website may integrate with a scheduling system to manage appointments effectively."
+        point1="Information Architecture: The website's information architecture is designed to categorize and structure content in a logical manner. It ensures that users can easily find the information they are looking for, such as services offered, departments, doctor profiles, and contact details."
+        point2="The website is typically powered by a html, css, javascript and others web technologies like sass, fontawesome, etc. that allows administrators to manage and update the website's content. These provides an interface for adding, editing, and organizing text, images, videos, and other media elements."
+        result=" Overall, a hospital website functions as a comprehensive platform that provides information, services, and engagement opportunities to patients, visitors, and healthcare professionals. It aims to deliver a user-friendly experience, facilitate access to healthcare resources, and promote effective communication between the hospital and its stakeholders."
+        benefits="In summary, a hospital website provides valuable benefits such as easy access to information, online appointment booking, comprehensive health services information, doctor profiles, health education resources, emergency information, online bill payment, virtual tours, community engagement, and online support. These benefits improve patient experience, convenience, and access to healthcare services while promoting transparency and engagement between the hospital and its stakeholders."
+        problemsState=" In health care service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="A hospital website offers numerous benefits to patients, visitors, and the healthcare facility itself. Here are some key benefits of having a hospital website:"
+        solution1=" nformation Access: A hospital website provides easy access to crucial information about the healthcare facility, including its location, contact details, visiting hours, and services offered. Patients and visitors can quickly find the information they need without making phone calls or visiting in person."
+        solution2=" Doctor Profiles and Online Booking: Hospital websites often include profiles of doctors, including their qualifications, specialties, and experience. Patients can learn about the expertise of healthcare professionals and make informed decisions when choosing a specific doctor for their care. Some websites also offer online booking options to schedule appointments directly with specific doctors."
+        solution3=" Emergency Information: Hospital websites can provide critical emergency information, including contact numbers, directions to the emergency department, and instructions for handling emergencies. This ensures that individuals in need of urgent medical care can quickly locate the hospital and receive appropriate assistance."
         image1="/images/hospital.png"
         image2="/images/service-benefit.jpg"
         projectLink="https://mc-center-landing-page-plsl.vercel.app/"
