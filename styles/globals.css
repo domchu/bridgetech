@@ -3670,8 +3670,9 @@ figure.card > figcaption {
     font-size: 1.1rem !important;
   }
   .card__wrapper .content a {
-    font-size: 14px;
-    margin: 10px 7px;
+    font-size: 13px;
+    margin: 10px 5px;
+    padding: 8px 8px;
   }
   .card__wrapper .slider__btn {
     padding: 3px 5px;
@@ -3679,18 +3680,26 @@ figure.card > figcaption {
     color: #ccc;
     margin-top: 10px;
     border-radius: 5px;
+    font-size: 1rem;
   }
   .card__wrapper .prev__btn, .card__wrapper .next__btn {
     font-size: 20px;
   }
+  .card__wrapper .slider-dot {
+    width: 15px;
+    height: 15px;
+  }
 }
 @media screen and (max-width: 360px) {
   .card__wrapper .prev__btn, .card__wrapper .next__btn {
-    font-size: 14px;
+    font-size: 1rem;
   }
   .card__wrapper .content a {
     font-size: 12px;
     margin: 5px;
+  }
+  .card__wrapper .slider__btn {
+    font-size: 13px;
   }
 }
 
@@ -3741,6 +3750,11 @@ figure.card > figcaption {
   background-color: var(--primary-clr-1);
   color: var(--clr-white);
   transition: 0.5s;
+}
+@media screen and (max-width: 360px) {
+  .slider__wrapper .slider-buttons .prev__btn, .slider__wrapper .slider-buttons .next__btn {
+    font-size: 1rem;
+  }
 }
 .slider__wrapper .slider-dots {
   position: absolute;
