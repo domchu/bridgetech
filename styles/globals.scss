@@ -3460,7 +3460,6 @@ grid-template-columns: 1fr;
     font-size:1.4rem;
     margin-bottom:10px;
     text-transform:uppercase;
-    // color:var(--primary-clr-2);
     color:red;
   }
   .content h2{
@@ -3474,8 +3473,7 @@ grid-template-columns: 1fr;
     background-color: var(--primary-clr-2);
     font-family: Rajdhani, sans-serif;
     padding:5px 8px;
-    font-size:1.2rem;
-
+    font-size:1.2rem;    
   }
   .content a:hover{
     background-color:var(--primary-clr-1);
@@ -3483,10 +3481,30 @@ grid-template-columns: 1fr;
   }
   @media screen and (max-width:#{$phone-width}) {
     .content h2{
-      font-size: 1.2rem !important;
+      font-size: 1.1rem !important;
     }
     .content a{
-      font-size: 1rem;
+      font-size: 14px;
+      margin:10px 7px;
+    }
+    .slider__btn{
+      padding:3px 5px;
+      background-color: #0077b6;
+      color: #ccc;
+      margin-top:10px;
+      border-radius: 5px;
+    }
+    .prev__btn, .next__btn{
+      font-size:20px;
+    }
+  }
+  @media screen and (max-width:#{$small-width}) {
+    .prev__btn, .next__btn{
+      font-size:14px;
+    }
+    .content a{
+      font-size: 12px;
+      margin:5px;
     }
   }
 }

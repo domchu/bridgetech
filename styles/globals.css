@@ -3667,10 +3667,30 @@ figure.card > figcaption {
 }
 @media screen and (max-width: 500px) {
   .card__wrapper .content h2 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
   .card__wrapper .content a {
-    font-size: 1rem;
+    font-size: 14px;
+    margin: 10px 7px;
+  }
+  .card__wrapper .slider__btn {
+    padding: 3px 5px;
+    background-color: #0077b6;
+    color: #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .card__wrapper .prev__btn, .card__wrapper .next__btn {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card__wrapper .prev__btn, .card__wrapper .next__btn {
+    font-size: 14px;
+  }
+  .card__wrapper .content a {
+    font-size: 12px;
+    margin: 5px;
   }
 }
 
