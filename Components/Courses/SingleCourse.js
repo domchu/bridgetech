@@ -31,7 +31,7 @@ const SingleCourse = ({
 }) => {
   return (
     <>
-      <Box classname="course-section wf-section">
+      <Box className="course-section wf-section">
         <Box className="section-gap-bottom-130">
           <Box className="container w-container">
             <Box className="course-section-block">

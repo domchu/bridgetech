@@ -14,7 +14,7 @@ const CoursesTab = () => {
                 Our <span className="sub_heading_span">Courses</span>
               </h1>
               <p>
-                The underlisted courses are offered by bridgekode, convinence,
+                The underlisted courses are offers by bridgekode, convinence,
                 affordable and easy to learn within the learners space.
               </p>
               <ul className="project-link">
@@ -46,14 +46,14 @@ const CoursesTab = () => {
                 </h2>
                 <Box className="section-text">
                   Your career path to finacial stability begin here and now.
-                  bridgekode software development services the only solution.
+                  bridgekode software development company the only solution.
                 </Box>
               </Box>
             </Box>
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="servce-collection-list w-dyn-list" role="list">
                 <Box className="course-container ">
-                  <CourseCard />   
+                  <CourseCard />
                 </Box>
               </Box>
             </Box>
