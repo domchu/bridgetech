@@ -8,12 +8,12 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const uxui = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux/Ui Design | Bridgekode Tech"
-        description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc  "
+        title="Ui'Ux Design | Bridgekode Tech"
+        description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc"
         {...SEO}
       />
       <Topnav />
@@ -22,13 +22,12 @@ const promanager = () => {
       <TeamProfile
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="Team Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/akpevwe102"
-        s
         image="/images/sammy.jpg"
       />
       <Testimonial />
@@ -37,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default uxui;

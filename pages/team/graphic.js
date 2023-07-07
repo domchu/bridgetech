@@ -8,11 +8,11 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const graphic = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Desinger | Bridgekode Tech"
+        title="Graphics Designer | Bridgekode Tech"
         description="Expert in Designing  using  illustrator, adobe, coraldraw, photoshop etc "
         {...SEO}
       />
@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Isaac Oti"
         title="Web/Graphic Designer"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="Team Lead/Chief Executive Officer at Webby Graphic & also web developer with over ten(2) years of creative and innovative  experience in IT field especially graphics designer, photography, etc."
         achievement="Best graduated student @ florintech comp college-2021  "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default graphic;

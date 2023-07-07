@@ -83,12 +83,12 @@ const ProjectCont = [
   },
   {
     id: "10",
-    image: "/images/project6.jpg",
-    title: "Cryptocurrency Site",
-    url: "/projects/crypto",
-    projectUrl: "https://www.google.com",
+    image: "/images/hospital.png",
+    title: "Hospital Landing Page",
+    url: "/projects/landing",
+    projectUrl: "https://mc-center-landing-page-plsl.vercel.app/",
     comments:
-      "These cryptocurrency website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics, difference payments gateway etc.",
+      "These hospital landing page was done using html, css, Javascript, Sass, and others libraries like fontawesome,  etc.",
   },
   {
     id: "11",

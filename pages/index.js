@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <Slider>
         <Card
-          img="/images/web.jpg"
+          img="/images/web11.jpg"
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>

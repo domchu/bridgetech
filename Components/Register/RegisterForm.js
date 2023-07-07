@@ -20,7 +20,7 @@ const initValues = {
 
 const initState = { values: initValues };
 
-const Nodemailerform = () => {
+const RegisterForm = () => {
   const [state, setState] = useState(initState);
   const [touched, setTouched] = useState({});
   const { values, isLoading } = state;
@@ -157,4 +157,4 @@ const Nodemailerform = () => {
   );
 };
 
-export default Nodemailerform;
+export default RegisterForm;

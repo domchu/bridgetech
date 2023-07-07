@@ -3,7 +3,7 @@ import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
 import Footer from "../../Components/Footer/Footer";
 import Register from "../../Components/Register/Register";
-import Nodemailerform from "../../Components/Register/Nodemailerform";
+import RegisterForm from "../../Components/Register/RegisterForm";
 import NewsLetter from "../../Components/NewsLetter";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -19,7 +19,7 @@ const form = () => {
       <Topnav />
       <Header />
       <Register />
-      <Nodemailerform />
+      <RegisterForm />
       <NewsLetter />
       <Footer />
     </>

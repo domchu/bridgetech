@@ -13,7 +13,7 @@ const TeamSingleHead = ({teamTitle}) => {
                 Team <span className="sub_heading_span">Profile</span>
               </h1>
               <p>
-                The underlisted details of bridgekode team members, expert &
+                The underlisted details of bridgekode team members are expert &
                 knowledgeable in he/her field of practice.
               </p>
               <ul className="project-link">

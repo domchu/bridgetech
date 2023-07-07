@@ -8,7 +8,7 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const juniorwriter = () => {
   return (
     <>
       <DefaultSeo
@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Ochu Oyame"
         title="Junior Copywriter"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over seven(2) years of experience."
         achievement="Most Valuable counselor - 2018 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default juniorwriter;
