@@ -8,12 +8,12 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const uxui = () => {
   return (
     <>
       <DefaultSeo
         title="Ui'Ux Design | Bridgekode Tech"
-        description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc  "
+        description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc"
         {...SEO}
       />
       <Topnav />
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default uxui;

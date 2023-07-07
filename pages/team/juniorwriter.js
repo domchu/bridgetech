@@ -8,7 +8,7 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const juniorwriter = () => {
   return (
     <>
       <DefaultSeo
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default juniorwriter;
