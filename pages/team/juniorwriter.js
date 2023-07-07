@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Ochu Oyame"
         title="Junior Copywriter"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over seven(2) years of experience."
         achievement="Most Valuable counselor - 2018 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
