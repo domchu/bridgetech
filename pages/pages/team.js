@@ -12,7 +12,7 @@ const team = () => {
   return (
     <div>
       <DefaultSeo
-        title="Bridgekode Team | Bridgekode Tech"
+        title="Team Bridgekode | Bridgekode Tech"
         description="Human resourses of bridgekode, hale & hearty, exparte, knowledgeable & experience "
         {...SEO}
       />

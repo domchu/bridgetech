@@ -8,11 +8,11 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const graphic = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Desinger | Bridgekode Tech"
+        title="Graphics Designer | Bridgekode Tech"
         description="Expert in Designing  using  illustrator, adobe, coraldraw, photoshop etc "
         {...SEO}
       />
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default graphic;
