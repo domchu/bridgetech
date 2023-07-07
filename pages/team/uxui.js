@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux/Ui Design | Bridgekode Tech"
+        title="Ui'Ux Design | Bridgekode Tech"
         description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc  "
         {...SEO}
       />
@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
-        biography="eam Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
+        biography="Team Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"

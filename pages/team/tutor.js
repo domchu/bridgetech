@@ -8,7 +8,7 @@ import TeamProfile from "../../Components/TeamProfile/TeamProfile";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const promanager = () => {
+const tutor = () => {
   return (
     <>
       <DefaultSeo
@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name=" JnpRof J."
         title="Web Development Tutor"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="An innovative frontend developer and a web tutor at florintech computer company with over two(2) years of experience leveraging javascript, html, css and general web tools."
         achievement="Best Javascript Tutor - 2022 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
@@ -36,4 +36,4 @@ const promanager = () => {
   );
 };
 
-export default promanager;
+export default tutor;
