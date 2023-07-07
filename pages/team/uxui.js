@@ -22,7 +22,7 @@ const promanager = () => {
       <TeamProfile
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
-        biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
+        biography="eam Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"
