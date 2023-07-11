@@ -826,6 +826,10 @@ nav {
   font-size: 20px;
   font-weight: 700;
 }
+.project__contents h3:hover {
+  color: var(--natural-clr-3);
+  transition: 0.5s;
+}
 .project__contents p {
   margin-bottom: 1rem;
   font-weight: 500;
@@ -836,6 +840,10 @@ nav {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+}
+.pointer-arrow:hover {
+  color: var(--natural-clr-3);
+  transition: 0.5s;
 }
 
 .project__contents {
