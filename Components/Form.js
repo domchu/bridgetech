@@ -1,7 +1,15 @@
 import React, { useRef } from "react";
 import { Box } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+  Input,
+} from "@chakra-ui/react";
 
+// FUNCTIONAL .........................
 const Form = () => {
   const form = useRef();
   // HANDLE CONTACT FORM
@@ -51,10 +59,19 @@ const Form = () => {
                       data-name="Contact-Name"
                       placeholder="Name*"
                       maxLength="256"
-                      // pattern="[a-zA-z]{3}"
                       required={true}
                       className="default-input-field w-input"
                     />
+                    <FormControl isRequired>
+                      <FormLabel>First name*</FormLabel>
+                      <Input
+                        placeholder="First name*"
+                        type="text"
+                        name="name"
+                        errorBorderColor="red:300"
+                      />
+                      <FormErrorMessage>Name is required</FormErrorMessage>
+                    </FormControl>
                     <input
                       type="email"
                       name="user_email"
