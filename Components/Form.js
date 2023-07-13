@@ -120,6 +120,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>First name</FormLabel>
                       <Input
+                        style={{ border: "1px solid #77b6d8", height: "54px" }}
                         type="text"
                         name="user_name"
                         id="Contact-Name"
@@ -132,6 +133,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>Email Address</FormLabel>
                       <Input
+                        style={{ border: "1px solid #77b6d8", height: "54px" }}
                         type="email"
                         name="user_email"
                         id="email"
@@ -144,6 +146,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>Phone Number</FormLabel>
                       <Input
+                        style={{ border: "1px solid #77b6d8", height: "54px" }}
                         type="tel"
                         name="user_number"
                         id="phone"
@@ -162,6 +165,7 @@ const Form = () => {
                         type="message"
                         maxLength="5000"
                         data-name="field"
+                        style={{ border: "1px solid #77b6d8" }}
                         // isInvalid
                         placeholder="Write Message...*"
                         className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"

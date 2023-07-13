@@ -1237,11 +1237,11 @@ strong {
   border-radius: 12px;
   background-color: var(--clr-white);
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.04);
-  color: var(--clr-black);
   color: #686d76;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.8px;
+  border: 1px solid var(--primary-clr-1);
 }
 
 .w-input {
