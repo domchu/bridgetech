@@ -1,5 +1,6 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import { Checkbox, Box } from "@chakra-ui/react";
+import { CheckboxGroup } from "@chakra-ui/react";
 import Link from "next/link";
 
 const Quotes = () => {
@@ -92,56 +93,44 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Website
-                              </span>
-                            </label>
-                            {/* <label htmlFor=""></label> */}
+                              Website
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="App "
-                                id="App "
-                                data-name="App "
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                APP Development
-                              </span>
-                            </label>
+                              APP Development
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="checkbox-2"
-                                id="checkbox-2"
-                                data-name="checkbox-2"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Graphic Design
-                              </span>
-                            </label>
+                              Graphic Design
+                            </Checkbox>
+                          </li>
+                          <li className="quote-project-item">
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              IT Trianing
+                            </Checkbox>
+                          </li>
+                          <li>
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Kids Coding
+                            </Checkbox>
                           </li>
                         </ul>
                       </Box>
@@ -151,124 +140,61 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-group"
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Development
-                              </span>
-                            </label>
+                              Web Development
+                            </Checkbox>
+                          </li>
+
+                          <li className="quote-project-item">
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Business Website
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Design
-                              </span>
-                            </label>
-                            <label htmlFor="form-control"></label>
+                              Web Maintenance
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Management
-                              </span>
-                            </label>
+                              API works
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                API
-                              </span>
-                            </label>
+                              E-commerce
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                E-commerce
-                              </span>
-                            </label>
+                              UI / UX
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                UI / UX
-                              </span>
-                            </label>
-                          </li>
-                          <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
-                            >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Training
-                              </span>
-                            </label>
+                              Web Training
+                            </Checkbox>
                           </li>
                         </ul>
                       </Box>
