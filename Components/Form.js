@@ -6,6 +6,7 @@ import {
   FormLabel,
   FormErrorMessage,
   FormHelperText,
+  Textarea,
   Input,
 } from "@chakra-ui/react";
 
@@ -62,16 +63,7 @@ const Form = () => {
                       required={true}
                       className="default-input-field w-input"
                     />
-                    <FormControl isRequired>
-                      <FormLabel>First name*</FormLabel>
-                      <Input
-                        placeholder="First name*"
-                        type="text"
-                        name="name"
-                        errorBorderColor="red:300"
-                      />
-                      <FormErrorMessage>Name is required</FormErrorMessage>
-                    </FormControl>
+
                     <input
                       type="email"
                       name="user_email"
@@ -111,6 +103,35 @@ const Form = () => {
                       data-wait="please wait..."
                     />
                   </Box>
+                </form>
+
+                {/* NEW FORM  */}
+                <form
+                  ref={form}
+                  onSubmit={handleContactForm}
+                  action="value"
+                  id="wf-form-contact-form"
+                  className="contact-form"
+                  name="wf-form-Contact-form"
+                  method="post"
+                  data-name="Contact form"
+                >
+                  <FormControl isRequired>
+                    <FormLabel>First name</FormLabel>
+                    <Input placeholder="First name" />
+                  </FormControl>
+                  <FormControl isRequired>
+                    <FormLabel>Email Adress*</FormLabel>
+                    <Input placeholder="Email Adress*" />
+                  </FormControl>
+                  <FormControl isRequired>
+                    <FormLabel>Phone Number*</FormLabel>
+                    <Input placeholder="Phone Number*" />
+                  </FormControl>
+                  <FormControl isRequired>
+                    <FormLabel>Write Message*</FormLabel>
+                    <Textarea isInvalid placeholder="Write Message*" />
+                  </FormControl>
                 </form>
               </Box>
             </Box>
