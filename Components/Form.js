@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Box } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import {
   FormControl,
@@ -116,22 +116,67 @@ const Form = () => {
                   method="post"
                   data-name="Contact form"
                 >
+                  <Box className="contact-input-group">
+                    <FormControl isRequired>
+                      <FormLabel>First name</FormLabel>
+                      <Input
+                        type="text"
+                        name="user_name"
+                        id="Contact-Name"
+                        data-name="Contact-Name"
+                        maxLength="256"
+                        className="default-input-field w-input"
+                        placeholder="First name"
+                      />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Email Address</FormLabel>
+                      <Input
+                        type="email"
+                        name="user_email"
+                        id="email"
+                        data-name="email"
+                        maxLength="256"
+                        className="default-input-field w-input"
+                        placeholder="Email Address*"
+                      />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Phone Number</FormLabel>
+                      <Input
+                        type="tel"
+                        name="user_number"
+                        id="phone"
+                        data-name="phone"
+                        maxLength="256"
+                        placeholder="Phone Number*"
+                        className="default-input-field w-input"
+                      />
+                    </FormControl>
+                  </Box>
                   <FormControl isRequired>
-                    <FormLabel>First name</FormLabel>
-                    <Input placeholder="First name" />
+                    <FormLabel>Write Message</FormLabel>
+                    <Box className="contact-input-group">
+                      <Textarea
+                        name="message"
+                        type="message"
+                        maxLength="5000"
+                        data-name="field"
+                        // isInvalid
+                        placeholder="Write Message...*"
+                        className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
+                        id="Contact-Message"
+                      />
+                    </Box>
                   </FormControl>
-                  <FormControl isRequired>
-                    <FormLabel>Email Adress*</FormLabel>
-                    <Input placeholder="Email Adress*" />
-                  </FormControl>
-                  <FormControl isRequired>
-                    <FormLabel>Phone Number*</FormLabel>
-                    <Input placeholder="Phone Number*" />
-                  </FormControl>
-                  <FormControl isRequired>
-                    <FormLabel>Write Message*</FormLabel>
-                    <Textarea isInvalid placeholder="Write Message*" />
-                  </FormControl>
+                  <Button
+                    colorScheme="facebook"
+                    type="submit"
+                    value="Send Now"
+                    className="primary-button margin-top-50 w-button"
+                  >
+                    Send Now
+                  </Button>
                 </form>
               </Box>
             </Box>
