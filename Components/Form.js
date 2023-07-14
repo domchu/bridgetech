@@ -5,7 +5,6 @@ import {
   FormControl,
   FormLabel,
   FormErrorMessage,
-  FormHelperText,
   Textarea,
   Input,
 } from "@chakra-ui/react";
@@ -118,7 +117,7 @@ const Form = () => {
                 >
                   <Box className="contact-input-group">
                     <FormControl isRequired>
-                      <FormLabel>First name</FormLabel>
+                      <FormLabel>First Name</FormLabel>
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="text"
@@ -127,7 +126,7 @@ const Form = () => {
                         data-name="Contact-Name"
                         maxLength="256"
                         className="default-input-field w-input"
-                        placeholder="First name"
+                        placeholder="First name*"
                       />
                     </FormControl>
                     <FormControl isRequired>
