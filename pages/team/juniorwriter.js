@@ -22,7 +22,7 @@ const juniorwriter = () => {
       <TeamProfile
         name="Ochu Oyame"
         title="Junior Copywriter"
-        biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over seven(2) years of experience."
+        biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over one(1) years of experience."
         achievement="Most Valuable counselor - 2018 "
         linkedinlink="https://linkedin.com/in/"
         facebooklink="https://www.facebook.com/"
