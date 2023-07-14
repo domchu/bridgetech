@@ -24,10 +24,10 @@ const promanager = () => {
         title="Project Manager"
         biography="The Chief Executive Officer of Florintech Computer College, Best coding school in Ojo-Lagos state, with over ten(10) years of versatile experience in IT field such programming, Branding, SEO expert, Microsoft suite, Graphics, to list but a few."
         achievement="Best Coding School at Ojo-Lagos "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/olatundesleek"
+        facebooklink="https://www.facebook.com/olatundesleek"
+        instagramlink="https://instagram.com/olatundesleek"
+        twitterlink="https://twitter.com/olatundesleek"
         image="/images/mr-sleek.jpg"
       />
       <Testimonial />
