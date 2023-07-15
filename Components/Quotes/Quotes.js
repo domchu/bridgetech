@@ -112,6 +112,7 @@ const Quotes = () => {
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -120,6 +121,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -128,6 +130,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -136,6 +139,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -144,6 +148,7 @@ const Quotes = () => {
                           </li>
                           <li>
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -159,6 +164,7 @@ const Quotes = () => {
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -168,6 +174,7 @@ const Quotes = () => {
 
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -176,6 +183,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -184,6 +192,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -192,6 +201,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -200,6 +210,7 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -208,10 +219,29 @@ const Quotes = () => {
                           </li>
                           <li className="quote-project-item">
                             <Checkbox
+                              type="checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
                               Web Training
+                            </Checkbox>
+                          </li>
+                          <li className="quote-project-item">
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Front-End Dev.
+                            </Checkbox>
+                          </li>
+                          <li className="quote-project-item">
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Back-End Dev.
                             </Checkbox>
                           </li>
                         </ul>
