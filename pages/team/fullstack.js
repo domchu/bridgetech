@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Fullstack Engineer | Bridgekode Tech"
+        title="Fullstack Engineer | Bridgekode Team"
         description="Fullstack engineer with Java, PHP, Python, Mobile & desktop apps development, Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />

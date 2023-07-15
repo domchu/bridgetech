@@ -12,7 +12,7 @@ const tutor = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Design Tutor | Bridgekode Tech"
+        title="Web Design Tutor | Bridgekode Team"
         description="Dedicated tutor with more than three(3) experience using HTML, CSS, Jest, Javaceript, Git/Github etc etc  "
         {...SEO}
       />
