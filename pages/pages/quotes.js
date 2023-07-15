@@ -12,8 +12,8 @@ const quotes = () => {
   return (
     <>
       <DefaultSeo
-        title="Quote| Bridgekode Tech"
-        description="We will get back to you as soon as possible."
+        title="Quote | Bridgekode Tech"
+        description="Let's have your project budget and We will get back to you as soon as possible."
         {...SEO}
       />
       <Topnav />

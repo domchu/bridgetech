@@ -128,7 +128,7 @@ const RegisterForm = () => {
             style={{ border: "1px solid #77b6d8", width: "480px" }}
             placeholder="Write Us Message*"
             type="text"
-            rows={5}
+            rows={10}
             name="message"
             value={values.message}
             onChange={handleInputChange}

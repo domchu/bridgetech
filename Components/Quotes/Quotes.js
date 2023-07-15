@@ -5,8 +5,7 @@ import {
   Button,
   FormControl,
   FormLabel,
-  FormErrorMessage,
-  Textarea,
+  
   Input,
 } from "@chakra-ui/react";
 
@@ -225,7 +224,9 @@ const Quotes = () => {
                     >
                       <Box className="quote-input-group-item">
                         <FormControl isRequired>
-                          <FormLabel className="quote-subtitle">When should we start?</FormLabel>
+                          <FormLabel className="quote-subtitle">
+                            When should we start?
+                          </FormLabel>
                           <Input
                             style={{
                               border: "1px solid #77b6d8",
@@ -243,7 +244,9 @@ const Quotes = () => {
                       </Box>
                       <Box className="quote-input-group-item">
                         <FormControl isRequired>
-                          <FormLabel className="quote-subtitle">When should we start?</FormLabel>
+                          <FormLabel className="quote-subtitle">
+                            When should we start?
+                          </FormLabel>
                           <Input
                             style={{
                               border: "1px solid #77b6d8",
@@ -267,7 +270,7 @@ const Quotes = () => {
                     className="contact-input-group"
                     id="w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7"
                   >
-                    {/* <Box className="quote-subtitle">What's your budget?</Box>
+                    <Box className="quote-subtitle">What's your budget?</Box>
                     <input
                       type="number"
                       name="Product-Budget"
@@ -276,7 +279,7 @@ const Quotes = () => {
                       maxLength="256"
                       required={true}
                       className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
-                    /> */}
+                    />
                     <FormControl isRequired>
                       <FormLabel className="quote-subtitle">
                         What's Your Budget?
