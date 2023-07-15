@@ -24,10 +24,10 @@ const promanager = () => {
         title="Hardware/Network Engineer"
         biography="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium architecto quasi, reprehenderit temporibus accusantium commodi dolorum. Illo, rerum cupiditate."
         achievement="Best networker by Betking -2020,2021,2022 "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/emmanuel-lawrence-dimkpa-ebgr-96a161123"
+        facebooklink="https://www.facebook.com/dimkpa.lawrence"
+        instagramlink="https://instagram.com/engr.lawrence"
+        twitterlink="https://twitter.com/cyberdyne_tech"
         image="/images/lawrence.jpg"
       />
       <Testimonial />

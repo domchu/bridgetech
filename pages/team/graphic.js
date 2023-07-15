@@ -26,7 +26,7 @@ const graphic = () => {
         achievement="Best graduated student @ florintech comp college-2021  "
         linkedinlink="https://linkedin.com/in/chinaza-oti"
         facebooklink="https://www.facebook.com/profile.php?id=100077366905478"
-        instagramlink="https://instagram.com/webby_345."
+        instagramlink="https://instagram.com/webby_345"
         twitterlink="https://twitter.com/webby_345"
         image="/images/isaac.jpg"
       />
