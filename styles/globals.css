@@ -1362,6 +1362,10 @@ strong {
   margin-bottom: 15px;
 }
 
+.contact-input-group {
+  width: 100%;
+}
+
 .w-checkbox-input--inputType-custom {
   border-top-width: 1px;
   border-bottom-width: 1px;

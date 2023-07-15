@@ -265,13 +265,17 @@ const Quotes = () => {
                       </Box>
                     </Box>
                   </Box>
-                  <Box
+                  <FormControl
+                    isRequired
                     style={{ width: "100%" }}
                     className="contact-input-group"
                     id="w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7"
                   >
-                    <Box className="quote-subtitle">What's your budget?</Box>
-                    <input
+                    <FormLabel className="quote-subtitle">
+                      What's your budget?
+                    </FormLabel>
+                    <Input
+                      style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
                       name="Product-Budget"
                       id="Product-Budget-2"
@@ -280,25 +284,7 @@ const Quotes = () => {
                       required={true}
                       className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
                     />
-                    <FormControl isRequired>
-                      <FormLabel className="quote-subtitle">
-                        What's Your Budget?
-                      </FormLabel>
-                      <Input
-                        style={{
-                          border: "1px solid #77b6d8",
-                          height: "48px",
-                          width: "100%",
-                        }}
-                        type="number"
-                        name="Product-Budget"
-                        id="Product-Budget-2"
-                        maxLength="256"
-                        placeholder="Type Your Budget*"
-                        className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
-                      />
-                    </FormControl>
-                  </Box>
+                  </FormControl>
                   <Button
                     colorScheme="facebook"
                     type="submit"
