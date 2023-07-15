@@ -24,7 +24,7 @@ const promanager = () => {
         title="Senior Content Writer"
         biography="An English language tutor, a creative writer & an editor of articles, brochure, journals and magazines on various platforms with over seven(7) years of experience. "
         achievement="Best English Tutor - 2022 "
-        linkedinlink="https://linkedin.com/in/"
+        linkedinlink="https://linkedin.com/in/uchechi-ekeh-056b05281/"
         facebooklink="https://www.facebook.com/"
         instagramlink="https://instagram.com/"
         twitterlink="https://twitter.com/"

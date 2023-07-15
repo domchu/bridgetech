@@ -25,8 +25,8 @@ const juniorwriter = () => {
         biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over one(1) years of experience."
         achievement="Most Valuable counselor - 2018 "
         linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
+        facebooklink="https://www.facebook.com/Ochu-Comfort"
+        instagramlink="https://instagram.com/ochucomfort/"
         twitterlink="https://twitter.com/"
         image="/images/comfort.jpg"
       />
