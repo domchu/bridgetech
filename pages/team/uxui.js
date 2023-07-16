@@ -12,7 +12,7 @@ const uxui = () => {
   return (
     <>
       <DefaultSeo
-        title="Ui'Ux Design | Bridgekode Tech"
+        title="Ui'Ux Design | Bridgekode Team"
         description="Expert in Designing templates using Figma, illustrator, adobe, coraldraw, photoshop etc"
         {...SEO}
       />
@@ -22,7 +22,7 @@ const uxui = () => {
       <TeamProfile
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
-        biography="Team Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
+        biography="I am a talented and ambitious UI/UX designer with less than 2 years of professional experience in the field. With a passion for creating captivating user experiences and a keen eye for detail,  dedicated to crafting visually appealing and intuitive designs that resonate with users."
         achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"

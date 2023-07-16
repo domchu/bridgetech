@@ -12,7 +12,7 @@ const graphic = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Designer | Bridgekode Tech"
+        title="Graphics Designer | Bridgekode Team"
         description="Expert in Designing  using  illustrator, adobe, coraldraw, photoshop etc "
         {...SEO}
       />
@@ -24,10 +24,10 @@ const graphic = () => {
         title="Web/Graphic Designer"
         biography="Team Lead/Chief Executive Officer at Webby Graphic & also web developer with over ten(2) years of creative and innovative  experience in IT field especially graphics designer, photography, etc."
         achievement="Best graduated student @ florintech comp college-2021  "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/chinaza-oti"
+        facebooklink="https://www.facebook.com/profile.php?id=100077366905478"
+        instagramlink="https://instagram.com/webby_345"
+        twitterlink="https://twitter.com/webby_345"
         image="/images/isaac.jpg"
       />
       <Testimonial />

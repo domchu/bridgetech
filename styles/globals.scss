@@ -826,6 +826,10 @@ nav {
   font-size: 20px;
   font-weight: 700;
 }
+.project__contents h3:hover {
+  color: var(--natural-clr-3);
+  transition: 0.5s;
+}
 .project__contents p {
   margin-bottom: 1rem;
   font-weight: 500;
@@ -836,6 +840,10 @@ nav {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+}
+.pointer-arrow:hover {
+  color: var(--natural-clr-3);
+  transition: 0.5s;
 }
 
 .project__contents {
@@ -1202,11 +1210,12 @@ strong {
   border-radius: 12px;
   background-color: var(--clr-white);
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.04);
-  color: var(--clr-black);
+  // color: var(--clr-black);
   color: #686d76;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.8px;
+  border:1px solid var(--primary-clr-1)
 }
 .w-input {
   display: block;
@@ -1308,11 +1317,12 @@ strong {
   grid-column-start: span 3;
   grid-column-end: span 3;
 }
+
 #Product-Budget-2.w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 {
   grid-row-start: span 1;
   grid-row-end: span 1;
   grid-column-start: span 3;
-  // grid-column-end: span 3;
+  grid-column-end: span 4;
 }
 
 .quote-input-group {
@@ -1327,39 +1337,9 @@ strong {
 .quote-input-group-item {
   margin-bottom: 15px;
 }
-label {
-  font-weight: bold;
-}
-.w-checkbox {
-  margin-bottom: 5px;
-  margin-right: 10px;
-  // padding-left: 20px;
-}
-.checkbox-field {
-  display: flex;
-  align-items: center;
-  align-self: flex-start;
-}
 
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-.checkbox.w--redirected-focus {
-  border-color: #5853ec;
-}
-
-.checkbox {
-  width: 20px;
-  height: 20px;
-  border-color: #0077b6;
-  margin: 0px 6px 0px 0px;
-  border-style: 1px solid;
-}
-.checkbox {
-  margin-right: 8px !important;
-  height: 20px;
-  width: 20px;
+.contact-input-group {
+  width: 100%;
 }
 .w-checkbox-input--inputType-custom {
   border-top-width: 1px;
@@ -1387,40 +1367,9 @@ input[type="checkbox"] {
   margin-top: 4px;
   line-height: normal;
 }
-
-.w-form-label {
-  display: inline-block;
-  cursor: pointer;
-  font-weight: normal;
-  margin-bottom: 0px;
-}
-.checkbox.no-padding-checkbox {
-  margin-top: 0px;
-}
-.w-checkbox::before {
-  content: " ";
-  display: table;
-}
-.w-checkbox::after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-label {
-  font-weight: bold;
-}
 .quote-form-block {
   width: 100%;
   margin-bottom: 0px;
-}
-
-.checkbox.w--redirected-checked {
-  border-color: #0077b6;
-  background-color: #0077b6;
-  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633142b0d726c72dd1db64e0_check-16px.svg");
-  background-position: 50% 50%;
-  background-size: auto;
-  box-shadow: none;
 }
 
 #w-node-bde85bbb-254f-6ba9-3d7e-cc5d3fb19536-a714e7e7 {
@@ -3311,8 +3260,8 @@ figure.card > figcaption {
   position: fixed;
   z-index: 20;
   bottom: 12vh;
-  background-color: #dcdcdc;
-  color: var(--primary-clr-5);
+  background-color: var(--natural-clr-4);;
+  color: var(--clr-white);
   right: 5%;
   padding: 7px;
   border-radius: 50%;
@@ -3321,9 +3270,10 @@ figure.card > figcaption {
   font-weight: 600;
 }
 .back-to-top:hover {
-  transition: 0.3s;
-  color: var(--primary-clr-2);
-  background-color: #dcdcdc;
+  background-color: var(--primary-clr-1);
+  color: var(--clr-white);
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
 // THE COURSE PAGE CSS

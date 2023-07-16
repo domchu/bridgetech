@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Admin Officer | Bridgekode Tech"
+        title="Admin Officer | Bridgekode Team"
         description="General secretary and admin in bridgekode"
         {...SEO}
       />
@@ -26,8 +26,8 @@ const promanager = () => {
         answering incoming & outgoing correspondence."
         achievement="Face of SAMRACK Travelling Agency - 2015"
         linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
+        facebooklink="https://www.facebook.com/nwabudike.ify"
+        instagramlink="https://instagram.com/nwabudikeify"
         twitterlink="https://twitter.com/"
         image="/images/ify.jpg"
       />

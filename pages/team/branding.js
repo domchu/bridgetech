@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Branding Expert | Bridgekode Tech"
+        title="Branding Expert | Bridgekode Team"
         description="Experte in branding & SEO"
         {...SEO}
       />
@@ -24,10 +24,10 @@ const promanager = () => {
         title="Branding/SEO Expert"
         biography="Team Lead/Chief Executive Officer at The Xclusive Media & also CIT at MFM-R9 with over ten(5) years of versatile experience in IT field especially Content Management System(CMS), Branding, SEO expert, etc."
         achievement="Best ICT personel by MFM-R9 -2020 "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/owoicho-emmanuel-a95301152"
+        facebooklink="https://www.facebook.com/Thexclusivemedia/"
+        instagramlink="https://instagram.com/thexclusive_media"
+        twitterlink="https://twitter.com/thexclusive_media"
         image="/images/emma.jpg"
       />
       <Testimonial />

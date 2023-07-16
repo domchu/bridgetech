@@ -1,5 +1,14 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import {
+  Checkbox,
+  Box,
+  Button,
+  FormControl,
+  FormLabel,
+  
+  Input,
+} from "@chakra-ui/react";
+
 import Link from "next/link";
 
 const Quotes = () => {
@@ -49,37 +58,47 @@ const Quotes = () => {
                   method="post"
                 >
                   <Box className="contact-input-group">
-                    <input
-                      type="text"
-                      name="Contact-Name"
-                      id="Contact-Name"
-                      data-name="Contact-Name"
-                      placeholder="Name*"
-                      maxLength="256"
-                      pattern="[a-zA-z]{3}"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      data-name="email"
-                      placeholder="*Email"
-                      maxLength="256"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
-                    <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
-                      data-name="phone"
-                      placeholder="Phone*"
-                      maxLength="256"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
+                    <FormControl isRequired>
+                      <FormLabel>Full Name</FormLabel>
+                      <Input
+                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        type="text"
+                        name="user_name"
+                        id="Contact-Name"
+                        data-name="Contact-Name"
+                        maxLength="256"
+                        className="default-input-field w-input"
+                        placeholder="Full Name*"
+                      />
+                    </FormControl>
+
+                    <FormControl isRequired>
+                      <FormLabel>Email Address</FormLabel>
+                      <Input
+                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        type="email"
+                        name="user_email"
+                        id="email"
+                        data-name="email"
+                        maxLength="256"
+                        className="default-input-field w-input"
+                        placeholder="Email Address*"
+                      />
+                    </FormControl>
+
+                    <FormControl isRequired>
+                      <FormLabel>Phone Number</FormLabel>
+                      <Input
+                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        type="tel"
+                        name="user_number"
+                        id="phone"
+                        data-name="phone"
+                        maxLength="256"
+                        placeholder="Phone Number*"
+                        className="default-input-field w-input"
+                      />
+                    </FormControl>
                   </Box>
                   <Box className="quote-input-group">
                     <Box
@@ -92,56 +111,49 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Website
-                              </span>
-                            </label>
-                            {/* <label htmlFor=""></label> */}
+                              Website
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="App "
-                                id="App "
-                                data-name="App "
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                APP Development
-                              </span>
-                            </label>
+                              APP Development
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="checkbox-2"
-                                id="checkbox-2"
-                                data-name="checkbox-2"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Graphic Design
-                              </span>
-                            </label>
+                              Graphic Design
+                            </Checkbox>
+                          </li>
+                          <li className="quote-project-item">
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              IT Trianing
+                            </Checkbox>
+                          </li>
+                          <li>
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Kids Coding
+                            </Checkbox>
                           </li>
                         </ul>
                       </Box>
@@ -151,124 +163,86 @@ const Quotes = () => {
                         </Box>
                         <ul className="quote-project-list" role="list">
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-group"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Development
-                              </span>
-                            </label>
+                              Web Development
+                            </Checkbox>
+                          </li>
+
+                          <li className="quote-project-item">
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Business Website
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Design
-                              </span>
-                            </label>
-                            <label htmlFor="form-control"></label>
+                              Web Maintenance
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor=""
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Management
-                              </span>
-                            </label>
+                              API works
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                API
-                              </span>
-                            </label>
+                              E-commerce
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                E-commerce
-                              </span>
-                            </label>
+                              UI / UX
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                UI / UX
-                              </span>
-                            </label>
+                              Web Training
+                            </Checkbox>
                           </li>
                           <li className="quote-project-item">
-                            <label
-                              className="w-checkbox checkbox-field"
-                              htmlFor="form-control"
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
                             >
-                              <input
-                                type="checkbox"
-                                name="Website"
-                                id="Website"
-                                data-name="Website"
-                                className="checkbox w--redirected-checked w--redirected-focus"
-                              />
-                              <span className="w-form-label" for="website">
-                                Web Training
-                              </span>
-                            </label>
+                              Front-End Dev.
+                            </Checkbox>
+                          </li>
+                          <li className="quote-project-item">
+                            <Checkbox
+                              type="checkbox"
+                              size="md"
+                              style={{ fontWeight: "normal" }}
+                            >
+                              Back-End Dev.
+                            </Checkbox>
                           </li>
                         </ul>
                       </Box>
@@ -279,59 +253,77 @@ const Quotes = () => {
                       id="w-node-_80973ae5-dee8-7587-fcb1-9ff3f51629c1-a714e7e7"
                     >
                       <Box className="quote-input-group-item">
-                        <Box className="quote-subtitle">
-                          When should we start?
-                        </Box>
-                        <input
-                          type="text"
-                          name="Field"
-                          id="field"
-                          data-name="field"
-                          placeholder="Type  Date*"
-                          maxLength="256"
-                          required={true}
-                          className="default-input-field w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
-                        />
+                        <FormControl isRequired>
+                          <FormLabel className="quote-subtitle">
+                            When should we start?
+                          </FormLabel>
+                          <Input
+                            style={{
+                              border: "1px solid #77b6d8",
+                              height: "48px",
+                            }}
+                            type="text"
+                            name="field"
+                            id="field"
+                            data-name="field"
+                            maxLength="256"
+                            className="default-input-field "
+                            placeholder="Type Date*"
+                          />
+                        </FormControl>
                       </Box>
                       <Box className="quote-input-group-item">
-                        <Box className="quote-subtitle">
-                          When would you like it done?
-                        </Box>
-                        <input
-                          type="text"
-                          name="Field 2"
-                          id="field-2"
-                          data-name="field-2"
-                          placeholder="Type  Date*"
-                          maxLength="256"
-                          required={true}
-                          className="default-input-field w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
-                        />
+                        <FormControl isRequired>
+                          <FormLabel className="quote-subtitle">
+                            When should we start?
+                          </FormLabel>
+                          <Input
+                            style={{
+                              border: "1px solid #77b6d8",
+                              height: "48px",
+                              width: "100%",
+                            }}
+                            type="text"
+                            name="field 2"
+                            id="field-2"
+                            data-name="field 2"
+                            maxLength="256"
+                            className="default-input-field "
+                            placeholder="Type End Date*"
+                          />
+                        </FormControl>
                       </Box>
                     </Box>
                   </Box>
-                  <Box
+                  <FormControl
+                    isRequired
+                    style={{ width: "100%" }}
                     className="contact-input-group"
                     id="w-node-_39389747-c504-b3cd-cb6d-5870509bdd13-a714e7e7"
                   >
-                    <Box className="quote-subtitle">What's your budget?</Box>
-                    <input
+                    <FormLabel className="quote-subtitle">
+                      What's your budget?
+                    </FormLabel>
+                    <Input
+                      style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
                       name="Product-Budget"
                       id="Product-Budget-2"
-                      data-name="Product-Budget"
                       placeholder="Type your budget*"
                       maxLength="256"
                       required={true}
                       className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
                     />
-                  </Box>
-                  <input
+                  </FormControl>
+                  <Button
+                    colorScheme="facebook"
                     type="submit"
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
-                  />
+                  >
+                    Send Now
+                  </Button>
                 </form>
               </Box>
             </Box>

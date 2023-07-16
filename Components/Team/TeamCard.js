@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import FaceBook from "../../public/images/facebook-icon.png";
 import Twitter from "../../public/images/twitter-icon.png";
-import Linkedin from "../../public/images/skype-icon.png";
+import Linkedin from "../../public/images/linkedin.jpg";
 import Instagram from "../../public/images/instagram-icon.png";
 
 const TeamCard = () => {

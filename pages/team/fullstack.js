@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Fullstack Engineer | Bridgekode Tech"
+        title="Fullstack Engineer | Bridgekode Team"
         description="Fullstack engineer with Java, PHP, Python, Mobile & desktop apps development, Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />
@@ -24,10 +24,10 @@ const promanager = () => {
         title="FullStack Software Engineer."
         biography="Team lead/CEO at Jaflah Software Development Company & also The Chief Technology Officer (CTO) at Manilla with over ten(10) years of versatile experience in IT field especially Mobile apps, Desktop apps, Banks apps, Data-Sci with Python, Full stack Development."
         achievement="Best programmer by LASPOTECH/LASUTECH - 2019, 2020, 2021 "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/mudashir-tunde-899688168/"
+        facebooklink="https://www.facebook.com/jaflah03"
+        instagramlink="https://instagram.com/teekingtv_"
+        twitterlink="https://twitter.com/teekingtv_"
         image="/images/tunde.jpg"
       />
       <Testimonial />

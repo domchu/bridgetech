@@ -12,7 +12,7 @@ const tutor = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Design Tutor | Bridgekode Tech"
+        title="Web Design Tutor | Bridgekode Team"
         description="Dedicated tutor with more than three(3) experience using HTML, CSS, Jest, Javaceript, Git/Github etc etc  "
         {...SEO}
       />
@@ -22,12 +22,12 @@ const tutor = () => {
       <TeamProfile
         name=" JnpRof J."
         title="Web Development Tutor"
-        biography="An innovative frontend developer and a web tutor at florintech computer company with over two(2) years of experience leveraging javascript, html, css and general web tools."
+        biography="An innovative frontend developer and a well grounded web tutor at florintech computer company with over two(2) years of experience leveraging javascript, html, css and general web tools."
         achievement="Best Javascript Tutor - 2022 "
-        linkedinlink="https://linkedin.com/in/"
-        facebooklink="https://www.facebook.com/"
-        instagramlink="https://instagram.com/"
-        twitterlink="https://twitter.com/"
+        linkedinlink="https://linkedin.com/in/jnprof_2022/"
+        facebooklink="https://www.facebook.com/jpRoF.2023"
+        instagramlink="https://instagram.com/jnprof_2022/"
+        twitterlink="https://twitter.com/jpRoF_2023"
         image="/images/johnson.jpg"
       />
       <Testimonial />
