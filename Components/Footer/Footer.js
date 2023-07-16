@@ -202,7 +202,8 @@ const Footer = () => {
               <h2>Contact Us</h2>
               <Box>
                 <p>
-                  <strong style={{ color: "#fff" }}>Head Office :</strong> Shop 234, N0.53 Aka Road, Alaba Int'l Market, Ojo-Lagos State.
+                  <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
+                  234, N0.53 Aka Road, Alaba Int'l Market, Ojo-Lagos State.
                   Nigeria
                 </p>
               </Box>
