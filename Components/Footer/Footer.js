@@ -201,8 +201,18 @@ const Footer = () => {
             <Box className="footer-link">
               <h2>Contact Us</h2>
               <Box>
-                <p>N0.53 Aka Road, White House Bus-Stop</p>
-                <p>Okokomaiko, Ojo-Lagos State. Nigeria</p>
+                <p>
+                  <strong style={{ color: "#fff" }}>Head Office :</strong> Shop 234, N0.53 Aka Road, Alaba Int'l Market, Ojo-Lagos State.
+                  Nigeria
+                </p>
+              </Box>
+              <br />
+              <Box>
+                <p>
+                  <strong style={{ color: "#fff" }}>Branch Office : </strong>
+                  N0.53 Aka Road, White House Bus-Stop Okokomaiko, Ojo-Lagos
+                  State. Nigeria
+                </p>
               </Box>
               <Box style={{ margin: "10px 0px" }}>
                 <li>
