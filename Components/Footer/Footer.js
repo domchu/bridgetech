@@ -11,7 +11,6 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import ScrollToTop from "../ScrollToTop";
 
 const Footer = () => {
   const router = useRouter();
