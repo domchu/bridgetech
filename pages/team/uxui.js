@@ -26,7 +26,7 @@ const uxui = () => {
         achievement="Best Project Deginger - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"
-        instagramlink="https://instagram.com/"
+        instagramlink="https://instagram.com/bridgekode_tech"
         twitterlink="https://twitter.com/akpevwe102"
         image="/images/sammy.jpg"
       />
