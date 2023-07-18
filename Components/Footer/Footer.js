@@ -203,7 +203,7 @@ const Footer = () => {
               <Box>
                 <p>
                   <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
-                  234, N0.53 Aka Road, Alaba Int'l Market, Ojo-Lagos State.
+                  234, N0.53 Igbede Road, Alaba Int'l Market, Ojo-Lagos State.
                   Nigeria
                 </p>
               </Box>
@@ -238,6 +238,7 @@ const Footer = () => {
               <Box>
                 <li>
                   <Link
+                    fontSize={{ base: "", sm: "", md: "", lg: "" }}
                     href="mailto:info@bridgekodetech.com"
                     target="_blank"
                     id="footerlink"
@@ -249,6 +250,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    fontSize={{ base: "", sm: "", md: "", lg: "" }}
                     href="mailto:bridgekodetech@gmail.com"
                     target="_blank"
                     id="footerlink"
@@ -268,7 +270,7 @@ const Footer = () => {
               Copyright©2022 Bridgekode. All Rights Reserved. Designed and
               Developed by
               <Link
-                href="https://www.linkedin/in/dominic-ochu/"
+                href="https://www.linkedin.com/in/dominic-ochu-470a8418a/"
                 target="_blank"
                 rel="nofollow"
               >
