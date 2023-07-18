@@ -30,7 +30,7 @@ const TeamData = [
     facebookLink: "https://www.facebook.com/",
     instagramLink: "https://www.instagram.com/",
     twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    linkedinLink: "https://linkedin.com/in/uchechi-ekeh-056b05281/",
   },
   {
     id: "4",
@@ -84,8 +84,9 @@ const TeamData = [
     profile: "/team/admin",
     facebookLink: "https://www.facebook.com/nwabudike.ify",
     instagramLink: "https://www.instagram.com/nwabudikeify",
-    twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    twitterLink: "https://twitter.com/bridgekode_tech",
+    linkedinLink:
+      "https://www.linkedin.com/in/bridgekode-software-development-company-750061282/",
   },
   {
     id: "9",
@@ -95,7 +96,7 @@ const TeamData = [
     profile: "/team/branding",
     facebookLink: "https://www.facebook.com/Thexclusivemedia/",
     instagramLink: "https://www.instagram.com/thexclusive_media",
-    twitterLink: "https://twitter.com/",
+    twitterLink: "https://twitter.com/bridgekode_tech",
     linkedinLink: "https://linkedin.com/in/owoicho-emmanuel-a95301152",
   },
   {
@@ -117,10 +118,11 @@ const TeamData = [
     name: "Ochu Comfort",
     job: "Junior Copywriter",
     profile: "/team/juniorwriter",
-    facebookLink: "https://www.facebook.com/",
-    instagramLink: "https://www.instagram.com/",
-    twitterLink: "https://twitter.com/",
-    linkedinLink: "https://linkedin.com/in/",
+    facebookLink: "https://www.facebook.com/Ochu-Comfort",
+    instagramLink: "https://www.instagram.com/ochucomfort/",
+    twitterLink: "https://twitter.com/bridgekode_tech",
+    linkedinLink:
+      "https://www.linkedin.com/in/bridgekode-software-development-company-750061282/",
   },
   {
     id: "12",
