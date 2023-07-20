@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../Components/Header/Header";
 import Topnav from "../Components/Topnav/Topnav";
 import Footer from "../Components/Footer/Footer";
-import Signup from "../Components/Signup/Signup";
+import RegisterForm from "../Components/Register/RegisterForm";
+import Register from "../Components/Register/Register";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
@@ -16,7 +17,8 @@ const register = () => {
       />
       <Topnav />
       <Header />
-      <Signup />
+      <Register />
+      <RegisterForm />
       <Footer />
     </>
   );
