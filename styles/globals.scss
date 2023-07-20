@@ -2736,7 +2736,19 @@ p {
   font-weight: 500;
 }
 .number {
-  list-style-type: square;
+  list-style-type: disc;
+  margin-left: 30px;
+}
+@media screen and (max-width:#{$phone-width}){
+  .faq-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-clr-2);
+  }
+  .faq-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 
 // TESTIMONIAL STYLES
