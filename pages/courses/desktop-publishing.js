@@ -25,7 +25,7 @@ const desktoppublishing = () => {
         courseSummary="Desktop publishing has made it more accessible for individuals, businesses, and organizations to produce professional-level publications with greater control over the design and production process. It has significantly reduced costs and turnaround times, allowing for faster creation and distribution of printed materials. With the advancement of digital publishing, desktop publishing also extends to creating materials for online platforms, including eBooks, interactive documents, and web-based publications."
         contents="Desktop publishing (DTP) refers to the process of creating and producing printed materials using specialized software and computer systems. It involves combining text, images, and graphics to create visually appealing layouts for various publications, such as books, magazines, brochures, newsletters, and more. Desktop publishing has revolutionized the printing industry, allowing individuals and organizations to produce professional-quality materials in-house without relying on traditional printing methods."
         comment="The process of desktop publishing typically involves the following steps:Content Creation, Design and Layout, Formatting and Styling, Image Editing and Optimization, Prepress Preparation, Proofing and Revision, etc."
-        amount="# 45,000"
+        amount="# 50,000"
         dollars="$ 90.00"
         duration="4 Months"
         list1="Understanding the fundamental principles of design, such as layout, typography, color theory, and composition, is crucial in desktop publishing."
