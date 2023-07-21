@@ -50,7 +50,7 @@ const webdesigntraining = () => {
                     href="/services/service-home"
                     className="project-nav-link"
                   >
-                    Service
+                    Services
                   </Link>
                 </li>
                 <Box className="separator">/</Box>

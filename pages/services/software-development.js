@@ -32,8 +32,8 @@ const softwaredevelopment = () => {
                 Service <span className="sub_heading_span">Detail</span>
               </h1>
               <p>
-              An indepth overview of the services we renders at bridgekode
-              software  development services.
+                An indepth overview of the services we renders at bridgekode
+                software development services.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -47,7 +47,7 @@ const softwaredevelopment = () => {
                     href="/services/service-home"
                     className="project-nav-link"
                   >
-                    Service
+                    Services
                   </Link>
                 </li>
                 <Box className="separator">/</Box>
