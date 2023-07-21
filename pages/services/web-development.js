@@ -240,7 +240,7 @@ const webdevelopment = () => {
                       user-friendly interfaces that provide a seamless user
                       experience across different devices, platforms and general
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >
@@ -368,7 +368,7 @@ const webdevelopment = () => {
                     <p>
                       Benefit of
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >

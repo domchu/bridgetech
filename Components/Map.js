@@ -58,7 +58,7 @@ const Map = () => {
                 </Box>
               </Box>
               <Link
-                href="https://www.test.com"
+                href="https://www.thebridgekode_blog.com"
                 className="contact-site-url"
                 target="_blank"
               >

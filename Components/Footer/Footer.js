@@ -117,7 +117,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.google.com"
+                  href="https://www.thebridgekode_blog.com"
                   target="_blank"
                   id="footerlink"
                   className={currentRoute == "/blog" ? "active" : ""}
