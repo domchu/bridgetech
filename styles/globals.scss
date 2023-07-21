@@ -2687,8 +2687,7 @@ p {
   .section-title {
     font-size: 25px;
   }
-  
-  
+
 }
 // REGISTER FORM STYLES
 .signup-form-block {
@@ -2931,19 +2930,15 @@ figcaption {
 }
 
 .card {
-  height: 420px;
+  height: 480px;
   width: 320px;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 .card:hover {
-  background-color: #c0c0c0;
-  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15),
-    inset 0px 4px 8px rgba(0, 0, 0, 0.15),
-    inset 0px 8px 16px rgba(0, 0, 0, 0.15);
+  transform: scale(1.1);
   transition: 0.2s;
-  transform: translateY(10px);
 }
 
 .course-content {
@@ -2968,7 +2963,6 @@ figure.card > img {
 figure.card > figcaption {
   align-self: last baseline;
   justify-self: stretch;
-  // background-image: linear-gradient(270deg, #030b63, #0179af);
   transition: background-color 300ms ease-in-out;
   background-color: var(--primary-clr-2);
   color: var(--clr-white);
@@ -2986,7 +2980,7 @@ figure.card > figcaption {
   grid-template-columns: repeat(3, 1fr);
   margin: 2rem 0rem;
   column-gap: 35px;
-  row-gap: 40px;
+  row-gap: 60px;
 }
 .course-text {
   font-size: 16px;

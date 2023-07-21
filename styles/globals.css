@@ -3080,18 +3080,16 @@ figcaption {
 }
 
 .card {
-  height: 420px;
+  height: 480px;
   width: 320px;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
-  background-color: #c0c0c0;
-  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15), inset 0px 4px 8px rgba(0, 0, 0, 0.15), inset 0px 8px 16px rgba(0, 0, 0, 0.15);
+  transform: scale(1.1);
   transition: 0.2s;
-  transform: translateY(10px);
 }
 
 .course-content {
@@ -3138,7 +3136,7 @@ figure.card > figcaption {
   margin: 2rem 0rem;
   -moz-column-gap: 35px;
        column-gap: 35px;
-  row-gap: 40px;
+  row-gap: 60px;
 }
 
 .course-text {
