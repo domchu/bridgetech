@@ -29,7 +29,7 @@ const graphics = () => {
         comment="Graphic design is a creative field, and practice is essential for honing your skills. Create personal projects, build a portfolio, and seek feedback from peers and professionals to continue improving your design abilities."
         amount="# 50,000"
         dollars="$ 100.58"
-        duration="4 Months"
+        duration="5 Months"
         list1="Become a certified graphic professional"
         list2="Design Principles, design Research and Concept Development"
         list3=" Graphic Design Software"
