@@ -23,7 +23,7 @@ const uxui = () => {
         name="Egaji Samuel"
         title="Product Designer (UX/UI)"
         biography="I am a talented and ambitious UI/UX designer with less than 2 years of professional experience in the field. With a passion for creating captivating user experiences and a keen eye for detail,  dedicated to crafting visually appealing and intuitive designs that resonate with users."
-        achievement="Best Project Deginger - 2023"
+        achievement="Best Project Deginger By Florintech - 2023"
         linkedinlink="https://linkedin.com/in/samuel-egajivwie-14288a273"
         facebooklink="https://www.facebook.com/egajivwie-samuel"
         instagramlink="https://instagram.com/bridgekode_tech"

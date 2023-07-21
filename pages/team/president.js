@@ -12,7 +12,7 @@ const president = () => {
   return (
     <>
       <DefaultSeo
-        title="Team President | Bridgekode Team"
+        title="Team Lead | Bridgekode Team"
         description="General overseer and Team Lead at bridgekode Software development service"
         {...SEO}
       />
