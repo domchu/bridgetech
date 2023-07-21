@@ -3003,9 +3003,9 @@ figure.card > figcaption {
   .card {
     height: 420px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 5px 5px 10px #989898, 5px 5px 10px #989898;
+    // box-shadow: 5px 5px 10px #989898, 5px 5px 10px #989898;
   }
 }
 
@@ -3351,7 +3351,7 @@ grid-template-columns: 1fr;
   }
   .course-image {
     width:100%;
-    margin-top:3rem;
+    // margin-top:3rem;
   }
   .duration-course-text-right{
     margin-top:4rem;

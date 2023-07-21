@@ -268,7 +268,7 @@ const Footer = () => {
         </Box>
         <div className="footer-bottom">
           <Box className="copy-right">
-            <p>
+            <Box padding={{ base: "7px", sm: "20px", md: "20px", lg: "0px" }}>
               Copyright©2022 Bridgekode. All Rights Reserved. Designed and
               Developed by
               <Link
@@ -282,7 +282,7 @@ const Footer = () => {
               <Link href="/" target="_blank">
                 Bridgekode
               </Link>
-            </p>
+            </Box>
           </Box>
         </div>
       </footer>

@@ -11,7 +11,7 @@ const CourseDetails = [
   {
     id: "2",
     courseImage: "/images/uiux.jpg",
-    title: "UX/UI Design",
+    title: "UX'UI Design",
     price: "#80,000",
     courseUrl: "/courses/uxui-design",
     contents:
