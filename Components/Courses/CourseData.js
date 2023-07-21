@@ -3,7 +3,7 @@ const CourseDetails = [
     id: "1",
     courseImage: "/images/web1.jpg",
     title: "Web Development",
-    price: "#100,000",
+    price: "#90,000",
     courseUrl: "/courses/web-development",
     contents:
       "The different between your business and any other businesses is an online presence i.e website design, which makes bridgekode technology offers these primium services & train an individual to achieve that within the shortest period of time.",
@@ -21,7 +21,7 @@ const CourseDetails = [
     id: "3",
     courseImage: "/images/graphicsdes3.jpg",
     title: "Graphics Design",
-    price: "#50,000",
+    price: "#60,000",
     courseUrl: "/courses/graphics-design",
     contents:
       "This course explores the principles of graphic design and certification, including layout, typography, color theory, and visual communication. It cover design software like Adobe Photoshop, Illustrator, or InDesign.",
@@ -50,7 +50,7 @@ const CourseDetails = [
     id: "6",
     courseImage: "/images/media2.jpg",
     title: "Branding & SEO",
-    price: "#25,000",
+    price: "#30,000",
     courseUrl: "/courses/branding",
     contents:
       "This course focuses on optimizing websites to improve their visibility to clients in search engine results.It  delves into the principles & strategies of branding, like creating brand identities, developing brand messaging, & many more.",
@@ -59,7 +59,7 @@ const CourseDetails = [
     id: "7",
     courseImage: "/images/content.jpg",
     title: "Contents Writing",
-    price: "#30,000",
+    price: "#40,000",
     courseUrl: "/courses/contents-writing",
     contents:
       "This course will provides  a valuable skill in the digital age, as high-quality content is crucial for effective communication & engagement with online audiences. With time & dedication, you can become a skilled content writer ",
@@ -77,7 +77,7 @@ const CourseDetails = [
     id: "9",
     courseImage: "/images/desktop.jpg",
     title: "Desktop Publishing",
-    price: "#45,000",
+    price: "#50,000",
     courseUrl: "/courses/desktop-publishing",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
