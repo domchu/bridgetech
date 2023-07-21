@@ -212,7 +212,7 @@ const Singleservices = () => {
                   <Box className="w-richtext">
                     <p>
                       These are just a few areas within
-                      <strong>software development</strong>, and the field is
+                      <strong> software development</strong>, and the field is
                       continuously evolving with emerging technologies and
                       trends. Software developers may specialize in one or
                       multiple areas depending on their interests, skills, and
@@ -267,7 +267,7 @@ const Singleservices = () => {
                       We are <strong>Bridgekode</strong> provide the best
                       quality
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >
@@ -324,7 +324,7 @@ const Singleservices = () => {
                     <p>
                       Benefit of
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >

@@ -34,8 +34,8 @@ const webdevelopment = () => {
         increase the complexity and speed in which you create your web
         pages, then added javascript to it for interactivities."
         comment="Remember, web development is a vast field, and it's not necessary to learn everything at once. Start with the basics and gradually build your knowledge and skills in the areas that interest you the most."
-        amount="# 100,000"
-        dollars="$ 200.00"
+        amount="# 90,000"
+        dollars="$ 170.00"
         duration="5 Months"
         list1="Become a Web Developer."
         list2="HTML5."

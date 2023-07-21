@@ -70,7 +70,7 @@ const Faq = () => {
             <AccordionPanel pb={4} className="faq-text">
               We have more than 10 specialists with diverse experience in
               different industries and products of various complexity. There are
-              Software development department such Front-End dept, Back-End
+              Software development department such as Front-End dept, Back-End
               dept, Products design office, Project management office, Quality
               assurance and Business analytics department, Recruitment & HR, and
               internal team offering account, Design and legal support.
@@ -112,8 +112,9 @@ const Faq = () => {
               <li className="number">
                 <strong>Development</strong>
               </li>
-              We invest our time in self-education and training, and Bridgekode
-              helps us to achieve synergies in our common development.
+              We invest our time in self-education and pay training, and
+              Bridgekode helps us to achieve synergies in our common
+              development.
               <li className="number">
                 <strong>Professional second opinion</strong>
               </li>
@@ -165,7 +166,8 @@ const Faq = () => {
               <li className="number">Fintech</li>
               <li className="number">Telecommunication</li>
               Besides, we have a lot of successful projects in other industries
-              like entertainment, hospitality, media, education and other.
+              like information technologies, entertainment, hospitality, media,
+              education and other.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -225,16 +227,19 @@ const Faq = () => {
               </li>
               <li className="number">Ruby on Rails</li>
               <li className="number">PHP</li>
-              <li className="number">Node.js</li>
+              <li className="number">Node</li>
               <li className="number">C#</li>
               <li className="number">Javascript</li>
+              <li className="number">Typescript</li>
               <li className="number">Angular</li>
-              <li className="number">HTML 5</li>
+              <li className="number">Vue</li>
               <li className="number">React.js</li>
+              <li className="number">HTML 5</li>
               <li className="number">CSS 3</li>
+              <li className="number">Chakra-Ui</li>
+              <li className="number">Tailwindcss</li>
               <li className="number">Bootstrap</li>
               <li className="number">Web API Services</li>
-              <li className="number">Typescript</li>
               <li className="number">Database:MySql, Postgres, Moongoes</li>
               <strong>For mobile development:</strong>
               <li className="number">Swift</li>
@@ -350,10 +355,10 @@ const Faq = () => {
               numbers, and symbols. As your coding skills improve and your needs
               diversify, though, you’ll probably want to upgrade to a text
               editor with more functionality. Editors like Notepad++, Sublime
-              text, Visual studio code(VS code) Atom, and Light Table are free,
-              customizable, and designed with coding in mind. These programs
-              offer features like autocomplete based on specific programming
-              languages.
+              text, Notepad, Visual studio code(VS code) Atom, and Light Table
+              are free, customizable, and designed with coding in mind. These
+              programs offer features like autocomplete based on specific
+              programming languages.
               <br />
               Once your code is written, you’ll use another program called a
               compiler to edit and format your code for a computer to read.
@@ -396,8 +401,8 @@ const Faq = () => {
               education, technology & proptech. Our goal is to help businesses
               accelerate growth and innovation, transform operational
               efficiency, deliver new products to market, improve profitability,
-              career path in IT skills to finacial stabiliy among the youths and
-              customer satisfaction.
+              career path in IT skills to finacial stability among the youths
+              and customer satisfaction as our topmost priority.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>

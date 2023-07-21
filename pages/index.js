@@ -15,8 +15,8 @@ export default function Home() {
     <>
       <DefaultSeo
         title="Home Page | Bridgekode Tech"
-        description="Bridgekode is a software development service focuses on website design, students/kids coding, customize software, career path in IT, general IT training, turning ideas into creativities & provide digital solutions to businesses across globe."
-        keywords="software, website, web design, kids coding, school coding program, general IT training, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress,sass, bootstrap,tailwind,semantic-ui,chakra-ui,mantie, web development."
+        description="Bridgekode is a software development company focuses on website design, students/kids coding, customize software, career path in IT, general IT training, turning ideas into creativities & provide digital solutions to businesses across globe."
+        keywords="software, website, web design, kids coding, school coding program, general IT training, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress,sass, bootstrap,tailwind,semantic-ui,chakra-ui,mantie, web development, wordpress, e-commerce website, coding, bridgekode, thebridgekode_blog, ochu, ochu dominic, computer, "
         {...SEO}
       />
       <Topnav />
@@ -43,14 +43,14 @@ export default function Home() {
           renderButtons={() => (
             <>
               <Link
-                href="https://www.test.com"
+                href="https://www.facebook.com/bridgekode_tech"
                 target="_blank"
                 className="slider__btn"
               >
                 Facebook
               </Link>
               <Link
-                href="https://www.instagram.com/bridgekodetech.2023/"
+                href="https://www.instagram.com/bridgekode_tech/"
                 target="_blank"
                 className="slider__btn"
               >
@@ -68,7 +68,7 @@ export default function Home() {
                 Contact
               </Link>
               <Link
-                href="https://www.bridgekodeblog.com"
+                href="https://www.thebridgekode_blog.com"
                 target="_blank"
                 className="slider__btn"
               >

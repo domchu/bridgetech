@@ -44,9 +44,9 @@ const Map = () => {
                 <Box className="contact-info-title">Contact Information</Box>
                 <Box className="contact-info-small-title">Office Address</Box>
                 <Box className="contact-info-text">
-                  No.53, Aka Road, White House Bus Stop
+                  Shop 40 Abuja Plaza, Ojo Alaba Int'l Market,
                   <br />
-                  Okokomaiko, Ojo-Lagos State. Nigeria
+                  Ojo-Lagos State. Nigeria
                 </Box>
                 <Box className="contact-info-small-title">Phone Numbers</Box>
                 <Box className="contact-info-text">
@@ -58,7 +58,7 @@ const Map = () => {
                 </Box>
               </Box>
               <Link
-                href="https://www.test.com"
+                href="https://www.thebridgekode_blog.com"
                 className="contact-site-url"
                 target="_blank"
               >

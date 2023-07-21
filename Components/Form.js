@@ -119,7 +119,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>First Name</FormLabel>
                       <Input
-                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        style={{ border: "1px solid #77b6d8", height: "52px" }}
                         type="text"
                         name="user_name"
                         id="Contact-Name"
@@ -132,7 +132,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>Email Address</FormLabel>
                       <Input
-                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        style={{ border: "1px solid #77b6d8", height: "52px" }}
                         type="email"
                         name="user_email"
                         id="email"
@@ -145,7 +145,7 @@ const Form = () => {
                     <FormControl isRequired>
                       <FormLabel>Phone Number</FormLabel>
                       <Input
-                        style={{ border: "1px solid #77b6d8", height: "48px" }}
+                        style={{ border: "1px solid #77b6d8", height: "52px" }}
                         type="tel"
                         name="user_number"
                         id="phone"

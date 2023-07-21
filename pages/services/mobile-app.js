@@ -50,14 +50,12 @@ const mobileapp = () => {
                     href="/services/service-home"
                     className="project-nav-link"
                   >
-                    Service
+                    Services
                   </Link>
                 </li>
                 <Box className="separator">/</Box>
                 <li>
-                  <Box className="project-link-text">
-                    Mobile App Development
-                  </Box>
+                  <Box className="project-link-text">Mobile App Dev.</Box>
                 </li>
               </ul>
             </Box>
@@ -361,7 +359,7 @@ const mobileapp = () => {
                     <p>
                       Benefit of
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >

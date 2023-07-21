@@ -50,7 +50,7 @@ const hardwareNetwork = () => {
                     href="/services/service-home"
                     className="project-nav-link"
                   >
-                    Service
+                    Services
                   </Link>
                 </li>
                 <Box className="separator">/</Box>
@@ -372,7 +372,7 @@ const hardwareNetwork = () => {
                     <p>
                       Benefit of
                       <Link
-                        href="https://www.example.com"
+                        href="https://www.thebridgekode_blog.com"
                         target="_blank"
                         className="it-solution"
                       >

@@ -11,7 +11,6 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import ScrollToTop from "../ScrollToTop";
 
 const Footer = () => {
   const router = useRouter();
@@ -40,21 +39,24 @@ const Footer = () => {
               </Link>
               <p className="footer-link-p">
                 Bridgekode is a software development company that focuses on web
-                design, students/kids coding, software development, general IT
-                training, turning ideas into creativities & provide digital
-                solutions to businesses across globe.
+                design, students/kids coding, software development, turning
+                ideas into creativities & provide general IT & digital solutions
+                to businesses across globe.
               </p>
               <Flex className="icons-container">
                 <Link href="https:/www.test.com" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/bridgekodetech.2023/"
+                  href="https://www.instagram.com/bridgekode_tech/"
                   target="_blank"
                 >
                   <FaInstagram className="icons" />
                 </Link>
-                <Link href="https://twitter.com/software6767" target="_blank">
+                <Link
+                  href="https://twitter.com/bridgekode_tech"
+                  target="_blank"
+                >
                   <FaTwitter className="icons" />
                 </Link>
                 <Link
@@ -115,7 +117,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.google.com"
+                  href="https://www.thebridgekode_blog.com"
                   target="_blank"
                   id="footerlink"
                   className={currentRoute == "/blog" ? "active" : ""}
@@ -203,7 +205,7 @@ const Footer = () => {
               <Box>
                 <p>
                   <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
-                  234, N0.53 Aka Road, Alaba Int'l Market, Ojo-Lagos State.
+                  40 Abuja Plaza, Ojo Alaba Int'l Market, Ojo-Lagos State.
                   Nigeria
                 </p>
               </Box>
@@ -238,6 +240,7 @@ const Footer = () => {
               <Box>
                 <li>
                   <Link
+                    fontSize={{ base: "", sm: "", md: "", lg: "" }}
                     href="mailto:info@bridgekodetech.com"
                     target="_blank"
                     id="footerlink"
@@ -249,6 +252,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    fontSize={{ base: "", sm: "", md: "", lg: "" }}
                     href="mailto:bridgekodetech@gmail.com"
                     target="_blank"
                     id="footerlink"
@@ -264,11 +268,11 @@ const Footer = () => {
         </Box>
         <div className="footer-bottom">
           <Box className="copy-right">
-            <p>
+            <Box padding={{ base: "7px", sm: "20px", md: "20px", lg: "0px" }}>
               Copyright©2022 Bridgekode. All Rights Reserved. Designed and
               Developed by
               <Link
-                href="https://www.linkedin/in/dominic-ochu/"
+                href="https://www.linkedin.com/in/dominic-ochu-470a8418a/"
                 target="_blank"
                 rel="nofollow"
               >
@@ -278,7 +282,7 @@ const Footer = () => {
               <Link href="/" target="_blank">
                 Bridgekode
               </Link>
-            </p>
+            </Box>
           </Box>
         </div>
       </footer>

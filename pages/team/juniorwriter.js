@@ -24,10 +24,10 @@ const juniorwriter = () => {
         title="Junior Copywriter"
         biography="An English language tutor, counselor, a creative writer & an editor of articles on various platforms with over one(1) years of experience."
         achievement="Most Valuable counselor - 2018 "
-        linkedinlink="https://linkedin.com/in/"
+        linkedinlink="https://www.linkedin.com/in/bridgekode-software-development-company-750061282/"
         facebooklink="https://www.facebook.com/Ochu-Comfort"
         instagramlink="https://instagram.com/ochucomfort/"
-        twitterlink="https://twitter.com/"
+        twitterlink="https://twitter.com/bridgekode_tech"
         image="/images/comfort.jpg"
       />
       <Testimonial />
