@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Box } from "@mui/material";
+
 
 const OpenDays = () => {
+
+    const [getDays, setGetDays] = useState()
+
+    const activateDays = () => {
+        let today = new Date();
+        let currentDay = today.getDay()
+        setGetDays(currentDay)
+    }
+
+    useEffect(() => {
+        activateDays
+    }, [])
     return (
         <>
         
-        <h1>Opendays</h1>
+        <Box>Opendays</Box>
         </>
     )
 }
-export default OpenDays
+export default OpenDaysactiva
