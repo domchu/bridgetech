@@ -44,7 +44,7 @@ const Footer = () => {
                 to businesses across globe.
               </p>
               <Flex className="icons-container">
-                <Link href="https:/www.test.com" target="_blank">
+                <Link href="https://www.facebook.com/bridgekode_tech" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
                 <Link
