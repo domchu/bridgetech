@@ -44,7 +44,7 @@ const Map = () => {
                 <Box className="contact-info-title">Contact Information</Box>
                 <Box className="contact-info-small-title">Office Address</Box>
                 <Box className="contact-info-text">
-                  Shop 40 Abuja Plaza, Ojo Alaba Int'l Market,
+                  Shop 40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market,
                   <br />
                   Ojo-Lagos State. Nigeria
                 </Box>
