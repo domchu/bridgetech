@@ -9,8 +9,6 @@ const OpenDays = () => {
     let today = new Date();
     let currentDay = today.getDay();
     setGetDays(currentDay);
-    // console.log(currentDay)
-    console.log(today);
   };
 
   useEffect(() => {
@@ -28,11 +26,14 @@ const OpenDays = () => {
               fontSize="1.5rem"
               color="#023e8a"
               textAlign="left"
+              mb=".5rem"
+              font-family=" Rajdhani, sans-serif"
+              textTransform="uppercase"
             >
               <span>Open Days</span>
               <span>Open Hours</span>
             </Box>
-            <br />
+
             <Box
               className={getDays == 1 ? "active" : "days"}
               style={{
@@ -122,9 +123,9 @@ const OpenDays = () => {
               <span>Sundays</span>
               <span>
                 Closed
-                <a href="tel:+234 7034278995" className="primary-button">
+                <Link href="tel:+234 7034278995" className="primary-button">
                   Call Us
-                </a>
+                </Link>
               </span>
             </li>
           </Box>

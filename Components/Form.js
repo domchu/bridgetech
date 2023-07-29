@@ -104,7 +104,7 @@ const Form = () => {
                   </Box>
                 </form>
 
-                {/* NEW FORM  */}
+                {/* NEW FORM   */}
                 <form
                   ref={form}
                   onSubmit={handleContactForm}
@@ -181,6 +181,7 @@ const Form = () => {
                     Send Now
                   </Button>
                 </form>
+                {/* END OF FORM */}
               </Box>
             </Box>
           </Box>
