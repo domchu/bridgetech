@@ -37,6 +37,7 @@ const Contact = () => {
       </Box>
       {/* Map part of the project */}
       <Map />
+      
     </>
   );
 };

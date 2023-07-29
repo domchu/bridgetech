@@ -17,8 +17,27 @@ const OpenDays = () => {
     }, [])
     return (
         <>
-        
-        <Box>Opendays</Box>
+        <Box>
+                <Box>
+                    
+                    <ul>
+                        <li>
+                            <Box>
+                            <span>Open Days</span>
+                            <span>Open Hours</span>
+                            </Box>
+                        </li>
+                        <li className={getDays == 1 ? active : "days"}>
+                            <Box >
+                            <span>Mondays</span>
+                            <span>9:00AM - 5:00PM</span>
+                            </Box>
+                        </li>
+                      
+                    </ul>
+</Box>
+                
+        </Box>
         </>
     )
 }
