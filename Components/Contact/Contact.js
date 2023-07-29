@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Box } from "@chakra-ui/react";
 import Map from "../Map";
 import Reveal from "../../Components/Reveal";
+import OpenDays from "../../Components/OpenDays";
 
 const Contact = () => {
   return (
@@ -35,9 +36,10 @@ const Contact = () => {
           </Box>
         </Box>
       </Box>
-      {/* Map part of the project */}
+      {/* GOOGLE MAP AND OFFICE ADDRESS */}
       <Map />
-      
+      {/* OPEN DAYS TIMER */}
+      <OpenDays/>
     </>
   );
 };

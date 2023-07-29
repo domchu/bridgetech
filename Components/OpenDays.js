@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box } from "@mui/material";
+import { Box } from "@chakra-ui/react";
 
 
 const OpenDays = () => {
@@ -10,6 +10,8 @@ const OpenDays = () => {
         let today = new Date();
         let currentDay = today.getDay()
         setGetDays(currentDay)
+        console.log(today)
+        console.log(currentDay)
     }
 
     useEffect(() => {
@@ -21,17 +23,44 @@ const OpenDays = () => {
                 <Box>
                     
                     <ul>
-                        <li>
-                            <Box>
+                        <li> 
                             <span>Open Days</span>
                             <span>Open Hours</span>
-                            </Box>
                         </li>
-                        <li className={getDays == 1 ? active : "days"}>
-                            <Box >
+                        <br/>
+                        <li className={getDays == 1 ? "active" : "days"}>
                             <span>Mondays</span>
+                            <span>9:00AM - 5:00PM</span> 
+                        </li>
+                        <br/>
+                        <li className={getDays == 2 ? "active" : "days"}>
+                            <span>Tuesdays</span>
                             <span>9:00AM - 5:00PM</span>
-                            </Box>
+                        </li>
+                        <br/>
+                        <li className={getDays == 3 ? "active" : "days"}>
+                            <span>Wednesdays</span>
+                            <span>9:00AM - 5:00PM</span>
+                        </li>
+                        <br/>
+                        <li className={getDays == 4 ? "active" : "days"}>
+                            <span>Thursdays</span>
+                            <span>9:00AM - 5:00PM</span>
+                        </li>
+                        <br/>
+                        <li className={getDays == 5 ? "active" : "days"}>
+                            <span>Fridays</span>
+                            <span>9:00AM - 5:00PM</span>
+                        </li>
+                        <br/>
+                        <li className={getDays == 6 ? "active" : "days"}>
+                            <span>Saturdays</span>
+                            <span>Office Closed</span>
+                        </li>
+                        <br/>
+                        <li className={getDays == 0 ? "active" : "days"}>
+                            <span>Sundays</span>
+                            <span>Office Closed</span>
                         </li>
                       
                     </ul>
@@ -41,4 +70,4 @@ const OpenDays = () => {
         </>
     )
 }
-export default OpenDaysactiva
+export default OpenDays;
