@@ -10,8 +10,8 @@ const OpenDays = () => {
         let today = new Date();
         let currentDay = today.getDay()
         setGetDays(currentDay)
+        // console.log(currentDay)
         console.log(today)
-        console.log(currentDay)
     }
 
     useEffect(() => {
@@ -22,48 +22,48 @@ const OpenDays = () => {
         <Box>
                 <Box>
                     
-                    <ul>
-                        <li> 
+                    <Box width="25%" textAlign="left">
+                        <Box display="flex" justifyContent="space-around" fontWeight="bold" fontSize="1.5rem" color="#023e8a"> 
                             <span>Open Days</span>
                             <span>Open Hours</span>
-                        </li>
-                        <br/>
-                        <li className={getDays == 1 ? "active" : "days"}>
+                        </Box>
+                        <br />
+                        <Box className={getDays == 1 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around", textAlign:"left", alignItems:"left"}}>
                             <span>Mondays</span>
                             <span>9:00AM - 5:00PM</span> 
-                        </li>
+                        </Box>
                         <br/>
-                        <li className={getDays == 2 ? "active" : "days"}>
+                        <li className={getDays == 2 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around" , textAlign:"left", }}>
                             <span>Tuesdays</span>
                             <span>9:00AM - 5:00PM</span>
                         </li>
                         <br/>
-                        <li className={getDays == 3 ? "active" : "days"}>
+                        <li className={getDays == 3 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around" , textAlign:"left", }}>
                             <span>Wednesdays</span>
                             <span>9:00AM - 5:00PM</span>
                         </li>
                         <br/>
-                        <li className={getDays == 4 ? "active" : "days"}>
+                        <li className={getDays == 4 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around"}}>
                             <span>Thursdays</span>
                             <span>9:00AM - 5:00PM</span>
                         </li>
                         <br/>
-                        <li className={getDays == 5 ? "active" : "days"}>
+                        <li className={getDays == 5 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around"}}>
                             <span>Fridays</span>
                             <span>9:00AM - 5:00PM</span>
                         </li>
                         <br/>
-                        <li className={getDays == 6 ? "active" : "days"}>
+                        <li className={getDays == 6 ? "open" : "days"} style={{display:"flex", justifyContent:"space-around"}}>
                             <span>Saturdays</span>
                             <span>Office Closed</span>
                         </li>
                         <br/>
-                        <li className={getDays == 0 ? "active" : "days"}>
+                        <li className={getDays == 0 ? "active" : "days"} style={{display:"flex", justifyContent:"space-around"}}>
                             <span>Sundays</span>
                             <span>Office Closed</span>
                         </li>
                       
-                    </ul>
+                    </Box>
 </Box>
                 
         </Box>

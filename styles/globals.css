@@ -3728,4 +3728,8 @@ figure.card > figcaption {
 .slider__wrapper .slider-dots .slider-dot--active {
   background: var(--primary-clr-1);
   width: 30px;
+}
+
+.open {
+  color: greenyellow;
 }/*# sourceMappingURL=globals.css.map */
