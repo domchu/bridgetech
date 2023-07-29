@@ -3559,5 +3559,6 @@ grid-template-columns: 1fr;
 
 // OPEN DAYS CSS
 .open{
-  color: greenyellow;
+  color: var(--clr-white);
+  background-color: var(--primary-clr-2);
 }

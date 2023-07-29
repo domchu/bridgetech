@@ -3731,5 +3731,6 @@ figure.card > figcaption {
 }
 
 .open {
-  color: greenyellow;
+  color: var(--clr-white);
+  background-color: var(--primary-clr-2);
 }/*# sourceMappingURL=globals.css.map */
