@@ -41,7 +41,7 @@ const Form = () => {
             <Box className="contact-form-wrapper">
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
-                <form
+                {/* <form
                   ref={form}
                   onSubmit={handleContactForm}
                   action="value"
@@ -102,9 +102,9 @@ const Form = () => {
                       data-wait="please wait..."
                     />
                   </Box>
-                </form>
+                </form> */}
 
-                {/* NEW FORM  */}
+                {/* NEW FORM   */}
                 <form
                   ref={form}
                   onSubmit={handleContactForm}
@@ -181,6 +181,7 @@ const Form = () => {
                     Send Now
                   </Button>
                 </form>
+                {/* END OF FORM */}
               </Box>
             </Box>
           </Box>

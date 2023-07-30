@@ -44,7 +44,7 @@ const Footer = () => {
                 to businesses across globe.
               </p>
               <Flex className="icons-container">
-                <Link href="https:/www.test.com" target="_blank">
+                <Link href="https://www.facebook.com/bridgekode_tech" target="_blank">
                   <FaFacebook className="icons" />
                 </Link>
                 <Link
@@ -205,7 +205,7 @@ const Footer = () => {
               <Box>
                 <p>
                   <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
-                  40 Abuja Plaza, Ojo Alaba Int'l Market, Ojo-Lagos State.
+                  40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market, Ojo-Lagos State.
                   Nigeria
                 </p>
               </Box>
