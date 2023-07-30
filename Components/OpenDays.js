@@ -16,9 +16,14 @@ const OpenDays = () => {
   }, []);
   return (
     <>
-      <Box>
-        <Box>
-          <Box width="25%" textAlign="left" mb="2rem">
+      <Box className="open__day__container">
+        <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        //   mb="2.5rem"
+        >
+          <Box width="40%" textAlign="left" mb="2rem">
             <Box
               display="flex"
               justifyContent="space-around"

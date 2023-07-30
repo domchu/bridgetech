@@ -3733,4 +3733,13 @@ figure.card > figcaption {
 .open {
   color: var(--clr-white);
   background-color: var(--primary-clr-2);
+}
+
+.open__day__container {
+  background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  padding: 5rem 0px;
+  margin-bottom: 5rem;
 }/*# sourceMappingURL=globals.css.map */
