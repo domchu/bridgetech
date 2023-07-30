@@ -22,7 +22,7 @@ const NewsLetter = ({}) => {
                   <span className="newsletter-text-span">
                     news, offers, promotions, blog post
                   </span>
-                  in which toil and pain can procure him some great pleasure.
+                  in which toil and pain can procure you some great pleasure.
                 </Box>
               </Box>
               <Box className="newsletter-form">

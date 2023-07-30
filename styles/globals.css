@@ -1093,6 +1093,19 @@ nav {
   box-shadow: 0 6px 21px 0 rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 768px) {
+  .contact-map-block {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-map-block {
+    height: 40vh;
+  }
+  .open_day_link {
+    display: none;
+  }
+}
 .google-map {
   width: 100%;
   height: 100%;
