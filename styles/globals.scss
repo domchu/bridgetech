@@ -3559,8 +3559,10 @@ grid-template-columns: 1fr;
 
 // OPEN DAYS CSS
 .open{
-  color: var(--clr-white);
-  background-color: var(--primary-clr-2);
+  color: var(--primary-clr-2);
+  font-size:2rem;
+  font-weight:700;
+  // background-color: var(--primary-clr-2);
 }
 .open__day__container{
 background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);

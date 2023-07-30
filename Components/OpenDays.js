@@ -14,16 +14,23 @@ const OpenDays = () => {
   useEffect(() => {
     activateDays();
   }, []);
+
+
   return (
     <>
       <Box className="open__day__container">
         <Box display="flex" justifyContent="center" alignItems="center">
-          <Box width="40%" textAlign="left" mb="2rem">
+          <Box
+            width="40%"
+            textAlign="left"
+            mb="2rem"
+            // fontFamily=" Rajdhani, sans-serif"
+          >
             <Box
               display="flex"
               justifyContent="space-around"
               fontWeight="bold"
-              fontSize="1.5rem"
+              fontSize="2rem"
               color="#023e8a"
               textAlign="left"
               mb=".5rem"
@@ -105,7 +112,7 @@ const OpenDays = () => {
             >
               <span>Saturdays</span>
               <span>
-                Closed
+                Closed -
                 <Link href="tel:+234 7034278995" className="primary-button">
                   Call Us
                 </Link>
@@ -122,8 +129,12 @@ const OpenDays = () => {
             >
               <span>Sundays</span>
               <span>
-                Closed
-                <Link href="tel:+234 7034278995" className="primary-button">
+                Closed -
+                <Link
+                  href="tel:+234 7034278995"
+                  className="primary-button"
+                  style={{ ml: "10px" }}
+                >
                   Call Us
                 </Link>
               </span>

@@ -3731,8 +3731,9 @@ figure.card > figcaption {
 }
 
 .open {
-  color: var(--clr-white);
-  background-color: var(--primary-clr-2);
+  color: var(--primary-clr-2);
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .open__day__container {
