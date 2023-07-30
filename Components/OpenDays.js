@@ -12,17 +12,12 @@ const OpenDays = () => {
   };
 
   useEffect(() => {
-    activateDays;
+    activateDays();
   }, []);
   return (
     <>
       <Box className="open__day__container">
-        <Box
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        //   mb="2.5rem"
-        >
+        <Box display="flex" justifyContent="center" alignItems="center">
           <Box width="40%" textAlign="left" mb="2rem">
             <Box
               display="flex"
@@ -32,15 +27,15 @@ const OpenDays = () => {
               color="#023e8a"
               textAlign="left"
               mb=".5rem"
-              font-family=" Rajdhani, sans-serif"
+              fontFamily=" Rajdhani, sans-serif"
               textTransform="uppercase"
             >
               <span>Open Days</span>
               <span>Open Hours</span>
             </Box>
 
-            <Box
-              className={getDays == 1 ? "active" : "days"}
+            <li
+              className={getDays == 1 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -50,10 +45,10 @@ const OpenDays = () => {
             >
               <span>Mondays</span>
               <span>9:00 AM - 5:00 PM</span>
-            </Box>
+            </li>
             <br />
             <li
-              className={getDays == 2 ? "active" : "days"}
+              className={getDays == 2 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -65,7 +60,7 @@ const OpenDays = () => {
             </li>
             <br />
             <li
-              className={getDays == 3 ? "active" : "days"}
+              className={getDays == 3 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -77,7 +72,7 @@ const OpenDays = () => {
             </li>
             <br />
             <li
-              className={getDays == 4 ? "active" : "days"}
+              className={getDays == 4 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -89,7 +84,7 @@ const OpenDays = () => {
             </li>
             <br />
             <li
-              className={getDays == 5 ? "active" : "days"}
+              className={getDays == 5 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -101,7 +96,7 @@ const OpenDays = () => {
             </li>
             <br />
             <li
-              //   className={getDays == 6 ? "open" : "days"}
+              className={getDays == 6 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -118,7 +113,7 @@ const OpenDays = () => {
             </li>
             <br />
             <li
-              //   className={getDays == 0 ? "active" : "days"}
+              className={getDays == 0 ? "open" : ""}
               style={{
                 display: "flex",
                 justifyContent: "space-around",
