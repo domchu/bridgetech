@@ -2435,8 +2435,8 @@ strong {
   text-decoration: none;
 }
 
-.single-service-link {
-  color: red;
+.single {
+  color: red !important;
 }
 
 .service-section-top-text {

@@ -2325,9 +2325,9 @@ strong {
   font-weight: 700;
   text-decoration: none;
 }
-.single-service-link {
+.single {
   // color:var(--primary-clr-3)
-  color: red;
+  color: red !important;
 }
 .service-section-top-text {
   margin-bottom: 60px;

@@ -44,7 +44,10 @@ const Footer = () => {
                 to businesses across globe.
               </p>
               <Flex className="icons-container">
-                <Link href="https://www.facebook.com/bridgekode_tech" target="_blank">
+                <Link
+                  href="https://www.facebook.com/bridgekode_tech"
+                  target="_blank"
+                >
                   <FaFacebook className="icons" />
                 </Link>
                 <Link
@@ -117,7 +120,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.thebridgekode_blog.com"
+                  href="https://www.blog.bridgekode.com"
                   target="_blank"
                   id="footerlink"
                   className={currentRoute == "/blog" ? "active" : ""}
@@ -205,8 +208,8 @@ const Footer = () => {
               <Box>
                 <p>
                   <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
-                  40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market, Ojo-Lagos State.
-                  Nigeria
+                  40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market,
+                  Ojo-Lagos State. Nigeria
                 </p>
               </Box>
               <br />
@@ -247,7 +250,7 @@ const Footer = () => {
                     passhref="true"
                     rel="nofollow"
                   >
-                    info@bridgekodetech.com
+                    info@bridgekode.com
                   </Link>
                 </li>
                 <li>
