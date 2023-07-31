@@ -116,15 +116,7 @@ const OpenDays = () => {
               }}
             >
               <span>Saturdays</span>
-              <span>
-                Closed -
-                <Link
-                  href="tel:+234 7034278995"
-                  className="primary-button open_day_link"
-                >
-                  Call Us
-                </Link>
-              </span>
+              <span>10:00 AM - 4:00 PM</span>
             </li>
             <br />
             <li
