@@ -62,7 +62,9 @@ const About = () => {
                     <li>
                       We are <strong>Bridgekode</strong> provide the best
                       quality
-                      <Link href="https://www.example.com"> IT solution. </Link>
+                      <Link href="https://www.blog.bridgekode.com">
+                        IT solution.
+                      </Link>
                       Bridgekode is an innovative software development company
                       dedicated to providing innovative and tailored solutions
                       to businesses of all sizes. With a strong focus on
