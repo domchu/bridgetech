@@ -21,7 +21,7 @@ const OpenDays = () => {
       <Box className="open__day__container">
         <Box display="flex" justifyContent="center" alignItems="center">
           <Box
-            width="40%"
+            width={{ base: "100%", sm: "70%", md: "70%", lg: "40%" }}
             textAlign="left"
             mb="2rem"
             // fontFamily=" Rajdhani, sans-serif"
@@ -30,7 +30,12 @@ const OpenDays = () => {
               display="flex"
               justifyContent="space-around"
               fontWeight="bold"
-              fontSize="2rem"
+              fontSize={{
+                base: "1.5rem",
+                sm: "1.5rem",
+                md: "2rem",
+                lg: "2rem",
+              }}
               color="#023e8a"
               textAlign="left"
               mb=".5rem"
@@ -111,12 +116,7 @@ const OpenDays = () => {
               }}
             >
               <span>Saturdays</span>
-              <span>
-                Closed -
-                <Link href="tel:+234 7034278995" className="primary-button">
-                  Call Us
-                </Link>
-              </span>
+              <span>10:00 AM - 4:00 PM</span>
             </li>
             <br />
             <li
@@ -132,7 +132,7 @@ const OpenDays = () => {
                 Closed -
                 <Link
                   href="tel:+234 7034278995"
-                  className="primary-button"
+                  className="primary-button open_day_link"
                   style={{ ml: "10px" }}
                 >
                   Call Us
