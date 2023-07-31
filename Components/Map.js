@@ -44,7 +44,8 @@ const Map = () => {
                 <Box className="contact-info-title">Contact Information</Box>
                 <Box className="contact-info-small-title">Office Address</Box>
                 <Box className="contact-info-text">
-                  Shop 40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market,
+                  Shop 40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l
+                  Market,
                   <br />
                   Ojo-Lagos State. Nigeria
                 </Box>
@@ -54,11 +55,11 @@ const Map = () => {
                 </Box>
                 <Box className="contact-info-small-title">Email Address</Box>
                 <Box className="contact-info-text">
-                  info@bridgekodetech.com || bridgekodetech@gmail.com
+                  info@bridgekode.com || bridgekodetech@gmail.com
                 </Box>
               </Box>
               <Link
-                href="https://www.thebridgekode_blog.com"
+                href="https://www.blog.bridgekode.com"
                 className="contact-site-url"
                 target="_blank"
               >
