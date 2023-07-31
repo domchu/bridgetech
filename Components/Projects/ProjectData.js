@@ -58,7 +58,7 @@ const ProjectCont = [
     id: "7",
     image: "/images/weather.jpg",
     title: "Weather APP",
-    url: "/projects/graphics",
+    url: "/projects/weather",
     projectUrl: "https://weatherapp-eta-liart.vercel.app/",
     comments:
       "The Weather App is a project that utilizes JavaScript, HTML, CSS, and a weather API to provide users with real-time weather information for a specific location  of any city or state, display weather icons, provide extended forecasts . Anybody can use it.",

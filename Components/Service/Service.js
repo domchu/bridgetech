@@ -60,7 +60,7 @@ const Service = () => {
                   <Box className="section-text">
                     We are <strong>Bridgekode</strong> provide the best quality
                     <Link
-                      href="https://www.thebridgekode_blog.com"
+                      href="https://www.blog.bridgekode.com"
                       target="_blank"
                       className="it-solution"
                     >
@@ -88,7 +88,7 @@ const Service = () => {
                 </Box>
                 <Box>
                   <Link
-                    href="https://www.thebridgekode_blog.com"
+                    href="https://www.blog.bridgekode.com"
                     className="section-link margin-top-20"
                     target="_blank"
                     passhref="true"
