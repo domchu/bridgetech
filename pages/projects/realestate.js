@@ -10,7 +10,7 @@ import ProjectHeading from "../../Components/ProjectHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const mobile = () => {
+const realestate = () => {
   return (
     <>
       <DefaultSeo
@@ -62,4 +62,4 @@ const mobile = () => {
   );
 };
 
-export default mobile;
+export default realestate;

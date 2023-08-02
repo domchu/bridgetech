@@ -65,12 +65,12 @@ const ProjectCont = [
   },
   {
     id: "8",
-    image: "/images/project3.jpg",
-    title: "Mobile App Development",
-    url: "/projects/mobile",
+    image: "/images/cribstack.png",
+    title: "Real Estate Website",
+    url: "/projects/realestate",
     projectUrl: "https://www.cribstack.com",
     comments:
-      "These mobile apps serve various functions like target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
+      "These Real Estate Website serve various purpose like target audience, offering functionalities like Property Listings, apartment/rooms renting, buying of properties, etc",
   },
   {
     id: "9",
