@@ -14,20 +14,20 @@ const mobile = () => {
   return (
     <>
       <DefaultSeo
-        title="Mobile App | Bridgekode Tech"
+        title="Real Estate | Bridgekode Tech"
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />
       <Header />
       <ProjectHeading
-        title="Mobile Development"
+        title="Real Estate website"
         projectUrl="/projects/project-home"
       />
 
       {/* SINGLE PROJECT DETAILS FOR Mobile Development */}
       <SingleProject
-        title="Mobile Development"
+        title="Real Estate website"
         content="Website Name: Cribstack
 
         Purpose: Cribstack is a user-friendly online platform designed to help individuals find and rent houses, apartments, condos, and other residential properties. It aims to simplify the house-hunting process by providing a comprehensive and intuitive interface for property seekers and owners/managers.  TypeScript and React are popular technologies for building modern web applications, including housing rental websites like Cribstack. TypeScript adds static typing to JavaScript, which can help catch type-related errors during development and improve code maintainability. React, on the other hand, is a widely-used JavaScript library for building user interfaces, making it easy to create interactive and dynamic UI components."
@@ -52,9 +52,9 @@ const mobile = () => {
         solution1=" Cribstack's review and rating system provides users with valuable insights from previous tenants' experiences. This transparency fosters trust and confidence in the rental properties and property owners/managers."
         solution2=" Cribstack offers advanced search filters that allow users to refine their search based on specific criteria, such as location, property type, price range, and amenities. This streamlines the search process, saving users time and effort."
         solution3=" The platform's intuitive and easy-to-navigate interface enhances the user experience, making it effortless for users to search, explore, and interact with property listings."
-        image1="/images/project2.jpg"
-        image2="/images/service-benefit.jpg"
-        projectLink="https://www.test.com"
+        image1="/images/cribstack.png"
+        image2="/images/nkiru.jpg"
+        projectLink="https://www.cribstack.com"
       />
       <Testimonial />
       <Footer />
