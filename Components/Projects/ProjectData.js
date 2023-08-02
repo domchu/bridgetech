@@ -19,7 +19,7 @@ const ProjectCont = [
   },
   {
     id: "3",
-    image: "/images/project3.jpg",
+    image: "/images/blog.png",
     title: "Blog Website",
     url: "/projects/blog",
     projectUrl: "https://www.blog.bridgekode.com",

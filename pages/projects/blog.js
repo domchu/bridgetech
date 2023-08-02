@@ -32,7 +32,7 @@ const blog = () => {
         name="Bridgekode Blog"
         date="July 10, 2023"
         category="ICT"
-        address="No,7 Okache street, Sabo-Ojo, Lagos State."
+        address="Shop 40 Abuja Plaza, Ojo-Alaba Int'l market, Lagos State."
         summary="A blogging website typically follows a process that involves several key steps. Here is a general overview of how a blogging website works. It's important to note that the specific workings of a blogging website can vary depending on the CMS or platform used, as well as the customization and features implemented by the blogger. The overall process involves creating and publishing content, engaging with readers, and maintaining and optimizing the website for ongoing success."
         number1="Website Setup: The blogging website is created using a Content Management System (CMS) or a blogging platform. This involves registering a domain name, selecting a hosting provider, and installing the necessary software."
         number2="Monetization (Optional): Depending on the goals of the blogger, the website may be monetized through various methods. This can include displaying advertisements, sponsored posts, affiliate marketing, or selling products or services directly."
@@ -47,9 +47,9 @@ const blog = () => {
         solution1=" Building an Online Presence: A blogging website allows individuals and businesses to build and strengthen their online presence. By consistently publishing valuable content, bloggers can attract a loyal audience and expand their reach. This can lead to increased visibility, brand awareness, and a larger online following."
         solution2=" Driving Traffic to the Website: Blogging is an effective way to drive organic traffic to a website. By optimizing blog posts for search engines and using relevant keywords, bloggers can attract visitors who are actively searching for information related to their niche. This can result in increased website traffic and potential conversions."
         solution3=" Building Relationships with the Audience: A blogging website allows for direct communication and engagement with the audience. Readers can leave comments, ask questions, and share their thoughts, creating a sense of community and fostering relationships. This interaction helps build trust, loyalty, and a dedicated following."
-        image1="/images/project2.jpg"
-        image2="/images/service-benefit.jpg"
-        projectLink="https://www.bridgekodeblog.com"
+        image1="/images/blog.png"
+        image2="/images/me-person.jpg"
+        projectLink="https://www.blog.bridgekode.com"
       />
       <Testimonial />
       <Footer />

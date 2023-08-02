@@ -275,7 +275,7 @@ const Footer = () => {
               Copyright©2022 Bridgekode. All Rights Reserved. Designed and
               Developed by
               <Link
-                href="https://www.linkedin.com/in/dominic-ochu-470a8418a/"
+                href="https://www.linkedin.com/in/dominic-ochu/"
                 target="_blank"
                 rel="nofollow"
               >
