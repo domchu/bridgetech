@@ -5,7 +5,12 @@ const url =
 const SimpleForm = () => <MailchimpSubscribe url={url} />;
 
 const NewsLetterSubscribe = () => {
-  return <SimpleForm onSubmitted={(formData) => subscribe(formData)} />;
+  return (
+    <div className="newsletter-form">
+      <SimpleForm onSubmitted={(formData) => subscribe(formData)} />
+    </div>
+  );
+  
 };
 
 export default NewsLetterSubscribe;

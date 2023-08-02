@@ -928,6 +928,32 @@ nav {
   position: relative;
 }
 
+.newsletter-form input {
+  height: 64px;
+  margin-bottom: 0px;
+  padding-right: 100px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--primary-clr-1);
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.newsletter-form button {
+  margin-left: 12px;
+  padding: 10px 27px;
+  border-radius: 25px;
+  background-image: linear-gradient(270deg, #030b63, #0179af);
+  transition: background-color 300ms ease-in-out;
+  font-family: Rajdhani, sans-serif;
+  color: var(--clr-white);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .newsletter-content h2 {
   margin-bottom: 10px;
   color: var(--primary-clr-2);
