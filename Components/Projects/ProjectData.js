@@ -22,7 +22,7 @@ const ProjectCont = [
     image: "/images/project3.jpg",
     title: "Blog Website",
     url: "/projects/blog",
-    projectUrl: "https://www.bridgekodeblog.com",
+    projectUrl: "https://www.blog.bridgekode.com",
     comments:
       "These blog website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics etc.",
   },
@@ -68,7 +68,7 @@ const ProjectCont = [
     image: "/images/project3.jpg",
     title: "Mobile App Development",
     url: "/projects/mobile",
-    projectUrl: "https://www.google.com",
+    projectUrl: "https://www.cribstack.com",
     comments:
       "These mobile apps serve various functions like target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
   },
