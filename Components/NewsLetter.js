@@ -1,10 +1,11 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import NewsLetterSubscribe from "./NewsLetterSubscribe";
 
 const NewsLetter = ({}) => {
-  const handleFormSubmit = () => {};
+  // const handleFormSubmit = () => {};
 
-  const handleInputKeyEvent = (event) => {};
+  // const handleInputKeyEvent = (event) => {};
 
   return (
     <>
@@ -27,7 +28,7 @@ const NewsLetter = ({}) => {
               </Box>
               <Box className="newsletter-form">
                 <Box className="newsletter-form-block w-form">
-                  <form
+                  {/* <form
                     action=""
                     id="email-form"
                     className="newsletter-form"
@@ -54,7 +55,8 @@ const NewsLetter = ({}) => {
                       className="primary-button newsletter-button w-button"
                       onClick={handleFormSubmit}
                     />
-                  </form>
+                  </form> */}
+                  <NewsLetterSubscribe />
                 </Box>
               </Box>
             </Box>
