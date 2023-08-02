@@ -28,65 +28,30 @@ const mobile = () => {
       {/* SINGLE PROJECT DETAILS FOR Mobile Development */}
       <SingleProject
         title="Mobile Development"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
-        date="March 25, 2023"
-        category="E-Commerce"
-        address="25K, North City, New York"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        number2="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        content="Website Name: Cribstack
+
+        Purpose: Cribstack is a user-friendly online platform designed to help individuals find and rent houses, apartments, condos, and other residential properties. It aims to simplify the house-hunting process by providing a comprehensive and intuitive interface for property seekers and owners/managers.  TypeScript and React are popular technologies for building modern web applications, including housing rental websites like Cribstack. TypeScript adds static typing to JavaScript, which can help catch type-related errors during development and improve code maintainability. React, on the other hand, is a widely-used JavaScript library for building user interfaces, making it easy to create interactive and dynamic UI components."
+        name="Cribstack Leasing"
+        date="March. 25, 2022"
+        category="Housing & Properties Leasing"
+        address="Ikeja, Lagos State, Nigeria"
+        summary="The Cribstack project works as an online platform that connects property owners/managers with potential renters. By offering a user-friendly interface, comprehensive property listings, a secure payment system, and helpful features like reviews and ratings, Cribstack aims to streamline the process of finding and renting residential properties, making it a convenient and efficient platform for both property seekers and owners/managers."
+        number1="They provide detailed information about each property, including location, type (apartment, house, condo, etc.), price, number of bedrooms/bathrooms, and amenities."
+        number2="The property page displays comprehensive information about the selected property, such as its features, location on the map, and images."
+        point1="Cribstack offers user account management features, allowing users to edit their preferences, update contact information, and track their communications with property owners/managers."
+        point2="The front-end of the Cribstack website is built using React with TypeScript for enhanced type safety and a clean codebase."
+        result=" he successful implementation of the Cribstack project can lead to several positive results and benefits for various stakeholders involved. Here are some of the key outcomes:  Cribstack's user-friendly interface and intuitive design contribute to an improved user experience for both property seekers and owners/managers. Users can easily search for properties, view detailed information, and communicate with property owners, making the entire rental process more convenient and efficient, Increased Property Visibility, Trust and Transparency, Secure Rental Transactions, Time and Cost Savings, Legal Compliance, Real Estate Market Insights, Positive Impact on Real Estate Industry"
+        benefits="Cribstack offers numerous benefits to its users and the real estate community. Here are some key benefits of using Cribstack:
+
+        1. Comprehensive Property Listings: Cribstack provides a wide range of property listings, giving users access to an extensive selection of rental options. This diverse pool of properties ensures that users can find accommodations that suit their specific needs and preferences.
+        
+        2. User-Friendly Interface: The platform's intuitive and easy-to-navigate interface enhances the user experience, making it effortless for users to search, explore, and interact with property listings."
+        problemsState=" In IT real estate service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
+        problemsSummary="Cribstack offers numerous benefits to its users and the real estate community. Here are some key benefits of using Cribstack:"
+        solution1=" Cribstack's review and rating system provides users with valuable insights from previous tenants' experiences. This transparency fosters trust and confidence in the rental properties and property owners/managers."
+        solution2=" Cribstack offers advanced search filters that allow users to refine their search based on specific criteria, such as location, property type, price range, and amenities. This streamlines the search process, saving users time and effort."
+        solution3=" The platform's intuitive and easy-to-navigate interface enhances the user experience, making it effortless for users to search, explore, and interact with property listings."
         image1="/images/project2.jpg"
         image2="/images/service-benefit.jpg"
         projectLink="https://www.test.com"
