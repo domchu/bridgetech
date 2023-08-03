@@ -7,8 +7,8 @@ import project2 from "../public/images/sch-site.png";
 import project3 from "../public/images/e-commerce.png";
 import project1 from "../public/images/sch-portal.png";
 import project5 from "../public/images/opay-ui.png";
-import project6 from "../public/images/project6.jpg";
 import project7 from "../public/images/ict-site.png";
+import project4 from "../public/images/blog.png";
 
 const LatestProject = () => {
   return (
@@ -135,7 +135,7 @@ const LatestProject = () => {
                   <Box className="project-item-wrapper">
                     <Box className="project-collection">
                       <Image
-                        src={project6}
+                        src={project4}
                         alt="Blogging Image"
                         height={300}
                         width={300}
