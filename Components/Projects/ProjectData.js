@@ -19,10 +19,10 @@ const ProjectCont = [
   },
   {
     id: "3",
-    image: "/images/project3.jpg",
+    image: "/images/blog.png",
     title: "Blog Website",
     url: "/projects/blog",
-    projectUrl: "https://www.bridgekodeblog.com",
+    projectUrl: "https://www.blog.bridgekode.com",
     comments:
       "These blog website was done using Content Management System (WordPress), Sass, and others Plugins like liveChat, Google Analytics etc.",
   },
@@ -58,19 +58,19 @@ const ProjectCont = [
     id: "7",
     image: "/images/weather.jpg",
     title: "Weather APP",
-    url: "/projects/graphics",
+    url: "/projects/weather",
     projectUrl: "https://weatherapp-eta-liart.vercel.app/",
     comments:
       "The Weather App is a project that utilizes JavaScript, HTML, CSS, and a weather API to provide users with real-time weather information for a specific location  of any city or state, display weather icons, provide extended forecasts . Anybody can use it.",
   },
   {
     id: "8",
-    image: "/images/project3.jpg",
-    title: "Mobile App Development",
-    url: "/projects/mobile",
-    projectUrl: "https://www.google.com",
+    image: "/images/cribstack.png",
+    title: "Real Estate Website",
+    url: "/projects/realestate",
+    projectUrl: "https://www.cribstack.com",
     comments:
-      "These mobile apps serve various functions like target audience, offering functionalities like calculators, calendars, note-taking, task management, file storage & document editing.",
+      "These Real Estate Website serve various purpose like target audience, offering functionalities like Property Listings, apartment/rooms renting, buying of properties, etc",
   },
   {
     id: "9",

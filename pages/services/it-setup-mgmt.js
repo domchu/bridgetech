@@ -157,6 +157,11 @@ const itsetupmanagement = () => {
                             <Box className="service-link-separator"></Box>
                           </Box>
                           <Box
+                            // className={
+                            //   currentRoute == "/services/it-setup-mgmt"
+                            //     ? "single"
+                            //     : ""
+                            // }
                             className="service-link-item w-dyn-item"
                             role="listitem"
                           >

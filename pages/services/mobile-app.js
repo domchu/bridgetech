@@ -359,7 +359,7 @@ const mobileapp = () => {
                     <p>
                       Benefit of
                       <Link
-                        href="https://www.thebridgekode_blog.com"
+                        href="https://www.blog.bridgekode.com"
                         target="_blank"
                         className="it-solution"
                       >

@@ -213,7 +213,7 @@ const MobileView = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://test.com"
+                      href="https://www.blog.bridgekode.com"
                       target="_blank"
                       id="nav-link"
                       className={currentRoute == "/blog" ? "active" : ""}

@@ -1,11 +1,8 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import NewsLetterSubscribe from "./NewsLetterSubscribe";
 
 const NewsLetter = ({}) => {
-  const handleFormSubmit = () => {};
-
-  const handleInputKeyEvent = (event) => {};
-
   return (
     <>
       <Box className=" newsletter-section wf-section">
@@ -27,34 +24,7 @@ const NewsLetter = ({}) => {
               </Box>
               <Box className="newsletter-form">
                 <Box className="newsletter-form-block w-form">
-                  <form
-                    action=""
-                    id="email-form"
-                    className="newsletter-form"
-                    name="email-form"
-                    data-name="Email Form"
-                    method="get"
-                  >
-                    <input
-                      type="email"
-                      name="email-form"
-                      id="newsletter-email"
-                      className="newsletter-input-form w-input"
-                      data-name="Email Form"
-                      maxLength="256"
-                      placeholder="Enter your email here ..."
-                      required={true}
-                      onChange={(event) => setEmail(event?.target?.value ?? "")}
-                      onKeyUp={(event) => handleInputKeyEvent(event)}
-                    />
-                    <input
-                      type="submit"
-                      value="Subscribe"
-                      data-wait="please wait..."
-                      className="primary-button newsletter-button w-button"
-                      onClick={handleFormSubmit}
-                    />
-                  </form>
+                  <NewsLetterSubscribe />
                 </Box>
               </Box>
             </Box>
