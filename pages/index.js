@@ -43,7 +43,7 @@ export default function Home() {
           renderButtons={() => (
             <>
               <Link
-                href="https://www.facebook.com/bridgekode_tech"
+                href="https://www.facebook.com/bridgekode"
                 target="_blank"
                 className="slider__btn"
               >
@@ -68,7 +68,7 @@ export default function Home() {
                 Contact
               </Link>
               <Link
-                href="https://www.thebridgekode_blog.com"
+                href="https://www.blog.bridgekode.com"
                 target="_blank"
                 className="slider__btn"
               >
