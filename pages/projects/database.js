@@ -14,7 +14,7 @@ const database = () => {
   return (
     <>
       <DefaultSeo
-        title="School Database | Bridgekode Tech"
+        title="School Database | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />

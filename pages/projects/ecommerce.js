@@ -12,7 +12,7 @@ const ecommerce = () => {
   return (
     <>
       <DefaultSeo
-        title="E-commerce Site | Bridgekode Tech"
+        title="E-commerce Site | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />

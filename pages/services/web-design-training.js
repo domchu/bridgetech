@@ -20,7 +20,7 @@ const webdesigntraining = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Training | Bridgekode Tech"
+        title="Web Training | Crafting websites to perfection "
         description="If you're interested in learning web development, there are several paths you can take to acquire the necessary skills and knowledge."
         {...SEO}
       />

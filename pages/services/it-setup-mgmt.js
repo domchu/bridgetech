@@ -20,7 +20,7 @@ const itsetupmanagement = () => {
   return (
     <>
       <DefaultSeo
-        title="IT Setup & Management | Bridgekode Tech"
+        title="IT Setup & Management | Crafting websites to perfection "
         description="It involves purchasing or procuring equipments/gadgets establishment, maintenance, and administration of information technology infrastructure and systems within an organization. "
         {...SEO}
       />

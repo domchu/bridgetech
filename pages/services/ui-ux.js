@@ -20,7 +20,7 @@ const uiux = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux'Ui Design | Bridgekode Tech"
+        title="Ux'Ui Design | Crafting websites to perfection "
         description="UX/UI design involves creating user-centric interfaces for digital products, such as websites, mobile apps, or software applications."
         {...SEO}
       />

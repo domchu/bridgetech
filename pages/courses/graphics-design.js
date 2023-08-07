@@ -12,7 +12,7 @@ const graphics = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Bridgekode Tech"
+        title="Graphics Design | Crafting websites to perfection "
         description="We design logos, complementary cards, flyers, handbills, letter Heads etc using coraldraw, photoshop, illustrator, adobe Pagemaker etc"
         keywords=""
         {...SEO}

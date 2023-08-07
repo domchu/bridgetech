@@ -11,7 +11,7 @@ const projecthome = () => {
   return (
     <>
       <DefaultSeo
-        title="Projects | Bridgekode Tech"
+        title="Projects | Crafting websites to perfection "
         description="Check carefully the various projects carried out by bridgekode such as websites, UX/UI design, Database, School portal, Blog etc"
         {...SEO}
       />

@@ -12,7 +12,7 @@ const contentswriting = () => {
   return (
     <>
       <DefaultSeo
-        title="Content Writing | Bridgekode Tech"
+        title="Content Writing | Crafting websites to perfection "
         description="A well tutor materials tailored for contents writing for easy understanding by clients"
         keywords=""
         {...SEO}

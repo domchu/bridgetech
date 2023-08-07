@@ -12,7 +12,7 @@ const form = () => {
   return (
     <>
       <DefaultSeo
-        title="Register | Bridgekode Tech"
+        title="Register | Crafting websites to perfection "
         description="Register with us today by filling out our form."
         {...SEO}
       />

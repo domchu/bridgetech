@@ -12,7 +12,7 @@ const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Software Development | Bridgekode Tech"
+        title="Software Development | Crafting websites to perfection"
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

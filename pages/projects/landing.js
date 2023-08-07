@@ -12,7 +12,7 @@ const landing = () => {
   return (
     <>
       <DefaultSeo
-        title="Landing Page | Bridgekode Tech"
+        title="Landing Page | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />

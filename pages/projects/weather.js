@@ -12,7 +12,7 @@ const weather = () => {
   return (
     <>
       <DefaultSeo
-        title="Weather App | Bridgekode Tech"
+        title="Weather App | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
