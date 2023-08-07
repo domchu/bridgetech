@@ -47,7 +47,7 @@ const database = () => {
         solution2=" Centralized Information Access: The school portal provides a centralized platform where users can access important information and resources. It eliminates the need for multiple communication channels and physical documents, making it easier and more efficient to find and retrieve information."
         solution3=" Data-Driven Decision Making: The portal generates data and analytics that can be used for informed decision making. Administrators can analyze student performance data, attendance trends, and other metrics to identify areas for improvement, allocate resources effectively, and implement evidence-based strategies."
         image1="/images/sch-portal.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/female-img.png"
         projectLink="https://www.admin.keyonavilleschools.com.ng"
       />
       <Testimonial />

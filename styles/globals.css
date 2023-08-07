@@ -323,6 +323,28 @@ nav {
   display: none;
 }
 
+.moview-view-container {
+  transform: translateX(50%);
+  transition: 1s ease;
+}
+
+.moview-view-container--show {
+  transform: translateX(100%);
+}
+
+.moview-view-container--hide {
+  transform: translateX(-50%);
+  animation: mobile-show 1s;
+}
+
+@keyframes mobile-show {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
 @media screen and (max-width: 768px) {
   .menu-button {
     display: block;
@@ -1102,6 +1124,9 @@ nav {
   }
   .newsletter-content h2 {
     font-size: 28px;
+  }
+  .newsletter-form button {
+    margin-top: 10px;
   }
 }
 .contact-block {
@@ -3782,13 +3807,4 @@ figure.card > figcaption {
   background-repeat: no-repeat, repeat;
   padding: 5rem 0px;
   margin-bottom: 5rem;
-}
-
-.moview-view-container--show {
-  transform: translateX(300px);
-  transition: transform ease-out 0.3s;
-}
-
-.moview-view-container--hide {
-  transform: translateX(-300px);
 }/*# sourceMappingURL=globals.css.map */
