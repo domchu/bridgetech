@@ -1,6 +1,4 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import Link from "next/link";
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -14,25 +12,25 @@ const training = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Tutorals | Bridgekode Tech"
+        title="Portfolio Website | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />
       <Topnav />
       <Header />
       <ProjectHeading
-        title="Web Design Tutorals"
+        title="Portfolio Website"
         projectUrl="/projects/project-home"
       />
 
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}
       <SingleProject
-        title="Web Development Tutorals"
+        title="Portfolio Website"
         content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Business Organisation"
-        date="March 25, 2023"
-        category="E-Commerce"
-        address="25K, North City, New York"
+        name="Portfolio Website"
+        date="August 5, 2023"
+        category="Product Design"
+        address="N0 9 Kembiri Road, Okokomaiko-Ojo, Lagos State"
         summary="We are Optitech provide the best quality
       It solution neque porro quisquam est qui dolorem ipsum
       quia golor sit amet, conse ctetur, adipisci velit, sed
@@ -87,9 +85,9 @@ const training = () => {
         solution3=" IT Management provide the most service neque porro
       quisquam est qui dolorem ipsum quia golor sit amet, conse
       ctetur, adipisci velit"
-        image1="/images/project2.jpg"
+        image1="/images/portfolio.jpeg"
         image2="/images/service-benefit.jpg"
-        projectLink="https://www.test.com"
+        projectLink="https://sammy-portfolio-ymei65rx8-creatorxperience.vercel.app/"
       />
       <Testimonial />
       <Footer />
