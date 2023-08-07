@@ -19,7 +19,7 @@ const form = () => {
       <Topnav />
       <Header />
       <Register />
-      <RegisterForm />
+      {/* <RegisterForm /> */}
       <NewsLetter />
       <Footer />
     </>
