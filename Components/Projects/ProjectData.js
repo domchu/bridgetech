@@ -74,13 +74,13 @@ const ProjectCont = [
   },
   {
     id: "9",
-    image: "/images/project1.jpg",
+    image: "/images/portfolio.jpeg",
     title: "Portfolio Website",
     url: "/projects/portfolio",
     projectUrl:
       "https://sammy-portfolio-ymei65rx8-creatorxperience.vercel.app/",
     comments:
-      "These portfolio website was developed by Bridgekode using Typescript, React, styled-Component and others libraries",
+      "These portfolio website was developed by Bridgekode using Typescript, React, styled-Component and others libraries with also mobile responsiveness",
   },
   {
     id: "10",
