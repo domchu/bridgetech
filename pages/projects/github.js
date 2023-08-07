@@ -9,7 +9,7 @@ import ProjectHeading from "../../Components/ProjectHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const network = () => {
+const GithubProfile = () => {
   return (
     <>
       <DefaultSeo
@@ -27,7 +27,7 @@ const network = () => {
       {/* SINGLE PROJECT DETAILS FOR Fetch Github Profile */}
       <SingleProject
         title="Fetch Github Profile"
-        content="he GitHub Profile Generator is a web application developed using a combination of API, JavaScript, CSS, and HTML. The primary objective of this project is to provide users with a convenient tool to generate visually appealing and informative profiles for their GitHub accounts. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence."
+        content="The GitHub Profile Generator is a web application developed using a combination of API, JavaScript, CSS, and HTML. The primary objective of this project is to provide users with a convenient tool to generate visually appealing and informative profiles for their GitHub accounts. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence."
         name="Fetch Github Profile"
         date="March 25, 2022"
         category="API Project"
@@ -57,4 +57,4 @@ const network = () => {
   );
 };
 
-export default network;
+export default GithubProfile;

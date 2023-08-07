@@ -103,12 +103,12 @@ const ProjectCont = [
   },
   {
     id: "12",
-    image: "/images/project5.jpg",
-    title: "Hardware & Networking",
-    url: "/projects/network",
-    projectUrl: "https://www.google.com",
+    image: "/images/github.png",
+    title: "Fetch Github User Profile",
+    url: "/projects/github",
+    projectUrl: "https://git-hub-profile-f756.vercel.app/",
     comments:
-      "These project deals with all hardware procurement/purchase, maintenance, configuration, install, troubleshooting & system set up.",
+      "These GitHub Profile Generator is a web API developed using a combination of API, JavaScript, CSS, and HTML. IT aims of this project is to provide users with a convenient tool to generate informative user profiles for their GitHub accounts.",
   },
 ];
 
