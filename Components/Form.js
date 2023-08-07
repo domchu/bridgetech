@@ -1,13 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
-import {
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  Textarea,
-  Input,
-} from "@chakra-ui/react";
+import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 // FUNCTIONAL .........................
 const Form = () => {
@@ -47,7 +41,6 @@ const Form = () => {
               <Box id="w-form contact-form-block">
                 {/* NEW FORM   */}
                 <form
-                  ref={form}
                   onSubmit={handleContactForm}
                   action="value"
                   id="wf-form-contact-form"
@@ -106,7 +99,7 @@ const Form = () => {
                         maxLength="5000"
                         data-name="field"
                         style={{ border: "1px solid #77b6d8" }}
-                        // isInvalid
+                       
                         placeholder="Write Message...*"
                         className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
                         id="Contact-Message"
