@@ -11,7 +11,7 @@ const register = () => {
   return (
     <>
       <DefaultSeo
-        title="Register | Bridgekode Tech"
+        title="Register | Crafting websites to perfection "
         description="Register for Bridgekode available services, courses & any IT skills you want as a career in life. You are why we are here."
         {...SEO}
       />
