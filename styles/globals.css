@@ -3782,4 +3782,13 @@ figure.card > figcaption {
   background-repeat: no-repeat, repeat;
   padding: 5rem 0px;
   margin-bottom: 5rem;
+}
+
+.moview-view-container--show {
+  transform: translateX(300px);
+  transition: transform ease-out 0.3s;
+}
+
+.moview-view-container--hide {
+  transform: translateX(-300px);
 }/*# sourceMappingURL=globals.css.map */

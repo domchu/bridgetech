@@ -3615,3 +3615,11 @@ margin-bottom:5rem;
 }
 
 
+//mobile
+.moview-view-container--show{
+  transform:translateX(300px);
+  transition:transform ease-out .3s
+}
+.moview-view-container--hide{
+  transform:translateX(-300px)
+}

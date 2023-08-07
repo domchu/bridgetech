@@ -10,11 +10,11 @@ import {
 } from "@chakra-ui/react";
 
 const Quotes = () => {
-  const [message, setMessage] = useState(null);
+  // const [message, setMessage] = useState(null);
   // HANDLE CONTACT FORM
-  const handleContactForm = (e) => {
+  const handleAQuoteForm = (e) => {
     e.preventDefault();
-    setMessage(null);
+    // setMessage(null);
 
     emailjs
       .sendForm(
@@ -360,6 +360,7 @@ const Quotes = () => {
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
+                    onClick={handleAQuoteForm}
                   >
                     Send Now
                   </Button>

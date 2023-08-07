@@ -5,7 +5,6 @@ import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 // FUNCTIONAL .........................
 const Form = () => {
-  const [message, setMessage] = useState(null);
   // HANDLE CONTACT FORM
   const handleContactForm = (e) => {
     e.preventDefault();
@@ -99,7 +98,6 @@ const Form = () => {
                         maxLength="5000"
                         data-name="field"
                         style={{ border: "1px solid #77b6d8" }}
-                       
                         placeholder="Write Message...*"
                         className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
                         id="Contact-Message"
