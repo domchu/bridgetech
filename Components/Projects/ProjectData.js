@@ -75,11 +75,12 @@ const ProjectCont = [
   {
     id: "9",
     image: "/images/project1.jpg",
-    title: "Web Design Tutorials",
-    url: "/projects/training",
-    projectUrl: "https://www.google.com",
+    title: "Portfolio Website",
+    url: "/projects/portfolio",
+    projectUrl:
+      "https://sammy-portfolio-ymei65rx8-creatorxperience.vercel.app/",
     comments:
-      "Bridgekode specialized in kids coding programming at home, school pupils/students and youths across ages as career path in IT skills to financial stability",
+      "These portfolio website was developed by Bridgekode using Typescript, React, styled-Component and others libraries",
   },
   {
     id: "10",
