@@ -13,79 +13,43 @@ const network = () => {
   return (
     <>
       <DefaultSeo
-        title="Quiz App | Crafting websites to perfection "
+        title="Github Profile | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
       <Topnav />
       <Header />
-      <ProjectHeading title="Quiz App" projectUrl="/projects/project-home" />
+      <ProjectHeading
+        title="Fetch Github Profile"
+        projectUrl="/projects/project-home"
+      />
 
-      {/* SINGLE PROJECT DETAILS FOR Quiz App */}
+      {/* SINGLE PROJECT DETAILS FOR Fetch Github Profile */}
       <SingleProject
-        title="Quiz App"
-        content="An e-commerce website is a platform that enables businesses to sell products or services online. It allows customers to browse through the product catalog, select items of interest, add them to a shopping cart, and complete the purchase using various payment methods. It entailed Online Storefront, Product Catalog, Shopping Cart, Payment Processing, User Accounts, Marketing and Analytics etc. E-commerce websites have revolutionized the way businesses operate and provide a convenient and accessible platform for customers to shop online. They have opened up global markets, enabled small businesses to reach a wider audience, and transformed the retail industry."
-        name="Quiz Application"
-        date="March 25, 2023"
-        category="Questions & Answers"
+        title="Fetch Github Profile"
+        content="he GitHub Profile Generator is a web application developed using a combination of API, JavaScript, CSS, and HTML. The primary objective of this project is to provide users with a convenient tool to generate visually appealing and informative profiles for their GitHub accounts. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence. Overall, the GitHub Profile Generator is a valuable tool for developers who want to showcase their skills and contributions on GitHub in an attractive and professional manner. Its user-friendly interface, customization options, and real-time data integration from the GitHub API make it an essential asset for any developer looking to create a compelling online presence."
+        name="Fetch Github Profile"
+        date="March 25, 2022"
+        category="API Project"
         address="ojo, Okokomaiko, Lagos Nigeria"
-        summary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        number1="IT Consultancy provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
+        summary="The project utilizes the GitHub API to fetch relevant user data, including profile information, repositories, and contribution statistics. This ensures that the generated profiles are always up-to-date and accurately reflect the user's GitHub activity."
+        number1="When a user visits the web application, they are presented with a user-friendly interface that prompts them to input their GitHub username or the username of the GitHub user they want to generate a profile for"
         number2="IT Consultancy provide the most service neque porro
         quisquam est qui dolorem ipsum quia golor sit amet,
-        conse ctetur, adipisci velit"
-        point1="The main way to solve the the best quality It solution
-        neque porro quisquam qui dolorem ipsum quia golor sit
-        amet, conse ctetur, adipisci velit, sed eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat"
-        point2="Great deal dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit, sed optio cumque nihil impedit quo
-        minus id quod maxime placeat optio cumque nihil impedit
-        quo minus id quod maxime placeat"
-        result=" We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure him some great pleaser pleasure
-        rationally encounter consequences that are extremely
-        painful. Nor again is there anyone who loves or pursues or
-        desires to obtain pain of itsel because it is pain, but
-        because occasionally circumstances occur in which toil and
-        pain can procure him some great pleaser"
-        benefits="We are Optitech provide the best quality It
-        solution neque porro quisquam est qui dolorem ipsum quia
-        golor sit amet, conse ctetur, adipisci velit, sed eligendi
-        optio cumque nihil impedit quo minus id quod maxime placeat
-        pleasure rationally encounter consequences that are
-        extremely painful. Nor again is there anyone who loves or
-        pursues or desires to obtain pain of itself, because it is
-        pain, but because occasionally circumstances occur in which
-        toil and pain can procure"
-        problemsState=" In IT Consultancy Service we cover most of the IT problems
+        conse ctetur, adipisci velitThe GitHub API responds to the request by providing the necessary data associated with the provided GitHub username. This data includes the user's profile information (e.g., name, bio, avatar), a list of their public repositories, contribution statistics, and other relevant details."
+        point1="The GitHub API responds to the request by providing the necessary data associated with the provided GitHub username. This data includes the user's profile information (e.g., name, bio, avatar), a list of their public repositories, contribution statistics, and other relevant details."
+        point2=" Depending on the project's design and user interface, the user may be given the option to customize certain aspects of their profile. For example, they might be able to choose a color scheme, select specific repositories to showcase, or add a personal bio or tagline."
+        result="The GitHub Profile Generator project achieves its primary goal of providing users with a visually appealing and informative profile for their GitHub accounts. By integrating with the GitHub API and leveraging client-side technologies, the project successfully fetches real-time data from GitHub and dynamically renders it in a user-friendly interface. The result is a personalized GitHub profile that showcases the user's profile information, repositories, contribution statistics, and other relevant details. In summary, the GitHub Profile Generator project fetches user data from the GitHub API, processes and renders it dynamically on the client-side, and allows users to customize and display their GitHub profiles in an attractive and personalized way. The project's success lies in its integration with the GitHub API, its intuitive user interface, and its ability to create visually appealing profiles with real-time data."
+        benefits="Overall, the GitHub Profile Generator offers a valuable service to developers by simplifying the process of creating an impressive and up-to-date GitHub profile. It empowers users to showcase their work, engage with the developer community, and open doors to new opportunities within the tech industry."
+        problemsState=" In API Service we cover most of the IT problems
         that your company faces and we try to solve it."
-        problemsSummary="We are Optitech provide the best quality
-        It solution neque porro quisquam est qui dolorem ipsum
-        quia golor sit amet, conse ctetur, adipisci velit, sed
-        eligendi optio cumque nihil impedit quo minus id quod
-        maxime placeat"
-        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velit"
-        solution2=" IT Management provide the most service neque porroquisquam est qui dolorem ipsum quia golor sit amet, conse ctetur, adipisci velit"
-        solution3=" IT Management provide the most service neque porro
-        quisquam est qui dolorem ipsum quia golor sit amet, conse
-        ctetur, adipisci velit"
-        image1="/images/project2.jpg"
+        problemsSummary="Open Source Contribution: If the GitHub Profile Generator project is made open source, it can benefit the developer community by allowing others to contribute, suggest improvements, and use the code as a foundation for building similar tools."
+        solution1=" IT Management provide the most service neque porro quisquam est qui dolorem ipsum quia golor sit amet, consectetur, adipisci velitThe project fetches data directly from the GitHub API, ensuring that the generated profiles are always up-to-date. This real-time data integration guarantees that the profiles accurately reflect the user's latest GitHub activities and contributions."
+        solution2="With the GitHub Profile Generator, users can create a professional and polished online presence that highlights their GitHub activity and contributions. This can be especially beneficial for developers seeking job opportunities, collaborations, or networking within the tech community."
+        solution3=" The generated profiles act as a showcase for the user's coding skills, projects, and contributions. It helps potential employers and collaborators get a quick overview of the user's capabilities and areas of expertise."
+        image1="/images/github.png"
         image2="/images/service-benefit.jpg"
-        projectLink="https://www.test.com"
+        projectLink="https://git-hub-profile-f756.vercel.app/"
       />
       <Testimonial />
       <Footer />
