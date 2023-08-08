@@ -12,7 +12,7 @@ const ecommerce = () => {
   return (
     <>
       <DefaultSeo
-        title="E-commerce Site | Bridgekode Tech"
+        title="E-commerce Site | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />
@@ -46,7 +46,7 @@ const ecommerce = () => {
         solution2=" Targeted Marketing and Remarketing: E-commerce enables businesses to implement targeted marketing strategies, reaching specific customer segments based on demographics, interests, or past purchase behavior. Additionally, e-commerce platforms facilitate remarketing efforts, allowing businesses to reconnect with potential customers who have shown interest but haven't completed a purchase."
         solution3=" Increased Sales and Revenue: E-commerce opens up additional sales channels, enabling businesses to sell products or services online and generate revenue outside of traditional brick-and-mortar stores. "
         image1="/images/e-commerce.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/kids.jpg"
         projectLink="https://www.sebenstore.com"
       />
       <Testimonial />

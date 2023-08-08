@@ -25,15 +25,7 @@ const Navbar = () => {
   };
   return (
     <>
-      {/* <Box
-                className={`moview-view-container ${
-                  mobile
-                    ? "moview-view-container--show"
-                    : "moview-view-container--hide"
-                }`}
-              >
-                <MobileView />
-              </Box> */}
+     
       <nav>
         <Box className=" header-navbar-block">
           {/* THE BRAND LOGO SECTION */}
@@ -253,6 +245,7 @@ const Navbar = () => {
                 />
               </Box>
               {/* MOBILE VIEW OF THE BRIDGEKODE */}
+              {/* <Box className={`moview-view-container ${mobile ? "moview-view-container--show" : "moview-view-container--hide"}`}> */}
               <Box style={{ display: mobile ? "block" : "none" }}>
                 <MobileView />
               </Box>
@@ -276,3 +269,12 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//  {/* <Box
+//  className={`moview-view-container ${
+//   mobile
+//     ? "moview-view-container--show"
+//     : "moview-view-container--hide"
+// }`}
+// >
+// <MobileView />
+// </Box> */}

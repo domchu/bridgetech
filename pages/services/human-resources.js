@@ -20,7 +20,7 @@ const humanResources = () => {
   return (
     <>
       <DefaultSeo
-        title="Human Resourses | Bridgekode Tech"
+        title="Human Resourses | Crafting websites to perfection "
         description="HR plays a crucial role in recruiting, hiring, training, developing, & supporting employees throughout their employment lifecycle. "
         {...SEO}
       />

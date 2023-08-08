@@ -17,7 +17,7 @@ const Service = () => {
               </h1>
               <p>
                 Choose from our wide range of services offered by bridgekode
-                software development services.
+                software development company and referrals are highly rewarded.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -53,10 +53,13 @@ const Service = () => {
                   <Box className="service-medium-subtitle-text">
                     Over <strong>3 years</strong> working in IT services,
                     developing <br />
-                    software, websites, e-commerce sites, kids coding training,
-                    school portal/database, mobile apps for clients all over the
-                    world.
+                    Software, Custom website, Business website, E-commerce
+                    websites, Kids coding training, Blogging, School coding
+                    program, School database, School Result portal, E-learning
+                    Apps, Tracking website, Ticketing website, Mobile apps for
+                    clients all over the world.
                   </Box>
+                  <br />
                   <Box className="section-text">
                     We are <strong>Bridgekode</strong> provide the best quality
                     <Link
@@ -135,7 +138,8 @@ const Service = () => {
                 </h2>
                 <Box className="section-text">
                   Choose from our wide range of services offers by bridgekode
-                  software development services.
+                  software development company and referrals are highly
+                  rewarded.
                 </Box>
               </Box>
             </Box>

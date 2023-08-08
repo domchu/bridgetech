@@ -12,7 +12,7 @@ const course = () => {
   return (
     <>
       <DefaultSeo
-        title="Courses | Bridgekode Tech"
+        title="Courses | Crafting websites to perfection "
         description="Choose from our wide range of courses offers by bridgekode software development service to land your dream job and be finacially stable."
         {...SEO}
       />

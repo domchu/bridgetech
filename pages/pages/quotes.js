@@ -12,7 +12,7 @@ const quotes = () => {
   return (
     <>
       <DefaultSeo
-        title="Quote | Bridgekode Tech"
+        title="Quote | Crafting websites to perfection "
         description="Let's have your project budget and We will get back to you as soon as possible."
         {...SEO}
       />

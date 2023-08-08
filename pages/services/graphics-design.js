@@ -20,7 +20,7 @@ const graphicdesign = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Bridgekode Tech"
+        title="Graphics Design | Crafting websites to perfection "
         description="The art and practice of creating visual content using typography, images, and other graphical elements "
         {...SEO}
       />

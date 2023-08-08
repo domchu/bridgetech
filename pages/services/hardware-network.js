@@ -20,7 +20,7 @@ const hardwareNetwork = () => {
   return (
     <>
       <DefaultSeo
-        title="Hardware & Networking | Bridgekode Tech"
+        title="Hardware & Networking | Crafting websites to perfection "
         description="It encompasses all the tangible parts of a computer or electronic system that you can touch, see, and interact with. "
         {...SEO}
       />

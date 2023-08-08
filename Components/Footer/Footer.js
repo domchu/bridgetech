@@ -45,7 +45,7 @@ const Footer = () => {
               </p>
               <Flex className="icons-container">
                 <Link
-                  href="https://www.facebook.com/bridgekode_tech"
+                  href="https://www.facebook.com/bridgekode"
                   target="_blank"
                 >
                   <FaFacebook className="icons" />

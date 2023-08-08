@@ -10,7 +10,7 @@ const Error = () => {
   return (
     <>
       <DefaultSeo
-        title="404 Page | Bridgekode Tech"
+        title="404 Page | Crafting websites to perfection "
         description="That page cannot be found in bridgekode website. Please return to home page"
         {...SEO}
       />

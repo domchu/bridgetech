@@ -12,7 +12,7 @@ const desktoppublishing = () => {
   return (
     <>
       <DefaultSeo
-        title="Desktop Publishing | Bridgekode Tech"
+        title="Desktop Publishing | Crafting websites to perfection "
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         keywords=""
         {...SEO}

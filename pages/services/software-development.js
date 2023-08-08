@@ -13,7 +13,7 @@ const softwaredevelopment = () => {
   return (
     <>
       <DefaultSeo
-        title="Software Development | Bridgekode Tech"
+        title="Software Development | Crafting websites to perfection "
         description="Software development refers to the process of designing, coding, testing, and maintaining software applications or systems.   "
         {...SEO}
       />

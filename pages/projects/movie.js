@@ -1,6 +1,5 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import Link from "next/link";
+
 import Topnav from "../../Components/Topnav/Topnav";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -14,7 +13,7 @@ const movie = () => {
   return (
     <>
       <DefaultSeo
-        title="Movie Engine | Bridgekode Tech"
+        title="Movie Engine | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

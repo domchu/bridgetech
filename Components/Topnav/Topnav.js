@@ -40,7 +40,7 @@ const Topnav = () => {
                 <li className="topnav-links">
                   <Flex align="center">
                     <FaEnvelope className="topnav-icons" />
-                    <Link href="mailto:info@bridgekodetech.com" passhref="true">
+                    <Link href="mailto:info@bridgekode.com" passhref="true">
                       info@bridgekode.com
                     </Link>
                   </Flex>

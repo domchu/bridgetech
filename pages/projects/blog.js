@@ -14,7 +14,7 @@ const blog = () => {
   return (
     <>
       <DefaultSeo
-        title="Blog Website | Bridgekode Tech"
+        title="Blog Website | Crafting websites to perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

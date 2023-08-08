@@ -20,7 +20,7 @@ const webdevelopment = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Development | Bridgekode Tech"
+        title="Web Development | Crafting websites to perfection "
         description="It involves designing, coding, & maintaining the various components that make up a website, user interface, functionality, & databases."
         {...SEO}
       />

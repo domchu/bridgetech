@@ -20,7 +20,7 @@ const mobileapp = () => {
   return (
     <>
       <DefaultSeo
-        title="Mobile Applications | Bridgekode Tech"
+        title="Mobile Applications | Crafting websites to perfection "
         description="Application designed specifically for user on mobile devices such as smartphones & tablets. "
         {...SEO}
       />

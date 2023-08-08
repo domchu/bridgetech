@@ -11,7 +11,7 @@ const login = () => {
   return (
     <>
       <DefaultSeo
-        title="Log in | Bridgekode Tech"
+        title="Log in | Crafting websites to perfection "
         description="Please enter your correct password and username"
         {...SEO}
       />

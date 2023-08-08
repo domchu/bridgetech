@@ -12,7 +12,7 @@ const juniorwriter = () => {
   return (
     <>
       <DefaultSeo
-        title=" Copywriter | Bridgekode Team"
+        title=" Copywriter | Crafting websites to perfection "
         description="expert in guidance and counselling kids, students, giving advice to clients, initiation of ideas etc  "
         {...SEO}
       />

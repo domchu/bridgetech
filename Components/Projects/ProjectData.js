@@ -74,12 +74,13 @@ const ProjectCont = [
   },
   {
     id: "9",
-    image: "/images/project1.jpg",
-    title: "Web Design Tutorials",
-    url: "/projects/training",
-    projectUrl: "https://www.google.com",
+    image: "/images/portfolio.jpeg",
+    title: "Portfolio Website",
+    url: "/projects/portfolio",
+    projectUrl:
+      "https://sammy-portfolio-ymei65rx8-creatorxperience.vercel.app/",
     comments:
-      "Bridgekode specialized in kids coding programming at home, school pupils/students and youths across ages as career path in IT skills to financial stability",
+      "These portfolio website was developed by Bridgekode using Typescript, React, styled-Component and others libraries with also mobile responsiveness",
   },
   {
     id: "10",
@@ -102,12 +103,12 @@ const ProjectCont = [
   },
   {
     id: "12",
-    image: "/images/project5.jpg",
-    title: "Hardware & Networking",
-    url: "/projects/network",
-    projectUrl: "https://www.google.com",
+    image: "/images/github.png",
+    title: "Fetch Github User Profile",
+    url: "/projects/github",
+    projectUrl: "https://git-hub-profile-f756.vercel.app/",
     comments:
-      "These project deals with all hardware procurement/purchase, maintenance, configuration, install, troubleshooting & system set up.",
+      "These GitHub Profile Generator is a web API developed using a combination of API, JavaScript, CSS, and HTML. IT aims of this project is to provide users with a convenient tool to generate informative user profiles for their GitHub accounts.",
   },
 ];
 

@@ -7,7 +7,7 @@ import Brand from "../../public/images/bridgekode-blue.png";
 import Dropdown from "../../public/images/arrow-down.svg";
 
 const MobileView = () => {
-  // ACTIVE PAGES LINK
+  // ACTIVE PAGES ITS ROUTE LINK
   const router = useRouter();
   const currentRoute = router.pathname;
 

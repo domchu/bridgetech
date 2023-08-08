@@ -12,7 +12,7 @@ const Register = () => {
     emailjs
       .sendForm(
         "service_bk8yeji",
-        "template_2lunr8k",
+        "template_i85dg7c",
         e.target,
         "96iqhJ7BekdwKq5HK"
       )

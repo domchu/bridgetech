@@ -1,17 +1,44 @@
 import React from "react";
+import Link from "next/link";
+import emailjs from "emailjs-com";
+
 import {
   Checkbox,
   Box,
   Button,
   FormControl,
   FormLabel,
-  
   Input,
 } from "@chakra-ui/react";
 
-import Link from "next/link";
-
 const Quotes = () => {
+  // const [message, setMessage] = useState(null);
+  // HANDLE CONTACT FORM
+  const handleAQuoteForm = (e) => {
+    e.preventDefault();
+    // setMessage(null);
+
+    emailjs
+      .sendForm(
+        "service_bk8yeji",
+        "template_i85dg7c",
+        e.target,
+        "96iqhJ7BekdwKq5HK"
+      )
+      .then((result) => {
+        console.log("Successfully submitted, we will be in touch soon", result);
+        // setMessage(result.message="Successfully submitted, we will be in touch soon");
+      })
+      .catch(
+        (err) =>
+          console.log("Failed! This might be due to error in networt", err)
+        // setMessage(err.message="Failed! This might be due to error in networt");
+      );
+
+    // CLEAR THE FORM AFTER SUBMITTING.
+    e.target.reset();
+  };
+
   return (
     <>
       <Box className="project-sub-container">
@@ -113,6 +140,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -122,6 +150,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -131,6 +160,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -140,6 +170,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -149,6 +180,7 @@ const Quotes = () => {
                           <li>
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -165,6 +197,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -175,6 +208,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -184,6 +218,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -193,6 +228,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -202,6 +238,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -211,6 +248,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -220,6 +258,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -229,6 +268,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -238,6 +278,7 @@ const Quotes = () => {
                           <li className="quote-project-item">
                             <Checkbox
                               type="checkbox"
+                              name="user_checkbox"
                               size="md"
                               style={{ fontWeight: "normal" }}
                             >
@@ -263,7 +304,7 @@ const Quotes = () => {
                               height: "48px",
                             }}
                             type="text"
-                            name="field"
+                            name="first_field"
                             id="field"
                             data-name="field"
                             maxLength="256"
@@ -275,7 +316,7 @@ const Quotes = () => {
                       <Box className="quote-input-group-item">
                         <FormControl isRequired>
                           <FormLabel className="quote-subtitle">
-                            When should we start?
+                            When should we end?
                           </FormLabel>
                           <Input
                             style={{
@@ -284,7 +325,7 @@ const Quotes = () => {
                               width: "100%",
                             }}
                             type="text"
-                            name="field 2"
+                            name="second_field"
                             id="field-2"
                             data-name="field 2"
                             maxLength="256"
@@ -307,7 +348,7 @@ const Quotes = () => {
                     <Input
                       style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
-                      name="Product-Budget"
+                      name="message"
                       id="Product-Budget-2"
                       placeholder="Type your budget*"
                       maxLength="256"
@@ -321,6 +362,7 @@ const Quotes = () => {
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
+                    onClick={handleAQuoteForm}
                   >
                     Send Now
                   </Button>

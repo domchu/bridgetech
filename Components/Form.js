@@ -1,20 +1,14 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
-import {
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  Textarea,
-  Input,
-} from "@chakra-ui/react";
+import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 // FUNCTIONAL .........................
 const Form = () => {
-  const form = useRef();
   // HANDLE CONTACT FORM
   const handleContactForm = (e) => {
     e.preventDefault();
+    setMessage(null);
 
     emailjs
       .sendForm(
@@ -25,9 +19,12 @@ const Form = () => {
       )
       .then((result) => {
         console.log("Successfully submitted, we will be in touch soon", result);
+        // setMessage(result.message="Successfully submitted, we will be in touch soon");
       })
-      .catch((err) =>
-        console.log("Failed! This might be due to error in networt", err)
+      .catch(
+        (err) =>
+          console.log("Failed! This might be due to error in networt", err)
+        // setMessage(err.message="Failed! This might be due to error in networt");
       );
 
     // CLEAR THE FORM AFTER SUBMITTING.
@@ -41,72 +38,8 @@ const Form = () => {
             <Box className="contact-form-wrapper">
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
-                {/* <form
-                  ref={form}
-                  onSubmit={handleContactForm}
-                  action="value"
-                  id="wf-form-contact-form"
-                  className="contact-form"
-                  name="wf-form-Contact-form"
-                  method="post"
-                  data-name="Contact form"
-                >
-                  <Box className="contact-input-group">
-                    <input
-                      type="text"
-                      name="user_name"
-                      id="Contact-Name"
-                      data-name="Contact-Name"
-                      placeholder="Name*"
-                      maxLength="256"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
-
-                    <input
-                      type="email"
-                      name="user_email"
-                      id="email"
-                      data-name="email"
-                      placeholder="*Email"
-                      maxLength="256"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
-                    <input
-                      type="tel"
-                      name="user_number"
-                      id="phone"
-                      data-name="phone"
-                      placeholder="Phone*"
-                      maxLength="256"
-                      required={true}
-                      className="default-input-field w-input"
-                    />
-                  </Box>
-                  <Box className="contact-input-group">
-                    <textarea
-                      name="message"
-                      id="Contact-Message"
-                      maxLength="5000"
-                      data-name="field"
-                      placeholder="Write here..."
-                      className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
-                    ></textarea>
-                  </Box>
-                  <Box>
-                    <input
-                      type="submit"
-                      className="primary-button margin-top-50 w-button"
-                      value="Send Now"
-                      data-wait="please wait..."
-                    />
-                  </Box>
-                </form> */}
-
                 {/* NEW FORM   */}
                 <form
-                  ref={form}
                   onSubmit={handleContactForm}
                   action="value"
                   id="wf-form-contact-form"
@@ -165,7 +98,6 @@ const Form = () => {
                         maxLength="5000"
                         data-name="field"
                         style={{ border: "1px solid #77b6d8" }}
-                        // isInvalid
                         placeholder="Write Message...*"
                         className="default-input-field contact-text-area w-node-_0433b0ec-3f89-81ce-9f2e-3b04ff192a61-84d9bf7c w-input"
                         id="Contact-Message"

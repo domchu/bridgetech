@@ -12,7 +12,7 @@ const officeapplication = () => {
   return (
     <>
       <DefaultSeo
-        title="Office Applications | Bridgekode Tech"
+        title="Office Applications | Crafting websites to perfection "
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         keywords=""
         {...SEO}

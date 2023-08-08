@@ -12,7 +12,7 @@ const graphic = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Designer | Bridgekode Team"
+        title="Graphics Designer | Crafting websites to perfection "
         description="Expert in Designing  using  illustrator, adobe, coraldraw, photoshop etc "
         {...SEO}
       />
