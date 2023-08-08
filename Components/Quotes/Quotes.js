@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
+import emailjs from "emailjs-com";
+
 import {
   Checkbox,
   Box,
@@ -314,7 +316,7 @@ const Quotes = () => {
                       <Box className="quote-input-group-item">
                         <FormControl isRequired>
                           <FormLabel className="quote-subtitle">
-                            When should we start?
+                            When should we end?
                           </FormLabel>
                           <Input
                             style={{
