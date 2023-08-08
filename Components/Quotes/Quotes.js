@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import emailjs from "emailjs-com";
 
@@ -12,6 +12,17 @@ import {
 } from "@chakra-ui/react";
 
 const Quotes = () => {
+  const [website, setWebsite] = useState(true);
+
+  const handleChange = (data) => {
+    if (data == "website") {
+      if (website == true) {
+        console.log(data, "first quote website");
+      }
+      setWebsite(!website);
+    }
+    website;
+  };
   // const [message, setMessage] = useState(null);
   // HANDLE CONTACT FORM
   const handleAQuoteForm = (e) => {
@@ -142,7 +153,9 @@ const Quotes = () => {
                               type="checkbox"
                               name="user_checkbox"
                               size="md"
+                              value="website"
                               style={{ fontWeight: "normal" }}
+                              onChange={() => handleChange("website")}
                             >
                               Website
                             </Checkbox>
