@@ -25,7 +25,6 @@ const Navbar = () => {
   };
   return (
     <>
-     
       <nav>
         <Box className=" header-navbar-block">
           {/* THE BRAND LOGO SECTION */}
@@ -204,9 +203,9 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/projects"
+                    href="/project"
                     id="nav-link"
-                    className={currentRoute == "/projects" ? "active" : ""}
+                    className={currentRoute == "/project" ? "active" : ""}
                     passhref="true"
                   >
                     Project

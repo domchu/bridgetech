@@ -203,9 +203,9 @@ const MobileView = () => {
                   </li>
                   <li>
                     <Link
-                      href="/projects"
+                      href="/project"
                       id="nav-link"
-                      className={currentRoute == "/projects" ? "active" : ""}
+                      className={currentRoute == "/project" ? "active" : ""}
                       passhref="true"
                     >
                       Project

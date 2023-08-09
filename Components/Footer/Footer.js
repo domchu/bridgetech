@@ -110,12 +110,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/projects"
+                  href="/project"
                   id="footerlink"
-                  className={currentRoute == "/projects" ? "active" : ""}
+                  className={currentRoute == "/project" ? "active" : ""}
                   passhref="true"
                 >
-                  Projects
+                  Project
                 </Link>
               </li>
               <li>
