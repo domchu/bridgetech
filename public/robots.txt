@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.bridgekode.com
+
+# Sitemaps
+Sitemap: https://www.bridgekode.com/sitemap.xml
