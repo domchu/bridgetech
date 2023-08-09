@@ -1,7 +1,7 @@
-// const siteUrl = "https://www.bridgekode.com";
+const siteUrl = "https://www.bridgekode.com";
 
 module.exports = {
-  siteUrl: "https://www.bridgekode.com",
+  siteUrl: "https://www.bridgekode.com" || siteUrl,
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [

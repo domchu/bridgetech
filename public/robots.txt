@@ -11,3 +11,4 @@ Host: https://www.bridgekode.com
 
 # Sitemaps
 Sitemap: https://www.bridgekode.com/sitemap.xml
+Sitemap: https://www.bridgekode.com/sitemap-0.xml
