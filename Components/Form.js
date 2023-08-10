@@ -9,6 +9,7 @@ const Form = () => {
     "Successfully submitted, we will be in touch soon"
   );
   const [error, setError] = useState("");
+
   // HANDLE CONTACT FORM
   const handleContactForm = (e) => {
     e.preventDefault();
@@ -118,7 +119,7 @@ const Form = () => {
                     Send Now
                   </Button>
                 </form>
-                <p>{message}</p>
+                <p style={{ color: "green" }}>{message}</p>
                 <p style={{ color: "red" }}>{error}</p>
                 {/* END OF FORM */}
               </Box>
