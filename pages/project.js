@@ -8,7 +8,7 @@ import Testimonial from "../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
-const projects = () => {
+const project = () => {
   return (
     <>
       <DefaultSeo
@@ -26,4 +26,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default project;

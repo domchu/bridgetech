@@ -15,8 +15,8 @@ export default function Home() {
     <>
       <DefaultSeo
         title="Home Page | Crafting websites to perfection "
-        description="Bridgekode is a software development company focuses on website design, students/kids coding, customize software, career path in IT, general IT training, turning ideas into creativities & provide digital solutions to businesses across globe."
-        keywords="software, website, web design, kids coding, school coding program, general IT training, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress,sass, bootstrap,tailwind,semantic-ui,chakra-ui,mantie, web development, wordpress, e-commerce website, coding, bridgekode, thebridgekode_blog, ochu, ochu dominic, computer, "
+        description="BridgeKode is a leading software development company, specializing in crafting innovative solutions for businesses worldwide. Our expert team delivers custom software, web design, web applications, students coding program, kids coding, custom website, mobile app, tracking website, ticketing website, business website, portfolio website, landing page, e-commerce website, e-learning app/website, school result portal & database, school website, general IT training, and cutting-edge technology to bridge the gap between ideas and reality. Explore our services and empower your digital journey with BridgeKode.
+         frontend, front-end, software, website, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress, sass, bootstrap,tailwindcss, semantic-ui, chakra-ui, mantie, web development, wordpress, e-commerce website, coding, bridgekode, ICT, coding, blog, bridgekode, ochu, ochu dominic, computer, mathematics, teaching, tutor, training "
         {...SEO}
       />
       <Topnav />

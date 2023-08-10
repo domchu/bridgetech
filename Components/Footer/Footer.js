@@ -110,12 +110,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/projects"
+                  href="/project"
                   id="footerlink"
-                  className={currentRoute == "/projects" ? "active" : ""}
+                  className={currentRoute == "/project" ? "active" : ""}
                   passhref="true"
                 >
-                  Projects
+                  Project
                 </Link>
               </li>
               <li>
@@ -207,15 +207,15 @@ const Footer = () => {
               <h2>Contact Us</h2>
               <Box>
                 <p>
-                  <strong style={{ color: "#fff" }}>Head Office :</strong> Shop
-                  40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l Market,
-                  Ojo-Lagos State. Nigeria
+                  <strong style={{ color: "#48cae4" }}>Head Office :</strong>{" "}
+                  Shop 40 Abuja Plaza, Opposite Olueze Plaza. Ojo Alaba Int'l
+                  Market, Ojo-Lagos State. Nigeria
                 </p>
               </Box>
               <br />
               <Box>
                 <p>
-                  <strong style={{ color: "#fff" }}>Branch Office : </strong>
+                  <strong style={{ color: "#48cae4" }}>Branch Office : </strong>
                   N0.53 Aka Road, White House Bus-Stop Okokomaiko, Ojo-Lagos
                   State. Nigeria
                 </p>

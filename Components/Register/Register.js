@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
@@ -6,6 +6,10 @@ import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
 const Register = () => {
+  const [message, setMessage] = useState(
+    "Successfully submitted, we will be in touch soon"
+  );
+  const [error, setError] = useState("");
   // HANDLE THE SUBMIT FORM FUNCTION
   const handleSendMail = (e) => {
     e.preventDefault();
@@ -17,9 +21,16 @@ const Register = () => {
         "96iqhJ7BekdwKq5HK"
       )
       .then((result) => {
-        console.log(result);
+        setMessage(result.message);
+        setError("");
       })
-      .catch((err) => console.log(err));
+      .catch((error) => {
+        setMessage("");
+        setError(
+          error,
+          "An error occurred while fetching data. Failed! This might be due to error in networt"
+        );
+      });
 
     // CLEAR THE FORM AFTER SUBMITTING.
     e.target.reset();
@@ -151,6 +162,8 @@ const Register = () => {
                     data-wait="Please Wait"
                   />
                 </form>
+                <p style={{ color: "green" }}>{message}</p>
+                <p style={{ color: "red" }}>{error}</p>
               </Box>
             </Box>
           </Box>
