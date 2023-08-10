@@ -5,9 +5,7 @@ import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 // FUNCTIONAL .........................
 const Form = () => {
-  const [message, setMessage] = useState(
-    "Successfully submitted, we will be in touch soon"
-  );
+  const [message, setMessage] = useState( "");
   const [error, setError] = useState("");
 
   // HANDLE CONTACT FORM

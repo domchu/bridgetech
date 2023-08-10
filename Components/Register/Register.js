@@ -6,9 +6,7 @@ import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
 const Register = () => {
-  const [message, setMessage] = useState(
-    "Successfully submitted, we will be in touch soon"
-  );
+  const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   // HANDLE THE SUBMIT FORM FUNCTION
   const handleSendMail = (e) => {
