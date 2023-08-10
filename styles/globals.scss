@@ -318,29 +318,7 @@ nav {
   display: none;
  }
  
- // mobilen view toogle
-.moview-view-container {
-  transform: translateX(50%);
-  transition: 1s ease;
-}
-.moview-view-container--show {
-  transform: translateX(100%);
-}
-.moview-view-container--hide {
-  transform: translateX(-50%);
-  animation: mobile-show 1s;
-}
 
-@keyframes mobile-show {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(50%);
-
-  }
-}
-// mobilen view toogle
 
 @media screen and (max-width:#{$tablet-width}) {
   .menu-button {
@@ -3610,10 +3588,35 @@ margin-bottom:5rem;
 
 
 //mobile
-// .moview-view-container--show{
-//   transform:translateX(300px);
-//   transition:transform ease-out .3s
+.moview-view-container--show{
+ width:60%;
+  transition: ease-out .3s
+}
+.moview-view-container--hide{
+  width:0%;
+  transition:.3s ease-in
+}
+
+ // mobilen view toogle
+//  .moview-view-container {
+//   transform: translateX(50%);
+//   transition: 1s ease;
 // }
-// .moview-view-container--hide{
-//   transform:translateX(-300px)
+// .moview-view-container--show {
+//   transform: translateX(100%);
 // }
+// .moview-view-container--hide {
+//   transform: translateX(-50%);
+//   animation: mobile-show 1s;
+// }
+
+// @keyframes mobile-show {
+//   from {
+//     transform: translateX(0);
+//   }
+//   to {
+//     transform: translateX(50%);
+
+//   }
+// }
+// mobilen view toogle
