@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 // FUNCTIONAL .........................
 const Form = () => {
+  const [message, setMessage] = useState(
+    "Successfully submitted, we will be in touch soon"
+  );
+  const [error, setError] = useState("");
   // HANDLE CONTACT FORM
   const handleContactForm = (e) => {
     e.preventDefault();
-    setMessage(null);
 
     emailjs
       .sendForm(
@@ -18,14 +21,16 @@ const Form = () => {
         "96iqhJ7BekdwKq5HK"
       )
       .then((result) => {
-        console.log("Successfully submitted, we will be in touch soon", result);
-        // setMessage(result.message="Successfully submitted, we will be in touch soon");
+        setMessage(result.message);
+        setError("");
       })
-      .catch(
-        (err) =>
-          console.log("Failed! This might be due to error in networt", err)
-        // setMessage(err.message="Failed! This might be due to error in networt");
-      );
+      .catch((error) => {
+        setMessage("");
+        setError(
+          "An error occurred while fetching data. Failed! This might be due to error in networt",
+          error
+        );
+      });
 
     // CLEAR THE FORM AFTER SUBMITTING.
     e.target.reset();
@@ -113,6 +118,8 @@ const Form = () => {
                     Send Now
                   </Button>
                 </form>
+                <p>{message}</p>
+                <p style={{ color: "red" }}>{error}</p>
                 {/* END OF FORM */}
               </Box>
             </Box>
