@@ -4,7 +4,6 @@ import emailjs from "emailjs-com";
 import { Radio, RadioGroup } from "@chakra-ui/react";
 
 import {
-  Checkbox,
   Box,
   Button,
   FormControl,
@@ -13,26 +12,38 @@ import {
   Stack,
 } from "@chakra-ui/react";
 
+//FORM VALIDATE
+// const validateEmailRegex = /^\S+@\S+\.\S+$/;
+// const validatePhoneNumberRegex = /^\+?[1-9][0-9]{7,14}$/;
+// const dateRegex = /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/;
+
 const Quotes = () => {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [value, setValue] = useState("");
   const [second, setSecond] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    checkbox: false,
+    date: "",
+    amount: "",
+  });
 
-  const [website, setWebsite] = useState(true);
+  // HANDLE CHANGE FUNCTION
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    const inputValue = type === "checkbox" ? checked : value;
 
-  const handleChange = (data) => {
-    if (data == "website") {
-      if (website == true) {
-        console.log(data, "first quote website");
-      }
-      setWebsite(!website);
-    }
-    website;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: inputValue,
+    }));
   };
 
-  // HANDLE CONTACT FORM
-  const handleAQuoteForm = (e) => {
+  // HANDLE SUMMIT FUNCTION
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
@@ -106,9 +117,10 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="text"
-                        name="user_name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
                         id="Contact-Name"
-                        data-name="Contact-Name"
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Full Name*"
@@ -120,9 +132,10 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="email"
-                        name="user_email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
                         id="email"
-                        data-name="email"
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Email Address*"
@@ -134,10 +147,11 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="tel"
-                        name="user_number"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
                         id="phone"
-                        data-name="phone"
-                        maxLength="256"
+                        maxLength="18"
                         placeholder="Phone Number*"
                         className="default-input-field w-input"
                       />
@@ -181,31 +195,94 @@ const Quotes = () => {
                         <ul className="quote-project-list" role="list">
                           <RadioGroup onChange={setValue} value={value}>
                             <Stack direction="row" flexWrap="wrap">
-                              <Radio value="1" m="10px">
+                              <Radio
+                                value="1"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Web Development
                               </Radio>
-                              <Radio value="2" m="10px">
+                              <Radio
+                                value="2"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Business Website
                               </Radio>
-                              <Radio value="3" m="10px">
+                              <Radio
+                                value="3"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Web Maintenance
                               </Radio>
-                              <Radio value="4" m="10px">
+                              <Radio
+                                value="4"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 API works
                               </Radio>
-                              <Radio value="5" m="10px">
+                              <Radio
+                                value="5"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 E-commerce
                               </Radio>
-                              <Radio value="6" m="10px">
+                              <Radio
+                                value="6"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 UI / UX
                               </Radio>
-                              <Radio value="7" m="10px">
+                              <Radio
+                                value="7"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Web Training
                               </Radio>
-                              <Radio value="8" m="10px">
+                              <Radio
+                                value="8"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Front-End Dev.
                               </Radio>
-                              <Radio value="9" m="10px">
+                              <Radio
+                                value="9"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Back-End Dev.
                               </Radio>
                             </Stack>
@@ -228,13 +305,14 @@ const Quotes = () => {
                               border: "1px solid #77b6d8",
                               height: "48px",
                             }}
-                            type="text"
-                            name="first_field"
+                            type="date"
+                            name="date_1"
+                            value={formData.date}
+                            onChange={handleChange}
                             id="field"
-                            data-name="field"
                             maxLength="256"
                             className="default-input-field "
-                            placeholder="Type Date*"
+                            placeholder="dd/mm/yyyy*"
                           />
                         </FormControl>
                       </Box>
@@ -249,13 +327,14 @@ const Quotes = () => {
                               height: "48px",
                               width: "100%",
                             }}
-                            type="text"
-                            name="second_field"
+                            type="date"
+                            name="date_2"
+                            value={formData.date}
+                            onChange={handleChange}
                             id="field-2"
-                            data-name="field 2"
                             maxLength="256"
                             className="default-input-field "
-                            placeholder="Type End Date*"
+                            placeholder="dd/mm/yyyy*"
                           />
                         </FormControl>
                       </Box>
@@ -273,10 +352,12 @@ const Quotes = () => {
                     <Input
                       style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
-                      name="message"
+                      name="amount"
+                      value={formData.amount}
+                      onChange={handleChange}
                       id="Product-Budget-2"
                       placeholder="Type your budget*"
-                      maxLength="256"
+                      maxLength="10"
                       required={true}
                       className="default-input-field w-node-_52673db7-a4af-976a-31bc-fd4d7d3fb9d6-a714e7e7 w-input inputs-bold"
                     />
@@ -287,7 +368,7 @@ const Quotes = () => {
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
-                    onClick={handleAQuoteForm}
+                    onSubmit={handleSubmit}
                   >
                     Send Now
                   </Button>
