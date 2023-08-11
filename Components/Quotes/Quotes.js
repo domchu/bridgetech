@@ -169,19 +169,54 @@ const Quotes = () => {
                         <ul className="quote-project-list" role="list">
                           <RadioGroup onChange={setSecond} value={second}>
                             <Stack direction="row" flexWrap="wrap">
-                              <Radio value="1" m="10px" fontWeight="bold">
+                              <Radio
+                                value="1"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Website
                               </Radio>
-                              <Radio value="2" m="10px">
+                              <Radio
+                                value="2"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 APP Development
                               </Radio>
-                              <Radio value="3" m="10px">
+                              <Radio
+                                value="3"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Graphic Design
                               </Radio>
-                              <Radio value="4" m="10px">
+                              <Radio
+                                value="4"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 IT Trianing
                               </Radio>
-                              <Radio value="5" m="10px">
+                              <Radio
+                                value="5"
+                                m="10px"
+                                type="checkbox"
+                                name="checkbox"
+                                checked={formData.checkbox}
+                                onChange={handleChange}
+                              >
                                 Kids Coding
                               </Radio>
                             </Stack>
