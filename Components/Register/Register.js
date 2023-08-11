@@ -24,10 +24,7 @@ const Register = () => {
       })
       .catch((error) => {
         setMessage("");
-        setError(
-          error,
-          "An error occurred while fetching data. Failed! This might be due to error in networt"
-        );
+        setError(error, "An error occurred while sending email.");
       });
 
     // CLEAR THE FORM AFTER SUBMITTING.
@@ -160,8 +157,8 @@ const Register = () => {
                     data-wait="Please Wait"
                   />
                 </form>
-                <p style={{ color: "green" }}>{message}</p>
-                <p style={{ color: "red" }}>{error}</p>
+                {message && <p style={{ color: "green" }}>{message}</p>}
+                {error && <p style={{ color: "red" }}>{error}</p>}
               </Box>
             </Box>
           </Box>
