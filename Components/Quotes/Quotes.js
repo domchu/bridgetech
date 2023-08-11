@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import emailjs from "emailjs-com";
+import { Radio, RadioGroup } from "@chakra-ui/react";
 
 import {
   Checkbox,
@@ -9,9 +10,15 @@ import {
   FormControl,
   FormLabel,
   Input,
+  Stack,
 } from "@chakra-ui/react";
 
 const Quotes = () => {
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [value, setValue] = useState("");
+  const [second, setSecond] = useState("");
+
   const [website, setWebsite] = useState(true);
 
   const handleChange = (data) => {
@@ -23,11 +30,10 @@ const Quotes = () => {
     }
     website;
   };
-  // const [message, setMessage] = useState(null);
+
   // HANDLE CONTACT FORM
   const handleAQuoteForm = (e) => {
     e.preventDefault();
-    // setMessage(null);
 
     emailjs
       .sendForm(
@@ -37,13 +43,12 @@ const Quotes = () => {
         "96iqhJ7BekdwKq5HK"
       )
       .then((result) => {
-        console.log("Successfully submitted, we will be in touch soon", result);
-        // setMessage(result.message="Successfully submitted, we will be in touch soon");
+        setMessage(result.message);
+        setError("");
       })
       .catch(
-        (err) =>
-          console.log("Failed! This might be due to error in networt", err)
-        // setMessage(err.message="Failed! This might be due to error in networt");
+        (err) => setMessage(""),
+        setError("An error occurred while summitting quotes.")
       );
 
     // CLEAR THE FORM AFTER SUBMITTING.
@@ -148,156 +153,63 @@ const Quotes = () => {
                           What kind of project?
                         </Box>
                         <ul className="quote-project-list" role="list">
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              value="website"
-                              style={{ fontWeight: "normal" }}
-                              onChange={() => handleChange("website")}
-                            >
-                              Website
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              APP Development
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Graphic Design
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              IT Trianing
-                            </Checkbox>
-                          </li>
-                          <li>
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Kids Coding
-                            </Checkbox>
-                          </li>
+                          <RadioGroup onChange={setSecond} value={second}>
+                            <Stack direction="row" flexWrap="wrap">
+                              <Radio value="1" m="10px" fontWeight="bold">
+                                Website
+                              </Radio>
+                              <Radio value="2" m="10px">
+                                APP Development
+                              </Radio>
+                              <Radio value="3" m="10px">
+                                Graphic Design
+                              </Radio>
+                              <Radio value="4" m="10px">
+                                IT Trianing
+                              </Radio>
+                              <Radio value="5" m="10px">
+                                Kids Coding
+                              </Radio>
+                            </Stack>
+                          </RadioGroup>
                         </ul>
                       </Box>
                       <Box className="quote-input-group-item">
                         <Box className="quote-subtitle">
-                          What would you like us to?
+                          What would you like us to do for you?
                         </Box>
                         <ul className="quote-project-list" role="list">
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Web Development
-                            </Checkbox>
-                          </li>
-
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Business Website
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Web Maintenance
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              API works
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              E-commerce
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              UI / UX
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Web Training
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Front-End Dev.
-                            </Checkbox>
-                          </li>
-                          <li className="quote-project-item">
-                            <Checkbox
-                              type="checkbox"
-                              name="user_checkbox"
-                              size="md"
-                              style={{ fontWeight: "normal" }}
-                            >
-                              Back-End Dev.
-                            </Checkbox>
-                          </li>
+                          <RadioGroup onChange={setValue} value={value}>
+                            <Stack direction="row" flexWrap="wrap">
+                              <Radio value="1" m="10px">
+                                Web Development
+                              </Radio>
+                              <Radio value="2" m="10px">
+                                Business Website
+                              </Radio>
+                              <Radio value="3" m="10px">
+                                Web Maintenance
+                              </Radio>
+                              <Radio value="4" m="10px">
+                                API works
+                              </Radio>
+                              <Radio value="5" m="10px">
+                                E-commerce
+                              </Radio>
+                              <Radio value="6" m="10px">
+                                UI / UX
+                              </Radio>
+                              <Radio value="7" m="10px">
+                                Web Training
+                              </Radio>
+                              <Radio value="8" m="10px">
+                                Front-End Dev.
+                              </Radio>
+                              <Radio value="9" m="10px">
+                                Back-End Dev.
+                              </Radio>
+                            </Stack>
+                          </RadioGroup>
                         </ul>
                       </Box>
                     </Box>
@@ -380,6 +292,8 @@ const Quotes = () => {
                     Send Now
                   </Button>
                 </form>
+                {message && <p style={{ color: "green" }}>{message}</p>}
+                {error && <p style={{ color: "red" }}>{error}</p>}
               </Box>
             </Box>
           </Box>
