@@ -25,10 +25,7 @@ const Form = () => {
       })
       .catch((error) => {
         setMessage("");
-        setError(
-          "An error occurred while fetching data. Failed! This might be due to error in networt",
-          error
-        );
+        setError("An error occurred while sending email.");
       });
 
     // CLEAR THE FORM AFTER SUBMITTING.
@@ -117,8 +114,8 @@ const Form = () => {
                     Send Now
                   </Button>
                 </form>
-                <p style={{ color: "green" }}>{message}</p>
-                <p style={{ color: "red" }}>{error}</p>
+                {message && <p style={{ color: "green" }}>{message}</p>}
+                {error && <p style={{ color: "red" }}>{error}</p>}
                 {/* END OF FORM */}
               </Box>
             </Box>
