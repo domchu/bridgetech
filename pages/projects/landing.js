@@ -44,7 +44,7 @@ const landing = () => {
         solution2=" Doctor Profiles and Online Booking: Hospital websites often include profiles of doctors, including their qualifications, specialties, and experience. Patients can learn about the expertise of healthcare professionals and make informed decisions when choosing a specific doctor for their care. Some websites also offer online booking options to schedule appointments directly with specific doctors."
         solution3=" Emergency Information: Hospital websites can provide critical emergency information, including contact numbers, directions to the emergency department, and instructions for handling emergencies. This ensures that individuals in need of urgent medical care can quickly locate the hospital and receive appropriate assistance."
         image1="/images/hospital.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/laptop.jpg"
         projectLink="https://mc-center-landing-page-plsl.vercel.app/"
       />
       <Testimonial />

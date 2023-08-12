@@ -46,7 +46,7 @@ const weather = () => {
         solution2=" Planning and Preparedness: By having access to accurate weather information, users can better plan their activities and make informed decisions. Whether it's scheduling outdoor events, planning travel routes, or choosing appropriate clothing, the Weather App helps users prepare for the weather conditions ahead."
         solution3=" Enhanced Safety: The app contributes to user safety by providing alerts or warnings about severe weather conditions. Users can stay informed about storms, hurricanes, heatwaves, or other hazardous weather events, allowing them to take necessary precautions and stay safe."
         image1="/images/weather.jpg"
-        image2="/images/service-benefit.jpg"
+        image2="/images/nice.jpg"
         projectLink="https://www.test.com"
       />
       <Testimonial />
