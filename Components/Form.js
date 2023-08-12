@@ -3,7 +3,7 @@ import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
-// FUNCTIONAL .........................
+// FUNCTIONAL ..
 const Form = () => {
   const [message, setMessage] = useState( "");
   const [error, setError] = useState("");
@@ -39,7 +39,7 @@ const Form = () => {
             <Box className="contact-form-wrapper">
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
-                {/* NEW FORM   */}
+                
                 <form
                   onSubmit={handleContactForm}
                   action="value"
@@ -116,7 +116,7 @@ const Form = () => {
                 </form>
                 {message && <p style={{ color: "green" }}>{message}</p>}
                 {error && <p style={{ color: "red" }}>{error}</p>}
-                {/* END OF FORM */}
+                
               </Box>
             </Box>
           </Box>

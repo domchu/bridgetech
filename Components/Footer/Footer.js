@@ -275,7 +275,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <Box padding={{ base: "7px", sm: "20px", md: "20px", lg: "0px" }}>
-              Copyright©2022 Bridgekode. All Rights Reserved. Designed and
+              Copyright©2022 Bridgekode. All Right Reserved. Designed and
               Developed by
               <Link
                 href="https://www.linkedin.com/in/dominic-ochu/"

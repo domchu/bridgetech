@@ -14,7 +14,7 @@ const ProjectHeading = ({ title, projectUrl }) => {
               </h1>
               <p>
                 The underlisted project was carried out by bridgekode, completed
-                and delivered to the client.
+                and delivered to their respective clients.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

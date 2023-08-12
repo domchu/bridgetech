@@ -27,7 +27,7 @@ const movie = () => {
       {/* SINGLE PROJECT DETAILS FOR Movies Engine */}
       <SingleProject
         title="Movies Engine"
-        content="the movies engine combines TypeScript/JavaScript, HTML, CSS, and API integration to create an interactive and personalized movie search and recommendation experience for users. It leverages user input, movie databases, recommendation algorithms, and user preferences to provide relevant movie suggestions, detailed movie information, and an enjoyable movie discovery process. A movies engine, also known as a movie recommendation or movie search engine, is a web application that allows users to search for movies, discover new movies, and get personalized movie recommendations based on their preferences."
+        content="These movies engine combines TypeScript/JavaScript, HTML, CSS, and API integration to create an interactive and personalized movie search and recommendation experience for users. It leverages user input, movie databases, recommendation algorithms, and user preferences to provide relevant movie suggestions, detailed movie information, and an enjoyable movie discovery process. A movies engine, also known as a movie recommendation or movie search engine, is a web application that allows users to search for movies, discover new movies, and get personalized movie recommendations based on their preferences."
         name="Movies Engine "
         date="January 07, 2022"
         category="Entertainment"

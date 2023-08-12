@@ -36,7 +36,7 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project2}
-                        alt="School Image"
+                        alt="Keyonaville School Website Image"
                         height={300}
                         width={300}
                         loading="lazy"
@@ -69,7 +69,7 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project3}
-                        alt="Bridgekode Website Image"
+                        alt="Sebenstore Website Image"
                         height={300}
                         width={300}
                         loading="lazy"
@@ -169,7 +169,7 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project7}
-                        alt="Web Design Images"
+                        alt="Florintech Website Images"
                         height={300}
                         width={300}
                         loading="lazy"
@@ -202,7 +202,7 @@ const LatestProject = () => {
                     <Box className="project-collection">
                       <Image
                         src={project5}
-                        alt="UI / UX Design Image"
+                        alt="UI / UX Design Profile"
                         height={300}
                         width={300}
                         loading="lazy"

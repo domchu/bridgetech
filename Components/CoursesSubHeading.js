@@ -13,8 +13,8 @@ const CoursesSubHeading = ({text}) => {
                 Course <span className="sub_heading_span">Details</span>
               </h1>
               <p>
-                Yes! You are on the right pathway, one step at a time. Your
-                career path to finacial stability begin here and now.
+                Yes! You are on the right path, one step at a time. Your career
+                path to finacial stability begin here and now.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">

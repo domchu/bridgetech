@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import NewsLetterSubscribe from "./NewsLetterSubscribe";
 
-const NewsLetter = ({}) => {
+const NewsLetter = () => {
   return (
     <>
       <Box className=" newsletter-section wf-section">
