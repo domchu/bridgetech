@@ -27,7 +27,8 @@ const Quotes = () => {
     email: "",
     phone: "",
     checkbox: false,
-    date: "",
+    date_1: "",
+    date_2: "",
     amount: "",
   });
 
@@ -288,7 +289,7 @@ const Quotes = () => {
                                 checked={formData.checkbox}
                                 onChange={handleChange}
                               >
-                                UI / UX
+                                UI'UX Design
                               </Radio>
                               <Radio
                                 value="7"
@@ -298,7 +299,7 @@ const Quotes = () => {
                                 checked={formData.checkbox}
                                 onChange={handleChange}
                               >
-                                Web Training
+                                Custom Website
                               </Radio>
                               <Radio
                                 value="8"
