@@ -27,7 +27,7 @@ const movie = () => {
       {/* SINGLE PROJECT DETAILS FOR Movies Engine */}
       <SingleProject
         title="Movies Engine"
-        content="the movies engine combines TypeScript/JavaScript, HTML, CSS, and API integration to create an interactive and personalized movie search and recommendation experience for users. It leverages user input, movie databases, recommendation algorithms, and user preferences to provide relevant movie suggestions, detailed movie information, and an enjoyable movie discovery process. A movies engine, also known as a movie recommendation or movie search engine, is a web application that allows users to search for movies, discover new movies, and get personalized movie recommendations based on their preferences."
+        content="These movies engine combines TypeScript/JavaScript, HTML, CSS, and API integration to create an interactive and personalized movie search and recommendation experience for users. It leverages user input, movie databases, recommendation algorithms, and user preferences to provide relevant movie suggestions, detailed movie information, and an enjoyable movie discovery process. A movies engine, also known as a movie recommendation or movie search engine, is a web application that allows users to search for movies, discover new movies, and get personalized movie recommendations based on their preferences."
         name="Movies Engine "
         date="January 07, 2022"
         category="Entertainment"
@@ -53,7 +53,7 @@ const movie = () => {
         solution2=" Variety of Viewing Options: Movies engines may also provide information about different viewing options, such as theaters, streaming platforms, or rental services. Users can easily find out where to watch their desired movies, making it convenient to access and enjoy the content they discover."
         solution3="Personalized User Experience: By tailoring movie recommendations based on user preferences, a movies engine provides a personalized user experience. It helps users discover movies they are likely to enjoy and find relevant content based on their individual tastes and interests."
         image1="/images/movie-engine.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/nkiru.jpg"
         projectLink="https://movies-engine.vercel.app/"
       />
       <Testimonial />

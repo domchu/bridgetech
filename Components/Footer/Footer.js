@@ -38,10 +38,13 @@ const Footer = () => {
                 />
               </Link>
               <p className="footer-link-p">
-                Bridgekode is a software development company that focuses on web
-                design, students/kids coding, software development, turning
-                ideas into creativities & provide general IT & digital solutions
-                to businesses across globe.
+                Bridgekode is a software development company that focuses on
+                Custom website | Business website | Tracking website | Blogging
+                website | Mobile Apps | School website | School result
+                portal/database | E-commerce website | Fashion website |
+                Portfolio website| Landing page | Kids coding training | Web
+                development | Graphics design | Paperwork. 
+                
               </p>
               <Flex className="icons-container">
                 <Link
@@ -272,7 +275,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <Box className="copy-right">
             <Box padding={{ base: "7px", sm: "20px", md: "20px", lg: "0px" }}>
-              Copyright©2022 Bridgekode. All Rights Reserved. Designed and
+              Copyright©2022 Bridgekode. All Right Reserved. Designed and
               Developed by
               <Link
                 href="https://www.linkedin.com/in/dominic-ochu/"

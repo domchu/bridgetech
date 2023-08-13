@@ -52,6 +52,7 @@ Css Variables
   --natural-clr-8: #333333;
   --clr-white: #ffffff;
   --clr-black: #000000;
+  --clr-red: #FF0000;
   --btn-clr: linear-gradient(270deg, #030b63, #0179af);
   --style-clr-1: rgba(0, 119, 182, 0.95);
   --style-clr-2: rgba(3, 43, 69, 0.92);
@@ -375,7 +376,7 @@ nav {
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 350px;
+    width: 70%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
   }
   .mobile-position {
@@ -1456,14 +1457,6 @@ strong {
   flex-wrap: wrap;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
-}
-
-.quote-project-item {
-  padding-left: 0px;
-  background-image: none;
-  background-size: auto;
-  background-repeat: repeat;
-  background-attachment: scroll;
 }
 
 ul {
@@ -3100,7 +3093,8 @@ article.nextSlide {
 }
 
 .current {
-  background-color: red !important;
+  color: var(--clr-white) !important;
+  background-color: var(--clr-red) !important;
 }
 
 .course-detail {

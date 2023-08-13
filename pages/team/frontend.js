@@ -25,7 +25,7 @@ const software = () => {
         biography="Dedicated front-end developer with over five(5) years of building intuitive, user-friendly websites with a strong emphasis on writing clean, reusable code and renowed for promoting rapid feature development, has practical experience working across time zones with diverse teams."
         achievement="Best front-end Engineer Tutor/Mentor- 2021, 2022 "
         linkedinlink="https://www.linkedin.com/in/stanley-ogada/"
-        facebooklink="https://www.facebook.com/"
+        facebooklink="https://www.facebook.com/bridgekode"
         instagramlink="https://www.instagram.com/richcode.js/"
         twitterlink="https://www.twitter.com/RichcodeC"
         image="/images/stanley.jpg"

@@ -24,7 +24,6 @@ const OpenDays = () => {
             width={{ base: "100%", sm: "70%", md: "70%", lg: "40%" }}
             textAlign="left"
             mb="2rem"
-            // fontFamily=" Rajdhani, sans-serif"
           >
             <Box
               display="flex"

@@ -45,7 +45,7 @@ const website = () => {
         solution2=" It can also serve as a platform to showcase collaborations with local organizations or community outreach programs, strengthening ties between the school and the broader community."
         solution3=" 24/7 Availability: Unlike traditional communication methods, a school website is accessible 24/7. Visitors can access information at their convenience, regardless of time zones or scheduling conflicts."
         image1="/images/sch-site.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/nkiru2.jpg"
         projectLink="https://www.keyonavilleschools.com.ng"
       />
       <Testimonial />

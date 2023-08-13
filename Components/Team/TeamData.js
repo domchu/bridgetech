@@ -8,7 +8,7 @@ const TeamData = [
     facebookLink: "https://www.facebook.com/ochu.dominic/",
     instagramLink: "https://instagram.com/official_ochudominic",
     twitterLink: "https://twitter.com/OchuOnah",
-    linkedinLink: "https://www.linkedin.com/in/dominic-ochu-470a8418a/",
+    linkedinLink: "https://www.linkedin.com/in/dominic-ochu",
   },
   {
     id: "2",
@@ -38,7 +38,7 @@ const TeamData = [
     name: "Ogada Stanley",
     job: "Senior Frontend Engr.",
     profile: "/team/frontend",
-    facebookLink: "https://www.facebook.com/",
+    facebookLink: "https://www.facebook.com/bridgekode",
     instagramLink: "https://www.instagram.com/richcode.js/",
     twitterLink: "https://www.instagram.com/richcode.js/",
     linkedinLink: "https://www.linkedin.com/in/stanley-ogada/",

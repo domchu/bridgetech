@@ -45,7 +45,7 @@ const HomePage = () => {
                 into digital solutions.
               </p>
               <Box className="hero-link-group">
-                <Link href="/projects" className="primary-button home_btn_link">
+                <Link href="/project" className="primary-button home_btn_link">
                   Learn more
                 </Link>
                 <Link
@@ -81,7 +81,7 @@ const HomePage = () => {
                 width={400}
                 height={400}
                 src={banner}
-                alt="People learning with Computer"
+                alt="People Learning With Computer"
                 loading="lazy"
               />
               <Image
@@ -89,7 +89,7 @@ const HomePage = () => {
                 width={50}
                 height={60}
                 src={arrowIcon}
-                alt="hero shape Image"
+                alt="Hero Shape Image"
                 loading="lazy"
               />
             </Box>
@@ -110,7 +110,7 @@ const HomePage = () => {
                   <Image
                     src={femaleImage}
                     className="eliminate-user-image img"
-                    alt="Female carry computer in her hand"
+                    alt="Female Carring Computer In Her Hand"
                     loading="lazy"
                   />
                   <Image
@@ -122,7 +122,7 @@ const HomePage = () => {
                   <Image
                     src={femaleBg}
                     className="eliminate-shape-2 img"
-                    alt="Eliminate Shape"
+                    alt="Eliminate Shape 2"
                     loading="lazy"
                   />
                 </Box>
@@ -139,9 +139,9 @@ const HomePage = () => {
                   <Reveal>
                     <Box className="section-text">
                       Bridgekode can help eliminate IT challenges through a
-                      combination of expertise, proactive problem-solving, and
-                      effective technology solutions. Here are some ways
-                      Bridgetech can address IT challenges:
+                      combination of expertise, proactive problem-solving skill
+                      and effective technology solutions. Here are some ways
+                      Bridgekode can address IT challenges:
                     </Box>
                   </Reveal>
                 </Box>

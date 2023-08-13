@@ -48,7 +48,7 @@ const GithubProfile = () => {
         solution2="With the GitHub Profile Generator, users can create a professional and polished online presence that highlights their GitHub activity and contributions. This can be especially beneficial for developers seeking job opportunities, collaborations, or networking within the tech community."
         solution3=" The generated profiles act as a showcase for the user's coding skills, projects, and contributions. It helps potential employers and collaborators get a quick overview of the user's capabilities and areas of expertise."
         image1="/images/github.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/student.jpg"
         projectLink="https://git-hub-profile-f756.vercel.app/"
       />
       <Testimonial />

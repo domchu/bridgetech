@@ -54,7 +54,7 @@ const ux = () => {
         solution2="Seamless Onboarding: The UI provides a smooth onboarding process for new users, guiding them through the account creation and verification steps. The clear instructions and step-by-step guidance ensure that users can set up their accounts and start using the platform effortlessly."
         solution3="User-Friendly Experience: The Opay UI is designed with a user-centric approach, making it easy for users to navigate and interact with the platform. Its intuitive layout and clear navigation help users quickly access the features they need, reducing the learning curve and making the platform more accessible to all users."
         image1="/images/opay-ui.png"
-        image2="/images/service-benefit.jpg"
+        image2="/images/grahpic-student.jpg"
         projectLink="https://www.figma.com/file/iW8eCf0gwY4DgR132j46rB/Opay-app?type=design&node-id=0%3A1&mode=design&t=M4bNta7DiJQyKhK4-1"
       />
       <Testimonial />

@@ -97,7 +97,7 @@ const TeamProfile = ({
                   </Box>
                   <Box className="contact-info-small-title">Email Address</Box>
                   <Box className="contact-info-text">
-                    info@bridgekodetech.com || bridgekodetech@gmail.com
+                    info@bridgekode.com || bridgekodetech@gmail.com
                   </Box>
                 </Box>
               </Box>
