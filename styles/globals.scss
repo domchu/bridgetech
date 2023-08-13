@@ -63,6 +63,7 @@ Css Variables
   --natural-clr-8: #333333;
   --clr-white: #ffffff;
   --clr-black: #000000;
+  --clr-red: #FF0000;
   --btn-clr: linear-gradient(270deg, #030b63, #0179af);
   --style-clr-1: rgba(0, 119, 182, 0.95);
   --style-clr-2: rgba(3, 43, 69, 0.92);
@@ -2916,7 +2917,8 @@ article.nextSlide {
   width: 70px;
 }
 .current {
-  background-color: red !important;
+  color: var(--clr-white) !important;
+  background-color:var(--clr-red) !important;
 }
 
 // COURSES STYLES
@@ -3012,7 +3014,6 @@ figure.card > figcaption {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    // box-shadow: 5px 5px 10px #989898, 5px 5px 10px #989898;
   }
 }
 
@@ -3134,7 +3135,6 @@ figure.card > figcaption {
 }
 
 // SINGLE PROJECT DETAILS STYLES
-
 .project-details-title {
   margin-top: 0px;
   margin-bottom: 20px;
@@ -3358,7 +3358,6 @@ grid-template-columns: 1fr;
   }
   .course-image {
     width:100%;
-    // margin-top:3rem;
   }
   .duration-course-text-right{
     margin-top:4rem;

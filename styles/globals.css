@@ -52,6 +52,7 @@ Css Variables
   --natural-clr-8: #333333;
   --clr-white: #ffffff;
   --clr-black: #000000;
+  --clr-red: #FF0000;
   --btn-clr: linear-gradient(270deg, #030b63, #0179af);
   --style-clr-1: rgba(0, 119, 182, 0.95);
   --style-clr-2: rgba(3, 43, 69, 0.92);
@@ -3092,7 +3093,8 @@ article.nextSlide {
 }
 
 .current {
-  background-color: red !important;
+  color: var(--clr-white) !important;
+  background-color: var(--clr-red) !important;
 }
 
 .course-detail {
