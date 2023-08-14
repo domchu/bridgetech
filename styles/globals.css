@@ -134,7 +134,7 @@ Navbar
 nav {
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
   background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-size: cover;
   background-repeat: no-repeat, repeat;
 }
 
@@ -375,7 +375,6 @@ nav {
     z-index: 100;
     top: 0px;
     left: 0px;
-    height: 100vh;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
   }
   .mobile-position {
@@ -3759,12 +3758,18 @@ figure.card > figcaption {
 
 .mobile {
   transform: translateX(-700px);
-  transition: 0.3s ease-in;
+  transition: 0.3s;
 }
 
 .mobile.on {
-  transform: translateX(10px);
-  transition: 0.3s ease-in;
+  transform: translateX(0px);
+  transition: 0.3s;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  box-shadow: 1px 1px 4px rgb(176, 177, 183);
+  position: fixed;
 }
 
 .open {
