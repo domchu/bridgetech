@@ -366,7 +366,7 @@ nav {
     overflow: hidden;
   }
   .mobile-container {
-    display: block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -376,7 +376,6 @@ nav {
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 70%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
   }
   .mobile-position {
@@ -479,19 +478,11 @@ nav {
     box-shadow: none;
   }
   .mobile-container {
-    display: block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: left;
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 60%;
-    box-shadow: 1px 1px 4px rgb(176, 177, 183);
-    position: fixed;
   }
 }
 .top-nav-container {
@@ -3764,6 +3755,23 @@ figure.card > figcaption {
 .slider__wrapper .slider-dots .slider-dot--active {
   background: var(--primary-clr-1);
   width: 30px;
+}
+
+.mobile {
+  transform: translateX(-700px);
+  transition: 0.3s ease-in;
+}
+
+.mobile.on {
+  transform: translateX(10px);
+  transition: 0.3s ease-in;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 60%;
+  box-shadow: 1px 1px 4px rgb(176, 177, 183);
+  position: fixed;
 }
 
 .open {

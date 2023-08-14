@@ -365,7 +365,7 @@ nav {
     overflow: hidden;
   }
   .mobile-container {
-    display: block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -375,7 +375,7 @@ nav {
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 70%;
+    // width: 70%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
   }
   .mobile-position {
@@ -480,19 +480,13 @@ nav {
     box-shadow: none;
   }
   .mobile-container {
-    display: block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: left;
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 60%;
-    box-shadow: 1px 1px 4px rgb(176, 177, 183);
-    position: fixed;
+   
+    
   }
 }
 
@@ -3562,6 +3556,23 @@ grid-template-columns: 1fr;
     }
   }
 }
+.mobile{
+  transform:translateX(-700px);
+  transition:0.3s ease-in;
+  // display:none
+}
+.mobile.on{
+  // display:block;
+  transform:translateX(10px);
+  transition:0.3s ease-in;
+  z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 60%;
+    box-shadow: 1px 1px 4px rgb(176, 177, 183);
+    position: fixed;
+}
 
 // OPEN DAYS CSS
 .open{
@@ -3569,6 +3580,7 @@ grid-template-columns: 1fr;
   font-size:2rem;
   font-weight:700;
 }
+
 .open__day__container{
 background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
 background-position: 50% 50%, 0px 0px;

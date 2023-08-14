@@ -245,7 +245,7 @@ const Navbar = () => {
               </Box>
               {/* MOBILE VIEW OF THE BRIDGEKODE */}
               {/* <Box className={`moview-view-container ${mobile ? "moview-view-container--show" : "moview-view-container--hide"}`}> */}
-              <Box style={{ display: mobile ? "block" : "none" }}>
+              <Box className={mobile == false ? "mobile" : "mobile on"}>
                 <MobileView />
               </Box>
               <Box>
