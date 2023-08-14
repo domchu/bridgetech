@@ -48,7 +48,7 @@ const Topnav = () => {
               </Box>
               <div className="divider" />
               <Box>
-                <li className="topnav-links regster mobile">
+                <li className="topnav-links regster mobile-number">
                   <Flex align="center">
                     <FaPhoneAlt className="topnav-icons" />
                     <Link href="Tel:+234 07034278995" passhref="true">

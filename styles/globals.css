@@ -527,7 +527,7 @@ nav {
   .register {
     margin-left: 1rem;
   }
-  .mobile {
+  .mobile-number {
     margin-left: 11px;
   }
   .topnav-container {
@@ -3765,13 +3765,6 @@ figure.card > figcaption {
 .mobile.on {
   transform: translateX(10px);
   transition: 0.3s ease-in;
-  z-index: 100;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-  width: 60%;
-  box-shadow: 1px 1px 4px rgb(176, 177, 183);
-  position: fixed;
 }
 
 .open {
