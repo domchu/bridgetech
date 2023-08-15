@@ -363,10 +363,9 @@ nav {
     display: block;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
   }
   .mobile-container {
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -375,7 +374,10 @@ nav {
     z-index: 100;
     top: 0px;
     left: 0px;
+    height: 100vh;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
+    overflow: hidden;
+    width: 300px;
   }
   .mobile-position {
     padding: 16px 25px 16px 16px;
@@ -449,6 +451,7 @@ nav {
   }
   .mobile-position {
     padding: 16px 25px 16px 16px;
+    overflow: hidden;
   }
   .w-dropdown-list {
     position: relative;
@@ -477,11 +480,12 @@ nav {
     box-shadow: none;
   }
   .mobile-container {
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: left;
+    overflow: hidden;
   }
 }
 .top-nav-container {
@@ -3757,8 +3761,12 @@ figure.card > figcaption {
 }
 
 .mobile {
-  transform: translateX(-700px);
+  transform: translateX(-500px);
   transition: 0.3s;
+  top: 0px;
+  position: absolute;
+  z-index: 100;
+  left: 0px;
 }
 
 .mobile.on {

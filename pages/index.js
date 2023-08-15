@@ -21,7 +21,7 @@ export default function Home() {
       />
       <Topnav />
       <Header />
-      <Slider>
+      <Slider style={{ position: "relative" }}>
         <Card
           img="/images/web11.jpg"
           desc="We have all the web tools you need to get ahead of your competition."
