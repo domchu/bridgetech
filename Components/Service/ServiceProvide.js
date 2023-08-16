@@ -92,7 +92,7 @@ const ServiceProvide = () => {
                           >
                             <Image
                               src={webTrain}
-                              alt="Web Design Training Image"
+                              alt="Kids Coding Websites Training Image"
                               loading="lazy"
                               className="image-responsive img"
                             />

@@ -34,7 +34,7 @@ const Quotes = () => {
   // HANDLE CHANGE FUNCTION
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
-    const inputValue = type === "checkbox" ? checked : value;
+    const inputValue = type === "radio" ? checked : value;
 
     setFormData((prevData) => ({
       ...prevData,
@@ -59,7 +59,7 @@ const Quotes = () => {
       })
       .catch(
         (err) => setMessage(""),
-        setError("An error occurred while summitting quotes.")
+        setError("An error occurred while sensing form.")
       );
 
     // CLEAR THE FORM AFTER SUBMITTING.
@@ -105,7 +105,8 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
-                  action="HtmlForm"
+                  onSubmit={handleSubmit}
+                  // action="HtmlForm"
                   className="quote-form"
                   data-name="Quote Form"
                   name="wf-form-quote-form"
@@ -172,7 +173,7 @@ const Quotes = () => {
                               <Radio
                                 value="1"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -182,7 +183,7 @@ const Quotes = () => {
                               <Radio
                                 value="2"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -192,7 +193,7 @@ const Quotes = () => {
                               <Radio
                                 value="3"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -202,7 +203,7 @@ const Quotes = () => {
                               <Radio
                                 value="4"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -212,7 +213,7 @@ const Quotes = () => {
                               <Radio
                                 value="5"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -233,7 +234,7 @@ const Quotes = () => {
                               <Radio
                                 value="1"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -243,7 +244,7 @@ const Quotes = () => {
                               <Radio
                                 value="2"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -253,7 +254,7 @@ const Quotes = () => {
                               <Radio
                                 value="3"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -263,7 +264,7 @@ const Quotes = () => {
                               <Radio
                                 value="4"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -273,7 +274,7 @@ const Quotes = () => {
                               <Radio
                                 value="5"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -283,27 +284,27 @@ const Quotes = () => {
                               <Radio
                                 value="6"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
                               >
-                                UI / UX
+                                UI'UX Design
                               </Radio>
                               <Radio
                                 value="7"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
                               >
-                                Web Training
+                                Custom Website
                               </Radio>
                               <Radio
                                 value="8"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -313,7 +314,7 @@ const Quotes = () => {
                               <Radio
                                 value="9"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -341,7 +342,7 @@ const Quotes = () => {
                               height: "48px",
                             }}
                             type="date"
-                            name="date_1"
+                            name="start_date"
                             value={formData.date}
                             onChange={handleChange}
                             id="field"
@@ -363,7 +364,7 @@ const Quotes = () => {
                               width: "100%",
                             }}
                             type="date"
-                            name="date_2"
+                            name="end_date"
                             value={formData.date}
                             onChange={handleChange}
                             id="field-2"
@@ -403,7 +404,7 @@ const Quotes = () => {
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
-                    onSubmit={handleSubmit}
+                    // onSubmit={handleSubmit}
                   >
                     Send Now
                   </Button>

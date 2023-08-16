@@ -32,7 +32,7 @@ const Ethic = () => {
                 <Box className="work-progress-icon-block">
                   <Image
                     src={MeetPeople}
-                    alt="Work Icon Image"
+                    alt="Group of People Sitting"
                     className="work-progress-icon-image img"
                     loading="lazy"
                   />
@@ -51,7 +51,6 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  
                   id="special"
                 ></Box>
               </Box>
@@ -62,7 +61,7 @@ const Ethic = () => {
                 <Box className="work-progress-icon-block">
                   <Image
                     src={Brain}
-                    alt="Work Icon Image"
+                    alt="Human Brain Image"
                     className="work-progress-icon-image img"
                     loading="lazy"
                   />
@@ -81,7 +80,6 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                  
                   id="special"
                 ></Box>
               </Box>
@@ -92,7 +90,7 @@ const Ethic = () => {
                 <Box className="work-progress-icon-block">
                   <Image
                     src={Solution}
-                    alt="Work Icon Image"
+                    alt="Light Bulb Image"
                     className="work-progress-icon-image img"
                     loading="lazy"
                   />
@@ -111,7 +109,6 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                 
                   id="special"
                 ></Box>
               </Box>
@@ -122,7 +119,7 @@ const Ethic = () => {
                 <Box className="work-progress-icon-block">
                   <Image
                     src={Project}
-                    alt="Work Icon Image"
+                    alt="Two Hands with Light In-between"
                     className="work-progress-icon-image img"
                     loading="lazy"
                   />
@@ -141,7 +138,6 @@ const Ethic = () => {
                 </Box>
                 <Box
                   className="work-progress-horizontal-line-bottom"
-                 
                   id="special"
                 ></Box>
               </Box>

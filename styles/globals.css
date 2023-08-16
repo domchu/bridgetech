@@ -134,7 +134,7 @@ Navbar
 nav {
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/633aa2f2e851f08693f14140_breadcrumb-bg-pattern.png"), linear-gradient(90deg, #e7fbff, #eefbfd);
   background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-size: cover;
   background-repeat: no-repeat, repeat;
 }
 
@@ -363,7 +363,6 @@ nav {
     display: block;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
   }
   .mobile-container {
     display: block;
@@ -376,8 +375,9 @@ nav {
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 70%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
+    overflow: hidden;
+    width: 300px;
   }
   .mobile-position {
     padding: 16px 25px 16px 16px;
@@ -451,6 +451,7 @@ nav {
   }
   .mobile-position {
     padding: 16px 25px 16px 16px;
+    overflow: hidden;
   }
   .w-dropdown-list {
     position: relative;
@@ -484,14 +485,7 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 60%;
-    box-shadow: 1px 1px 4px rgb(176, 177, 183);
-    position: fixed;
+    overflow: hidden;
   }
 }
 .top-nav-container {
@@ -536,7 +530,7 @@ nav {
   .register {
     margin-left: 1rem;
   }
-  .mobile {
+  .mobile-number {
     margin-left: 11px;
   }
   .topnav-container {
@@ -3220,6 +3214,7 @@ figure.card > figcaption {
   padding-top: 30px;
   padding-right: 40px;
   padding-left: 40px;
+  padding-bottom: 40px;
   border-radius: 14px;
   background-color: #e7fbff;
 }
@@ -3306,6 +3301,11 @@ figure.card > figcaption {
   color: #023e8a;
   font-size: 46px;
   font-weight: 700;
+}
+
+.team-social-link:hover {
+  background-color: var(--clr-white);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -3764,6 +3764,26 @@ figure.card > figcaption {
 .slider__wrapper .slider-dots .slider-dot--active {
   background: var(--primary-clr-1);
   width: 30px;
+}
+
+.mobile {
+  transform: translateX(-500px);
+  transition: 0.3s;
+  top: 0px;
+  position: absolute;
+  z-index: 100;
+  left: 0px;
+}
+
+.mobile.on {
+  transform: translateX(0px);
+  transition: 0.3s;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  box-shadow: 1px 1px 4px rgb(176, 177, 183);
+  position: fixed;
 }
 
 .open {
