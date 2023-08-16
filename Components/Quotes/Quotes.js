@@ -27,15 +27,14 @@ const Quotes = () => {
     email: "",
     phone: "",
     checkbox: false,
-    FirstDate: "",
-    secondDate: "",
+    date: "",
     amount: "",
   });
 
   // HANDLE CHANGE FUNCTION
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
-    const inputValue = type === "checkbox" ? checked : value;
+    const inputValue = type === "radio" ? checked : value;
 
     setFormData((prevData) => ({
       ...prevData,
@@ -174,7 +173,7 @@ const Quotes = () => {
                               <Radio
                                 value="1"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -184,7 +183,7 @@ const Quotes = () => {
                               <Radio
                                 value="2"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -194,7 +193,7 @@ const Quotes = () => {
                               <Radio
                                 value="3"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -204,7 +203,7 @@ const Quotes = () => {
                               <Radio
                                 value="4"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -214,7 +213,7 @@ const Quotes = () => {
                               <Radio
                                 value="5"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -235,7 +234,7 @@ const Quotes = () => {
                               <Radio
                                 value="1"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -245,7 +244,7 @@ const Quotes = () => {
                               <Radio
                                 value="2"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -255,7 +254,7 @@ const Quotes = () => {
                               <Radio
                                 value="3"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -265,7 +264,7 @@ const Quotes = () => {
                               <Radio
                                 value="4"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -275,7 +274,7 @@ const Quotes = () => {
                               <Radio
                                 value="5"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -285,7 +284,7 @@ const Quotes = () => {
                               <Radio
                                 value="6"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -295,7 +294,7 @@ const Quotes = () => {
                               <Radio
                                 value="7"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -305,7 +304,7 @@ const Quotes = () => {
                               <Radio
                                 value="8"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
@@ -315,7 +314,7 @@ const Quotes = () => {
                               <Radio
                                 value="9"
                                 m="10px"
-                                type="checkbox"
+                                type="radio"
                                 name="checkbox"
                                 checked={formData.checkbox}
                                 onChange={handleChange}
