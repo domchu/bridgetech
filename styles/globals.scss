@@ -3027,7 +3027,10 @@ figure.card > figcaption {
   display: flex;
   overflow: hidden;
   max-height: 625px;
-  padding:40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
   border-radius: 14px;
   background-color: #e7fbff;
 }

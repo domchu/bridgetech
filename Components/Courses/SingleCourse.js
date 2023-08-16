@@ -61,6 +61,7 @@ const SingleCourse = ({
                     href="https://wa.me/2347034278995"
                     className="primary-button margin-top-40"
                     id="chat"
+                    target="_blank"
                   >
                     Chat with us
                   </Link>
@@ -94,6 +95,7 @@ const SingleCourse = ({
                   href="https://wa.me/2347034278995"
                   className="primary-button margin-top-40"
                   id="chat"
+                  target="_blank"
                 >
                   {amount}
                 </Link>
@@ -101,6 +103,7 @@ const SingleCourse = ({
                   href="https://wa.me/2347034278995"
                   className="primary-button margin-top-40"
                   id="chat"
+                  target="_blank"
                 >
                   {dollars}
                 </Link>
