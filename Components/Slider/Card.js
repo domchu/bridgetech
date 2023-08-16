@@ -7,7 +7,12 @@ const Card = ({ renderButtons, img, desc, title }) => {
     <>
       <Box className="card__wrapper">
         <Box className="img-container">
-          <Image src={img} alt="Random Image Slider" width={100} height={100} />
+          <Image
+            src={img}
+            alt="Random Images Slider"
+            width={100}
+            height={100}
+          />
         </Box>
 
         <Box className="content">

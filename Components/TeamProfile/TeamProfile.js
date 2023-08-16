@@ -5,7 +5,7 @@ import Link from "next/link";
 import Facebook from "../../public/images/facebook-icon.png";
 import twitter from "../../public/images/twitter-icon.png";
 import instagram from "../../public/images/instagram-icon.png";
-import linkedin from "../../public/images/skype-icon.png";
+import linkedin from "../../public/images/linkedin.jpg";
 
 const TeamProfile = ({
   name,
@@ -87,9 +87,8 @@ const TeamProfile = ({
                   <Box className="contact-info-title">Contact Information</Box>
                   <Box className="contact-info-small-title">Office Address</Box>
                   <Box className="contact-info-text">
-                    Shop 40 Abuja Plaza, Ojo Alaba Int'l Market,
-                    <br />
-                    Ojo-Lagos State. Nigeria
+                    Shop 40 Abuja Plaza Opposite Olueze Plaza, Ojo Alaba Int'l
+                    Market. Ojo-Lagos State. Nigeria
                   </Box>
                   <Box className="contact-info-small-title">Phone Number</Box>
                   <Box className="contact-info-text">

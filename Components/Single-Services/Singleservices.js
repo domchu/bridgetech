@@ -363,7 +363,7 @@ const Singleservices = () => {
                 <Box className="service-benefit-image-block">
                   <Image
                     src={Benefits}
-                    alt="Benefit Image"
+                    alt="Services Benefit Image"
                     loading="lazy"
                     className="image-cover img"
                   />

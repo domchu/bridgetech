@@ -106,7 +106,7 @@ const Service = () => {
                 <Box className="choose-image-box">
                   <Image
                     src={ManImage}
-                    alt="Choose Image"
+                    alt="Man Pointing Something To Texts"
                     className="choose-image"
                     loading="lazy"
                   />

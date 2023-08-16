@@ -3211,9 +3211,7 @@ figure.card > figcaption {
   display: flex;
   overflow: hidden;
   max-height: 625px;
-  padding-top: 30px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 40px;
   border-radius: 14px;
   background-color: #e7fbff;
 }
@@ -3300,6 +3298,11 @@ figure.card > figcaption {
   color: #023e8a;
   font-size: 46px;
   font-weight: 700;
+}
+
+.team-social-link:hover {
+  background-color: var(--clr-white);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
