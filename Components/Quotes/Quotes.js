@@ -141,7 +141,10 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="tel"
-                        {...register("phone")}
+                        {...register("phone", {
+                          pattern: /^\+?[1-9][0-9]{7,14}$/,
+                          message: "Please enter a valid phone number",
+                        })}
                         maxLength="18"
                         placeholder="Phone Number*"
                         className="default-input-field w-input"
@@ -328,7 +331,10 @@ const Quotes = () => {
                               height: "48px",
                             }}
                             type="date"
-                            {...register("startDate")}
+                            {...register("startDate", {
+                              pattern: /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/,
+                              message: "Please enter a valid date",
+                            })}
                             maxLength="256"
                             className="default-input-field "
                             placeholder="dd/mm/yyyy*"
@@ -347,7 +353,10 @@ const Quotes = () => {
                               width: "100%",
                             }}
                             type="date"
-                            {...register("endDate")}
+                            {...register("endDate", {
+                              pattern: /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/,
+                              message: "Please enter a valid date",
+                            })}
                             maxLength="256"
                             className="default-input-field "
                             placeholder="dd/mm/yyyy*"
@@ -368,7 +377,10 @@ const Quotes = () => {
                     <Input
                       style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
-                      {...register("amount")}
+                      {...register("amount", {
+                        pattern: /^\+?[1-9][0-9]{7,14}$/,
+                        message: "Please enter a valid date",
+                      })}
                       placeholder="Type your budget*"
                       maxLength="10"
                       required={true}
