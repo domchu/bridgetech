@@ -11,59 +11,51 @@ import {
   Input,
   Stack,
 } from "@chakra-ui/react";
+import { useForm } from "react-hook-form";
 
 //FORM VALIDATE
 // const validateEmailRegex = /^\S+@\S+\.\S+$/;
 // const validatePhoneNumberRegex = /^\+?[1-9][0-9]{7,14}$/;
 // const dateRegex = /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/;
 
+// root > services > sendEmail.js
+const handleSendEmail = async (data) => {
+  console.log(data);
+
+  await emailjs.sendForm(
+    "service_bk8yeji", // TODO: move to environment variables file
+    "template_i85dg7c", // TODO: move to environment variables file
+    data,
+    "96iqhJ7BekdwKq5HK" // TODO: move to environment variables file
+  );
+};
+
 const Quotes = () => {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  const [value, setValue] = useState("");
-  const [second, setSecond] = useState("");
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    checkbox: false,
-    date: "",
-    amount: "",
-  });
 
-  // HANDLE CHANGE FUNCTION
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    const inputValue = type === "radio" ? checked : value;
-
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: inputValue,
-    }));
-  };
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
 
   // HANDLE SUMMIT FUNCTION
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_bk8yeji",
-        "template_i85dg7c",
-        e.target,
-        "96iqhJ7BekdwKq5HK"
-      )
-      .then((result) => {
-        setMessage(result.message);
-        setError("");
-      })
-      .catch(
-        (err) => setMessage(""),
-        setError("An error occurred while sensing form.")
-      );
+  const onSubmit = async (data) => {
+    try {
+      const result = await handleSendEmail(data);
+      setMessage(result.message);
+      setError("");
 
-    // CLEAR THE FORM AFTER SUBMITTING.
-    e.target.reset();
+      reset();
+    } catch (e) {
+      console.log(e);
+
+      setMessage("");
+      setError("An error occurred while sending form.");
+    }
   };
 
   return (
@@ -105,8 +97,7 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
-                  onSubmit={handleSubmit}
-                  // action="HtmlForm"
+                  onSubmit={handleSubmit(onSubmit)}
                   className="quote-form"
                   data-name="Quote Form"
                   name="wf-form-quote-form"
@@ -118,10 +109,7 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        id="Contact-Name"
+                        {...register("name")}
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Full Name*"
@@ -133,14 +121,19 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        id="email"
+                        {...register("email", {
+                          pattern: /^\S+@\S+\.\S+$/,
+                          message: "Please enter a valid email address",
+                        })}
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Email Address*"
                       />
+                      {errors.email && (
+                        <Box color="red" fontSize="sm">
+                          Please enter a valid email address
+                        </Box>
+                      )}
                     </FormControl>
 
                     <FormControl isRequired>
@@ -148,10 +141,7 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="tel"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        id="phone"
+                        {...register("phone")}
                         maxLength="18"
                         placeholder="Phone Number*"
                         className="default-input-field w-input"
@@ -168,15 +158,16 @@ const Quotes = () => {
                           What kind of project?
                         </Box>
                         <ul className="quote-project-list" role="list">
-                          <RadioGroup onChange={setSecond} value={second}>
+                          <RadioGroup>
                             <Stack direction="row" flexWrap="wrap">
                               <Radio
                                 value="1"
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("project", {
+                                  required: true,
+                                })}
                               >
                                 Website
                               </Radio>
@@ -185,8 +176,9 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("project", {
+                                  required: true,
+                                })}
                               >
                                 APP Development
                               </Radio>
@@ -195,8 +187,9 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("project", {
+                                  required: true,
+                                })}
                               >
                                 Graphic Design
                               </Radio>
@@ -205,8 +198,9 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("project", {
+                                  required: true,
+                                })}
                               >
                                 IT Trianing
                               </Radio>
@@ -215,8 +209,9 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("project", {
+                                  required: true,
+                                })}
                               >
                                 Kids Coding
                               </Radio>
@@ -229,15 +224,14 @@ const Quotes = () => {
                           What would you like us to do for you?
                         </Box>
                         <ul className="quote-project-list" role="list">
-                          <RadioGroup onChange={setValue} value={value}>
+                          <RadioGroup>
                             <Stack direction="row" flexWrap="wrap">
                               <Radio
                                 value="1"
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Web Development
                               </Radio>
@@ -246,8 +240,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Business Website
                               </Radio>
@@ -256,8 +249,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Web Maintenance
                               </Radio>
@@ -266,8 +258,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 API works
                               </Radio>
@@ -276,8 +267,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 E-commerce
                               </Radio>
@@ -286,8 +276,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 UI'UX Design
                               </Radio>
@@ -296,8 +285,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Custom Website
                               </Radio>
@@ -306,8 +294,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Front-End Dev.
                               </Radio>
@@ -316,8 +303,7 @@ const Quotes = () => {
                                 m="10px"
                                 type="radio"
                                 name="checkbox"
-                                checked={formData.checkbox}
-                                onChange={handleChange}
+                                {...register("jobs")}
                               >
                                 Back-End Dev.
                               </Radio>
@@ -342,10 +328,7 @@ const Quotes = () => {
                               height: "48px",
                             }}
                             type="date"
-                            name="start_date"
-                            value={formData.date}
-                            onChange={handleChange}
-                            id="field"
+                            {...register("startDate")}
                             maxLength="256"
                             className="default-input-field "
                             placeholder="dd/mm/yyyy*"
@@ -364,10 +347,7 @@ const Quotes = () => {
                               width: "100%",
                             }}
                             type="date"
-                            name="end_date"
-                            value={formData.date}
-                            onChange={handleChange}
-                            id="field-2"
+                            {...register("endDate")}
                             maxLength="256"
                             className="default-input-field "
                             placeholder="dd/mm/yyyy*"
@@ -388,10 +368,7 @@ const Quotes = () => {
                     <Input
                       style={{ border: "1px solid #77b6d8", height: "48px" }}
                       type="number"
-                      name="amount"
-                      value={formData.amount}
-                      onChange={handleChange}
-                      id="Product-Budget-2"
+                      {...register("amount")}
                       placeholder="Type your budget*"
                       maxLength="10"
                       required={true}
@@ -404,7 +381,6 @@ const Quotes = () => {
                     className="primary-button margin-top-50 w-button"
                     value="Send Now"
                     data-wait="please wait..."
-                    // onSubmit={handleSubmit}
                   >
                     Send Now
                   </Button>
