@@ -7,13 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sitemap": "next-sitemap --next-sitemap-config.js"
+    "postbuild": "next-sitemap --next-sitemap-config.js"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "dompurify": "^3.0.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^10.12.16",
     "next": "13.2.4",

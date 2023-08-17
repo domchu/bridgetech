@@ -1,7 +1,7 @@
-const siteUrl = "https://www.bridgekode.com";
+const myWebsiteUrl = process.env.siteUrl;
 
 module.exports = {
-  siteUrl: "https://www.bridgekode.com" || siteUrl,
+  siteUrl: "https://www.bridgekode.com" || myWebsiteUrl,
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
