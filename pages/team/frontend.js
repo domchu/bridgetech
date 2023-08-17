@@ -12,7 +12,7 @@ const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Senior Software | Crafting websites to perfection "
+        title="Senior Software | Crafting Websites to Perfection "
         description="senior frontend engineer with Typescript,React, next,javascript, unit tests, intergrated testing, etc  "
         {...SEO}
       />

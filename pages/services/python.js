@@ -20,7 +20,7 @@ const python = () => {
   return (
     <>
       <DefaultSeo
-        title="Python Data-Sci | Crafting websites to perfection "
+        title="Python Data-Sci | Crafting Websites to Perfection "
         description="It provides a robust ecosystem of tools & libraries specifically designed for data manipulation, analysis, visualization, & machine learning. "
         {...SEO}
       />

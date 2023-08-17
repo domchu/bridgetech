@@ -13,7 +13,7 @@ const realestate = () => {
   return (
     <>
       <DefaultSeo
-        title="Real Estate | Crafting websites to perfection "
+        title="Real Estate | Crafting Websites to Perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

@@ -11,7 +11,7 @@ const login = () => {
   return (
     <>
       <DefaultSeo
-        title="Log in | Crafting websites to perfection "
+        title="Log in | Crafting Websites to Perfection "
         description="Please enter your correct password and username"
         {...SEO}
       />

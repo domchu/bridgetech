@@ -20,7 +20,7 @@ const mobileapp = () => {
   return (
     <>
       <DefaultSeo
-        title="Mobile Applications | Crafting websites to perfection "
+        title="Mobile Applications | Crafting Websites to Perfection "
         description="Application designed specifically for user on mobile devices such as smartphones & tablets. "
         {...SEO}
       />

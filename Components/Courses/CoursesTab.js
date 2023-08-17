@@ -52,7 +52,7 @@ const CoursesTab = () => {
             </Box>
             <Box className="section-collection-list-wrapper w-dyn-list">
               <Box className="servce-collection-list w-dyn-list" role="list">
-                <Box className="course-container ">
+                <Box className="course-container">
                   <CourseCard />
                 </Box>
               </Box>

@@ -12,7 +12,7 @@ const ux = () => {
   return (
     <>
       <DefaultSeo
-        title="Ux/Ui Design | Crafting websites to perfection "
+        title="Ux/Ui Design | Crafting Websites to Perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

@@ -13,7 +13,7 @@ const movie = () => {
   return (
     <>
       <DefaultSeo
-        title="Movie Engine | Crafting websites to perfection "
+        title="Movie Engine | Crafting Websites to Perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

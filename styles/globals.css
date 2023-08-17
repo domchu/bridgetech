@@ -3175,6 +3175,19 @@ figure.card > figcaption {
   padding-left: 7px;
 }
 
+.course-container:hover .items-card {
+  filter: blur(15px);
+  opacity: 0.6;
+  transform: scale(0.9);
+}
+
+.course-container .items-card:hover {
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .course-container {
     display: grid;

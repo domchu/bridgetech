@@ -12,7 +12,7 @@ export default function faq() {
   return (
     <>
       <DefaultSeo
-        title="Faq | Crafting websites to perfection "
+        title="Faq Page | Crafting Websites to Perfection "
         description="You have questions to ask and we have the answers."
         {...SEO}
       />

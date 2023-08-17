@@ -20,7 +20,7 @@ const itsetupmanagement = () => {
   return (
     <>
       <DefaultSeo
-        title="IT Setup & Management | Crafting websites to perfection "
+        title="IT Setup & Management | Crafting Websites to Perfection "
         description="It involves purchasing or procuring equipments/gadgets establishment, maintenance, and administration of information technology infrastructure and systems within an organization. "
         {...SEO}
       />

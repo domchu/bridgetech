@@ -53,27 +53,32 @@ const ServiceCard = () => {
       {records.map((serviceDetails) => {
         const { title, urlPath, image, text, id } = serviceDetails;
         return (
-          <Box key={id}>
-            <Box className="section-collection-item w-dyn-item" role="listitem">
-              <Box className="service-single-item-box">
-                <Link
-                  href={urlPath}
-                  className="service-thumbnail-image-block w-inline-block"
-                >
-                  <Image
-                    src={image}
-                    alt="Mobile App"
-                    loading="lazy"
-                    className="image-responsive img"
-                    width={320}
-                    height={320}
-                  />
-                </Link>
-                <Box className="service-content">
-                  <Link href={urlPath} className="service-title-link">
-                    {title}
+          <Box className="items-card">
+            <Box key={id}>
+              <Box
+                className="section-collection-item w-dyn-item"
+                role="listitem"
+              >
+                <Box className="service-single-item-box">
+                  <Link
+                    href={urlPath}
+                    className="service-thumbnail-image-block w-inline-block"
+                  >
+                    <Image
+                      src={image}
+                      alt="Mobile App"
+                      loading="lazy"
+                      className="image-responsive img"
+                      width={320}
+                      height={320}
+                    />
                   </Link>
-                  <Box className="section-text service-text">{text}</Box>
+                  <Box className="service-content">
+                    <Link href={urlPath} className="service-title-link">
+                      {title}
+                    </Link>
+                    <Box className="section-text service-text">{text}</Box>
+                  </Box>
                 </Box>
               </Box>
             </Box>

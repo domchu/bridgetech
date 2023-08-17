@@ -12,7 +12,7 @@ const training = () => {
   return (
     <>
       <DefaultSeo
-        title="Portfolio Website | Crafting websites to perfection "
+        title="Portfolio Website | Crafting Websites to Perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients."
         {...SEO}
       />

@@ -20,7 +20,7 @@ const brandingSeo = () => {
   return (
     <>
       <DefaultSeo
-        title="Branding & SEO | Crafting websites to perfection "
+        title="Branding & SEO | Crafting Websites to Perfection "
         description="Optimizing website for easy searching by clients, better ranking, sitemap etc"
         {...SEO}
       />

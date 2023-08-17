@@ -12,7 +12,7 @@ const graphic = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Designer | Crafting websites to perfection "
+        title="Graphics Designer | Crafting Websites to Perfection "
         description="Expert in Designing  using  illustrator, adobe, coraldraw, photoshop etc "
         {...SEO}
       />

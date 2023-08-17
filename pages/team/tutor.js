@@ -12,7 +12,7 @@ const tutor = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Design Tutor | Crafting websites to perfection "
+        title="Web Design Tutor | Crafting Websites to Perfection "
         description="Dedicated tutor with more than three(3) experience using HTML, CSS, Jest, Javaceript, Git/Github etc etc  "
         {...SEO}
       />

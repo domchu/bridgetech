@@ -20,7 +20,7 @@ const humanResources = () => {
   return (
     <>
       <DefaultSeo
-        title="Human Resourses | Crafting websites to perfection "
+        title="Human Resourses | Crafting Websites to Perfection "
         description="HR plays a crucial role in recruiting, hiring, training, developing, & supporting employees throughout their employment lifecycle. "
         {...SEO}
       />

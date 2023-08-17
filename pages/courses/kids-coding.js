@@ -12,7 +12,7 @@ const kidscoding = () => {
   return (
     <>
       <DefaultSeo
-        title="Kids Coding Website | Crafting websites to perfection "
+        title="Kids Coding Website | Crafting Websites to Perfection "
         description="We train kids or students to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness,  make cool cash for themselves. Hence, preparing them for the future at hand"
         keywords=""
         {...SEO}

@@ -12,7 +12,7 @@ const getquotes = () => {
   return (
     <>
       <DefaultSeo
-        title="Get Quote| Crafting websites to perfection "
+        title="Get Us Quote| Crafting Websites to Perfection "
         description="We will get back to you as soon as possible."
         {...SEO}
       />

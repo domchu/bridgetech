@@ -12,7 +12,7 @@ const aboutus = () => {
   return (
     <>
       <DefaultSeo
-        title="About Us | Crafting websites to perfection "
+        title="About Us | Crafting Websites to Perfection "
         description="bridgekode software development services aims to provide solutions to businesses & eradicate poverty among youths"
         {...SEO}
       />
