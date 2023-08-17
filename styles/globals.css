@@ -3176,8 +3176,8 @@ figure.card > figcaption {
 }
 
 .course-container:hover .items-card {
-  filter: blur(20px);
-  opacity: 0.5;
+  filter: blur(15px);
+  opacity: 0.6;
   transform: scale(0.9);
 }
 
@@ -3185,6 +3185,7 @@ figure.card > figcaption {
   filter: blur(0);
   opacity: 1;
   transform: scale(1);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

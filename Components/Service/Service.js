@@ -144,7 +144,10 @@ const Service = () => {
               </Box>
             </Box>
             <Box className="section-collection-list-wrapper w-dyn-list">
-              <Box className="service-collection-list w-dyn-list" role="list">
+              <Box
+                className="service-collection-list w-dyn-list course-container"
+                role="list"
+              >
                 <ServiceCard />
               </Box>
             </Box>

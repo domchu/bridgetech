@@ -2990,18 +2990,22 @@ figure.card > figcaption {
   text-align: left;
   padding-left: 7px;
 }
-.course-container:hover .items-card {
-  filter:blur(20px);
-  opacity:0.5;
-  transform:scale(.9)
 
- 
+
+// THE BLUR OVER EFFECT ON ITEMS
+.course-container:hover .items-card {
+  filter:blur(15px);
+  opacity:0.6;
+  transform:scale(.9)
 }
 .course-container .items-card:hover {
   filter:blur(0);
   opacity:1;
-  transform:scale(1)
+  transform:scale(1);
+  cursor:pointer;
 }
+// END OF THE BLUR ON ITEMS
+
 @media screen and (max-width:#{$tablet-width}) {
   .course-container {
     display: grid;
