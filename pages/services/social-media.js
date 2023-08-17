@@ -20,7 +20,7 @@ const socialMedia = () => {
   return (
     <>
       <DefaultSeo
-        title="Social Media | Crafting websites to perfection "
+        title="Social Media | Crafting Websites to Perfection "
         description="An online platforms & websites that enable users to create, share & interact with contents, as well as connect & communicate with others.  "
         {...SEO}
       />

@@ -12,7 +12,7 @@ const webdevelopment = () => {
   return (
     <>
       <DefaultSeo
-        title="Web Development | Crafting websites to perfection "
+        title="Web Development | Crafting Websites to Perfection "
         description="We train teenager, youths, and individual to design websites(coding) using HTML, CSS, and JavaScript, Git/Github, web responsiveness, CMS & make cool cash for themselves. Hence, preparing them for the future."
         keywords=""
         {...SEO}

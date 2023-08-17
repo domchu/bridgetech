@@ -13,7 +13,7 @@ const GithubProfile = () => {
   return (
     <>
       <DefaultSeo
-        title="Github Profile | Crafting websites to perfection "
+        title="Github Profile | Crafting Websites to Perfection "
         description="These projects was carried out by bridgekode, completed and duly delivered to their respective clients"
         {...SEO}
       />

@@ -12,7 +12,7 @@ const form = () => {
   return (
     <>
       <DefaultSeo
-        title="Register | Crafting websites to perfection "
+        title="Register | Crafting Websites to Perfection "
         description="Register with us today by filling out our form."
         {...SEO}
       />

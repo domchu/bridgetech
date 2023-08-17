@@ -12,7 +12,7 @@ const desktoppublishing = () => {
   return (
     <>
       <DefaultSeo
-        title="Desktop Publishing | Crafting websites to perfection "
+        title="Desktop Publishing | Crafting Websites to Perfection "
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         keywords=""
         {...SEO}

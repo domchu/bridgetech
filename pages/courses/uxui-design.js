@@ -12,7 +12,7 @@ const uxui = () => {
   return (
     <>
       <DefaultSeo
-        title="UI'UX Design | Crafting websites to perfection "
+        title="UI'UX Design | Crafting Websites to Perfection "
         description="We train peoples to design templates for websites, apps, desktop apps, editing images using figma, photoshop, illustrator, adobe etc"
         keywords=""
         {...SEO}

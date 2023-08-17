@@ -12,7 +12,7 @@ const promanager = () => {
   return (
     <>
       <DefaultSeo
-        title="Branding Expert | Crafting websites to perfection "
+        title="Branding Expert | Crafting Websites to Perfection "
         description="Experte in branding & SEO"
         {...SEO}
       />

@@ -12,7 +12,7 @@ const graphics = () => {
   return (
     <>
       <DefaultSeo
-        title="Graphics Design | Crafting websites to perfection "
+        title="Graphics Design | Crafting Websites to Perfection "
         description="We design logos, complementary cards, flyers, handbills, letter Heads etc using coraldraw, photoshop, illustrator, adobe Pagemaker etc"
         keywords=""
         {...SEO}

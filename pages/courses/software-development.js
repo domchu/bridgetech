@@ -12,7 +12,7 @@ const software = () => {
   return (
     <>
       <DefaultSeo
-        title="Software Engineering | Crafting websites to perfection "
+        title="Software Engineering | Crafting Websites to Perfection "
         description="Full front-end development training using nextjs, Reactjs, Javscript, Typescript and Css frameworks like chakra-ui etc"
         keywords=""
         {...SEO}

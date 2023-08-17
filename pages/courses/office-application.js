@@ -12,7 +12,7 @@ const officeapplication = () => {
   return (
     <>
       <DefaultSeo
-        title="Office Applications | Crafting websites to perfection "
+        title="Office Applications | Crafting Websites to Perfection "
         description="Making businesses look enticing and innovative to clients and increases revenue(income) to the organisation or company"
         keywords=""
         {...SEO}
