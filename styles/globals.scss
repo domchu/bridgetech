@@ -2990,6 +2990,18 @@ figure.card > figcaption {
   text-align: left;
   padding-left: 7px;
 }
+.course-container:hover .items-card {
+  filter:blur(20px);
+  opacity:0.5;
+  transform:scale(.9)
+
+ 
+}
+.course-container .items-card:hover {
+  filter:blur(0);
+  opacity:1;
+  transform:scale(1)
+}
 @media screen and (max-width:#{$tablet-width}) {
   .course-container {
     display: grid;
@@ -3309,7 +3321,11 @@ figure.card > figcaption {
   transform: scale(1.1);
   transition: 0.5s;
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  
 }
+
+
+
 #chat {
   margin-left: 20px;
 }
