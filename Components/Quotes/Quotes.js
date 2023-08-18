@@ -109,7 +109,9 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="text"
-                        {...register("name")}
+                        {...register("name", {
+                          pattern: "[A-Za-z]{3,20}",
+                        })}
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Full Name*"
