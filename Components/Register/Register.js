@@ -5,6 +5,10 @@ import Image from "next/image";
 import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
+// const templateUrl = process.env.TEMPLATE_ID;
+// const serviceUrl = process.env.SERVICE_ID;
+// const identifierUrl = process.env.IDENTIFIER_ID;
+
 const Register = () => {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
@@ -13,6 +17,10 @@ const Register = () => {
     e.preventDefault();
     emailjs
       .sendForm(
+        // serviceUrl,
+        // templateUrl,
+        // e.target,
+        // identifierUrl
         "service_bk8yeji",
         "template_i85dg7c",
         e.target,
