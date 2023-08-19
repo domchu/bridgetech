@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import LogoBrand from "../../public/images/social-logo.jpg";
+import LogoBrand from "../../public/images/bridgekode-logo.jpg";
 
 const Brand = () => {
   return (

@@ -3005,6 +3005,9 @@ figure.card > figcaption {
   cursor:pointer;
 }
 // END OF THE BLUR ON ITEMS
+.chakra-radio_control{
+  color: var(--primary-clr-1) !important;
+}
 
 @media screen and (max-width:#{$tablet-width}) {
   .course-container {
