@@ -1,7 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import emailjs from "emailjs-com";
-import emailjs from "@emailjs/browser";
 import { Radio, RadioGroup } from "@chakra-ui/react";
 
 import {
@@ -25,7 +24,6 @@ const identifierUrl = process.env.ID_NUMBER;
 
 // root > services > sendEmail.js
 const handleSendEmail = async (data) => {
-  const form = useRef();
   await emailjs.sendForm(serviceUrl, templateUrl, data, identifierUrl);
 };
 
@@ -96,7 +94,6 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
-                  ref={form}
                   onSubmit={handleSubmit(onSubmit)}
                   className="quote-form"
                   data-name="Quote Form"
