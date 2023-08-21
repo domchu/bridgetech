@@ -1062,19 +1062,15 @@ nav {
 @media screen and (max-width: 500px) {
   .newsletter-grid {
     grid-template-columns: 1fr;
+    background-color: var(--natural-clr-1);
+    background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png"), url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .newsletter-content {
     text-align: center;
-  }
-  .container {
-    max-width: 100%;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-  }
-  .newsletter-grid {
-    padding-right: 30px;
-    padding-left: 30px;
   }
   .section-title {
     font-size: 20px;
@@ -2112,12 +2108,6 @@ p {
 @media screen and (max-width: 500px) {
   .section-gap-bottom-130 {
     padding-bottom: 60px;
-  }
-  .container {
-    max-width: 100%;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
   }
   .choose-grid-layout {
     grid-template-columns: 1fr;
@@ -3540,6 +3530,7 @@ figure.card > figcaption {
 
 #chat {
   margin-left: 20px;
+  margin-bottom: 2rem;
 }
 
 #starter {
