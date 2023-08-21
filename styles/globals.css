@@ -911,7 +911,6 @@ nav {
   grid-row-gap: 40px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  border-radius: 20px;
   background-color: var(--natural-clr-1);
   background-image: url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png"), url("https://assets.website-files.com/6330105a320e0e0ed5adaf1c/63356051d0c8b5a95aa4039b_newsletter-shape-1.png");
   background-position: 100% 50%, 0% 50%;

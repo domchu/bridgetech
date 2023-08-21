@@ -105,12 +105,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/access/form"
+                            href="/form"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/access/form" ? "active" : ""
-                            }
+                            className={currentRoute == "/form" ? "active" : ""}
                             tabIndex={0}
                           >
                             Register
@@ -118,12 +116,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/access/login"
+                            href="/login"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/access/login" ? "active" : ""
-                            }
+                            className={currentRoute == "/login" ? "active" : ""}
                             tabIndex={0}
                           >
                             Login

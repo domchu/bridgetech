@@ -103,11 +103,11 @@ const MobileView = () => {
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
-                              href="/access/form"
+                              href="/form"
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/access/signin" ? "active" : ""
+                                currentRoute == "/signin" ? "active" : ""
                               }
                               tabIndex={0}
                             >
@@ -116,11 +116,11 @@ const MobileView = () => {
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
-                              href="/access/login"
+                              href="/login"
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/access/login" ? "active" : ""
+                                currentRoute == "/login" ? "active" : ""
                               }
                               tabIndex={0}
                             >

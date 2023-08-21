@@ -19,7 +19,6 @@ const form = () => {
       <Topnav />
       <Header />
       <Register />
-      {/* <RegisterForm /> */}
       <NewsLetter />
       <Footer />
     </>
