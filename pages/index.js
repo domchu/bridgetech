@@ -27,10 +27,10 @@ export default function Home() {
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
-              <Link href="/pages/aboutus" className="slider__btn">
+              <Link href="/subpage/aboutus" className="slider__btn">
                 About Us
               </Link>
-              <Link href="/pages/team" className="slider__btn">
+              <Link href="/subpage/team" className="slider__btn">
                 Team
               </Link>
             </>
@@ -103,7 +103,7 @@ export default function Home() {
               <Link href="/courses/course" className="slider__btn">
                 Courses
               </Link>
-              <Link href="/pages/faq" className="slider__btn">
+              <Link href="/subpage/faq" className="slider__btn">
                 FAQ
               </Link>
             </>

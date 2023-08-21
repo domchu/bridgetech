@@ -29,7 +29,7 @@ const promanager = () => {
         facebooklink="https://www.facebook.com/nwabudike.ify"
         instagramlink="https://instagram.com/nwabudikeify"
         twitterlink="https://twitter.com/bridgekode_tech"
-        image="/images/ify.jpg"
+        image="/images/ify.JPG"
       />
       <Testimonial />
       <Footer />

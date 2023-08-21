@@ -28,7 +28,7 @@ const tutor = () => {
         facebooklink="https://www.facebook.com/jpRoF.2023"
         instagramlink="https://instagram.com/jnprof_2022/"
         twitterlink="https://twitter.com/jpRoF_2023"
-        image="/images/johnson.jpg"
+        image="/images/johnson.JPG"
       />
       <Testimonial />
       <Footer />

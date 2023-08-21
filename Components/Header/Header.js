@@ -79,11 +79,11 @@ const Navbar = () => {
                       >
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/aboutus"
+                            href="/subpage/aboutus"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/aboutus" ? "active" : ""
+                              currentRoute == "/subpage/aboutus" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -92,11 +92,11 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/team"
+                            href="/subpage/team"
                             id="nav-dropdown-link"
                             passhref="true"
                             className={
-                              currentRoute == "/pages/team" ? "active" : ""
+                              currentRoute == "/subpage/team" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -144,11 +144,11 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/faq"
+                            href="/subpage/faq"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/faq" ? "active" : ""
+                              currentRoute == "/subpage/faq" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -172,11 +172,13 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/getquotes"
+                            href="/subpage/getquotes"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/getquotes" ? "active" : ""
+                              currentRoute == "/subpage/getquotes"
+                                ? "active"
+                                : ""
                             }
                             tabIndex={0}
                           >

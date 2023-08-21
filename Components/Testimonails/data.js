@@ -19,7 +19,7 @@ const TestimonialData = [
 
   {
     id: 3,
-    image: "/images/sleek.jpg",
+    image: "/images/sleek.JPG",
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
@@ -35,7 +35,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    image: "/images/richcode.jpg",
+    image: "/images/richcode.JPG",
     name: "Ogada Stanley",
     title: "Senior Software Engineer",
     quote:

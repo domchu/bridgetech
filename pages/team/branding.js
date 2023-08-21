@@ -28,7 +28,7 @@ const promanager = () => {
         facebooklink="https://www.facebook.com/Thexclusivemedia/"
         instagramlink="https://instagram.com/thexclusive_media"
         twitterlink="https://twitter.com/thexclusive_media"
-        image="/images/emma.jpg"
+        image="/images/emma.JPG"
       />
       <Testimonial />
       <Footer />
