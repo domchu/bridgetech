@@ -4,9 +4,9 @@ import emailjs from "emailjs-com";
 import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
 
-// const templateUrl = process.env.TEMPLATE_ID;
-// const serviceUrl = process.env.SERVICE_ID;
-// const identifierUrl = process.env.IDENTIFIER_ID;
+const templateUrl = process.env.TEMPLATE_ID;
+const serviceUrl = process.env.SERVICE_ID;
+const identifierUrl = process.env.IDENTIFIER_ID;
 
 // FUNCTIONAL ..
 const Form = () => {
@@ -18,18 +18,7 @@ const Form = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        // serviceUrl,
-        // templateUrl,
-        // e.target,
-        // identifierUrl
-
-        
-        "service_bk8yeji",
-        "template_i85dg7c",
-        e.target,
-        "96iqhJ7BekdwKq5HK"
-      )
+      .sendForm(serviceUrl, templateUrl, e.target, identifierUrl)
       .then((result) => {
         setMessage(result.message);
         setError("");
