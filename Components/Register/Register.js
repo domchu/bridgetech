@@ -5,9 +5,9 @@ import Image from "next/image";
 import emailjs from "emailjs-com";
 import SignupImage from "../../public/images/signup-image.svg";
 
-// const templateUrl = process.env.TEMPLATE_ID;
-// const serviceUrl = process.env.SERVICE_ID;
-// const identifierUrl = process.env.IDENTIFIER_ID;
+const templateUrl = process.env.TEMPLATE_ID;
+const serviceUrl = process.env.SERVICE_ID;
+const identifierUrl = process.env.IDENTIFIER_ID;
 
 const Register = () => {
   const [message, setMessage] = useState("");
@@ -16,16 +16,7 @@ const Register = () => {
   const handleSendMail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(
-        // serviceUrl,
-        // templateUrl,
-        // e.target,
-        // identifierUrl
-        "service_bk8yeji",
-        "template_i85dg7c",
-        e.target,
-        "96iqhJ7BekdwKq5HK"
-      )
+      .sendForm(serviceUrl, templateUrl, e.target, identifierUrl)
       .then((result) => {
         setMessage(result.message);
         setError("");
