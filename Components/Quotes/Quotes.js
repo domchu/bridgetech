@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { Radio, RadioGroup } from "@chakra-ui/react";
 
 import {
@@ -18,24 +19,14 @@ import { useForm } from "react-hook-form";
 // const validatePhoneNumberRegex = /^\+?[1-9][0-9]{7,14}$/;
 // const dateRegex = /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/;
 
-// const templateUrl = process.env.TEMPLATE_NUMBER;
-// const serviceUrl = process.env.SERVICE_NUMBER;
-// const identifierUrl = process.env.ID_NUMBER;
+const templateUrl = process.env.TEMPLATE_NUMBER;
+const serviceUrl = process.env.SERVICE_NUMBER;
+const identifierUrl = process.env.ID_NUMBER;
 
 // root > services > sendEmail.js
 const handleSendEmail = async (data) => {
-  console.log(data);
-
-  await emailjs.sendForm(
-     // SERVICE_NUMBER,
-        // TEMPLATE_NUMBER,
-        // e.target,
-        // ID_NUMBER
-    "service_bk8yeji", // TODO: move to environment variables file
-    "template_i85dg7c", // TODO: move to environment variables file
-    data,
-    "96iqhJ7BekdwKq5HK" // TODO: move to environment variables file
-  );
+  const form = useRef();
+  await emailjs.sendForm(serviceUrl, templateUrl, data, identifierUrl);
 };
 
 const Quotes = () => {
@@ -105,6 +96,7 @@ const Quotes = () => {
               </Box>
               <Box className="quote-form-block w-form">
                 <form
+                  ref={form}
                   onSubmit={handleSubmit(onSubmit)}
                   className="quote-form"
                   data-name="Quote Form"
