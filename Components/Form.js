@@ -3,9 +3,14 @@ import { Box, Button } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import { FormControl, FormLabel, Textarea, Input } from "@chakra-ui/react";
 
+
+// const templateUrl = process.env.TEMPLATE_ID;
+// const serviceUrl = process.env.SERVICE_ID;
+// const identifierUrl = process.env.IDENTIFIER_ID;
+
 // FUNCTIONAL ..
 const Form = () => {
-  const [message, setMessage] = useState( "");
+  const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
   // HANDLE CONTACT FORM
@@ -14,6 +19,12 @@ const Form = () => {
 
     emailjs
       .sendForm(
+        // serviceUrl,
+        // templateUrl,
+        // e.target,
+        // identifierUrl
+
+        
         "service_bk8yeji",
         "template_i85dg7c",
         e.target,
@@ -39,7 +50,6 @@ const Form = () => {
             <Box className="contact-form-wrapper">
               <Box className="contact-upper-text">Leave a Reply</Box>
               <Box id="w-form contact-form-block">
-                
                 <form
                   onSubmit={handleContactForm}
                   action="value"
@@ -116,7 +126,6 @@ const Form = () => {
                 </form>
                 {message && <p style={{ color: "green" }}>{message}</p>}
                 {error && <p style={{ color: "red" }}>{error}</p>}
-                
               </Box>
             </Box>
           </Box>

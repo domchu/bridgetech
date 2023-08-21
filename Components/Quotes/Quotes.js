@@ -18,11 +18,19 @@ import { useForm } from "react-hook-form";
 // const validatePhoneNumberRegex = /^\+?[1-9][0-9]{7,14}$/;
 // const dateRegex = /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}$/;
 
+// const templateUrl = process.env.TEMPLATE_NUMBER;
+// const serviceUrl = process.env.SERVICE_NUMBER;
+// const identifierUrl = process.env.ID_NUMBER;
+
 // root > services > sendEmail.js
 const handleSendEmail = async (data) => {
   console.log(data);
 
   await emailjs.sendForm(
+     // SERVICE_NUMBER,
+        // TEMPLATE_NUMBER,
+        // e.target,
+        // ID_NUMBER
     "service_bk8yeji", // TODO: move to environment variables file
     "template_i85dg7c", // TODO: move to environment variables file
     data,
@@ -109,7 +117,9 @@ const Quotes = () => {
                       <Input
                         style={{ border: "1px solid #77b6d8", height: "48px" }}
                         type="text"
-                        {...register("name")}
+                        {...register("name", {
+                          pattern: "[A-Za-z]{3,20}",
+                        })}
                         maxLength="256"
                         className="default-input-field w-input"
                         placeholder="Full Name*"

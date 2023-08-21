@@ -3188,6 +3188,10 @@ figure.card > figcaption {
   cursor: pointer;
 }
 
+.chakra-radio_control {
+  color: var(--primary-clr-1) !important;
+}
+
 @media screen and (max-width: 768px) {
   .course-container {
     display: grid;
