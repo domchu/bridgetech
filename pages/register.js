@@ -18,7 +18,7 @@ const register = () => {
       <Topnav />
       <Header />
       <Register />
-      <RegisterForm />
+      {/* <RegisterForm /> */}
       <Footer />
     </>
   );

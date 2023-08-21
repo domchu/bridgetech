@@ -43,8 +43,7 @@ const Footer = () => {
                 website | Mobile Apps | School website | School result
                 portal/database | E-commerce website | Fashion website |
                 Portfolio website| Landing page | Kids coding training | Web
-                development | Graphics design | Paperwork. 
-                
+                development | Graphics design | Paperwork.
               </p>
               <Flex className="icons-container">
                 <Link
@@ -89,11 +88,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/services/service-home"
-                  id="footerlink"
-                  passhref="true"
-                >
+                <Link href="/services" id="footerlink" passhref="true">
                   Our Services
                 </Link>
               </li>
@@ -147,9 +142,9 @@ const Footer = () => {
               <h2>Support</h2>
               <li>
                 <Link
-                  href="/access/login"
+                  href="/login"
                   id="footerlink"
-                  className={currentRoute == "/access/login" ? "active" : ""}
+                  className={currentRoute == "/login" ? "active" : ""}
                   passhref="true"
                 >
                   Login
@@ -157,9 +152,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/pages/team"
+                  href="/team"
                   id="footerlink"
-                  className={currentRoute == "/pages/team" ? "active" : ""}
+                  className={currentRoute == "/team" ? "active" : ""}
                   passhref="true"
                 >
                   Team
@@ -197,9 +192,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/courses/course"
+                  href="/courses"
                   id="footerlink"
-                  className={currentRoute == "/courses/course" ? "active" : ""}
+                  className={currentRoute == "/courses" ? "active" : ""}
                   passhref="true"
                 >
                   Courses
