@@ -15,7 +15,7 @@ const Contact = () => {
               <h1 className="project-title">
                 Contact <span className="sub_heading_span">Us</span>
               </h1>
-<Reveal>
+               <Reveal>
               <p>
                 Here is a list of verious medium or platform to get accross to
                 us If you haven't found the one that is confortable with you.
