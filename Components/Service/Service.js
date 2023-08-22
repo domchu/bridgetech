@@ -83,7 +83,7 @@ const Service = () => {
                     to excellence, proven track record.
                   </Box>
                   <Link
-                    href="/courses/course"
+                    href="/courses"
                     className="section-link margin-top-20"
                   >
                     Choose Your Desired Courses

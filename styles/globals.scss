@@ -3598,10 +3598,8 @@ grid-template-columns: 1fr;
 position: absolute;
 z-index: 100;
 left: 0px;
-  // display:none
 }
 .mobile.on{
-  // display:block;
   transform:translateX(0px);
   transition:0.3s;
   z-index: 100;
@@ -3639,26 +3637,4 @@ margin-bottom:5rem;
   transition:.3s ease-in
 }
 
- // mobilen view toogle
-//  .moview-view-container {
-//   transform: translateX(50%);
-//   transition: 1s ease;
-// }
-// .moview-view-container--show {
-//   transform: translateX(100%);
-// }
-// .moview-view-container--hide {
-//   transform: translateX(-50%);
-//   animation: mobile-show 1s;
-// }
-
-// @keyframes mobile-show {
-//   from {
-//     transform: translateX(0);
-//   }
-//   to {
-//     transform: translateX(50%);
-
-//   }
-// }
-// mobilen view toogle
+ 

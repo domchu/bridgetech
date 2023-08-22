@@ -138,12 +138,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/subpage/faq"
+                            href="/faq"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/subpage/faq" ? "active" : ""
-                            }
+                            className={currentRoute == "/faq" ? "active" : ""}
                             tabIndex={0}
                           >
                             Faq
@@ -166,13 +164,11 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/subpage/getquotes"
+                            href="/getquote"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/subpage/getquotes"
-                                ? "active"
-                                : ""
+                              currentRoute == "/getquote" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -239,16 +235,15 @@ const Navbar = () => {
                   onClick={handleMobileView}
                 />
               </Box>
-              {/* MOBILE VIEW OF THE BRIDGEKODE */}
-              {/* <Box className={`moview-view-container ${mobile ? "moview-view-container--show" : "moview-view-container--hide"}`}> */}
+              {/* MOBILE VIEW OF THE BRIDGEKODE */}             
               <Box className={mobile == false ? "mobile" : "mobile on"}>
                 <MobileView />
               </Box>
               <Box>
                 <li className="primary-button small header-event-button">
                   <Link
-                    href="/pages/quotes"
-                    className={currentRoute == "/pages/quotes" ? "active" : ""}
+                    href="/getquote"
+                    className={currentRoute == "/getquote" ? "active" : ""}
                     passhref="true"
                   >
                     Get a Quote
@@ -264,12 +259,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//  {/* <Box
-//  className={`moview-view-container ${
-//   mobile
-//     ? "moview-view-container--show"
-//     : "moview-view-container--hide"
-// }`}
-// >
-// <MobileView />
-// </Box> */}
+

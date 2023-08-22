@@ -71,7 +71,7 @@ const Topnav = () => {
                 <li className="topnav-links">
                   <Flex align="center">
                     <FaBlogger className="topnav-icons" />
-                    <Link href="/access/login" passhref="true">
+                    <Link href="login" passhref="true">
                       Login
                     </Link>
                   </Flex>
@@ -82,7 +82,7 @@ const Topnav = () => {
                 <li className="topnav-links register">
                   <Flex align="center">
                     <FaRegAddressBook className="topnav-icons" />
-                    <Link href="/access/form" passhref="true">
+                    <Link href="form" passhref="true">
                       Register
                     </Link>
                   </Flex>

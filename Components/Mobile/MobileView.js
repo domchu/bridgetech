@@ -79,9 +79,7 @@ const MobileView = () => {
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/aboutus"
-                                  ? "active"
-                                  : ""
+                                currentRoute == "/aboutus" ? "active" : ""
                               }
                               tabIndex={0}
                             >
@@ -142,12 +140,10 @@ const MobileView = () => {
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
-                              href="/subpage/faq"
+                              href="/faq"
                               id="nav-dropdown-link "
                               passhref="true"
-                              className={
-                                currentRoute == "/subpage/faq" ? "active" : ""
-                              }
+                              className={currentRoute == "/faq" ? "active" : ""}
                               tabIndex={0}
                             >
                               Faq
@@ -170,13 +166,11 @@ const MobileView = () => {
                           </li>
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
-                              href="/subpage/getquotes"
+                              href="/getquote"
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/subpage/getquotes"
-                                  ? "active"
-                                  : ""
+                                currentRoute == "/getquote" ? "active" : ""
                               }
                               tabIndex={0}
                             >
@@ -191,10 +185,10 @@ const MobileView = () => {
                   </Box>
                   <li>
                     <Link
-                      href="/services/service-home"
+                      href="/services"
                       id="nav-link"
                       className={
-                        currentRoute == "/services/service-home" ? "active" : ""
+                        currentRoute == "/services" ? "active" : ""
                       }
                       passhref="true"
                     >

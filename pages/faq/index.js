@@ -1,29 +1,27 @@
 import React from "react";
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Topnav from "../../Components/Topnav/Topnav";
-import Footer from "../../Components/Footer/Footer";
-import Quotes from "./../../Components/Quotes/Quotes";
-import Testimonial from "../../Components/Testimonails/Testimonial";
+import Faq from "../../Components/Faq/Faq";
 import NewsLetter from "../../Components/NewsLetter";
+import Testimonial from "../../Components/Testimonails/Testimonial";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const getquotes = () => {
+export default function faq() {
   return (
     <>
       <DefaultSeo
-        title="Get Us Quote| Crafting Websites to Perfection "
-        description="We will get back to you as soon as possible."
+        title="Faq Page | Crafting Websites to Perfection "
+        description="You have questions to ask and we have the answers."
         {...SEO}
       />
       <Topnav />
       <Header />
-      <Quotes />
+      <Faq />
       <NewsLetter />
       <Testimonial />
       <Footer />
     </>
   );
-};
-
-export default getquotes;
+}
