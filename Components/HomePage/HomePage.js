@@ -189,7 +189,7 @@ const HomePage = () => {
                     style={{ willChange: "width", willChange: "height" }}
                   ></li>
                 </ul>
-                <Link href="/services/service-home" className="primary-button">
+                <Link href="/services" className="primary-button">
                   Let's Start
                 </Link>
               </Box>

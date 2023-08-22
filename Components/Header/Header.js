@@ -183,11 +183,9 @@ const Navbar = () => {
                 </Box>
                 <li>
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     id="nav-link"
-                    className={
-                      currentRoute == "/services/service-home" ? "active" : ""
-                    }
+                    className={currentRoute == "/services" ? "active" : ""}
                     passhref="true"
                   >
                     Service
@@ -235,7 +233,7 @@ const Navbar = () => {
                   onClick={handleMobileView}
                 />
               </Box>
-              {/* MOBILE VIEW OF THE BRIDGEKODE */}             
+              {/* MOBILE VIEW OF THE BRIDGEKODE */}
               <Box className={mobile == false ? "mobile" : "mobile on"}>
                 <MobileView />
               </Box>
