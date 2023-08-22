@@ -79,10 +79,10 @@ const Footer = () => {
               <h2>Menu</h2>
               <li>
                 <Link
-                  href="/pages/aboutus"
+                  href="/aboutus"
                   id="footerlink"
                   passhref="true"
-                  className={currentRoute == "/pages/aboutus" ? "active" : ""}
+                  className={currentRoute == "/aboutus" ? "active" : ""}
                 >
                   About
                 </Link>

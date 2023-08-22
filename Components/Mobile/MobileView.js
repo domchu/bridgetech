@@ -75,11 +75,11 @@ const MobileView = () => {
                         >
                           <li className="w-nav-link nav-dropdown-link">
                             <Link
-                              href="/subpage/aboutus"
+                              href="/aboutus"
                               id="nav-dropdown-link "
                               passhref="true"
                               className={
-                                currentRoute == "/subpage/aboutus"
+                                currentRoute == "/aboutus"
                                   ? "active"
                                   : ""
                               }

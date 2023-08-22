@@ -79,11 +79,11 @@ const Navbar = () => {
                       >
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/subpage/aboutus"
+                            href="/aboutus"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/subpage/aboutus" ? "active" : ""
+                              currentRoute == "/aboutus" ? "active" : ""
                             }
                             tabIndex={0}
                           >
