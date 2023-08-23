@@ -1596,9 +1596,7 @@ img {
     padding-top: 80px;
     padding-bottom: 100px;
   }
-  .hero-content {
-    max-width: 355px;
-  }
+ 
   h1 {
     font-size: 56px;
   }
@@ -1637,6 +1635,14 @@ img {
     line-height: 1.12;
     font-weight: 700;
   }
+  .hero-image{
+    height: auto;
+  }
+  .hero-content {
+    padding: 12px;
+    width: 100%;
+  }
+ 
   
 }
 
@@ -1658,6 +1664,10 @@ img {
   .login-section{
     padding:0px 10px
   }
+  #w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d {
+  // justify-self: center;
+  margin-bottom: 25px;
+}
 }
 // ADJUSTMENT FOR SCREEN 360PX IN ALL PAGES
 
