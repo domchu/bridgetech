@@ -47,7 +47,7 @@ const python = () => {
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     className="project-nav-link"
                   >
                     Services

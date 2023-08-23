@@ -21,7 +21,7 @@ const realestate = () => {
       <Header />
       <ProjectHeading
         title="Real Estate website"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR Mobile Development */}

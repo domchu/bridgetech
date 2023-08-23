@@ -21,7 +21,7 @@ const movie = () => {
       <Header />
       <ProjectHeading
         title="Movies Engine"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR Movies Engine */}

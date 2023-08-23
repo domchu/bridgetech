@@ -20,7 +20,7 @@ const ecommerce = () => {
       <Header />
       <ProjectHeading
         title="E-commerce Website"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR E-COMMERCE SITE */}

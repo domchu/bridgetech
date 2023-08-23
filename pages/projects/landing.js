@@ -18,10 +18,7 @@ const landing = () => {
       />
       <Topnav />
       <Header />
-      <ProjectHeading
-        title="Hospital Landing Page."
-        projectUrl="/projects/project-home"
-      />
+      <ProjectHeading title="Hospital Landing Page." projectUrl="/projects" />
       {/* SINGLE PROJECT DETAILS FOR Hospital Landing Page. */}
       <SingleProject
         title="Hospital Landing Page."

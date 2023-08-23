@@ -22,7 +22,7 @@ const database = () => {
       <Header />
       <ProjectHeading
         title="School Database"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR School Database */}

@@ -22,7 +22,7 @@ const blog = () => {
       <Header />
       <ProjectHeading
         title="Blogging Website"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR Blogging Website */}

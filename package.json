@@ -1,12 +1,13 @@
 {
-  "name": "bridgetech",
+  "name": "bridgekode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap --config.js"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",

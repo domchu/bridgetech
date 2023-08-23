@@ -21,7 +21,7 @@ const GithubProfile = () => {
       <Header />
       <ProjectHeading
         title="Fetch Github Profile"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR Fetch Github Profile */}
