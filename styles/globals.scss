@@ -1031,8 +1031,8 @@ color:var(--clr-white);
     background-repeat: no-repeat;
     
   }
-  .newsletter-content {
-    text-align: center;
+  .section-block{
+    margin-left: 1rem;
   }
   // .container {
   //   max-width: 100%;
@@ -1637,7 +1637,29 @@ img {
     line-height: 1.12;
     font-weight: 700;
   }
+  
 }
+
+
+// ADJUSTMENT FOR SCREEN 360PX IN ALL PAGES
+@media screen and (max-width:#{$small-width}) {
+  .hero-image{
+    height: auto;
+  }
+  .hero-content {
+    padding: 12px;
+  }
+  .about-content{
+    padding:10px;
+  }
+  .login-form {
+    padding: 0px 15px;
+  }
+  .login-section{
+    padding:0px 10px
+  }
+}
+// ADJUSTMENT FOR SCREEN 360PX IN ALL PAGES
 
 // ELIMINATE TECH CHALLENGES STYLES.
 .section-gap-130-eliminate {
@@ -2672,6 +2694,7 @@ p {
   align-items: flex-start;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  
 }
 @media screen and (max-width:#{$tablet-width}) {
   .login-block {
@@ -2695,6 +2718,7 @@ p {
   .section-title {
     font-size: 25px;
   }
+  
 
 }
 // REGISTER FORM STYLES

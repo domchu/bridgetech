@@ -1068,8 +1068,8 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .newsletter-content {
-    text-align: center;
+  .section-block {
+    margin-left: 1rem;
   }
   .section-title {
     font-size: 20px;
@@ -1697,6 +1697,23 @@ img {
     font-size: 40px;
     line-height: 1.12;
     font-weight: 700;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero-image {
+    height: auto;
+  }
+  .hero-content {
+    padding: 12px;
+  }
+  .about-content {
+    padding: 10px;
+  }
+  .login-form {
+    padding: 0px 15px;
+  }
+  .login-section {
+    padding: 0px 10px;
   }
 }
 .section-gap-130-eliminate {
