@@ -1665,8 +1665,18 @@ img {
     padding:0px 10px
   }
   #w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d {
-  // justify-self: center;
   margin-bottom: 25px;
+}
+
+.card__wrapper .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  color: var(--clr-white);
+  overflow: hidden;
 }
 }
 // ADJUSTMENT FOR SCREEN 360PX IN ALL PAGES
