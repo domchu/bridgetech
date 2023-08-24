@@ -46,10 +46,7 @@ const webdesigntraining = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/services"
-                    className="project-nav-link"
-                  >
+                  <Link href="/services" className="project-nav-link">
                     Services
                   </Link>
                 </li>
@@ -233,7 +230,7 @@ const webdesigntraining = () => {
                     <h2 className="section-title">Kids Coding Training </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       <strong>Web development training</strong> refers to the
                       process of learning and acquiring the necessary skills,
                       knowledge, and practical experience to become proficient

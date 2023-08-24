@@ -233,7 +233,7 @@ const python = () => {
                     <h2 className="section-title">Python Data-Science</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Python data science refers to the use of the Python
                       programming language and its associated libraries, tools,
                       and techniques for analyzing, manipulating, and deriving

@@ -233,7 +233,7 @@ const uiux = () => {
                     <h2 className="section-title">UX / UI Design</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       <strong> UI/UX design</strong> refers to the practice of
                       creating user-friendly and visually appealing interfaces
                       for digital products or systems. It involves considering

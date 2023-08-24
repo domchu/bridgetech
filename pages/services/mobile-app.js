@@ -235,7 +235,7 @@ const mobileapp = () => {
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Mobile app development refers to the process of creating
                       software applications specifically designed to run on
                       mobile devices, such as smartphones or tablets. It

@@ -1485,6 +1485,7 @@ ul {
     flex-direction: column;
     grid-row-gap: 20px;
     grid-template-columns: 1fr;
+    padding: 0px 10px;
   }
   .quote-form-wrapper {
     padding-right: 0px;
@@ -1505,6 +1506,9 @@ ul {
     grid-column-end: span 3;
     grid-row-start: span 1;
     grid-row-end: span 1;
+  }
+  .quote-input-group {
+    padding: 0px 10px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -1702,6 +1706,15 @@ img {
     padding: 12px;
     width: 100%;
   }
+  .signup-form {
+    padding: 0px 15px;
+  }
+  #w-node-order {
+    padding: 0px 15px;
+  }
+  .service-paragraph {
+    padding: 0px 10px;
+  }
 }
 @media screen and (max-width: 360px) {
   .hero-image {
@@ -1721,6 +1734,16 @@ img {
   }
   #w-node-_0e08f737-4d77-aa87-5e85-122aa03eaf97-44adaf1d {
     margin-bottom: 25px;
+  }
+  .card__wrapper .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: var(--clr-white);
+    overflow: hidden;
   }
 }
 .section-gap-130-eliminate {

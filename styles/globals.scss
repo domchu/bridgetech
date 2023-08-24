@@ -1349,6 +1349,7 @@ strong {
   grid-row-gap: 0px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  
 }
 .quote-input-group-item {
   margin-bottom: 15px;
@@ -1435,9 +1436,9 @@ ul {
 @media screen and (max-width:#{$phone-width}) {
   .contact-input-group {
     flex-direction: column;
-    // width: 100%;
     grid-row-gap: 20px;
     grid-template-columns: 1fr;
+    padding: 0px 10px;
   }
   .quote-form-wrapper {
     padding-right: 0px;
@@ -1460,6 +1461,9 @@ ul {
     grid-column-end: span 3;
     grid-row-start: span 1;
     grid-row-end: span 1;
+  }
+  .quote-input-group {
+    padding: 0px 10px;
   }
 }
 @media screen and (max-width:#{360px}) {
@@ -1643,6 +1647,15 @@ img {
     width: 100%;
   }
  
+  .signup-form {
+    padding: 0px 15px;
+  }
+  #w-node-order{
+    padding: 0px 15px;
+  }
+  .service-paragraph{
+    padding:0px 10px;
+  }
   
 }
 

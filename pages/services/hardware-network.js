@@ -235,7 +235,7 @@ const hardwareNetwork = () => {
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Hardware and networking are two interrelated aspects of
                       information technology that play crucial roles in the
                       functioning of computer systems and the establishment of

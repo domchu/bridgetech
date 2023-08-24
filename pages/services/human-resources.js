@@ -46,10 +46,7 @@ const humanResources = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/services"
-                    className="project-nav-link"
-                  >
+                  <Link href="/services" className="project-nav-link">
                     Services
                   </Link>
                 </li>
@@ -235,7 +232,7 @@ const humanResources = () => {
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Human resources (HR) refers to the department or function
                       within an organization that is responsible for managing
                       the organization's human capital. It involves a range of
