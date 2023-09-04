@@ -22,7 +22,7 @@ const graphic = () => {
       <TeamProfile
         name="Isaac Oti"
         title="Web/Graphic Designer"
-        biography="Team Lead/Chief Executive Officer at Webby Graphic & also web developer with over ten(2) years of creative and innovative  experience in IT field especially graphics designer, photography, etc."
+        biography="Team Lead/Chief Executive Officer at Webby Graphic & also web developer with over two (2) years of creative and innovative  experience in IT field especially graphics designer, photography, etc."
         achievement="Best graduated student @ florintech comp college-2021  "
         linkedinlink="https://linkedin.com/in/chinaza-oti"
         facebooklink="https://www.facebook.com/profile.php?id=100077366905478"

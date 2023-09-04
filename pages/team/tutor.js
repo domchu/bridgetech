@@ -20,7 +20,7 @@ const tutor = () => {
       <Header />
       <TeamSingleHead teamTitle="Web Dev. Tutor" />
       <TeamProfile
-        name=" JnpRof J."
+        name=" JpRoF J."
         title="Web Development Tutor"
         biography="An innovative frontend developer and a well grounded web tutor at florintech computer company with over two(2) years of experience leveraging javascript, html, css and general web tools."
         achievement="Best Javascript Tutor - 2022 "

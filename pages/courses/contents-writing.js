@@ -12,17 +12,17 @@ const contentswriting = () => {
   return (
     <>
       <DefaultSeo
-        title="Contents Writing | Crafting Websites to Perfection "
-        description="A well tutor materials tailored for contents writing for easy understanding by clients"
+        title="Content Writing | Crafting Websites to Perfection "
+        description="A well tutor materials tailored for content writing for easy understanding by clients"
         keywords=""
         {...SEO}
       />
       <Topnav />
       <Header />
-      <CoursesSubHeading text="Contents Writing" />
+      <CoursesSubHeading text="Content Writing" />
       <SingleCourse
-        courseTitle="Contents Writing "
-        courseSummary="Contents writing offers creating written material for various platforms and mediums, such as websites, blogs, social media, marketing materials, and more. It involves crafting engaging, informative, and valuable content that resonates with the target audience and achieves specific goals, such as driving traffic, increasing conversions, or building brand awareness."
+        courseTitle="Content Writing "
+        courseSummary="Content writing offers creating written material for various platforms and mediums, such as websites, blogs, social media, marketing materials, and more. It involves crafting engaging, informative, and valuable content that resonates with the target audience and achieves specific goals, such as driving traffic, increasing conversions, or building brand awareness."
         contents="Involves creating high-quality, valuable, and engaging written material tailored to a specific target audience. It requires research, strong writing skills, an understanding of SEO, effective structuring, and continuous learning to produce content that achieves its intended purpose and resonates with readers."
         comment="practice and experience play a significant role in becoming a proficient content writer. Continuously writing, seeking feedback, and staying curious about industry developments will help you refine your content writing abilities over time."
         amount="# 40,000"

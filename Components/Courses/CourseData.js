@@ -58,7 +58,7 @@ const CourseDetails = [
   {
     id: "7",
     courseImage: "/images/content.jpg",
-    title: "Contents Writing",
+    title: "Content Writing",
     price: "#40,000",
     courseUrl: "/courses/contents-writing",
     contents:
