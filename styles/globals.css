@@ -1057,6 +1057,9 @@ nav {
   .section-title {
     font-size: 34px;
   }
+  .newsletter-form button {
+    margin-top: 17px;
+  }
 }
 @media screen and (max-width: 500px) {
   .newsletter-grid {

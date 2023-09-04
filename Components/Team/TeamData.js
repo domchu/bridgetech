@@ -127,7 +127,7 @@ const TeamData = [
   {
     id: "12",
     image: "/images/johnson.jpg ",
-    name: "Johnson JnpRof",
+    name: "Johnson JpRoF",
     job: "Web Dev Tutor",
     profile: "/team/tutor",
     facebookLink: "https://www.facebook.com/jpRoF.2023",

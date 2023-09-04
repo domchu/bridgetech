@@ -14,8 +14,9 @@ const CoursesTab = () => {
                 Our <span className="sub_heading_span">Courses</span>
               </h1>
               <p>
-                The underlisted courses are offered by bridgekode, convinence,
-                affordable and easy to learn within the learners space.
+                The underlisted courses are
+                <b> Offered by Bridgekode</b>, convinence, affordable and easy
+                to learn within the learners space.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
