@@ -277,7 +277,7 @@ const Footer = () => {
                 target="_blank"
                 rel="nofollow"
               >
-                Mr.Dominic
+                Mr. Dominic
               </Link>
               | Powered by
               <Link href="/" target="_blank">
