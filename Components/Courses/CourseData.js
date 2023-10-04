@@ -95,8 +95,8 @@ const CourseDetails = [
     id: "11",
     courseImage: "/images/desktop.jpg",
     title: "Back-End Development",
-    price: "#150,000",
-    courseUrl: "/courses/desktop-publishing",
+    price: "#200,000",
+    courseUrl: "/courses/backend",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
   },
@@ -105,7 +105,7 @@ const CourseDetails = [
     courseImage: "/images/desktop.jpg",
     title: "FullStack Development",
     price: "#250,000",
-    courseUrl: "/courses/desktop-publishing",
+    courseUrl: "/courses/fullstack",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
   },
