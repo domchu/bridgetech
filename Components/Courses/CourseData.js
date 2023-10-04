@@ -39,11 +39,11 @@ const CourseDetails = [
   {
     id: "5",
     courseImage: "/images/python6.jpg",
-    title: "Software Development",
+    title: "Web Dev. With Reactjs",
     price: "#180,000",
     courseUrl: "/courses/software-development",
     contents:
-      "This course covers the principles of software development, javacript frameworks/libraries, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
+      "This course covers the principles of software development, javacript frameworks/libraries like React.js, Next.js, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
   },
 
   {
