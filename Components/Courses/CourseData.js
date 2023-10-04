@@ -82,6 +82,33 @@ const CourseDetails = [
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
   },
+  {
+    id: "10",
+    courseImage: "/images/desktop.jpg",
+    title: "Web Design(WordPress)",
+    price: "#120,000",
+    courseUrl: "/courses/wordpress",
+    contents:
+      "This involve creating and designing websites without writing codes or without writing Html, Css and Javascript & others libraries/frameworks.",
+  },
+  {
+    id: "11",
+    courseImage: "/images/desktop.jpg",
+    title: "Back-End Development",
+    price: "#150,000",
+    courseUrl: "/courses/desktop-publishing",
+    contents:
+      "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
+  },
+  {
+    id: "12",
+    courseImage: "/images/desktop.jpg",
+    title: "FullStack Development",
+    price: "#250,000",
+    courseUrl: "/courses/desktop-publishing",
+    contents:
+      "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
+  },
 ];
 
 export default CourseDetails;
