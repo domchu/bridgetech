@@ -39,7 +39,7 @@ const CourseDetails = [
   {
     id: "5",
     courseImage: "/images/python6.jpg",
-    title: "Web Dev. With Reactjs",
+    title: "Front-End (Reactjs)",
     price: "#180,000",
     courseUrl: "/courses/software-development",
     contents:
@@ -84,17 +84,17 @@ const CourseDetails = [
   },
   {
     id: "10",
-    courseImage: "/images/desktop.jpg",
+    courseImage: "/images/wordpress.jpg",
     title: "Web Design(WordPress)",
     price: "#120,000",
     courseUrl: "/courses/wordpress",
     contents:
-      "This involve creating and designing websites without writing codes or without writing Html, Css and Javascript & others libraries/frameworks.",
+      "This involve creating and designing websites WITHOUT writing codes or WITHOUT writing HTML, CSS, Javascript, others libraries & frameworks. mainly editting templates, click & drag etc",
   },
   {
     id: "11",
     courseImage: "/images/desktop.jpg",
-    title: "Back-End Development",
+    title: "Back-End (Node/Express)",
     price: "#200,000",
     courseUrl: "/courses/backend",
     contents:
@@ -103,7 +103,7 @@ const CourseDetails = [
   {
     id: "12",
     courseImage: "/images/desktop.jpg",
-    title: "FullStack Development",
+    title: "FullStack (MERN)",
     price: "#250,000",
     courseUrl: "/courses/fullstack",
     contents:

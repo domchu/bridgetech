@@ -27,7 +27,7 @@ const contentswriting = () => {
         comment="practice and experience play a significant role in becoming a proficient content writer. Continuously writing, seeking feedback, and staying curious about industry developments will help you refine your content writing abilities over time."
         amount="# 200,000"
         dollars="$ 200.00"
-        duration="4 Months"
+        duration="5 Months"
         list1="Become a Web Designer(WordPress) without writing code."
         list2="Develop strong writing skills, including grammar, punctuation, sentence structure, and vocabulary. Practice writing regularly to improve your fluency and clarity of expression."
         list3=" Understanding the Audience"
@@ -40,7 +40,7 @@ const contentswriting = () => {
         list10="Formatting and Visual Elements"
         list11="Call-to-Action (CTA): subscribing, sharing, or making a purchase. Craft compelling CTAs that align with the content's purpose and engage your audience."
         list12="Adaptability and Continuous Learning"
-        courseImage="/images/content.jpg"
+        courseImage="/images/node-express.JPEG"
       />
       <Testimonial />
       <Footer />

@@ -21,7 +21,7 @@ const software = () => {
       <Header />
       <CoursesSubHeading text="Software development" />
       <SingleCourse
-        courseTitle="Frontend Development Bootcamp "
+        courseTitle="Frontend Development (Reactjs) "
         courseSummary="Software development refers to the process of creating, designing, coding, testing, and maintaining software applications. It involves a combination of technical skills, problem-solving abilities, and collaboration to produce functional and efficient software solutions."
         contents="Software development is a vast field that involves designing, coding, testing, and maintaining software applications.software development is a continuously evolving field. Stay curious, embrace new technologies, and continuously learn and update your skills to keep up with industry trends and advancements. Practical experience through personal projects, open-source contributions, or internships can also greatly enhance your skills as a software developer."
         comment="Software development involves a combination of technical expertise, creativity, problem-solving, and effective communication. It requires a systematic approach to deliver reliable and high-quality software solutions that meet the needs of users and stakeholders. Iterative development cycles, agile methodologies, and feedback-driven improvement are often employed to ensure successful software development projects."
@@ -40,7 +40,7 @@ const software = () => {
         list10="Data Structures and Algorithms"
         list11="Problem-Solving and Critical Thinking"
         list12="Soft Skills: Enhance your communication, collaboration, and teamwork skills."
-        courseImage="/images/software.jpg"
+        courseImage="/images/reactjs.png"
       />
       <Testimonial />
       <Footer />

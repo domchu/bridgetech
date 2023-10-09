@@ -19,28 +19,31 @@ const contentswriting = () => {
       />
       <Topnav />
       <Header />
-      <CoursesSubHeading text="Web Design(WordPress)" />
+      <CoursesSubHeading text="Web Design (WordPress)" />
       <SingleCourse
-        courseTitle="Web Design(WordPress)"
-        courseSummary="Content writing offers creating written material for various platforms and mediums, such as websites, blogs, social media, marketing materials, and more. It involves crafting engaging, informative, and valuable content that resonates with the target audience and achieves specific goals, such as driving traffic, increasing conversions, or building brand awareness."
-        contents="Involves creating high-quality, valuable, and engaging written material tailored to a specific target audience. It requires research, strong writing skills, an understanding of SEO, effective structuring, and continuous learning to produce content that achieves its intended purpose and resonates with readers."
-        comment="practice and experience play a significant role in becoming a proficient content writer. Continuously writing, seeking feedback, and staying curious about industry developments will help you refine your content writing abilities over time."
+        courseTitle="Web Design (WordPress)"
+        courseSummary="Certainly! WordPress is a popular content management system (CMS) that allows you to create and manage a website without extensive technical knowledge. Here's an overview of the key aspects of using WordPress for your website:"
+        contents="WordPress themes determine how your site looks. There are thousands of free and premium themes available. Themes can be customized and you can also create child themes to make advanced customizations without affecting the main theme."
+        comment="Plugins are like apps for your WordPress site. They add extra features and functionality. For example, SEO plugins can help optimize your site for search engines, while contact form plugins allow you to create forms without coding.
+        With plugins like WooCommerce, you can turn your WordPress site into an online store, enabling you to sell products and services.
+
+        WordPress is known for its flexibility, user-friendly interface, and the support of a vast community. Whether you're building a blog, a business website, or an e-commerce platform, WordPress provides a robust foundation for your online presence."
         amount="# 120,000"
         dollars="$ 120.00"
         duration="2 Months"
         list1="Become a Web Designer(WordPress) without writing code."
-        list2="Develop strong writing skills, including grammar, punctuation, sentence structure, and vocabulary. Practice writing regularly to improve your fluency and clarity of expression."
-        list3=" Understanding the Audience"
-        list4="Content Planning and Organization"
-        list5=" Learn how to find credible sources, fact-check information, and conduct thorough research on your topic to provide valuable and well-informed content"
-        list6="SEO Writing"
-        list7="Engaging Introductions and Headlines"
-        list8="Use of Language and Tone"
-        list9="Editing and Proofreading"
-        list10="Formatting and Visual Elements"
-        list11="Call-to-Action (CTA): subscribing, sharing, or making a purchase. Craft compelling CTAs that align with the content's purpose and engage your audience."
-        list12="Adaptability and Continuous Learning"
-        courseImage="/images/content.jpg"
+        list2="Basic Website Setup."
+        list3=" Navigating the WordPress Dashboard."
+        list4="Content Creation and Management."
+        list5=" Themes installation & customisation."
+        list6="Plugins installation."
+        list7="User Management."
+        list8="Search Engine Optimization (SEO)."
+        list9="Security."
+        list10="Troubleshooting and Maintenance."
+        list11="Performance Optimization."
+        list12="Adaptability and Continuous Learning."
+        courseImage="/images/wordpress..jpg"
       />
       <Testimonial />
       <Footer />
