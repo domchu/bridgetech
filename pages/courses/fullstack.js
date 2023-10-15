@@ -8,7 +8,7 @@ import CoursesSubHeading from "./../../Components/CoursesSubHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const contentswriting = () => {
+const fullstack = () => {
   return (
     <>
       <DefaultSeo
@@ -48,4 +48,4 @@ const contentswriting = () => {
   );
 };
 
-export default contentswriting;
+export default fullstack;

@@ -8,7 +8,7 @@ import CoursesSubHeading from "./../../Components/CoursesSubHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const contentswriting = () => {
+const wordpress = () => {
   return (
     <>
       <DefaultSeo
@@ -26,7 +26,6 @@ const contentswriting = () => {
         contents="WordPress themes determine how your site looks. There are thousands of free and premium themes available. Themes can be customized and you can also create child themes to make advanced customizations without affecting the main theme."
         comment="Plugins are like apps for your WordPress site. They add extra features and functionality. For example, SEO plugins can help optimize your site for search engines, while contact form plugins allow you to create forms without coding.
         With plugins like WooCommerce, you can turn your WordPress site into an online store, enabling you to sell products and services.
-
         WordPress is known for its flexibility, user-friendly interface, and the support of a vast community. Whether you're building a blog, a business website, or an e-commerce platform, WordPress provides a robust foundation for your online presence."
         amount="# 120,000"
         dollars="$ 120.00"
@@ -51,4 +50,4 @@ const contentswriting = () => {
   );
 };
 
-export default contentswriting;
+export default wordpress;

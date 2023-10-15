@@ -8,7 +8,7 @@ import CoursesSubHeading from "./../../Components/CoursesSubHeading";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-const contentswriting = () => {
+const backend = () => {
   return (
     <>
       <DefaultSeo
@@ -33,13 +33,13 @@ const contentswriting = () => {
         Functions, Objects and Arrays"
         list3="Asynchronous Programming"
         list4="Callbacks, Promises, and Async/Await, Event Loop"
-        list5=" Node.js Basics:Modules, File System Operations,NPM (Node Package Manager)"
+        list5=" Node.js Basics:Modules, File System Operations, NPM (Node Package Manager)"
         list6=" Express.js Framework:Routing, Middleware, Template Engines, Error Handling, RESTful APIs"
         list7="Database Integration"
         list8="Authentication and Authorization"
         list9="Testing, Security"
         list10="Deployment and Performance Optimization"
-        list11="Version Control,  Continuous Integration and Deployment (CI/CD), Best Practices and Design Patterns, Real-time Applications (Optional)"
+        list11="Version Control, Continuous Integration and Deployment (CI/CD), Best Practices and Design Patterns, Real-time Applications (Optional)"
         list12="Documentation and  Security"
         courseImage="/images/node-express.JPEG"
       />
@@ -49,4 +49,4 @@ const contentswriting = () => {
   );
 };
 
-export default contentswriting;
+export default backend;
