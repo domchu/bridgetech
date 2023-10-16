@@ -19,7 +19,7 @@ const CourseCard = () => {
                 <figure className="card">
                   <Image
                     src={courseImage}
-                    alt="People learning web design"
+                    alt="course image"
                     className="course-image"
                     height={420}
                     width={320}

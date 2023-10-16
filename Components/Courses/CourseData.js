@@ -93,7 +93,7 @@ const CourseDetails = [
   },
   {
     id: "11",
-    courseImage: "/images/desktop.jpg",
+    courseImage: "/images/node..jpg",
     title: "Back-End (Node/Express)",
     price: "#200,000",
     courseUrl: "/courses/backend",
@@ -102,7 +102,7 @@ const CourseDetails = [
   },
   {
     id: "12",
-    courseImage: "/images/desktop.jpg",
+    courseImage: "/images/wp..jpg",
     title: "FullStack (MERN)",
     price: "#250,000",
     courseUrl: "/courses/fullstack",

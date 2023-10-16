@@ -22,9 +22,10 @@ const fullstack = () => {
       <CoursesSubHeading text="FullStack Dev.(MERN)" />
       <SingleCourse
         courseTitle="FullStack Development (MERN)"
-        courseSummary="Content writing offers creating written material for various platforms and mediums, such as websites, blogs, social media, marketing materials, and more. It involves crafting engaging, informative, and valuable content that resonates with the target audience and achieves specific goals, such as driving traffic, increasing conversions, or building brand awareness."
-        contents="Involves creating high-quality, valuable, and engaging written material tailored to a specific target audience. It requires research, strong writing skills, an understanding of SEO, effective structuring, and continuous learning to produce content that achieves its intended purpose and resonates with readers."
-        comment="practice and experience play a significant role in becoming a proficient content writer. Continuously writing, seeking feedback, and staying curious about industry developments will help you refine your content writing abilities over time."
+        courseSummary="Full-stack development refers to the ability to work with both the front-end (user interface) and back-end (server, database, and application) components of web or software applications. A full-stack developer is proficient in a variety of programming languages, frameworks, and technologies that enable them to handle both client-side and server-side development tasks."
+        contents="On the front-end, they work with technologies such as HTML, CSS, and JavaScript, along with libraries and frameworks like React.js or Angular.js, to create visually appealing and interactive user interfaces.
+        On the back-end, they manage server-side scripting, databases, server configuration, and application logic. Common back-end technologies include Node.js, Express.js, Python, Ruby on Rails, and PHP, along with databases like MySQL, MongoDB, or PostgreSQL."
+        comment="Full-stack developers have a comprehensive understanding of the entire development process, allowing them to build and maintain complete web applications independently or collaborate effectively with specialized front-end and back-end developers in larger teams. Their versatility makes them valuable assets in the software development industry."
         amount="# 250,000"
         dollars="$ 250.00"
         duration="12 Months"
