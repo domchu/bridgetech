@@ -79,11 +79,11 @@ const Navbar = () => {
                       >
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/aboutus"
+                            href="/aboutus"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/aboutus" ? "active" : ""
+                              currentRoute == "/aboutus" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -92,12 +92,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/team"
+                            href="/team"
                             id="nav-dropdown-link"
                             passhref="true"
-                            className={
-                              currentRoute == "/pages/team" ? "active" : ""
-                            }
+                            className={currentRoute == "/team" ? "active" : ""}
                             tabIndex={0}
                           >
                             Team
@@ -105,12 +103,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/access/form"
+                            href="/form"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/access/form" ? "active" : ""
-                            }
+                            className={currentRoute == "/form" ? "active" : ""}
                             tabIndex={0}
                           >
                             Register
@@ -118,12 +114,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/access/login"
+                            href="/login"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/access/login" ? "active" : ""
-                            }
+                            className={currentRoute == "/login" ? "active" : ""}
                             tabIndex={0}
                           >
                             Login
@@ -131,11 +125,11 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/courses/course"
+                            href="/courses"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/courses/course" ? "active" : ""
+                              currentRoute == "/courses" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -144,12 +138,10 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/faq"
+                            href="/faq"
                             id="nav-dropdown-link "
                             passhref="true"
-                            className={
-                              currentRoute == "/pages/faq" ? "active" : ""
-                            }
+                            className={currentRoute == "/faq" ? "active" : ""}
                             tabIndex={0}
                           >
                             Faq
@@ -172,11 +164,11 @@ const Navbar = () => {
                         </li>
                         <li className="w-nav-link nav-dropdown-link">
                           <Link
-                            href="/pages/getquotes"
+                            href="/getquote"
                             id="nav-dropdown-link "
                             passhref="true"
                             className={
-                              currentRoute == "/pages/getquotes" ? "active" : ""
+                              currentRoute == "/getquote" ? "active" : ""
                             }
                             tabIndex={0}
                           >
@@ -191,11 +183,9 @@ const Navbar = () => {
                 </Box>
                 <li>
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     id="nav-link"
-                    className={
-                      currentRoute == "/services/service-home" ? "active" : ""
-                    }
+                    className={currentRoute == "/services" ? "active" : ""}
                     passhref="true"
                   >
                     Service
@@ -244,15 +234,14 @@ const Navbar = () => {
                 />
               </Box>
               {/* MOBILE VIEW OF THE BRIDGEKODE */}
-              {/* <Box className={`moview-view-container ${mobile ? "moview-view-container--show" : "moview-view-container--hide"}`}> */}
               <Box className={mobile == false ? "mobile" : "mobile on"}>
                 <MobileView />
               </Box>
               <Box>
                 <li className="primary-button small header-event-button">
                   <Link
-                    href="/pages/quotes"
-                    className={currentRoute == "/pages/quotes" ? "active" : ""}
+                    href="/getquote"
+                    className={currentRoute == "/getquote" ? "active" : ""}
                     passhref="true"
                   >
                     Get a Quote
@@ -268,12 +257,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//  {/* <Box
-//  className={`moview-view-container ${
-//   mobile
-//     ? "moview-view-container--show"
-//     : "moview-view-container--hide"
-// }`}
-// >
-// <MobileView />
-// </Box> */}
+

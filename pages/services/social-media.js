@@ -47,7 +47,7 @@ const socialMedia = () => {
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     className="project-nav-link"
                   >
                     Services
@@ -237,7 +237,7 @@ const socialMedia = () => {
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Social media refers to a collection of online platforms
                       and technologies that allow individuals and organizations
                       to create, share, and interact with user-generated

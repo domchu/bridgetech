@@ -31,7 +31,7 @@ const ServiceProvide = () => {
                       </Box>
                     </Box>
                     <Link
-                      href="/services/service-home"
+                      href="/services"
                       className="section-page-link w-inline-block arrow-right"
                     >
                       <Image

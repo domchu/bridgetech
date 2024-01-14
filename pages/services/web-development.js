@@ -47,7 +47,7 @@ const webdevelopment = () => {
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     className="project-nav-link"
                   >
                     Services
@@ -233,7 +233,7 @@ const webdevelopment = () => {
                     <h2 className="section-title">Website Development</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       <strong>Bridgekode's</strong> team of web developers is
                       skilled in front-end technologies such as HTML, CSS, and
                       JavaScript. They focus on creating visually appealing and

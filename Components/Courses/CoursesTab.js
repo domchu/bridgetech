@@ -14,8 +14,9 @@ const CoursesTab = () => {
                 Our <span className="sub_heading_span">Courses</span>
               </h1>
               <p>
-                The underlisted courses are offers by bridgekode, convinence,
-                affordable and easy to learn within the learners space.
+                The underlisted courses are
+                <b> Offered by Bridgekode</b>, convinence, affordable and easy
+                to learn within the learners space.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -41,7 +42,7 @@ const CoursesTab = () => {
               <Box className="section-block max-width-475 text-center">
                 <h2 className="section-title">
                   Courses
-                  <span className="section-title-inner-style">Offers By</span>
+                  <span className="section-title-inner-style">Offered By</span>
                   Bridgekode
                 </h2>
                 <Box className="section-text">

@@ -47,7 +47,7 @@ const itsetupmanagement = () => {
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
                   <Link
-                    href="/services/service-home"
+                    href="/services"
                     className="project-nav-link"
                   >
                     Services
@@ -238,7 +238,7 @@ const itsetupmanagement = () => {
                     <h2 className="section-title">IT Setup & Management</h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       IT setup and management refer to the processes and
                       activities involved in designing, implementing, and
                       maintaining an organization's information technology

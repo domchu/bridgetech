@@ -9,7 +9,7 @@ import NewsLetter from "./../../Components/NewsLetter";
 import Footer from "./../../Components/Footer/Footer";
 import Benefit from "../../public/images/childkode.jpg";
 import Benefits from "../../public/images/me.jpg";
-import ServiceImage from "../../public/images/childkode.jpg";
+import Ceo from "../../public/images/ceo.jpg";
 import ServiceWork from "../../public/images/kids.jpg";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
@@ -46,10 +46,7 @@ const webdesigntraining = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/services/service-home"
-                    className="project-nav-link"
-                  >
+                  <Link href="/services" className="project-nav-link">
                     Services
                   </Link>
                 </li>
@@ -233,16 +230,17 @@ const webdesigntraining = () => {
                     <h2 className="section-title">Kids Coding Training </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       <strong>Web development training</strong> refers to the
                       process of learning and acquiring the necessary skills,
                       knowledge, and practical experience to become proficient
                       in web development. It involves structured courses,
                       educational/school programs, workshops, tutorials, or
                       online resources designed to teach students, kids,
-                      secondary leavers, teenagers, individuals the fundamentals
-                      using HTML, CSS, Javascript(Js) and advanced concepts of
-                      building websites and web applications.
+                      secondary leavers, teenagers, and individuals the
+                      fundamentals using HTML, CSS, bootstrap, Javascript(Js)
+                      and advanced concepts of building websites and web
+                      applications.
                     </p>
                   </Box>
                 </Box>
@@ -278,7 +276,7 @@ const webdesigntraining = () => {
                         others, and manage code repositories effectively.
                       </li>
                       <li className="li" role="list">
-                        SEO Basics:Gain knowledge of Search Engine Optimization
+                        SEO Basics: Gain knowledge of Search Engine Optimization
                         (SEO) principles to optimize websites for better
                         visibility and search engine rankings.
                       </li>
@@ -287,7 +285,7 @@ const webdesigntraining = () => {
                 </Box>
                 <Box className="service-area-image-block">
                   <Image
-                    src={ServiceImage}
+                    src={Ceo}
                     alt="Software Development"
                     loading="lazy"
                     className="image-cover img"

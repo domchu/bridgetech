@@ -20,7 +20,7 @@ const website = () => {
       <Header />
       <ProjectHeading
         title="Web Development"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS AND ITEMS AS PROPS*/}

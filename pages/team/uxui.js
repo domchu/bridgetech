@@ -28,7 +28,7 @@ const uxui = () => {
         facebooklink="https://www.facebook.com/egajivwie-samuel"
         instagramlink="https://instagram.com/bridgekode_tech"
         twitterlink="https://twitter.com/akpevwe102"
-        image="/images/sammy.jpg"
+        image="/images/sammy.JPG"
       />
       <Testimonial />
       <Footer />

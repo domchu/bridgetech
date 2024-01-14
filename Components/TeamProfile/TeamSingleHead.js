@@ -14,7 +14,7 @@ const TeamSingleHead = ({teamTitle}) => {
               </h1>
               <p>
                 The underlisted details of bridgekode team members are expert &
-                knowledgeable in he/her field of practice.
+                knowledgeable in his/her field of practice.
               </p>
               <ul className="project-link">
                 <li className="project-nav-items">
@@ -24,7 +24,7 @@ const TeamSingleHead = ({teamTitle}) => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link href="/pages/team/" className="project-nav-link">
+                  <Link href="/team" className="project-nav-link">
                     Team
                   </Link>
                 </li>

@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <DefaultSeo
-        title="Home Page | Bridgekode Crafting Websites to Perfection "
+        title="Home Page | Crafting Websites to Perfection "
         description="BridgeKode is a leading software development company, specializing in crafting innovative websites for businesses worldwide. Our expert team delivers custom software, web development, web applications, students coding program, kids coding, custom website, mobile app, tracking website, ticketing website, business website, portfolio website, landing page, e-commerce website, e-learning app/website, school result portal & database, school website, general IT training, and cutting-edge technology to bridge the gap between ideas and reality. Explore our services and empower your digital journey with BridgeKode.
          frontend, front-end, software, website, react, nextjs, typescript, graphics,seo, javascript, html, css, wordpress, sass, bootstrap,tailwindcss, semantic-ui, chakra-ui, mantie, web development, wordpress, e-commerce website, coding, bridgekode, ICT, coding, blog, bridgekode, ochu, ochu dominic, computer, mathematics, teaching, tutor, training "
         {...SEO}
@@ -27,10 +27,10 @@ export default function Home() {
           desc="We have all the web tools you need to get ahead of your competition."
           renderButtons={() => (
             <>
-              <Link href="/pages/aboutus" className="slider__btn">
+              <Link href="/aboutus" className="slider__btn">
                 About Us
               </Link>
-              <Link href="/pages/team" className="slider__btn">
+              <Link href="/team" className="slider__btn">
                 Team
               </Link>
             </>
@@ -100,10 +100,10 @@ export default function Home() {
           desc="Techs for the people to the people. Your IT career path start here & Now."
           renderButtons={() => (
             <>
-              <Link href="/courses/course" className="slider__btn">
+              <Link href="/courses" className="slider__btn">
                 Courses
               </Link>
-              <Link href="/pages/faq" className="slider__btn">
+              <Link href="/faq" className="slider__btn">
                 FAQ
               </Link>
             </>

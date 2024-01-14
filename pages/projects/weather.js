@@ -18,7 +18,7 @@ const weather = () => {
       />
       <Topnav />
       <Header />
-      <ProjectHeading title="Weather App" projectUrl="/projects/project-home" />
+      <ProjectHeading title="Weather App" projectUrl="/projects" />
       {/* SINGLE PROJECT DETAILS FOR Graphics Design */}
       <SingleProject
         title="Weather App (API)"

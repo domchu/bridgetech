@@ -13,14 +13,14 @@ const tutor = () => {
     <>
       <DefaultSeo
         title="Web Design Tutor | Crafting Websites to Perfection "
-        description="Dedicated tutor with more than three(3) experience using HTML, CSS, Jest, Javaceript, Git/Github etc etc  "
+        description="Dedicated tutor with more than two (2) experience using HTML, CSS, Jest, Javaceript, Git/Github etc etc  "
         {...SEO}
       />
       <Topnav />
       <Header />
       <TeamSingleHead teamTitle="Web Dev. Tutor" />
       <TeamProfile
-        name=" JnpRof J."
+        name=" JpRoF J."
         title="Web Development Tutor"
         biography="An innovative frontend developer and a well grounded web tutor at florintech computer company with over two(2) years of experience leveraging javascript, html, css and general web tools."
         achievement="Best Javascript Tutor - 2022 "
@@ -28,7 +28,7 @@ const tutor = () => {
         facebooklink="https://www.facebook.com/jpRoF.2023"
         instagramlink="https://instagram.com/jnprof_2022/"
         twitterlink="https://twitter.com/jpRoF_2023"
-        image="/images/johnson.jpg"
+        image="/images/johnson.JPG"
       />
       <Testimonial />
       <Footer />

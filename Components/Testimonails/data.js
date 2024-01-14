@@ -19,7 +19,7 @@ const TestimonialData = [
 
   {
     id: 3,
-    image: "/images/sleek.jpg",
+    image: "/images/sleek.JPG",
     name: "Olatunde Sleek",
     title: "CEO Florintech Computer College",
     quote:
@@ -35,11 +35,11 @@ const TestimonialData = [
   },
   {
     id: 5,
-    image: "/images/richcode.jpg",
+    image: "/images/richcode.JPG",
     name: "Ogada Stanley",
     title: "Senior Software Engineer",
     quote:
-      "I know Mr Dominic(Bridgekode CEO) as an over-thinking fellow, he never rests until he beats the problem. His a great programmer, mathematician, mentor & tutor. Though he's a master in diverse areas yet he is willing to still learn & be better.",
+      "I know Mr Dominic(Bridgekode CEO) as an over-thinking fellow, he never rests until he beats the problem. He is a great programmer, mathematician, mentor & tutor. Though he's a master in diverse areas yet he is willing to still learn & be better.",
   },
   {
     id: 6,

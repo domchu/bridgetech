@@ -28,7 +28,7 @@ const software = () => {
         facebooklink="https://www.facebook.com/bridgekode"
         instagramlink="https://www.instagram.com/richcode.js/"
         twitterlink="https://www.twitter.com/RichcodeC"
-        image="/images/stanley.jpg"
+        image="/images/stanley.JPG"
       />
       <Testimonial />
       <Footer />

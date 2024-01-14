@@ -20,7 +20,7 @@ const ux = () => {
       <Header />
       <ProjectHeading
         title="UX'UI Design"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS */}

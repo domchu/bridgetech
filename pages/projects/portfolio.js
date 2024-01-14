@@ -20,7 +20,7 @@ const training = () => {
       <Header />
       <ProjectHeading
         title="Portfolio Website"
-        projectUrl="/projects/project-home"
+        projectUrl="/projects"
       />
 
       {/* SINGLE PROJECT DETAILS FOR SOFTWARE DEVELOPMENT */}

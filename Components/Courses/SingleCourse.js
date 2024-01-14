@@ -52,7 +52,7 @@ const SingleCourse = ({
 
                 <Box>
                   <Link
-                    href="/access/form"
+                    href="/form"
                     className="primary-button margin-top-40"
                   >
                     Enrol Now

@@ -30,7 +30,7 @@ const TeamCard = () => {
                 <Box className="team-image-block img">
                   <Image
                     src={image}
-                    alt="Team Members Images"
+                    alt={name}
                     loading="lazy"
                     width={300}
                     height={300}

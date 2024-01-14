@@ -1,13 +1,12 @@
 {
-  "name": "bridegkode",
+  "name": "bridgekode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap --next-sitemap-config.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
@@ -17,7 +16,6 @@
     "framer-motion": "^10.12.16",
     "next": "13.2.4",
     "next-seo": "^6.0.0",
-    "next-sitemap": "^4.1.8",
     "nodemailer": "^6.9.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",

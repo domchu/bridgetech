@@ -39,11 +39,11 @@ const CourseDetails = [
   {
     id: "5",
     courseImage: "/images/python6.jpg",
-    title: "Software Development",
+    title: "Front-End (Reactjs)",
     price: "#180,000",
     courseUrl: "/courses/software-development",
     contents:
-      "This course covers the principles of software development, javacript frameworks/libraries, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
+      "This course covers the principles of software development, javacript frameworks/libraries like React.js, Next.js, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
   },
 
   {
@@ -58,7 +58,7 @@ const CourseDetails = [
   {
     id: "7",
     courseImage: "/images/content.jpg",
-    title: "Contents Writing",
+    title: "Content Writing",
     price: "#40,000",
     courseUrl: "/courses/contents-writing",
     contents:
@@ -79,6 +79,33 @@ const CourseDetails = [
     title: "Desktop Publishing",
     price: "#50,000",
     courseUrl: "/courses/desktop-publishing",
+    contents:
+      "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
+  },
+  {
+    id: "10",
+    courseImage: "/images/wordpress.jpg",
+    title: "Web Design(WordPress)",
+    price: "#120,000",
+    courseUrl: "/courses/wordpress",
+    contents:
+      "This involve creating and designing websites WITHOUT writing codes or WITHOUT writing HTML, CSS, Javascript, others libraries & frameworks. mainly editting templates, click & drag etc",
+  },
+  {
+    id: "11",
+    courseImage: "/images/node..jpg",
+    title: "Back-End (Node/Express)",
+    price: "#200,000",
+    courseUrl: "/courses/backend",
+    contents:
+      "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
+  },
+  {
+    id: "12",
+    courseImage: "/images/wp..jpg",
+    title: "FullStack (MERN)",
+    price: "#250,000",
+    courseUrl: "/courses/fullstack",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
   },

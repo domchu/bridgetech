@@ -46,10 +46,7 @@ const brandingSeo = () => {
                 </li>
                 <Box className="separator">/</Box>
                 <li className="project-nav-items">
-                  <Link
-                    href="/services/service-home"
-                    className="project-nav-link"
-                  >
+                  <Link href="/services" className="project-nav-link">
                     Services
                   </Link>
                 </li>
@@ -240,7 +237,7 @@ const brandingSeo = () => {
                     </h2>
                   </Box>
                   <Box className="service-section-top-text w-richtext">
-                    <p>
+                    <p className="service-paragraph">
                       Branding refers to the process of creating a unique and
                       memorable identity for a product, service, or company. It
                       involves shaping the perception and image of a brand in

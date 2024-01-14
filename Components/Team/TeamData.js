@@ -12,7 +12,7 @@ const TeamData = [
   },
   {
     id: "2",
-    image: "/images/sleek.jpg ",
+    image: "/images/sleek.JPG ",
     name: "Olatunde Sleek",
     job: "Project Manager",
     profile: "/team/promanager",
@@ -34,7 +34,7 @@ const TeamData = [
   },
   {
     id: "4",
-    image: "/images/stanley.jpg ",
+    image: "/images/stanley.JPG ",
     name: "Ogada Stanley",
     job: "Senior Frontend Engr.",
     profile: "/team/frontend",
@@ -45,7 +45,7 @@ const TeamData = [
   },
   {
     id: "5",
-    image: "/images/sammy.jpg ",
+    image: "/images/sammy.JPG ",
     name: "Egaji Samuel",
     job: "Product(UX/UI) Designer",
     profile: "/team/uxui",
@@ -67,7 +67,7 @@ const TeamData = [
   },
   {
     id: "7",
-    image: "/images/tunde.jpg ",
+    image: "/images/tunde.JPG ",
     name: "Mudashir Tunde",
     job: "FullStack Software Engr.",
     profile: "/team/fullstack",
@@ -78,7 +78,7 @@ const TeamData = [
   },
   {
     id: "8",
-    image: "/images/ify.jpg ",
+    image: "/images/ify.JPG ",
     name: "Dike Ifeanyi",
     job: "Admin Officer",
     profile: "/team/admin",
@@ -90,7 +90,7 @@ const TeamData = [
   },
   {
     id: "9",
-    image: "/images/emma.jpg ",
+    image: "/images/emma.JPG ",
     name: "Owoicho Emma ",
     job: "Branding/SEO Expert",
     profile: "/team/branding",
@@ -126,8 +126,8 @@ const TeamData = [
   },
   {
     id: "12",
-    image: "/images/johnson.jpg ",
-    name: "Johnson JnpRof",
+    image: "/images/johnson.JPG ",
+    name: "Johnson JpRoF",
     job: "Web Dev Tutor",
     profile: "/team/tutor",
     facebookLink: "https://www.facebook.com/jpRoF.2023",
