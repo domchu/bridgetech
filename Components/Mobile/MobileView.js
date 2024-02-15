@@ -17,14 +17,15 @@ const MobileView = () => {
   const handleClick = () => {
     setToggle(!toggle);
   };
+
+  const handleCloseMobile = () => {};
   return (
     <>
       <nav className="mobile-container">
         <Box>
-          <FaTimes className="closed-icons" />
+          <FaTimes className="closed-icons" onClick={handleCloseMobile} />
         </Box>
         <Box className="mobile-position">
-          {/* <Box className=""> */}
           {/* THE BRAND LOGO SECTION */}
           <Box className=" logo-block">
             <Link href="/">
@@ -225,7 +226,6 @@ const MobileView = () => {
               </ul>
             </div>
           </Box>
-          {/* </Box> */}
         </Box>
       </nav>
     </>
