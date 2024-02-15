@@ -39,11 +39,11 @@ const Footer = () => {
               </Link>
               <p className="footer-link-p">
                 Bridgekode is a software development company that focuses on
-                Custom website | Business website | Tracking website | Blogging
-                website | Mobile Apps | School website | School result
-                portal/database | E-commerce website | Fashion website |
-                Portfolio website| Landing page | Kids coding training | Web
-                development | Graphics design | Paperwork.
+                Custom website | Business website | Logistics website | Blogging
+                | Mobile Apps | School website | School result portal/database |
+                E-commerce website | Fashion website | Portfolio website |
+                Landing page | Kids coding training | Web development |
+                Portfolio | Online banking.
               </p>
               <Flex className="icons-container">
                 <Link
@@ -53,7 +53,7 @@ const Footer = () => {
                   <FaFacebook className="icons" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/bridgekode_tech/"
+                  href="https://www.instagram.com/bridgekode_tech"
                   target="_blank"
                 >
                   <FaInstagram className="icons" />

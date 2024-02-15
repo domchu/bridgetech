@@ -358,6 +358,19 @@ nav {
     cursor: pointer;
     font-weight: 300;
   }
+  // TIMES ICONS
+  .closed-icons{
+        width: 35px;
+        padding: 10px 0px 10px 20px;
+        font-size: 3.4rem;
+        background-color: transparent;
+        color: var(--primary-clr-2);
+        cursor: pointer;
+        font-weight: 300;
+     }
+    //  TIMES ICONS
+
+
   .mobile-view {
     display: block;
     justify-content: center;
@@ -373,10 +386,10 @@ nav {
     z-index: 100;
     top: 0px;
     left: 0px;
-    height: 100vh;
+    height: 200%;
     box-shadow: 1px 1px 4px rgb(176, 177, 183);
     overflow: hidden;
-    width: 300px;
+    width: 250px;
   }
   .mobile-position {
     padding: 16px 25px 16px 16px;
@@ -3632,6 +3645,7 @@ grid-template-columns: 1fr;
     left: 50%;
     top: 100%;
     transform: translateX(-50%);
+    margin-top: 4px;
 
     .slider-dot {
       background: none;
@@ -3698,4 +3712,3 @@ margin-bottom:5rem;
   transition:.3s ease-in
 }
 
- 
