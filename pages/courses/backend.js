@@ -41,7 +41,7 @@ const backend = () => {
         list10="Deployment and Performance Optimization"
         list11="Version Control, Continuous Integration and Deployment (CI/CD), Best Practices and Design Patterns, Real-time Applications (Optional)"
         list12="Documentation and  Security"
-        courseImage="/images/node-express.JPEG"
+        courseImage="/images/node-express.jpeg"
       />
       <Testimonial />
       <Footer />
