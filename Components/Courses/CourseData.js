@@ -40,7 +40,7 @@ const CourseDetails = [
     id: "5",
     courseImage: "/images/python6.jpg",
     title: "Front-End (Reactjs)",
-    price: "#180,000",
+    price: "#150,000",
     courseUrl: "/courses/software-development",
     contents:
       "This course covers the principles of software development, javacript frameworks/libraries like React.js, Next.js, CSS frameworks,  programming languages, algorithms, data structures, software engineering practices & how to make cool cash in IT industry.",
@@ -95,7 +95,7 @@ const CourseDetails = [
     id: "11",
     courseImage: "/images/node..jpg",
     title: "Back-End (Node/Express)",
-    price: "#200,000",
+    price: "#150,000",
     courseUrl: "/courses/backend",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",
@@ -104,7 +104,7 @@ const CourseDetails = [
     id: "12",
     courseImage: "/images/wp..jpg",
     title: "FullStack (MERN)",
-    price: "#250,000",
+    price: "#300,000",
     courseUrl: "/courses/fullstack",
     contents:
       "This involve creating and arranging digital content for print or electronic distribution. It involves designing and formatting various types of publications, such as brochures, flyers, magazines, newsletters, books, and other printed materials.",

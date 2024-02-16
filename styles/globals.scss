@@ -3074,9 +3074,10 @@ figure.card > figcaption {
 
 // THE BLUR OVER EFFECT ON ITEMS
 .course-container:hover .items-card {
-  filter:blur(15px);
-  opacity:0.6;
-  transform:scale(.9)
+  // filter:blur(15px);
+  opacity:0.7;
+  transform:scale(.9);
+  transition:2s;
 }
 .course-container .items-card:hover {
   filter:blur(0);
