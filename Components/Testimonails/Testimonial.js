@@ -77,7 +77,7 @@ const Testimonial = () => {
                 <h4>{name}</h4>
                 <p className="title">{title} </p>
                 <Reveal>
-                  <p className="text">'' {quote} '' </p>
+                  <p className="text"> {quote} </p>
                 </Reveal>
                 <Box className="image-container">
                   <FaQuoteRight className="icon" />

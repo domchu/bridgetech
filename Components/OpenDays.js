@@ -55,7 +55,7 @@ const OpenDays = () => {
               }}
             >
               <span>Mondays</span>
-              <span>9:00 AM - 5:00 PM</span>
+              <span>8:00 AM - 6:00 PM</span>
             </li>
             <br />
             <li
@@ -67,7 +67,7 @@ const OpenDays = () => {
               }}
             >
               <span>Tuesdays</span>
-              <span>9:00 AM - 5:00 PM</span>
+              <span>8:00 AM - 6:00 PM</span>
             </li>
             <br />
             <li
@@ -79,7 +79,7 @@ const OpenDays = () => {
               }}
             >
               <span>Wednesdays</span>
-              <span>9:00 AM - 5:00 PM</span>
+              <span>8:00 AM - 6:00 PM</span>
             </li>
             <br />
             <li
@@ -91,7 +91,7 @@ const OpenDays = () => {
               }}
             >
               <span>Thursdays</span>
-              <span>9:00 AM - 5:00 PM</span>
+              <span>8:00 AM - 6:00 PM</span>
             </li>
             <br />
             <li
@@ -103,7 +103,7 @@ const OpenDays = () => {
               }}
             >
               <span>Fridays</span>
-              <span>9:00 AM - 5:00 PM</span>
+              <span>8:00 AM - 6:00 PM</span>
             </li>
             <br />
             <li

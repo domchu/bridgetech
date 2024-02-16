@@ -51,7 +51,7 @@ const Map = () => {
                 </Box>
                 <Box className="contact-info-small-title">Phone Numbers</Box>
                 <Box className="contact-info-text">
-                  +234 0703 427 8995 || +234 0811 099 8914
+                  +234 (0)703 427 8995 || +234 (0)811 099 8914
                 </Box>
                 <Box className="contact-info-small-title">Email Address</Box>
                 <Box className="contact-info-text">
